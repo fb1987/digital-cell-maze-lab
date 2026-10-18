@@ -1,0 +1,11 @@
+{
+  "test_command": ".venv/bin/python -m pytest -q",
+  "tests_passed": 41,
+  "source_hashes_match_run": true,
+  "frozen_champion_hash_matches": true,
+  "lineage_genomes": 4224,
+  "population_evaluations": 4800,
+  "holdout_outputs": 2016,
+  "cross_split_overlap": "none",
+  "audit_command": ".venv/bin/python -m maze_evolution.inspect_results results/first_evolution"
+}

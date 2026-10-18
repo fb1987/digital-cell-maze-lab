@@ -1,0 +1,47 @@
+{
+  "cpu": "Apple M4",
+  "elapsed_seconds": 25.35060745800729,
+  "frozen_champions_sha256": "b100df95df62f36fde8613383bf194850e750b391c1c90af8d5a8d54e7dd97f5",
+  "jit_setup_seconds": 0.04907483301940374,
+  "max_rss_bytes": 139231232,
+  "operations": {
+    "ADD": 2,
+    "AND": 9,
+    "ARGMIN_POS": 5,
+    "CONST": 1,
+    "COPY": 0,
+    "EQ": 8,
+    "MATCH_NEIGHBOR": 7,
+    "MIN_POS": 4,
+    "MUX": 12,
+    "NEIGHBOR": 6,
+    "NOT": 11,
+    "OR": 10,
+    "STORE": 13,
+    "SUB": 3
+  },
+  "os": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "llvmlite": "0.50.0",
+    "numba": "0.68.0",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0",
+    "pytest": "9.1.1"
+  },
+  "parent_revision": "cb87fa98b5ecfd380f3a7585572432b93714626a",
+  "python": "3.13.15",
+  "recorded_at": "2026-10-17T23:21:38.158476-04:00",
+  "source_sha256": {
+    "cellular_maze_lab.py": "8585ba536c228d100040e5d616de0d082317c3f3c07f28fbfa418f5f6ebf4972",
+    "maze_evolution/__init__.py": "9bd30272bd151cc72e358ba90b756233fa559a67c7106fabf5d5ad3765d784e1",
+    "maze_evolution/baselines.py": "21858b34e9c9128c484cbeccf0290bde33477089f088a98e73d3a160a486b700",
+    "maze_evolution/datasets.py": "bdd27b13b2406119f1b3b7ca3a79599b23ca21272c02165a2da61849e5d6e131",
+    "maze_evolution/evaluator.py": "dc180e7c53782f3996ef7b17fdba715105d7105fbbe18ca362780bdb116b4fd0",
+    "maze_evolution/experiment.py": "a0fdc85bcc7f28c5cbf114b8ed9ac0085bcde1ccd29af969a22337d5ee465b01",
+    "maze_evolution/genome.py": "ae37bd0a39d769c93cf711a8a12b71f191c962d1b38404229f8cac74e8a0836a",
+    "maze_evolution/runtime.py": "fbfb3d561ebe6dd118bf87e99047770e541b2f5cf2635b5ffb8dfa6786a5aa61",
+    "tests/test_cellular_maze_lab.py": "c034caa73605c14b9854d1a53d70093ea3c6be4dc0d79bac83ce2c71af65aa0b",
+    "tests/test_evolution.py": "21616559adb84ea78b4f25d4601e4eae95128191562b1ee76a76157f411d8dcc"
+  },
+  "split_overlap": "none"
+}

@@ -1,5 +1,10 @@
 # Experiment plan, controls and acceptance criteria
 
+Implementation checkpoint: the first local-rule pilot is complete. See
+[`results/first_evolution.md`](../results/first_evolution.md) for exact settings,
+failures and outcomes. The phases below are the original specification; actual
+controls include frozen champions for both initialization regimes.
+
 ## Experimental question
 
 Can a **population of evolved compact rule programs** operate on spatial input using cheap local reactions, producing optimal or high-quality maze paths on *unseen* grids, with lower wall-clock latency or compute cost than strong conventional solvers?

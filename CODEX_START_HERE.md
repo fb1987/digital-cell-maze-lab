@@ -1,9 +1,11 @@
 # Paste into Codex after opening this extracted folder
 
-The bundle has now been imported and the local setup verified. Read
-`docs/MULTIDISTANCE_PLAN.md` for the current experiment proposal and
-`results/local_setup_2026-10-17.json` for environment details. The steps below
-describe the next implementation mission; no evolution result exists yet.
+The bundle is imported and the first evolution experiment is complete. Read
+`results/first_evolution.md` and its saved raw data before planning further work.
+The local runtime has 41 passing tests; random populations did not learn a general
+solver, while seeded evolution removed a redundant instruction in two runs.
+`docs/MULTIDISTANCE_PLAN.md` proposes the next range comparison. The original
+implementation mission below is retained as handoff history, not unfinished work.
 
 Read `AGENTS.md`, `README.md`, `docs/THREAD_CONTEXT.md`, `docs/ARCHITECTURE.md`, `docs/EXPERIMENT_SPEC.md`, and `docs/RESEARCH.md`. The repository is a handoff from an extended research conversation. Preserve its central distinction: **one organism processes an entire maze using a spatial reaction substrate; a population evolves the genomes of these organisms.**
 

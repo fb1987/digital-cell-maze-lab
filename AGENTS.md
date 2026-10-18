@@ -28,12 +28,19 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 17, 2026): import and preparation are complete;
-the local suite has 22 passing tests. Read `docs/MULTIDISTANCE_PLAN.md` alongside
-the original experiment spec. The latest user priority is testing local and
-other signalling ranges; implement a trustworthy local control first, then the
-fixed and evolvable multi-distance arms in the same bounded runtime. The
-preparation request did not itself launch the full evolutionary mission below.
+Current checkpoint (October 17, 2026): the first local runtime/evaluator/evolution
+pilot is complete, with 41 passing tests. Read `results/first_evolution.md` and
+its phenotype audit before changing the experiment. Three 32-organism,
+25-generation runs found no general random-origin solver and one redundant
+instruction deletion in two seeded runs. Seeded held-out performance was
+200/240 reachable cases, including 96/96 at training sizes; all 40 failures
+exhausted the read cap. No competitive speedup was found. Original mission
+steps below are historical; do not repeat them as unfinished work.
+
+The latest user priority is local and other signalling ranges. Keep this local
+control, then implement fixed and evolvable multi-distance arms under the same
+bounded runtime, as proposed in `docs/MULTIDISTANCE_PLAN.md`. Keep the frozen
+first-run raw results immutable; label diagnostics and later experiments separately.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.
 2. Implement a **minimal bounded evolvable organism** with a small, typed genome and 2–4 internal per-site state channels. Define a compact grammar of deterministic local instructions. Consider a finite-state/Boolean rule table or small linear program; avoid implementing a giant neural network.

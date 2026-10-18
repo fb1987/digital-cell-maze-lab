@@ -25,7 +25,9 @@ output = organism.react(maze_mask=maze, start=start, goal=goal)
 # output.path_mask is a 2D binary raster; metadata includes steps, operations, energy, validity
 ```
 
-This is an **illustrative API**, not already implemented.
+This is the original **illustrative API**. The implemented local prototype uses
+`Organism(genome, limits).react(cells, width, height, start, goal)` in
+`maze_evolution/runtime.py`, returning a binary raster, status and work counters.
 
 Internally, the organism should have a limited number of channels, bounded update steps and deterministic or seeded stochastic transitions. The update kernel may be single-instruction SIMD operations over packed bits or NumPy arrays. Benchmark the *full* time to initialize, react and emit a path mask, and optionally separately report kernel-only time.
 

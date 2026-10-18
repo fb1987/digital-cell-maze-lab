@@ -7,17 +7,36 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 ## Current checkpoint — October 17, 2026
 
 The context bundle is imported and the project is prepared for development on an
-Apple M4 Mac with 16 GiB memory and Python 3.13.15. All **22 tests pass**, including
-new blocked-endpoint regressions. Maze generation is reproducible, the compiled
+Apple M4 Mac with 16 GiB memory and Python 3.13.15. All **41 tests pass**, including
+genome validation, synchronous execution, independent raster validation and
+deterministic evolution replay. Maze generation is reproducible, the compiled
 baseline runs, and the NumPy-only fallback was checked. See the local
 [smoke output](results/local_setup_2026-10-17.txt) and
 [environment/source metadata](results/local_setup_2026-10-17.json).
 
+The first bounded genome runtime, evaluator and evolutionary pilot are complete.
+Read [the full experiment and phenotype audit](results/first_evolution.md).
+Three runs of 32 organisms over 25 generations compared random and wavefront-seeded
+populations with their frozen initial champions. All champions were frozen before
+generating the final test set.
+
+| Initialization | Evolved shortest paths / reachable tests | Frozen control |
+| --- | ---: | ---: |
+| Random | 4/240 | 4/240 |
+| Wavefront seed | 200/240 | 200/240 |
+
+The random successes simply light every open pixel on unbranched snake corridors.
+They do not demonstrate learned maze solving. Seeded organisms solve all 96
+same-size unseen cases and all 48 disconnected cases. Forty larger/structural
+cases exhaust the common read budget. Two runs delete a redundant persistence
+instruction (29→28 genes, 2.22% less counted work), with unchanged accuracy.
+The generic interpreter is about 150× slower than compiled BFS in the sampled
+17×17 timings. These are pilot implementation comparisons, not a competitive win.
+
 The next focus is **local versus fixed and evolvable multi-distance signalling**.
 The [proposed experiment protocol](docs/MULTIDISTANCE_PLAN.md) defines controls,
-wall semantics, compute budgets and holdout evaluation. Evolution has not been
-implemented or run. Existing smoke timings compare different output forms and
-do not establish a competitive speed result.
+wall semantics, compute budgets and holdout evaluation. Multi-distance signalling
+has not been implemented yet.
 
 ## Start here (for Codex)
 
@@ -52,12 +71,33 @@ uv pip install --python .venv/bin/python -r requirements-lock.txt
 and wheel compatibility on other platforms still needs verification. `.venv`
 and generated `output/` images stay out of Git.
 
+## Run the evolutionary experiment
+
+The interpreter uses Numba from `requirements-dev.txt`. It evaluates four local
+uint16 channels with a closed 14-operation instruction set; genomes cannot execute
+Python or call the evaluator. See [the genome](maze_evolution/genome.py),
+[runtime](maze_evolution/runtime.py), [evaluator](maze_evolution/evaluator.py),
+and [selection/experiment harness](maze_evolution/experiment.py).
+
+```bash
+.venv/bin/python -m pytest -q
+.venv/bin/python -m maze_evolution.experiment --out results/repeat_evolution --seed 20261017 --replicates 3 --population 32 --generations 25 --samples 8 --benchmark-repeats 30
+.venv/bin/python -m maze_evolution.inspect_results results/repeat_evolution
+```
+
+Choose a fresh output directory for each run. The saved pilot took about 25 seconds
+after cached JIT warm-up. This includes evolution, final tests and timing; a first
+compilation may take longer. Raw genomes/parents, all training fitnesses, exact
+maze inputs, output masks, timings and environment metadata are in
+[`results/first_evolution/`](results/first_evolution/).
+
 ## Files
 
 | Path | Purpose |
 |---|---|
 | `cellular_maze_lab.py` | Runnable baseline: Python BFS, Numba BFS (optional), bit-packed wavefront, dead-end retraction; random/perfect/snake/comb maze generators |
 | `tests/` | Core solver correctness tests, including cyclic and disconnected mazes |
+| `maze_evolution/` | Typed genome, bounded interpreter, datasets, independent evaluator, evolution, baselines and audit |
 | `AGENTS.md` | Repo-wide guardrails and next mission for coding agents |
 | `CODEX_START_HERE.md` | Ready-to-paste Codex instruction |
 | `docs/THREAD_CONTEXT.md` | Conversation handoff and user intentions |
@@ -72,9 +112,13 @@ and generated `output/` images stay out of Git.
 
 ## What exists vs what remains
 
-**Existing**: standard BFS solver, exact bit-parallel wavefront solver, parallel leaf-pruning toy solver, maze generators, optional Numba timing baseline, visual results.
+**Existing**: standard/compiled BFS, compiled A*, exact bit-parallel wavefront,
+leaf-pruning toy baseline, maze generators, bounded heritable programs, local
+organism runtime, deterministic mutation/selection, frozen controls, independent
+holdout validation, full-raster timing and recorded visual results.
 
-**Not yet built**: heritable genome, genome interpreter/compiler, organism population, selection/mutation, evolutionary training, holdout benchmarking, any 3D implementation, any competitive performance result.
+**Not yet built**: multi-distance or 3D substrates, matched-budget random-search
+control, broad optimized conventional baseline audit, or a competitive result.
 
 ## Experiment boundaries
 

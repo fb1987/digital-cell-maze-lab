@@ -1,9 +1,10 @@
 # Multi-distance signalling: proposed first experiment
 
-Prepared October 17, 2026, America/Toronto. This is an implementation protocol;
-the genome runtime and evolutionary experiments have **not** been built or run.
-The current user request is orientation, repository sync and preparation. The
-older handoff's full implementation mission remains the next development phase.
+Prepared October 17, 2026, America/Toronto. The local genome runtime, independent
+evaluator and first evolutionary pilot are now implemented and recorded in
+[`results/first_evolution.md`](../results/first_evolution.md). The multi-distance
+topologies below remain proposals. Retain the local pilot as a control; avoid
+retuning against its already inspected test set.
 
 ## The hypothesis to test
 
