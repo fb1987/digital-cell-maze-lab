@@ -1,0 +1,1 @@
+Software-only rectangle-transform fixtures, constructed after V12C search started. Eight transforms of an old V12A square fixture cropped by one wall row. No candidate inference or selection uses them. Excluded before final confirmation; their 9×8/8×9 shape cannot overlap the square training tasks.
