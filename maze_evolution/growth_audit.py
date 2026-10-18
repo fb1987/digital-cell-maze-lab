@@ -84,6 +84,9 @@ def audit(out):
         assert diagnostic['champions_sha256']==env['champions_sha256']
     proof=json.loads((out/'equivalence.json').read_text());assert proof['all_checks_passed'] and proof['seed']!=json.loads((out/'config.json').read_text())['seed']
     for path,h in {**proof['source_sha256'],**proof['input_sha256']}.items():assert hashlib.sha256((root/path).read_bytes()).hexdigest()==h
+    if (out/'limits_verification.json').exists():
+        bounds=json.loads((out/'limits_verification.json').read_text());assert bounds['all_checks_passed']
+        assert hashlib.sha256((root/bounds['source_path']).read_bytes()).hexdigest()==bounds['source_sha256']
     test_source=(root/'tests/test_growth.py').read_text()
     preflight=next(n for n in ast.parse(test_source).body if isinstance(n,ast.FunctionDef) and n.name=='test_v11_fresh_capacity_independent_preflight_seed')
     data_call=next(n for n in ast.walk(preflight) if isinstance(n,ast.Call) and isinstance(n.func,ast.Name) and n.func.id=='GrowthData')
@@ -471,13 +474,18 @@ def audit(out):
     def compare_coeval(group,condition,generation):
         if not group:return
         c=mutation_counts[condition];same=changed=children=0
-        for identity,(fingerprint,fitness) in group.items():
+        for identity,(fingerprint,fitness,child_work,child_steps) in group.items():
             parent,birth=ancestry[identity]
             if birth!=generation or parent not in group:continue
             children+=1;c['coeval_new_children']+=1
             different=known[identity]!=known[parent];changed+=different;c['changed_genome']+=different
             unchanged=fingerprint==group[parent][0];same+=unchanged;c['same_recorded_behavior']+=unchanged
             c['changed_genome_same_behavior']+=bool(different and unchanged)
+            grew=lengths[identity]>lengths[parent]
+            c['coeval_grew']+=grew;c['grew_same_recorded_behavior']+=bool(grew and unchanged)
+            c['grew_more_work']+=bool(grew and child_work>group[parent][2]);c['grew_fewer_completed_ticks']+=bool(grew and child_steps<group[parent][3])
+            c['crossed128']+=bool(lengths[parent]<=128<lengths[identity]);c['grew_higher_fitness']+=bool(grew and fitness>group[parent][1])
+
             c['higher_training_fitness']+=fitness>group[parent][1]
             c['lower_training_fitness']+=fitness<group[parent][1]
             c['equal_training_fitness']+=fitness==group[parent][1]
@@ -512,7 +520,7 @@ def audit(out):
                 phenotype=[(c['status'],c['steps'],c['mask'],c['probe_mask'],c['source_removed_mask'],
                     c['partial'],c['signal']['score'],c['goal']['score'],c['goal']['quality'],c['goal']['specificity']) for c in r['cases']]
                 fingerprint=hashlib.sha256(json.dumps(phenotype,separators=(',',':')).encode()).hexdigest()
-                coeval[r['id']]=(fingerprint,tuple(r['fitness'][:-1]))
+                coeval[r['id']]=(fingerprint,tuple(r['fitness'][:-1]),r['work'],sum(c['steps'] for c in r['cases']))
             if r['split']=='validation':
                 task_candidate=dict(id=r['id'],rank=r['normal_fitness'])
                 if r['condition'] not in task_maxima or task_candidate['rank']>task_maxima[r['condition']]['rank']:task_maxima[r['condition']]=task_candidate

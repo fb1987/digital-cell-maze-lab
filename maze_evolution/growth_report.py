@@ -136,6 +136,14 @@ def report(out):
             rr=[r for r in factors if r['condition'].split('/')[1:3]==[t,'cap256'] and r['size_group']==group];tot=Counter()
             for r in rr:tot.update({k:v for k,v in r.items() if k not in ('condition','size_group')})
             txt.append(f"| {t}/{group} | {tot['organism_evaluations']} | {tot['sum_genes']/max(1,tot['organism_evaluations']):.1f} | {tot['valid_normals']}/{tot['normal_calls']} | {tot['strict_pairs']} | {tot['normal_steps']/max(1,tot['normal_calls']):.2f} | {tot['normal_budget_exhaustions']} | {tot['work']:,} |")
+    coeval=read('mutation_behavior.json')['counts']
+    txt += ['', '| cap256 topology | Coeval children that grew | Same recorded behavior | Higher fitness | More work | Fewer completed ticks |',
+        '|---|---:|---:|---:|---:|---:|']
+    for topology in ('local','evolved'):
+        ct=Counter()
+        for condition,values in coeval.items():
+            if condition.split('/')[1:3]==[topology,'cap256']:ct.update(values)
+        txt.append(f"| {topology} | {ct['coeval_grew']} | {ct['grew_same_recorded_behavior']} | {ct['grew_higher_fitness']} | {ct['grew_more_work']} | {ct['grew_fewer_completed_ticks']} |")
     txt += ['', 'Grown versus≤128 within cap256 is a CONDITIONAL lineage/selection comparison,not a randomized subcomparison. '
         'Different programs/cases/nomination overlap can change work and completed ticks. Arm assignment is the controlled capacity comparison.','',
         '## All selected unseen outputs','',
@@ -170,6 +178,12 @@ def report(out):
         'Goal-pulse removal retains static goal flags. Nonlocal ablation zeroes radius>1 reads and charges attempted reads. '
         '8/16/32/64-tick source/junction state changes are communication,not correct choices. Forced probes override ordinary halting. '
         'All intervention rasters,costs,structural opportunity labels and training-source entry checks are saved;no reselection.']
+    courses=read('goal_timecourse.json')
+    txt += ['', '| Current choice archive | Goal switch changes source state at16 /18 | Junction state at16 /18 | Junction state at64 /18 |',
+        '|---|---:|---:|---:|']
+    for arm in ('local/cap128/choice','local/cap256/choice','evolved/cap128/choice','evolved/cap256/choice'):
+        counts=[sum(r['aligned'] and bool(r[field]) for r in courses if r['arm']==arm and r['horizon']==h) for h,field in ((16,'any_source_state'),(16,'junction_changed_channels'),(64,'junction_changed_channels'))]
+        txt.append(f"| {arm} | {counts[0]} | {counts[1]} | {counts[2]} |")
     ancestry=json.loads(gzip.open(out/'choice_ancestry.json.gz','rt').read())
     if ancestry:
         txt += ['', '| Hard-validation archive | First qualifying birth | Last J | Last strict both | Last ordinary shortest /2 |','|---|---:|---:|---:|---:|']
