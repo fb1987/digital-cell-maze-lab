@@ -6,6 +6,63 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [heritable capacity study V11](results/capacity_growth.md) is complete.
+Twelve conditions continue 96 random-origin organisms for 48 generations,
+comparing 128- and 256-gene ceilings at identical state capacity, objective,
+mutation modes and inference work limits. Both start with the same native
+populations, RNG states and protected variants. Old-program inference parity
+was verified before training; no known solver enters these lineages.
+
+**Programs grew; unseen path accuracy did not improve.** Evaluated programs
+reach 228 genes, with a 240-gene program saved in the prepared next population.
+Both capacities solve local **0/216** and evolved-range **1/216** using the
+primary task archives, matching frozen controls. Secondary local choice
+archives solve 4/216 versus 3/216 frozen under either cap. Every success is a
+one-edge route. All selected models solve **0/180 distance ≥8** cases and
+**0/42 paired routes**, with 0/18 strict paired choices. BFS/A*/wavefront solve
+all reachable and disconnected cases. No competitive speedup is established.
+
+A wider fixed-model diagnostic finds inherited goal-dependent hidden state
+at fork exits on 3–4 of 18 pairs in one evolved-range lineage. It does not
+produce correct choices. These are post-hoc observations on reused final
+layouts, not new accuracy results. The signal was already present in a frozen
+control; greater capacity did not establish better use of it.
+
+Main run: **17.01 minutes, 213.2 MiB peak**. Tests: 122 full-suite passes,
+4 focused passes after the final study guard edit, plus one extra exact
+256-gene bound regression; all 123 current tests are covered. Independent
+audits pass for 23,655 child mutation traces, 59,127 fitness records, saved
+rasters, archive selection, lineage, layouts and source/model/storage hashes.
+All population/RNG checkpoints and earlier results are preserved.
+
+Next: keep the larger capacity and compare current pressure with an added,
+bounded hidden-context discrimination term at the exits. Keep complete routes
+and strict paired choices above shaping. Preregister the term and fresh-layout
+test before training; exclude all **9,296 whole layouts** seen through V11.
+The [next-study proposal](results/capacity_growth/next_experiment.md) is not an
+executed experiment. Random-origin discovery remains central.
+
+See the [V11 protocol](docs/GROWTH_STUDY_V11.md) and
+[diagnostic specification](docs/GROWTH_DIAGNOSTICS_V11.md). Use a new output
+directory for reproduction; saved study directories refuse overwrite.
+
+```bash
+.venv/bin/python -m maze_evolution.growth_equivalence --out results/repeat_capacity_equivalence.json
+.venv/bin/python -m maze_evolution.growth_study --out results/repeat_capacity
+.venv/bin/python -m maze_evolution.growth_diagnostics --out results/repeat_capacity
+.venv/bin/python -m maze_evolution.growth_audit --out results/repeat_capacity --repack
+.venv/bin/python -m maze_evolution.growth_context --out results/repeat_capacity
+.venv/bin/python -m maze_evolution.growth_context --out results/repeat_capacity --verify
+.venv/bin/python -m maze_evolution.growth_report --out results/repeat_capacity
+```
+
+The study requires the canonical pre-training parity packet
+`results/capacity_equivalence.json`; the repeated parity command above provides
+a separate comparison. The saved study's report additionally includes its
+editorial discussion/next-study files and the initial audit record.
+
+## Goal-distance curriculum V10 and confirmation V10A — historical
+
 The [matched goal-distance curriculum V10](results/distance_curriculum.md) and
 [frozen-primitive confirmation V10A](results/distance_confirmation.md) are complete.
 Twelve conditions continue96 organisms for48 generations, comparing Fixed hard
@@ -42,7 +99,7 @@ verify59004 fitness records,268848 junction rasters,227 valid training claims,
 source/model/layout/lineage/storage checks pass; all populations/RNG and useful
 neutral variants remain saved. Earlier source/raw results are unchanged.
 
-Next: test128-versus256-gene capacity with a common copy-and-diverge block
+The next test proposed then, now completed as V11: test128-versus256-gene capacity with a common copy-and-diverge block
 mutation operator, matched native populations/protection and hard objective.
 First verify old-genome inference equivalence; keep caps/work explicit. All
 8702 saved layouts must be excluded. No known solver enters these lineages.

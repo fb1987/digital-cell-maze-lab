@@ -1,0 +1,48 @@
+{
+  "all_checks_passed": true,
+  "case_ids": [
+    "validation_goal/r0/p0/s0/perfect/9x9/a",
+    "validation_goal/r0/p4/s1/random/17x17/b",
+    "validation_goal/r0/p2/s0/disconnected/9x9/b"
+  ],
+  "charged_work": 7854260840,
+  "elapsed_seconds": 14.942340500012506,
+  "fitness_calls": 50,
+  "input_sha256": {
+    "results/distance_curriculum/checkpoints/distance_evolved_curriculum_0.json": "8b8cf56114d74f42b4d036a73ea0e7c80cd0f641a43cb0271630584252fd3e5f",
+    "results/distance_curriculum/checkpoints/distance_evolved_curriculum_1.json": "90e16df0c27ab7869e9f215c738ca38944dafa781167f9741aed378267157af4",
+    "results/distance_curriculum/checkpoints/distance_evolved_curriculum_2.json": "56d185da8684f54a508e10a82db95eaf211ad4e48cf2fb61289cf63cdc387bbe",
+    "results/distance_curriculum/checkpoints/distance_evolved_fixed_0.json": "62eb716efa4e876eae7bc31bd7be5e06fa18e1b439ea38a2c0737f18f96961d8",
+    "results/distance_curriculum/checkpoints/distance_evolved_fixed_1.json": "ebd016134ceca5b5205f87bdd019cf5b77c2d1d902d2401a063ef8e1b11c8f1a",
+    "results/distance_curriculum/checkpoints/distance_evolved_fixed_2.json": "4f07fa4c8cccc2c65b929dda5943d76b0e60daf325bb33890ee6a6cf4a926a85",
+    "results/distance_curriculum/checkpoints/distance_local_curriculum_0.json": "e4080723541e8ab5e92a6f09c9ce63fd63acd0ff6d778a5591c3a94eb9ef03ce",
+    "results/distance_curriculum/checkpoints/distance_local_curriculum_1.json": "116cea13be1ffe6140ad23042d9219cd339219342371e0608488b20496be56f8",
+    "results/distance_curriculum/checkpoints/distance_local_curriculum_2.json": "42229940ece8b8168b637b2b7a6a1d914763f4850fce2c1d1043cb98d909cebf",
+    "results/distance_curriculum/checkpoints/distance_local_fixed_0.json": "e9793a891158bcf5c91eab6b81ab4cf056d0aa76787785d2793723b8aa48a105",
+    "results/distance_curriculum/checkpoints/distance_local_fixed_1.json": "d16ff00efe586f01266311301d334c11eb4276b241cfad1b1c764120ba31cd8e",
+    "results/distance_curriculum/checkpoints/distance_local_fixed_2.json": "f87c9e3872c61414f140ebc31f79f52c11be4045e34417488b2e960e38fad60e",
+    "results/distance_curriculum/strict_validation_archive.json": "bd22b7666aed6cbc6dbee29375b99c625e32f8f6d89b8796e41f074b7f244a7a",
+    "results/distance_curriculum/training_choice_diagnostic.json": "1e3469946f3523f7e5e3b3bcc27ddd219c3fd3e746cb46568b87548dc2652ee6"
+  },
+  "normal_calls": 7712,
+  "probe_calls": 10016,
+  "scope": "Independent-input equivalence only,no training/selection. Same V6 inference/probe kernels;\u2264128-gene instruction arrays unchanged.",
+  "seed": 1113,
+  "source_sha256": {
+    "maze_evolution/balance_fitness.py": "e92eee5940cb3b5151eb95105084a0901ee25863ca6dab76f030b6969b4ddfde",
+    "maze_evolution/beacon_fitness.py": "3ed4aa5155f6bf8c879caf85320e4c9712923b63b96ffd302dcf58d1a842dee7",
+    "maze_evolution/beacon_probe.py": "6d9afa68869f9d29bd4921945b8a7631607f3147b4921230e77f1182940b45db",
+    "maze_evolution/beacon_runtime.py": "bf95142ffe0b869095e21518f85ac31934cff3329cd831405d4f191ab8f4d047",
+    "maze_evolution/choice_fitness.py": "2217c4e516091a999adc89faf0c6eb2d945d5952f51ec86939b4527cf83e20d3",
+    "maze_evolution/goal_fitness.py": "63605434727eb4da4558ae8fa7a0d315878b9c242303f0111c493c076f6c5e93",
+    "maze_evolution/growth.py": "26abc8a63d23126b0bc972817864cd940881fb6d4dba43acadf052b4407d0ca4",
+    "maze_evolution/growth_data.py": "63197938fabde65f38005e7c79503b5fc4601d128fbc29c384835bb77d1d0b31",
+    "maze_evolution/growth_equivalence.py": "0d7230c53afe071291d872b9a5f223ddc0142eb64b3c937081ddd02231067de9",
+    "maze_evolution/growth_fitness.py": "7766335c29a0ecb28aca6e9cf5db37559223de2bfb32d6316e5dfae23981c487",
+    "maze_evolution/growth_runtime.py": "24cc41b89a1cadf647c18bd3ec166dec3665deb1c6073cf84dfe6cea19969e79",
+    "maze_evolution/junction_fitness.py": "a6b894707f16b4dde441449e37f9644c7ad2431cd4de48594f501fb2d38fb75b",
+    "maze_evolution/regulatory.py": "d458e53866324e3ae236069b7b0ef3645d840eb0f82ab526d09f5d3df4158323",
+    "maze_evolution/signal_fitness.py": "9575d95f6b8a5e6bb292681b5e4a48f3a4b4d5d84d7c06cafb615bdea0c2e729"
+  },
+  "unique_native_program_topology_pairs": 1052
+}

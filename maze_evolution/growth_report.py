@@ -1,5 +1,5 @@
 """V11 scientific report and static figures from frozen, independently audited data."""
-import argparse,csv,gzip,json,statistics
+import argparse,csv,gzip,json,re,statistics
 from collections import Counter,defaultdict
 from pathlib import Path
 import numpy as np
@@ -9,6 +9,20 @@ from .growth import Genome
 from .growth_audit import unpack
 from .range_audit import output_dataflow
 from .signal_audit import lines
+
+
+def prose_spacing(line):
+    """Keep archive/table identifiers exact while spacing narrative text."""
+    if line.startswith(('|','![')):
+        return line
+    parts=line.split('`')
+    for i in range(0,len(parts),2):
+        part=re.sub(r'([;:])(?=\S)',r'\1 ',parts[i])
+        part=re.sub(r'(?<!\d),(?=\S)|,(?=[^\d\s])', ', ', part)
+        part=re.sub(r'(?<=[a-z])(?=\d)', ' ', part)
+        part=re.sub(r'(?<=\d)(?=[A-Za-z])', ' ', part)
+        parts[i]=part.replace('is(', 'is (').replace('SAME','same')
+    return '`'.join(parts).replace(':`', ': `').replace('is`', 'is `').replace('with`', 'with `').replace('`,', '`, ')
 
 
 def visuals(out,manifest,primary,paired,history):
@@ -22,10 +36,10 @@ def visuals(out,manifest,primary,paired,history):
             xx,yy=x+p%m['w']*tile,y+p//m['w']*tile
             draw.rectangle((xx,yy,xx+tile-1,yy+tile-1),fill=color)
     canvas=Image.new('RGB',(1200,540),'#111827');draw=ImageDraw.Draw(canvas)
-    draw.text((15,12),'Unseen normal outputs | green: output; blue: source; pink: goal. First size17 case/family,replicate0.',fill='#e6edf7')
+    draw.text((15,12),'Unseen normal outputs | green: output; blue: source; pink: goal. First distance >= 8, size 17 case/family, replicate 0.',fill='#e6edf7')
     arms=('compiled_bfs','local/cap128/task','local/cap256/task','evolved/cap128/task','evolved/cap256/task')
     for i,family in enumerate(('perfect','random')):
-        m=next(m for m in manifest if m['split']=='test_goal' and m['w']==17 and m['family']==family and '/r0/' in m['case_id'])
+        m=next(m for m in manifest if m['split']=='test_goal' and m['w']==17 and m['family']==family and '/r0/' in m['case_id'] and m['oracle_length']>=8)
         for j,arm in enumerate(arms):
             r=next(r for r in primary if r['arm']==arm and r['case_id']==m['case_id']);x,y=15+j*240,85+i*245
             draw.text((x,y-40),arm,fill='#e6edf7');draw.text((x,y-22),family+' | '+('shortest' if r['optimal'] else r['failure']),fill='#aabbd0')
@@ -45,10 +59,10 @@ def visuals(out,manifest,primary,paired,history):
             x,y=15+j*240,85+i*245;draw.text((x,y-40),arm,fill='#e6edf7');draw.text((x,y-22),f"Goal{'A' if i==0 else 'B'} | {subtitle}",fill='#aabbd0');grid(draw,x,y,m,mask)
     canvas.save(out/'visuals/switched_goals.png')
     canvas=Image.new('RGB',(1200,470),'#111827');draw=ImageDraw.Draw(canvas)
-    draw.text((20,15),'Heritable growth | mean across3 replicates | evaluated populations,not the prepared next population',fill='#e6edf7')
+    draw.text((20,15),'Heritable growth | mean across 3 replicates | evaluated populations, before the prepared next population',fill='#e6edf7')
     colors={'local/cap128':'#72b6ff','local/cap256':'#5ae1bd','evolved/cap128':'#b996ff','evolved/cap256':'#ffb765'}
     last=max(int(r['generation']) for r in history)
-    for panel,(field,title,lo,hi) in enumerate((('median_genes','Population median genes',64,256),('above128','Population fraction above128 genes',0,1))):
+    for panel,(field,title,lo,hi) in enumerate((('median_genes','Population median genes',64,256),('above128','Population fraction above 128 genes',0,1))):
         ox=65+panel*600;oy=360;w=485;h=255;draw.text((ox,65),title,fill='#e6edf7')
         for tick in range(5):
             val=lo+(hi-lo)*tick/4;y=oy-h*tick/4;draw.line((ox,y,ox+w,y),fill='#2c394c');draw.text((ox-40,y-5),f'{val:.2f}' if panel else f'{val:.0f}',fill='#aabbd0')
@@ -89,7 +103,7 @@ def report(out):
         for key in ('junction','junction_both','balanced'):r[key]=float(np.mean([a[key] for a in rr])) if rr else None
     write_json(out/'paired_summary.json',ps);pm={r['arm']:r for r in ps};summary={r['arm']:r for r in read('summary.json') if r['group']=='all'}
     txt=['# Heritable program-capacity growth: V11','',
-        'Twelve matched conditions continue96 random-origin organisms for48 generations,comparing128-versus256-gene ceilings. '
+        'Twelve matched conditions continue96 random-origin organisms for48 generations,comparing gene ceilings of128 and256. '
         'Eight channels,opcodes,ranges,fitness,mutation modes,immigrant lengths and work limits stay common. Correct complete shortest outputs remain primary.','',
         '| Primary task archive | Valid / reachable | Shortest | Distance≥8 shortest | Paired shortest /42 | No-path /48 |','|---|---:|---:|---:|---:|---:|']
     taskarms=[f'{t}/{p}/task' for t in ('local','evolved') for p in ('cap128','cap256')]
@@ -170,7 +184,7 @@ def report(out):
     for arm in taskarms:
         d=difficulty[arm];txt.append(f"| {arm} | {d['turn_optimal']}/{d['turn_cases']} | {d['detour_optimal']}/{d['detour_cases']} | {d['false_no_path']} |")
     for arm in taskarms:
-        r=next(r for r in primary if r['arm']==arm and r['reachable'] and not r['optimal'] and lookup[r['case_id']]['w']==17)
+        r=next(r for r in primary if r['arm']==arm and r['reachable'] and not r['optimal'] and lookup[r['case_id']]['w']==17 and r['edges']>=8)
         txt += ['',f"Representative {arm} failure:`{r['case_id']}`,oracle{r['edges']} edges;status `{r['status']}`,{r['steps']} ticks,`{r['failure']}`."]
     txt += ['', 'Successful shapes are saved; a short inherited path or endpoint-aware halting does not establish general goal-guided routing. '
         'All valid outputs are still counted. Per-size/family/distance records and every failure remain in raw outputs/summary.','',
@@ -184,6 +198,21 @@ def report(out):
     for arm in ('local/cap128/choice','local/cap256/choice','evolved/cap128/choice','evolved/cap256/choice'):
         counts=[sum(r['aligned'] and bool(r[field]) for r in courses if r['arm']==arm and r['horizon']==h) for h,field in ((16,'any_source_state'),(16,'junction_changed_channels'),(64,'junction_changed_channels'))]
         txt.append(f"| {arm} | {counts[0]} | {counts[1]} | {counts[2]} |")
+    context=read('goal_context_summary.json');context_run=read('goal_context.json');context_check=read('goal_context_verification.json')
+    assert context_check['all_checks_passed']
+    txt += ['', 'A separate post-hoc assay checks the fork AND its adjacent exits in hidden channels 0, 1, 3, 4, 5, 6 at tick 16. '
+        'Output channel 2 and stop channel 7 are excluded from the hidden measure. Both switched goals are tested with the source present and removed. '
+        'The same frozen models and already inspected final pairs are reused; this is a mechanism diagnostic with no training or reselection.','',
+        '| Choice model | Goal changes hidden region /18 | Hidden vertex /18 | Hidden exits /18 | Output-exit concentrations /18 | Source × goal interaction /18 |',
+        '|---|---:|---:|---:|---:|---:|']
+    for arm in ('local/cap128/choice','local/cap256/choice','evolved/cap128/choice','evolved/cap256/choice','evolved/cap256/frozen_choice'):
+        rr=[r for r in context if r['alias'].split('/',1)[1]==arm]
+        counts=[sum(r[k] for r in rr) for k in ('hidden_region','hidden_vertex','hidden_exits','output_exits','source_goal_interaction')]
+        txt.append('| '+arm+' | '+' | '.join(map(str,counts))+' |')
+    txt += ['', 'The evolved-range signal occurs only in replicate 2 and is already present in its frozen control. '
+        'Goal-dependent state at an exit can exist without a changed fork vertex. Concentration changes do not necessarily cross the binary output threshold or choose a correct exit. '
+        'The source × goal metric compares signed goal contrasts with/without source; it can be positive even when the source-present goal contrast is zero. '
+        'It therefore establishes an interaction, not useful context or correct routing. All these models still have zero strict final paired choices.']
     ancestry=json.loads(gzip.open(out/'choice_ancestry.json.gz','rt').read())
     if ancestry:
         txt += ['', '| Hard-validation archive | First qualifying birth | Last J | Last strict both | Last ordinary shortest /2 |','|---|---:|---:|---:|---:|']
@@ -191,7 +220,7 @@ def report(out):
             first=next(n for n in r['nodes'] if n['strict_both']);last=r['nodes'][-1]
             txt.append(f"| {r['condition']} | {first['individual']['birth']} | {last['junction']:.3f} | {last['strict_both']} | {sum(c['optimal'] for c in last['cases'])} |")
         txt += ['',f'![Validation choice]({out.name}/visuals/validation_choice.png)']
-    else:txt += ['', 'No primary hard-validation choice archive qualifies on both switched goals. All earlier native variants,including i1472,remain protected.']
+    else:txt += ['', 'No primary hard-validation choice archive qualifies on both switched goals. All earlier native variants,including `i1472`,remain protected.']
     phases=list(lines(out/'phase_transfer.jsonl.gz'));txt += ['', '| Topology/capacity | Training leader generation | Hard-validation strict /12 | Final strict /18 | Final shortest /42 |','|---|---:|---:|---:|---:|']
     for t in ('local','evolved'):
         for cap in ('cap128','cap256'):
@@ -209,6 +238,10 @@ def report(out):
     for r in read('mutation_behavior.json')['counts'].values():tot.update(r)
     write_json(out/'mutation_summary.json',tot)
     diag=read('diagnostics.json');storage=read('storage.json');proof=read('equivalence.json')
+    prior_audit=''
+    if (out/'audit_initial_verification.json').exists():
+        prior_audit=(f"An earlier audit took {read('audit_initial_verification.json')['elapsed_seconds']:.2f} s; the repeat corrects diagnostic temporal labels "
+            'from inherited near/far names to early/middle/late. All V11 training pairs use the common hard distribution. Primary data and fitness are unchanged.')
     txt += ['', '## Real cost and capacity limits','',
         f"Search+validation/probes **{env['training_seconds']/60:.2f}min**;main including final correctness/timing **{env['elapsed_seconds']/60:.2f}min**. "
         f"Main peak **{env['max_rss_bytes']/2**20:.1f}MiB**,{env['cpu']},Python{env['python']},packages `{env['packages']}`. "
@@ -218,7 +251,12 @@ def report(out):
         f"Pre-training parity{proof['elapsed_seconds']:.2f}s,{proof['unique_native_program_topology_pairs']} native program/topology pairs,"
         f"{proof['normal_calls']} normals/{proof['probe_calls']} probes,{proof['charged_work']:,} work. "
         f"Post-freeze diagnostics{diag['elapsed_seconds']:.2f}s,{diag['charged_work']:,} units;compression{storage['elapsed_seconds']:.2f}s;"
-        f"audit{v['elapsed_seconds']:.2f}s,audit peak{v['audit_peak_rss_bytes']/2**20:.1f}MiB. Separate audits/replays are outside main elapsed/work.",'',
+        f"audit{v['elapsed_seconds']:.2f}s,audit peak{v['audit_peak_rss_bytes']/2**20:.1f}MiB. Separate audits/replays are outside main elapsed/work. "
+        f"{prior_audit}",'',
+        f"Post-hoc hidden-context assay{context_run['elapsed_seconds']:.3f}s,{context_run['probes']} probes,{context_run['charged_work']:,} work;"
+        f"independent replay{context_check['elapsed_seconds']:.3f}s and the same work. "
+        f"All{context_check['replayed_probes']} states/masks/counters replay exactly;{context_check['native_mask_and_vertex_comparisons']} original-mask/vertex comparisons match. "
+        'Its source and input hashes are preserved separately.','',
         'Latency includes decoding,initialization,updates and raster emission. Fitness/oracle/probes are excluded and charged separately. '
         'Same production mutability/dtype/signature warmup,30 randomized repetitions/case,12 cases/arm. Median of case medians and full sample range. '
         'Wrong outputs cannot claim speedup;baseline VM counters are uninstrumented placeholders.','',
@@ -244,10 +282,15 @@ def report(out):
         f"{v['junction_raster_checks']:,} J rasters,{v['reassessed_training_valid_claims']} valid training claims,{v['replayed_selected_outputs']} selected normal replays,"
         f"{v['phase_reassessed_outputs']} phase-assay outputs,12 each task/choice/J/B archive maxima. "
         'Source/model/lineage/protection/layout/storage and arm ceilings are verified. Unit checks cover exact old mutation RNG,trace replay,bounds,full-state/fitness parity,common primitive cohorts,exact resume,gate and independent full construction through192 generations.','',
+        'Tests:122 passed in422.06s in the full suite before the extra bound regression. After the final study guard edit,4 focused tests passed; '
+        'the additional exact256-gene regression passed separately (1 test in 0.14s). All123 current tests are covered;this is not a claim of one full123-test run. '
+        'Commands:`.venv/bin/python -m pytest -q`,`.venv/bin/python -m pytest tests/test_growth_limits.py -q`, '
+        'and the growth-study/equivalence/diagnostic/audit/report commands in the protocol. '
+        'The post-hoc command is`.venv/bin/python -m maze_evolution.growth_context --out results/capacity_growth`,followed by the same command with`--verify`.','',
         'Commands/protocol:`docs/GROWTH_STUDY_V11.md`;raw results:`results/capacity_growth/`. Earlier source/raw data remain immutable. '
         'Random-origin emergence stays central. A negative bounded experiment cannot establish impossibility of greater capacity,regulation or longer evolution.']
     if (out/'next_experiment.md').exists():txt += ['',(out/'next_experiment.md').read_text().strip()]
-    (out.parent/(out.name+'.md')).write_text('\n'.join(txt)+'\n');visuals(out,manifest,primary,paired,history);print(out.parent/(out.name+'.md'))
+    (out.parent/(out.name+'.md')).write_text('\n'.join(prose_spacing(line) for block in txt for line in block.split('\n'))+'\n');visuals(out,manifest,primary,paired,history);print(out.parent/(out.name+'.md'))
 
 
 if __name__=='__main__':

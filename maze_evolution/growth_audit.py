@@ -572,7 +572,7 @@ def audit(out):
                         ('positive_choice',j['choice']>0),('source_dependent_exit',j['causal']>0),('strict_choice',j['strict'])):
                         jf[key]+=bool(positive)
             if r['split']=='train':
-                phase='near1' if r['generation']<16 else 'near2' if r['generation']<32 else 'far'
+                phase='early' if r['generation']<16 else 'middle' if r['generation']<32 else 'late'
                 condition=r['condition'].split('/');pc=curriculum_training[(condition[1],condition[2],phase)]
                 pc['valid']+=sum(c['valid'] for c in r['cases']);pc['normal_cases']+=len(r['cases'])
                 for a,b in zip(r['cases'][::2],r['cases'][1::2]):

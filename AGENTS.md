@@ -34,10 +34,12 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1–V10,V8A,V10A are complete.
-117 current tests are covered (116 full-suite passes +4 focused after final edits).
-Read `results/distance_curriculum.md`,`results/distance_confirmation.md`,
-`docs/DISTANCE_STUDY_V10.md` and `docs/DISTANCE_CONFIRMATION_V10A.md` first.
+Current checkpoint (October 18, 2026): V1–V11,V8A,V10A are complete.
+123 current tests are covered (122 full-suite passes, 4 focused passes after
+the final study guard edit, plus 1 separately added exact 256-gene bound test).
+Read `results/capacity_growth.md`, `docs/GROWTH_STUDY_V11.md`,
+`docs/GROWTH_DIAGNOSTICS_V11.md` and the next-study proposal
+`results/capacity_growth/next_experiment.md` first.
 Earlier protocols/results below are historical; do not repeat completed work.
 
 V3 pairs current/causal objectives from six saved V2 random-origin populations,
@@ -465,7 +467,7 @@ fingerprint; hidden trajectories/work can vary. Full next population/RNG:
 results/distance_curriculum/checkpoints/distance_{local|evolved}_{fixed|curriculum}_{0|1|2}.json.
 All prior source/raw results stay immutable.8702 unique layouts throughV10A.
 
-NEXT JUSTIFIED TEST: greater heritable program capacity with copy-and-diverge
+HISTORICAL PROPOSAL, COMPLETED AS V11: greater heritable program capacity with copy-and-diverge
 structural growth,128vs256-gene ceilings,common block-duplication operator and
 Fixed hard-pair objective. Keep eight channels/opcodes/range semantics unchanged;
 prove≤128-gene old-program inference equivalence before training. Identical native
@@ -476,6 +478,65 @@ fewer completed ticks,actual growth/expression/dependency/behavior rather than
 claiming effective complexity from ceiling/length. New separate modules/layouts,
 exclude ALL8702 throughV10A. No hour extension from precursor scores alone.
 Do not keep only optimizing easy-goal curricula at unchanged capacity.
+
+V11 completed the capacity comparison using separate growth* modules. Twelve
+conditions: local/evolved × cap128/cap256 × 3, 96 organisms × 48 generations.
+Both fork native V10 Fixed populations/RNG and preserve the common native
+Fixed/Curriculum archives, strict supplements and all four training-primitive
+ancestry nodes in evolved replicate 2. No solver injection or cross-replicate
+transfer. Eight channels, hard pair distribution, V9 Choice objective, opcodes,
+mutation modes, immigrant lengths and instruction/read/tick limits stay fixed.
+V2 already supported block duplication; only the length ceiling changes its
+eligibility. Old inference/probe kernels remain unchanged.
+
+V3 serialized genomes support 256 genes; use growth.Genome/Individual when
+loading these checkpoints. Legacy parsers reject programs above 128. Preflight
+parity verifies 1,052 native program/topology pairs, 7,712 normals, 10,016 probes
+and 50 full fitness calls. Exact 256-gene bounds/memory/read accounting pass.
+
+Growth is real: evaluated programs reach 228 genes, the prepared g48 next
+population contains 240, and final evaluated expanded populations have 39–66
+above128 members. All selected task genomes remain ≤128; one selected local
+choice genome has 138. Do not infer every grown genome was tested on holdouts.
+Both capacities have primary task accuracy local 0/216 and evolved 1/216,
+matching frozen controls. Secondary local choice 4/216 versus frozen 3/216
+under both caps. ALL selected successes are adjacent one-edge routes; all
+selected models solve 0/180 long cases and 0/42 paired routes, 0/18 strict-both.
+BFS/A*/wavefront solve all reachable and no-path cases. Gate false; no extension.
+No competitive speedup or capacity-related accuracy advantage is established.
+
+Post-hoc frozen-model region assay (growth_context) finds goal-dependent hidden
+states at fork exits in evolved replicate 2: cap128 choice 4/18, cap256 3/18,
+frozen 3/18; mostly absent at the vertex. This reuses final pairs and is not a
+new accuracy test. Source × goal interaction can be positive with no goal
+contrast under source-present inference; do not treat it as correct routing.
+312 full-state/mask/counter probe replays and 288 native comparisons pass.
+
+V11 seed 2026101811, preflight 1114, equivalence 1113. Excludes all 8,702 prior
+layouts; total unique layouts through V11 is 9,296. Main 1020.317s (17.01min),
+search 849.112s (14.15min), peak 213.2MiB. Diagnostics 30.233s, compression
+10.26s, initial audit 23.362s and final audit 23.10s (temporal-label correction
+only); hidden-context assay .671s and replay .690s, all separately charged.
+91 frozen sources, 59,127 fitness records, 23,655 child mutation traces,
+270,324 J rasters, 41 valid training claims, 48 selected normal replays,
+1,440 phase outputs and archive maxima pass independent verification.
+Training: 267,156 normal responses, 534,312 probes, 444,031,737,693 work units.
+Genotype changes preserve recorded behavior in 8,396/17,176 coeval opportunities;
+this fingerprint does not identify full hidden trajectories or effective complexity.
+All earlier source/raw results stay immutable. Full native next populations/RNG:
+results/capacity_growth/checkpoints/growth_{local|evolved}_{cap128|cap256}_{0|1|2}.json.
+
+NEXT JUSTIFIED TEST: retain cap256 capacity and all native random-origin
+populations/primitives; compare unchanged pressure against an added bounded
+hidden goal-context discrimination term at fork exits. Preregister the exact
+paired directional contrast/normalization and prove it on independent fixtures.
+Keep correct complete routes and strict paired choice above shaping; raw
+hidden-state differences or source × goal interactions alone are insufficient.
+Do not insert a known solver or reset the grown populations. Match cohorts,
+RNG, caps, sampling and operators; use fresh layouts excluding ALL 9,296.
+48-generation screen, extension only for replicated hard-validation transfer.
+The proposal is not an executed/preregistered V12. Random-origin discovery,
+capacity/regulation and evolutionary time remain open hypotheses.
 
 Original mission steps below are historical; do not repeat them as unfinished.
 
