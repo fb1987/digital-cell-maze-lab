@@ -34,8 +34,9 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1, V2 and the V3 source-pressure
-continuation are complete; **76 tests pass**. Read `results/source_pressure.md`,
+Current checkpoint (October 18, 2026): V1–V4 are complete; **84 tests pass**.
+Read `results/goal_conditioning.md` and `docs/GOAL_STUDY_V4.md` first, then
+`results/source_pressure.md`,
 `docs/SIGNAL_PRESSURE_V3.md`, then the earlier `results/range_and_regulation.md`,
 `docs/RANGE_STUDY_V2.md` and `results/first_evolution.md` for context.
 
@@ -59,15 +60,37 @@ V1/V2 source/results remain untouched. V3 uses separate `signal_*` modules and
 `storage.json`. Full next-population/RNG checkpoints and lineage records permit
 deterministic continuation. Do not retune against any inspected final tests.
 
-Random-origin emergence remains central. Preserve discovered signalling genomes
-and population diversity. A sensible next controlled test holds capacity fixed,
-preserves these random-origin lineages and tests goal-conditioned path thinning:
-goal-switch dependence and source-connected, unbranched partial output, while
-exact completed shortest routes remain first. Compare with unchanged transmission
-pressure and reserve another fresh final set. Do not insert a known solver. A
-flood can maximize the current precursor reward; source dependence alone does
-not establish a useful distance representation or route computation. Treat more
-capacity, time and regulation as testable hypotheses rather than guarantees.
+V4 preserves six V3 causal populations/RNG states, adds the saved signalling
+archive as a fixed elite in both arms, and compares transmission/goal-output
+pressure at unchanged capacity for 40 further generations (96 organisms,
+two topologies x three replicates). The validation extension gate did not pass.
+Search took 9.67 minutes; training plus recovered final outputs/timing took15.32
+minutes, excluding the sampling failure/repair-development gap. The corner-DFS
+size9 perfect final generator ran out of unused layouts before any final output
+evaluation. Only final size9 perfect cases changed to Wilson spanning trees;
+frozen archives, training and fitness are unchanged. This deviation is explicit
+in `final_generation_repair.json`; `goal_recovery --run` reproduces it.
+
+Goal-sensitive branched output emerged weakly but did not generalize better:
+multirange goal-archive score0.0022 vs0.0071 transmission control on independent
+goal pairs; local0.0033 vs0.0035. No final pair meets both-direction criteria.
+Task archives solve local1/216 (same frozen control), multirange0/216 under either
+objective, all0/174 at distance>=8, and0/42 separate paired reachable targets.
+The one local success is adjacent. BFS/A*/bit-wave solve all reachable/no-path
+cases. Audited7128 primary +1296 paired +192 ablated normal rasters,1152 final
+goal metrics,47998 fitness decompositions; source/layout/provenance checks pass.
+V1–V3 code/raw results are untouched. V4 checkpoints, full next populations/RNG
+states, source snapshots and losslessly repacked logs remain available.
+
+Random-origin emergence remains central. Preserve discovered signalling genomes,
+goal-sensitive variants and population diversity. A sensible next controlled
+test holds capacity fixed and uses a factorized curriculum: separate intermediate
+credit for source-dependent connected growth and goal-dependent modulation,
+before requiring their conjunction. Compare with V4's multiplicative reward;
+exact completed shortest routes remain primary and final layouts must be fresh.
+Do not insert a known solver or retune against any inspected V1–V4 final tests.
+Connected output is common in V4 training, but goal-specific progress is rare.
+Treat capacity, time and regulation as hypotheses rather than guarantees.
 Original mission steps below are historical; do not repeat them as unfinished.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.

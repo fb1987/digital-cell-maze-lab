@@ -6,6 +6,58 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [goal-conditioned continuation V4](results/goal_conditioning.md) is complete;
+**84 tests pass**. Twelve paired conditions continued six V3 random-origin
+populations for 40 generations with 96 organisms each, comparing the existing
+transmission objective against an added goal-dependent output reward. Genome
+capacity and inference limits stayed fixed. Each population protects its learned
+V3 signalling elite; no known solver was inserted.
+
+Some goal-sensitive, branched outputs evolved, but their validation gains did
+not establish an unseen advantage. On separate goal-pair tests, the multirange
+goal archive scores 0.0022 under goal pressure versus 0.0071 in its transmission
+control; local scores are 0.0033 versus 0.0035. No archive meets the
+both-directions criterion on a final pair. These scores are intermediate output
+diagnostics, not completed routes.
+
+| Final task archive | Shortest / reachable | Distance ≥8 shortest |
+| --- | ---: | ---: |
+| Local, either objective | 1/216 | 0/174 |
+| Evolvable ranges, either objective | 0/216 | 0/174 |
+| Compiled BFS / A* / bit-wave | 216/216 | 174/174 |
+
+The one local success is an adjacent endpoint and matches its frozen control.
+All candidates fail the separate 42 reachable paired-goal tests; conventional
+baselines solve all 42 and all six no-path cases. No competitive speedup emerged.
+
+Search took 9.67 minutes; recorded training plus recovered final evaluation and
+timing took 15.32 minutes. The original final generator exhausted its unused
+9×9 corner-DFS layouts before evaluating any final output. Only final 9×9
+perfect mazes changed to Wilson spanning trees, after genomes were frozen.
+The report records that sampling deviation, timing scope and memory limits.
+All 7,128 primary, 1,296 paired and 192 ablated normal outputs were rechecked.
+Logs preserve every evaluated genotype, fitness, snapshot, parent and RNG state.
+
+The next controlled test should provide separate intermediate credit for
+source-dependent connected growth and goal-dependent modulation, then require
+their conjunction. Training shows connected output is common but goal-specific
+progress is rare. Keep random-origin discovery central, capacity fixed and
+reserve fresh layouts; these finite negative runs do not establish impossibility.
+
+```bash
+.venv/bin/python -m maze_evolution.goal_recovery --run --out results/repeat_goal
+.venv/bin/python -m maze_evolution.goal_diagnostics --out results/repeat_goal
+.venv/bin/python -m maze_evolution.goal_audit --out results/repeat_goal
+.venv/bin/python -m maze_evolution.goal_report --out results/repeat_goal
+```
+
+See the [preregistered design](docs/GOAL_STUDY_V4.md) and
+[`results/goal_conditioning/`](results/goal_conditioning/). V1–V3 code/results
+remain unchanged. The recovery runner handles the documented sampling failure
+without restarting training or changing frozen genomes.
+
+## Source-pressure study V3 — October 18, 2026
+
 The [source-dependent pressure continuation](results/source_pressure.md) is complete;
 **76 tests pass**. It forks six saved random-origin populations, pairs current and
 causal signalling objectives, and runs 96 organisms for 160 additional generations
