@@ -34,16 +34,40 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-ACTIVE USER GOAL: complete the calibration-first plan and a justified longer
-random-origin study. Read `docs/FOUNDATION_GOAL_PROGRESS.md` and
-`results/foundation_calibration.md` before the historical checkpoints below.
-V12A is complete/audited; reliable repair failed (0/3,1/3,0/3 across three
-defects). V12B tests mutation locality on orientation-balanced batches.
-Known/repaired controls are STRICTLY SEPARATE from random-origin lineages.
-All 15,876 whole layouts through V12A must be excluded from future tests,
-plus V12B and any later calibration/profiling layouts. Goal remains active.
+Current checkpoint (October 18, 2026): the user-authorized calibration-first
+plan is complete. Read `results/foundation_study.md` and
+`docs/FOUNDATION_GOAL_PROGRESS.md` first. V12A fails its repair gate; V12B
+passes after a validation-selected single-edit policy and balanced orientations.
+Known/repaired solver controls remain separate from random-origin lineages.
 
-Current checkpoint (October 18, 2026): V1–V11,V8A,V10A are complete.
+V12C completes 442 matched generations in 75.15 minutes across 24 conditions
+of 96 organisms: native/fresh × local/evolved × evolution/resampling × 3 reps,
+plus initial frozen controls. Fresh local primary selections pass the elementary
+screen in 2/3 replicates: 86/864 non-adjacent shortest outputs and 9/432 complete
+pairs, versus zero for resampling/frozen. These pairs span five independent base
+layouts; no fresh-local base works in all eight poses. Earlier selections frozen
+before confirmation achieve 0/8/36/86 non-adjacent outputs at generations
+48/128/256/442. This secondary time course is correlated evidence that more
+stable search helped. Fresh-local primary lineages descend from random
+immigrants, never known solvers.
+
+General solving remains unestablished: best ordinary cohort 7/216, every cohort
+0/181 distance≥8 and 0/48 no-path; BFS/A*/bit-wavefront 216/216 and 48/48.
+No net multirange advantage or speedup: eligible tiny-task outputs have a median
+48.95× runtime ratio to BFS. Search: 13.33M responses, 436.0 MiB peak RSS.
+Audit passes 397,800 mutations, 1,026,048 fitness records, 5,972,328 search rasters
+and all final outputs. 137 current tests are covered by 136 full-suite passes
+plus the later time-course test. Preserve all next populations/RNG and raw data.
+
+All **52,424 whole layouts** through V12C must be excluded in a new study,
+including unqueried ordinary symmetries and software fixtures. Do not retune
+against inspected final cases. The proposed next step is one unchanged
+75-minute continuation with current frozen controls and a stronger paired-skill,
+retention and orientation criterion. It is not implemented or launched. Use a
+new protocol/module/output directory; do not alter immutable V12 source/budgets
+or repeat completed work as though it were unfinished.
+
+Historical checkpoint before V12: V1–V11,V8A,V10A are complete.
 123 current tests are covered (122 full-suite passes, 4 focused passes after
 the final study guard edit, plus 1 separately added exact 256-gene bound test).
 Read `results/capacity_growth.md`, `docs/GROWTH_STUDY_V11.md`,

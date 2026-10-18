@@ -1,0 +1,34 @@
+{
+  "command": ".venv/bin/python -m pytest -q tests",
+  "passed": 136,
+  "failed": 0,
+  "reported_seconds": 437.79,
+  "scope": "Full project regression suite; completed while the search ran",
+  "earlier_collection_issue": "Unscoped pytest included optional third-party plotting package tests under output/plot-libs and failed collection; scoped project run above passed.",
+  "test_source_sha256": {
+    "tests/test_balance.py": "f63508d52423e9f985ae820cfc249f1a6e4e05c9b28d584587037aec2b35dbd6",
+    "tests/test_beacon.py": "a0e1a4aa0ac4b6bcbf570b661052dcec71bcc0069dafebe3f779604dc2f43c77",
+    "tests/test_cellular_maze_lab.py": "c034caa73605c14b9854d1a53d70093ea3c6be4dc0d79bac83ce2c71af65aa0b",
+    "tests/test_choice.py": "cc51a5c19ddd786a5b72c829eb601f962fe838ebfafb60b1c9e66e71446e84c7",
+    "tests/test_distance.py": "624a99f15c1d7c2ea460c517eb70ce8b428a65fffabcfb2e4da88df9c02eb867",
+    "tests/test_evolution.py": "21616559adb84ea78b4f25d4601e4eae95128191562b1ee76a76157f411d8dcc",
+    "tests/test_factor_pressure.py": "9f1bcfed50650d533468042c6ce0a1cea3b8d44b3782093be1c870c50d928aad",
+    "tests/test_foundation.py": "a53c2b16f5d80350bd60509351262c5b3e8be3fb648c3451970fabf093e34e58",
+    "tests/test_foundation_repair.py": "be7e845c351f8f073d32fc18185addccfaf8917223c21d8ddf9e986b4b6b4b86",
+    "tests/test_foundation_study.py": "dc39f3b18d057947e62d1d4d175bdef100b700d5ff123ae48d313cbc5f50ddc4",
+    "tests/test_foundation_study_confirmation.py": "d89d5730c08d69e296f77e092fa8a41842ee8e84c0e830f39a34df0d53a33a61",
+    "tests/test_goal_pressure.py": "140dc6ff5272b4cb13f6e7601f698a2ed08e618e61891cb1c4b3b7b186bb27de",
+    "tests/test_goal_recovery.py": "50d07b182953abf895eb2e9bbce82560f55464e2986dd4bbb4639c3a3a12cf8c",
+    "tests/test_growth.py": "40512d859f30f1cceb62fdd649692288edbda3969d4098b3c1f84feeaa28612b",
+    "tests/test_growth_limits.py": "4a532ccbd9f295356bf416c2193072e85cf9f76b22877efeb2ae5c311b642eaa",
+    "tests/test_junction.py": "c2843276e916b3613dcc6a6ad9ec7370a166ea48e6090f10fea267e25045ec1a",
+    "tests/test_regulatory.py": "c9fbef3ebccf98751dc025e67d84cb6a0fb35e73d27c3640b224032c04b66c61",
+    "tests/test_signal_analysis.py": "2830d17176b05098b726497cda4a5e8b40da46b191a487c3241d0ced22ddda8c",
+    "tests/test_signal_pressure.py": "6e15544a5bf103376da9e5ac47c30e8362838732acb9efe79e9a5ffc367f687f"
+  },
+  "independent_grader_saved_calibration_parity": {
+    "records": 432,
+    "rasters": 41472,
+    "passed": true
+  }
+}

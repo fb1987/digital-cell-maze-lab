@@ -124,7 +124,7 @@ def run(out):
             ax.scatter(x, y, c=color, marker=marker, s=100 if marker == '*' else 40, edgecolors='white', linewidths=.6)
         ax.set_xticks([])
         ax.set_yticks([])
-        ax.set_title(title, fontsize=10)
+        ax.set_title(title.replace('_', ' '), fontsize=10)
 
     # Model selection is based on validation, before inspecting illustrative tests.
     key = max(sorted(k for k, v in frozen.items() if v['config']['method'] == 'evolution'),
@@ -134,7 +134,7 @@ def run(out):
     pairs = [chosen[i:i + 2] for i in range(0, len(chosen), 2)]
     pair = next((p for p in pairs if all(r['optimal'] for r in p)), pairs[0])
     original = {r['case']: r for r in indexed[key, 'frozen_skill1', 'level1']['cases']}
-    fig, axes = plt.subplots(2, 3, figsize=(10, 7))
+    fig, axes = plt.subplots(2, 3, figsize=(10, 8))
     for i, row in enumerate(pair):
         m, old = lookup[row['case']], original[row['case']]
         grid(axes[i, 0], m, shortest(m), True, f"Goal {'AB'[i]} · BFS shortest · D={m['oracle_length'] - 1}")
@@ -143,14 +143,36 @@ def run(out):
     cfg = frozen[key]['config']
     fig.suptitle(f"Fresh goal switch · {cfg['origin']}/{cfg['topology']}/replicate {cfg['replicate']} · secondary short-route archive", fontsize=12)
     fig.text(.5, .025, 'Model chosen on validation. Illustrative fresh pair. Blue circle: source; gold star: goal; green: valid output; orange: failed output.', ha='center', fontsize=8)
-    fig.tight_layout(rect=(0, .05, 1, .94))
+    fig.subplots_adjust(left=.035, right=.985, bottom=.08, top=.88, wspace=.10, hspace=.28)
     fig.savefig(visual / 'paired_example.png', dpi=170)
+    plt.close(fig)
+
+    # Additional post-hoc illustration of the cohort passing the elementary screen.
+    # The model is still chosen by its frozen validation rank, never by test accuracy.
+    fresh_key = max(sorted(k for k, v in frozen.items() if v['config']['method'] == 'evolution'
+                          and v['config']['origin'] == 'fresh' and v['config']['topology'] == 'local'),
+                    key=lambda k: tuple(frozen[k]['champion_rank']))
+    chosen = [r for r in indexed[fresh_key, 'champion', 'micro']['cases'] if '/level1/' in r['case']]
+    pairs = [chosen[i:i + 2] for i in range(0, len(chosen), 2)]
+    fresh_pair = next((p for p in pairs if all(r['optimal'] for r in p)), pairs[0])
+    original = {r['case']: r for r in indexed[fresh_key, 'frozen', 'micro']['cases']}
+    fig, axes = plt.subplots(2, 3, figsize=(10, 8))
+    for i, row in enumerate(fresh_pair):
+        m, old = lookup[row['case']], original[row['case']]
+        grid(axes[i, 0], m, shortest(m), True, f"Goal {'AB'[i]} · BFS shortest · D={m['oracle_length'] - 1}")
+        grid(axes[i, 1], m, mask(row, m), row['optimal'], 'Evolved · ' + ('shortest' if row['optimal'] else row['failure']))
+        grid(axes[i, 2], m, mask(old, m), old['optimal'], 'Initial frozen · ' + ('shortest' if old['optimal'] else old['failure']))
+    cfg = frozen[fresh_key]['config']
+    fig.suptitle(f"Fresh random origins · local · replicate {cfg['replicate']} · primary selection", fontsize=13)
+    fig.text(.5, .025, 'Post-hoc illustration: model ranked on validation; first complete fresh short pair. Blue: source; gold: goal; green: valid output.', ha='center', fontsize=8)
+    fig.subplots_adjust(left=.035, right=.985, bottom=.08, top=.88, wspace=.10, hspace=.28)
+    fig.savefig(visual / 'fresh_local_example.png', dpi=170)
     plt.close(fig)
 
     key = max(sorted(k for k, v in frozen.items() if v['config']['method'] == 'evolution'), key=lambda k: tuple(frozen[k]['champion_rank']))
     chosen = indexed[key, 'champion', 'general']['cases']
     original = {r['case']: r for r in indexed[key, 'frozen', 'general']['cases']}
-    fig, axes = plt.subplots(2, 3, figsize=(10, 7))
+    fig, axes = plt.subplots(2, 3, figsize=(10, 8))
     examples = []
     for i, family in enumerate(('perfect', 'random')):
         row = next(r for r in chosen if lookup[r['case']]['family'] == family and lookup[r['case']]['w'] == 17 and lookup[r['case']]['oracle_length'] >= 9)
@@ -162,11 +184,13 @@ def run(out):
     cfg = frozen[key]['config']
     fig.suptitle(f"Fresh ordinary mazes · {cfg['origin']}/{cfg['topology']}/replicate {cfg['replicate']} · primary selection", fontsize=12)
     fig.text(.5, .025, 'Model chosen on validation. First 17×17 case with D≥8 per family. Larger-grid performance must be judged separately from elementary success.', ha='center', fontsize=8)
-    fig.tight_layout(rect=(0, .05, 1, .94))
+    fig.subplots_adjust(left=.035, right=.985, bottom=.08, top=.88, wspace=.10, hspace=.28)
     fig.savefig(visual / 'ordinary_examples.png', dpi=170)
     plt.close(fig)
     (visual / 'metadata.json').write_text(json.dumps(dict(matplotlib=matplotlib.__version__,
-        paired_model=paired_key, paired_cases=[r['case'] for r in pair], ordinary_model=key, ordinary_cases=examples), indent=2) + '\n')
+        paired_model=paired_key, paired_cases=[r['case'] for r in pair],
+        fresh_local_model=fresh_key, fresh_local_cases=[r['case'] for r in fresh_pair],
+        ordinary_model=key, ordinary_cases=examples), indent=2) + '\n')
     print(visual)
 
 

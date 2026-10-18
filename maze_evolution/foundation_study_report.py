@@ -189,6 +189,12 @@ def run(out):
             'so they are correlated measurements, not independent replications.\n\n| Cohort | ' +
             ' | '.join(f'g{g}' for g in boundaries) + ' |\n|---|' + '---:|' * len(boundaries) + '\n' +
             '\n'.join(time_rows) + '\n')
+    discussion_path = out / 'discussion.md'
+    discussion = discussion_path.read_text() if discussion_path.exists() else ''
+    if discussion:
+        analysis['discussion_sha256'] = hashlib.sha256(discussion_path.read_bytes()).hexdigest()
+    if (out / 'interventions/summary.json').exists():
+        analysis['posthoc_interventions'] = json.loads((out / 'interventions/summary.json').read_text())
     write_json(out / 'analysis.json', analysis)
     tables = []
     for origin in ('native', 'fresh'):
@@ -209,7 +215,9 @@ def run(out):
         reference_rows.append(f"| {role} | {sum(r['valid'] for r in rs)}/216 | {sum(r['optimal'] for r in rs)}/216 | {sum(r['no_path'] for r in rs)}/48 |")
     text = f'''# V12C: stable random-origin search and fresh confirmation
 
-The preregistered search completed **{summary['rounds']} matched generations in {summary['elapsed_seconds']/60:.2f} minutes** across 24 conditions. Termination: `{summary['reason']}`. All selected genomes were frozen before fresh layouts were generated. Elementary screening results: `{screen}`. These are bounded screening outcomes, not evidence of general or competitive maze solving.
+The preregistered search completed **{summary['rounds']} matched generations in {summary['elapsed_seconds']/60:.2f} minutes** across 24 conditions. Termination: `{summary['reason']}`. All selected genomes were frozen before fresh layouts were generated. Cohorts passing the elementary screen: **{', '.join(k for k, v in screen.items() if v['passes']) or 'none'}**. The per-replicate evidence is below. These are bounded screening outcomes, not evidence of general or competitive maze solving.
+
+{discussion}
 
 Native V11 populations and separately labelled fresh random populations were compared under local and evolved-range topologies. Evolution/resampling shared founders, initial RNG, tasks and response counts. Resampling retained 12 elites and drew 84 independent programs; evolution retained 12, introduced 9 random immigrants and made 75 single-edit children. Frozen controls are initial validation selections. Known/repaired solver controls never entered these lineages.
 
@@ -258,6 +266,8 @@ Calibration preceding this run is retained separately: V12A fails its repair gat
 ![Fresh paired-route accuracy](foundation_study/visuals/fresh_pairs.png)
 
 ![Illustrative fresh goal switch](foundation_study/visuals/paired_example.png)
+
+![Illustrative fresh-origin local goal switch](foundation_study/visuals/fresh_local_example.png)
 
 ![Ordinary fresh maze examples](foundation_study/visuals/ordinary_examples.png)
 

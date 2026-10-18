@@ -6,18 +6,59 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
-The user-authorized [calibration-first research goal](docs/FOUNDATION_GOAL_PROGRESS.md)
-is active. [V12A calibration](results/foundation_calibration.md) passes the intact
-solver/runtime controls, but only one of nine damaged-program searches confirms
-reliable repair. [V12B](results/foundation_repair.md) then passes the fixed repair
-gate with orientation-balanced batches and a validation-selected single-edit
-policy. Known solver controls remain separate from every random-origin lineage.
+The [calibration-first research plan](docs/FOUNDATION_GOAL_PROGRESS.md) is complete.
+[V12A](results/foundation_calibration.md) verifies the intact runtime but fails its
+repair gate. [V12B](results/foundation_repair.md) passes after comparing single-edit
+and wider mutations on orientation-balanced batches. Known solver controls remain
+separate from every random-origin population.
 
-The [preregistered V12C study](docs/FOUNDATION_STUDY_V12C.md) is now running for a
-fixed 75-minute local search budget. It compares native/fresh random populations,
-local/evolved-range signaling, evolution/resampling and frozen controls across
-three replicates. All final selections will be frozen before fresh confirmation.
-Live validation progress is not yet an unseen-maze result.
+The [V12C report](results/foundation_study.md) records **442 matched generations
+in 75.15 minutes**, across 24 conditions of 96 organisms, followed by fresh
+confirmation and independent audit. **Fresh local evolution passes the elementary
+screen in two of three replicates:** 86/864 shortest non-adjacent outputs and
+9/432 complete goal pairs, versus zero for matched resampling and initial frozen
+controls. These are correlated poses of fewer independent layouts; none of this
+cohort's successful base groups works in all poses.
+
+Longer search helped in this recipe: fresh local selections at generations
+48/128/256/442 achieve 0/8/36/86 non-adjacent shortest outputs on the same final
+corpus. This supports continued random-origin research, **not a general solver**.
+The best ordinary cohort solves 7/216 cases; all cohorts solve 0/181 ordinary
+distance≥8 cases and 0/48 disconnected cases. BFS/A*/bit-wavefront solve 216/216
+and 48/48. Eligible elementary outputs are a median 48.95× slower than BFS.
+No net multirange advantage is established.
+
+Search uses 13.33 million responses and 436.0 MiB peak RSS on one local Apple M4
+process. The audit passes for 397,800 mutations, 1,026,048 fitness records,
+5,972,328 independently graded search rasters and every final output. There are
+137 current tests covered: 136 full-suite passes plus one later time-course test.
+All populations/RNG, ancestry, raw masks and earlier studies are preserved.
+Future studies must exclude all **52,424** recorded whole layouts.
+
+The proposed next experiment is one unchanged 75-minute continuation, with
+today's frozen selections as extra controls and a stronger paired-transfer,
+retention and orientation criterion. It has **not** been launched. Read the
+[protocol](docs/FOUNDATION_STUDY_V12C.md) and
+[confirmation notes](docs/FOUNDATION_STUDY_CONFIRMATION.md).
+
+Reproduction commands use a new output directory. They reproduce the original
+seed, not a new independent experiment:
+
+```bash
+caffeinate -i .venv/bin/python -u -m maze_evolution.foundation_study --out results/repeat_foundation
+.venv/bin/python -m maze_evolution.foundation_study_timecourse --out results/repeat_foundation --freeze
+# Commit the selection freeze before generating final cases.
+.venv/bin/python -m maze_evolution.foundation_study_confirm --out results/repeat_foundation
+.venv/bin/python -m maze_evolution.foundation_study_audit --out results/repeat_foundation
+.venv/bin/python -m maze_evolution.foundation_study_timecourse --out results/repeat_foundation
+.venv/bin/python -m maze_evolution.foundation_study_interventions --out results/repeat_foundation
+.venv/bin/python -m maze_evolution.foundation_study_report --out results/repeat_foundation
+PYTHONPATH=output/plot-libs .venv/bin/python tools/plot_foundation_study.py --out results/repeat_foundation
+```
+
+Plot dependencies are optional and isolated via `requirements-figures.txt`.
+Completed packets refuse overwrite. A continuation needs a new version, protocol
+and output directory; do not change completed budgets or select on final cases.
 
 The [research audit after V11](results/research_audit_2026_10_18.md) is complete.
 It recommends continuing random-origin research, while calibrating the search
@@ -28,13 +69,11 @@ audit finds a tick-16 shaping bias against the known two-stage wavefront
 development and quantifies the limited number of new mutants per generation.
 No evolution or candidate inference was run for this audit.
 
-The recommended next step is a separate positive-control/repair calibration,
-followed by a stable, bounded random-origin study if calibration succeeds.
+That audit motivated the now-completed V12 calibration and longer study.
 Known solver controls must never enter random-origin lineages. The earlier
-hidden-context reward proposal below is deferred, not executed. The report
-includes evidence, limitations, compute totals, and decision criteria.
+hidden-context reward proposal below remains deferred, not executed.
 
-## Latest completed experiment — V11
+## Heritable capacity V11 — historical
 
 The [heritable capacity study V11](results/capacity_growth.md) is complete.
 Twelve conditions continue 96 random-origin organisms for 48 generations,

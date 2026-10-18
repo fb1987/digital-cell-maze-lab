@@ -1,31 +1,83 @@
-# Active research goal: calibration and a longer random-origin study
+# Completed calibration-first research plan
 
-The user explicitly authorized completion of the October 18 audit's next steps as a goal. Goal remains active. Work locally; no cloud, LLM calls or solver injection into random-origin populations.
+The October 18 user-authorized research goal is complete: calibration, ordinary
+developmental scoring, a justified stable 75-minute search, fresh confirmation,
+independent audit, analysis and figures. Read `results/foundation_study.md`.
+The next continuation is a recommendation and has not been launched.
 
-1. **V12A complete and verified.** Read `results/foundation_calibration.md` and `docs/FOUNDATION_CALIBRATION_V12A.md`. Current runtime, pulse convention and intact wavefront control pass all 136 reachable and 8 disconnected matrix inputs under both topology/pulse settings. Timing observations confirm that ordinary goal-connected partial traces can receive useful credit. But repair reliability fails: successful fresh confirmations are 0/3 west-return defects, 1/3 output-register defects, 0/3 two-return defects. The single repaired control solves all 96 fresh responses/48 pairs (six independent base layouts × eight symmetries). This is known-solver repair, not random-origin emergence.
-2. **V12B complete and verified; gate passes.** Read `results/foundation_repair.md`. The single-edit policy was selected from validation before fresh confirmation: six exact repairs versus four wide-policy repairs. Fresh successful replicates: single 3/3 west return, 2/3 output register, 1/3 two-return; wide 2/3, 0/3, 2/3. All intact/BFS controls pass. Main291.908s, RSS245.6MiB; audit39.904s checks47,240 fitness records,39,984 mutation traces,3,744 normal replays,288 BFS rasters,105 sources/17 inputs. These remain known-solver descendants only. Single edits are the preregistered chosen policy, not established as universally superior.
-3. **V12C running.** Preregistered in `74b2588`, `docs/FOUNDATION_STUDY_V12C.md`. The fixed75-minute search launched at22:15:37UTC on October18,2026 (expected search end shortly after23:30:37UTC). Active exec session53028, command `caffeinate -i .venv/bin/python -u -m maze_evolution.foundation_study --out results/foundation_study`. Keep this process running and monitor it; do not launch another search.24 conditions ×96 organisms: native/fresh ×local/evolved ×evolution/resample ×3rep.12 ordinary inputs/generation,144 validation inputs,4 nominees every8gens. All conditions share tasks per replicate.96 founders each, then12 elite/niche slots; evolution9 immigrants+75 single-edit children; resampling84 random draws. First20 generations at adjacent level0, allreplicates advanced to level1 atg20. Later progression requires paired skills/retention, without an early-excitement extension gate.
+- V12A verifies intact controls but fails its repair gate: fresh successful
+  replicates 0/3 west return, 1/3 output register, 0/3 two return gates.
+  Main 310.802s; audit 48.759s. Packet: `results/foundation_calibration/`.
+- V12B selects single edits on validation (six exact repairs versus four for
+  1–6 edits) and passes fresh confirmation: 3/3, 2/3, 1/3 successful replicates,
+  versus 2/3, 0/3, 2/3 for wider edits. Main 291.908s; audit 39.904s.
+  Packet: `results/foundation_repair/`. These known-solver descendants remain
+  strictly separate from every random-origin population.
+- V12C completes 442 matched generations in 4509.093s across 24 conditions of
+  96 organisms. Each receives 555,264 ordinary responses; total 13,326,336.
+  Peak search RSS 436.0 MiB. All replicates finish at curriculum level 1.
+  Preregistration `74b2588`; final and earlier selections committed/pushed in
+  `16bfc3f` before any final layouts were generated.
 
-   The main `foundation_study.py`, `_data.py`, `_search.py`, `_profile.py`, protocol and existing runtime modules are now frozen by the running packet's source hashes. Never modify them. Main full checkpoints are atomic `results/foundation_study/checkpoint.latest.json.gz`; committed log segments are listed inside. Stop only at the precommitted bounds. Atg80 a separate streaming ancestry preflight verified163,584 programs/72,000 mutations in28.46s with only511 cached parents; packet `results/foundation_study_audit_preflight`.
+Fresh local evolution passes the elementary screen in two of three replicates:
+86/864 non-adjacent shortest outputs and 9/432 complete shortest pairs, spanning
+five independent base groups. Resampling and initial frozen selections score
+zero. No fresh-local group works in all eight poses. Other cohorts pass in 1/3
+native local, 1/3 native multirange and 0/3 fresh multirange replicates.
 
-   Separately prepared confirmation/audit/intervention/report modules and figure script are committed in `fb3cfdf`, with notes in `docs/FOUNDATION_STUDY_CONFIRMATION.md`. They have not yet run on final layouts. **A secondary time-course comparison was added around36 minutes, before final data:** earlier primary validation selections atg48/128/256 and final, plus initial frozen, will share the fresh elementary corpus. First run `foundation_study_timecourse --out results/foundation_study --freeze` and commit its selection hash **before confirmation generates any final cases**. Then execute confirmation, main audit, `foundation_study_timecourse --out results/foundation_study`, optional success-conditioned interventions, report and figures. Do not call the final corpus unseen more than once or retune against it. The added time course is explicitly secondary and leaves main training/primary criterion unchanged. New modules may be repaired before their own completed packets freeze them; historical sources/results stay immutable.
+The secondary time course gives fresh local 0/8/36/86 non-adjacent outputs and
+0/0/2/9 pairs at generations 48/128/256/442. All time points reuse the same final
+corpus; they are correlated measurements. Fresh-local primary lineages descend
+from random immigrants introduced during the run, never known solvers.
 
-   **Full project suite136 passed in437.79s**, command `.venv/bin/python -m pytest -q tests` (session27104 completed). A preceding broad pytest command accidentally collected optional third-party plot package tests and stopped at collection, with no project test result. Eleven focused foundation tests, then two independent-grader/rectangle tests and five combined focused tests also pass. The grader matches41,472 V12B rasters. Software-check evidence and AppleM4/16GiB host details are saved in the main packet. Optional Matplotlib3.11.2 was installed only into ignored `output/plot-libs`; the experiment environment is unchanged. Plot using `PYTHONPATH=output/plot-libs .venv/bin/python tools/plot_foundation_study.py --out results/foundation_study`.
+Ordinary primary shortest counts are 6/216 native local, 6/216 native multirange,
+7/216 fresh local and 3/216 fresh multirange, versus 2/216 for each resampling
+cohort. Every cohort solves 0/181 ordinary distance≥8 and 0/48 disconnected
+cases. BFS/A*/bit-wavefront solve 216/216 and 48/48. The intact wavefront control
+solves 209/216 and 48/48; seven long tree paths hit the 1024-tick cap. Eligible
+elementary candidate outputs have a median 48.95× runtime ratio to BFS. General
+solving, a net multirange advantage and competitive efficiency remain open.
 
-   Finish independent verification, inspect figures, add a thoughtful interpretation and next decision, update this file/AGENTS/README, commit/push raw packets and runnable code, then mark the explicit goal complete only when all of that is done.
+Main audit passes: 110 source hashes, 26 input hashes, 893,376 registered
+programs, 397,800 mutations, 1,026,048 fitness records, 5,972,328 independently
+graded search rasters, every final raster and 25,456 distinct final replays.
+Audit 283.586s and 726.8 MiB peak RSS; fresh confirmation 48.728s. Time-course
+freeze 26.781s; new time-course evaluation/replay 10.530s (10,368 new outputs,
+each replayed). Post-hoc interventions 1.993s: 680 successful combinations;
+pulse removal retains 277 shortest outputs, nonlocal zeroing 672, both 273.
+All 2,720 intervention rasters are independently graded. Pulse removal leaves
+static goal flags and endpoint-aware halting intact.
 
-The V11 native founders are the six files in `results/capacity_growth/checkpoints/growth_{local|evolved}_cap256_{0|1|2}.json`, each with 96 prepared organisms plus RNG/protection records. Preserve all of these and useful variants on disk. Native and fresh founders must be identical between evolution/resampling comparisons; preserve or explicitly record their RNG forks. The known/repaired programs in `foundation_calibration` or `foundation_repair` must never be included in those founders.
+Full `pytest -q tests`: 136 passes. The subsequently added time-course unit
+passes separately, covering 137 current tests. A prior unscoped pytest command
+accidentally collected third-party plotting-package tests and failed collection;
+it was replaced by the correctly scoped successful project run. Optional
+Matplotlib 3.11.2 is isolated in ignored `output/plot-libs`; the experiment
+runtime environment did not change. Saved figures were visually inspected.
 
-V12A main elapsed 310.802s (5.18min), peak RSS267.7MiB. Independent audit48.759s:67,208 fitness records,57,848 mutation traces,1,728 selected normal replays,27,648 full-state probe replays,101 sources/13 old input hashes. All pass. Existing full suite128 passed in421.65s; six later focused checks cover129 then-current tests. Two new V12B-focused tests also pass. V12A raw/source files are immutable; additions use separate modules.
+All prior source/raw packets remain immutable. V12C next populations/RNG are in
+`results/foundation_study/checkpoints/` and `checkpoint.latest.json.gz`; raw
+records are in `segments/`. `discussion.md` supplies the report's editorial
+interpretation. Primary selections remain distinct from secondary skill archives.
+The extra fresh-local example is a labelled post-hoc illustration, not an assay.
+Future studies must exclude all **52,424 whole layouts**, including unqueried
+general symmetries and software fixtures.
 
-V12C excludes **17,748** whole layouts:17,700 through V12B plus48 schedule-unit fixtures in `results/foundation_study_profile/unit_fixtures`. Confirmation additionally excludes every V12C train/validation orbit plus8 software-only rectangle-transform fixtures in `results/foundation_confirmation_fixtures` (created after launch, no candidate inference, shapes cannot overlap square training). All transformations of a final layout must be unseen as well. Holdout counts must distinguish independent base groups from correlated transforms and duplicated selected genotypes.
+The next proposed experiment is one separately preregistered, unchanged
+75-minute continuation of all 24 prepared states, using today's frozen selections
+as additional controls. Keep capacity, mutation, runtime, curriculum and
+selection fixed. Require replicated paired-route gains plus orientation or
+4–8-edge transfer and adjacent-skill retention before further escalation.
+Do not inject known solvers, select on inspected final cases, silently increase
+old budgets, or launch this recommendation as part of the completed goal.
 
-Commands:
+Inspection/reproduction of derived reports:
 
 ```bash
-.venv/bin/python -m maze_evolution.foundation_calibration_audit --out results/foundation_calibration
-.venv/bin/python -m maze_evolution.foundation_repair --out results/foundation_repair
-.venv/bin/python -m maze_evolution.foundation_repair_audit --out results/foundation_repair
+.venv/bin/python -m maze_evolution.foundation_study_audit --out results/foundation_study
+.venv/bin/python -m maze_evolution.foundation_study_report --out results/foundation_study
+PYTHONPATH=output/plot-libs .venv/bin/python tools/plot_foundation_study.py --out results/foundation_study
 ```
 
-Preserve negative results. Keep the goal active until the authorized calibration, justified longer study (or the diagnosed prerequisite work), independent evaluation, reporting, and repository synchronization are complete. No runtime/fitness code from a finished packet may be edited in place; introduce separately versioned modules if a change is needed.
+Completed raw packets refuse rerun. Use a new output directory for reproduction;
+a new independent study also needs a new protocol, seed and updated exclusions.

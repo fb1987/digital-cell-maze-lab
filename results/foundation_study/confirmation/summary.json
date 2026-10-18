@@ -1,0 +1,3060 @@
+{
+  "search_summary_sha256": "ec0f7b690fffbbc16f511fc7022f05b1994a0f010bd6b3263a01fd47d53ffdb3",
+  "frozen_sha256": "b6d470972f7d8c5840cd379cfbad67053906b95c74c8b0976b3bc0339fc81831",
+  "source_sha256": "6647ebe6c0e8df471137153b6a45b136efda4456af7629837526837a6c216872",
+  "software_fixture_sha256": "b65a7f70aca2bdbb517b6c133ae68d41bb3aed24540763544ca86be0fa1826e2",
+  "excluded_layouts": 49736,
+  "resulting_layouts": 52424,
+  "elementary_groups": 72,
+  "general_primary_inputs": 264,
+  "general_orbit_inputs": 2112,
+  "elementary_limits": {
+    "max_steps": 256,
+    "reads_per_site": 4096,
+    "instructions_per_site": 32768,
+    "max_cells": 65536
+  },
+  "general_limits": {
+    "max_steps": 1024,
+    "reads_per_site": 8192,
+    "instructions_per_site": 131072,
+    "max_cells": 65536
+  },
+  "distinct_inferences": 25456,
+  "inference_work": 23529590460,
+  "aliased_responses": 42504,
+  "elapsed_seconds": 48.72812270896975,
+  "max_rss_bytes": 440778752,
+  "results": {
+    "foundation_study/local/native/evolution/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 122,
+      "optimal": 122,
+      "no_path": 0,
+      "paired_optimal": 50,
+      "budget_failures": 0,
+      "work": 68321310
+    },
+    "foundation_study/local/native/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 181944649
+    },
+    "foundation_study/local/native/evolution/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 7174800
+    },
+    "foundation_study/local/native/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 18452087
+    },
+    "foundation_study/local/native/evolution/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1010384
+    },
+    "foundation_study/local/native/evolution/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1010384
+    },
+    "foundation_study/local/native/evolution/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 12,
+      "optimal": 12,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 9607360
+    },
+    "foundation_study/local/native/evolution/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 9,
+      "optimal": 9,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 12346357
+    },
+    "foundation_study/local/native/evolution/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 8214150
+    },
+    "foundation_study/local/native/evolution/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 1061056
+    },
+    "foundation_study/local/native/evolution/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 135032872
+    },
+    "foundation_study/local/native/evolution/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 135032872
+    },
+    "foundation_study/local/native/resample/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 7174800
+    },
+    "foundation_study/local/native/resample/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 18452087
+    },
+    "foundation_study/local/native/resample/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 7174800
+    },
+    "foundation_study/local/native/resample/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 18452087
+    },
+    "foundation_study/local/native/resample/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1010384
+    },
+    "foundation_study/local/native/resample/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1010384
+    },
+    "foundation_study/local/native/resample/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 24,
+      "optimal": 24,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5095664
+    },
+    "foundation_study/local/native/resample/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 9,
+      "optimal": 9,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 12346357
+    },
+    "foundation_study/local/native/resample/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 50,
+      "work": 49400668
+    },
+    "foundation_study/local/native/resample/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 1061056
+    },
+    "foundation_study/local/native/resample/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 135032872
+    },
+    "foundation_study/local/native/resample/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 135032872
+    },
+    "foundation_study/evolved/native/evolution/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 122,
+      "optimal": 122,
+      "no_path": 0,
+      "paired_optimal": 46,
+      "budget_failures": 148,
+      "work": 287625132
+    },
+    "foundation_study/evolved/native/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 64,
+      "work": 1750041896
+    },
+    "foundation_study/evolved/native/evolution/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 42637664
+    },
+    "foundation_study/evolved/native/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 8,
+      "work": 1393424243
+    },
+    "foundation_study/evolved/native/evolution/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 80,
+      "optimal": 80,
+      "no_path": 0,
+      "paired_optimal": 32,
+      "budget_failures": 0,
+      "work": 3581920
+    },
+    "foundation_study/evolved/native/evolution/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 3784704
+    },
+    "foundation_study/evolved/native/evolution/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5849416
+    },
+    "foundation_study/evolved/native/evolution/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5849416
+    },
+    "foundation_study/evolved/native/evolution/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 11605542
+    },
+    "foundation_study/evolved/native/evolution/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15096724
+    },
+    "foundation_study/evolved/native/evolution/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 1,
+      "work": 92388300
+    },
+    "foundation_study/evolved/native/evolution/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 24683256
+    },
+    "foundation_study/evolved/native/resample/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 42637664
+    },
+    "foundation_study/evolved/native/resample/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 8,
+      "work": 1393424243
+    },
+    "foundation_study/evolved/native/resample/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 42637664
+    },
+    "foundation_study/evolved/native/resample/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 8,
+      "work": 1393424243
+    },
+    "foundation_study/evolved/native/resample/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 810832
+    },
+    "foundation_study/evolved/native/resample/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 3784704
+    },
+    "foundation_study/evolved/native/resample/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 24,
+      "optimal": 24,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5095664
+    },
+    "foundation_study/evolved/native/resample/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5849416
+    },
+    "foundation_study/evolved/native/resample/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15096724
+    },
+    "foundation_study/evolved/native/resample/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15096724
+    },
+    "foundation_study/evolved/native/resample/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 24683256
+    },
+    "foundation_study/evolved/native/resample/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 24683256
+    },
+    "foundation_study/local/fresh/evolution/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 119,
+      "optimal": 118,
+      "no_path": 0,
+      "paired_optimal": 51,
+      "budget_failures": 22,
+      "work": 108665068
+    },
+    "foundation_study/local/fresh/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 3,
+      "optimal": 3,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 13,
+      "work": 679685086
+    },
+    "foundation_study/local/fresh/evolution/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 26482912
+    },
+    "foundation_study/local/fresh/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68139620
+    },
+    "foundation_study/local/fresh/evolution/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 745888
+    },
+    "foundation_study/local/fresh/evolution/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3858016
+    },
+    "foundation_study/local/fresh/evolution/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 18,
+      "optimal": 17,
+      "no_path": 0,
+      "paired_optimal": 2,
+      "budget_failures": 3,
+      "work": 11186514
+    },
+    "foundation_study/local/fresh/evolution/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3943648
+    },
+    "foundation_study/local/fresh/evolution/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 4,
+      "optimal": 4,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 8028764
+    },
+    "foundation_study/local/fresh/evolution/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3915232
+    },
+    "foundation_study/local/fresh/evolution/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 36894786
+    },
+    "foundation_study/local/fresh/evolution/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 14766016
+    },
+    "foundation_study/local/fresh/resample/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 30516288
+    },
+    "foundation_study/local/fresh/resample/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 78478866
+    },
+    "foundation_study/local/fresh/resample/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 26482912
+    },
+    "foundation_study/local/fresh/resample/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68139620
+    },
+    "foundation_study/local/fresh/resample/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 719776
+    },
+    "foundation_study/local/fresh/resample/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3858016
+    },
+    "foundation_study/local/fresh/resample/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15215402
+    },
+    "foundation_study/local/fresh/resample/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3943648
+    },
+    "foundation_study/local/fresh/resample/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4847468
+    },
+    "foundation_study/local/fresh/resample/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3915232
+    },
+    "foundation_study/local/fresh/resample/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21174744
+    },
+    "foundation_study/local/fresh/resample/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 14766016
+    },
+    "foundation_study/evolved/fresh/evolution/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 108,
+      "optimal": 108,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 52884588
+    },
+    "foundation_study/evolved/fresh/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 26,
+      "work": 1484177119
+    },
+    "foundation_study/evolved/fresh/evolution/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 26485696
+    },
+    "foundation_study/evolved/fresh/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68139684
+    },
+    "foundation_study/evolved/fresh/evolution/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 841328
+    },
+    "foundation_study/evolved/fresh/evolution/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3859008
+    },
+    "foundation_study/evolved/fresh/evolution/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 8,
+      "optimal": 8,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4448812
+    },
+    "foundation_study/evolved/fresh/evolution/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3944448
+    },
+    "foundation_study/evolved/fresh/evolution/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 2956528
+    },
+    "foundation_study/evolved/fresh/evolution/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3915904
+    },
+    "foundation_study/evolved/fresh/evolution/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3169288
+    },
+    "foundation_study/evolved/fresh/evolution/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 14766336
+    },
+    "foundation_study/evolved/fresh/resample/0/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 30516288
+    },
+    "foundation_study/evolved/fresh/resample/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 78478866
+    },
+    "foundation_study/evolved/fresh/resample/0/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 26485696
+    },
+    "foundation_study/evolved/fresh/resample/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68139684
+    },
+    "foundation_study/evolved/fresh/resample/0/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 719776
+    },
+    "foundation_study/evolved/fresh/resample/0/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3859008
+    },
+    "foundation_study/evolved/fresh/resample/0/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 4,
+      "optimal": 4,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 8562070
+    },
+    "foundation_study/evolved/fresh/resample/0/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3944448
+    },
+    "foundation_study/evolved/fresh/resample/0/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4847468
+    },
+    "foundation_study/evolved/fresh/resample/0/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 3915904
+    },
+    "foundation_study/evolved/fresh/resample/0/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21174744
+    },
+    "foundation_study/evolved/fresh/resample/0/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 14766336
+    },
+    "foundation_study/local/native/evolution/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 108,
+      "optimal": 108,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 112,
+      "work": 223492680
+    },
+    "foundation_study/local/native/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 3,
+      "optimal": 3,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 29,
+      "work": 688321480
+    },
+    "foundation_study/local/native/evolution/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 6005664
+    },
+    "foundation_study/local/native/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15481074
+    },
+    "foundation_study/local/native/evolution/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 893168
+    },
+    "foundation_study/local/native/evolution/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 915808
+    },
+    "foundation_study/local/native/evolution/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 12,
+      "optimal": 12,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 32,
+      "work": 31581910
+    },
+    "foundation_study/local/native/evolution/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 6,
+      "optimal": 6,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 44,
+      "work": 36900389
+    },
+    "foundation_study/local/native/evolution/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 40,
+      "work": 42823033
+    },
+    "foundation_study/local/native/evolution/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 96,
+      "work": 81677800
+    },
+    "foundation_study/local/native/evolution/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 47633472
+    },
+    "foundation_study/local/native/evolution/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 96,
+      "work": 269989030
+    },
+    "foundation_study/local/native/resample/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 6005664
+    },
+    "foundation_study/local/native/resample/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15481074
+    },
+    "foundation_study/local/native/resample/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 6005664
+    },
+    "foundation_study/local/native/resample/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15481074
+    },
+    "foundation_study/local/native/resample/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 915808
+    },
+    "foundation_study/local/native/resample/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 915808
+    },
+    "foundation_study/local/native/resample/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 6,
+      "optimal": 6,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 44,
+      "work": 36900389
+    },
+    "foundation_study/local/native/resample/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 6,
+      "optimal": 6,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 44,
+      "work": 36900389
+    },
+    "foundation_study/local/native/resample/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 96,
+      "work": 81677800
+    },
+    "foundation_study/local/native/resample/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 96,
+      "work": 81677800
+    },
+    "foundation_study/local/native/resample/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 96,
+      "work": 269989030
+    },
+    "foundation_study/local/native/resample/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 96,
+      "work": 269989030
+    },
+    "foundation_study/evolved/native/evolution/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 134,
+      "optimal": 134,
+      "no_path": 0,
+      "paired_optimal": 58,
+      "budget_failures": 114,
+      "work": 221458551
+    },
+    "foundation_study/evolved/native/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 46,
+      "work": 1245998545
+    },
+    "foundation_study/evolved/native/evolution/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 54,
+      "optimal": 54,
+      "no_path": 0,
+      "paired_optimal": 18,
+      "budget_failures": 35,
+      "work": 180047533
+    },
+    "foundation_study/evolved/native/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 35,
+      "work": 1754897836
+    },
+    "foundation_study/evolved/native/evolution/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1116552
+    },
+    "foundation_study/evolved/native/evolution/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 54,
+      "optimal": 54,
+      "no_path": 0,
+      "paired_optimal": 18,
+      "budget_failures": 0,
+      "work": 1151888
+    },
+    "foundation_study/evolved/native/evolution/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 38,
+      "optimal": 38,
+      "no_path": 0,
+      "paired_optimal": 10,
+      "budget_failures": 16,
+      "work": 22876789
+    },
+    "foundation_study/evolved/native/evolution/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5628848
+    },
+    "foundation_study/evolved/native/evolution/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21827048
+    },
+    "foundation_study/evolved/native/evolution/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 6,
+      "work": 15065770
+    },
+    "foundation_study/evolved/native/evolution/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 43393408
+    },
+    "foundation_study/evolved/native/evolution/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 20821752
+    },
+    "foundation_study/evolved/native/resample/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 42090524
+    },
+    "foundation_study/evolved/native/resample/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 108519350
+    },
+    "foundation_study/evolved/native/resample/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 54,
+      "optimal": 54,
+      "no_path": 0,
+      "paired_optimal": 18,
+      "budget_failures": 35,
+      "work": 180047533
+    },
+    "foundation_study/evolved/native/resample/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 35,
+      "work": 1754897836
+    },
+    "foundation_study/evolved/native/resample/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 3531840
+    },
+    "foundation_study/evolved/native/resample/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 54,
+      "optimal": 54,
+      "no_path": 0,
+      "paired_optimal": 18,
+      "budget_failures": 0,
+      "work": 1151888
+    },
+    "foundation_study/evolved/native/resample/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 8,
+      "optimal": 8,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 9238238
+    },
+    "foundation_study/evolved/native/resample/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5628848
+    },
+    "foundation_study/evolved/native/resample/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 9526894
+    },
+    "foundation_study/evolved/native/resample/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 6,
+      "work": 15065770
+    },
+    "foundation_study/evolved/native/resample/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 23068348
+    },
+    "foundation_study/evolved/native/resample/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 20821752
+    },
+    "foundation_study/local/fresh/evolution/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 112,
+      "optimal": 112,
+      "no_path": 0,
+      "paired_optimal": 36,
+      "budget_failures": 224,
+      "work": 387545765
+    },
+    "foundation_study/local/fresh/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 3,
+      "optimal": 3,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 83,
+      "work": 2242896060
+    },
+    "foundation_study/local/fresh/evolution/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 38883876
+    },
+    "foundation_study/local/fresh/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100243301
+    },
+    "foundation_study/local/fresh/evolution/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 2981056
+    },
+    "foundation_study/local/fresh/evolution/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5927778
+    },
+    "foundation_study/local/fresh/evolution/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 23,
+      "optimal": 23,
+      "no_path": 0,
+      "paired_optimal": 5,
+      "budget_failures": 24,
+      "work": 36213828
+    },
+    "foundation_study/local/fresh/evolution/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 682096
+    },
+    "foundation_study/local/fresh/evolution/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 3,
+      "optimal": 3,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 92,
+      "work": 70930873
+    },
+    "foundation_study/local/fresh/evolution/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 696976
+    },
+    "foundation_study/local/fresh/evolution/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 2,
+      "work": 105650965
+    },
+    "foundation_study/local/fresh/evolution/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21309840
+    },
+    "foundation_study/local/fresh/resample/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 52917104
+    },
+    "foundation_study/local/fresh/resample/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 136633810
+    },
+    "foundation_study/local/fresh/resample/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 38883876
+    },
+    "foundation_study/local/fresh/resample/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100243301
+    },
+    "foundation_study/local/fresh/resample/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 883224
+    },
+    "foundation_study/local/fresh/resample/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5927778
+    },
+    "foundation_study/local/fresh/resample/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 8,
+      "optimal": 8,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4906384
+    },
+    "foundation_study/local/fresh/resample/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 682096
+    },
+    "foundation_study/local/fresh/resample/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 5434056
+    },
+    "foundation_study/local/fresh/resample/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 696976
+    },
+    "foundation_study/local/fresh/resample/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29041840
+    },
+    "foundation_study/local/fresh/resample/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21309840
+    },
+    "foundation_study/evolved/fresh/evolution/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 114,
+      "optimal": 114,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 91804754
+    },
+    "foundation_study/evolved/fresh/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 314818213
+    },
+    "foundation_study/evolved/fresh/evolution/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 38883806
+    },
+    "foundation_study/evolved/fresh/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100243297
+    },
+    "foundation_study/evolved/fresh/evolution/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 2998416
+    },
+    "foundation_study/evolved/fresh/evolution/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4368716
+    },
+    "foundation_study/evolved/fresh/evolution/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 18,
+      "optimal": 18,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 14806538
+    },
+    "foundation_study/evolved/fresh/evolution/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 682096
+    },
+    "foundation_study/evolved/fresh/evolution/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 15871946
+    },
+    "foundation_study/evolved/fresh/evolution/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 696976
+    },
+    "foundation_study/evolved/fresh/evolution/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 72,
+      "work": 202470970
+    },
+    "foundation_study/evolved/fresh/evolution/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21309848
+    },
+    "foundation_study/evolved/fresh/resample/1/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 47088176
+    },
+    "foundation_study/evolved/fresh/resample/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 122415264
+    },
+    "foundation_study/evolved/fresh/resample/1/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 38883806
+    },
+    "foundation_study/evolved/fresh/resample/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100243297
+    },
+    "foundation_study/evolved/fresh/resample/1/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 883224
+    },
+    "foundation_study/evolved/fresh/resample/1/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4368716
+    },
+    "foundation_study/evolved/fresh/resample/1/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 6,
+      "optimal": 6,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 7218552
+    },
+    "foundation_study/evolved/fresh/resample/1/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 682096
+    },
+    "foundation_study/evolved/fresh/resample/1/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 7736516
+    },
+    "foundation_study/evolved/fresh/resample/1/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 696976
+    },
+    "foundation_study/evolved/fresh/resample/1/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 25386656
+    },
+    "foundation_study/evolved/fresh/resample/1/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21309848
+    },
+    "foundation_study/local/native/evolution/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 160,
+      "optimal": 160,
+      "no_path": 0,
+      "paired_optimal": 60,
+      "budget_failures": 26,
+      "work": 200971408
+    },
+    "foundation_study/local/native/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 22,
+      "work": 1335604920
+    },
+    "foundation_study/local/native/evolution/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 77128448
+    },
+    "foundation_study/local/native/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 13,
+      "work": 1314323653
+    },
+    "foundation_study/local/native/evolution/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1977660
+    },
+    "foundation_study/local/native/evolution/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1977660
+    },
+    "foundation_study/local/native/evolution/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 56,
+      "optimal": 56,
+      "no_path": 0,
+      "paired_optimal": 10,
+      "budget_failures": 0,
+      "work": 9608584
+    },
+    "foundation_study/local/native/evolution/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 22,
+      "work": 37519757
+    },
+    "foundation_study/local/native/evolution/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 32,
+      "work": 45344907
+    },
+    "foundation_study/local/native/evolution/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 8210800
+    },
+    "foundation_study/local/native/evolution/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 26,
+      "work": 179372755
+    },
+    "foundation_study/local/native/evolution/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 60114784
+    },
+    "foundation_study/local/native/resample/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 77128448
+    },
+    "foundation_study/local/native/resample/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 13,
+      "work": 1314323653
+    },
+    "foundation_study/local/native/resample/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 77128448
+    },
+    "foundation_study/local/native/resample/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 13,
+      "work": 1314323653
+    },
+    "foundation_study/local/native/resample/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 88,
+      "optimal": 88,
+      "no_path": 0,
+      "paired_optimal": 40,
+      "budget_failures": 0,
+      "work": 1188480
+    },
+    "foundation_study/local/native/resample/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1977660
+    },
+    "foundation_study/local/native/resample/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 12,
+      "work": 13190968
+    },
+    "foundation_study/local/native/resample/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 22,
+      "work": 37519757
+    },
+    "foundation_study/local/native/resample/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 12891756
+    },
+    "foundation_study/local/native/resample/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 8210800
+    },
+    "foundation_study/local/native/resample/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 60114784
+    },
+    "foundation_study/local/native/resample/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 60114784
+    },
+    "foundation_study/evolved/native/evolution/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 136,
+      "optimal": 136,
+      "no_path": 0,
+      "paired_optimal": 56,
+      "budget_failures": 2,
+      "work": 84747301
+    },
+    "foundation_study/evolved/native/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 195779549
+    },
+    "foundation_study/evolved/native/evolution/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 39187368
+    },
+    "foundation_study/evolved/native/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 95701908
+    },
+    "foundation_study/evolved/native/evolution/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 3212848
+    },
+    "foundation_study/evolved/native/evolution/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 3212848
+    },
+    "foundation_study/evolved/native/evolution/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 40,
+      "optimal": 40,
+      "no_path": 0,
+      "paired_optimal": 8,
+      "budget_failures": 0,
+      "work": 11004930
+    },
+    "foundation_study/evolved/native/evolution/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 15,
+      "optimal": 15,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 73,
+      "work": 61570329
+    },
+    "foundation_study/evolved/native/evolution/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 24,
+      "work": 47132774
+    },
+    "foundation_study/evolved/native/evolution/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 8893720
+    },
+    "foundation_study/evolved/native/evolution/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 48,
+      "work": 168928882
+    },
+    "foundation_study/evolved/native/evolution/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21310180
+    },
+    "foundation_study/evolved/native/resample/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 39187368
+    },
+    "foundation_study/evolved/native/resample/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 95701908
+    },
+    "foundation_study/evolved/native/resample/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 39187368
+    },
+    "foundation_study/evolved/native/resample/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 95701908
+    },
+    "foundation_study/evolved/native/resample/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 567808
+    },
+    "foundation_study/evolved/native/resample/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 3212848
+    },
+    "foundation_study/evolved/native/resample/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 8,
+      "optimal": 8,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 22008320
+    },
+    "foundation_study/evolved/native/resample/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 15,
+      "optimal": 15,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 73,
+      "work": 61570329
+    },
+    "foundation_study/evolved/native/resample/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 12880888
+    },
+    "foundation_study/evolved/native/resample/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 8893720
+    },
+    "foundation_study/evolved/native/resample/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21310180
+    },
+    "foundation_study/evolved/native/resample/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 21310180
+    },
+    "foundation_study/local/fresh/evolution/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 126,
+      "optimal": 126,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 95462120
+    },
+    "foundation_study/local/fresh/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 199204722
+    },
+    "foundation_study/local/fresh/evolution/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31997932
+    },
+    "foundation_study/local/fresh/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 69001486
+    },
+    "foundation_study/local/fresh/evolution/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 4135456
+    },
+    "foundation_study/local/fresh/evolution/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 11521480
+    },
+    "foundation_study/local/fresh/evolution/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 27,
+      "optimal": 27,
+      "no_path": 0,
+      "paired_optimal": 3,
+      "budget_failures": 0,
+      "work": 6381956
+    },
+    "foundation_study/local/fresh/evolution/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4515340
+    },
+    "foundation_study/local/fresh/evolution/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 4,
+      "work": 33384475
+    },
+    "foundation_study/local/fresh/evolution/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4899140
+    },
+    "foundation_study/local/fresh/evolution/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 46956752
+    },
+    "foundation_study/local/fresh/evolution/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 56905816
+    },
+    "foundation_study/local/fresh/resample/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 11875488
+    },
+    "foundation_study/local/fresh/resample/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29838296
+    },
+    "foundation_study/local/fresh/resample/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31997932
+    },
+    "foundation_study/local/fresh/resample/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 69001486
+    },
+    "foundation_study/local/fresh/resample/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1034176
+    },
+    "foundation_study/local/fresh/resample/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 11521480
+    },
+    "foundation_study/local/fresh/resample/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 8,
+      "optimal": 8,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 6449970
+    },
+    "foundation_study/local/fresh/resample/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4515340
+    },
+    "foundation_study/local/fresh/resample/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 9806480
+    },
+    "foundation_study/local/fresh/resample/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4899140
+    },
+    "foundation_study/local/fresh/resample/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 6496032
+    },
+    "foundation_study/local/fresh/resample/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 56905816
+    },
+    "foundation_study/evolved/fresh/evolution/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 21678976
+    },
+    "foundation_study/evolved/fresh/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 54473696
+    },
+    "foundation_study/evolved/fresh/evolution/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31997932
+    },
+    "foundation_study/evolved/fresh/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 69001486
+    },
+    "foundation_study/evolved/fresh/evolution/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 3125200
+    },
+    "foundation_study/evolved/fresh/evolution/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 11404224
+    },
+    "foundation_study/evolved/fresh/evolution/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 20,
+      "optimal": 20,
+      "no_path": 0,
+      "paired_optimal": 2,
+      "budget_failures": 0,
+      "work": 11103052
+    },
+    "foundation_study/evolved/fresh/evolution/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4515340
+    },
+    "foundation_study/evolved/fresh/evolution/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 27856589
+    },
+    "foundation_study/evolved/fresh/evolution/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4899140
+    },
+    "foundation_study/evolved/fresh/evolution/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 6040504
+    },
+    "foundation_study/evolved/fresh/evolution/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 56714680
+    },
+    "foundation_study/evolved/fresh/resample/2/champion/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 11875488
+    },
+    "foundation_study/evolved/fresh/resample/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29838296
+    },
+    "foundation_study/evolved/fresh/resample/2/frozen/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31997932
+    },
+    "foundation_study/evolved/fresh/resample/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 69001486
+    },
+    "foundation_study/evolved/fresh/resample/2/skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 1784832
+    },
+    "foundation_study/evolved/fresh/resample/2/frozen_skill0/level0": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 11404224
+    },
+    "foundation_study/evolved/fresh/resample/2/skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 18,
+      "optimal": 18,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 6768544
+    },
+    "foundation_study/evolved/fresh/resample/2/frozen_skill1/level1": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4515340
+    },
+    "foundation_study/evolved/fresh/resample/2/skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 6172128
+    },
+    "foundation_study/evolved/fresh/resample/2/frozen_skill2/level2": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 4899140
+    },
+    "foundation_study/evolved/fresh/resample/2/skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 6496032
+    },
+    "foundation_study/evolved/fresh/resample/2/frozen_skill3/level3": {
+      "outputs": 96,
+      "reachable": 96,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 56714680
+    },
+    "control/r0/intact/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 384,
+      "optimal": 384,
+      "no_path": 0,
+      "paired_optimal": 192,
+      "budget_failures": 0,
+      "work": 21558912
+    },
+    "control/r0/intact/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 71,
+      "optimal": 71,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 1,
+      "work": 791930020
+    },
+    "control/r0/compiled_bfs/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r0/compiled_astar/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r0/wave_bit/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r1/intact/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 384,
+      "optimal": 384,
+      "no_path": 0,
+      "paired_optimal": 192,
+      "budget_failures": 0,
+      "work": 19991968
+    },
+    "control/r1/intact/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 69,
+      "optimal": 69,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 3,
+      "work": 778897530
+    },
+    "control/r1/compiled_bfs/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r1/compiled_astar/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r1/wave_bit/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r2/intact/micro": {
+      "outputs": 384,
+      "reachable": 384,
+      "valid": 384,
+      "optimal": 384,
+      "no_path": 0,
+      "paired_optimal": 192,
+      "budget_failures": 0,
+      "work": 22330240
+    },
+    "control/r2/intact/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 69,
+      "optimal": 69,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 3,
+      "work": 677843258
+    },
+    "control/r2/compiled_bfs/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r2/compiled_astar/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r2/wave_bit/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    }
+  }
+}
