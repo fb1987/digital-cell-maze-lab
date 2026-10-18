@@ -34,8 +34,9 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1–V4 are complete; **84 tests pass**.
-Read `results/goal_conditioning.md` and `docs/GOAL_STUDY_V4.md` first, then
+Current checkpoint (October 18, 2026): V1–V5 are complete; **88 tests pass**.
+Read `results/factor_curriculum.md` and `docs/FACTOR_STUDY_V5.md` first, then
+`results/goal_conditioning.md` and `docs/GOAL_STUDY_V4.md`, then
 `results/source_pressure.md`,
 `docs/SIGNAL_PRESSURE_V3.md`, then the earlier `results/range_and_regulation.md`,
 `docs/RANGE_STUDY_V2.md` and `results/first_evolution.md` for context.
@@ -82,14 +83,47 @@ goal metrics,47998 fitness decompositions; source/layout/provenance checks pass.
 V1–V3 code/raw results are untouched. V4 checkpoints, full next populations/RNG
 states, source snapshots and losslessly repacked logs remain available.
 
-Random-origin emergence remains central. Preserve discovered signalling genomes,
-goal-sensitive variants and population diversity. A sensible next controlled
-test holds capacity fixed and uses a factorized curriculum: separate intermediate
-credit for source-dependent connected growth and goal-dependent modulation,
-before requiring their conjunction. Compare with V4's multiplicative reward;
-exact completed shortest routes remain primary and final layouts must be fresh.
-Do not insert a known solver or retune against any inspected V1–V4 final tests.
-Connected output is common in V4 training, but goal-specific progress is rare.
+V5 tests that factorized curriculum: six V4 goal-pressure next populations/RNG
+states, product/curriculum arms, local/evolvable ranges, 96 organisms x48 further
+generations. Both arms preserve fixed signalling and V4 goal elites. Generations
+0–15 reward Q+S,16–31 blend to2*sqrt(Q*S),32+ share the product objective. Task
+archives use common ordinary-route fitness without probe reward. All size9
+perfect splits use Wilson trees; all V1–V4 layouts are excluded. No extension
+criterion passed. Training13.02 minutes; main run16.05; peak RSS162.8MiB.
+
+Curriculum task archives solve local1/216 and multirange1/216 primary reachable
+cases, versus product2/216 local /1/216 multirange; all0/177 distance>=8 and
+0/197 turn-required primary cases. Curriculum paired routes0/42; local product
+1/42. The latter is a10-edge,3-turn shortest path through two internal junctions.
+Existing-ancestor analysis finds its first success at generation38 after three
+gene-row edits; its parent fails. It grows west/south, fails the other goal and
+all90/180/270-degree rotations, and has identical state under both goals at
+every tick1–21. The common endpoint-aware runtime halt explains the successful
+stopping time. Preserve this directional filament as a precursor, without
+claiming goal-guided routing. The analysis is post-hoc on an inspected final
+case and is not another holdout test or a tuned genome.
+
+V5 goal-proxy scores multirange0.0068 curriculum /0.0089 product; local both0.0106.
+Curriculum task archives handle12/48 primary disconnected cases, no false claims
+on216 primary reachable cases, versus frozen0/48; disconnected endpoints have
+a corner/partition bias. BFS/A*/bit-wave solve all reachable/no-path tasks.
+Exploratory validation time courses show local goal archives have no source
+state response to switched goals through tick64; multirange responses remain
+limited (3/12 curriculum,2/12 product). No competitive speedup is established.
+V1–V4 source/raw results remain unchanged. V5 next populations/RNG states, all
+validation archives and source/lineage/diagnostic records are preserved.
+
+Random-origin emergence remains central. Preserve signalling, goal-sensitive
+and directional-growth variants from **both** V5 arms, selecting archives by
+their recorded validation criterion, not inspected final-test performance.
+A justified next controlled test holds capacity and product objective fixed
+while comparing **symmetric source/goal stimulus initialization** with the
+current convention. The source has initial channel0 activation plus a local
+flag; the goal has only a flag. Add an initial goal pulse in channel1 in the
+treatment, retaining public flags. This supplies stimulus, not a known solver.
+Include frozen controls for each input convention, track communication to
+decision sites and exact turning/detour paths, and reserve fresh layouts.
+Do not insert a solver or retune against any inspected V1–V5 final tests.
 Treat capacity, time and regulation as hypotheses rather than guarantees.
 Original mission steps below are historical; do not repeat them as unfinished.
 

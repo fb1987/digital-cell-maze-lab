@@ -1,6 +1,27 @@
 # Paste into Codex after opening this extracted folder
 
-The bundle is imported; V1–V4 experiments are complete. There are84 passing tests.
+The bundle is imported; V1–V5 are complete, with88 passing tests. Read
+`results/factor_curriculum.md`, `docs/FACTOR_STUDY_V5.md` and `AGENTS.md` first.
+V5 compared a factorized reward curriculum with the product objective,12 paired
+conditions x96 organisms x48 generations, preserving random-origin lineages.
+The curriculum showed no unseen advantage: primary shortest local1/216,
+multirange1/216, all0/177 long and0/197 turn-required cases. Conventional solvers
+solve all cases. A local control genome solves one separate paired10-edge path
+with3 turns and2 junctions. Three edits from a failing parent precede its first
+success. It grows west/south, fails rotated/alternate goals, and depends on the
+shared endpoint-aware halt; it is a directional-growth precursor, not general
+routing. Full ancestry, masks and post-hoc diagnostics are saved. Main compute
+16.05 minutes;88 tests pass; all V1–V4 source/raw results are untouched.
+
+Next test symmetric source/goal initialization at fixed capacity/product
+objective. The source has an initial state pulse and flag; the goal only a flag.
+A goal pulse supplies stimulus without adding a solver. Preserve both V5 arms'
+validation-selected task/goal/source archives and population/RNG state; do not
+choose/tune genomes using inspected final tests. Reserve fresh layouts and
+keep exact turning/detour routes primary. See AGENTS for full current context.
+
+Previous V4 handoff context:
+
 Read `results/goal_conditioning.md`, `docs/GOAL_STUDY_V4.md` and `AGENTS.md` first.
 V4 compared transmission/goal-output pressures in12 conditions,96 organisms x40
 generations, protecting learned V3 signalling elites. Some goal-sensitive branched

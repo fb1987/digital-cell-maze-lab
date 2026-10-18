@@ -6,6 +6,60 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [factorized curriculum study V5](results/factor_curriculum.md) is complete;
+**88 tests pass**. Twelve paired conditions continued six V4 populations for
+48 generations with 96 organisms each. Both arms protect inherited signalling
+and goal-sensitive variants. One arm rewards connected growth and goal response
+separately, then transitions to the same product reward as its control.
+
+**An isolated new filament appeared in the control arm:** it emits a correct
+10-edge shortest path with three turns through two junctions on one independent
+paired 9×9 maze. Ancestry analysis links its first success to three gene-row
+edits from a failing parent. It moves west/south, fails the other goal and all
+three rotated versions, and develops identically under both goals through its
+successful stopping tick. The shared runtime's endpoint check supplies the
+different stopping time. This is a concrete precursor of growth following maze
+geometry; goal-directed branch choice is still absent.
+
+The curriculum has no demonstrated unseen advantage. Its local/multirange task
+archives each solve 1/216 primary reachable cases, versus 2/216 local and 1/216
+multirange controls. Every task arm solves 0/177 distance≥8 primary cases and
+0/197 cases requiring a turn. The isolated turned success is on the separate
+paired set: local control 1/42; curriculum arms 0/42. BFS/A*/bit-wave solve all
+reachable and disconnected cases. Curriculum task archives classify 12/48
+primary no-path cases, with no false claims on reachable primary cases, versus
+0/48 frozen; the disconnected family has a corner/partition bias.
+
+Multirange goal-archive probe scores are 0.0068 curriculum versus 0.0089 control;
+local scores both 0.0106. These are intermediate scores, not completed paths.
+The extension gate did not pass. Search took 13.02 minutes; the full main run
+took 16.05 minutes on the M4, with 162.8 MiB peak RSS. Full population/RNG and
+lineage checkpoints are preserved. V1–V4 code/results remain unchanged.
+
+Exploratory validation probes show limited goal information reaching the source,
+even by tick64. The next controlled test should compare symmetric source/goal
+initialization with the existing convention, at fixed capacity and objective.
+The source has an initial state pulse plus a local flag; the goal currently has
+only a flag. A goal pulse supplies public stimulus, without inserting a solver.
+Keep all validation-selected archives from both arms and reserve fresh layouts.
+
+```bash
+.venv/bin/python -m maze_evolution.factor_study --out results/repeat_factor
+.venv/bin/python -m maze_evolution.factor_diagnostics --out results/repeat_factor
+.venv/bin/python -m maze_evolution.factor_timecourse --out results/repeat_factor
+.venv/bin/python -m maze_evolution.factor_lineage_diagnostic --out results/repeat_factor
+.venv/bin/python -m maze_evolution.factor_prefix_diagnostic --out results/repeat_factor
+.venv/bin/python -m maze_evolution.factor_audit --out results/repeat_factor
+.venv/bin/python -m maze_evolution.factor_report --out results/repeat_factor
+```
+
+See the [preregistered protocol](docs/FACTOR_STUDY_V5.md) and
+[`results/factor_curriculum/`](results/factor_curriculum/). The time-course and
+isolated-success analyses are explicitly post-hoc diagnostics, not new accuracy
+tests or model tuning. Raw rasters, gene edits, costs and source hashes are saved.
+
+## Goal-conditioned study V4 — October 18, 2026
+
 The [goal-conditioned continuation V4](results/goal_conditioning.md) is complete;
 **84 tests pass**. Twelve paired conditions continued six V3 random-origin
 populations for 40 generations with 96 organisms each, comparing the existing
