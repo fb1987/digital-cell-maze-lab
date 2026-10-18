@@ -14,6 +14,12 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 - Explore sparse expression, negative feedback, concentration/decay, time, context accessibility, and perhaps multiple signalling scales *only if experiments justify their cost*. Do not force elaborate biological metaphors into the implementation.
 - Eventually support much larger mazes and 3D grid mazes, but **do not start there**.
 - User prioritizes **efficiency** over the spectacle of parallelism: the target is useful computational performance, not raw swarm size.
+- **Random-origin discovery remains a central, ongoing research track.** The user
+  explicitly does not want a small negative pilot to close this direction. Test
+  whether greater heritable capacity, regulation, evolutionary time and pressure
+  help. Preserve population/RNG checkpoints and useful diversity. Do not silently
+  insert a known solver into a supposedly random-origin lineage. More complexity
+  is a hypothesis, not a guarantee; record effective behaviour and real cost.
 
 ## Invariants
 
@@ -28,19 +34,29 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 17, 2026): the first local runtime/evaluator/evolution
-pilot is complete, with 41 passing tests. Read `results/first_evolution.md` and
-its phenotype audit before changing the experiment. Three 32-organism,
-25-generation runs found no general random-origin solver and one redundant
-instruction deletion in two seeded runs. Seeded held-out performance was
-200/240 reachable cases, including 96/96 at training sizes; all 40 failures
-exhausted the read cap. No competitive speedup was found. Original mission
+Current checkpoint (October 18, 2026): the local pilot and V2 range/regulation
+continuation are complete, with 63 passing tests. Read
+`results/range_and_regulation.md`, `docs/RANGE_STUDY_V2.md` and the original
+`results/first_evolution.md`. V2 used 96×120 rich random populations, eight
+channels and up to 128 gated genes. Rich local/evolvable genomes solved 2/216
+and 1/216 reachable tests, all adjacent endpoints; neither solved any of the
+165 distance>=8 cases. Independent resampling solved 2/216, so no evolutionary
+advantage is established. Seeded arms all solved 211/216 with no nonlocal
+reads; increased inference budget explains the improvement over 189/216 at
+the old cap on the same fresh tasks. No competitive speedup was found.
+
+V1's source/results remain untouched. V2 is in separate `regulatory*`/`range*`
+modules. Full next-population and RNG checkpoints permit deterministic
+continuation. Do not retune against already inspected tests. Original mission
 steps below are historical; do not repeat them as unfinished work.
 
-The latest user priority is local and other signalling ranges. Keep this local
-control, then implement fixed and evolvable multi-distance arms under the same
-bounded runtime, as proposed in `docs/MULTIDISTANCE_PLAN.md`. Keep the frozen
-first-run raw results immutable; label diagnostics and later experiments separately.
+The user wants random-origin emergence to remain central. Preserve these local
+and multirange controls and investigate effective regulatory complexity and
+evolutionary pressure, rather than infer impossibility from the bounded negative
+runs. A sensible next controlled test holds expanded capacity fixed while
+testing precursor/source-dependent signal-transmission objectives against the
+current fitness. Exact route correctness must remain the primary final measure.
+Keep prior raw results immutable; label continuations/diagnostics separately.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.
 2. Implement a **minimal bounded evolvable organism** with a small, typed genome and 2–4 internal per-site state channels. Define a compact grammar of deterministic local instructions. Consider a finite-state/Boolean rule table or small linear program; avoid implementing a giant neural network.

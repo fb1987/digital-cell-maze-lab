@@ -1,0 +1,39 @@
+{
+  "champions_sha256": "2eb9001a7e4c25904e87ce8df29c5ea609b7de2e65c83341d42f2cee3a5d0649",
+  "cpu": "Apple M4",
+  "elapsed_seconds": 740.2860610829957,
+  "fresh_tests": 264,
+  "max_rss_bytes": 144228352,
+  "os": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "llvmlite": "0.50.0",
+    "numba": "0.68.0",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0",
+    "pytest": "9.1.1"
+  },
+  "parent_revision": "510a00ce437ed51fb2f0de788cb1a315c1a5bc87",
+  "previous_cases": 630,
+  "prior_hash_rejections": 0,
+  "python": "3.13.15",
+  "recorded_at": "2026-10-17T23:57:41.616560-04:00",
+  "source_sha256": {
+    "maze_evolution/__init__.py": "9bd30272bd151cc72e358ba90b756233fa559a67c7106fabf5d5ad3765d784e1",
+    "maze_evolution/baselines.py": "21858b34e9c9128c484cbeccf0290bde33477089f088a98e73d3a160a486b700",
+    "maze_evolution/datasets.py": "bdd27b13b2406119f1b3b7ca3a79599b23ca21272c02165a2da61849e5d6e131",
+    "maze_evolution/evaluator.py": "dc180e7c53782f3996ef7b17fdba715105d7105fbbe18ca362780bdb116b4fd0",
+    "maze_evolution/experiment.py": "a0fdc85bcc7f28c5cbf114b8ed9ac0085bcde1ccd29af969a22337d5ee465b01",
+    "maze_evolution/genome.py": "ae37bd0a39d769c93cf711a8a12b71f191c962d1b38404229f8cac74e8a0836a",
+    "maze_evolution/inspect_results.py": "9e744e79802325ae0edbe93c5128fe35f01b28eba209739d0dd6679922e00733",
+    "maze_evolution/range_report.py": "47ceb86ce1f1bd6049317089afb9f214ae6b97d15f022e3fea33eba6deba5bdc",
+    "maze_evolution/range_study.py": "5514a8d6f1bbc125b6b3984d65a4f5f98d03beca87d4979836cda50b7cb76a23",
+    "maze_evolution/regulatory.py": "d458e53866324e3ae236069b7b0ef3645d840eb0f82ab526d09f5d3df4158323",
+    "maze_evolution/regulatory_runtime.py": "94eac319c43f9b23b7770bc3b69cd20b6a3eee9986c994fcfc8eba873e16e89b",
+    "maze_evolution/regulatory_search.py": "e1e2d3722549be1fc2f7df8f58fc55e584994373f360ca94c19695953f7f1979",
+    "maze_evolution/runtime.py": "fbfb3d561ebe6dd118bf87e99047770e541b2f5cf2635b5ffb8dfa6786a5aa61",
+    "tests/test_cellular_maze_lab.py": "c034caa73605c14b9854d1a53d70093ea3c6be4dc0d79bac83ce2c71af65aa0b",
+    "tests/test_evolution.py": "21616559adb84ea78b4f25d4601e4eae95128191562b1ee76a76157f411d8dcc",
+    "tests/test_regulatory.py": "c9fbef3ebccf98751dc025e67d84cb6a0fb35e73d27c3640b224032c04b66c61"
+  },
+  "unique_tests": 264
+}

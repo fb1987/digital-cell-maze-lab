@@ -1,0 +1,719 @@
+{
+  "archived_logical_payloads_unchanged": true,
+  "champion_hash_matches": true,
+  "disjoint_from_v1_train_validation": true,
+  "fresh_distinct_tests": 264,
+  "holdout_outputs_revalidated": 8712,
+  "lineage_genomes": 141916,
+  "maze_evaluations": 724176,
+  "output_stop_dataflow": {
+    "control/evolved/random/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 91,
+      "potential_output_stop_genes": 14,
+      "state_channels": [
+        2,
+        3,
+        7
+      ]
+    },
+    "control/evolved/random/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 49,
+      "potential_output_stop_genes": 2,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/evolved/random/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 28,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/evolved/random/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 61,
+      "potential_output_stop_genes": 15,
+      "state_channels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ]
+    },
+    "control/evolved/random/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 33,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        4,
+        7
+      ]
+    },
+    "control/evolved/random/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 28,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/evolved/seeded/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 29,
+      "potential_output_stop_genes": 29,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/evolved/seeded/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/evolved/seeded/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/evolved/seeded/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/evolved/seeded/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/evolved/seeded/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 29,
+      "potential_output_stop_genes": 29,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/fixed/random/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 63,
+      "potential_output_stop_genes": 14,
+      "state_channels": [
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "control/fixed/random/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 49,
+      "potential_output_stop_genes": 2,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/fixed/random/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 28,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/fixed/random/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 63,
+      "potential_output_stop_genes": 14,
+      "state_channels": [
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "control/fixed/random/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 33,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        4,
+        7
+      ]
+    },
+    "control/fixed/random/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 28,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/fixed/seeded/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 29,
+      "potential_output_stop_genes": 29,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/fixed/seeded/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/fixed/seeded/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/fixed/seeded/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/fixed/seeded/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/fixed/seeded/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 29,
+      "potential_output_stop_genes": 29,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/local/random/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 63,
+      "potential_output_stop_genes": 14,
+      "state_channels": [
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "control/local/random/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 49,
+      "potential_output_stop_genes": 2,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/local/random/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 86,
+      "potential_output_stop_genes": 39,
+      "state_channels": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    "control/local/random/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 61,
+      "potential_output_stop_genes": 15,
+      "state_channels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ]
+    },
+    "control/local/random/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 33,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        4,
+        7
+      ]
+    },
+    "control/local/random/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 28,
+      "potential_output_stop_genes": 3,
+      "state_channels": [
+        2,
+        7
+      ]
+    },
+    "control/local/seeded/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 29,
+      "potential_output_stop_genes": 29,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/local/seeded/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/local/seeded/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/local/seeded/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/local/seeded/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 30,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "control/local/seeded/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 29,
+      "potential_output_stop_genes": 29,
+      "state_channels": [
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    "rich/evolved/random/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 128,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/evolved/random/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 128,
+      "potential_output_stop_genes": 37,
+      "state_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    "rich/evolved/random/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 127,
+      "potential_output_stop_genes": 49,
+      "state_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/evolved/random/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 104,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/evolved/random/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 88,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/evolved/random/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 91,
+      "potential_output_stop_genes": 22,
+      "state_channels": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/local/random/evolution/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 96,
+      "potential_output_stop_genes": 22,
+      "state_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "rich/local/random/evolution/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 96,
+      "potential_output_stop_genes": 21,
+      "state_channels": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/local/random/evolution/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 101,
+      "potential_output_stop_genes": 40,
+      "state_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/local/random/resample/0": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 96,
+      "potential_output_stop_genes": 22,
+      "state_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    "rich/local/random/resample/1": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 88,
+      "potential_output_stop_genes": 30,
+      "state_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "rich/local/random/resample/2": {
+      "caveat": "Conservative syntactic dependencies only; quiescence and semantic redundancy are not captured.",
+      "genes": 91,
+      "potential_output_stop_genes": 22,
+      "state_channels": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "paired_initial_populations": true,
+  "population_evaluations": 164160,
+  "source_hashes_match": true,
+  "statuses": {
+    "compiled_astar": {
+      "emitted": 216,
+      "no_path": 48
+    },
+    "compiled_bfs": {
+      "emitted": 216,
+      "no_path": 48
+    },
+    "control/evolved/random/evolution": {
+      "emitted": 88,
+      "quiescent": 176
+    },
+    "control/evolved/random/evolution/ablate": {
+      "emitted": 88,
+      "quiescent": 176
+    },
+    "control/evolved/random/frozen": {
+      "emitted": 175,
+      "quiescent": 89
+    },
+    "control/evolved/random/resample": {
+      "quiescent": 176,
+      "read_budget": 88
+    },
+    "control/evolved/seeded/evolution": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/evolved/seeded/evolution/ablate": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/evolved/seeded/frozen": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/evolved/seeded/resample": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/fixed/random/evolution": {
+      "emitted": 176,
+      "quiescent": 88
+    },
+    "control/fixed/random/evolution/ablate": {
+      "emitted": 175,
+      "quiescent": 89
+    },
+    "control/fixed/random/frozen": {
+      "emitted": 176,
+      "quiescent": 88
+    },
+    "control/fixed/random/resample": {
+      "emitted": 88,
+      "quiescent": 176
+    },
+    "control/fixed/seeded/evolution": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/fixed/seeded/evolution/ablate": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/fixed/seeded/frozen": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/fixed/seeded/resample": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/local/random/evolution": {
+      "emitted": 176,
+      "quiescent": 88
+    },
+    "control/local/random/frozen": {
+      "emitted": 175,
+      "quiescent": 89
+    },
+    "control/local/random/resample": {
+      "quiescent": 176,
+      "read_budget": 88
+    },
+    "control/local/seeded/evolution": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/local/seeded/frozen": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "control/local/seeded/resample": {
+      "emitted": 211,
+      "no_path": 48,
+      "step_budget": 5
+    },
+    "diagnostic/local_seed_old_budget": {
+      "emitted": 189,
+      "no_path": 48,
+      "read_budget": 27
+    },
+    "rich/evolved/random/evolution": {
+      "emitted": 60,
+      "quiescent": 203,
+      "read_budget": 1
+    },
+    "rich/evolved/random/evolution/ablate": {
+      "emitted": 60,
+      "quiescent": 203,
+      "read_budget": 1
+    },
+    "rich/evolved/random/frozen": {
+      "emitted": 35,
+      "quiescent": 207,
+      "read_budget": 22
+    },
+    "rich/evolved/random/resample": {
+      "emitted": 205,
+      "quiescent": 16,
+      "read_budget": 43
+    },
+    "rich/local/random/evolution": {
+      "emitted": 88,
+      "no_path": 35,
+      "quiescent": 88,
+      "read_budget": 53
+    },
+    "rich/local/random/frozen": {
+      "emitted": 1,
+      "no_path": 35,
+      "quiescent": 175,
+      "read_budget": 53
+    },
+    "rich/local/random/resample": {
+      "emitted": 151,
+      "no_path": 35,
+      "quiescent": 16,
+      "read_budget": 62
+    },
+    "wave_bit": {
+      "emitted": 216,
+      "no_path": 48
+    }
+  },
+  "test_command": ".venv/bin/python -m pytest -q",
+  "tests_passed": 63
+}

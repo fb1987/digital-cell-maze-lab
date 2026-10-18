@@ -1,0 +1,47 @@
+{
+  "benchmark_repeats": 30,
+  "control": {
+    "generations": 30,
+    "origins": [
+      "random",
+      "seeded"
+    ],
+    "population": 24,
+    "topologies": [
+      "local",
+      "fixed",
+      "evolved"
+    ]
+  },
+  "curriculum": "rich: g0-39 sizes5/9; g40-79 sizes9/17; g80+ size17; control always9/17",
+  "eval_limits": {
+    "instructions_per_site": 131072,
+    "max_cells": 65536,
+    "max_steps": 1024,
+    "reads_per_site": 8192
+  },
+  "expression": "64 registers, 8 uint16 channels, max128 genes/4096 bytes; gates charged dispatch",
+  "fitness": "v2: validity/optimality/no-path/partial; cost tie-break only when all batch cases correct",
+  "genome_version": 2,
+  "replicates": 3,
+  "rich": {
+    "generations": 120,
+    "origins": [
+      "random"
+    ],
+    "population": 96,
+    "topologies": [
+      "local",
+      "evolved"
+    ]
+  },
+  "samples": 8,
+  "seed": 2026101751,
+  "stopping": "source channel7 request with endpoints, or four unchanged full-state ticks",
+  "train_limits": {
+    "instructions_per_site": 32768,
+    "max_cells": 65536,
+    "max_steps": 256,
+    "reads_per_site": 4096
+  }
+}

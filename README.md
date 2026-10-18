@@ -4,10 +4,51 @@ An experimental, **offline-first**, biologically inspired computing project. The
 
 The central distinction: **one organism solves one entire maze.** The many grid sites are the organism's internal computing medium, *not* independent intelligent agents. Dozens or thousands of organisms, each possessing a different genome, can be evaluated in a population and selectively reproduced/mutated.
 
-## Current checkpoint — October 17, 2026
+## Current checkpoint — October 18, 2026
+
+The [range/regulation continuation](results/range_and_regulation.md) is complete:
+**63 tests pass**. V2 adds eight state channels, up to 128 typed genes, conditional
+expression, local/fixed/evolvable signalling radii, diversity-preserving search,
+independent resampling controls and exact population/RNG checkpoints.
+
+The study ran 656,640 training responses (724,176 including validation) in about
+12 minutes on the M4. All models were frozen before 264 entirely fresh test cases.
+The expanded random-origin cohort used 96 organisms × 120 generations × three
+seeds for each topology, 14.4× V1's population-generation slots per run.
+
+| Rich random-origin population | Evolved shortest / reachable | Independent sampling | Initial frozen |
+| --- | ---: | ---: | ---: |
+| Local | 2/216 | 2/216 | 0/216 |
+| Evolvable ranges | 1/216 | 2/216 | 0/216 |
+
+All random-cohort successes were adjacent endpoints. None solved the 165 cases
+with distance at least eight. Large genomes and improved partial scores did not
+yet produce a general algorithm. **Random-origin discovery remains an active
+track**: checkpoints retain the populations for longer continuation rather than
+restart them. Greater capacity, time and regulatory pressure remain hypotheses.
+
+Seeded local/fixed/evolvable arms each solved 211/216, with five budget failures
+and 48/48 correct no-path outputs. Their champions did not use nonlocal reads.
+The same frozen local seed solves 189/216 at the old work cap, so its gain to
+211 comes from inference budget, not evolved range use. No speed advantage over
+compiled BFS was found. See the [preregistered protocol](docs/RANGE_STUDY_V2.md).
+
+```bash
+.venv/bin/python -m maze_evolution.range_study --out results/repeat_ranges
+.venv/bin/python -m maze_evolution.range_audit results/repeat_ranges
+```
+
+Defaults reproduce the saved design. Full compressed lineage/fitness/output logs,
+initial controls, timing samples and 48 continuation checkpoints are in
+[`results/range_and_regulation/`](results/range_and_regulation/). The new runtime
+permits a broad initial activation to develop/prune before stopping; V1's immediate
+endpoint halt is preserved in V1 but removed in V2. V2 gates still pay dispatch
+cost, and all ranges share hard work and memory caps.
+
+## First local experiment — October 17, 2026
 
 The context bundle is imported and the project is prepared for development on an
-Apple M4 Mac with 16 GiB memory and Python 3.13.15. All **41 tests pass**, including
+Apple M4 Mac with 16 GiB memory and Python 3.13.15. Its **41 tests passed**, including
 genome validation, synchronous execution, independent raster validation and
 deterministic evolution replay. Maze generation is reproducible, the compiled
 baseline runs, and the NumPy-only fallback was checked. See the local
@@ -33,10 +74,9 @@ instruction (29→28 genes, 2.22% less counted work), with unchanged accuracy.
 The generic interpreter is about 150× slower than compiled BFS in the sampled
 17×17 timings. These are pilot implementation comparisons, not a competitive win.
 
-The next focus is **local versus fixed and evolvable multi-distance signalling**.
-The [proposed experiment protocol](docs/MULTIDISTANCE_PLAN.md) defines controls,
-wall semantics, compute budgets and holdout evaluation. Multi-distance signalling
-has not been implemented yet.
+This checkpoint motivated the local/fixed/evolvable multi-distance continuation
+above. The [original range proposal](docs/MULTIDISTANCE_PLAN.md) remains available;
+the actual V2 design and changed limits are recorded separately.
 
 ## Start here (for Codex)
 
@@ -117,8 +157,13 @@ leaf-pruning toy baseline, maze generators, bounded heritable programs, local
 organism runtime, deterministic mutation/selection, frozen controls, independent
 holdout validation, full-raster timing and recorded visual results.
 
-**Not yet built**: multi-distance or 3D substrates, matched-budget random-search
-control, broad optimized conventional baseline audit, or a competitive result.
+**Also implemented in V2**: multi-distance sensing, conditional gene expression,
+larger random-origin genomes, diversity/lexicase search, training-sample-matched
+independent search controls and exact checkpoint resumption.
+
+**Not yet built**: a reliable random-origin solver, hierarchical or 3D substrates,
+exact CPU-budget-matched search controls, a broad optimized conventional baseline
+audit, or a competitive result.
 
 ## Experiment boundaries
 

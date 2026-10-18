@@ -3,8 +3,10 @@
 Prepared October 17, 2026, America/Toronto. The local genome runtime, independent
 evaluator and first evolutionary pilot are now implemented and recorded in
 [`results/first_evolution.md`](../results/first_evolution.md). The multi-distance
-topologies below remain proposals. Retain the local pilot as a control; avoid
-retuning against its already inspected test set.
+topologies below were subsequently implemented in the separately preregistered
+[`RANGE_STUDY_V2.md`](RANGE_STUDY_V2.md), with results in
+[`results/range_and_regulation.md`](../results/range_and_regulation.md). Retain
+both studies as controls; avoid retuning against their inspected test sets.
 
 ## The hypothesis to test
 

@@ -1,11 +1,13 @@
 # Paste into Codex after opening this extracted folder
 
-The bundle is imported and the first evolution experiment is complete. Read
-`results/first_evolution.md` and its saved raw data before planning further work.
-The local runtime has 41 passing tests; random populations did not learn a general
-solver, while seeded evolution removed a redundant instruction in two runs.
-`docs/MULTIDISTANCE_PLAN.md` proposes the next range comparison. The original
-implementation mission below is retained as handoff history, not unfinished work.
+The bundle is imported; the first local experiment and V2 range/regulation study
+are complete. Read `results/range_and_regulation.md`, its integrity/phenotype
+audit, `docs/RANGE_STUDY_V2.md` and `AGENTS.md`. There are 63 passing tests.
+Random-origin discovery remains a central user priority; 96×120 populations with
+128 gated genes have not yet produced a general solver. Their actual populations
+and RNG states are checkpointed for continuation. V1 results/source remain intact.
+Use new final test sets for new experiments; do not treat the finite negatives
+as a verdict. The original implementation mission below is handoff history.
 
 Read `AGENTS.md`, `README.md`, `docs/THREAD_CONTEXT.md`, `docs/ARCHITECTURE.md`, `docs/EXPERIMENT_SPEC.md`, and `docs/RESEARCH.md`. The repository is a handoff from an extended research conversation. Preserve its central distinction: **one organism processes an entire maze using a spatial reaction substrate; a population evolves the genomes of these organisms.**
 
