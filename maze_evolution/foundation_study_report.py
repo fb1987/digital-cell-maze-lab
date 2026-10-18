@@ -118,6 +118,20 @@ def run(out):
         name = '_'.join(str(cfg[k]) for k in ('origin', 'topology', 'method', 'replicate'))
         state = json.loads((out / 'checkpoints' / (name + '.json')).read_text())
         histories[key] = state['history']
+    last_outputs, last_descriptors = defaultdict(set), defaultdict(set)
+    last_counts = defaultdict(Counter)
+    for row in lines(out / summary['segments'][-1]['files'][1]):
+        if row['split'] != 'train' or row['generation'] != summary['rounds'] - 1:
+            continue
+        key, rs = row['condition'], row['cases']
+        last_outputs[key].add(tuple((r['mask'], r['status']) for r in rs))
+        last_descriptors[key].add(json.dumps(row['descriptor'], separators=(',', ':')))
+        last_counts[key]['organisms'] += 1
+        last_counts[key]['responses'] += len(rs)
+        last_counts[key]['empty_rasters'] += sum(not r['mask'].strip('0') for r in rs)
+        last_counts[key]['budget_failures'] += sum('budget' in r['status'] for r in rs)
+        last_counts[key]['organisms_using_nonlocal'] += any(sum(r['range_reads'][1:]) for r in rs)
+    assert all(v['organisms'] == 96 for v in last_counts.values()) and len(last_counts) == 24
     analysis = dict(scope='Descriptive analysis after model freeze and independent confirmation; no selection or tuning',
         source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(), results=results,
         elementary_screen=screen, per_replicate_screen=per_replicate, selected_ancestry=details,
@@ -125,7 +139,33 @@ def run(out):
         maximum_evaluated_genes=max(h['max_genes'] for hs in histories.values() for h in hs),
         maximum_prepared_genes=max(proof['ancestry']['maximum_registered_genes'].values()),
         last_evaluated_population_unique={k: v[-1]['unique'] for k, v in histories.items()},
+        last_training_batch_behavior={k: dict(**dict(v), distinct_output_status_fingerprints=len(last_outputs[k]),
+            distinct_selection_descriptors=len(last_descriptors[k])) for k, v in last_counts.items()},
         primary_success_distances={k: r['successful_distances'] for k, r in results.items() if k.endswith('/champion/general')})
+    timecourse_text = ''
+    if (out / 'timecourse/summary.json').exists():
+        timecourse = json.loads((out / 'timecourse/summary.json').read_text())
+        analysis['secondary_timecourse'] = timecourse
+        boundaries = sorted({r['generation'] for r in timecourse['results']})
+        time_rows = []
+        for origin in ('native', 'fresh'):
+            for topology in ('local', 'evolved'):
+                for method in ('evolution', 'resample'):
+                    cells = []
+                    for generation in boundaries:
+                        rs = [r for r in timecourse['results'] if r['generation'] == generation
+                              and r['condition'].startswith(f'foundation_study/{topology}/{origin}/{method}/')]
+                        assert len(rs) == 3
+                        correct = sum(r['levels'][str(l)]['optimal'] for r in rs for l in (1, 2, 3))
+                        paired = sum(r['levels'][str(l)]['paired_optimal'] for r in rs for l in (1, 2, 3))
+                        cells.append(f'{correct}/864; {paired}/432')
+                    time_rows.append(f'| {origin}/{topology}/{method} | ' + ' | '.join(cells) + ' |')
+        timecourse_text = ('\nSecondary transfer time course: added during training before any final layouts existed. '
+            'Earlier validation selections were frozen and hashed before confirmation. Each cell is shortest non-adjacent '
+            'outputs /864; complete shortest pairs /432 across three replicates. All time points reuse the same fresh cases, '
+            'so they are correlated measurements, not independent replications.\n\n| Cohort | ' +
+            ' | '.join(f'g{g}' for g in boundaries) + ' |\n|---|' + '---:|' * len(boundaries) + '\n' +
+            '\n'.join(time_rows) + '\n')
     write_json(out / 'analysis.json', analysis)
     tables = []
     for origin in ('native', 'fresh'):
@@ -156,6 +196,8 @@ The per-replicate screen requires more shortest non-adjacent outputs than both m
 | Cohort/replicate | Evolved non-adjacent | Resampled | Frozen | Evolved groups with a complete pair | Pass |
 |---|---:|---:|---:|---:|---:|
 {chr(10).join(replicate_rows)}
+
+{timecourse_text}
 
 Secondary per-level archives and their own frozen counterparts are in `analysis.json` and raw `confirmation/outputs.jsonl.gz`; they are never substituted for primary results. {analysis['distinct_selected_genotypes']} distinct selected genotypes underlie the many report aliases. The primary ordinary corpus contains {long_correct} successful distance≥8 outputs across all evolution/resampling condition selections; these aliases are not independent algorithm discoveries. Inspect their explicit case/distance distributions before attributing generality.
 

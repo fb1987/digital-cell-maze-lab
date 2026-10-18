@@ -10,12 +10,17 @@ Eight rectangular transforms were constructed by cropping one wall row from an o
 
 Optional post-hoc interventions reuse already selected successful non-adjacent final inputs. Remove the initial goal pulse, zero nonlocal read values, or both. Static goal flags remain when the pulse is removed; nonlocal reads keep their work charge when their values are zeroed. These tests characterize dependence on inputs, not new unseen accuracy or a search comparison. Save and independently grade every intervention raster, including an ordinary control replay. No retuning follows.
 
+Secondary addition at approximately36 minutes of training, before any final layout exists: compare the primary validation-selected genomes at completed generations48,128,256 and the final generation, plus initial frozen selections, on the same elementary confirmation corpus. Omit boundaries beyond the completed run. This directly examines whether later generations improve transfer. These boundaries are fixed here, rather than chosen from final accuracy; this is an addition to the original preregistration and is reported as secondary. Freeze and hash those earlier genomes from the recorded lineage after search but **before** confirmation generation. Reuse identical already audited results, grade every new raster independently and replay every new model/input output. Do not treat time points or repeated poses as independent discoveries. This does not change training, the75-minute budget or the primary screening rule.
+
 Figures use an optional isolated local Matplotlib environment, leaving the experiment environment untouched:
 
 ```bash
 uv pip install --target output/plot-libs -r requirements-figures.txt
+.venv/bin/python -m maze_evolution.foundation_study_timecourse --out results/foundation_study --freeze
+# Save/commit the time-course selection hash before the next command creates final cases.
 .venv/bin/python -m maze_evolution.foundation_study_confirm --out results/foundation_study
 .venv/bin/python -m maze_evolution.foundation_study_audit --out results/foundation_study
+.venv/bin/python -m maze_evolution.foundation_study_timecourse --out results/foundation_study
 .venv/bin/python -m maze_evolution.foundation_study_interventions --out results/foundation_study
 .venv/bin/python -m maze_evolution.foundation_study_report --out results/foundation_study
 PYTHONPATH=output/plot-libs .venv/bin/python tools/plot_foundation_study.py --out results/foundation_study
