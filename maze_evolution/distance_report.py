@@ -92,6 +92,19 @@ def visuals(out,manifest,primary,paired):
             draw.text((ox+120+length,y+5),formatted,fill='#e6edf7')
     draw.text((24,355),'Descriptive comparison; no significance claim. All groups use the same pulse input convention.',fill='#aabbd0')
     canvas.save(out/'visuals/precursor_comparison.png')
+    if (out/'training_choice_diagnostic.json').exists():
+        record=json.loads((out/'training_choice_diagnostic.json').read_text())['records'][0]
+        parent,child=record['nodes'][-2:];canvas=Image.new('RGB',(1040,350),'#111827');draw=ImageDraw.Draw(canvas)
+        draw.text((15,12),'Training-only paired choice | birth29 parent vs birth30 child | gold: fork. This is not unseen success.',fill='#e6edf7')
+        for j,(node,index) in enumerate(((parent,0),(child,0),(parent,1),(child,1))):
+            r=node['cases'][index];m=lookup[r['case']];ox=15+j*260;oy=100
+            draw.text((ox,50),('Parent' if j%2==0 else 'Child')+(' | goal A' if index==0 else ' | goal B'),fill='#e6edf7')
+            draw.text((ox,72),f"Tick16 J={r['junction']['score']:.2f}; strict={r['junction']['strict']}",fill='#aabbd0')
+            tile=11;grid(draw,ox,oy,m,unpack(r['probe_mask'],m['w']*m['h']),tile)
+            v=record['decision']['vertex'];x=ox+tile*(v%m['w']);y=oy+tile*(v//m['w']);draw.rectangle((x,y,x+tile-1,y+tile-1),outline='#ffd46a',width=2)
+        draw.text((15,319),'The child needs goal pulse + long reads here. Fresh V10A near/far confirmation: 0/12 strict-both under either distance.',fill='#aabbd0')
+        canvas.save(out/'visuals/training_choice.png')
+
 
 def report(out):
     out=Path(out);read=lambda f:json.loads((out/f).read_text())
@@ -116,6 +129,7 @@ def report(out):
         r=summaries[arm];txt.append(f"| {arm} | {r['valid']}/{r['reachable']} | {r['optimal']}/{r['reachable']} | {r['long_optimal']}/{r['long_cases']} | {pm[arm]['optimal']}/42 | {r['no_path']}/48 |")
     for arm in ('compiled_bfs','compiled_astar','wave_bit'):
         r=summaries[arm];txt.append(f"| {arm} | {r['valid']}/{r['reachable']} | {r['optimal']}/{r['reachable']} | {r['long_optimal']}/{r['long_cases']} | {pm[arm]['optimal']}/42 | {r['no_path']}/48 |")
+    if (out/'discussion.md').exists():txt += ['',(out/'discussion.md').read_text().strip()]
     txt += ['',f"Extension gate: **{gate['extend']}** after {sorted({r['next_generation'] for r in champions.values()})} generations. "
         'Only common hard-validation transfer could trigger an extension. A higher easy-training score cannot. '
         'Three replicates give a descriptive comparison; archive copies and repeated training opportunities are not independent discoveries.','',
@@ -172,12 +186,13 @@ def report(out):
     txt += ['', 'Successful output shapes are saved in `success_shapes.json`. A short path can be inherited or selected by common endpoint-aware halting; '
         'it is not automatically goal-guided routing. Per-size/family/distance records are in `summary.json` and raw outputs.','',
         '## Training versus transfer','',
-        '| Topology/arm | Phase | Strict both training / eligible pairs | Mean weaker J | Valid normal outputs |',
-        '|---|---:|---:|---:|---:|']
+        '| Topology/arm | Generations | Mean goal-to-fork distance | Deceptive pairs | Strict both / eligible pairs | Normal both shortest | Mean weaker J | Valid normal outputs |',
+        '|---|---:|---:|---:|---:|---:|---:|---:|']
     phase=read('curriculum_training.json')
-    for r in phase:
-        txt.append(f"| {r['topology']}/{r['arm']} | {r['phase']} | {r['strict_both']}/{r['pairs']} | {r['sum_min_j']/max(1,r['pairs']):.4f} | {r['valid']} |")
-    txt += ['', 'These repeat genomes on rotating training contexts. Different cue distances make phase scores unsuitable as evidence of unseen transfer. '
+    for r in sorted(phase,key=lambda r:(r['topology'],r['arm'],{'near1':0,'near2':1,'far':2}[r['phase']])):
+        window={'near1':'0–15','near2':'16–31','far':'32–47'}[r['phase']]
+        txt.append(f"| {r['topology']}/{r['arm']} | {window} | {r['sum_goal_distance']/max(1,2*r['pairs']):.2f} | {r['deceptive_pairs']}/{r['pairs']} | {r['strict_both']}/{r['pairs']} | {r['normal_both_shortest']} | {r['sum_min_j']/max(1,r['pairs']):.4f} | {r['valid']} |")
+    txt += ['', 'Strict-both uses forced16-tick causal rasters; normal-both-shortest instead counts complete correctly emitted routes under BOTH goals on a regular pair. Normal validity/optimality remains ahead of K in selection. These repeat genomes on rotating training contexts. Different cue distances make phase scores unsuitable as evidence of unseen transfer. '
         'The phase leader is the current globally ranked training leader at generations15,31,47, chosen before final layouts; '
         'secondary assays below reuse the common paired final set and cannot replace primary models.','',
         '| Topology/arm | Leader generation | Hard-validation strict both /12 | Final strict both /18 | Final shortest /42 |',
@@ -192,6 +207,22 @@ def report(out):
                     final_strict=sum(r['strict_pairs'] for r in final),final_optimal=sum(c['optimal'] for r in final for c in r['cases']))
                 phase_summary.append(row);txt.append(f"| {topology}/{arm} | {generation} | {row['validation_strict']} | {row['final_strict']} | {row['final_optimal']} |")
     write_json(out/'phase_summary.json',phase_summary)
+    controls=list(lines(out/'phase_training_control.jsonl.gz'));training_summary=[]
+    txt += ['', 'The boundary generations15/31/47 all use one regular tree pair plus one mixed disconnected pair under the unchanged every-fourth-generation schedule. '
+        'These snapshots do not represent every cyclic training opportunity. The following reused-training comparison was fixed during training, before final layouts existed. '
+        'The phase leader was selected on its own batch and therefore has a selection advantage; this is not a holdout or a causal estimate of evolutionary improvement.','',
+        '| Topology/arm | Boundary generation | Frozen-choice strict / eligible | Phase-leader strict | Final-choice strict |',
+        '|---|---:|---:|---:|---:|']
+    for topology in ('local','evolved'):
+        for arm in ('fixed','curriculum'):
+            for generation in (15,31,47):
+                rr=[r for r in controls if r['condition'].split('/')[1:3]==[topology,arm] and r['generation']==generation]
+                counts={label:sum(r['strict_pairs'] for r in rr if r['selection']==label) for label in ('frozen_choice','phase_leader','final_choice')}
+                eligible=sum(c['junction']['eligible'] for r in rr if r['selection']=='phase_leader' for c in r['cases'][::2])
+                training_summary.append(dict(topology=topology,arm=arm,generation=generation,eligible=eligible,**counts))
+                txt.append(f"| {topology}/{arm} | {generation} | {counts['frozen_choice']}/{eligible} | {counts['phase_leader']} | {counts['final_choice']} |")
+    write_json(out/'phase_training_summary.json',training_summary)
+
     txt += ['',f'![Precursor comparison]({out.name}/visuals/precursor_comparison.png)','',
         f'![Switched-goal output]({out.name}/visuals/switched_goals.png)','',
         '## Preserved validation variants and causal assays','',
@@ -200,11 +231,12 @@ def report(out):
         '| Condition | First qualifying birth on selected validation pair | Ancestry nodes | Final J | Final strict both | Normal shortest /2 |',
         '|---|---:|---:|---:|---:|---:|']
     ancestry=json.loads(gzip.open(out/'choice_ancestry.json.gz','rt').read())
+    if not ancestry:txt=txt[:-2]+['No current primary validation choice archive qualifies under both switched goals. Earlier native primitives remain protected; the new training-only primitive is documented separately below.']
     for r in ancestry:
         first=next(n for n in r['nodes'] if n['strict_both']);last=r['nodes'][-1]
         txt.append(f"| {r['condition']} | {first['individual']['birth']} | {len(r['nodes'])} | {last['junction']:.4f} | {last['strict_both']} | {sum(c['optimal'] for c in last['cases'])} |")
     if ancestry:txt += ['',f'![Validation ancestry]({out.name}/visuals/validation_choice.png)']
-    txt += ['', '| Same qualifying validation genotype | Goal pulse | Nonlocal reads zeroed | J | Strict both |','|---|---:|---:|---:|---:|']
+    if ancestry:txt += ['', '| Same qualifying validation genotype | Goal pulse | Nonlocal reads zeroed | J | Strict both |','|---|---:|---:|---:|---:|']
     for r in ancestry:
         for a in r['interventions']:txt.append(f"| {r['condition']} | {a['goal_pulse']} | {a['ablate_nonlocal']} | {a['junction']:.4f} | {a['junction_both']} |")
     txt += ['', 'Removing the goal pulse keeps the static goal flag. Nonlocal ablation zeroes radius>1 reads while charging attempted reads. '
@@ -215,6 +247,36 @@ def report(out):
         for arm in ('fixed','curriculum'):
             rr=[r for r in entry if r['split']=='train' and r['condition'].split('/')[1:3]==[topology,arm]]
             txt.append(f"| {topology}/{arm} | {len(rr)} | {sum(r['both_enter_from_source'] for r in rr)} | {sum(r['both_shortest_prefixes'] for r in rr)} |")
+    if (out/'training_choice_diagnostic.json').exists():
+        d=read('training_choice_diagnostic.json');verify=read('training_choice_verification.json');interaction=read('training_edit_interaction.json')
+        txt += ['', '## One new training-only choice, preserved','',
+            'The sole multirange Curriculum strict-both training response occurs at generation30 on a17×17 tree, '
+            'fork6 edges from source and goals2/3 farther. Native genome i1472,birth30, descends through i94(birth0),i1213(birth25),i1402(birth29). '
+            'The parent fails and the child has J=1/strict-both on that reused training pair. Both ordinary outputs remain incomplete. '
+            'This is a new context-specific choice response, not a complete solver. It was retained once and produced18 mutated offspring; '
+            'the exact genotype is absent from the final population. Full genotype and ancestry are explicitly saved for the next common protected cohort.','',
+            'Two rows differ from the parent. Reversion assays show row25 alone,changing a radius-2 remote-read destination46→59,is sufficient for this response. '
+            'Row117’s operand3→36 alone fails and is unnecessary on this case. This does not establish a cooperative two-edit interaction. '
+            'Both goal-pulse removal and nonlocal-read removal destroy strict-both,J drops to.2. The effect therefore depends on both goal information and longer reads here.','',
+            f'![Training precursor]({out.name}/visuals/training_choice.png)','',
+            'This post-hoc assay was selected from training qualification after the main final evaluation. It never evaluates this newly selected model on V10’s inspected final set '
+            'or changes V10 selections. Independently checked masks/source effects,replayed outputs and full work are saved.','',
+            f"Original assay{d['elapsed_seconds']:.3f}s,{d['normal_responses']} normals/{d['probes']} probes,{d['charged_work']:,} units. "
+            f"Verification{verify['elapsed_seconds']:.3f}s,replay{verify['replayed_work']:,} units; artificial edit-reversion assays "
+            f"{verify['counterfactual_work']:,} units,{verify['counterfactual_normals']} normals/{verify['counterfactual_probes']} probes. "
+            'The initial tuple/list assertion retry and one repeated completed verification are separately recorded in `training_choice_execution_note.json`; the failed attempt’s wall time is unavailable. '
+            'That implementation repair changes no training/raw result.']
+        confirmation=out.parent/'distance_confirmation'
+        if (confirmation/'summary.json').exists():
+            rows=json.loads((confirmation/'summary.json').read_text());a={r['distance']:r for r in rows if r['role']=='child'}
+            txt += ['', '## Fresh frozen-primitive confirmation: V10A','',
+                f"After freezing the child,parent and root,12 fresh layouts test both near2/3 and far≥4 goal pairs. The child makes **{a['near']['strict']}/12** near and "
+                f"**{a['far']['strict']}/12** far strict-both choices and completes {a['near']['optimal']}/24 near,{a['far']['optimal']}/24 far shortest paths. "
+                'Parent/root also score zero complete choices/routes. BFS solves all48 input instances. The new training primitive does not transfer on this small confirmation, even at matched short cue distances. '
+                'This does not establish impossibility. All8690 earlier layouts are excluded;12 new layouts bring the saved total to8702.','',
+                'The [V10A report](distance_confirmation.md) records frozen model hashes, source/protocol, independent seed1105 construction/replay preflight, '
+                'seed2026101810 production cases, full rasters/cost and independent verification. V10 primary results remain unchanged.']
+
     from .regulatory import Genome
     from .range_audit import output_dataflow
     structures=[]
@@ -261,12 +323,25 @@ def report(out):
         '## Verification and continuation','',
         f"All checks pass: {verified['source_files']} frozen sources, {verified['training_fitness_checks']:,} fitness records, "
         f"{verified['junction_raster_checks']:,} junction rasters, {verified['reassessed_training_valid_claims']} valid training claims, "
-        f"{verified['replayed_selected_outputs']} selected normal replays and {verified['phase_reassessed_outputs']} boundary-leader outputs. "
+        f"{verified['replayed_selected_outputs']} selected normal replays and {verified['phase_reassessed_outputs']} phase-assay outputs. "
         'Task/choice/J/B archive maxima, exact near/far anchor transformations and distances, all prior-layout exclusions, '
         'lineage/protection, complete checkpoints, source/model hashes and lossless storage hashes are verified. '
         'The deterministic suite covers causal short labels, unchanged hard scoring, matched full-capacity construction through192 generations, gate behavior and exact resume.','',
         'Commands are in `docs/DISTANCE_STUDY_V10.md`. Raw records/checkpoints are in `results/distance_curriculum/`. '
         'Prior code/results remain immutable. Random-origin discovery remains central; this bounded comparison cannot establish impossibility.']
+    txt += ['', 'Validation commands: full `pytest -q` passed116 tests in309.19s; after the last source-snapshot/resume edits, '
+        '`pytest tests/test_distance.py -q -k "not fresh_capacity"` passed4 in1.87s. The117 currently collected tests are covered by those runs. '
+        'V10A also passes an independent full construction/replay preflight(seed1105),then all192 production normal outputs and144 causal rasters are checked.','',
+        '## Next controlled experiment','',
+        'Test greater heritable program capacity with copy-and-diverge growth: a128-versus256-gene ceiling, '
+        'the same eight channels/opcodes/range rules, same Fixed hard-pair objective and common block-duplication mutation operator. '
+        'Start with identical native populations/RNG and preserve all prior primitives plus i1472/parent/root in both matching replicate2 cohorts. '
+        'Allow no known solver insertion. First prove all lifted≤128-gene genomes reproduce the old VM under identical caps. '
+        'Keep instruction/read/tick limits bounded and common; charge added dispatches and any reduction in completed ticks. '
+        'Track actual grown genes,expression,dependency slices and behavior, since a larger ceiling alone is not effective complexity. '
+        'Use wholly new layouts excluding8702 saved layouts and a validation-only extension gate. '
+        'This tests the user’s capacity hypothesis directly; more easy-goal shaping at the same ceiling has not established transfer.']
+
     (out.parent/(out.name+'.md')).write_text('\n'.join(txt)+'\n')
     visuals(out,manifest,primary,paired)
     print(out.parent/(out.name+'.md'))

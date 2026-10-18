@@ -34,17 +34,11 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1–V9 and V8A are complete; **112 tests pass**.
-Read `results/choice_priority.md` and `docs/CHOICE_STUDY_V9.md` first,
-then `results/junction_choice.md`, `docs/JUNCTION_STUDY_V8.md`,
-`results/junction_confirmation.md`, `docs/JUNCTION_CONFIRMATION_V8A.md` first,
-then `results/balanced_goal.md` and `docs/BALANCE_STUDY_V7.md` first, then
-`results/goal_beacon.md` and `docs/BEACON_STUDY_V6.md`, then
-`results/factor_curriculum.md` and `docs/FACTOR_STUDY_V5.md`, then
-`results/goal_conditioning.md` and `docs/GOAL_STUDY_V4.md`, then
-`results/source_pressure.md`,
-`docs/SIGNAL_PRESSURE_V3.md`, then the earlier `results/range_and_regulation.md`,
-`docs/RANGE_STUDY_V2.md` and `results/first_evolution.md` for context.
+Current checkpoint (October 18, 2026): V1–V10,V8A,V10A are complete.
+117 current tests are covered (116 full-suite passes +4 focused after final edits).
+Read `results/distance_curriculum.md`,`results/distance_confirmation.md`,
+`docs/DISTANCE_STUDY_V10.md` and `docs/DISTANCE_CONFIRMATION_V10A.md` first.
+Earlier protocols/results below are historical; do not repeat completed work.
 
 V3 pairs current/causal objectives from six saved V2 random-origin populations,
 96 organisms x 160 additional generations. Capacity and V2 inference stay fixed.
@@ -391,6 +385,98 @@ rules enter random-origin lineages. Larger precursor scores alone do not
 justify hour-scale extension. Exclude ALL V1–V9/V8A layouts (including V9
 manifest):8096 unique layouts. Do not retune against inspected tests; use new
 separate version modules.
+
+V10 completed the matched near-to-far cue comparison. New separate distance_*
+modules preserve all V1–V9 source/raw data.12 conditions:local/evolved ×Fixed/
+Curriculum ×3,96 organisms ×48 generations. Both fork native V9 Choice next
+populations/RNG, preserve both V9 arms' task/choice/J/B/G/source/protected,
+supplemental strict choices and qualifying ancestors. No cross-topology/replicate
+transfer or known-solver insertion. Protected counts15/18/15 local,25/22/29
+evolved. Same8 channels,128 genes,V6 pulse VM,Choice-first ranking in both arms,
+including common hard validation. All initial DNA/protected cohorts/RNG match.
+
+Fixed uses original hard goals. Curriculum shortens SAME layout/source/fork
+branch goals to1/2 edges for generations0–15,2/3 for16–31,far at32 onward.
+Mixed pairs unchanged. Short labels only in train_near splits; validation/final
+retain original≥4 remaining/≥8 source distance. Near prefix/fork/exits verified
+identical,all allowed exits subsets. Shortening also removes deceptive bearing
+in both early phases; report that distribution effect. No automatic extension:
+common hard-validation gate failed. Native variants and neutral drift remain.
+
+Primary task archives/frozen controls ALL0/216 reachable,0/179 distance≥8,
+0/42 paired. Every final selected model0/18 strict-both pairs. Secondary evolved
+Curriculum choice archive1/216,adjacent endpoints only (2pixels,4ticks,
+rep1 i415,birth6). No other selected success. Task no-path33/48 local,16/48
+evolved;no false reachable claims. BFS/A*/wave216/216,42/42,all48/6 no-path.
+No speed advantage. These are selection-specific scores,not absence of every
+older protected capability; do not compare versions as a pressure-only effect.
+
+Training valid normals local122 Curriculum vs49 Fixed;evolved52 vs4. No regular
+training pair has BOTH ordinary outputs valid/shortest. Strict forced16-probe
+training responses:local0;evolved Curriculum1,Fixed15 (repeated opportunities).
+Phase leaders15/31/47 have0 final choices/routes; all boundary batches contain
+one regular tree pair+one mixed disconnected pair,so snapshots miss cyclic
+opportunities. Reused-training frozen/leader/final replays are NOT holdouts;
+leader replays equal original full training records exactly.
+
+NEW TRAINING-ONLY PRIMITIVE: evolved Curriculum rep2,i1472,birth30,first observed
+generation30 on train_near2_goal/r2/p60/s15/perfect/17x17/a|b. Fork vertex90,
+source-prefix[156,139,122,105,88,89,90],incoming89,exits91/73,allowedA73,B91,
+goals2/3 beyond. Ancestryi94(birth0)→i1213(25)→i1402(29)→i1472(30).
+Parent J=.25/strictfalse,child J=1/strictboth; neither ordinary route correct.
+Child changes row25 REMOTE dst46→59 (radius2,ch6) androw117 operand3→36.
+Counterfactual row25 alone suffices,row117 alone fails; NOT two-edit cooperation.
+Goal-pulse removal or nonlocal-read removal each destroys choice,J=.2 on this
+training case. Source-removal rasters independently verify causality/entry.
+It is unprotected,retained once,produces18 mutants,and exact genotype is absent
+from final population. Explicit full genotype/ancestry in
+results/distance_curriculum/training_choice_diagnostic.json; preserve it,parent,
+root with all earlier native variants in BOTH matching next-test cohorts.
+This diagnostic is post-hoc training-selected after main final evaluation;
+never evaluated this newly selected candidate on V10's inspected final set.
+Original1.166s,12normals/24probes,14988575work; independent replay.128s plus
+9447514work for edit reversions. Initial tuple/list assertion attempt extra
+ancestry cost recorded separately; no training/raw result changed.
+
+V10A froze child,parent,root BEFORE12 NEW layouts. Seed2026101810,independent
+construction/replay preflight1105 (accuracy not inspected),excluded8690 prior
+layouts.9/17 ×tree/random ×3;each same source/fork hasnear2/3 andfar≥4 paired
+goals. All three genomes0/12 strictboth and0/24 normalroutes at EACH distance;
+BFS48/48. ChildnearJ.25,far.2458333.12layouts are independent,not24pairs.
+No training/reselection or primary V10 change. Main.877s,144normals/288probes,
+143965340work;independent.359s verifies192normals/144Jrasters and replays all
+144normals/288probes,equalwork. Model SHA
+34329d632b2b551a68ae2b74cd89b409ed4199acc6d132007a95ae7b1d277474.
+Preregister/freeze commit833dfe5. Raw:results/distance_confirmation/.
+This bounded negative preserves random-origin,regulation,capacity/time hypotheses.
+
+V10 seed2026101809,preflight1104,8096 prior layouts excluded. Freeze before
+264 ordinary/24 paired final layouts. Model SHA
+c6df4e29f961fcb0e62732c12a2fe34e245cb7710aae8409c35b7287c8ef8733;
+prereg4aa60d6. Search829.323s(13.82min),main1017.161s(16.95min),peak203.5MiB.
+Diagnostics30.114s(includes1440 phase normals);compression10.400s;audit20.360s.
+All79 frozen sources,59004fitness,59232priorityrecords,268848Jrasters,
+227validtrainclaims,48selectedreplays,12eachtask/choice/J/Bmaxima pass.
+8328 main/diagnostic normals independently assessed,plus post-hoc training
+assay/replays/reversions and V10A. Training265680normal+531360probes,
+432900048953dispatch+attempted-read units;31417newIDs (not independent finds).
+Neutrality8434/18094 changed-DNA matched-parent children (46.6%) by observable
+fingerprint; hidden trajectories/work can vary. Full next population/RNG:
+results/distance_curriculum/checkpoints/distance_{local|evolved}_{fixed|curriculum}_{0|1|2}.json.
+All prior source/raw results stay immutable.8702 unique layouts throughV10A.
+
+NEXT JUSTIFIED TEST: greater heritable program capacity with copy-and-diverge
+structural growth,128vs256-gene ceilings,common block-duplication operator and
+Fixed hard-pair objective. Keep eight channels/opcodes/range semantics unchanged;
+prove≤128-gene old-program inference equivalence before training. Identical native
+starting populations/RNG/protection,including i1472/parent/root in matching
+evolved rep2 under BOTH capacities. No cross-topology/rep transfer,no known solver.
+Common bounded instruction/read/tick caps; report additional dispatches and any
+fewer completed ticks,actual growth/expression/dependency/behavior rather than
+claiming effective complexity from ceiling/length. New separate modules/layouts,
+exclude ALL8702 throughV10A. No hour extension from precursor scores alone.
+Do not keep only optimizing easy-goal curricula at unchanged capacity.
+
 Original mission steps below are historical; do not repeat them as unfinished.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.

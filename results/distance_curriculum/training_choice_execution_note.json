@@ -1,0 +1,21 @@
+{
+  "additional_ancestry_normal_responses": 8,
+  "additional_completed_verification_runs": [
+    {
+      "all_checks_passed": true,
+      "counterfactual_normals": 8,
+      "counterfactual_probes": 16,
+      "counterfactual_work": 9447514,
+      "diagnostic_sha256": "1e3469946f3523f7e5e3b3bcc27ddd219c3fd3e746cb46568b87548dc2652ee6",
+      "elapsed_seconds": 0.1278331670037005,
+      "independent_junction_rasters": 12,
+      "replayed_normal_responses": 12,
+      "replayed_probes": 24,
+      "replayed_work": 14988575,
+      "source_sha256": "f1e837b36b1bf0c48de4ecc10098d0fd713d5ed304790444ee01c41df44f0afa"
+    }
+  ],
+  "additional_work": 9552359,
+  "elapsed_seconds": null,
+  "scope": "One initial attempt failed before intervention/output writing because in-memory tuples were compared to JSON lists; normalization repaired the assertion. Original training/raw results were unchanged. One completed verification is also repeated after removing canonical-run retry bookkeeping from the reusable verifier; the earlier run is listed separately."
+}

@@ -1,0 +1,5474 @@
+[
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      true,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      true
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p0/s6/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      11,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p0/s6/perfect/9x9/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 59,
+    "choice_b": 75,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p2/s5/perfect/17x17/a",
+    "junction": 58,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      50,
+      8
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p2/s5/perfect/17x17/b",
+    "source_to_junction_edges": 7
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 897,
+    "choice_b": 865,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r0/p4/s12/perfect/33x33/a",
+    "junction": 898,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      55,
+      4
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 0,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r0/p4/s12/perfect/33x33/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      true,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 23,
+    "choice_b": 31,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p0/s1/perfect/9x9/a",
+    "junction": 32,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      6,
+      6
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p0/s1/perfect/9x9/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 157,
+    "choice_b": 173,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p2/s11/perfect/17x17/a",
+    "junction": 156,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      4,
+      32
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p2/s11/perfect/17x17/b",
+    "source_to_junction_edges": 4
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 353,
+    "choice_b": 387,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r1/p4/s3/perfect/33x33/a",
+    "junction": 386,
+    "junction_source_connected": [
+      true,
+      false
+    ],
+    "junction_to_goals": [
+      18,
+      49
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 1,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r1/p4/s3/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "local/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      true,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      false
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      true,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      false
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/fixed/frozen_choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      true,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      true,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      false
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        false
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_task",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 41,
+    "choice_b": 49,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p0/s2/perfect/9x9/a",
+    "junction": 50,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      12,
+      5
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p0/s2/perfect/9x9/b",
+    "source_to_junction_edges": 5
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 253,
+    "choice_b": 235,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p2/s1/perfect/17x17/a",
+    "junction": 236,
+    "junction_source_connected": [
+      true,
+      true
+    ],
+    "junction_to_goals": [
+      35,
+      9
+    ],
+    "local_output_bits": [
+      [
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": true,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p2/s1/perfect/17x17/b",
+    "source_to_junction_edges": 2
+  },
+  {
+    "aligned": true,
+    "arm": "evolved/curriculum/frozen_choice",
+    "both_correct": false,
+    "choice_a": 543,
+    "choice_b": 609,
+    "correct_goal_choice": [
+      false,
+      false
+    ],
+    "first": "test_pairs/r2/p4/s2/perfect/33x33/a",
+    "junction": 576,
+    "junction_source_connected": [
+      false,
+      false
+    ],
+    "junction_to_goals": [
+      16,
+      12
+    ],
+    "local_output_bits": [
+      [
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "replicate": 2,
+    "same_local_output": false,
+    "scope": "Diagnostic added during training before final evaluation; saved tick16 rasters on perfect-tree pairs only; no selection or route claim",
+    "second": "test_pairs/r2/p4/s2/perfect/33x33/b",
+    "source_to_junction_edges": 8
+  }
+]

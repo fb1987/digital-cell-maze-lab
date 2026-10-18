@@ -6,6 +6,64 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [matched goal-distance curriculum V10](results/distance_curriculum.md) and
+[frozen-primitive confirmation V10A](results/distance_confirmation.md) are complete.
+Twelve conditions continue96 organisms for48 generations, comparing Fixed hard
+goals with near1/2→2/3→far goals on **identical maze/source/fork geometry**.
+Capacity stays8 channels/128 genes; both use the same Choice-first objective.
+
+**The curriculum did not establish transfer.** Primary task archives and frozen
+controls solve0/216 unseen reachable mazes and0/179 at distance≥8. All selected
+models make0/18 strict paired choices and0/42 paired complete routes. The
+secondary multirange Curriculum choice archive solves one adjacent-endpoint
+case. BFS/A*/wavefront solve all216 ordinary/42 paired targets and all no-path
+cases. There is no competitive speedup.
+
+Curriculum has more valid short training outputs, but no regular training
+pair has both ordinary routes correct. Multirange strict training responses:
+1 Curriculum versus15 Fixed; local0. Early shortened cues remove deceptive
+fork bearings. Boundary-leader and frozen-control replays distinguish training
+completion from independent transfer.
+
+**One new training-only choice is preserved.** Native multirange replicate2,
+birth30 genome i1472, chooses both proper exits at a fork6 edges from source,
+with goals2/3 farther. A radius-2 read destination46→59 is sufficient on that
+case; the other changed row is unnecessary there. Goal pulse and long reads
+are both needed. It produced18 mutated offspring but left the final population;
+its full genotype/ancestry is saved explicitly. V10A froze child,parent,root and
+tested12 new matched near/far layouts:0/12 strict choices and0/24 routes at
+either distance for all three. BFS48/48. The training response is real but
+context-specific; random-origin discovery remains central.
+
+Search13.82min; main16.95min; peak203.5MiB. Full suite116 passed, then4 focused
+checks passed after final edits (117 current tests covered). Independent audits
+verify59004 fitness records,268848 junction rasters,227 valid training claims,
+48 selected normal replays and1440 boundary-assay outputs. Main and V10A
+source/model/layout/lineage/storage checks pass; all populations/RNG and useful
+neutral variants remain saved. Earlier source/raw results are unchanged.
+
+Next: test128-versus256-gene capacity with a common copy-and-diverge block
+mutation operator, matched native populations/protection and hard objective.
+First verify old-genome inference equivalence; keep caps/work explicit. All
+8702 saved layouts must be excluded. No known solver enters these lineages.
+
+```bash
+.venv/bin/python -m maze_evolution.distance_study --out results/repeat_distance
+.venv/bin/python -m maze_evolution.distance_diagnostics --out results/repeat_distance
+.venv/bin/python -m maze_evolution.distance_audit --out results/repeat_distance --repack
+.venv/bin/python -m maze_evolution.distance_training_diagnostic --out results/repeat_distance
+.venv/bin/python -m maze_evolution.distance_training_verify --out results/repeat_distance
+.venv/bin/python -m maze_evolution.distance_report --out results/repeat_distance
+```
+
+See [V10 protocol](docs/DISTANCE_STUDY_V10.md),
+[training-time diagnostic detail](docs/DISTANCE_DIAGNOSTICS_V10.md), and
+[V10A protocol](docs/DISTANCE_CONFIRMATION_V10A.md). V10A's freeze/confirmation
+commands use the recorded canonical V10 training assay; primary V10 outputs
+never change in response to post-hoc diagnostics.
+
+## Strict paired-choice priority V9 — October 18, 2026
+
 The [strict paired-choice study V9](results/choice_priority.md) is complete;
 **112 tests pass**. Twelve conditions evolved 96 organisms for 48 generations,
 comparing Prefix scoring with a strict paired-choice priority below complete

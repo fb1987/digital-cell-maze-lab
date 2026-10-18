@@ -1,0 +1,886 @@
+{
+  "records": [
+    {
+      "changes": [
+        {
+          "after": [
+            14,
+            59,
+            6,
+            1,
+            0,
+            1,
+            11
+          ],
+          "before": [
+            14,
+            46,
+            6,
+            1,
+            0,
+            1,
+            11
+          ],
+          "index": 25
+        },
+        {
+          "after": [
+            11,
+            38,
+            36,
+            0,
+            0,
+            0,
+            64
+          ],
+          "before": [
+            11,
+            38,
+            3,
+            0,
+            0,
+            0,
+            64
+          ],
+          "index": 117
+        }
+      ],
+      "condition": "distance/evolved/curriculum/2",
+      "first": "train_near2_goal/r2/p60/s15/perfect/17x17/a",
+      "results": [
+        {
+          "cases": [
+            {
+              "active": 142193,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/a",
+              "dispatches": 195072,
+              "factor_bonus": 0.5,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 3,
+                "component": 23,
+                "connected_fraction": 0.21100917431192662,
+                "cross_progress": 1.0,
+                "pair_both": false,
+                "progress": 1.0,
+                "quality": 0.03014416775884666,
+                "score": 0.0,
+                "selected": 109,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.0
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 0.0,
+                "connected": true,
+                "desired_on": [
+                  73
+                ],
+                "eligible": true,
+                "pair_both": false,
+                "prefix": 1.0,
+                "score": 0.25,
+                "strict": false,
+                "wrong_on": [
+                  91
+                ]
+              },
+              "mask": "000014140000401180220217800202d4450a0a10000002c04d800200010000004000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.0,
+              "partial": 0.2792387543252595,
+              "probe_mask": "0000d43f2880527da0224a7f930222f5452aaad41d0982d27da2a2c85d012000ff4b000000",
+              "reads": [
+                109559,
+                1524,
+                6096,
+                13716
+              ],
+              "signal": {
+                "active": [
+                  194491,
+                  187280
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 0.992,
+                  "4": 0.991869918699187,
+                  "8": 0.991304347826087
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 124,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    148699,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    145983,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  177147,
+                  174431
+                ],
+                "score": 0.9917247555084246,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 12,
+              "strict_pair_credit": 0,
+              "valid": false
+            },
+            {
+              "active": 129579,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/b",
+              "dispatches": 178816,
+              "factor_bonus": 0.5,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 3,
+                "component": 45,
+                "connected_fraction": 0.4368932038834951,
+                "cross_progress": 1.0,
+                "pair_both": false,
+                "progress": 1.0,
+                "quality": 0.0624133148404993,
+                "score": 0.0,
+                "selected": 103,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.0
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 0.0,
+                "connected": true,
+                "desired_on": [
+                  91
+                ],
+                "eligible": true,
+                "pair_both": false,
+                "prefix": 1.0,
+                "score": 0.25,
+                "strict": false,
+                "wrong_on": [
+                  73
+                ]
+              },
+              "mask": "00000001080050002002002d01020004002a0a540901001004000200080120000000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.0,
+              "partial": 0.4382545174932719,
+              "probe_mask": "0000d4ffa9805229a5224a7f870202f5552a08d45d0902d07da522c05d052008a505000000",
+              "reads": [
+                99996,
+                1397,
+                5588,
+                12573
+              ],
+              "signal": {
+                "active": [
+                  194028,
+                  187189
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 1.0,
+                  "4": 1.0,
+                  "8": 1.0
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 125,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    148565,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    145851,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  177013,
+                  174299
+                ],
+                "score": 1.0,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 11,
+              "strict_pair_credit": 0,
+              "valid": false
+            }
+          ],
+          "changed_rows": [],
+          "junction": 0.25,
+          "strict_both": false,
+          "work": 2367611
+        },
+        {
+          "cases": [
+            {
+              "active": 140389,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/a",
+              "dispatches": 195072,
+              "factor_bonus": 2.0,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 1,
+                "component": 13,
+                "connected_fraction": 0.35135135135135137,
+                "cross_progress": 0.75,
+                "pair_both": true,
+                "progress": 1.0,
+                "quality": 0.11711711711711713,
+                "score": 0.17111189111011332,
+                "selected": 37,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.25
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 1.0,
+                "connected": true,
+                "desired_on": [
+                  73
+                ],
+                "eligible": true,
+                "pair_both": true,
+                "prefix": 1.0,
+                "score": 1.0,
+                "strict": true,
+                "wrong_on": []
+              },
+              "mask": "00000000000000010000001500020004000800100000000000800000000000000000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.12535023884839244,
+              "partial": 0.4972318339100346,
+              "probe_mask": "0000503f2000400180020057020202e400080090110002c000800080110000000000000000",
+              "reads": [
+                108472,
+                1524,
+                6096,
+                13716
+              ],
+              "signal": {
+                "active": [
+                  189024,
+                  186062
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 0.944,
+                  "4": 0.943089430894309,
+                  "8": 0.9391304347826087
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 118,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    146330,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    143336,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  174778,
+                  171784
+                ],
+                "score": 0.9420732885589725,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 12,
+              "strict_pair_credit": 1,
+              "valid": false
+            },
+            {
+              "active": 128433,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/b",
+              "dispatches": 178816,
+              "factor_bonus": 2.0,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 0,
+                "component": 8,
+                "connected_fraction": 0.18181818181818182,
+                "cross_progress": 0.6666666666666667,
+                "pair_both": true,
+                "progress": 0.7777777777777778,
+                "quality": 0.1414141414141414,
+                "score": 0.12535023884839244,
+                "selected": 44,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.11111111111111105
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 1.0,
+                "connected": true,
+                "desired_on": [
+                  91
+                ],
+                "eligible": true,
+                "pair_both": true,
+                "prefix": 1.0,
+                "score": 1.0,
+                "strict": true,
+                "wrong_on": []
+              },
+              "mask": "00000001000000000000002101020004000800100000000000000000000000000000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.12535023884839244,
+              "partial": 0.4534794309880816,
+              "probe_mask": "00005005a00040290020002f050202e4040808d00d0102c004800080090120000000000000",
+              "reads": [
+                99197,
+                1397,
+                5588,
+                12573
+              ],
+              "signal": {
+                "active": [
+                  189559,
+                  186028
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 0.96,
+                  "4": 0.959349593495935,
+                  "8": 0.9565217391304348
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 120,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    146546,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    143307,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  174994,
+                  171755
+                ],
+                "score": 0.9586237775421234,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 11,
+              "strict_pair_credit": 1,
+              "valid": false
+            }
+          ],
+          "changed_rows": [
+            25
+          ],
+          "junction": 1.0,
+          "strict_both": true,
+          "work": 2356146
+        },
+        {
+          "cases": [
+            {
+              "active": 142193,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/a",
+              "dispatches": 195072,
+              "factor_bonus": 0.5,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 3,
+                "component": 23,
+                "connected_fraction": 0.21100917431192662,
+                "cross_progress": 1.0,
+                "pair_both": false,
+                "progress": 1.0,
+                "quality": 0.03014416775884666,
+                "score": 0.0,
+                "selected": 109,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.0
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 0.0,
+                "connected": true,
+                "desired_on": [
+                  73
+                ],
+                "eligible": true,
+                "pair_both": false,
+                "prefix": 1.0,
+                "score": 0.25,
+                "strict": false,
+                "wrong_on": [
+                  91
+                ]
+              },
+              "mask": "000014140000401180220217800202d4450a0a10000002c04d800200010000004000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.0,
+              "partial": 0.2792387543252595,
+              "probe_mask": "0000d43f2880527da0224a7f930222f5452aaad41d0982d27da2a2c85d012000ff4b000000",
+              "reads": [
+                109559,
+                1524,
+                6096,
+                13716
+              ],
+              "signal": {
+                "active": [
+                  194491,
+                  187280
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 0.992,
+                  "4": 0.991869918699187,
+                  "8": 0.991304347826087
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 124,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    148699,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    145983,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  177147,
+                  174431
+                ],
+                "score": 0.9917247555084246,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 12,
+              "strict_pair_credit": 0,
+              "valid": false
+            },
+            {
+              "active": 129579,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/b",
+              "dispatches": 178816,
+              "factor_bonus": 0.5,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 3,
+                "component": 45,
+                "connected_fraction": 0.4368932038834951,
+                "cross_progress": 1.0,
+                "pair_both": false,
+                "progress": 1.0,
+                "quality": 0.0624133148404993,
+                "score": 0.0,
+                "selected": 103,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.0
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 0.0,
+                "connected": true,
+                "desired_on": [
+                  91
+                ],
+                "eligible": true,
+                "pair_both": false,
+                "prefix": 1.0,
+                "score": 0.25,
+                "strict": false,
+                "wrong_on": [
+                  73
+                ]
+              },
+              "mask": "00000001080050002002002d01020004002a0a540901001004000200080120000000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.0,
+              "partial": 0.4382545174932719,
+              "probe_mask": "0000d4ffa9805229a5224a7f870202f5552a08d45d0902d07da522c05d052008a505000000",
+              "reads": [
+                99996,
+                1397,
+                5588,
+                12573
+              ],
+              "signal": {
+                "active": [
+                  194028,
+                  187189
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 1.0,
+                  "4": 1.0,
+                  "8": 1.0
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 125,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    148565,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    145851,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  177013,
+                  174299
+                ],
+                "score": 1.0,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 11,
+              "strict_pair_credit": 0,
+              "valid": false
+            }
+          ],
+          "changed_rows": [
+            117
+          ],
+          "junction": 0.25,
+          "strict_both": false,
+          "work": 2367611
+        },
+        {
+          "cases": [
+            {
+              "active": 140389,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/a",
+              "dispatches": 195072,
+              "factor_bonus": 2.0,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 1,
+                "component": 13,
+                "connected_fraction": 0.35135135135135137,
+                "cross_progress": 0.75,
+                "pair_both": true,
+                "progress": 1.0,
+                "quality": 0.11711711711711713,
+                "score": 0.17111189111011332,
+                "selected": 37,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.25
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 1.0,
+                "connected": true,
+                "desired_on": [
+                  73
+                ],
+                "eligible": true,
+                "pair_both": true,
+                "prefix": 1.0,
+                "score": 1.0,
+                "strict": true,
+                "wrong_on": []
+              },
+              "mask": "00000000000000010000001500020004000800100000000000800000000000000000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.12535023884839244,
+              "partial": 0.4972318339100346,
+              "probe_mask": "0000503f2000400180020057020202e400080090110002c000800080110000000000000000",
+              "reads": [
+                108472,
+                1524,
+                6096,
+                13716
+              ],
+              "signal": {
+                "active": [
+                  189024,
+                  186062
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 0.944,
+                  "4": 0.943089430894309,
+                  "8": 0.9391304347826087
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 118,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    146330,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    143336,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  174778,
+                  171784
+                ],
+                "score": 0.9420732885589725,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 12,
+              "strict_pair_credit": 1,
+              "valid": false
+            },
+            {
+              "active": 128433,
+              "case": "train_near2_goal/r2/p60/s15/perfect/17x17/b",
+              "dispatches": 178816,
+              "factor_bonus": 2.0,
+              "failure": "disconnected_output",
+              "goal": {
+                "aligned": true,
+                "branches": 0,
+                "component": 8,
+                "connected_fraction": 0.18181818181818182,
+                "cross_progress": 0.6666666666666667,
+                "pair_both": true,
+                "progress": 0.7777777777777778,
+                "quality": 0.1414141414141414,
+                "score": 0.12535023884839244,
+                "selected": 44,
+                "source_degree": 1,
+                "source_fraction": 1.0,
+                "specificity": 0.11111111111111105
+              },
+              "junction": {
+                "aligned": true,
+                "causal": 1.0,
+                "choice": 1.0,
+                "connected": true,
+                "desired_on": [
+                  91
+                ],
+                "eligible": true,
+                "pair_both": true,
+                "prefix": 1.0,
+                "score": 1.0,
+                "strict": true,
+                "wrong_on": []
+              },
+              "mask": "00000001000000000000002101020004000800100000000000000000000000000000000000",
+              "no_path": false,
+              "optimal": false,
+              "pair_min_goal": 0.12535023884839244,
+              "partial": 0.4534794309880816,
+              "probe_mask": "00005005a00040290020002f050202e4040808d00d0102c004800080090120000000000000",
+              "reads": [
+                99197,
+                1397,
+                5588,
+                12573
+              ],
+              "signal": {
+                "active": [
+                  189559,
+                  186028
+                ],
+                "aligned": true,
+                "bands": {
+                  "2": 0.96,
+                  "4": 0.959349593495935,
+                  "8": 0.9565217391304348
+                },
+                "dispatches": [
+                  260096,
+                  260096
+                ],
+                "distal_sites": 120,
+                "goal_signal": true,
+                "leakage": 0.0,
+                "max_distance": 82,
+                "pair_array_bytes": 18611,
+                "range_reads": [
+                  [
+                    146546,
+                    2032,
+                    8128,
+                    18288
+                  ],
+                  [
+                    143307,
+                    2032,
+                    8128,
+                    18288
+                  ]
+                ],
+                "reads": [
+                  174994,
+                  171755
+                ],
+                "score": 0.9586237775421234,
+                "steps": [
+                  16,
+                  16
+                ]
+              },
+              "source_removed_mask": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+              "status": "emitted",
+              "steps": 11,
+              "strict_pair_credit": 1,
+              "valid": false
+            }
+          ],
+          "changed_rows": [
+            25,
+            117
+          ],
+          "junction": 1.0,
+          "strict_both": true,
+          "work": 2356146
+        }
+      ]
+    }
+  ],
+  "scope": "Post-hoc reversions on the selected training pair only. Artificial diagnostic variants never breed; no generalization claim."
+}

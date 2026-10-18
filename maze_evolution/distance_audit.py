@@ -521,6 +521,8 @@ def audit(out):
                 for a,b in zip(r['cases'][::2],r['cases'][1::2]):
                     if not a['junction']['eligible']:continue
                     pc['pairs']+=1;pc['strict_both']+=a['junction']['pair_both']
+                    pc['normal_both_valid']+=bool(a['valid'] and b['valid'])
+                    pc['normal_both_shortest']+=bool(a['optimal'] and b['optimal'])
                     pc['sum_min_j']+=min(a['junction']['score'],b['junction']['score'])
                     pair=pairs[(a['case'],b['case'])];label=decision(pair)
                     pc['sum_goal_distance']+=sum(o.to_goal[label['vertex']] for o in pair.cases)

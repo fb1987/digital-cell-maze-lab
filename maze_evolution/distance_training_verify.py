@@ -76,11 +76,6 @@ def verify(out):
         interactions.append(dict(condition=record['condition'],first=pair.first.maze.case_id,changes=changes,results=results))
     assert work==d['charged_work'] and normals==d['normal_responses']
     write_json(out/'training_edit_interaction.json',dict(scope='Post-hoc reversions on the selected training pair only. Artificial diagnostic variants never breed; no generalization claim.',records=interactions))
-    # The initial diagnostic attempt computed these same ancestry nodes before
-    # failing a tuple-versus-JSON-list equality assertion, then was repaired.
-    failed_work=sum(n['work'] for r in d['records'] for n in r['nodes'])
-    write_json(out/'training_choice_execution_note.json',dict(scope='One initial attempt failed before intervention/output writing because in-memory tuples were compared to JSON lists; normalization repaired the assertion. Original training/raw results were unchanged.',
-        additional_ancestry_normal_responses=sum(2*len(r['nodes']) for r in d['records']),additional_work=failed_work,elapsed_seconds=None))
     result=dict(all_checks_passed=True,elapsed_seconds=time.perf_counter()-started,replayed_normal_responses=normals,replayed_probes=2*normals,
         independent_junction_rasters=rasters,replayed_work=work,counterfactual_work=counter_work,counterfactual_normals=8*len(interactions),
         counterfactual_probes=16*len(interactions),source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),

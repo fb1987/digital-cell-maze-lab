@@ -1,0 +1,908 @@
+[
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        33
+      ],
+      "incoming": 23,
+      "prefix": [
+        16,
+        15,
+        14,
+        23,
+        32
+      ],
+      "vertex": 32
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p0/s4/perfect/9x9/a",
+    "goal_to_fork": [
+      11,
+      9
+    ],
+    "layout_sha256": "ece2289ba26a552fa4495d7dd01fb297a9acd971c85e7ca5fa8cff0db7141b6d",
+    "second": "confirmation_far/r0/p0/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        33
+      ],
+      "incoming": 23,
+      "prefix": [
+        16,
+        15,
+        14,
+        23,
+        32
+      ],
+      "vertex": 32
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p0/s4/perfect/9x9/a",
+    "goal_to_fork": [
+      2,
+      3
+    ],
+    "layout_sha256": "ece2289ba26a552fa4495d7dd01fb297a9acd971c85e7ca5fa8cff0db7141b6d",
+    "second": "confirmation_near/r0/p0/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          47
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        47,
+        49
+      ],
+      "incoming": 57,
+      "prefix": [
+        68,
+        67,
+        66,
+        57,
+        48
+      ],
+      "vertex": 48
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p1/s0/perfect/9x9/a",
+    "goal_to_fork": [
+      4,
+      6
+    ],
+    "layout_sha256": "26de37a805a0ac5feb97a89eaa1f4b7d3c33b71f1675dded1ca8c685305ab7d1",
+    "second": "confirmation_far/r0/p1/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          47
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        47,
+        49
+      ],
+      "incoming": 57,
+      "prefix": [
+        68,
+        67,
+        66,
+        57,
+        48
+      ],
+      "vertex": 48
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p1/s0/perfect/9x9/a",
+    "goal_to_fork": [
+      3,
+      2
+    ],
+    "layout_sha256": "26de37a805a0ac5feb97a89eaa1f4b7d3c33b71f1675dded1ca8c685305ab7d1",
+    "second": "confirmation_near/r0/p1/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          33
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        33,
+        41
+      ],
+      "incoming": 23,
+      "prefix": [
+        11,
+        12,
+        13,
+        14,
+        23,
+        32
+      ],
+      "vertex": 32
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p2/s0/perfect/9x9/a",
+    "goal_to_fork": [
+      5,
+      6
+    ],
+    "layout_sha256": "7afcf18de7555a50207d8b4197ba3906e237d7d1bf1d629325bb85d0a1779118",
+    "second": "confirmation_far/r0/p2/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          33
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        33,
+        41
+      ],
+      "incoming": 23,
+      "prefix": [
+        11,
+        12,
+        13,
+        14,
+        23,
+        32
+      ],
+      "vertex": 32
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p2/s0/perfect/9x9/a",
+    "goal_to_fork": [
+      2,
+      3
+    ],
+    "layout_sha256": "7afcf18de7555a50207d8b4197ba3906e237d7d1bf1d629325bb85d0a1779118",
+    "second": "confirmation_near/r0/p2/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32
+        ],
+        [
+          30
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        30,
+        32
+      ],
+      "incoming": 22,
+      "prefix": [
+        14,
+        13,
+        22,
+        31
+      ],
+      "vertex": 31
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p3/s0/random/9x9/a",
+    "goal_to_fork": [
+      5,
+      8
+    ],
+    "layout_sha256": "94d06f7f32322842b8be16560ddc797221ec0213e522aad10684cf59f66fa949",
+    "second": "confirmation_far/r0/p3/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32
+        ],
+        [
+          30
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        30,
+        32
+      ],
+      "incoming": 22,
+      "prefix": [
+        14,
+        13,
+        22,
+        31
+      ],
+      "vertex": 31
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p3/s0/random/9x9/a",
+    "goal_to_fork": [
+      3,
+      2
+    ],
+    "layout_sha256": "94d06f7f32322842b8be16560ddc797221ec0213e522aad10684cf59f66fa949",
+    "second": "confirmation_near/r0/p3/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          5
+        ],
+        [
+          13
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        13,
+        5
+      ],
+      "incoming": 23,
+      "prefix": [
+        42,
+        41,
+        32,
+        23,
+        14
+      ],
+      "vertex": 14
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p4/s2/random/9x9/a",
+    "goal_to_fork": [
+      5,
+      4
+    ],
+    "layout_sha256": "acd9f88b9c901ae31654fe04218b2063b1d7d6390ded3ec140981d3c2c20e318",
+    "second": "confirmation_far/r0/p4/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          5
+        ],
+        [
+          13
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        13,
+        5
+      ],
+      "incoming": 23,
+      "prefix": [
+        42,
+        41,
+        32,
+        23,
+        14
+      ],
+      "vertex": 14
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p4/s2/random/9x9/a",
+    "goal_to_fork": [
+      2,
+      3
+    ],
+    "layout_sha256": "acd9f88b9c901ae31654fe04218b2063b1d7d6390ded3ec140981d3c2c20e318",
+    "second": "confirmation_near/r0/p4/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        59,
+        61,
+        51
+      ],
+      "incoming": 69,
+      "prefix": [
+        78,
+        69,
+        60
+      ],
+      "vertex": 60
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p5/s1/random/9x9/a",
+    "goal_to_fork": [
+      6,
+      6
+    ],
+    "layout_sha256": "85fe2a302a14be973cf0b03ea0576a2e7c43b9f4c520576abe574c4556955b4a",
+    "second": "confirmation_far/r0/p5/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        59,
+        61,
+        51
+      ],
+      "incoming": 69,
+      "prefix": [
+        78,
+        69,
+        60
+      ],
+      "vertex": 60
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p5/s1/random/9x9/a",
+    "goal_to_fork": [
+      3,
+      2
+    ],
+    "layout_sha256": "85fe2a302a14be973cf0b03ea0576a2e7c43b9f4c520576abe574c4556955b4a",
+    "second": "confirmation_near/r0/p5/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          171
+        ],
+        [
+          205
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        171,
+        205
+      ],
+      "incoming": 189,
+      "prefix": [
+        191,
+        190,
+        189,
+        188
+      ],
+      "vertex": 188
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p6/s5/perfect/17x17/a",
+    "goal_to_fork": [
+      12,
+      16
+    ],
+    "layout_sha256": "0aaabcdb54c5a81a9aa6672a64cbcbd1980df4f50891ac8f9eb3d188b59f87d6",
+    "second": "confirmation_far/r0/p6/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          171
+        ],
+        [
+          205
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        171,
+        205
+      ],
+      "incoming": 189,
+      "prefix": [
+        191,
+        190,
+        189,
+        188
+      ],
+      "vertex": 188
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p6/s5/perfect/17x17/a",
+    "goal_to_fork": [
+      2,
+      3
+    ],
+    "layout_sha256": "0aaabcdb54c5a81a9aa6672a64cbcbd1980df4f50891ac8f9eb3d188b59f87d6",
+    "second": "confirmation_near/r0/p6/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          125
+        ],
+        [
+          127
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        125,
+        127
+      ],
+      "incoming": 143,
+      "prefix": [
+        192,
+        175,
+        158,
+        159,
+        160,
+        143,
+        126
+      ],
+      "vertex": 126
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p7/s1/perfect/17x17/a",
+    "goal_to_fork": [
+      14,
+      7
+    ],
+    "layout_sha256": "bc64dbfa1ce45ea5229645403045545fd4f90e8b0cc803373d2a263baa65032c",
+    "second": "confirmation_far/r0/p7/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          125
+        ],
+        [
+          127
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        125,
+        127
+      ],
+      "incoming": 143,
+      "prefix": [
+        192,
+        175,
+        158,
+        159,
+        160,
+        143,
+        126
+      ],
+      "vertex": 126
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p7/s1/perfect/17x17/a",
+    "goal_to_fork": [
+      3,
+      2
+    ],
+    "layout_sha256": "bc64dbfa1ce45ea5229645403045545fd4f90e8b0cc803373d2a263baa65032c",
+    "second": "confirmation_near/r0/p7/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          263
+        ],
+        [
+          265
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        263,
+        265
+      ],
+      "incoming": 247,
+      "prefix": [
+        231,
+        230,
+        247,
+        264
+      ],
+      "vertex": 264
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p8/s0/perfect/17x17/a",
+    "goal_to_fork": [
+      14,
+      24
+    ],
+    "layout_sha256": "ae3b8b17bb2ef41c41049e6e32878364183d7040b7a5db30e1a96d93912fbaaf",
+    "second": "confirmation_far/r0/p8/s0/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          263
+        ],
+        [
+          265
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        263,
+        265
+      ],
+      "incoming": 247,
+      "prefix": [
+        231,
+        230,
+        247,
+        264
+      ],
+      "vertex": 264
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p8/s0/perfect/17x17/a",
+    "goal_to_fork": [
+      2,
+      3
+    ],
+    "layout_sha256": "ae3b8b17bb2ef41c41049e6e32878364183d7040b7a5db30e1a96d93912fbaaf",
+    "second": "confirmation_near/r0/p8/s0/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          144
+        ],
+        [
+          162
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        160,
+        162,
+        144
+      ],
+      "incoming": 178,
+      "prefix": [
+        212,
+        195,
+        178,
+        161
+      ],
+      "vertex": 161
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p9/s0/random/17x17/a",
+    "goal_to_fork": [
+      7,
+      12
+    ],
+    "layout_sha256": "be756008de836b7e83c0af44c5654fa281c62a179ed7daf34e6a157f8ede560b",
+    "second": "confirmation_far/r0/p9/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          144
+        ],
+        [
+          162
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        160,
+        162,
+        144
+      ],
+      "incoming": 178,
+      "prefix": [
+        212,
+        195,
+        178,
+        161
+      ],
+      "vertex": 161
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p9/s0/random/17x17/a",
+    "goal_to_fork": [
+      3,
+      2
+    ],
+    "layout_sha256": "be756008de836b7e83c0af44c5654fa281c62a179ed7daf34e6a157f8ede560b",
+    "second": "confirmation_near/r0/p9/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          81
+        ],
+        [
+          65
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        65,
+        81
+      ],
+      "incoming": 63,
+      "prefix": [
+        62,
+        63,
+        64
+      ],
+      "vertex": 64
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p10/s4/random/17x17/a",
+    "goal_to_fork": [
+      12,
+      6
+    ],
+    "layout_sha256": "8f027914db94a2ed91a118caa51dd90f38de88e916712d8b0d5b340df847b90c",
+    "second": "confirmation_far/r0/p10/s4/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          81
+        ],
+        [
+          65
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        65,
+        81
+      ],
+      "incoming": 63,
+      "prefix": [
+        62,
+        63,
+        64
+      ],
+      "vertex": 64
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p10/s4/random/17x17/a",
+    "goal_to_fork": [
+      2,
+      3
+    ],
+    "layout_sha256": "8f027914db94a2ed91a118caa51dd90f38de88e916712d8b0d5b340df847b90c",
+    "second": "confirmation_near/r0/p10/s4/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          113
+        ],
+        [
+          97
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        97,
+        113
+      ],
+      "incoming": 95,
+      "prefix": [
+        44,
+        61,
+        78,
+        95,
+        96
+      ],
+      "vertex": 96
+    },
+    "distance": "far",
+    "first": "confirmation_far/r0/p11/s0/random/17x17/a",
+    "goal_to_fork": [
+      8,
+      4
+    ],
+    "layout_sha256": "1a75cbcdd8a6af8fbae4fde34652aaabb95c11eb4f893e3ca2d9474e72420648",
+    "second": "confirmation_far/r0/p11/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          113
+        ],
+        [
+          97
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        97,
+        113
+      ],
+      "incoming": 95,
+      "prefix": [
+        44,
+        61,
+        78,
+        95,
+        96
+      ],
+      "vertex": 96
+    },
+    "distance": "near",
+    "first": "confirmation_near/r0/p11/s0/random/17x17/a",
+    "goal_to_fork": [
+      3,
+      2
+    ],
+    "layout_sha256": "1a75cbcdd8a6af8fbae4fde34652aaabb95c11eb4f893e3ca2d9474e72420648",
+    "second": "confirmation_near/r0/p11/s0/random/17x17/b"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "benchmark_repeats": 30,
+  "eval_limits": {
+    "instructions_per_site": 131072,
+    "max_cells": 65536,
+    "max_steps": 1024,
+    "reads_per_site": 8192
+  },
+  "extended_generations": 192,
+  "horizon": 16,
+  "max_seconds": 4500,
+  "samples": 8,
+  "screen_generations": 48,
+  "seed": 2026101809,
+  "train_limits": {
+    "instructions_per_site": 32768,
+    "max_cells": 65536,
+    "max_steps": 256,
+    "reads_per_site": 4096
+  }
+}
