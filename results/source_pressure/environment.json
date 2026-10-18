@@ -1,0 +1,49 @@
+{
+  "champions_sha256": "1278bec253a5034af954cf7732367747fbb346021e3287429ccf69bb1bb7ed46",
+  "cpu": "Apple M4",
+  "elapsed_seconds": 3853.0799684160156,
+  "hash_rejections": 0,
+  "max_rss_bytes": 142770176,
+  "os": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "llvmlite": "0.50.0",
+    "numba": "0.68.0",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0",
+    "pytest": "9.1.1"
+  },
+  "parent_revision": "50d4fff953bbc38d4ee7d9e9e469a5b2b0d695b8",
+  "previous_hashes": 2649,
+  "python": "3.13.15",
+  "recorded_at": "2026-10-18T01:22:02.795804-04:00",
+  "source_sha256": {
+    "docs/SIGNAL_PRESSURE_V3.md": "54da92ebe151074c9d6fd4d963b9c8ab042a7fa77191dfbedcf226d5842a1f1a",
+    "maze_evolution/__init__.py": "9bd30272bd151cc72e358ba90b756233fa559a67c7106fabf5d5ad3765d784e1",
+    "maze_evolution/baselines.py": "21858b34e9c9128c484cbeccf0290bde33477089f088a98e73d3a160a486b700",
+    "maze_evolution/datasets.py": "bdd27b13b2406119f1b3b7ca3a79599b23ca21272c02165a2da61849e5d6e131",
+    "maze_evolution/evaluator.py": "dc180e7c53782f3996ef7b17fdba715105d7105fbbe18ca362780bdb116b4fd0",
+    "maze_evolution/experiment.py": "a0fdc85bcc7f28c5cbf114b8ed9ac0085bcde1ccd29af969a22337d5ee465b01",
+    "maze_evolution/genome.py": "ae37bd0a39d769c93cf711a8a12b71f191c962d1b38404229f8cac74e8a0836a",
+    "maze_evolution/inspect_results.py": "9e744e79802325ae0edbe93c5128fe35f01b28eba209739d0dd6679922e00733",
+    "maze_evolution/range_audit.py": "f7bdc4c6d8387c734badd38619bf902dbfcb5c09d59fdb1f427d3335faa21575",
+    "maze_evolution/range_report.py": "47ceb86ce1f1bd6049317089afb9f214ae6b97d15f022e3fea33eba6deba5bdc",
+    "maze_evolution/range_study.py": "5514a8d6f1bbc125b6b3984d65a4f5f98d03beca87d4979836cda50b7cb76a23",
+    "maze_evolution/regulatory.py": "d458e53866324e3ae236069b7b0ef3645d840eb0f82ab526d09f5d3df4158323",
+    "maze_evolution/regulatory_runtime.py": "94eac319c43f9b23b7770bc3b69cd20b6a3eee9986c994fcfc8eba873e16e89b",
+    "maze_evolution/regulatory_search.py": "e1e2d3722549be1fc2f7df8f58fc55e584994373f360ca94c19695953f7f1979",
+    "maze_evolution/runtime.py": "fbfb3d561ebe6dd118bf87e99047770e541b2f5cf2635b5ffb8dfa6786a5aa61",
+    "maze_evolution/signal_fitness.py": "9575d95f6b8a5e6bb292681b5e4a48f3a4b4d5d84d7c06cafb615bdea0c2e729",
+    "maze_evolution/signal_probe.py": "2b5b81b1ee3742f62f7622f7695d15372050159e2569f705ab2a0feec0ea9da2",
+    "maze_evolution/signal_search.py": "fad95930fef820528c1da4618c7afa70dace2bce65debe7bb879b9bbe3a4e7e0",
+    "maze_evolution/signal_study.py": "c3f0095fded176bb270ebd31b749464fe7e3bca1451bec3c00bfad591a9b7d7a",
+    "tests/test_cellular_maze_lab.py": "c034caa73605c14b9854d1a53d70093ea3c6be4dc0d79bac83ce2c71af65aa0b",
+    "tests/test_evolution.py": "21616559adb84ea78b4f25d4601e4eae95128191562b1ee76a76157f411d8dcc",
+    "tests/test_regulatory.py": "c9fbef3ebccf98751dc025e67d84cb6a0fb35e73d27c3640b224032c04b66c61",
+    "tests/test_signal_pressure.py": "6e15544a5bf103376da9e5ac47c30e8362838732acb9efe79e9a5ffc367f687f"
+  },
+  "stage_seconds": [
+    745.2488773750083,
+    2881.791913333989
+  ],
+  "training_seconds": 3627.1083997500245
+}

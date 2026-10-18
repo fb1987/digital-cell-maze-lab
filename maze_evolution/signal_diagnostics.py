@@ -40,19 +40,19 @@ def run(out):
         cone.append(dict(arm=r['arm'],case_id=r['case_id'],score=r['score'],local_ceiling=ceiling,
                          fraction_of_local_ceiling=r['score']/ceiling if ceiling else 0.))
     ablations=[]; work=0
-    for rep in range(3):
-        saved=champions[f'signal/local/causal/{rep}']['transmission']
+    for topology,rep in ((t,r) for t in ('local','evolved') for r in range(3)):
+        saved=champions[f'signal/{topology}/causal/{rep}']['transmission']
         item=Individual.load(saved)
         validation=[o for o in oracles.values() if o.maze.split=='validation' and f'/r{rep}/' in o.maze.case_id]
         limits=Limits(**config['eval_limits'])
-        base=evaluate(item,validation,'local',limits,'causal',config['horizon'])
+        base=evaluate(item,validation,topology,limits,'causal',config['horizon'])
         work+=base.work
         rows=[]
         for index in range(len(item.genome.genes)):
             genes=item.genome.genes[:index]+item.genome.genes[index+1:]
             if not genes: continue
             modified=Individual(f'analysis/r{rep}/delete{index}',Genome(genes),None,0)
-            ev=evaluate(modified,validation,'local',limits,'causal',config['horizon'])
+            ev=evaluate(modified,validation,topology,limits,'causal',config['horizon'])
             work+=ev.work
             rows.append(dict(deleted=index,gene=item.genome.genes[index].row(),digest=modified.genome.digest,
                 signal=ev.long_signal,delta=ev.long_signal-base.long_signal,work=ev.work))
@@ -61,11 +61,11 @@ def run(out):
             if len(oracle.path)-1 < 8: continue
             d=np.array(distances(oracle.maze,oracle.maze.start))
             ceilings.append(float(np.mean([np.mean(d[d>=k]<=config['horizon']) for k in (2,4,8) if np.any(d>=k)])))
-        ablations.append(dict(replicate=rep,id=item.identity,genes=len(item.genome.genes),
+        ablations.append(dict(topology=topology,replicate=rep,id=item.identity,genes=len(item.genome.genes),
             validation_local_ceiling=float(np.mean(ceilings)) if ceilings else 0.,
             baseline_signal=base.long_signal,single_deletions_reducing_signal=sum(r['delta'] < -1e-9 for r in rows),
             single_deletions_improving_signal=sum(r['delta'] > 1e-9 for r in rows),deletions=rows))
-        print(f'Validation gene ablations complete for local causal replicate {rep}.',flush=True)
+        print(f'Validation gene ablations complete for {topology} causal replicate {rep}.',flush=True)
     nonlocal_rows=[]
     for rep in range(3):
         tests=[o for o in oracles.values() if o.maze.split=='test' and f'/r{rep}/' in o.maze.case_id]
@@ -89,7 +89,9 @@ def run(out):
             f.write(json.dumps(row,separators=(',',':'))+'\n')
     result=dict(elapsed_seconds=time.perf_counter()-started,charged_work=work,
         caveat='Post-freeze diagnostics only. Single-gene dispensability does not imply joint removability. No genomes were replaced.',
-        nonlocal_ablation_cases=len(nonlocal_rows),local_cone=cone,local_causal_gene_ablations=ablations)
+        nonlocal_ablation_cases=len(nonlocal_rows),local_cone=cone,gene_ablations=ablations,
+        local_causal_gene_ablations=[r for r in ablations if r['topology']=='local'],
+        evolved_causal_gene_ablations=[r for r in ablations if r['topology']=='evolved'])
     write_json(out/'diagnostics.json',result)
     print(f'Diagnostics complete: {result["elapsed_seconds"]:.1f}s.',flush=True)
 

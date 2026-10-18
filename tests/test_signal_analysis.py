@@ -44,3 +44,29 @@ def test_random_local_programs_obey_graph_causal_cone():
             row=metric(random_genome(rng,True),oracle,horizon=8)
             assert row['max_distance']<=8
             assert row['score']<=ceiling+1e-10
+
+
+def test_wall_ceiling_checkpoints_and_resumes_without_losing_rng(tmp_path):
+    from dataclasses import asdict
+    from io import StringIO
+    import json
+    from maze_evolution.regulatory_search import Individual
+    from maze_evolution.signal_search import search
+    rng=random.Random(1046)
+    population=[Individual(f'ancestor/{i}',random_genome(rng,True),None,120).save() for i in range(4)]
+    fork=tmp_path/'fork.json'
+    fork.write_text(json.dumps(dict(config=dict(origin='random',method='evolution',rich=True,topology='local'),
+                                   population=population,rng_state=rng.getstate())))
+    limits=asdict(Limits(max_steps=8))
+    config=dict(seed=1046,study='signal',topology='local',origin='random',pressure='causal',
+                replicate=0,population=4,generations=3,rich=True,horizon=4,
+                train_limits=limits,eval_limits=limits)
+    cases=[make_case(1046,'wall-ceiling-unit',0,0,5,'perfect')]
+    def run(path,resume=None,deadline=None):
+        return search(config,lambda g:cases,cases,StringIO(),StringIO(),[],path,
+                      fork=fork,resume=resume,deadline=deadline,progress=False)
+    full=run(tmp_path/'full.json')
+    stopped=run(tmp_path/'bounded.json',deadline=0)
+    assert stopped['next_generation']==1
+    resumed=run(tmp_path/'bounded.json',tmp_path/'bounded.json')
+    assert resumed==full

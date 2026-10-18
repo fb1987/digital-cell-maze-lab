@@ -6,6 +6,53 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [source-dependent pressure continuation](results/source_pressure.md) is complete;
+**76 tests pass**. It forks six saved random-origin populations, pairs current and
+causal signalling objectives, and runs 96 organisms for 160 additional generations
+per condition. The genome capacity and inference runtime remain fixed. Search
+including probes took 60.45 minutes on the M4; fresh tests and timing brought the
+main run to 64.22 minutes. No known solver entered the random-origin lineages.
+
+A measurable precursor improved on 174 unseen reachable cases with endpoint
+distance at least eight:
+
+| Transmission archive | Frozen initial | Current objective | Causal pressure |
+| --- | ---: | ---: | ---: |
+| Local mean signal score | — | 0.3071 | 0.3071 |
+| Evolvable ranges mean signal score | 0.2480 | 0.4185 | 0.5090 |
+
+The score measures source-dependent hidden activation and subtracts leakage into
+other components. Causal pressure leads in two of three held-out replicates.
+Zeroing nonlocal reads reduces its score to 0.0809. Leakage is higher than under
+the current objective, and a broadcast does not encode a legal path.
+
+**No general shortest-path solver or speed advantage emerged.** Final multirange
+task archives solve 2/216 reachable mazes under either objective, versus 4/216 for
+their initial frozen task selections. Local task archives solve 2/216 under the
+current objective and 0/216 under causal pressure. Every final task arm solves
+0/174 cases at distance>=8. All observed organism successes are straight paths
+of only 1–2 edges. Compiled BFS/A* solve all 216 reachable and all 48
+disconnected cases. The report distinguishes diagnostic transmission archives
+from task archives and reports complete outputs, latency and real work.
+
+Random-origin discovery remains active. Populations, RNG states and ancestry are
+preserved in [`results/source_pressure/`](results/source_pressure/). A justified
+next experiment preserves these signalling lineages and tests goal-conditioned
+path thinning, with completed shortest paths still first and another fresh final
+set. More complexity remains a hypothesis; it is not inferred from gene count.
+
+```bash
+.venv/bin/python -m maze_evolution.signal_study --out results/repeat_source_pressure
+.venv/bin/python -m maze_evolution.signal_diagnostics --out results/repeat_source_pressure
+.venv/bin/python -m maze_evolution.signal_audit --out results/repeat_source_pressure
+.venv/bin/python -m maze_evolution.signal_report --out results/repeat_source_pressure
+```
+
+See the [preregistered design](docs/SIGNAL_PRESSURE_V3.md). V1/V2 raw results and
+runtime/search modules are unchanged.
+
+## Range/regulation study V2 — October 18, 2026
+
 The [range/regulation continuation](results/range_and_regulation.md) is complete:
 **63 tests pass**. V2 adds eight state channels, up to 128 typed genes, conditional
 expression, local/fixed/evolvable signalling radii, diversity-preserving search,

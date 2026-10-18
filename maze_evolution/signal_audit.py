@@ -1,6 +1,6 @@
 """Post-freeze integrity verification; never changes trained genomes or fitness."""
 import argparse
-from collections import Counter
+from collections import Counter, defaultdict
 import gzip
 import hashlib
 import json
@@ -33,7 +33,7 @@ def audit(out):
         checkpoint=json.loads((root/name).read_text())
         assert checkpoint['config']['origin']=='random'
         ancestors.update({v['id']:Genome.from_dict(v['genome']).digest for v in checkpoint['population']})
-    known=dict(ancestors); registry_count=0; maximum_genes=0
+    known=dict(ancestors); ancestry={}; registry_count=0; maximum_genes=0
     for path in sorted((out/'logs').glob('*/*.genomes.jsonl.gz')):
         for row in lines(path):
             item=Individual.load(row)
@@ -43,12 +43,26 @@ def audit(out):
                 assert item.parent in ancestors and item.genome.digest==ancestors[item.parent]
             maximum_genes=max(maximum_genes,len(item.genome.genes))
             known[item.identity]=item.genome.digest
+            ancestry[item.identity]=(item.parent,item.birth)
             registry_count+=1
     assert maximum_genes<=128
     champions=json.loads((out/'champions.json').read_text())
     for item in champions.values():
         for field in ('champion','frozen','transmission','frozen_transmission'):
             selected=Individual.load(item[field]); assert known[selected.identity]==selected.genome.digest
+    lineages=[]
+    for condition,saved in champions.items():
+        for field in ('champion','transmission'):
+            identity=saved[field]['id']; root_id=identity; depth=0
+            while True:
+                parent,birth=ancestry[root_id]
+                if parent not in ancestry:
+                    break
+                depth+=1; root_id=parent
+            lineages.append(dict(condition=condition,archive=field,id=identity,mutation_depth=depth,
+                root_id=root_id,root_birth=birth,root_parent=parent,
+                root_type='checkpoint' if parent in ancestors else 'fresh_immigrant'))
+    write_json(out/'lineage_audit.json',lineages)
     for topology in ('local','evolved'):
         for rep in range(3):
             assert champions[f'signal/{topology}/current/{rep}']['initial_digests']==champions[f'signal/{topology}/causal/{rep}']['initial_digests']
@@ -77,12 +91,16 @@ def audit(out):
         assert abs(a.partial-row['partial'])<1e-10
         assessments['optimal']+=a.optimal; checked+=1
     work=inference_work=probe_work=case_count=evaluations=0
+    condition_cost=defaultdict(Counter)
     for path in sorted((out/'logs').glob('*/*.evaluations.jsonl.gz')):
         for row in lines(path):
             assert row['id'] in known
             assert row['work']==row['inference_work']+row['probe_work']
             work+=row['work']; inference_work+=row['inference_work']; probe_work+=row['probe_work']
             case_count+=len(row['cases']); evaluations+=1
+            cc=condition_cost[row['condition']]
+            cc[row['split']+'_responses']+=len(row['cases'])
+            cc['inference_work']+=row['inference_work']; cc['probe_work']+=row['probe_work']
             for case in row['cases']:
                 assert oracles[case['case']].maze.split!='test'
     signal_checks=0
@@ -91,6 +109,7 @@ def audit(out):
         assert abs(expected-row['score'])<1e-10
         assert row['pair_array_bytes'] <= 80*len(oracles[row['case_id']].maze.cells)+65536
         signal_checks+=1
+    write_json(out/'training_cost.json',condition_cost)
     ablation_checks=0
     if (out/'nonlocal_ablation.jsonl.gz').exists():
         for row in lines(out/'nonlocal_ablation.jsonl.gz'):

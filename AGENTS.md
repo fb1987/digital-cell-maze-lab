@@ -34,29 +34,41 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): the local pilot and V2 range/regulation
-continuation are complete, with 63 passing tests. Read
-`results/range_and_regulation.md`, `docs/RANGE_STUDY_V2.md` and the original
-`results/first_evolution.md`. V2 used 96×120 rich random populations, eight
-channels and up to 128 gated genes. Rich local/evolvable genomes solved 2/216
-and 1/216 reachable tests, all adjacent endpoints; neither solved any of the
-165 distance>=8 cases. Independent resampling solved 2/216, so no evolutionary
-advantage is established. Seeded arms all solved 211/216 with no nonlocal
-reads; increased inference budget explains the improvement over 189/216 at
-the old cap on the same fresh tasks. No competitive speedup was found.
+Current checkpoint (October 18, 2026): V1, V2 and the V3 source-pressure
+continuation are complete; **76 tests pass**. Read `results/source_pressure.md`,
+`docs/SIGNAL_PRESSURE_V3.md`, then the earlier `results/range_and_regulation.md`,
+`docs/RANGE_STUDY_V2.md` and `results/first_evolution.md` for context.
 
-V1's source/results remain untouched. V2 is in separate `regulatory*`/`range*`
-modules. Full next-population and RNG checkpoints permit deterministic
-continuation. Do not retune against already inspected tests. Original mission
-steps below are historical; do not repeat them as unfinished work.
+V3 pairs current/causal objectives from six saved V2 random-origin populations,
+96 organisms x 160 additional generations. Capacity and V2 inference stay fixed.
+It ran 60.45 minutes of search including source-removal probes, 64.22 minutes with
+fresh holdouts/timing, plus separately recorded post-freeze diagnostics. Mean
+source-dependent transmission on 174 unseen long-route cases improves from
+0.2480 frozen to 0.4185 current / 0.5090 causal with evolvable ranges; local arms
+both reach 0.3071. Causal wins two of three held-out replicates, with higher
+component leakage. Zeroing nonlocal reads reduces its score to 0.0809.
 
-The user wants random-origin emergence to remain central. Preserve these local
-and multirange controls and investigate effective regulatory complexity and
-evolutionary pressure, rather than infer impossibility from the bounded negative
-runs. A sensible next controlled test holds expanded capacity fixed while
-testing precursor/source-dependent signal-transmission objectives against the
-current fitness. Exact route correctness must remain the primary final measure.
-Keep prior raw results immutable; label continuations/diagnostics separately.
+This is a signalling precursor, not a solver. Final multirange task archives
+solve 2/216 reachable cases under either objective (initial frozen task: 4/216).
+Local task archives solve 2/216 current / 0/216 causal. All final task arms solve
+0/174 distance>=8 cases; all successful outputs are straight 1–2-edge routes. Compiled BFS/A* solve 216/216 and 48/48 no-path. No
+competitive speedup or evolutionary path-accuracy advantage is established.
+
+V1/V2 source/results remain untouched. V3 uses separate `signal_*` modules and
+`results/source_pressure/`; logs are losslessly repacked with decoded hashes in
+`storage.json`. Full next-population/RNG checkpoints and lineage records permit
+deterministic continuation. Do not retune against any inspected final tests.
+
+Random-origin emergence remains central. Preserve discovered signalling genomes
+and population diversity. A sensible next controlled test holds capacity fixed,
+preserves these random-origin lineages and tests goal-conditioned path thinning:
+goal-switch dependence and source-connected, unbranched partial output, while
+exact completed shortest routes remain first. Compare with unchanged transmission
+pressure and reserve another fresh final set. Do not insert a known solver. A
+flood can maximize the current precursor reward; source dependence alone does
+not establish a useful distance representation or route computation. Treat more
+capacity, time and regulation as testable hypotheses rather than guarantees.
+Original mission steps below are historical; do not repeat them as unfinished.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.
 2. Implement a **minimal bounded evolvable organism** with a small, typed genome and 2–4 internal per-site state channels. Define a compact grammar of deterministic local instructions. Consider a finite-state/Boolean rule table or small linear program; avoid implementing a giant neural network.

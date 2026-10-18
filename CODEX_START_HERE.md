@@ -1,13 +1,19 @@
 # Paste into Codex after opening this extracted folder
 
-The bundle is imported; the first local experiment and V2 range/regulation study
-are complete. Read `results/range_and_regulation.md`, its integrity/phenotype
-audit, `docs/RANGE_STUDY_V2.md` and `AGENTS.md`. There are 63 passing tests.
-Random-origin discovery remains a central user priority; 96×120 populations with
-128 gated genes have not yet produced a general solver. Their actual populations
-and RNG states are checkpointed for continuation. V1 results/source remain intact.
-Use new final test sets for new experiments; do not treat the finite negatives
-as a verdict. The original implementation mission below is handoff history.
+The bundle is imported; V1, V2 and V3 source-pressure experiments are complete.
+Read `results/source_pressure.md`, `docs/SIGNAL_PRESSURE_V3.md` and `AGENTS.md`.
+There are 76 passing tests. The random-origin track has learned stronger
+source-dependent multirange signalling, but no general shortest-path solver:
+final task archives solve 0/174 unseen cases at distance>=8. The causal objective
+improves mean hidden signal (0.5090 vs 0.4185 current; 0.2480 frozen), with higher
+leakage; nonlocal ablation drops it to 0.0809. Full populations/RNG states and
+ancestry are preserved. V1/V2 runtime/search/raw results remain unchanged.
+
+The next proposed experiment preserves these signalling lineages and tests
+**goal-conditioned path thinning**, keeping completed shortest paths primary,
+capacity fixed and final tests fresh. Do not seed a known solver into a random
+lineage or infer impossibility from these finite negative route results.
+The original implementation prompt below is handoff history, not unfinished work.
 
 Read `AGENTS.md`, `README.md`, `docs/THREAD_CONTEXT.md`, `docs/ARCHITECTURE.md`, `docs/EXPERIMENT_SPEC.md`, and `docs/RESEARCH.md`. The repository is a handoff from an extended research conversation. Preserve its central distinction: **one organism processes an entire maze using a spatial reaction substrate; a population evolves the genomes of these organisms.**
 

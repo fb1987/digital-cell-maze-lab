@@ -31,7 +31,7 @@ def signal_summary(signals):
         for (arm,family),values in sorted(groups.items())]
 
 
-def visuals(out,champions,limits):
+def visuals(out,champions,limits,topology='local'):
     from PIL import Image,ImageDraw
     manifest=json.loads(gzip.open(out/'mazes.json.gz','rt').read())
     selected=[]
@@ -49,8 +49,8 @@ def visuals(out,champions,limits):
         panels=[('BFS shortest route',baseline('compiled_bfs',m.cells,m.w,m.h,m.start,m.goal).mask,False)]
         hidden=[]
         for pressure in ('current','causal'):
-            g=Genome.from_dict(champions[f'signal/local/{pressure}/0']['transmission']['genome'])
-            o=Organism(g,'local',limits); result=o.react(m.cells,m.w,m.h,m.start,m.goal)
+            g=Genome.from_dict(champions[f'signal/{topology}/{pressure}/0']['transmission']['genome'])
+            o=Organism(g,topology,limits); result=o.react(m.cells,m.w,m.h,m.start,m.goal)
             a=assess(result,oracle)
             panels.append((pressure+' output: '+('valid' if a.valid_path else a.failure),result.mask,False))
             normal=observe(o,m.cells,m.w,m.h,m.start,m.goal,16,True)
@@ -71,7 +71,7 @@ def visuals(out,champions,limits):
                 x,y=p%m.w,p//m.w
                 draw.rectangle((ox+x*tile,oy+y*tile,ox+(x+1)*tile-1,oy+(y+1)*tile-1),fill=color)
     (out/'visuals').mkdir(exist_ok=True)
-    canvas.save(out/'visuals/unseen_signals.png')
+    canvas.save(out/'visuals'/('unseen_signals.png' if topology=='local' else 'unseen_ranges.png'))
 
 
 def report(out):
@@ -130,6 +130,38 @@ def report(out):
         '## Validation-only extension decision','',
         '| Topology | Replicate | Initial transmission | Current | Causal | Signal criterion |',
         '|---|---:|---:|---:|---:|---|']
+    sm={r['arm']:r for r in sig if r['family']=='all'}
+    tasks={r['arm']:r for r in summaries}
+    causal=tasks['evolved/causal/task']; current=tasks['evolved/current/task']
+    ca=sm['evolved/causal/transmission']; co=sm['evolved/current/transmission']
+    initial=sm['evolved/causal/frozen_transmission']
+    paired=[]
+    for rep in range(3):
+        values={arm:np.mean([r['score'] for r in signals if r['arm']==arm and r['replicate']==rep and r['edges']>=8])
+                for arm in ('evolved/causal/transmission','evolved/current/transmission')}
+        paired.append(values['evolved/causal/transmission']>values['evolved/current/transmission'])
+    text[3:3]=['','## Findings','',
+        f"**A signalling precursor improved, but a general shortest-path solver did not emerge.** "
+        f"On {ca['cases']} unseen reachable cases with endpoint distance>=8, mean source-dependent "
+        f"transmission is {ca['mean_signal']:.4f} under causal pressure, {co['mean_signal']:.4f} under "
+        f"the current objective, and {initial['mean_signal']:.4f} in the shared frozen initial archive. "
+        f"Causal pressure leads in {sum(paired)}/3 held-out replicates; all three led on validation. "
+        'This is a small paired study, not evidence of statistical significance.','',
+        f"Final multirange task archives solve {causal['optimal']}/{causal['reachable']} shortest routes "
+        f"under causal pressure and {current['optimal']}/{current['reachable']} under the current objective, "
+        f"versus {tasks['evolved/causal/frozen_task']['optimal']}/216 for their frozen initial task selections. "
+        f"Both final task archives solve {causal['long_optimal']}/{causal['long_cases']} long-route cases; "
+        'compiled BFS/A* solve all 216 reachable and all 48 disconnected cases. '
+        'No evolutionary path-accuracy advantage or competitive speedup is established.','',
+        f"The causal transmission archive also leaks more source-dependent activation into other open "
+        f"components: mean leakage {ca['mean_leakage']:.4f}, versus {co['mean_leakage']:.4f} for current. "
+        'The reported signal score already subtracts this penalty. Fast broadcasts across walls can carry '
+        'information without encoding a legal path.','',
+        'The next controlled test should preserve these random-origin signalling lineages and test '
+        '**goal-conditioned path thinning**: switch goal stimuli and reward source-connected, unbranched '
+        'partial outputs that change appropriately, with completed shortest paths still first. Compare '
+        'against unchanged transmission pressure at fixed capacity and use another fresh final test set. '
+        'No known solver should be inserted into the random lineage.','']
     for r in gate['details']:
         text.append(f"| {r['topology']} | {r['replicate']} | {r['initial']:.3f} | {r['current']:.3f} | {r['causal']:.3f} | {r['signal_pass']} |")
     text+=['',f"Signal trigger topologies: {gate['signal_topologies']}; valid-route trigger topologies: {gate['route_topologies']}. "
@@ -157,6 +189,19 @@ def report(out):
     for r in sig:
         if r['family']=='all':
             text.append(f"| {r['arm']} | {r['cases']} | {r['mean_signal']:.4f} | {r['nonzero']} | {r['goal_signal']} | {r['max_distance']} | {r['mean_leakage']:.4f} |")
+    if (out/'training_cost.json').exists():
+        costs=json.loads((out/'training_cost.json').read_text()); groups=defaultdict(lambda:defaultdict(int))
+        for key,values in costs.items():
+            _,topology,pressure,rep=key.split('/')
+            for field,value in values.items(): groups[(topology,pressure)][field]+=value
+        text+=['','## Actual training and validation work','',
+            'Each ordinary response also runs two developmental probes. Candidate slots and per-response '
+            'caps match; actual activity and validation nominee overlap vary. Work below is dispatches '
+            'plus attempted reads, summed across three replicates.','',
+            '| Topology / pressure | Training responses | Validation responses | Inference work | Probe work |',
+            '|---|---:|---:|---:|---:|']
+        for (topology,pressure),c in sorted(groups.items()):
+            text.append(f"| {topology}/{pressure} | {c['train_responses']:,} | {c['validation_responses']:,} | {c['inference_work']:,} | {c['probe_work']:,} |")
     text+=['','## Inference latency and memory','',
         'Thirty warm randomized repetitions per selected size17/33 perfect/cyclic task and replicate. '
         'Input decoding, internal updates and full binary-raster emission are included; genome construction '
@@ -175,10 +220,10 @@ def report(out):
             f"{diagnostics['charged_work']:,} additional logical work units. They change no selected genomes. "
             'Local source dependence cannot travel more than one graph edge per synchronous tick. '
             'The theoretical tick16 coverage ceiling is computed separately from the training reward.','',
-            '| Local causal replicate | Validation signal | Tick16 local ceiling | Genes | Single deletions reducing signal |',
+            '| Causal archive | Validation signal | Tick16 local ceiling | Genes | Single deletions reducing signal |',
             '|---|---:|---:|---:|---:|']
-        for r in diagnostics['local_causal_gene_ablations']:
-            text.append(f"| {r['replicate']} | {r['baseline_signal']:.4f} | {r['validation_local_ceiling']:.4f} | {r['genes']} | {r['single_deletions_reducing_signal']} |")
+        for r in diagnostics['gene_ablations']:
+            text.append(f"| {r['topology']} r{r['replicate']} | {r['baseline_signal']:.4f} | {r['validation_local_ceiling']:.4f} | {r['genes']} | {r['single_deletions_reducing_signal']} |")
         text+=['','Single-gene deletions were assessed on validation only. Redundant genes can interact; '
             'this count is not a minimal program size. It tests effective contributions rather than '
             'equating a long genome with complex regulation.','',
@@ -196,6 +241,15 @@ def report(out):
             'separately on the same final tasks; no retuning follows this diagnostic.','']
     payload=max(r['largest_array_bytes'] for r in summaries)
     probe_payload=max(r['pair_array_bytes'] for r in signals)
+    if (out/'lineage_audit.json').exists():
+        lineage=json.loads((out/'lineage_audit.json').read_text())
+        transmission=[r for r in lineage if r['archive']=='transmission']
+        roots=sum(r['root_type']=='checkpoint' for r in transmission)
+        text+=['',f"Of the {len(transmission)} final transmission archives, {roots} trace to the saved V2 "
+            f"population and {len(transmission)-roots} to fresh random immigrants. Additional mutation depths "
+            f"range from {min(r['mutation_depth'] for r in transmission)} to "
+            f"{max(r['mutation_depth'] for r in transmission)}. This is provenance, not a claim that every "
+            'ancestral mutation was beneficial; full links are in `lineage_audit.json`.','']
     text+=['',f"Largest reported inference array payload: {payload:,} bytes; probe-pair interpreter payload: "
         f"{probe_payload:,} bytes. Interpreter bounds remain 64 bytes/site+64 KiB; observer pair bound is "
         '80 bytes/site+64 KiB. These exclude Python objects, allocator/JIT overhead and evaluator arrays; RSS '
@@ -205,7 +259,9 @@ def report(out):
         'The first size17 perfect/cyclic test from replicate0 is shown, without selection for success. '
         'Current/causal panels use their local transmission archives. Hidden yellow regions show source-dependent '
         'activation at tick16, distinct from emitted path rasters.','',
-        f'![Fixed unseen maze outputs and hidden signals]({out.name}/visuals/unseen_signals.png)','',
+        f'![Fixed local maze outputs and hidden signals]({out.name}/visuals/unseen_signals.png)','',
+        'The same cases with evolvable-range transmission archives:', '',
+        f'![Fixed range maze outputs and hidden signals]({out.name}/visuals/unseen_ranges.png)','',
         '## Reproducibility and limits','',
         f"All {verification['new_individuals']:,} new individual records have valid ancestry links to "
         f"{verification['external_random_ancestors']} checkpoint ancestors or fresh random immigrants. "
@@ -226,7 +282,14 @@ def report(out):
         'Raw configuration, timing repetitions, complete lineage/evaluation logs, output masks, maze manifests, '
         'extension decision, environment/source hashes and next-population/RNG checkpoints are in '
         '`results/source_pressure/`. Earlier results remain immutable.','']
-    visuals(out,champions,Limits(**config['eval_limits']))
+    if (out/'storage.json').exists():
+        storage=json.loads((out/'storage.json').read_text())
+        text+=['',f"Log packaging took {storage['elapsed_seconds']:.1f}s after the benchmark: "
+            f"{storage['before_bytes']/2**20:.2f} to {storage['stored_bytes']/2**20:.2f} MiB. "
+            'Every decoded byte was checked before/after lossless gzip repacking; per-file decoded '
+            'and stored hashes are in `storage.json`. No record values changed.','']
+    for topology in ('local','evolved'):
+        visuals(out,champions,Limits(**config['eval_limits']),topology)
     out.with_suffix('.md').write_text('\n'.join(text))
 
 if __name__=='__main__':
