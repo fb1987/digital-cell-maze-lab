@@ -34,7 +34,8 @@ def partial(mask, oracle):
         left = [to_other[p] for p in reached if to_other[p] >= 0]
         progress = 1. - min(left) / length if left else 0.
         values.append(.1 * bool(reached) + .8 * progress)
-    branches = sum(max(0, sum(q in selected for q in neighbors(p, m.w, m.h)) - 2) for p in selected)
+    branches = sum(max(0, sum(q in selected for q in neighbors(p, m.w, m.h))
+                       - (1 if p in (m.start, m.goal) else 2)) for p in selected)
     stray = len(selected - a - b) / len(m.cells)
     return max(0., min(.99, sum(values) / (2 * (1 + 2 * branches)) - .2 * stray))
 

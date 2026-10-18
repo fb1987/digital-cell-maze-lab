@@ -52,7 +52,8 @@ def independently_scored_partial(mask, oracle):
         progress = max((1 - d[p] / max(1, len(oracle.path) - 1) for p in seen if d[p] >= 0), default=0.)
         scores.append(.1 * bool(seen) + .8 * progress)
         reached.append(seen)
-    branches = sum(max(0, len(qs) - 2) for qs in adjacency.values())
+    branches = sum(max(0, len(qs) - (1 if p == m.start or p == m.goal else 2))
+                   for p, qs in adjacency.items())
     stray = len(selected - reached[0] - reached[1]) / len(m.cells)
     return min(.99, max(0., .5 * sum(scores) / (1 + 2 * branches) - .2 * stray))
 

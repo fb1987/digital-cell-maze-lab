@@ -77,6 +77,13 @@ def test_endpoint_rule_succeeds_only_at_elementary_level_and_partial_is_symmetri
         ev = evaluate(endpoint, group.pairs, 'local', LIMITS)
         if group.level == 0:
             assert all(r['optimal'] for r in ev.rows)
+            pair = group.pairs[0]
+            m = pair.first.maze
+            mask = np.zeros(len(m.cells), np.uint8)
+            mask[[m.start, m.goal]] = 1
+            correct_score = partial(mask, pair.first)
+            mask[pair.second.maze.goal] = 1
+            assert partial(mask, pair.first) < correct_score
         elif group.level > 0:
             assert not any(r['valid'] for r in ev.rows)
         if group.level == 2:
