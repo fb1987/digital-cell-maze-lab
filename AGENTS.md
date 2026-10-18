@@ -34,8 +34,9 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1–V5 are complete; **88 tests pass**.
-Read `results/factor_curriculum.md` and `docs/FACTOR_STUDY_V5.md` first, then
+Current checkpoint (October 18, 2026): V1–V6 are complete; **95 tests pass**.
+Read `results/goal_beacon.md` and `docs/BEACON_STUDY_V6.md` first, then
+`results/factor_curriculum.md` and `docs/FACTOR_STUDY_V5.md`, then
 `results/goal_conditioning.md` and `docs/GOAL_STUDY_V4.md`, then
 `results/source_pressure.md`,
 `docs/SIGNAL_PRESSURE_V3.md`, then the earlier `results/range_and_regulation.md`,
@@ -113,18 +114,69 @@ limited (3/12 curriculum,2/12 product). No competitive speedup is established.
 V1–V4 source/raw results remain unchanged. V5 next populations/RNG states, all
 validation archives and source/lineage/diagnostic records are preserved.
 
-Random-origin emergence remains central. Preserve signalling, goal-sensitive
-and directional-growth variants from **both** V5 arms, selecting archives by
-their recorded validation criterion, not inspected final-test performance.
-A justified next controlled test holds capacity and product objective fixed
-while comparing **symmetric source/goal stimulus initialization** with the
-current convention. The source has initial channel0 activation plus a local
-flag; the goal has only a flag. Add an initial goal pulse in channel1 in the
-treatment, retaining public flags. This supplies stimulus, not a known solver.
-Include frozen controls for each input convention, track communication to
-decision sites and exact turning/detour paths, and reserve fresh layouts.
-Do not insert a solver or retune against any inspected V1–V5 final tests.
-Treat capacity, time and regulation as hypotheses rather than guarantees.
+V6 completes that symmetric-stimulus test. Twelve conditions (local/evolved ×
+flag/pulse ×3),96 organisms ×48 generations, fork the V5 product next population
+and RNG, preserving validation-selected task/goal/transmission archives from
+**both** V5 arms plus ancestral protected elites. Both use fixed V5 product
+pressure. Pulse adds channel1=1 at the goal; source channel0 and public flags
+are unchanged. Flag-mode normal/probe output/state/work and product-fitness
+parity tests pass. Source-removal probes retain the goal pulse and goal flag.
+
+On independent paired layouts, multirange goal archives improve G to0.0390
+versus0.0135 frozen Pulse and0.0137 evolved Flag. Goal-switch source-state
+responses at tick16:8/18 regular pairs Pulse,5/18 frozen Pulse,1/18 Flag.
+Removing the pulse from those evolved Pulse genomes reduces G to0; zeroing
+nonlocal reads also reduces G to0. These are goal-dependent output precursors,
+not correct routes. Both-direction qualification remains0/18 final regular
+pairs. Local goal scores both0.0052 and no source response through tick64.
+
+Primary task archives: local2/216 each (same frozen),multirange0/216 each;
+all0/178 distance>=8 and0/133 mandatory-detour cases. One inherited local
+seven-edge path has one turn on a new maze; the other success is two straight
+edges. Both occur before V6 training. All candidate arms solve0/42 paired
+reachable targets, and all768 tick16 output rasters fail legality even with
+assumed emission. Compiled BFS/A*/wavefront solve all216 primary and42 paired
+reachable targets,48 primary and6 paired no-path cases. No speed advantage.
+Local task no-path16/48 and multirange Flag12/48 match their frozen controls;
+Pulse multirange0/48. No false primary reachable no-path claims in task arms.
+
+The extension gate failed. Search13.11min;main16.31min;peak180.1MiB RSS onM4.
+Audited5016 primary +912 paired +768 cross-input +192 ablated normal outputs,
+58100 training fitness decompositions,254832 source arithmetic records,
+49 training/validation valid claims,48 selected replays; all checks passed.
+There are35907 new individuals and full population/RNG continuations under
+`results/goal_beacon/checkpoints/beacon_{local|evolved}_{flag|pulse}_{0|1|2}.json`.
+Prior V1–V5 source/raw results remain unchanged. New `beacon_*` modules are
+separate; do not patch old runtimes or silently use the wrong input convention.
+V6 config `pressure` names the input mode (`flag`/`pulse`); the objective is fixed
+product pressure in both.
+
+One recorded protocol deviation: the construction-only test used the study
+seed before training, so freeze-before-generation was not literal. It evaluated
+no candidate genomes or outputs; actual final inference began after all models
+froze. See `protocol_notes.json`. Do not claim no prefreeze layouts were ever
+constructed. Use a separate seed for future construction/preflight tests.
+
+Random-origin emergence remains central. Preserve signalling, goal-sensitive,
+and directional-growth variants from both V6 arms, by recorded validation
+criteria. Also preserve `balanced_validation_archive.json`: a post-hoc archive
+of existing validation-evaluated genotypes ranked by mean per-pair min(G_A,G_B),
+then both-goal rate,Q,mean G. It did not alter primary archives or add final
+assays; some identities overlap original selections. Its source/code hashes
+and full genotypes are saved. Mean-G selection discarded some more balanced
+variants (e.g. Pulse replicate1 has validation both=0.5 in the supplemental
+archive but0 in the final mean-G archive). Do not present that as unseen accuracy.
+
+A justified next controlled experiment keeps pulse input, capacity and
+source-pressure component fixed, comparing current mean goal reward with a
+blend of mean and weaker-goal reward: pair2(G_A+G_B) versus
+(G_A+G_B)+2min(G_A,G_B), both max4 and the blend keeps a gradient with one
+missing response. Preregister case-level bonus assignment and selection;
+include frozen controls and preserve both arms' useful variants. Track exact
+turning/detour paths, both-direction output quality and real cost on fresh
+layouts excluding all V1–V6 manifests. Greater heritable capacity, regulation
+and time remain hypotheses; do not infer impossibility from bounded negatives
+or insert a known solver into a random-origin lineage.
 Original mission steps below are historical; do not repeat them as unfinished.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.

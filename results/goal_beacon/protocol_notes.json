@@ -1,0 +1,22 @@
+{
+  "construction_preflight": {
+    "called_functions": [
+      "BeaconData",
+      "Path",
+      "batch",
+      "layout_hash",
+      "len",
+      "paired_tests",
+      "prior_manifests",
+      "range",
+      "resolve",
+      "tests",
+      "validation",
+      "values"
+    ],
+    "deviation": "The construction-only unit test used the study seed before training; the protocol generation order was therefore not literal.",
+    "safeguard": "No candidate genome or response was evaluated in that test. Actual study final outputs were evaluated only after all models froze; no retuning occurred.",
+    "source_sha256": "a0e1a4aa0ac4b6bcbf570b661052dcec71bcc0069dafebe3f779604dc2f43c77",
+    "test": "tests/test_beacon.py::test_v6_data_all_splits_exclude_every_prior_layout"
+  }
+}

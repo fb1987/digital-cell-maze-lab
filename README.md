@@ -6,6 +6,58 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [goal-state pulse study V6](results/goal_beacon.md) is complete; **95 tests
+pass**. Twelve conditions continued random-origin populations for 48 generations
+with 96 organisms each. Both input arms use identical initial genotypes and the
+same product objective. The treatment adds an initial goal pulse in channel 1;
+all primitive rules, eight channels and the 128-gene limit stay fixed. Both V5
+arms' validation-selected task/goal/transmission variants are preserved.
+
+**Goal communication improved on unseen paired layouts.** Multirange goal
+archives score 0.0390 versus 0.0135 frozen Pulse and 0.0137 evolved Flag. Changing
+the goal changes source state by tick 16 in 8/18 regular pairs, versus 5/18
+frozen Pulse and 1/18 Flag. Removing the pulse from those evolved genomes, or
+zeroing nonlocal reads, reduces the intermediate goal score to zero. These are
+precursor measures; no paired output is a legal route.
+
+Route accuracy remains unchanged: local task archives solve 2/216 primary
+reachable mazes, matching frozen controls; multirange arms solve 0/216. All task
+arms solve 0/178 distance≥8 cases, 0/133 mandatory-detour cases and 0/42 paired
+targets. One inherited local success spans seven edges with a turn on a new
+maze. It is present before V6 evolution. BFS/A*/wavefront solve all 216 primary
+and 42 paired reachable targets, and all disconnected cases. No competitive
+speedup is established.
+
+The extension gate did not pass. Search took 13.11 minutes; the main run with
+holdouts/timing took 16.31 minutes, with 180.1 MiB peak RSS on the M4. All 6,888
+final/diagnostic normal outputs and 58,100 training fitness records were audited.
+Full population/RNG, lineage and frozen controls remain available. The report
+records one protocol deviation: a construction-only test used the study seed
+before training, without evaluating a candidate; actual final output evaluation
+occurred only after model freeze. Future construction tests should use a
+separate seed. V1–V5 source/raw results are unchanged.
+
+The next controlled test should compare mean versus balanced two-goal pressure
+at fixed pulse input and capacity. Higher mean score can favor one direction
+while losing the other. A supplemental validation-only archive preserves
+balanced variants from both V6 arms without additional final evaluation. Keep
+these, the transmission variants and inherited directional growth; reserve
+fresh layouts and retain exact path correctness as the final measure.
+
+```bash
+.venv/bin/python -m maze_evolution.beacon_study --out results/repeat_beacon
+.venv/bin/python -m maze_evolution.beacon_diagnostics --out results/repeat_beacon
+.venv/bin/python -m maze_evolution.beacon_audit --out results/repeat_beacon
+.venv/bin/python -m maze_evolution.beacon_report --out results/repeat_beacon
+```
+
+See the [V6 protocol](docs/BEACON_STUDY_V6.md) and
+[`results/goal_beacon/`](results/goal_beacon/). Random-origin discovery remains
+central; this bounded experiment identifies a useful signalling change and an
+unresolved route-construction problem.
+
+## Factorized curriculum V5 — October 18, 2026
+
 The [factorized curriculum study V5](results/factor_curriculum.md) is complete;
 **88 tests pass**. Twelve paired conditions continued six V4 populations for
 48 generations with 96 organisms each. Both arms protect inherited signalling
