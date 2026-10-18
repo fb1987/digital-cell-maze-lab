@@ -22,10 +22,17 @@ def base_group(case):
 def metrics(rows, lookup):
     pairs = [rows[i:i + 2] for i in range(0, len(rows), 2)]
     by_group = defaultdict(list)
+    by_family = defaultdict(Counter)
+    for row in rows:
+        family = by_family[lookup[row['case']]['family']]
+        family['outputs'] += 1
+        for field in ('reachable', 'valid', 'optimal', 'no_path'):
+            family[field] += row[field]
     for pair in pairs:
         if all('pair_optimal' in row for row in pair):
             by_group[base_group(pair[0]['case'])].append(all(row['optimal'] for row in pair))
-    return dict(outputs=len(rows), reachable=sum(r['reachable'] for r in rows),
+    return dict(outputs=len(rows), by_family={k: dict(v) for k, v in by_family.items()},
+        reachable=sum(r['reachable'] for r in rows),
         valid=sum(r['valid'] for r in rows), optimal=sum(r['optimal'] for r in rows),
         no_path=sum(r['no_path'] for r in rows), pairs=sum(r.get('pair_optimal', False) for r in rows) // 2,
         groups_any_pair=sum(any(v) for v in by_group.values()),
