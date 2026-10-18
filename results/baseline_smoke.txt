@@ -1,0 +1,23 @@
+# Baseline smoke run (not a scientific performance result)
+UTC generated: 2026-10-18T02:43:37Z
+CPU: x86_64
+Python: Python 3.13.5
+NumPy: 2.3.5
+Numba: 0.65.1
+
+Command: python cellular_maze_lab.py --sizes 33,65 --samples 3
+CPU microbenchmark: all times median milliseconds; includes input packing/path extraction
+Numba compiled baseline: available
+family    side trials    path     BFS-py   wave-bit    retract    BFS-JIT  prune OK
+random      33      3      65      0.336      0.121      0.014      0.019   0/3
+perfect     33      3     209      0.144      0.243      0.145      0.010   3/3
+snake       33      1     577      0.234      0.546      0.012      0.011   1/1
+comb        33      1     383      0.196      0.402      0.009      0.009   1/1
+random      65      3     129      1.285      0.303      0.028      0.053   0/3
+perfect     65      3     629      0.416      1.228      1.297      0.022   3/3
+snake       65      1    2177      0.914      3.542      0.015      0.024   1/1
+comb        65      1    1472      0.786      2.401      0.016      0.021   1/1
+
+Command: python -m pytest -q
+...................                                                      [100%]
+19 passed in 0.40s

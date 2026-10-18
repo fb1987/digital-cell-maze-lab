@@ -1,0 +1,23 @@
+Local setup smoke check, October 17, 2026 (America/Toronto)
+Environment and source hashes: local_setup_2026-10-17.json
+
+.venv/bin/python cellular_maze_lab.py --sizes 33,65 --samples 3 --seed 1729
+CPU microbenchmark: all times median milliseconds; includes input packing/path extraction
+Numba compiled baseline: available
+family    side trials    path     BFS-py   wave-bit    retract    BFS-JIT  prune OK
+random      33      3      65      0.212      0.062      0.007      0.010   0/3
+perfect     33      3     209      0.087      0.134      0.087      0.005   3/3
+snake       33      1     577      0.135      0.328      0.003      0.005   1/1
+comb        33      1     383      0.116      0.220      0.004      0.004   1/1
+random      65      3     129      0.822      0.242      0.035      0.030   0/3
+perfect     65      3     629      0.301      1.025      1.318      0.017   3/3
+snake       65      1    2177      0.518      2.919      0.008      0.013   1/1
+comb        65      1    1472      0.454      1.927      0.010      0.010   1/1
+
+.venv/bin/python -m pytest -q
+......................                                                   [100%]
+22 passed in 0.22s
+
+Seed reproducibility: passed. Numba-unavailable fallback: passed.
+
+This is not an evolutionary or normalized performance result.
