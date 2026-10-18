@@ -1,0 +1,17 @@
+# V12B: mutation locality with orientation-balanced repair tasks
+
+This follow-up is motivated by V12A's weak repair validation: none of three west-return runs recovered general validation performance, and only one of three output-register runs recovered all96 validation outputs. V12A's fresh confirmation subsequently gives the same passing-replicate counts:0/3 west gate,1/3 output register,0/3 two gates. Its immutable report/data remain separate. The intact program passes all reachable/no-path controls. This experiment tests search stability before authorizing the longer random-origin run; it contains known-solver descendants only.
+
+Hold the V12A runtime, inputs, score, gene/state limits, three defects, selection and elite budget fixed. Compare `wide`1–6 requested edits with `single`one requested edit. In each arm, each generation uses four rotations of one fresh goal pair (eight ordinary inputs); reflection alternates every generation. Levels1–3 cycle, tree/cyclic families alternate. Thus both arms receive identical orientation-balanced tasks and bounds. This is an isolated mutation-locality comparison within V12B; differences from V12A also involve the changed training batches and new layouts, so a cross-study gain cannot be attributed solely to mutation size.
+
+Three replicates per defect and policy,64 organisms, no immigrants or intact founders, at most64 generations or60 seconds per condition. Stop a condition early only on complete validation repair. Same initial genomes and RNG state within each comparison. One requested edit can still replace an instruction or duplicate a bounded block; it is not necessarily one bit. All edit traces, full next populations and RNG states are preserved. The wide arm calls the unchanged V12A search. Check exact parity and ensure every single-arm mutant has precisely one replayable edit event.
+
+Study seed2026101814; unit checks use only already excluded V12A fixtures. Exclude all15,876 whole layouts through V12A, including its fixtures, generated training orbits and fresh confirmation layouts. Validation and final each contain six independent base layouts per replicate (levels1–3 ×tree/cyclic), with all eight transforms and both goals,96 inputs. Freeze all selected models and choose the proposed mutation policy from validation before generating final cases. The choice maximizes the number of exact validation repairs over the nine defect/replicate combinations, then mean validation shortest accuracy; ties prefer single. This choice is fixed before confirmation, and a failed confirmation cannot be rescued by switching policies after inspecting final outcomes.
+
+The chosen policy passes only if at least two defect types each obtain successful fresh repairs in at least two of three replicates. A successful replicate requires≥95% shortest outputs,≥95% complete shortest pairs, and≥25 percentage-point gain over the initial frozen control. The intact solver and BFS must solve all confirmation inputs. Report both policies, actual generations/work/time, and every negative result. Passing establishes bounded repair capability, not random-origin emergence. A failure requires further diagnosis before the long run.
+
+```bash
+.venv/bin/python -m pytest -q tests/test_foundation_repair.py
+.venv/bin/python -m maze_evolution.foundation_repair --out results/foundation_repair
+.venv/bin/python -m maze_evolution.foundation_repair_audit --out results/foundation_repair
+```

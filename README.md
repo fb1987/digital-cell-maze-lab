@@ -6,6 +6,13 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The user-authorized [calibration-first research goal](docs/FOUNDATION_GOAL_PROGRESS.md)
+is active. [V12A calibration](results/foundation_calibration.md) passes the intact
+solver/runtime controls, but only one of nine damaged-program searches confirms
+reliable repair. The next bounded test compares mutation locality with better
+orientation coverage before committing to the longer random-origin search.
+Known solver controls remain separate from every random-origin lineage.
+
 The [research audit after V11](results/research_audit_2026_10_18.md) is complete.
 It recommends continuing random-origin research, while calibrating the search
 and developmental timing before adding another reward term. Evolved causal

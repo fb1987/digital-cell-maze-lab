@@ -1,0 +1,93 @@
+{
+  "scope": "Post-hoc saved-record aggregation; no inference or reselection",
+  "source_sha256": "907d5c42fea507f28126b1eee16b8775b946a7b1335d4fb9653c8bb41e8e9b26",
+  "input_sha256": {
+    "control_matrix.jsonl.gz": "911a8526b45330f940e0c77ccc1506658f8c0ff0cd4ba440ee2e8b1d1d77a5cc",
+    "west_return_gate_0.lineage.jsonl.gz": "54de2f54d4b56d5e7359cc6cbf042235bca2ad53ede033562d97b2993bd1680c",
+    "west_return_gate_1.lineage.jsonl.gz": "941b5f373181b714158cac0aebe218960dc68c5fc3f38debae383e40a1978ec1",
+    "west_return_gate_2.lineage.jsonl.gz": "4d78cde0a26b61a2a7f9f2c86d720747ac8ee9909c46a0dc10c0eff92f9ba286",
+    "output_register_0.lineage.jsonl.gz": "e192e33909958b7be7f3724838f8294d4bfed51479e47027e5017e9ea92c03ed",
+    "output_register_1.lineage.jsonl.gz": "805b2b525fcadb59538f174044ac4ed9714393d56125a08c4bea4c842c417528",
+    "output_register_2.lineage.jsonl.gz": "be4ec127e04e1658e762d4285b784c630b12e5f1df0f09a115afccd6ab6567db",
+    "two_return_gates_0.lineage.jsonl.gz": "79d2f05143b2ea260db339867a75fb879ab812fd6a37475f86aba5ddfe795aff",
+    "two_return_gates_1.lineage.jsonl.gz": "7787be01467d72eaebcf99d47870b61021411de149479645c5ddeaf293821ede",
+    "two_return_gates_2.lineage.jsonl.gz": "08b475b239542a627e0c2a649cededbbd2cccc3c75c62f5ce4d7af6de0ea57ab"
+  },
+  "normal_partial_credit": {
+    "intact": 0,
+    "west_return_gate": 66,
+    "parent_gate": 128,
+    "output_register": 0,
+    "two_return_gates": 98,
+    "two_dependencies": 0
+  },
+  "intact_ordinary_horizon": {
+    "8": {
+      "observations": 144,
+      "raster_only_valid": 56,
+      "new_partial_but_no_old_partial": 48
+    },
+    "16": {
+      "observations": 144,
+      "raster_only_valid": 104,
+      "new_partial_but_no_old_partial": 24
+    },
+    "32": {
+      "observations": 144,
+      "raster_only_valid": 128,
+      "new_partial_but_no_old_partial": 8
+    },
+    "64": {
+      "observations": 144,
+      "raster_only_valid": 136,
+      "new_partial_but_no_old_partial": 0
+    }
+  },
+  "ancestry": {
+    "west_return_gate/r0": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 63
+    },
+    "west_return_gate/r1": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 108
+    },
+    "west_return_gate/r2": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 113
+    },
+    "output_register/r0": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 72
+    },
+    "output_register/r1": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 72
+    },
+    "output_register/r2": {
+      "registered": 568,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 57
+    },
+    "two_return_gates/r0": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 98
+    },
+    "two_return_gates/r1": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 66
+    },
+    "two_return_gates/r2": {
+      "registered": 7232,
+      "exact_intact_genotypes": 0,
+      "mutants_from_original_damaged_genotype": 72
+    }
+  }
+}

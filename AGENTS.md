@@ -34,6 +34,15 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+ACTIVE USER GOAL: complete the calibration-first plan and a justified longer
+random-origin study. Read `docs/FOUNDATION_GOAL_PROGRESS.md` and
+`results/foundation_calibration.md` before the historical checkpoints below.
+V12A is complete/audited; reliable repair failed (0/3,1/3,0/3 across three
+defects). V12B tests mutation locality on orientation-balanced batches.
+Known/repaired controls are STRICTLY SEPARATE from random-origin lineages.
+All 15,876 whole layouts through V12A must be excluded from future tests,
+plus V12B and any later calibration/profiling layouts. Goal remains active.
+
 Current checkpoint (October 18, 2026): V1–V11,V8A,V10A are complete.
 123 current tests are covered (122 full-suite passes, 4 focused passes after
 the final study guard edit, plus 1 separately added exact 256-gene bound test).
