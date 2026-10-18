@@ -97,6 +97,21 @@ def run(out):
         items += [v['item'] for field in ('skills', 'frozen_skills') for v in state[field].values()]
         for item in items:
             details[item['id']]['syntactic_dependencies'] = output_dataflow(Genome.from_dict(item['genome']))
+    timing_packet = json.loads((out / 'confirmation/timings.json').read_text())
+    bfs_times = {r['case']: r['median'] for r in timing_packet['records'] if r['model'] == 'compiled_bfs'}
+    random_digests = {r['digest'] for r in records if r['key'] in selections}
+    timing_groups = defaultdict(list)
+    for row in timing_packet['records']:
+        if isinstance(row['model'], str):
+            continue
+        kind = 'random-origin' if row['model'][0] in random_digests else 'known wavefront control'
+        scope = 'ordinary' if row['case'].startswith('general/') else 'elementary'
+        timing_groups[kind, scope].append(dict(model=row['model'][0], case=row['case'],
+            ratio=row['median'] / bfs_times[row['case']], seconds=row['median']))
+    timing_comparison = {kind + '/' + scope: dict(models=len({r['model'] for r in rs}),
+        matched_inputs=len(rs), median_ratio_to_bfs=statistics.median(r['ratio'] for r in rs),
+        minimum_ratio=min(r['ratio'] for r in rs), maximum_ratio=max(r['ratio'] for r in rs))
+        for (kind, scope), rs in timing_groups.items()}
     screen, per_replicate = {}, []
     for origin in ('native', 'fresh'):
         for topology in ('local', 'evolved'):
@@ -141,6 +156,7 @@ def run(out):
         last_evaluated_population_unique={k: v[-1]['unique'] for k, v in histories.items()},
         last_training_batch_behavior={k: dict(**dict(v), distinct_output_status_fingerprints=len(last_outputs[k]),
             distinct_selection_descriptors=len(last_descriptors[k])) for k, v in last_counts.items()},
+        timing_comparison=timing_comparison,
         primary_success_distances={k: r['successful_distances'] for k, r in results.items() if k.endswith('/champion/general')})
     timecourse_text = ''
     if (out / 'timecourse/summary.json').exists():
@@ -179,6 +195,11 @@ def run(out):
     replicate_rows = [f"| {r['origin']}/{r['topology']}/r{r['replicate']} | {r['evolved_nonadj']}/288 | {r['resampled_nonadj']}/288 | {r['frozen_nonadj']}/288 | {r['evolved_nonadj_pair_groups']}/18 | {r['passes']} |" for r in per_replicate]
     counts = [r for r in records if r['key'] in selections and r['role'] == 'champion' and r['scope'] == 'general']
     long_correct = sum(results[r['key'] + '/champion/general']['long_optimal'] for r in counts)
+    timing_rows = [f"| {k} | {v['models']} | {v['matched_inputs']} | {v['median_ratio_to_bfs']:.2f}× | {v['minimum_ratio']:.2f}–{v['maximum_ratio']:.2f}× |" for k, v in timing_comparison.items()]
+    reference_rows = []
+    for role in ('compiled_bfs', 'compiled_astar', 'wave_bit', 'intact'):
+        rs = [results[f'control/r{rep}/{role}/general'] for rep in range(3)]
+        reference_rows.append(f"| {role} | {sum(r['valid'] for r in rs)}/216 | {sum(r['optimal'] for r in rs)}/216 | {sum(r['no_path'] for r in rs)}/48 |")
     text = f'''# V12C: stable random-origin search and fresh confirmation
 
 The preregistered search completed **{summary['rounds']} matched generations in {summary['elapsed_seconds']/60:.2f} minutes** across 24 conditions. Termination: `{summary['reason']}`. All selected genomes were frozen before fresh layouts were generated. Elementary screening results: `{screen}`. These are bounded screening outcomes, not evidence of general or competitive maze solving.
@@ -190,6 +211,10 @@ Each elementary cell below is **shortest outputs /288; complete shortest pairs /
 | Cohort | D=1 | D=2–4 | D=4–8 | D=8–16 | Ordinary legal; shortest | Correct no-path |
 |---|---:|---:|---:|---:|---:|---:|
 {chr(10).join(tables)}
+
+| Separate reference | Ordinary legal | Ordinary shortest | Correct no-path |
+|---|---:|---:|---:|
+{chr(10).join(reference_rows)}
 
 The per-replicate screen requires more shortest non-adjacent outputs than both matched resampling and frozen controls, plus at least one complete shortest pair in at least two independent base groups. At least two replicates in a cohort must pass. This is a descriptive screen with several cohort comparisons, not a hypothesis-test p-value. Pose correlations and shared task exposure are retained in the raw data.
 
@@ -208,6 +233,12 @@ Training used ordinary stopping and bidirectional partial-path credit, never for
 Search cost: **{summary['responses']:,} ordinary responses**, **{summary['work']:,} dispatch-plus-read units**, **{summary['max_rss_bytes']/2**20:.1f} MiB peak process RSS**. Every condition receives the same number of responses; different programs consume different instructions/time within those slots. This is a 75-minute total study, not 75 minutes per lineage. The bounded total was distributed across 24 conditions. Full prepared populations/RNG and all raw traces are saved for continuation.
 
 Fresh confirmation executes {final['distinct_inferences']:,} distinct program/topology/budget/case combinations, with {final['aliased_responses']:,} reported aliases, in {final['elapsed_seconds']:.2f}s. Elementary limits equal training: 256 ticks/4096 reads/32768 dispatches per site. Ordinary stress tests use 1024/8192/131072. Reference solvers emit complete rasters. Warm timing includes maze decoding, state initialization, updates and raster output; static program setup is separate. Thirty repeated timings, ranges, memory payload estimates and input-byte counts are in `confirmation/timings.json`. Failed routes receive no speed credit. No broad superiority claim follows from tiny-task timings.
+
+| Eligible timing scope | Distinct genotypes | Model/input comparisons | Median runtime / BFS | Range of per-case median ratios |
+|---|---:|---:|---:|---:|
+{chr(10).join(timing_rows)}
+
+Ratios above1 are slower. Only correctly completed shortest outputs enter these matched-case comparisons; omitted scopes have no eligible candidate. Random-origin timings can include secondary or initial selections and are not a claim about every population member. The reference's30 warm repetitions on each selected case provide the denominator. Input arrays and emitted rasters are included; payload memory estimates and peak process RSS are different quantities. The host is an Apple M4 with16GiB RAM, using one sequential search process and no GPU/cloud. Software checks and a read-only ancestry audit ran concurrently during portions of search; fresh timings follow their completion.
 
 Independent audit: **{proof['fitness_records']:,} fitness records**, **{proof['ancestry']['mutations']:,} mutation traces**, **{proof['graded_search_rasters']:,} independently graded search rasters**, every final raster and {proof['distinct_final_replays']:,} distinct candidate replays. All pass, including source/input/selection hashes, founder identity, exact archives, layout exclusion and response/work bounds. Audit cost {proof['elapsed_seconds']:.2f}s, separately charged. Validation and every training record claiming a valid route or correct no-path are fully checked; the remaining training masks use the preregistered deterministic 1/512 record sample. All saved row-to-fitness arithmetic is checked.
 
