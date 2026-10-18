@@ -1,0 +1,10011 @@
+[
+  {
+    "decision": {
+      "allowed": [
+        [
+          55
+        ],
+        [
+          37
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        37,
+        55
+      ],
+      "incoming": 47,
+      "prefix": [
+        48,
+        47,
+        46
+      ],
+      "vertex": 46
+    },
+    "first": "validation_goal/r0/p0/s1/perfect/9x9/a",
+    "layout_sha256": "1f895b27c6e92af52c430dbd5e6eb622959f6f95510eaf72cb0fc6140fcc8792",
+    "mixed": false,
+    "second": "validation_goal/r0/p0/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          20
+        ],
+        [
+          38
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        20,
+        38
+      ],
+      "incoming": 30,
+      "prefix": [
+        23,
+        32,
+        31,
+        30,
+        29
+      ],
+      "vertex": 29
+    },
+    "first": "validation_goal/r0/p1/s0/random/9x9/a",
+    "layout_sha256": "4975f172ca7c36d7f780a926eb3d77af5f3eadfa438f8c31b593df57c8deaa49",
+    "mixed": false,
+    "second": "validation_goal/r0/p1/s0/random/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "validation_goal/r0/p2/s0/disconnected/9x9/a",
+    "layout_sha256": "f0f7275d87ec71c6faa5eb0a70c9edcaaac0d1ba5d7f5e9353d51e6fc9ab969b",
+    "mixed": true,
+    "second": "validation_goal/r0/p2/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          201
+        ],
+        [
+          217
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        201,
+        217
+      ],
+      "incoming": 183,
+      "prefix": [
+        166,
+        183,
+        200
+      ],
+      "vertex": 200
+    },
+    "first": "validation_goal/r0/p3/s1/perfect/17x17/a",
+    "layout_sha256": "b7a02f36891482b0984cc5be4bf33e6ba013498c179b18264e9c7234d7cc6ea6",
+    "mixed": false,
+    "second": "validation_goal/r0/p3/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          88
+        ],
+        [
+          72
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        88,
+        72
+      ],
+      "incoming": 90,
+      "prefix": [
+        92,
+        91,
+        90,
+        89
+      ],
+      "vertex": 89
+    },
+    "first": "validation_goal/r0/p4/s1/random/17x17/a",
+    "layout_sha256": "4a0acb90a59a547b3ecc0060f39927d22684cc77909e3f6d3a34bcddc78e7b47",
+    "mixed": false,
+    "second": "validation_goal/r0/p4/s1/random/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "validation_goal/r0/p5/s0/disconnected/17x17/a",
+    "layout_sha256": "097380bab89e4db062b891f29b338605873e52a45ee0e5f6eb6eda2b506d4ebb",
+    "mixed": true,
+    "second": "validation_goal/r0/p5/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        31,
+        41
+      ],
+      "incoming": 33,
+      "prefix": [
+        43,
+        34,
+        33,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p0/s0/perfect/9x9/a",
+    "layout_sha256": "0ccfe3ed3451aae86322aa065ec23470e0570d9cd886bc77f0d2e8d62b5c8372",
+    "mixed": false,
+    "second": "train_goal/r0/p0/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39,
+          47
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        39,
+        29,
+        47
+      ],
+      "incoming": 37,
+      "prefix": [
+        36,
+        37,
+        38
+      ],
+      "vertex": 38
+    },
+    "first": "train_goal/r0/p1/s0/random/9x9/a",
+    "layout_sha256": "ce4af9e9d7df73843d82b532fd822eaacaf8157fa50eb655c52b10d688b2f0a2",
+    "mixed": false,
+    "second": "train_goal/r0/p1/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        21,
+        39
+      ],
+      "incoming": 31,
+      "prefix": [
+        14,
+        23,
+        32,
+        31,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r0/p2/s2/perfect/9x9/a",
+    "layout_sha256": "f386945024a6c3ab95780d265cf69e373b8ff857da8019264b38fa3771ef9950",
+    "mixed": false,
+    "second": "train_goal/r0/p2/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          40
+        ],
+        [
+          32,
+          22
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        32,
+        22,
+        40
+      ],
+      "incoming": 30,
+      "prefix": [
+        18,
+        19,
+        28,
+        29,
+        30,
+        31
+      ],
+      "vertex": 31
+    },
+    "first": "train_goal/r0/p3/s0/random/9x9/a",
+    "layout_sha256": "3513dbac2db92e4697b570b112df4d12dabc5a7732e3339b5757c80e8153ddf9",
+    "mixed": false,
+    "second": "train_goal/r0/p3/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        13,
+        14,
+        23,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r0/p4/s2/perfect/9x9/a",
+    "layout_sha256": "36544165790ca343aba1004abac415f75b689be54d95ab901c9e77a6a8c96b70",
+    "mixed": false,
+    "second": "train_goal/r0/p4/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          40
+        ],
+        [
+          48
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        40,
+        48
+      ],
+      "incoming": 38,
+      "prefix": [
+        28,
+        29,
+        38,
+        39
+      ],
+      "vertex": 39
+    },
+    "first": "train_goal/r0/p5/s0/random/9x9/a",
+    "layout_sha256": "e4b6a2f7c1d2f84dbbc79b39d7f1663cd7af0627680accca8053deebbeebb8ea",
+    "mixed": false,
+    "second": "train_goal/r0/p5/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        29,
+        31,
+        39
+      ],
+      "incoming": 21,
+      "prefix": [
+        11,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r0/p6/s2/perfect/9x9/a",
+    "layout_sha256": "0e9067b6f75e41240430a9ebe0609194f892be77674ecdcf54da5735bb6ba619",
+    "mixed": false,
+    "second": "train_goal/r0/p6/s2/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p7/s0/disconnected/9x9/a",
+    "layout_sha256": "8605fd3302b537d37ca53973368683db59498368a5ad8c2efe77d17b13fe9f20",
+    "mixed": true,
+    "second": "train_goal/r0/p7/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          61
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        51,
+        61
+      ],
+      "incoming": 43,
+      "prefix": [
+        34,
+        43,
+        52
+      ],
+      "vertex": 52
+    },
+    "first": "train_goal/r0/p8/s0/perfect/9x9/a",
+    "layout_sha256": "9d25cc4c30d0957aa8f6ae089f027788a9d8afd7d9b53d2ec00a2144043b51d4",
+    "mixed": false,
+    "second": "train_goal/r0/p8/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          69
+        ],
+        [
+          61
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        69,
+        71,
+        61
+      ],
+      "incoming": 79,
+      "prefix": [
+        80,
+        79,
+        70
+      ],
+      "vertex": 70
+    },
+    "first": "train_goal/r0/p9/s0/random/9x9/a",
+    "layout_sha256": "274fceda04a311fc711015ee46621d6b1f5106970372f73941f34b0b6ce4d799",
+    "mixed": false,
+    "second": "train_goal/r0/p9/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        23,
+        41
+      ],
+      "incoming": 33,
+      "prefix": [
+        34,
+        33,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p10/s2/perfect/9x9/a",
+    "layout_sha256": "34518341af5b2fc48f286b39e788d303e69934370319e58a352c79afec6e8863",
+    "mixed": false,
+    "second": "train_goal/r0/p10/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          29
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        29,
+        39
+      ],
+      "incoming": 31,
+      "prefix": [
+        24,
+        23,
+        22,
+        31,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r0/p11/s0/random/9x9/a",
+    "layout_sha256": "d73f9b01c775e3db316af75e9b7e444d10f51f5cf5944ed4abf80814eb4386f5",
+    "mixed": false,
+    "second": "train_goal/r0/p11/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        31,
+        23
+      ],
+      "incoming": 41,
+      "prefix": [
+        49,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p12/s5/perfect/9x9/a",
+    "layout_sha256": "1d174822b3b0edcd208809b746f922294e34a785a71a33de1db28f7c49ad9caa",
+    "mixed": false,
+    "second": "train_goal/r0/p12/s5/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          37
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        37,
+        39,
+        29
+      ],
+      "incoming": 47,
+      "prefix": [
+        50,
+        49,
+        48,
+        47,
+        38
+      ],
+      "vertex": 38
+    },
+    "first": "train_goal/r0/p13/s0/random/9x9/a",
+    "layout_sha256": "084b7702d58c8b12aa15877b8eea1bc82f42a8f2caa7a3520921671b136f222d",
+    "mixed": false,
+    "second": "train_goal/r0/p13/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          29
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        29,
+        31
+      ],
+      "incoming": 21,
+      "prefix": [
+        10,
+        11,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r0/p14/s13/perfect/9x9/a",
+    "layout_sha256": "1d2131d999ba41595d2e1faa306c5d59866652d915c3f14e964f2acda90cf1d0",
+    "mixed": false,
+    "second": "train_goal/r0/p14/s13/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p15/s0/disconnected/9x9/a",
+    "layout_sha256": "e99e0f75044aa91e196c36ccff1083737c8b2c2f238687aa5ff0456be8804839",
+    "mixed": true,
+    "second": "train_goal/r0/p15/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          61
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        51,
+        61
+      ],
+      "incoming": 43,
+      "prefix": [
+        15,
+        16,
+        25,
+        34,
+        43,
+        52
+      ],
+      "vertex": 52
+    },
+    "first": "train_goal/r0/p16/s1/perfect/9x9/a",
+    "layout_sha256": "79b5acfa4183d63ffa5996cb08cd0b5c56a4e71327bc214c8f690ff5b6168e57",
+    "mixed": false,
+    "second": "train_goal/r0/p16/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          40
+        ],
+        [
+          50
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        50,
+        40
+      ],
+      "incoming": 48,
+      "prefix": [
+        75,
+        66,
+        57,
+        48,
+        49
+      ],
+      "vertex": 49
+    },
+    "first": "train_goal/r0/p17/s0/random/9x9/a",
+    "layout_sha256": "4ed3565bafaa102dca6f38c20ee60b71657680437f3ead4a7021004b180f9bdd",
+    "mixed": false,
+    "second": "train_goal/r0/p17/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          47
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        47,
+        49
+      ],
+      "incoming": 39,
+      "prefix": [
+        14,
+        13,
+        12,
+        21,
+        30,
+        39,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r0/p18/s2/perfect/9x9/a",
+    "layout_sha256": "5442f333ddfd9cc9da5d83bbb1d9a036df675cf10a2a11b19ac9af5c6c18c3bc",
+    "mixed": false,
+    "second": "train_goal/r0/p18/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          19
+        ],
+        [
+          11
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        9,
+        11,
+        19
+      ],
+      "incoming": 1,
+      "prefix": [
+        0,
+        1,
+        10
+      ],
+      "vertex": 10
+    },
+    "first": "train_goal/r0/p19/s0/random/9x9/a",
+    "layout_sha256": "6ba4c319a6209f00ce222a4ad17089fc0f57f34e382ffee564872f9051b4b67a",
+    "mixed": false,
+    "second": "train_goal/r0/p19/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          23
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        23
+      ],
+      "incoming": 33,
+      "prefix": [
+        52,
+        43,
+        34,
+        33,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p20/s5/perfect/9x9/a",
+    "layout_sha256": "181cb8bc53a2303e6bbcdc8ef447d7ba58b931ceb6fd4cc90dbbbea1c1985b0b",
+    "mixed": false,
+    "second": "train_goal/r0/p20/s5/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          29
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        21,
+        29
+      ],
+      "incoming": 11,
+      "prefix": [
+        1,
+        2,
+        11,
+        20
+      ],
+      "vertex": 20
+    },
+    "first": "train_goal/r0/p21/s0/random/9x9/a",
+    "layout_sha256": "83fdeb114a13f756c54e5f1d2626dcfac62c5867f1472f7a968114a1da6eef22",
+    "mixed": false,
+    "second": "train_goal/r0/p21/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        31,
+        33
+      ],
+      "incoming": 41,
+      "prefix": [
+        47,
+        48,
+        49,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p22/s0/perfect/9x9/a",
+    "layout_sha256": "eecf6ed8cad40f2522399b37ddba1f4a458dcaa4b764e645cc58f0a5c89f568b",
+    "mixed": false,
+    "second": "train_goal/r0/p22/s0/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p23/s0/disconnected/9x9/a",
+    "layout_sha256": "04e3640f1165323aa0ea837cc293b16f1e35255f89bfc3f934ec3cdaf4c28de0",
+    "mixed": true,
+    "second": "train_goal/r0/p23/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          47
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        47,
+        49
+      ],
+      "incoming": 57,
+      "prefix": [
+        68,
+        67,
+        66,
+        57,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r0/p24/s8/perfect/9x9/a",
+    "layout_sha256": "1c4cf1d4d6ab4e61900d73bb060bcb49bce43f56940af3d2fa86801c6c15a5bb",
+    "mixed": false,
+    "second": "train_goal/r0/p24/s8/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        49
+      ],
+      "incoming": 39,
+      "prefix": [
+        46,
+        37,
+        38,
+        39,
+        40
+      ],
+      "vertex": 40
+    },
+    "first": "train_goal/r0/p25/s0/random/9x9/a",
+    "layout_sha256": "a948a9180834d77e5b53c81feee08ea955bff3e5f8da853bf366df7dfd1a0963",
+    "mixed": false,
+    "second": "train_goal/r0/p25/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        13,
+        14,
+        23,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r0/p26/s7/perfect/9x9/a",
+    "layout_sha256": "ab8c5a552de82a65485533607f9c61fb6a67f322d510a6cd9ee99db705043a2c",
+    "mixed": false,
+    "second": "train_goal/r0/p26/s7/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          58
+        ],
+        [
+          50
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        58,
+        50
+      ],
+      "incoming": 60,
+      "prefix": [
+        61,
+        60,
+        59
+      ],
+      "vertex": 59
+    },
+    "first": "train_goal/r0/p27/s1/random/9x9/a",
+    "layout_sha256": "258a53bfbca9ef148bf15dc8e0ff5798f2f15c6e4d343bf0a92fa00592faa969",
+    "mixed": false,
+    "second": "train_goal/r0/p27/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        41,
+        59
+      ],
+      "incoming": 49,
+      "prefix": [
+        57,
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r0/p28/s3/perfect/9x9/a",
+    "layout_sha256": "63b9ff0d12e79d56bcdd874257b12ac6ee79557508c424fb95508aba9d99afb4",
+    "mixed": false,
+    "second": "train_goal/r0/p28/s3/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          47,
+          39
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        47,
+        49,
+        39
+      ],
+      "incoming": 57,
+      "prefix": [
+        72,
+        73,
+        74,
+        75,
+        66,
+        57,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r0/p29/s0/random/9x9/a",
+    "layout_sha256": "c9451a53f8a070bd876e9112291446bc566c144cbb1b95ffe160981970a7d4f8",
+    "mixed": false,
+    "second": "train_goal/r0/p29/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          33
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        33
+      ],
+      "incoming": 41,
+      "prefix": [
+        52,
+        51,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p30/s1/perfect/9x9/a",
+    "layout_sha256": "6388c350d762df98bd48884aef878503d8e8d63b4210bc0b5e91e965225454ae",
+    "mixed": false,
+    "second": "train_goal/r0/p30/s1/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p31/s0/disconnected/9x9/a",
+    "layout_sha256": "fff02a0466acced5f9160ee0a649daceff72508a71d862d3c05bc5f4a1f6afd1",
+    "mixed": true,
+    "second": "train_goal/r0/p31/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          57
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        39,
+        57
+      ],
+      "incoming": 49,
+      "prefix": [
+        34,
+        43,
+        52,
+        51,
+        50,
+        49,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r0/p32/s3/perfect/9x9/a",
+    "layout_sha256": "4d4a64c318cdd72eb1f99dfbe08cd121f13546a7bd4f866089e94880985450b6",
+    "mixed": false,
+    "second": "train_goal/r0/p32/s3/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          52
+        ],
+        [
+          42
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        42,
+        44,
+        52
+      ],
+      "incoming": 34,
+      "prefix": [
+        26,
+        25,
+        34,
+        43
+      ],
+      "vertex": 43
+    },
+    "first": "train_goal/r0/p33/s2/random/9x9/a",
+    "layout_sha256": "7be39edbb25ebdb7b3ed3fbeab8f8d1f87faf4cf20e613551f0fbf41a8a3dffc",
+    "mixed": false,
+    "second": "train_goal/r0/p33/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          59
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        49,
+        41,
+        59
+      ],
+      "incoming": 51,
+      "prefix": [
+        34,
+        43,
+        52,
+        51,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r0/p34/s10/perfect/9x9/a",
+    "layout_sha256": "e44c177e76a8a09bc0619b7e2f736d48f2b79bea09030fa2a910d143fc9ca27c",
+    "mixed": false,
+    "second": "train_goal/r0/p34/s10/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32,
+          40
+        ],
+        [
+          22
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        32,
+        22,
+        40
+      ],
+      "incoming": 30,
+      "prefix": [
+        37,
+        38,
+        29,
+        30,
+        31
+      ],
+      "vertex": 31
+    },
+    "first": "train_goal/r0/p35/s0/random/9x9/a",
+    "layout_sha256": "ee1c59a47d9309c3b49d9cac8ee67036a17f12694a8d5f2a2772c7dfc1001b74",
+    "mixed": false,
+    "second": "train_goal/r0/p35/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          57
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        39,
+        57
+      ],
+      "incoming": 49,
+      "prefix": [
+        70,
+        61,
+        52,
+        51,
+        50,
+        49,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r0/p36/s1/perfect/9x9/a",
+    "layout_sha256": "ea2f260cdf44fd75a28421ef65e1fb590fa1f094976691df440c235791e2fcd5",
+    "mixed": false,
+    "second": "train_goal/r0/p36/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32,
+          22
+        ],
+        [
+          40
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        32,
+        22,
+        40
+      ],
+      "incoming": 30,
+      "prefix": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "vertex": 31
+    },
+    "first": "train_goal/r0/p37/s0/random/9x9/a",
+    "layout_sha256": "f7ba92df7fb38b0cbafd3aabc4525cbc8fffc52d07f936155dd261a59d64ed9c",
+    "mixed": false,
+    "second": "train_goal/r0/p37/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        31,
+        33
+      ],
+      "incoming": 41,
+      "prefix": [
+        66,
+        57,
+        48,
+        49,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p38/s11/perfect/9x9/a",
+    "layout_sha256": "a54e9305147a15b81bcaab2c797fa5524fdbd9839421eb7afe4f8f1fecdfef0b",
+    "mixed": false,
+    "second": "train_goal/r0/p38/s11/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p39/s0/disconnected/9x9/a",
+    "layout_sha256": "f09211526c349b93e0750805a5d09c095e8220164231b00c60f51bceffffab37",
+    "mixed": true,
+    "second": "train_goal/r0/p39/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          59
+        ],
+        [
+          67
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        67,
+        59
+      ],
+      "incoming": 69,
+      "prefix": [
+        70,
+        69,
+        68
+      ],
+      "vertex": 68
+    },
+    "first": "train_goal/r0/p40/s1/perfect/9x9/a",
+    "layout_sha256": "33d49070914a3327bdfb255c0ce9e182413fa8824e82ca66cc2c7782883dc588",
+    "mixed": false,
+    "second": "train_goal/r0/p40/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          61
+        ],
+        [
+          53
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        61,
+        53
+      ],
+      "incoming": 71,
+      "prefix": [
+        79,
+        80,
+        71,
+        62
+      ],
+      "vertex": 62
+    },
+    "first": "train_goal/r0/p41/s2/random/9x9/a",
+    "layout_sha256": "f1650475fc91a5a160e66211729fa16fe31f70ae5ad5301f2d96a65359a681cb",
+    "mixed": false,
+    "second": "train_goal/r0/p41/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        21,
+        39
+      ],
+      "incoming": 31,
+      "prefix": [
+        32,
+        31,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r0/p42/s3/perfect/9x9/a",
+    "layout_sha256": "9bf2763f352dd6b505012d0d7f2f99dc373d3b9212712ebdcab1cbc25b94b233",
+    "mixed": false,
+    "second": "train_goal/r0/p42/s3/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        33,
+        41
+      ],
+      "incoming": 23,
+      "prefix": [
+        4,
+        5,
+        14,
+        23,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r0/p43/s0/random/9x9/a",
+    "layout_sha256": "88ad8b61eed0e48650f87f6ec50130b89a73b8e02cbba57a48aa7ad338046337",
+    "mixed": false,
+    "second": "train_goal/r0/p43/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        51,
+        41
+      ],
+      "incoming": 59,
+      "prefix": [
+        70,
+        69,
+        68,
+        59,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r0/p44/s0/perfect/9x9/a",
+    "layout_sha256": "d4adc6ad405801dc50ba90d5a7bfc81d98508121e683564066fd062435175884",
+    "mixed": false,
+    "second": "train_goal/r0/p44/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          49,
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        49,
+        41,
+        59
+      ],
+      "incoming": 51,
+      "prefix": [
+        53,
+        52,
+        51,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r0/p45/s4/random/9x9/a",
+    "layout_sha256": "1214eb99d8b3c353db091d53ab6036b3fec829bb764c7d73e57e50211fbbfc6c",
+    "mixed": false,
+    "second": "train_goal/r0/p45/s4/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        16,
+        25,
+        34,
+        33,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r0/p46/s1/perfect/9x9/a",
+    "layout_sha256": "00ccb70c2cbc7d75f744cc482fc22f79dc297be94859306678188bdb0c52a69a",
+    "mixed": false,
+    "second": "train_goal/r0/p46/s1/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p47/s0/disconnected/9x9/a",
+    "layout_sha256": "bb159d253c74fccf22c3a696bf1ac4a89f390fb1fefa186823ac4ccacc44e2ba",
+    "mixed": true,
+    "second": "train_goal/r0/p47/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          269
+        ],
+        [
+          267
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        267,
+        269
+      ],
+      "incoming": 251,
+      "prefix": [
+        164,
+        165,
+        166,
+        183,
+        200,
+        217,
+        234,
+        251,
+        268
+      ],
+      "vertex": 268
+    },
+    "first": "train_goal/r0/p48/s6/perfect/17x17/a",
+    "layout_sha256": "c34850e1ad397039eb82830a927f3f6b99d2ad97bbbdb1e1f1c930258db6ae90",
+    "mixed": false,
+    "second": "train_goal/r0/p48/s6/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          62
+        ],
+        [
+          46
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 7,
+      "exits": [
+        46,
+        62
+      ],
+      "incoming": 44,
+      "prefix": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        43,
+        44,
+        45
+      ],
+      "vertex": 45
+    },
+    "first": "train_goal/r0/p49/s0/random/17x17/a",
+    "layout_sha256": "3922ca32194432f5f2e581b8b6e1a1ffaed0bec7a0b0b4badfd1a40b42cc81a1",
+    "mixed": false,
+    "second": "train_goal/r0/p49/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          233
+        ],
+        [
+          215
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 7,
+      "exits": [
+        233,
+        215
+      ],
+      "incoming": 249,
+      "prefix": [
+        253,
+        270,
+        269,
+        268,
+        267,
+        266,
+        249,
+        232
+      ],
+      "vertex": 232
+    },
+    "first": "train_goal/r0/p50/s3/perfect/17x17/a",
+    "layout_sha256": "cba21dbb59a260deea5ab670f3401c37dcee7b37e197535630e295edceedb7ff",
+    "mixed": false,
+    "second": "train_goal/r0/p50/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        21,
+        39
+      ],
+      "incoming": 23,
+      "prefix": [
+        6,
+        23,
+        22
+      ],
+      "vertex": 22
+    },
+    "first": "train_goal/r0/p51/s0/random/17x17/a",
+    "layout_sha256": "13ff9dad9a8b3eb282fc82b81e9a2169b60eae83d4f4e635c4a9636604d24e4c",
+    "mixed": false,
+    "second": "train_goal/r0/p51/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          191
+        ],
+        [
+          207
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        191,
+        207
+      ],
+      "incoming": 173,
+      "prefix": [
+        171,
+        154,
+        155,
+        156,
+        173,
+        190
+      ],
+      "vertex": 190
+    },
+    "first": "train_goal/r0/p52/s3/perfect/17x17/a",
+    "layout_sha256": "1fffa54a5c4df22adf6bf9ab7996632fcfed875f17c5e44ce54ba925d26908c7",
+    "mixed": false,
+    "second": "train_goal/r0/p52/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          143
+        ],
+        [
+          161
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        159,
+        161,
+        143
+      ],
+      "incoming": 177,
+      "prefix": [
+        209,
+        210,
+        211,
+        194,
+        177,
+        160
+      ],
+      "vertex": 160
+    },
+    "first": "train_goal/r0/p53/s0/random/17x17/a",
+    "layout_sha256": "2ebc37af6eeed1b5549ecea5b9e9a46cd45d8428d4292552855064f5c8d2e7e3",
+    "mixed": false,
+    "second": "train_goal/r0/p53/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          133
+        ],
+        [
+          151
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        133,
+        151
+      ],
+      "incoming": 117,
+      "prefix": [
+        65,
+        66,
+        83,
+        100,
+        117,
+        134
+      ],
+      "vertex": 134
+    },
+    "first": "train_goal/r0/p54/s3/perfect/17x17/a",
+    "layout_sha256": "eb73087ab6cfa0b797174445e22e465f35c17d7b467c68b65121468dbfd3cd8e",
+    "mixed": false,
+    "second": "train_goal/r0/p54/s3/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p55/s0/disconnected/17x17/a",
+    "layout_sha256": "881682406177e4cc9c7c23504c2eca337e67e55f3f78597377e41bbbf7860357",
+    "mixed": true,
+    "second": "train_goal/r0/p55/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          267
+        ],
+        [
+          269
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        267,
+        269
+      ],
+      "incoming": 251,
+      "prefix": [
+        132,
+        149,
+        166,
+        183,
+        200,
+        217,
+        234,
+        251,
+        268
+      ],
+      "vertex": 268
+    },
+    "first": "train_goal/r0/p56/s1/perfect/17x17/a",
+    "layout_sha256": "564554c57eae65053c205c004782ad7f088a59e975d1e199e05a9d7ec8d1abc6",
+    "mixed": false,
+    "second": "train_goal/r0/p56/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          75
+        ],
+        [
+          109
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        93,
+        75,
+        109
+      ],
+      "incoming": 91,
+      "prefix": [
+        90,
+        91,
+        92
+      ],
+      "vertex": 92
+    },
+    "first": "train_goal/r0/p57/s1/random/17x17/a",
+    "layout_sha256": "2d6571c29a1d20503648f122a7ee9207a2dd7e4fcd53d1e5fdd196b629e2db3d",
+    "mixed": false,
+    "second": "train_goal/r0/p57/s1/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          109
+        ],
+        [
+          143
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        109,
+        143
+      ],
+      "incoming": 125,
+      "prefix": [
+        175,
+        158,
+        141,
+        124,
+        125,
+        126
+      ],
+      "vertex": 126
+    },
+    "first": "train_goal/r0/p58/s7/perfect/17x17/a",
+    "layout_sha256": "96c5fbb8e7a59136ecc333609391d7f0e429ca8c2f07106c83fe3824ad1b6dcd",
+    "mixed": false,
+    "second": "train_goal/r0/p58/s7/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          129
+        ],
+        [
+          145
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        145,
+        129
+      ],
+      "incoming": 163,
+      "prefix": [
+        197,
+        180,
+        163,
+        146
+      ],
+      "vertex": 146
+    },
+    "first": "train_goal/r0/p59/s0/random/17x17/a",
+    "layout_sha256": "ee13f622716c483620e6c377f9f11468abf8d613b35ea11ce7f774f9228b5498",
+    "mixed": false,
+    "second": "train_goal/r0/p59/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          189
+        ],
+        [
+          171
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        189,
+        171
+      ],
+      "incoming": 205,
+      "prefix": [
+        222,
+        205,
+        188
+      ],
+      "vertex": 188
+    },
+    "first": "train_goal/r0/p60/s2/perfect/17x17/a",
+    "layout_sha256": "4b195ec81554d933a06a3cdcac0f64932b199d1648baf611330904de8094d124",
+    "mixed": false,
+    "second": "train_goal/r0/p60/s2/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          157
+        ],
+        [
+          139
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        157,
+        139
+      ],
+      "incoming": 155,
+      "prefix": [
+        204,
+        205,
+        188,
+        171,
+        172,
+        155,
+        156
+      ],
+      "vertex": 156
+    },
+    "first": "train_goal/r0/p61/s0/random/17x17/a",
+    "layout_sha256": "66a1da786997b72a196b6252c5dcedc3461786fcfcba320c0a725459bd2a4088",
+    "mixed": false,
+    "second": "train_goal/r0/p61/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          123
+        ],
+        [
+          139
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        123,
+        139
+      ],
+      "incoming": 121,
+      "prefix": [
+        137,
+        120,
+        121,
+        122
+      ],
+      "vertex": 122
+    },
+    "first": "train_goal/r0/p62/s0/perfect/17x17/a",
+    "layout_sha256": "4427b1696d2efc20cc24ecc30e69698390e681bf3d41d0da55358a0f3367f22d",
+    "mixed": false,
+    "second": "train_goal/r0/p62/s0/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p63/s0/disconnected/17x17/a",
+    "layout_sha256": "43aaa091ba875021e91af89a92ce845069d99eeed30092824041ff12409fb8dd",
+    "mixed": true,
+    "second": "train_goal/r0/p63/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          47
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        31,
+        47
+      ],
+      "incoming": 29,
+      "prefix": [
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r0/p64/s1/perfect/17x17/a",
+    "layout_sha256": "e46f898d23d8bf7c8d6d562972d920d5e03c3a9f17fb387bd82b23e017c2bf18",
+    "mixed": false,
+    "second": "train_goal/r0/p64/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          79
+        ],
+        [
+          81,
+          97
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        79,
+        81,
+        97
+      ],
+      "incoming": 63,
+      "prefix": [
+        46,
+        63,
+        80
+      ],
+      "vertex": 80
+    },
+    "first": "train_goal/r0/p65/s0/random/17x17/a",
+    "layout_sha256": "46d49a5658b72d1e007b92090d79b41fb19712e3745df10c505edd8724df51e2",
+    "mixed": false,
+    "second": "train_goal/r0/p65/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          179
+        ],
+        [
+          195
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        195,
+        179
+      ],
+      "incoming": 197,
+      "prefix": [
+        266,
+        249,
+        232,
+        215,
+        198,
+        197,
+        196
+      ],
+      "vertex": 196
+    },
+    "first": "train_goal/r0/p66/s5/perfect/17x17/a",
+    "layout_sha256": "8891736bb0d438bc866c92b1d1eab76b1bd4f3c6dc2455a2a1f0fddd4ca885c1",
+    "mixed": false,
+    "second": "train_goal/r0/p66/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          75
+        ],
+        [
+          57
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        57,
+        75
+      ],
+      "incoming": 41,
+      "prefix": [
+        6,
+        7,
+        8,
+        25,
+        42,
+        41,
+        58
+      ],
+      "vertex": 58
+    },
+    "first": "train_goal/r0/p67/s0/random/17x17/a",
+    "layout_sha256": "12e43803bd9564e19200db5d338c16cb233347847b6f5230c69cea5f8a36d1ea",
+    "mixed": false,
+    "second": "train_goal/r0/p67/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          219
+        ],
+        [
+          253
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        219,
+        253
+      ],
+      "incoming": 235,
+      "prefix": [
+        234,
+        235,
+        236
+      ],
+      "vertex": 236
+    },
+    "first": "train_goal/r0/p68/s10/perfect/17x17/a",
+    "layout_sha256": "dc0144e6281fb1c3aa6b42ef381ad7f0cfbf7f5f2a9ba4668a160be5d40931e1",
+    "mixed": false,
+    "second": "train_goal/r0/p68/s10/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          111
+        ],
+        [
+          93
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        111,
+        93
+      ],
+      "incoming": 109,
+      "prefix": [
+        123,
+        124,
+        125,
+        108,
+        109,
+        110
+      ],
+      "vertex": 110
+    },
+    "first": "train_goal/r0/p69/s0/random/17x17/a",
+    "layout_sha256": "38ee537cecda1eb3cbf4218f86e6ce391379b93273f43ce78f0b7269df9252cf",
+    "mixed": false,
+    "second": "train_goal/r0/p69/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          155
+        ],
+        [
+          137
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        155,
+        137
+      ],
+      "incoming": 171,
+      "prefix": [
+        189,
+        188,
+        171,
+        154
+      ],
+      "vertex": 154
+    },
+    "first": "train_goal/r0/p70/s2/perfect/17x17/a",
+    "layout_sha256": "fc633b69a441823435ac519f70186666cd363d2706ac25c1aa753ffbad0e8f74",
+    "mixed": false,
+    "second": "train_goal/r0/p70/s2/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p71/s0/disconnected/17x17/a",
+    "layout_sha256": "453a7e73c792d1843ce6893c3db85ab6962af48dfffbf7bf70f91c76a0a2f3a6",
+    "mixed": true,
+    "second": "train_goal/r0/p71/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          191
+        ],
+        [
+          189
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        189,
+        191
+      ],
+      "incoming": 173,
+      "prefix": [
+        155,
+        156,
+        173,
+        190
+      ],
+      "vertex": 190
+    },
+    "first": "train_goal/r0/p72/s7/perfect/17x17/a",
+    "layout_sha256": "8faefe52c3beb3bbf11b9408d7cd968dc9bd3744614b97fbcca76f22c2d8f440",
+    "mixed": false,
+    "second": "train_goal/r0/p72/s7/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          263
+        ],
+        [
+          281
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        281,
+        263
+      ],
+      "incoming": 279,
+      "prefix": [
+        276,
+        277,
+        278,
+        279,
+        280
+      ],
+      "vertex": 280
+    },
+    "first": "train_goal/r0/p73/s0/random/17x17/a",
+    "layout_sha256": "c3be72f226d4e9a996cb89458e2f6b387b779c0ae5d4d2c2afd912f4282131d4",
+    "mixed": false,
+    "second": "train_goal/r0/p73/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          241
+        ],
+        [
+          257
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 8,
+      "exits": [
+        257,
+        241
+      ],
+      "incoming": 259,
+      "prefix": [
+        194,
+        211,
+        228,
+        227,
+        226,
+        243,
+        260,
+        259,
+        258
+      ],
+      "vertex": 258
+    },
+    "first": "train_goal/r0/p74/s3/perfect/17x17/a",
+    "layout_sha256": "5ad313a699ad939db093a2f176af904bcf6e3e121fefa9200b5c2c5859d055c8",
+    "mixed": false,
+    "second": "train_goal/r0/p74/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          59
+        ],
+        [
+          43
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        43,
+        59
+      ],
+      "incoming": 25,
+      "prefix": [
+        8,
+        25,
+        42
+      ],
+      "vertex": 42
+    },
+    "first": "train_goal/r0/p75/s0/random/17x17/a",
+    "layout_sha256": "5da06f1606aaa2de85bd0ef65df9b621c48f1da56f96988e424f5c274f0a1e13",
+    "mixed": false,
+    "second": "train_goal/r0/p75/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          249
+        ],
+        [
+          267
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        267,
+        249
+      ],
+      "incoming": 265,
+      "prefix": [
+        264,
+        265,
+        266
+      ],
+      "vertex": 266
+    },
+    "first": "train_goal/r0/p76/s3/perfect/17x17/a",
+    "layout_sha256": "0013fb90c6d4f74c812741548132cd69253d9b4e02f2440426b4962633d0da04",
+    "mixed": false,
+    "second": "train_goal/r0/p76/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          106
+        ],
+        [
+          122
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        104,
+        106,
+        122
+      ],
+      "incoming": 88,
+      "prefix": [
+        86,
+        87,
+        88,
+        105
+      ],
+      "vertex": 105
+    },
+    "first": "train_goal/r0/p77/s0/random/17x17/a",
+    "layout_sha256": "a2cf9e57d4fd0d9f5db74f56f52f8a82a1105c216ccfc62f12ddfd49e87421a9",
+    "mixed": false,
+    "second": "train_goal/r0/p77/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          25
+        ],
+        [
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 7,
+      "exits": [
+        23,
+        25
+      ],
+      "incoming": 41,
+      "prefix": [
+        111,
+        94,
+        77,
+        60,
+        59,
+        58,
+        41,
+        24
+      ],
+      "vertex": 24
+    },
+    "first": "train_goal/r0/p78/s2/perfect/17x17/a",
+    "layout_sha256": "6ac246b455a6d5b423abdbbcff3f26e1667edef06a25ded7c90b16d6305a1c9b",
+    "mixed": false,
+    "second": "train_goal/r0/p78/s2/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p79/s0/disconnected/17x17/a",
+    "layout_sha256": "5eb85f90b0d6f34dbc38bd2dce714bdb12603d399352d59d69d866a61e31baf2",
+    "mixed": true,
+    "second": "train_goal/r0/p79/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          131
+        ],
+        [
+          147
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        131,
+        147
+      ],
+      "incoming": 113,
+      "prefix": [
+        81,
+        98,
+        97,
+        96,
+        113,
+        130
+      ],
+      "vertex": 130
+    },
+    "first": "train_goal/r0/p80/s1/perfect/17x17/a",
+    "layout_sha256": "e25c16225934880b6128ffb3055fa928608bb418e9a5af0b66f3bb68028738d1",
+    "mixed": false,
+    "second": "train_goal/r0/p80/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          184
+        ],
+        [
+          200
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        200,
+        184
+      ],
+      "incoming": 202,
+      "prefix": [
+        235,
+        236,
+        219,
+        202,
+        201
+      ],
+      "vertex": 201
+    },
+    "first": "train_goal/r0/p81/s0/random/17x17/a",
+    "layout_sha256": "dafa9cc79af64c5f31d719597cef207a35f546c519f2786cdd9c41166081a407",
+    "mixed": false,
+    "second": "train_goal/r0/p81/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          77
+        ],
+        [
+          43
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        43,
+        77
+      ],
+      "incoming": 59,
+      "prefix": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "vertex": 60
+    },
+    "first": "train_goal/r0/p82/s5/perfect/17x17/a",
+    "layout_sha256": "4934aa50edb2912023e32fcfa6ba4bc5fc47b271fa5fe4bcbb091a58622f7154",
+    "mixed": false,
+    "second": "train_goal/r0/p82/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          164
+        ],
+        [
+          166
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        164,
+        166
+      ],
+      "incoming": 182,
+      "prefix": [
+        216,
+        199,
+        182,
+        165
+      ],
+      "vertex": 165
+    },
+    "first": "train_goal/r0/p83/s0/random/17x17/a",
+    "layout_sha256": "8eb0f3b3770c1de1244f99bb3071506ce83eb86f9ba7e81440b0eceac05a02e9",
+    "mixed": false,
+    "second": "train_goal/r0/p83/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          179
+        ],
+        [
+          145
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        145,
+        179
+      ],
+      "incoming": 163,
+      "prefix": [
+        164,
+        163,
+        162
+      ],
+      "vertex": 162
+    },
+    "first": "train_goal/r0/p84/s0/perfect/17x17/a",
+    "layout_sha256": "82f8b6b807e9d6a0a1ff89b14ac54afdd4deea951ba25f9bf61097c427ffd6e8",
+    "mixed": false,
+    "second": "train_goal/r0/p84/s0/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          230
+        ],
+        [
+          248
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        246,
+        248,
+        230
+      ],
+      "incoming": 264,
+      "prefix": [
+        282,
+        281,
+        264,
+        247
+      ],
+      "vertex": 247
+    },
+    "first": "train_goal/r0/p85/s0/random/17x17/a",
+    "layout_sha256": "354bdb7a2d3b2e7a2e90101723d99b868164405a77ed8ef0089844ee7a2fcdb0",
+    "mixed": false,
+    "second": "train_goal/r0/p85/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          223
+        ],
+        [
+          239
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 8,
+      "exits": [
+        223,
+        239
+      ],
+      "incoming": 205,
+      "prefix": [
+        86,
+        103,
+        120,
+        137,
+        154,
+        171,
+        188,
+        205,
+        222
+      ],
+      "vertex": 222
+    },
+    "first": "train_goal/r0/p86/s6/perfect/17x17/a",
+    "layout_sha256": "e8b1274f741441af73219e84097b1774c10e8e3eac2f7056548ce746ca62d42a",
+    "mixed": false,
+    "second": "train_goal/r0/p86/s6/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p87/s0/disconnected/17x17/a",
+    "layout_sha256": "f3507b91b12540d2bec3ddae127b17594f5f8d188255c1c3d1f216025e3b60e0",
+    "mixed": true,
+    "second": "train_goal/r0/p87/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          163
+        ],
+        [
+          147
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        163,
+        147
+      ],
+      "incoming": 165,
+      "prefix": [
+        217,
+        200,
+        183,
+        166,
+        165,
+        164
+      ],
+      "vertex": 164
+    },
+    "first": "train_goal/r0/p88/s6/perfect/17x17/a",
+    "layout_sha256": "8cf061c7dbafaa613b27b557c6ef1156652b985ea27e1755fc767266de04dfb1",
+    "mixed": false,
+    "second": "train_goal/r0/p88/s6/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          224
+        ],
+        [
+          206
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        224,
+        206
+      ],
+      "incoming": 240,
+      "prefix": [
+        239,
+        240,
+        223
+      ],
+      "vertex": 223
+    },
+    "first": "train_goal/r0/p89/s0/random/17x17/a",
+    "layout_sha256": "d668e232b4fad507bbabcff3a703f064eeefce8c6f5eeff24f471644a83d59ac",
+    "mixed": false,
+    "second": "train_goal/r0/p89/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          157
+        ],
+        [
+          159
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        157,
+        159
+      ],
+      "incoming": 175,
+      "prefix": [
+        190,
+        207,
+        224,
+        225,
+        226,
+        209,
+        192,
+        175,
+        158
+      ],
+      "vertex": 158
+    },
+    "first": "train_goal/r0/p90/s9/perfect/17x17/a",
+    "layout_sha256": "2c9d0464fb66f27b6a1ee1bccd1144445bdb271bc2d29989315bda16bb72702e",
+    "mixed": false,
+    "second": "train_goal/r0/p90/s9/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          227
+        ],
+        [
+          243
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        243,
+        245,
+        227
+      ],
+      "incoming": 261,
+      "prefix": [
+        262,
+        261,
+        244
+      ],
+      "vertex": 244
+    },
+    "first": "train_goal/r0/p91/s0/random/17x17/a",
+    "layout_sha256": "080572a5c90e72bc6e43374842f22f6392ae0e7ebc37092cf6710baacf2c5179",
+    "mixed": false,
+    "second": "train_goal/r0/p91/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          205
+        ],
+        [
+          239
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        205,
+        239
+      ],
+      "incoming": 223,
+      "prefix": [
+        207,
+        224,
+        223,
+        222
+      ],
+      "vertex": 222
+    },
+    "first": "train_goal/r0/p92/s7/perfect/17x17/a",
+    "layout_sha256": "76651570360b38957e83107eec57d73dc0043d553a054035ba5f45d5d2da3329",
+    "mixed": false,
+    "second": "train_goal/r0/p92/s7/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          91,
+          109
+        ],
+        [
+          93
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        91,
+        93,
+        109
+      ],
+      "incoming": 75,
+      "prefix": [
+        57,
+        58,
+        75,
+        92
+      ],
+      "vertex": 92
+    },
+    "first": "train_goal/r0/p93/s0/random/17x17/a",
+    "layout_sha256": "f917056cb2136d91c869deb1aa7ef1c1b92ccc517d78aa52a8d86203f8f1e43d",
+    "mixed": false,
+    "second": "train_goal/r0/p93/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          167
+        ],
+        [
+          149
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        167,
+        149
+      ],
+      "incoming": 165,
+      "prefix": [
+        147,
+        164,
+        165,
+        166
+      ],
+      "vertex": 166
+    },
+    "first": "train_goal/r0/p94/s3/perfect/17x17/a",
+    "layout_sha256": "4e3a9c2a4b4ed27f872bbe64b6cb07c0c6313e353285fd3a33d272fac787d7ef",
+    "mixed": false,
+    "second": "train_goal/r0/p94/s3/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r0/p95/s0/disconnected/17x17/a",
+    "layout_sha256": "38145467d525940f46746897071425c49256bc2ca8b35397023f7e75eddc5c3f",
+    "mixed": true,
+    "second": "train_goal/r0/p95/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        49,
+        59
+      ],
+      "incoming": 41,
+      "prefix": [
+        16,
+        25,
+        34,
+        33,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "validation_goal/r1/p0/s4/perfect/9x9/a",
+    "layout_sha256": "e0e450f895002ce9b636a77ba3f28a153127310302281f8e0445c2f72061d506",
+    "mixed": false,
+    "second": "validation_goal/r1/p0/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          48
+        ],
+        [
+          56,
+          66
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        56,
+        48,
+        66
+      ],
+      "incoming": 58,
+      "prefix": [
+        69,
+        60,
+        59,
+        58,
+        57
+      ],
+      "vertex": 57
+    },
+    "first": "validation_goal/r1/p1/s0/random/9x9/a",
+    "layout_sha256": "e550d0c9b4cddd43370460929845b13499817f8476531f3d83f270fafeb59894",
+    "mixed": false,
+    "second": "validation_goal/r1/p1/s0/random/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "validation_goal/r1/p2/s0/disconnected/9x9/a",
+    "layout_sha256": "fec93bf875bb8572e20ae831f32ae451353c3472ec5fb49aa424537688b45883",
+    "mixed": true,
+    "second": "validation_goal/r1/p2/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          189
+        ],
+        [
+          205
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        189,
+        205
+      ],
+      "incoming": 171,
+      "prefix": [
+        120,
+        137,
+        154,
+        171,
+        188
+      ],
+      "vertex": 188
+    },
+    "first": "validation_goal/r1/p3/s1/perfect/17x17/a",
+    "layout_sha256": "692e9fef466478e212d9026d457a15e666d1a23833118684fd104ce7738b5ff2",
+    "mixed": false,
+    "second": "validation_goal/r1/p3/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          140
+        ],
+        [
+          106
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        122,
+        106,
+        140
+      ],
+      "incoming": 124,
+      "prefix": [
+        144,
+        143,
+        126,
+        125,
+        124,
+        123
+      ],
+      "vertex": 123
+    },
+    "first": "validation_goal/r1/p4/s1/random/17x17/a",
+    "layout_sha256": "f2627c9f64ad689d3442fe0c5f10c162cb18d183198f60d4e2d32e1d1b075c13",
+    "mixed": false,
+    "second": "validation_goal/r1/p4/s1/random/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "validation_goal/r1/p5/s0/disconnected/17x17/a",
+    "layout_sha256": "33898e86ee8eed25384cbe09ff930852970c43998d71eb59d2b7ed64dd57c4d6",
+    "mixed": true,
+    "second": "validation_goal/r1/p5/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        29,
+        31
+      ],
+      "incoming": 21,
+      "prefix": [
+        14,
+        13,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p0/s7/perfect/9x9/a",
+    "layout_sha256": "84850e96b5fc358a0dadd4147a559e3e29a8a529974e91592e04ed8d951dcf0a",
+    "mixed": false,
+    "second": "train_goal/r1/p0/s7/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          59,
+          67
+        ],
+        [
+          57
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        57,
+        59,
+        67
+      ],
+      "incoming": 49,
+      "prefix": [
+        22,
+        31,
+        40,
+        49,
+        58
+      ],
+      "vertex": 58
+    },
+    "first": "train_goal/r1/p1/s1/random/9x9/a",
+    "layout_sha256": "28003fe22a40010c839f8013601707b3d9797e44572459e585208b9c87d6e3d7",
+    "mixed": false,
+    "second": "train_goal/r1/p1/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          59
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        41,
+        59
+      ],
+      "incoming": 49,
+      "prefix": [
+        64,
+        65,
+        66,
+        57,
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p2/s4/perfect/9x9/a",
+    "layout_sha256": "f24f7019451d1f08d1adcaad147c5d86a45d699df1e906d08719f8dc2abff878",
+    "mixed": false,
+    "second": "train_goal/r1/p2/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        49,
+        39
+      ],
+      "incoming": 47,
+      "prefix": [
+        54,
+        55,
+        46,
+        47,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r1/p3/s0/random/9x9/a",
+    "layout_sha256": "ba17c559b3541165952ff379a24fe980e6adb17d2f638b39cf7edfe81786224c",
+    "mixed": false,
+    "second": "train_goal/r1/p3/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        33,
+        41
+      ],
+      "incoming": 31,
+      "prefix": [
+        12,
+        21,
+        30,
+        31,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r1/p4/s9/perfect/9x9/a",
+    "layout_sha256": "bf5efc91f84d920652d07d949c0a2a3fadd02f951ec400c728943f7c904b545c",
+    "mixed": false,
+    "second": "train_goal/r1/p4/s9/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          38
+        ],
+        [
+          48
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        38,
+        48
+      ],
+      "incoming": 40,
+      "prefix": [
+        52,
+        43,
+        42,
+        41,
+        40,
+        39
+      ],
+      "vertex": 39
+    },
+    "first": "train_goal/r1/p5/s0/random/9x9/a",
+    "layout_sha256": "8be5c47be38fb284c9e26688335242b0e5495b1c18c9d3d96c225db399733612",
+    "mixed": false,
+    "second": "train_goal/r1/p5/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        51,
+        41
+      ],
+      "incoming": 49,
+      "prefix": [
+        65,
+        66,
+        57,
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p6/s6/perfect/9x9/a",
+    "layout_sha256": "ab9db38de61bc9fb95b5df0f8779f7a140bd846450ed118f6fe942d643d1dbf6",
+    "mixed": false,
+    "second": "train_goal/r1/p6/s6/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p7/s0/disconnected/9x9/a",
+    "layout_sha256": "6f0741abbc6870bcedfef5d3bfe3b9b2c7343538f68b25e28389f819af36380b",
+    "mixed": true,
+    "second": "train_goal/r1/p7/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          23
+        ],
+        [
+          13
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        13,
+        23
+      ],
+      "incoming": 15,
+      "prefix": [
+        16,
+        15,
+        14
+      ],
+      "vertex": 14
+    },
+    "first": "train_goal/r1/p8/s7/perfect/9x9/a",
+    "layout_sha256": "51b57564427122e40aa2a2fc5e9099cd0d6d063f4ebb0250ddbb24626f278eea",
+    "mixed": false,
+    "second": "train_goal/r1/p8/s7/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32
+        ],
+        [
+          14
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        14,
+        32
+      ],
+      "incoming": 24,
+      "prefix": [
+        26,
+        25,
+        24,
+        23
+      ],
+      "vertex": 23
+    },
+    "first": "train_goal/r1/p9/s0/random/9x9/a",
+    "layout_sha256": "cfc40d821ff8f02074054cfd1c5cf7c5ed72d834d361a74cfd7cbbc7955f0f31",
+    "mixed": false,
+    "second": "train_goal/r1/p9/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        51,
+        41,
+        59
+      ],
+      "incoming": 49,
+      "prefix": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p10/s4/perfect/9x9/a",
+    "layout_sha256": "d9308119319a4d60a8ee5cd4ee232f779d6764e8954fec1c927677534b8517b3",
+    "mixed": false,
+    "second": "train_goal/r1/p10/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          33,
+          41
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        33,
+        41
+      ],
+      "incoming": 23,
+      "prefix": [
+        16,
+        15,
+        14,
+        23,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r1/p11/s0/random/9x9/a",
+    "layout_sha256": "073948fd4b85b03c4bd23dc6ed07c653d397d40acfa4029eae24b0231b614209",
+    "mixed": false,
+    "second": "train_goal/r1/p11/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        21,
+        30,
+        31,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p12/s6/perfect/9x9/a",
+    "layout_sha256": "69d1c2c5476cd3f8097adac8f21a1c115afde79eb56bcc37f59a3d75b9f65880",
+    "mixed": false,
+    "second": "train_goal/r1/p12/s6/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          50
+        ],
+        [
+          58
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        58,
+        60,
+        50
+      ],
+      "incoming": 68,
+      "prefix": [
+        75,
+        76,
+        77,
+        68,
+        59
+      ],
+      "vertex": 59
+    },
+    "first": "train_goal/r1/p13/s0/random/9x9/a",
+    "layout_sha256": "d20a184d1ec49f474241e160d304af66fb76fe5779fd96f7017970918d62564e",
+    "mixed": false,
+    "second": "train_goal/r1/p13/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        51,
+        59
+      ],
+      "incoming": 49,
+      "prefix": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p14/s2/perfect/9x9/a",
+    "layout_sha256": "71b0153d9d5d8efb066d37abe72772160ceed9bac69349fc738a89d8d00b2b39",
+    "mixed": false,
+    "second": "train_goal/r1/p14/s2/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p15/s0/disconnected/9x9/a",
+    "layout_sha256": "3202aedbe1741d0a4777a1c4e82e50b092f4883f3d4c8d7c1ba6f082ca3cd762",
+    "mixed": true,
+    "second": "train_goal/r1/p15/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        21,
+        39
+      ],
+      "incoming": 31,
+      "prefix": [
+        14,
+        23,
+        32,
+        31,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p16/s3/perfect/9x9/a",
+    "layout_sha256": "6e4e1c24e1138f8817167a7142341129edfcdff1a724a16d82f8f1af7ccee42b",
+    "mixed": false,
+    "second": "train_goal/r1/p16/s3/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          31,
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        31,
+        21,
+        39
+      ],
+      "incoming": 29,
+      "prefix": [
+        37,
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p17/s1/random/9x9/a",
+    "layout_sha256": "93ff5bd55b171841f34efee800802a8a1333bc41fc6b426c471f2bf79fbfb41a",
+    "mixed": false,
+    "second": "train_goal/r1/p17/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        23,
+        41
+      ],
+      "incoming": 31,
+      "prefix": [
+        12,
+        21,
+        30,
+        31,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r1/p18/s5/perfect/9x9/a",
+    "layout_sha256": "a27a22367634d096882875d9ab03c2ae6022d2867009bfb2fa17d56258e9163e",
+    "mixed": false,
+    "second": "train_goal/r1/p18/s5/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          53
+        ],
+        [
+          35
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        35,
+        53
+      ],
+      "incoming": 43,
+      "prefix": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "vertex": 44
+    },
+    "first": "train_goal/r1/p19/s0/random/9x9/a",
+    "layout_sha256": "7ae0fdc3320a06560313258de48be7bf66b8efd30b0ef2db95124df7a9f98187",
+    "mixed": false,
+    "second": "train_goal/r1/p19/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          23
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        23,
+        41
+      ],
+      "incoming": 33,
+      "prefix": [
+        16,
+        25,
+        34,
+        33,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r1/p20/s14/perfect/9x9/a",
+    "layout_sha256": "500cf1c21ffca5c6814d97ebc31588d31258f6b441c7eb537e317eecc8a00954",
+    "mixed": false,
+    "second": "train_goal/r1/p20/s14/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        31,
+        21
+      ],
+      "incoming": 39,
+      "prefix": [
+        38,
+        39,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p21/s0/random/9x9/a",
+    "layout_sha256": "1c46d0b917a2960bd432978d733f4e10c9b9da9ab4b0c4de2698efdbe05336d1",
+    "mixed": false,
+    "second": "train_goal/r1/p21/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        41,
+        59
+      ],
+      "incoming": 49,
+      "prefix": [
+        64,
+        55,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p22/s2/perfect/9x9/a",
+    "layout_sha256": "66b80c4fa4963217bdb0f77b764e6699f2379cbc0fab04638ce0e3e50790771a",
+    "mixed": false,
+    "second": "train_goal/r1/p22/s2/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p23/s0/disconnected/9x9/a",
+    "layout_sha256": "76b4a0b36f15b85f0eec83b4098d17f06b05b421ef2b94bde630b28e563970e6",
+    "mixed": true,
+    "second": "train_goal/r1/p23/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        21,
+        39
+      ],
+      "incoming": 31,
+      "prefix": [
+        16,
+        25,
+        34,
+        33,
+        32,
+        31,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p24/s1/perfect/9x9/a",
+    "layout_sha256": "27342381bbe72c542d6d489bb95f7aeecbe167a5b1ce1b163508b7d1d9c321dd",
+    "mixed": false,
+    "second": "train_goal/r1/p24/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          47
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        47,
+        39,
+        57
+      ],
+      "incoming": 49,
+      "prefix": [
+        50,
+        49,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r1/p25/s0/random/9x9/a",
+    "layout_sha256": "ee87fd935e937ae257a4672bf6957fdf87a16d1791d8c7bca0ba9d2b4328686e",
+    "mixed": false,
+    "second": "train_goal/r1/p25/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p26/s2/perfect/9x9/a",
+    "layout_sha256": "a52a6b574198711c1078cca8f5044639a542bdb49e8fa40257721045abdffad1",
+    "mixed": false,
+    "second": "train_goal/r1/p26/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        39,
+        31
+      ],
+      "incoming": 41,
+      "prefix": [
+        61,
+        60,
+        51,
+        42,
+        41,
+        40
+      ],
+      "vertex": 40
+    },
+    "first": "train_goal/r1/p27/s0/random/9x9/a",
+    "layout_sha256": "3661f3755e90f06bdb4515cfd67477cd675f57370c1bc7770c643d8446cc591b",
+    "mixed": false,
+    "second": "train_goal/r1/p27/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          21
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        31,
+        21
+      ],
+      "incoming": 29,
+      "prefix": [
+        55,
+        46,
+        37,
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p28/s1/perfect/9x9/a",
+    "layout_sha256": "6c14aebb8f1e1b20b0846247b2108a53e122899f027f0cc235723e6891c9bf09",
+    "mixed": false,
+    "second": "train_goal/r1/p28/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        41,
+        49
+      ],
+      "incoming": 39,
+      "prefix": [
+        30,
+        39,
+        40
+      ],
+      "vertex": 40
+    },
+    "first": "train_goal/r1/p29/s1/random/9x9/a",
+    "layout_sha256": "909f30bf281e73f388d5511137fe2af1e9368c42923e552be31c7228ac7027ac",
+    "mixed": false,
+    "second": "train_goal/r1/p29/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        29,
+        31,
+        39
+      ],
+      "incoming": 21,
+      "prefix": [
+        15,
+        14,
+        13,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p30/s4/perfect/9x9/a",
+    "layout_sha256": "45f6b16eca9196f9ed129fb3d5dd931116f47a51aa9bbbed2dcfacbefebda71c",
+    "mixed": false,
+    "second": "train_goal/r1/p30/s4/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p31/s0/disconnected/9x9/a",
+    "layout_sha256": "c23bf0823f1ce1679881b31877a3c6814ae7d1d4fccf812624bc531c79d5f884",
+    "mixed": true,
+    "second": "train_goal/r1/p31/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          57
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        49,
+        39,
+        57
+      ],
+      "incoming": 47,
+      "prefix": [
+        46,
+        47,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r1/p32/s4/perfect/9x9/a",
+    "layout_sha256": "4bbc2672ea9bf5d0586a424adc19e2db2707b17cd5082196257c088d6425f15e",
+    "mixed": false,
+    "second": "train_goal/r1/p32/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          30
+        ],
+        [
+          48
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        30,
+        48
+      ],
+      "incoming": 38,
+      "prefix": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "vertex": 39
+    },
+    "first": "train_goal/r1/p33/s0/random/9x9/a",
+    "layout_sha256": "7188a90b53d8deebd22379d111989dd6fb1da3a2813bc0c977771a0b71faf7c2",
+    "mixed": false,
+    "second": "train_goal/r1/p33/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        41
+      ],
+      "incoming": 33,
+      "prefix": [
+        16,
+        25,
+        34,
+        33,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r1/p34/s5/perfect/9x9/a",
+    "layout_sha256": "62bd33d1627448eeca4e26c030c6705e4bffb022a60d7978f0e27534f847404b",
+    "mixed": false,
+    "second": "train_goal/r1/p34/s5/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        21,
+        23,
+        31
+      ],
+      "incoming": 13,
+      "prefix": [
+        3,
+        4,
+        13,
+        22
+      ],
+      "vertex": 22
+    },
+    "first": "train_goal/r1/p35/s0/random/9x9/a",
+    "layout_sha256": "d3d9ebbfc0764a2b30d39be940d85c5fa34b8834b32f1feb8947a41edc7e04c8",
+    "mixed": false,
+    "second": "train_goal/r1/p35/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          29
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        29,
+        31
+      ],
+      "incoming": 39,
+      "prefix": [
+        48,
+        39,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p36/s2/perfect/9x9/a",
+    "layout_sha256": "3b628ad430f186a97f05712cd765df7dac8429c31592b65021fb763ebca2159a",
+    "mixed": false,
+    "second": "train_goal/r1/p36/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          57
+        ],
+        [
+          65
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        57,
+        65
+      ],
+      "incoming": 55,
+      "prefix": [
+        45,
+        46,
+        55,
+        56
+      ],
+      "vertex": 56
+    },
+    "first": "train_goal/r1/p37/s2/random/9x9/a",
+    "layout_sha256": "1c57afdd62523389401bb40cacab7f7c94494cb118691508c6fecce81a6a5526",
+    "mixed": false,
+    "second": "train_goal/r1/p37/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        51,
+        41
+      ],
+      "incoming": 59,
+      "prefix": [
+        66,
+        67,
+        68,
+        59,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p38/s4/perfect/9x9/a",
+    "layout_sha256": "16295a4ae12390abf19ce3ca40927258df3fdb4b6c6625a41f9545293052e809",
+    "mixed": false,
+    "second": "train_goal/r1/p38/s4/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p39/s0/disconnected/9x9/a",
+    "layout_sha256": "4d9bc029a1d8dd13c39e080c36396b24d094ef51e0bcc9d34e68d2a2cb024f64",
+    "mixed": true,
+    "second": "train_goal/r1/p39/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        23,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r1/p40/s9/perfect/9x9/a",
+    "layout_sha256": "cf9bb2f4928f3e5240484b215b0cf563a428c76daa1d45d6c2f9f2cba515d00c",
+    "mixed": false,
+    "second": "train_goal/r1/p40/s9/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          21
+        ],
+        [
+          11
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        21,
+        11
+      ],
+      "incoming": 19,
+      "prefix": [
+        36,
+        37,
+        28,
+        19,
+        20
+      ],
+      "vertex": 20
+    },
+    "first": "train_goal/r1/p41/s0/random/9x9/a",
+    "layout_sha256": "dc025cf1b42ef34b3a71c4b553d4778acd3914ee9daba951f31bf32716b31ad8",
+    "mixed": false,
+    "second": "train_goal/r1/p41/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        31,
+        33
+      ],
+      "incoming": 41,
+      "prefix": [
+        59,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r1/p42/s0/perfect/9x9/a",
+    "layout_sha256": "b35f7a0716ad7dbe2d4db0d4cc00b79d88cf5c277ebcfeafd4d938e6463d73b2",
+    "mixed": false,
+    "second": "train_goal/r1/p42/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          50
+        ],
+        [
+          42
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        50,
+        42
+      ],
+      "incoming": 60,
+      "prefix": [
+        69,
+        60,
+        51
+      ],
+      "vertex": 51
+    },
+    "first": "train_goal/r1/p43/s0/random/9x9/a",
+    "layout_sha256": "c508b74fad2a9bc82f9995c1387393b384e89bc7c31f688a60cb4da262b52ca8",
+    "mixed": false,
+    "second": "train_goal/r1/p43/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          67
+        ],
+        [
+          57
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        67,
+        57
+      ],
+      "incoming": 65,
+      "prefix": [
+        64,
+        65,
+        66
+      ],
+      "vertex": 66
+    },
+    "first": "train_goal/r1/p44/s3/perfect/9x9/a",
+    "layout_sha256": "fd9907957c0b4406ba2afa3aabb2b5a11461b422f9891ee7fdaac039daa9a254",
+    "mixed": false,
+    "second": "train_goal/r1/p44/s3/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          21
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        21,
+        29
+      ],
+      "incoming": 19,
+      "prefix": [
+        0,
+        9,
+        10,
+        19,
+        20
+      ],
+      "vertex": 20
+    },
+    "first": "train_goal/r1/p45/s0/random/9x9/a",
+    "layout_sha256": "a4fab8f024cb01bf0d2140376c808e010044a21c917c5e2a74c8e22e45e4e52d",
+    "mixed": false,
+    "second": "train_goal/r1/p45/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          21
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        31,
+        21
+      ],
+      "incoming": 29,
+      "prefix": [
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r1/p46/s1/perfect/9x9/a",
+    "layout_sha256": "aa1b2a8424b8303a09987c1c304491f8f410d0e4936cd22261b4d47862043c75",
+    "mixed": false,
+    "second": "train_goal/r1/p46/s1/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p47/s0/disconnected/9x9/a",
+    "layout_sha256": "c1e594a9b1e990ed9202618c59dd10f7cedbfe085ca02d0461d8eaaff87893cd",
+    "mixed": true,
+    "second": "train_goal/r1/p47/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          167
+        ],
+        [
+          185
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        167,
+        185
+      ],
+      "incoming": 151,
+      "prefix": [
+        117,
+        134,
+        151,
+        168
+      ],
+      "vertex": 168
+    },
+    "first": "train_goal/r1/p48/s10/perfect/17x17/a",
+    "layout_sha256": "9d2c4e36e3e671e6d51c5468811f1f89e493e4fcd0cc1e27899198e6656b8e41",
+    "mixed": false,
+    "second": "train_goal/r1/p48/s10/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          229,
+          213
+        ],
+        [
+          231
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        229,
+        231,
+        213
+      ],
+      "incoming": 247,
+      "prefix": [
+        281,
+        264,
+        247,
+        230
+      ],
+      "vertex": 230
+    },
+    "first": "train_goal/r1/p49/s0/random/17x17/a",
+    "layout_sha256": "ec59304534478078ec2e248143aca65ad9b1ced9ccd5d7db9a1a7dc6563d74aa",
+    "mixed": false,
+    "second": "train_goal/r1/p49/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          43
+        ],
+        [
+          27
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        27,
+        43
+      ],
+      "incoming": 25,
+      "prefix": [
+        24,
+        25,
+        26
+      ],
+      "vertex": 26
+    },
+    "first": "train_goal/r1/p50/s3/perfect/17x17/a",
+    "layout_sha256": "786ba225e03dd72eed78464e1ef16e6ece755ae566cb380aeef5810dcaed3f17",
+    "mixed": false,
+    "second": "train_goal/r1/p50/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          188
+        ],
+        [
+          204,
+          222
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 7,
+      "exits": [
+        204,
+        188,
+        222
+      ],
+      "incoming": 206,
+      "prefix": [
+        276,
+        259,
+        242,
+        225,
+        224,
+        207,
+        206,
+        205
+      ],
+      "vertex": 205
+    },
+    "first": "train_goal/r1/p51/s0/random/17x17/a",
+    "layout_sha256": "b372e130dfc1e7ffc443e8590d6c23b520beafaaaa0018cc27ab98e4208f776a",
+    "mixed": false,
+    "second": "train_goal/r1/p51/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          265
+        ],
+        [
+          247
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        265,
+        247
+      ],
+      "incoming": 263,
+      "prefix": [
+        262,
+        263,
+        264
+      ],
+      "vertex": 264
+    },
+    "first": "train_goal/r1/p52/s18/perfect/17x17/a",
+    "layout_sha256": "2d3c8c67cf9fe50f57c4a1341fd6c882c35a80f48aec3a2f6af056053a3c4525",
+    "mixed": false,
+    "second": "train_goal/r1/p52/s18/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          129
+        ],
+        [
+          163
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        129,
+        163
+      ],
+      "incoming": 147,
+      "prefix": [
+        118,
+        135,
+        152,
+        151,
+        150,
+        149,
+        148,
+        147,
+        146
+      ],
+      "vertex": 146
+    },
+    "first": "train_goal/r1/p53/s0/random/17x17/a",
+    "layout_sha256": "6f7a988433221310a8cb5afd2afb41c06515a790542d5e3a7b6e3dc17ac84180",
+    "mixed": false,
+    "second": "train_goal/r1/p53/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          261
+        ],
+        [
+          263
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        261,
+        263
+      ],
+      "incoming": 245,
+      "prefix": [
+        213,
+        230,
+        229,
+        228,
+        245,
+        262
+      ],
+      "vertex": 262
+    },
+    "first": "train_goal/r1/p54/s10/perfect/17x17/a",
+    "layout_sha256": "90ab5e7d8f14c97bf633f42ca911bdee050fbe9b723806c53d309191538e4426",
+    "mixed": false,
+    "second": "train_goal/r1/p54/s10/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p55/s0/disconnected/17x17/a",
+    "layout_sha256": "f1ee43cb476a686c7cdbd029b5f3c7f47277d3190d639fcebe4f720c4f657ac5",
+    "mixed": true,
+    "second": "train_goal/r1/p55/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          93
+        ],
+        [
+          91
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        91,
+        93
+      ],
+      "incoming": 109,
+      "prefix": [
+        143,
+        126,
+        109,
+        92
+      ],
+      "vertex": 92
+    },
+    "first": "train_goal/r1/p56/s1/perfect/17x17/a",
+    "layout_sha256": "e7aa0dd6f0d76a73af603a56e74ccb22158f31deaddb2cf048e6e6677525db05",
+    "mixed": false,
+    "second": "train_goal/r1/p56/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          210
+        ],
+        [
+          226
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        210,
+        226
+      ],
+      "incoming": 208,
+      "prefix": [
+        189,
+        190,
+        191,
+        208,
+        209
+      ],
+      "vertex": 209
+    },
+    "first": "train_goal/r1/p57/s0/random/17x17/a",
+    "layout_sha256": "ee3710376d7c18200108213bf58966e75035b5cc02d7e693147815ff470c62a3",
+    "mixed": false,
+    "second": "train_goal/r1/p57/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          151
+        ],
+        [
+          185
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        151,
+        185
+      ],
+      "incoming": 167,
+      "prefix": [
+        166,
+        167,
+        168
+      ],
+      "vertex": 168
+    },
+    "first": "train_goal/r1/p58/s10/perfect/17x17/a",
+    "layout_sha256": "3d822f2d2121ed65ee50b0db4243c67bb93a10ab0c9369040554284256422934",
+    "mixed": false,
+    "second": "train_goal/r1/p58/s10/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          165,
+          147
+        ],
+        [
+          181
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        165,
+        147,
+        181
+      ],
+      "incoming": 163,
+      "prefix": [
+        162,
+        163,
+        164
+      ],
+      "vertex": 164
+    },
+    "first": "train_goal/r1/p59/s0/random/17x17/a",
+    "layout_sha256": "7c0e1ef71376f8c5533c293dfc130f0e48048f19515806474d9db8e955d2d3f9",
+    "mixed": false,
+    "second": "train_goal/r1/p59/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          241
+        ],
+        [
+          257
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        257,
+        241
+      ],
+      "incoming": 259,
+      "prefix": [
+        263,
+        262,
+        261,
+        260,
+        259,
+        258
+      ],
+      "vertex": 258
+    },
+    "first": "train_goal/r1/p60/s4/perfect/17x17/a",
+    "layout_sha256": "adf5468ed7c0fc20c43fee4be502c2cc095792711f3235063f00f83c608b4eab",
+    "mixed": false,
+    "second": "train_goal/r1/p60/s4/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          127
+        ],
+        [
+          93
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        93,
+        127
+      ],
+      "incoming": 109,
+      "prefix": [
+        108,
+        109,
+        110
+      ],
+      "vertex": 110
+    },
+    "first": "train_goal/r1/p61/s0/random/17x17/a",
+    "layout_sha256": "a00d15c148cb7d89a982cc848791835380cde12754f8394aef3f4dc71240d84f",
+    "mixed": false,
+    "second": "train_goal/r1/p61/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          65
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        65,
+        49
+      ],
+      "incoming": 83,
+      "prefix": [
+        168,
+        151,
+        134,
+        117,
+        100,
+        83,
+        66
+      ],
+      "vertex": 66
+    },
+    "first": "train_goal/r1/p62/s1/perfect/17x17/a",
+    "layout_sha256": "3d57c1c23e6f5414a4e7fa62f228800f16439722906dc66e066e540d4ff3420c",
+    "mixed": false,
+    "second": "train_goal/r1/p62/s1/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p63/s0/disconnected/17x17/a",
+    "layout_sha256": "56e86f673accbe5710dbdcc54012974733bc1126597963bbc4fd79888548352c",
+    "mixed": true,
+    "second": "train_goal/r1/p63/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          117
+        ],
+        [
+          151
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        117,
+        151
+      ],
+      "incoming": 133,
+      "prefix": [
+        96,
+        97,
+        98,
+        115,
+        132,
+        133,
+        134
+      ],
+      "vertex": 134
+    },
+    "first": "train_goal/r1/p64/s1/perfect/17x17/a",
+    "layout_sha256": "76861c1eeeba9e4b3854dcc7e8b9a8a6c28243ca5768c9bcb9511776ab1da984",
+    "mixed": false,
+    "second": "train_goal/r1/p64/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          109
+        ],
+        [
+          93
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        93,
+        109
+      ],
+      "incoming": 75,
+      "prefix": [
+        57,
+        58,
+        75,
+        92
+      ],
+      "vertex": 92
+    },
+    "first": "train_goal/r1/p65/s0/random/17x17/a",
+    "layout_sha256": "d906d3b44e45c478c13c968405f1f174795a1fb6065bb99ace06bc7201f3d84e",
+    "mixed": false,
+    "second": "train_goal/r1/p65/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          179
+        ],
+        [
+          145
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        145,
+        179
+      ],
+      "incoming": 163,
+      "prefix": [
+        96,
+        113,
+        130,
+        147,
+        164,
+        163,
+        162
+      ],
+      "vertex": 162
+    },
+    "first": "train_goal/r1/p66/s2/perfect/17x17/a",
+    "layout_sha256": "f6fe1c004f419c4f5a7d10103c33f2ca78af732ed1815cf363aa6d7e0f35c881",
+    "mixed": false,
+    "second": "train_goal/r1/p66/s2/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          64
+        ],
+        [
+          48
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        48,
+        64
+      ],
+      "incoming": 30,
+      "prefix": [
+        14,
+        13,
+        30,
+        47
+      ],
+      "vertex": 47
+    },
+    "first": "train_goal/r1/p67/s0/random/17x17/a",
+    "layout_sha256": "99880afdde8f95f72f4e69d644fdd2d46dccd54dcf497e39706b58bbe4844031",
+    "mixed": false,
+    "second": "train_goal/r1/p67/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          195
+        ],
+        [
+          193
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 7,
+      "exits": [
+        193,
+        195
+      ],
+      "incoming": 211,
+      "prefix": [
+        259,
+        260,
+        261,
+        262,
+        245,
+        228,
+        211,
+        194
+      ],
+      "vertex": 194
+    },
+    "first": "train_goal/r1/p68/s4/perfect/17x17/a",
+    "layout_sha256": "6f3253202509069a0e42b8b315d047c74a504946d94b6b76a8f471fd2a92a883",
+    "mixed": false,
+    "second": "train_goal/r1/p68/s4/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          183
+        ],
+        [
+          185
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        183,
+        185
+      ],
+      "incoming": 201,
+      "prefix": [
+        218,
+        201,
+        184
+      ],
+      "vertex": 184
+    },
+    "first": "train_goal/r1/p69/s0/random/17x17/a",
+    "layout_sha256": "e494420ff4c22e36eac3fcabbbb42ac02bd4efe81d065863cf23d763ac6fb17c",
+    "mixed": false,
+    "second": "train_goal/r1/p69/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          83
+        ],
+        [
+          117
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 8,
+      "exits": [
+        83,
+        117
+      ],
+      "incoming": 99,
+      "prefix": [
+        60,
+        77,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "vertex": 100
+    },
+    "first": "train_goal/r1/p70/s7/perfect/17x17/a",
+    "layout_sha256": "077c86c83f57fb73df2fa611faa3ebf84f2d8d1fc726f93b896ba45ac7cfda3f",
+    "mixed": false,
+    "second": "train_goal/r1/p70/s7/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p71/s0/disconnected/17x17/a",
+    "layout_sha256": "2c018efa9ea29a733fca189106b54262074f2a1a19188ff088931271ac93b010",
+    "mixed": true,
+    "second": "train_goal/r1/p71/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          181
+        ],
+        [
+          165
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        165,
+        181
+      ],
+      "incoming": 163,
+      "prefix": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "vertex": 164
+    },
+    "first": "train_goal/r1/p72/s3/perfect/17x17/a",
+    "layout_sha256": "b1dff9dd335f3db5ccc3a98086ec4e7c469f006c190256e5251d93bbf8102815",
+    "mixed": false,
+    "second": "train_goal/r1/p72/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          214
+        ],
+        [
+          198
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        196,
+        198,
+        214
+      ],
+      "incoming": 180,
+      "prefix": [
+        127,
+        128,
+        129,
+        146,
+        163,
+        180,
+        197
+      ],
+      "vertex": 197
+    },
+    "first": "train_goal/r1/p73/s0/random/17x17/a",
+    "layout_sha256": "c55f29fbf2827d37aaf74b1597c00fb3cc0c8a1c043944c18e7d4114b5120ddb",
+    "mixed": false,
+    "second": "train_goal/r1/p73/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          77
+        ],
+        [
+          95
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        95,
+        77
+      ],
+      "incoming": 111,
+      "prefix": [
+        164,
+        147,
+        130,
+        129,
+        128,
+        111,
+        94
+      ],
+      "vertex": 94
+    },
+    "first": "train_goal/r1/p74/s12/perfect/17x17/a",
+    "layout_sha256": "3e600d93d0c044fd7129125152a2373157cafb4ba1764c5149ef4903611e81f3",
+    "mixed": false,
+    "second": "train_goal/r1/p74/s12/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          78
+        ],
+        [
+          60
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        60,
+        62,
+        78
+      ],
+      "incoming": 44,
+      "prefix": [
+        26,
+        27,
+        44,
+        61
+      ],
+      "vertex": 61
+    },
+    "first": "train_goal/r1/p75/s0/random/17x17/a",
+    "layout_sha256": "6a112c443e351c2abcfc9645729a95b1230eefb71bd76d661ae4ca53d6d6f830",
+    "mixed": false,
+    "second": "train_goal/r1/p75/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          185
+        ],
+        [
+          151
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        151,
+        185
+      ],
+      "incoming": 167,
+      "prefix": [
+        132,
+        149,
+        166,
+        167,
+        168
+      ],
+      "vertex": 168
+    },
+    "first": "train_goal/r1/p76/s5/perfect/17x17/a",
+    "layout_sha256": "07226f29ab1ae1f7229644f1b675c92ff61ef9d5e7baba3d538e58fdaa594bdc",
+    "mixed": false,
+    "second": "train_goal/r1/p76/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          84,
+          66
+        ],
+        [
+          82
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        82,
+        84,
+        66
+      ],
+      "incoming": 100,
+      "prefix": [
+        133,
+        134,
+        117,
+        100,
+        83
+      ],
+      "vertex": 83
+    },
+    "first": "train_goal/r1/p77/s0/random/17x17/a",
+    "layout_sha256": "797c898a7463c0cddad3841c3b156877ed8b3935f14539f5d79d25159779c348",
+    "mixed": false,
+    "second": "train_goal/r1/p77/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          243
+        ],
+        [
+          261
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        261,
+        243
+      ],
+      "incoming": 259,
+      "prefix": [
+        222,
+        223,
+        224,
+        241,
+        258,
+        259,
+        260
+      ],
+      "vertex": 260
+    },
+    "first": "train_goal/r1/p78/s1/perfect/17x17/a",
+    "layout_sha256": "3bac57005d68bbd573b986db352fd8bd5ba2376a1b51a3fc854ffac850e37671",
+    "mixed": false,
+    "second": "train_goal/r1/p78/s1/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p79/s0/disconnected/17x17/a",
+    "layout_sha256": "291851631df4a51df2098f349af5b0b37bf2c7a70c564e701100ba9ad4c45e24",
+    "mixed": true,
+    "second": "train_goal/r1/p79/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          185
+        ],
+        [
+          219
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        185,
+        219
+      ],
+      "incoming": 201,
+      "prefix": [
+        199,
+        200,
+        201,
+        202
+      ],
+      "vertex": 202
+    },
+    "first": "train_goal/r1/p80/s6/perfect/17x17/a",
+    "layout_sha256": "0c4b26f9662366c673fd3b8bc86a8b4b1a3e32f65564266d4746af64f5e3f0b9",
+    "mixed": false,
+    "second": "train_goal/r1/p80/s6/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          140
+        ],
+        [
+          156
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        156,
+        140
+      ],
+      "incoming": 158,
+      "prefix": [
+        193,
+        192,
+        175,
+        158,
+        157
+      ],
+      "vertex": 157
+    },
+    "first": "train_goal/r1/p81/s0/random/17x17/a",
+    "layout_sha256": "ae4914e2f48b74386e26e8236a260addcda7195c315ed1f4c118f742bcf88024",
+    "mixed": false,
+    "second": "train_goal/r1/p81/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          161
+        ],
+        [
+          177
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        161,
+        177
+      ],
+      "incoming": 143,
+      "prefix": [
+        128,
+        127,
+        126,
+        143,
+        160
+      ],
+      "vertex": 160
+    },
+    "first": "train_goal/r1/p82/s3/perfect/17x17/a",
+    "layout_sha256": "87ec5dd7a14008f23cc35de96822d407ebf4b3ae4f3b826a4aa2df1301c18a49",
+    "mixed": false,
+    "second": "train_goal/r1/p82/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          207,
+          191
+        ],
+        [
+          225
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        207,
+        191,
+        225
+      ],
+      "incoming": 209,
+      "prefix": [
+        212,
+        211,
+        210,
+        209,
+        208
+      ],
+      "vertex": 208
+    },
+    "first": "train_goal/r1/p83/s0/random/17x17/a",
+    "layout_sha256": "fbd8786e1c9b81145de49e865a577a696e414f4528c8d0e04da699dd6923b0ac",
+    "mixed": false,
+    "second": "train_goal/r1/p83/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          223
+        ],
+        [
+          241
+        ]
+      ],
+      "detours": [
+        true,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        223,
+        241
+      ],
+      "incoming": 207,
+      "prefix": [
+        190,
+        207,
+        224
+      ],
+      "vertex": 224
+    },
+    "first": "train_goal/r1/p84/s11/perfect/17x17/a",
+    "layout_sha256": "961358c7e84c842d70a73cf7b174dda4a2b06e54ba23cd477a6af69aeda4c84a",
+    "mixed": false,
+    "second": "train_goal/r1/p84/s11/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          90
+        ],
+        [
+          72
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        90,
+        72
+      ],
+      "incoming": 88,
+      "prefix": [
+        87,
+        88,
+        89
+      ],
+      "vertex": 89
+    },
+    "first": "train_goal/r1/p85/s0/random/17x17/a",
+    "layout_sha256": "ffac015832e07b97af13478f51f2f370bfe0eca34d97e2bf4a22541b13db57ef",
+    "mixed": false,
+    "second": "train_goal/r1/p85/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          91
+        ],
+        [
+          109
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        91,
+        109
+      ],
+      "incoming": 93,
+      "prefix": [
+        98,
+        97,
+        96,
+        95,
+        94,
+        93,
+        92
+      ],
+      "vertex": 92
+    },
+    "first": "train_goal/r1/p86/s0/perfect/17x17/a",
+    "layout_sha256": "39a9e764b9b8e6cb0d83882221870a29c7728e45d332bd6ca08eba6e66259ff7",
+    "mixed": false,
+    "second": "train_goal/r1/p86/s0/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p87/s0/disconnected/17x17/a",
+    "layout_sha256": "1a2bceaf805f1878f6d3b341434c4b1869b493671e09e3f2972e55c2103c9b4b",
+    "mixed": true,
+    "second": "train_goal/r1/p87/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          205
+        ],
+        [
+          171
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        171,
+        205
+      ],
+      "incoming": 189,
+      "prefix": [
+        228,
+        227,
+        226,
+        209,
+        192,
+        191,
+        190,
+        189,
+        188
+      ],
+      "vertex": 188
+    },
+    "first": "train_goal/r1/p88/s0/perfect/17x17/a",
+    "layout_sha256": "892f27acbee04c2bf467431764c460f342378894e6ebf28c3cabe715f65d19bc",
+    "mixed": false,
+    "second": "train_goal/r1/p88/s0/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          138,
+          156
+        ],
+        [
+          122
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        138,
+        122,
+        156
+      ],
+      "incoming": 140,
+      "prefix": [
+        125,
+        142,
+        141,
+        140,
+        139
+      ],
+      "vertex": 139
+    },
+    "first": "train_goal/r1/p89/s0/random/17x17/a",
+    "layout_sha256": "ca5c56f8bfa90f7131afe626a8a61bf8bc0f4eac52f9b2bee42aa79d0092d34a",
+    "mixed": false,
+    "second": "train_goal/r1/p89/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          75
+        ],
+        [
+          93
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        93,
+        75
+      ],
+      "incoming": 91,
+      "prefix": [
+        73,
+        90,
+        91,
+        92
+      ],
+      "vertex": 92
+    },
+    "first": "train_goal/r1/p90/s5/perfect/17x17/a",
+    "layout_sha256": "be121380f94c8287d8aded90cb2d157afcbf9cfa24226fed872f6783143577c3",
+    "mixed": false,
+    "second": "train_goal/r1/p90/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          177
+        ],
+        [
+          193
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        193,
+        177,
+        211
+      ],
+      "incoming": 195,
+      "prefix": [
+        214,
+        197,
+        196,
+        195,
+        194
+      ],
+      "vertex": 194
+    },
+    "first": "train_goal/r1/p91/s0/random/17x17/a",
+    "layout_sha256": "35fee55228ce43a0780a9617e55899e8b89c83597f46cad504f8ae745b292366",
+    "mixed": false,
+    "second": "train_goal/r1/p91/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          261
+        ],
+        [
+          259
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        259,
+        261
+      ],
+      "incoming": 243,
+      "prefix": [
+        226,
+        243,
+        260
+      ],
+      "vertex": 260
+    },
+    "first": "train_goal/r1/p92/s2/perfect/17x17/a",
+    "layout_sha256": "ea2cf60f682a5efbf1b174bf73cbad3c868b1612260af6bf5809376c76c32d80",
+    "mixed": false,
+    "second": "train_goal/r1/p92/s2/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          128
+        ],
+        [
+          110
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        110,
+        112,
+        128
+      ],
+      "incoming": 94,
+      "prefix": [
+        60,
+        77,
+        94,
+        111
+      ],
+      "vertex": 111
+    },
+    "first": "train_goal/r1/p93/s0/random/17x17/a",
+    "layout_sha256": "3313e191e4bb110ee4732a75fe88cba84bbe042c99cb41ca33e5b2ae0b396fc2",
+    "mixed": false,
+    "second": "train_goal/r1/p93/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          253
+        ],
+        [
+          219
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        219,
+        253
+      ],
+      "incoming": 235,
+      "prefix": [
+        233,
+        234,
+        235,
+        236
+      ],
+      "vertex": 236
+    },
+    "first": "train_goal/r1/p94/s0/perfect/17x17/a",
+    "layout_sha256": "cbc4bf7eccc06d01918d74aad7c090c1bf5d420543d5d96b406d4fac8a799afd",
+    "mixed": false,
+    "second": "train_goal/r1/p94/s0/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r1/p95/s0/disconnected/17x17/a",
+    "layout_sha256": "08efc3a342a2ec8eac3b9dfd33846aa09a4162fdcc1cdc18d5cdf4361740463a",
+    "mixed": true,
+    "second": "train_goal/r1/p95/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        14,
+        23,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "validation_goal/r2/p0/s4/perfect/9x9/a",
+    "layout_sha256": "e7002e8832711cc9f9d2eda088c09e3fc87831cd63e669b937aae3565135e52d",
+    "mixed": false,
+    "second": "validation_goal/r2/p0/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        39,
+        41,
+        31
+      ],
+      "incoming": 49,
+      "prefix": [
+        51,
+        50,
+        49,
+        40
+      ],
+      "vertex": 40
+    },
+    "first": "validation_goal/r2/p1/s1/random/9x9/a",
+    "layout_sha256": "a0edebae6983239d72a79307211d61f97fe9f34fb5bcb5a3a6aba37b02d8bc85",
+    "mixed": false,
+    "second": "validation_goal/r2/p1/s1/random/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "validation_goal/r2/p2/s0/disconnected/9x9/a",
+    "layout_sha256": "0d374c50ca4104075a91a63f63612c12f1e0545a7efbb5a7d7b2edd98ca35a7e",
+    "mixed": true,
+    "second": "validation_goal/r2/p2/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          205
+        ],
+        [
+          189
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        189,
+        205
+      ],
+      "incoming": 171,
+      "prefix": [
+        154,
+        171,
+        188
+      ],
+      "vertex": 188
+    },
+    "first": "validation_goal/r2/p3/s3/perfect/17x17/a",
+    "layout_sha256": "cecdf18298dbf05baa6cd7fd6c0505540bd5d3d2accca82b697f988b166c7b71",
+    "mixed": false,
+    "second": "validation_goal/r2/p3/s3/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          158
+        ],
+        [
+          124
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        124,
+        158
+      ],
+      "incoming": 140,
+      "prefix": [
+        139,
+        140,
+        141
+      ],
+      "vertex": 141
+    },
+    "first": "validation_goal/r2/p4/s1/random/17x17/a",
+    "layout_sha256": "3ef43a10156b2db00e255ac8dfe417a4a50c96ae375ff9ae8dcf0b01b6cea0b3",
+    "mixed": false,
+    "second": "validation_goal/r2/p4/s1/random/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "validation_goal/r2/p5/s0/disconnected/17x17/a",
+    "layout_sha256": "831a1f5ef10f8edc0ba37c0b01de0ae908a2a3cbe9cb20d4213c088b856b56b7",
+    "mixed": true,
+    "second": "validation_goal/r2/p5/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        12,
+        21,
+        30,
+        31,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r2/p0/s2/perfect/9x9/a",
+    "layout_sha256": "b0b27cf1305c657a2e6bbadfabf32dc2421a6d079b1e9f6487e5f90bd56b72e6",
+    "mixed": false,
+    "second": "train_goal/r2/p0/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          67
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        49,
+        67
+      ],
+      "incoming": 59,
+      "prefix": [
+        62,
+        61,
+        60,
+        59,
+        58
+      ],
+      "vertex": 58
+    },
+    "first": "train_goal/r2/p1/s2/random/9x9/a",
+    "layout_sha256": "c1a013963be758f951c18574b476fa0a53b4328b2b660fefcf8000cab206b0da",
+    "mixed": false,
+    "second": "train_goal/r2/p1/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          57
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        47,
+        39,
+        57
+      ],
+      "incoming": 49,
+      "prefix": [
+        50,
+        49,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r2/p2/s1/perfect/9x9/a",
+    "layout_sha256": "2746596114bfd540513ded76d7f8d668e76f8310f220c18f77c392a430558ff2",
+    "mixed": false,
+    "second": "train_goal/r2/p2/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          43
+        ],
+        [
+          35
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        35,
+        43
+      ],
+      "incoming": 33,
+      "prefix": [
+        14,
+        23,
+        24,
+        33,
+        34
+      ],
+      "vertex": 34
+    },
+    "first": "train_goal/r2/p3/s0/random/9x9/a",
+    "layout_sha256": "a1d719859dbe48e945210a4eb6f14f72a7e0d1aff59e70d12649ca5c0e073a73",
+    "mixed": false,
+    "second": "train_goal/r2/p3/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          57
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        49,
+        39,
+        57
+      ],
+      "incoming": 47,
+      "prefix": [
+        46,
+        47,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r2/p4/s8/perfect/9x9/a",
+    "layout_sha256": "c75e44b0782684b0e331e4dc40398ac867c4137409008c04d3bbdeeb4329af1e",
+    "mixed": false,
+    "second": "train_goal/r2/p4/s8/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          29
+        ],
+        [
+          19,
+          11
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        19,
+        11,
+        29
+      ],
+      "incoming": 21,
+      "prefix": [
+        32,
+        31,
+        22,
+        21,
+        20
+      ],
+      "vertex": 20
+    },
+    "first": "train_goal/r2/p5/s1/random/9x9/a",
+    "layout_sha256": "24988dc37223de5f0d8d439319ba1193c127ea1437ff8fe32567be58c00ff3a3",
+    "mixed": false,
+    "second": "train_goal/r2/p5/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        21,
+        39
+      ],
+      "incoming": 31,
+      "prefix": [
+        41,
+        32,
+        31,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p6/s1/perfect/9x9/a",
+    "layout_sha256": "acfdf8ca34e615d5419688abfac032332abfaca7a2518cb7e77677f2233fca96",
+    "mixed": false,
+    "second": "train_goal/r2/p6/s1/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p7/s0/disconnected/9x9/a",
+    "layout_sha256": "7191ef1ac5e8f0517cbf07cb7847ab185824b264677b39055a6f2bb33ce18494",
+    "mixed": true,
+    "second": "train_goal/r2/p7/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        51,
+        41
+      ],
+      "incoming": 49,
+      "prefix": [
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r2/p8/s10/perfect/9x9/a",
+    "layout_sha256": "c2519527c52ca87d70b1b597f1f2aaea4e6801b0812d282f04e81a3b9ad7028e",
+    "mixed": false,
+    "second": "train_goal/r2/p8/s10/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        29,
+        31,
+        39
+      ],
+      "incoming": 21,
+      "prefix": [
+        3,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p9/s0/random/9x9/a",
+    "layout_sha256": "b5a545dbfbfaeb5416bd1dd27a6bc4fadb6e452d84f17cefcf4a1a8e7bd81e54",
+    "mixed": false,
+    "second": "train_goal/r2/p9/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        49,
+        59
+      ],
+      "incoming": 41,
+      "prefix": [
+        23,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r2/p10/s2/perfect/9x9/a",
+    "layout_sha256": "fe011bbe905e3fca29b0053c132269f4db378fd0426568038f6433d24ff9729d",
+    "mixed": false,
+    "second": "train_goal/r2/p10/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          37
+        ],
+        [
+          47
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        47,
+        37
+      ],
+      "incoming": 55,
+      "prefix": [
+        54,
+        55,
+        46
+      ],
+      "vertex": 46
+    },
+    "first": "train_goal/r2/p11/s0/random/9x9/a",
+    "layout_sha256": "bae3bd7395dd3b4172706813a19f3bf8cf286fdc32f064d046a009584021f3ee",
+    "mixed": false,
+    "second": "train_goal/r2/p11/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          47
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        47,
+        39
+      ],
+      "incoming": 49,
+      "prefix": [
+        68,
+        59,
+        50,
+        49,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r2/p12/s2/perfect/9x9/a",
+    "layout_sha256": "4b6454b93ce1f58e7eb905404a0fa651e3fcb5dde11bd0ae498c83d13a06ae15",
+    "mixed": false,
+    "second": "train_goal/r2/p12/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        21,
+        13,
+        31
+      ],
+      "incoming": 23,
+      "prefix": [
+        16,
+        15,
+        24,
+        23,
+        22
+      ],
+      "vertex": 22
+    },
+    "first": "train_goal/r2/p13/s1/random/9x9/a",
+    "layout_sha256": "c9ad5533981ca6de5398beec50ad6ccbb39d36f67e9f200b4eab1d099656f457",
+    "mixed": false,
+    "second": "train_goal/r2/p13/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          21
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        21,
+        39
+      ],
+      "incoming": 29,
+      "prefix": [
+        10,
+        19,
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p14/s1/perfect/9x9/a",
+    "layout_sha256": "3754f4cc5d6734bbd081c8fa3391f164ba36bdd86bba4dfcf64270f0c09404e6",
+    "mixed": false,
+    "second": "train_goal/r2/p14/s1/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p15/s0/disconnected/9x9/a",
+    "layout_sha256": "fe42e3a9193de74cc208445dd9e23da5a9c6ab6d3b2628a16b2b512c6eca446b",
+    "mixed": true,
+    "second": "train_goal/r2/p15/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          51
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 7,
+      "exits": [
+        49,
+        51
+      ],
+      "incoming": 41,
+      "prefix": [
+        19,
+        28,
+        29,
+        30,
+        31,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r2/p16/s4/perfect/9x9/a",
+    "layout_sha256": "4ce96552cda24ba0055c4bacab4b7bbc619aaec7689916f64f976b4592f3ef6b",
+    "mixed": false,
+    "second": "train_goal/r2/p16/s4/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          33,
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        31,
+        33,
+        23
+      ],
+      "incoming": 41,
+      "prefix": [
+        67,
+        68,
+        59,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r2/p17/s2/random/9x9/a",
+    "layout_sha256": "4f2234a8bd020ca4cef866328bbb0a3b49eacc5899980374c5d1f29eaad30e27",
+    "mixed": false,
+    "second": "train_goal/r2/p17/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          51
+        ],
+        [
+          43
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        51,
+        43
+      ],
+      "incoming": 61,
+      "prefix": [
+        70,
+        61,
+        52
+      ],
+      "vertex": 52
+    },
+    "first": "train_goal/r2/p18/s7/perfect/9x9/a",
+    "layout_sha256": "8b3864b5081a2c0c2e6f9cb382696f54b576e3a97d1b7e729f54457992f67a87",
+    "mixed": false,
+    "second": "train_goal/r2/p18/s7/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          12
+        ],
+        [
+          4
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        4,
+        12
+      ],
+      "incoming": 2,
+      "prefix": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "vertex": 3
+    },
+    "first": "train_goal/r2/p19/s2/random/9x9/a",
+    "layout_sha256": "c94118140a25d8278f2b960d7f535cb80771a135ce2547b052f08fa16af9aa36",
+    "mixed": false,
+    "second": "train_goal/r2/p19/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        49,
+        39
+      ],
+      "incoming": 57,
+      "prefix": [
+        66,
+        57,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r2/p20/s2/perfect/9x9/a",
+    "layout_sha256": "b0fc9adc8dbc58ab303e02a85f42cb4bb9e6c15efa9a09f2293a100241a89490",
+    "mixed": false,
+    "second": "train_goal/r2/p20/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          50
+        ],
+        [
+          32
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        32,
+        50
+      ],
+      "incoming": 42,
+      "prefix": [
+        35,
+        34,
+        43,
+        42,
+        41
+      ],
+      "vertex": 41
+    },
+    "first": "train_goal/r2/p21/s2/random/9x9/a",
+    "layout_sha256": "82e268405b105cdf184c06a37a348ff519ef5fb73ddfe259eed4cbd70a5c7dc6",
+    "mixed": false,
+    "second": "train_goal/r2/p21/s2/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          59
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        41,
+        59
+      ],
+      "incoming": 51,
+      "prefix": [
+        52,
+        51,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r2/p22/s13/perfect/9x9/a",
+    "layout_sha256": "297f65f39c6576e2d21f509bf3da2850f29f50b34847908baed00e942fec870c",
+    "mixed": false,
+    "second": "train_goal/r2/p22/s13/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p23/s0/disconnected/9x9/a",
+    "layout_sha256": "37d5d1b67ba8fa02b9fc931cc786162a701224128234de54a9c0b313d027152a",
+    "mixed": true,
+    "second": "train_goal/r2/p23/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        29,
+        39
+      ],
+      "incoming": 21,
+      "prefix": [
+        11,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p24/s5/perfect/9x9/a",
+    "layout_sha256": "8412a37bb62d49b1422c07399c963eeb69794bf31b35fa01cdc30e2266537dd7",
+    "mixed": false,
+    "second": "train_goal/r2/p24/s5/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          20,
+          12
+        ],
+        [
+          22
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        20,
+        22,
+        12
+      ],
+      "incoming": 30,
+      "prefix": [
+        40,
+        39,
+        30,
+        21
+      ],
+      "vertex": 21
+    },
+    "first": "train_goal/r2/p25/s1/random/9x9/a",
+    "layout_sha256": "ccf5e0e2878f8736b3a521141b67f1c5f1213adbc17cb30cbee1b454fe4b3953",
+    "mixed": false,
+    "second": "train_goal/r2/p25/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        31,
+        39
+      ],
+      "incoming": 21,
+      "prefix": [
+        11,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p26/s1/perfect/9x9/a",
+    "layout_sha256": "670225213b8b3451e19275e3916dd160ce1d0b15315dfe2e9b07f29f91aa0fde",
+    "mixed": false,
+    "second": "train_goal/r2/p26/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32
+        ],
+        [
+          22
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        22,
+        32
+      ],
+      "incoming": 24,
+      "prefix": [
+        6,
+        15,
+        24,
+        23
+      ],
+      "vertex": 23
+    },
+    "first": "train_goal/r2/p27/s0/random/9x9/a",
+    "layout_sha256": "99682bff8da8a173ac5abae5b1c180d995eab60629aa1545284291579be5d09d",
+    "mixed": false,
+    "second": "train_goal/r2/p27/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          59
+        ],
+        [
+          41
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        41,
+        59
+      ],
+      "incoming": 49,
+      "prefix": [
+        48,
+        49,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r2/p28/s3/perfect/9x9/a",
+    "layout_sha256": "640fca567c684f7392573a557fd8f127d181b3c5c5c5cc0d9621ce55dacc342b",
+    "mixed": false,
+    "second": "train_goal/r2/p28/s3/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          37
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        27,
+        29,
+        37
+      ],
+      "incoming": 19,
+      "prefix": [
+        10,
+        19,
+        28
+      ],
+      "vertex": 28
+    },
+    "first": "train_goal/r2/p29/s0/random/9x9/a",
+    "layout_sha256": "6b72518bfa001aa69c93f7b53c3dd97b311299e1753ca308b75430b4d1678f9d",
+    "mixed": false,
+    "second": "train_goal/r2/p29/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        29,
+        39
+      ],
+      "incoming": 21,
+      "prefix": [
+        32,
+        23,
+        14,
+        13,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p30/s0/perfect/9x9/a",
+    "layout_sha256": "a4c0985bc88c78229190fb3a90d6c24d1c46e2a61edfd2bc3fac55da9ca1b329",
+    "mixed": false,
+    "second": "train_goal/r2/p30/s0/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p31/s0/disconnected/9x9/a",
+    "layout_sha256": "22ec31ac4eddddf67fce380786c9c2b483d74da93efccdfa639cc66405c918fd",
+    "mixed": true,
+    "second": "train_goal/r2/p31/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        23
+      ],
+      "incoming": 33,
+      "prefix": [
+        16,
+        25,
+        34,
+        33,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r2/p32/s1/perfect/9x9/a",
+    "layout_sha256": "bab0a6aecdcdaed8b8fb2510c074b6bc0b3f3ca50180e041952f1a978b22c11a",
+    "mixed": false,
+    "second": "train_goal/r2/p32/s1/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          40
+        ],
+        [
+          48,
+          58
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        48,
+        40,
+        58
+      ],
+      "incoming": 50,
+      "prefix": [
+        53,
+        52,
+        51,
+        50,
+        49
+      ],
+      "vertex": 49
+    },
+    "first": "train_goal/r2/p33/s4/random/9x9/a",
+    "layout_sha256": "2da561bccc8e6c0ad2460ad9663291ad7b41784410057b8a76c5d036cb77f3ea",
+    "mixed": false,
+    "second": "train_goal/r2/p33/s4/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          29
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        29,
+        31
+      ],
+      "incoming": 39,
+      "prefix": [
+        48,
+        39,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p34/s9/perfect/9x9/a",
+    "layout_sha256": "dbb45e1c8670403ee8d1e611d5cf9d6890c90cbc88ad423bc221c7ed1ca30ca8",
+    "mixed": false,
+    "second": "train_goal/r2/p34/s9/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32,
+          22
+        ],
+        [
+          40
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        32,
+        22,
+        40
+      ],
+      "incoming": 30,
+      "prefix": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "vertex": 31
+    },
+    "first": "train_goal/r2/p35/s3/random/9x9/a",
+    "layout_sha256": "0c82eb9f51eb2b458411a138cefa6cde6b3834c4cc3d9f0463cf9989f58a10d8",
+    "mixed": false,
+    "second": "train_goal/r2/p35/s3/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          29
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        29,
+        31
+      ],
+      "incoming": 21,
+      "prefix": [
+        16,
+        15,
+        14,
+        13,
+        12,
+        21,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p36/s5/perfect/9x9/a",
+    "layout_sha256": "ddcc877b2d883a228ff0d87ce92adf94c77bcef8c913df86ae73ea69f5b7a3dc",
+    "mixed": false,
+    "second": "train_goal/r2/p36/s5/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          57,
+          67
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        57,
+        49,
+        67
+      ],
+      "incoming": 59,
+      "prefix": [
+        61,
+        60,
+        59,
+        58
+      ],
+      "vertex": 58
+    },
+    "first": "train_goal/r2/p37/s1/random/9x9/a",
+    "layout_sha256": "982a654f374abe52fbd1a9ba7c85c6645cb693b2de11484b12335cc27115687c",
+    "mixed": false,
+    "second": "train_goal/r2/p37/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          57
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        39,
+        57
+      ],
+      "incoming": 49,
+      "prefix": [
+        52,
+        51,
+        50,
+        49,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "train_goal/r2/p38/s10/perfect/9x9/a",
+    "layout_sha256": "37f134f8932d6c211a7b49bc6f5064ecdb7aa05db662af39661e3ccee8791630",
+    "mixed": false,
+    "second": "train_goal/r2/p38/s10/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p39/s0/disconnected/9x9/a",
+    "layout_sha256": "2fe5543178a501b12f42eec248db5060c79ac59c20fbc1de626b6131bfbece1b",
+    "mixed": true,
+    "second": "train_goal/r2/p39/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          39
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        31,
+        39
+      ],
+      "incoming": 29,
+      "prefix": [
+        37,
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p40/s6/perfect/9x9/a",
+    "layout_sha256": "51a4fdbfcbe6df2b2eb962343af63d629691f9f24ab9d99e014605c347418a00",
+    "mixed": false,
+    "second": "train_goal/r2/p40/s6/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32
+        ],
+        [
+          24,
+          14
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        24,
+        14,
+        32
+      ],
+      "incoming": 22,
+      "prefix": [
+        9,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "vertex": 23
+    },
+    "first": "train_goal/r2/p41/s3/random/9x9/a",
+    "layout_sha256": "8220be9bba2c8c378a8ee2a0f18b2ddb30385420b118d525368e87ec4b5609ce",
+    "mixed": false,
+    "second": "train_goal/r2/p41/s3/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          23
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        23
+      ],
+      "incoming": 41,
+      "prefix": [
+        68,
+        59,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "train_goal/r2/p42/s0/perfect/9x9/a",
+    "layout_sha256": "d92396217b37af2f052401dbc9eef662f0b4b8c1be7d253fe8a9c17f11387914",
+    "mixed": false,
+    "second": "train_goal/r2/p42/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          50
+        ],
+        [
+          58
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        58,
+        60,
+        50
+      ],
+      "incoming": 68,
+      "prefix": [
+        78,
+        77,
+        68,
+        59
+      ],
+      "vertex": 59
+    },
+    "first": "train_goal/r2/p43/s0/random/9x9/a",
+    "layout_sha256": "9f7acf23f35b1a4b7a907109cc6d25b9e02108a0ed800668ca9c158bf42165eb",
+    "mixed": false,
+    "second": "train_goal/r2/p43/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          31
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        31,
+        39
+      ],
+      "incoming": 29,
+      "prefix": [
+        10,
+        19,
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p44/s2/perfect/9x9/a",
+    "layout_sha256": "c09094357476b6552ef2d339eae0f4a56553ef7d301dd128053793ead6d098da",
+    "mixed": false,
+    "second": "train_goal/r2/p44/s2/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          61
+        ],
+        [
+          69
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        69,
+        71,
+        61
+      ],
+      "incoming": 79,
+      "prefix": [
+        80,
+        79,
+        70
+      ],
+      "vertex": 70
+    },
+    "first": "train_goal/r2/p45/s0/random/9x9/a",
+    "layout_sha256": "bafaab5147fa14624f5c0ca5c15c2c6a2f2ef5c41e8fd90a9040cd6e037c85b1",
+    "mixed": false,
+    "second": "train_goal/r2/p45/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          59
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        49,
+        59
+      ],
+      "incoming": 41,
+      "prefix": [
+        34,
+        33,
+        32,
+        41,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "train_goal/r2/p46/s3/perfect/9x9/a",
+    "layout_sha256": "7296784f0039d383aeb64fecca24fda20b98ed2576d9fbcc1ddfaab9bc792bd3",
+    "mixed": false,
+    "second": "train_goal/r2/p46/s3/perfect/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p47/s0/disconnected/9x9/a",
+    "layout_sha256": "4729cec4005e149a29a0402f10d4efe57da8d45c7e6ef36481faf9c5ea3dca5b",
+    "mixed": true,
+    "second": "train_goal/r2/p47/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          53
+        ],
+        [
+          71
+        ]
+      ],
+      "detours": [
+        true,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        53,
+        71
+      ],
+      "incoming": 55,
+      "prefix": [
+        56,
+        55,
+        54
+      ],
+      "vertex": 54
+    },
+    "first": "train_goal/r2/p48/s0/perfect/17x17/a",
+    "layout_sha256": "f886aeab7b9ca7bfa9f69c289ef525eabbfd6a651f8a643775239e29f2a89836",
+    "mixed": false,
+    "second": "train_goal/r2/p48/s0/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          125
+        ],
+        [
+          159
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        125,
+        159
+      ],
+      "incoming": 141,
+      "prefix": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "vertex": 142
+    },
+    "first": "train_goal/r2/p49/s0/random/17x17/a",
+    "layout_sha256": "890d1557b68aea8d0d8df7fefee7289995601cda73e20784da049195ff000d23",
+    "mixed": false,
+    "second": "train_goal/r2/p49/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          163
+        ],
+        [
+          147
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        163,
+        147
+      ],
+      "incoming": 165,
+      "prefix": [
+        201,
+        200,
+        183,
+        166,
+        165,
+        164
+      ],
+      "vertex": 164
+    },
+    "first": "train_goal/r2/p50/s5/perfect/17x17/a",
+    "layout_sha256": "1ad3680d4facfe98126b1610ddb5368514f60e656a42ff2414668fef86b1f833",
+    "mixed": false,
+    "second": "train_goal/r2/p50/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          166
+        ],
+        [
+          150
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        166,
+        150
+      ],
+      "incoming": 168,
+      "prefix": [
+        237,
+        236,
+        219,
+        202,
+        185,
+        168,
+        167
+      ],
+      "vertex": 167
+    },
+    "first": "train_goal/r2/p51/s0/random/17x17/a",
+    "layout_sha256": "399a968a5f21b7f516ff4176efb73e4ac73151b86d43b42042acbb56bd0cb1e1",
+    "mixed": false,
+    "second": "train_goal/r2/p51/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          171
+        ],
+        [
+          189
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        189,
+        171
+      ],
+      "incoming": 205,
+      "prefix": [
+        224,
+        223,
+        222,
+        205,
+        188
+      ],
+      "vertex": 188
+    },
+    "first": "train_goal/r2/p52/s10/perfect/17x17/a",
+    "layout_sha256": "a6c1f30207dcbc62fbe2ce3ea93cf713d50629a4c640cb8aa9c85e29abc3956e",
+    "mixed": false,
+    "second": "train_goal/r2/p52/s10/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          112
+        ],
+        [
+          78
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        78,
+        112
+      ],
+      "incoming": 96,
+      "prefix": [
+        49,
+        66,
+        65,
+        64,
+        81,
+        80,
+        97,
+        96,
+        95
+      ],
+      "vertex": 95
+    },
+    "first": "train_goal/r2/p53/s0/random/17x17/a",
+    "layout_sha256": "a424a81409417730fb8e33b28623e35de3eb8ba5654221897ca71e3e88a701b7",
+    "mixed": false,
+    "second": "train_goal/r2/p53/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          139
+        ],
+        [
+          173
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        139,
+        173
+      ],
+      "incoming": 157,
+      "prefix": [
+        192,
+        175,
+        158,
+        157,
+        156
+      ],
+      "vertex": 156
+    },
+    "first": "train_goal/r2/p54/s0/perfect/17x17/a",
+    "layout_sha256": "b05ddba8d358de13dbb76ef1b10d5933c488a53378c77970252f46f959d6a14f",
+    "mixed": false,
+    "second": "train_goal/r2/p54/s0/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p55/s0/disconnected/17x17/a",
+    "layout_sha256": "06fc7c7a5c8bf57ad233c5e4b3b757b832a47e68b5b18f5bf068413336c82a9f",
+    "mixed": true,
+    "second": "train_goal/r2/p55/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          185
+        ],
+        [
+          167
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        167,
+        185
+      ],
+      "incoming": 151,
+      "prefix": [
+        66,
+        83,
+        100,
+        117,
+        134,
+        151,
+        168
+      ],
+      "vertex": 168
+    },
+    "first": "train_goal/r2/p56/s2/perfect/17x17/a",
+    "layout_sha256": "12f5e6632f0f1d6991997b066d99e61b01fd7df696f2ee667074d177faaf1d30",
+    "mixed": false,
+    "second": "train_goal/r2/p56/s2/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          266
+        ],
+        [
+          282
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        282,
+        266
+      ],
+      "incoming": 284,
+      "prefix": [
+        287,
+        286,
+        285,
+        284,
+        283
+      ],
+      "vertex": 283
+    },
+    "first": "train_goal/r2/p57/s0/random/17x17/a",
+    "layout_sha256": "da3ec5f105903d6976d093eda4acd7f8a00adaff38648080b40523d465cad9ca",
+    "mixed": false,
+    "second": "train_goal/r2/p57/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          47
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        31,
+        47
+      ],
+      "incoming": 29,
+      "prefix": [
+        28,
+        29,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p58/s4/perfect/17x17/a",
+    "layout_sha256": "f0dea113d14bfaa31c5d10c033dcac74f5f71508408362c64f043eff24851702",
+    "mixed": false,
+    "second": "train_goal/r2/p58/s4/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          231
+        ],
+        [
+          249
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        249,
+        231
+      ],
+      "incoming": 247,
+      "prefix": [
+        263,
+        246,
+        247,
+        248
+      ],
+      "vertex": 248
+    },
+    "first": "train_goal/r2/p59/s0/random/17x17/a",
+    "layout_sha256": "c8d9e91ef259e9cfd36902845ee4e06f7240a28a8c5112f481f32cae3cb740be",
+    "mixed": false,
+    "second": "train_goal/r2/p59/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          205
+        ],
+        [
+          189
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 6,
+      "exits": [
+        189,
+        205
+      ],
+      "incoming": 171,
+      "prefix": [
+        86,
+        103,
+        120,
+        137,
+        154,
+        171,
+        188
+      ],
+      "vertex": 188
+    },
+    "first": "train_goal/r2/p60/s4/perfect/17x17/a",
+    "layout_sha256": "9b8646d1bbb429f399db11d549677a3c30628643492b10476f860b037280ac72",
+    "mixed": false,
+    "second": "train_goal/r2/p60/s4/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          129
+        ],
+        [
+          145
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        145,
+        147,
+        129
+      ],
+      "incoming": 163,
+      "prefix": [
+        198,
+        181,
+        164,
+        163,
+        146
+      ],
+      "vertex": 146
+    },
+    "first": "train_goal/r2/p61/s0/random/17x17/a",
+    "layout_sha256": "15e710a67080124243aeb43d0a1c32a4861b9e4ef642361276d44b23005d6b87",
+    "mixed": false,
+    "second": "train_goal/r2/p61/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          159
+        ],
+        [
+          157
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 7,
+      "exits": [
+        157,
+        159
+      ],
+      "incoming": 175,
+      "prefix": [
+        179,
+        196,
+        195,
+        194,
+        193,
+        192,
+        175,
+        158
+      ],
+      "vertex": 158
+    },
+    "first": "train_goal/r2/p62/s0/perfect/17x17/a",
+    "layout_sha256": "9448e0350d7163e412d65831f78bbb7221a986e8ac82c808451514ec13bcd6cf",
+    "mixed": false,
+    "second": "train_goal/r2/p62/s0/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p63/s0/disconnected/17x17/a",
+    "layout_sha256": "c6b6c5431926f60caf95b6eabb17665f3def5cd41020e60711d0e217794f24b1",
+    "mixed": true,
+    "second": "train_goal/r2/p63/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          93
+        ],
+        [
+          75
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        93,
+        75
+      ],
+      "incoming": 91,
+      "prefix": [
+        73,
+        90,
+        91,
+        92
+      ],
+      "vertex": 92
+    },
+    "first": "train_goal/r2/p64/s1/perfect/17x17/a",
+    "layout_sha256": "7d75ed78d5e4a1e02c38c1e673094fe39c5886a8a8f498d9021ea934bdced8c4",
+    "mixed": false,
+    "second": "train_goal/r2/p64/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          263
+        ],
+        [
+          245
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        263,
+        245,
+        279
+      ],
+      "incoming": 261,
+      "prefix": [
+        275,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "vertex": 262
+    },
+    "first": "train_goal/r2/p65/s0/random/17x17/a",
+    "layout_sha256": "bc65678aeaa6986a61d103a4eb5e02082d4ed4fb9f427fcb9e33a411a703f17b",
+    "mixed": false,
+    "second": "train_goal/r2/p65/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          99
+        ],
+        [
+          81
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        99,
+        81
+      ],
+      "incoming": 115,
+      "prefix": [
+        132,
+        115,
+        98
+      ],
+      "vertex": 98
+    },
+    "first": "train_goal/r2/p66/s5/perfect/17x17/a",
+    "layout_sha256": "a41818e8ad5dd8d451104657dd0a0d9319a32bccc0e69fb0c917b11b8c104578",
+    "mixed": false,
+    "second": "train_goal/r2/p66/s5/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          180,
+          196
+        ],
+        [
+          162
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        180,
+        162,
+        196
+      ],
+      "incoming": 178,
+      "prefix": [
+        192,
+        193,
+        176,
+        177,
+        178,
+        179
+      ],
+      "vertex": 179
+    },
+    "first": "train_goal/r2/p67/s0/random/17x17/a",
+    "layout_sha256": "492c10d3b263c99fd12a0a4bf535c35fb5e4c44de2f35f571569a9ed11c8bf1c",
+    "mixed": false,
+    "second": "train_goal/r2/p67/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          91
+        ],
+        [
+          89
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        89,
+        91
+      ],
+      "incoming": 107,
+      "prefix": [
+        143,
+        126,
+        125,
+        124,
+        107,
+        90
+      ],
+      "vertex": 90
+    },
+    "first": "train_goal/r2/p68/s6/perfect/17x17/a",
+    "layout_sha256": "33d6d2f491e542189810617559897a1d39aa129f2dbf892ac7a82174fb785636",
+    "mixed": false,
+    "second": "train_goal/r2/p68/s6/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          214
+        ],
+        [
+          230
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        230,
+        214
+      ],
+      "incoming": 232,
+      "prefix": [
+        284,
+        283,
+        266,
+        249,
+        232,
+        231
+      ],
+      "vertex": 231
+    },
+    "first": "train_goal/r2/p69/s0/random/17x17/a",
+    "layout_sha256": "e154e283d0a831ffc2890f8d1bb0f5b282541f69ecdff37c37cc57d1960c1c5b",
+    "mixed": false,
+    "second": "train_goal/r2/p69/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          113
+        ],
+        [
+          131
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 4,
+      "exits": [
+        131,
+        113
+      ],
+      "incoming": 147,
+      "prefix": [
+        162,
+        163,
+        164,
+        147,
+        130
+      ],
+      "vertex": 130
+    },
+    "first": "train_goal/r2/p70/s1/perfect/17x17/a",
+    "layout_sha256": "bdb4976e1c8704dc76622902f4638ca132789104e1399fa54e9a6cf21b5b2d7e",
+    "mixed": false,
+    "second": "train_goal/r2/p70/s1/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p71/s0/disconnected/17x17/a",
+    "layout_sha256": "7ea8b9d94d5cc178509924ae987300b45742b0d4276c93b14a6e04d2dc36ee8d",
+    "mixed": true,
+    "second": "train_goal/r2/p71/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          43
+        ],
+        [
+          25
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 7,
+      "exits": [
+        25,
+        43
+      ],
+      "incoming": 27,
+      "prefix": [
+        49,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26
+      ],
+      "vertex": 26
+    },
+    "first": "train_goal/r2/p72/s4/perfect/17x17/a",
+    "layout_sha256": "54f2d9c7a357f8054aad7b2bb70668221a69a2645ceb8257c65e25d6d717271a",
+    "mixed": false,
+    "second": "train_goal/r2/p72/s4/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          130
+        ],
+        [
+          112
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        112,
+        130
+      ],
+      "incoming": 96,
+      "prefix": [
+        62,
+        79,
+        96,
+        113
+      ],
+      "vertex": 113
+    },
+    "first": "train_goal/r2/p73/s0/random/17x17/a",
+    "layout_sha256": "1c24b0f877e916928137d12b6790b9f4189b2c14caf830c5d7a783de0f7e3033",
+    "mixed": false,
+    "second": "train_goal/r2/p73/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          189
+        ],
+        [
+          171
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 7,
+      "exits": [
+        189,
+        171
+      ],
+      "incoming": 205,
+      "prefix": [
+        259,
+        258,
+        257,
+        256,
+        239,
+        222,
+        205,
+        188
+      ],
+      "vertex": 188
+    },
+    "first": "train_goal/r2/p74/s0/perfect/17x17/a",
+    "layout_sha256": "555ce0c6c4702d816f9a48d853bf60212d82964352cdb73d8c9fe514afa61d70",
+    "mixed": false,
+    "second": "train_goal/r2/p74/s0/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          130,
+          146
+        ],
+        [
+          128
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        128,
+        130,
+        146
+      ],
+      "incoming": 112,
+      "prefix": [
+        61,
+        78,
+        95,
+        112,
+        129
+      ],
+      "vertex": 129
+    },
+    "first": "train_goal/r2/p75/s0/random/17x17/a",
+    "layout_sha256": "5f6de5cf3b5d31935789f4b30c22a9c8cdc2e213e4b7c252d03a7661939b725a",
+    "mixed": false,
+    "second": "train_goal/r2/p75/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          259
+        ],
+        [
+          243
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        259,
+        243
+      ],
+      "incoming": 261,
+      "prefix": [
+        230,
+        229,
+        228,
+        245,
+        262,
+        261,
+        260
+      ],
+      "vertex": 260
+    },
+    "first": "train_goal/r2/p76/s13/perfect/17x17/a",
+    "layout_sha256": "ef1e89945a4f854baae09ab7f354f0f92ea6f5a7443a8b04293b12cc5f3b2841",
+    "mixed": false,
+    "second": "train_goal/r2/p76/s13/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          223,
+          207
+        ],
+        [
+          225
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        223,
+        225,
+        207
+      ],
+      "incoming": 241,
+      "prefix": [
+        258,
+        241,
+        224
+      ],
+      "vertex": 224
+    },
+    "first": "train_goal/r2/p77/s0/random/17x17/a",
+    "layout_sha256": "0d5c42d51e5d37cc186179af3fd4bc1c3740bd76624ecf18965ff353d3017490",
+    "mixed": false,
+    "second": "train_goal/r2/p77/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          125
+        ],
+        [
+          141
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        125,
+        141
+      ],
+      "incoming": 107,
+      "prefix": [
+        75,
+        92,
+        91,
+        90,
+        107,
+        124
+      ],
+      "vertex": 124
+    },
+    "first": "train_goal/r2/p78/s9/perfect/17x17/a",
+    "layout_sha256": "1bbdf50c8b795a84ca246913e0aaf9f69a7d3ab475d787a273f185149c6caeb9",
+    "mixed": false,
+    "second": "train_goal/r2/p78/s9/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p79/s0/disconnected/17x17/a",
+    "layout_sha256": "5e486434c5a40404146cad3609543c4ca04a72b5a4c72fa6aae681a06b3d0db8",
+    "mixed": true,
+    "second": "train_goal/r2/p79/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          127
+        ],
+        [
+          143
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        127,
+        143
+      ],
+      "incoming": 125,
+      "prefix": [
+        92,
+        91,
+        90,
+        107,
+        124,
+        125,
+        126
+      ],
+      "vertex": 126
+    },
+    "first": "train_goal/r2/p80/s1/perfect/17x17/a",
+    "layout_sha256": "7a01eff6750ee0e13776b1de1226ed3095feec042fb189a7bc16d2745625ef4d",
+    "mixed": false,
+    "second": "train_goal/r2/p80/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          62,
+          80
+        ],
+        [
+          64
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 3,
+      "exits": [
+        62,
+        64,
+        80
+      ],
+      "incoming": 46,
+      "prefix": [
+        12,
+        29,
+        46,
+        63
+      ],
+      "vertex": 63
+    },
+    "first": "train_goal/r2/p81/s1/random/17x17/a",
+    "layout_sha256": "d77bd682a0d0ccb0f8d253072b084550416ba9d51774273379dd388be41600f0",
+    "mixed": false,
+    "second": "train_goal/r2/p81/s1/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          87
+        ],
+        [
+          71
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        87,
+        71
+      ],
+      "incoming": 105,
+      "prefix": [
+        124,
+        123,
+        122,
+        105,
+        88
+      ],
+      "vertex": 88
+    },
+    "first": "train_goal/r2/p82/s1/perfect/17x17/a",
+    "layout_sha256": "a1c4c579ba30ef3eff9cccd33a69361d144f69e416fb7fe5d35b64e0894cb82d",
+    "mixed": false,
+    "second": "train_goal/r2/p82/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          155
+        ],
+        [
+          121
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        121,
+        155
+      ],
+      "incoming": 139,
+      "prefix": [
+        142,
+        141,
+        140,
+        139,
+        138
+      ],
+      "vertex": 138
+    },
+    "first": "train_goal/r2/p83/s0/random/17x17/a",
+    "layout_sha256": "39a6c29a131bc7dffa1226e20363924980cedd376914c01f482052c8cc196ae6",
+    "mixed": false,
+    "second": "train_goal/r2/p83/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          223
+        ],
+        [
+          205
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 7,
+      "exits": [
+        223,
+        205
+      ],
+      "incoming": 239,
+      "prefix": [
+        243,
+        260,
+        259,
+        258,
+        257,
+        256,
+        239,
+        222
+      ],
+      "vertex": 222
+    },
+    "first": "train_goal/r2/p84/s2/perfect/17x17/a",
+    "layout_sha256": "e4a01c3d1014ffb1ee47b62fcba174690e49f561c151193b3b1622a682a50157",
+    "mixed": false,
+    "second": "train_goal/r2/p84/s2/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          162
+        ],
+        [
+          160
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        160,
+        162
+      ],
+      "incoming": 178,
+      "prefix": [
+        231,
+        230,
+        213,
+        212,
+        195,
+        178,
+        161
+      ],
+      "vertex": 161
+    },
+    "first": "train_goal/r2/p85/s0/random/17x17/a",
+    "layout_sha256": "30f538816bda7b6ccb4fa478e3603c0a60da71505f3d0271fbf4dc1b0694d9c8",
+    "mixed": false,
+    "second": "train_goal/r2/p85/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          91
+        ],
+        [
+          89
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        89,
+        91
+      ],
+      "incoming": 73,
+      "prefix": [
+        58,
+        57,
+        56,
+        73,
+        90
+      ],
+      "vertex": 90
+    },
+    "first": "train_goal/r2/p86/s13/perfect/17x17/a",
+    "layout_sha256": "dd03a0d1402f16c34a5c73866be96dfa21b4239d654def2ce679c6bb507c65b9",
+    "mixed": false,
+    "second": "train_goal/r2/p86/s13/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p87/s0/disconnected/17x17/a",
+    "layout_sha256": "40ff4be86e175f795ae974b208037040bff0e5b4ad12a3a206fa305817f02fb8",
+    "mixed": true,
+    "second": "train_goal/r2/p87/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          175
+        ],
+        [
+          191
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 2,
+      "exits": [
+        191,
+        175
+      ],
+      "incoming": 209,
+      "prefix": [
+        226,
+        209,
+        192
+      ],
+      "vertex": 192
+    },
+    "first": "train_goal/r2/p88/s2/perfect/17x17/a",
+    "layout_sha256": "d25fe5c78a05180299a78bd17c789d39f7fd9bd7f6a346b24d262777014a979e",
+    "mixed": false,
+    "second": "train_goal/r2/p88/s2/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          249
+        ],
+        [
+          233
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        249,
+        233
+      ],
+      "incoming": 251,
+      "prefix": [
+        268,
+        251,
+        250
+      ],
+      "vertex": 250
+    },
+    "first": "train_goal/r2/p89/s0/random/17x17/a",
+    "layout_sha256": "e9f278826464c9f151ad2f599689cb50a9d91ccf36c708f37ddbe33d4436a5c3",
+    "mixed": false,
+    "second": "train_goal/r2/p89/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          25
+        ],
+        [
+          27
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        25,
+        27
+      ],
+      "incoming": 43,
+      "prefix": [
+        59,
+        60,
+        43,
+        26
+      ],
+      "vertex": 26
+    },
+    "first": "train_goal/r2/p90/s1/perfect/17x17/a",
+    "layout_sha256": "60c8309eb320cccef22a06074b777b68e8304a773e59f69fdf166e7780d1a9b1",
+    "mixed": false,
+    "second": "train_goal/r2/p90/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          113
+        ],
+        [
+          97
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        95,
+        97,
+        113
+      ],
+      "incoming": 79,
+      "prefix": [
+        43,
+        44,
+        61,
+        62,
+        79,
+        96
+      ],
+      "vertex": 96
+    },
+    "first": "train_goal/r2/p91/s0/random/17x17/a",
+    "layout_sha256": "5cc9f3f770180f9e17ed94d4011918e90694e1ba549cf9457974133fc3194804",
+    "mixed": false,
+    "second": "train_goal/r2/p91/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          99
+        ],
+        [
+          81
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        99,
+        81
+      ],
+      "incoming": 115,
+      "prefix": [
+        132,
+        115,
+        98
+      ],
+      "vertex": 98
+    },
+    "first": "train_goal/r2/p92/s1/perfect/17x17/a",
+    "layout_sha256": "6ccdd26e8d221d33461a1883236827708d8b10b8c817ec56862e7624566053ff",
+    "mixed": false,
+    "second": "train_goal/r2/p92/s1/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          63
+        ],
+        [
+          45
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        45,
+        63
+      ],
+      "incoming": 47,
+      "prefix": [
+        14,
+        31,
+        48,
+        47,
+        46
+      ],
+      "vertex": 46
+    },
+    "first": "train_goal/r2/p93/s0/random/17x17/a",
+    "layout_sha256": "014eda58a5baaeba1ac675dd5ee60b5b6ac829aa327dee3b3f27f478b708a444",
+    "mixed": false,
+    "second": "train_goal/r2/p93/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          31
+        ],
+        [
+          29
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        29,
+        31
+      ],
+      "incoming": 47,
+      "prefix": [
+        79,
+        62,
+        63,
+        64,
+        47,
+        30
+      ],
+      "vertex": 30
+    },
+    "first": "train_goal/r2/p94/s6/perfect/17x17/a",
+    "layout_sha256": "c08a0a52f6e61e1662cc569962ebb52b494b24373d8d482ea2628e98100fa67e",
+    "mixed": false,
+    "second": "train_goal/r2/p94/s6/perfect/17x17/b"
+  },
+  {
+    "decision": null,
+    "first": "train_goal/r2/p95/s0/disconnected/17x17/a",
+    "layout_sha256": "322ea988abd137a102308bb99b4d2d1d51b003cf00ea13271ef8dd0921d305ba",
+    "mixed": true,
+    "second": "train_goal/r2/p95/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          39
+        ],
+        [
+          47
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        47,
+        39
+      ],
+      "incoming": 57,
+      "prefix": [
+        66,
+        57,
+        48
+      ],
+      "vertex": 48
+    },
+    "first": "test_pairs/r0/p0/s0/perfect/9x9/a",
+    "layout_sha256": "6e9a4cc29ba480d2996b11444cab6b0cad70ff3dbdcf6bb13513f8c43c0f868f",
+    "mixed": false,
+    "second": "test_pairs/r0/p0/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          49
+        ],
+        [
+          67
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        49,
+        67
+      ],
+      "incoming": 57,
+      "prefix": [
+        56,
+        57,
+        58
+      ],
+      "vertex": 58
+    },
+    "first": "test_pairs/r0/p1/s0/random/9x9/a",
+    "layout_sha256": "7a1c32974a27fdc949eda0893dce2773885c940059cbc2f9ca8eb18f0720e605",
+    "mixed": false,
+    "second": "test_pairs/r0/p1/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          201
+        ],
+        [
+          185
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 5,
+      "exits": [
+        201,
+        185
+      ],
+      "incoming": 219,
+      "prefix": [
+        269,
+        270,
+        253,
+        236,
+        219,
+        202
+      ],
+      "vertex": 202
+    },
+    "first": "test_pairs/r0/p2/s2/perfect/17x17/a",
+    "layout_sha256": "ffc96c0856c818fcf9936cc84cb959d4153fb01436d8a917e4e2e988cedd01d7",
+    "mixed": false,
+    "second": "test_pairs/r0/p2/s2/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          94
+        ],
+        [
+          78
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        76,
+        78,
+        94
+      ],
+      "incoming": 60,
+      "prefix": [
+        25,
+        24,
+        23,
+        40,
+        57,
+        58,
+        59,
+        60,
+        77
+      ],
+      "vertex": 77
+    },
+    "first": "test_pairs/r0/p3/s0/random/17x17/a",
+    "layout_sha256": "c76e949a14b56b6b7451f2039e350b8375f33f5232a669476bb88401fd7cc16d",
+    "mixed": false,
+    "second": "test_pairs/r0/p3/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          811
+        ],
+        [
+          843
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        843,
+        811
+      ],
+      "incoming": 845,
+      "prefix": [
+        850,
+        849,
+        848,
+        847,
+        846,
+        845,
+        844
+      ],
+      "vertex": 844
+    },
+    "first": "test_pairs/r0/p4/s16/perfect/33x33/a",
+    "layout_sha256": "dd72357d1772978bf86752f9ee2ef14c59847076cb1b2d649f7404258e76acb5",
+    "mixed": false,
+    "second": "test_pairs/r0/p4/s16/perfect/33x33/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          512
+        ],
+        [
+          480
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        480,
+        512
+      ],
+      "incoming": 478,
+      "prefix": [
+        443,
+        444,
+        445,
+        478,
+        479
+      ],
+      "vertex": 479
+    },
+    "first": "test_pairs/r0/p5/s0/random/33x33/a",
+    "layout_sha256": "f49599a47e2cdea6648d02ac9e4d7079a205cefe65d89814293f944227670e44",
+    "mixed": false,
+    "second": "test_pairs/r0/p5/s0/random/33x33/b"
+  },
+  {
+    "decision": null,
+    "first": "test_pairs/r0/p6/s0/disconnected/9x9/a",
+    "layout_sha256": "b2c3872c5aca6a6a1fb17908af0a7ccf6af58907fe24d5433b439331f5d02196",
+    "mixed": true,
+    "second": "test_pairs/r0/p6/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "test_pairs/r0/p7/s0/disconnected/17x17/a",
+    "layout_sha256": "c0bb962f0a327e90fd72c9678babd2c878fd828d7fd043279735739207c5f313",
+    "mixed": true,
+    "second": "test_pairs/r0/p7/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          41
+        ],
+        [
+          49
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        49,
+        41
+      ],
+      "incoming": 59,
+      "prefix": [
+        68,
+        59,
+        50
+      ],
+      "vertex": 50
+    },
+    "first": "test_pairs/r1/p0/s3/perfect/9x9/a",
+    "layout_sha256": "6f73592b36dc04d2950cd96ae29486e3c73814478d219840b8d1b4fe17c58cd7",
+    "mixed": false,
+    "second": "test_pairs/r1/p0/s3/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          32
+        ],
+        [
+          30
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        30,
+        32
+      ],
+      "incoming": 40,
+      "prefix": [
+        59,
+        58,
+        49,
+        40,
+        31
+      ],
+      "vertex": 31
+    },
+    "first": "test_pairs/r1/p1/s0/random/9x9/a",
+    "layout_sha256": "95a05b92811383c8e862a366c03ac6666f8fef74d403450eac6fb2e09dbbfc64",
+    "mixed": false,
+    "second": "test_pairs/r1/p1/s0/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          229
+        ],
+        [
+          213
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 2,
+      "exits": [
+        229,
+        213
+      ],
+      "incoming": 247,
+      "prefix": [
+        264,
+        247,
+        230
+      ],
+      "vertex": 230
+    },
+    "first": "test_pairs/r1/p2/s0/perfect/17x17/a",
+    "layout_sha256": "5aa35d6d081a334df9d93816afd690c91e6f7e9de4ce0405eea491c60bbd78f1",
+    "mixed": false,
+    "second": "test_pairs/r1/p2/s0/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          195
+        ],
+        [
+          197,
+          179
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        195,
+        197,
+        179
+      ],
+      "incoming": 213,
+      "prefix": [
+        248,
+        247,
+        230,
+        213,
+        196
+      ],
+      "vertex": 196
+    },
+    "first": "test_pairs/r1/p3/s0/random/17x17/a",
+    "layout_sha256": "158b0440a27c2e8ea5e799419306df41e8a845b1ebc9177979734c4e06420c8e",
+    "mixed": false,
+    "second": "test_pairs/r1/p3/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          775
+        ],
+        [
+          743
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        775,
+        743
+      ],
+      "incoming": 809,
+      "prefix": [
+        846,
+        845,
+        844,
+        843,
+        842,
+        809,
+        776
+      ],
+      "vertex": 776
+    },
+    "first": "test_pairs/r1/p4/s2/perfect/33x33/a",
+    "layout_sha256": "0d320211652f8b33d3dfcfa9f0bcdea3e8ef34ad6ff78230af1bde4ea0ffcbb9",
+    "mixed": false,
+    "second": "test_pairs/r1/p4/s2/perfect/33x33/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          708
+        ],
+        [
+          674
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        674,
+        708
+      ],
+      "incoming": 642,
+      "prefix": [
+        542,
+        543,
+        576,
+        609,
+        642,
+        675
+      ],
+      "vertex": 675
+    },
+    "first": "test_pairs/r1/p5/s0/random/33x33/a",
+    "layout_sha256": "ef61bdee32a81533fbdc455cf273e1fe4dc94f27db2e4a545ce1ccfa3c04d655",
+    "mixed": false,
+    "second": "test_pairs/r1/p5/s0/random/33x33/b"
+  },
+  {
+    "decision": null,
+    "first": "test_pairs/r1/p6/s0/disconnected/9x9/a",
+    "layout_sha256": "6aac35405b683c6501687d878840e1586ff046ac1cbe577c7a17222df1bdf048",
+    "mixed": true,
+    "second": "test_pairs/r1/p6/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "test_pairs/r1/p7/s0/disconnected/17x17/a",
+    "layout_sha256": "ef7d061523f8bcd0336cc6ead95fdc840899423dd42a3bd1f1b4d3032ecce505",
+    "mixed": true,
+    "second": "test_pairs/r1/p7/s0/disconnected/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          23
+        ],
+        [
+          33
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        33,
+        23
+      ],
+      "incoming": 41,
+      "prefix": [
+        48,
+        49,
+        50,
+        41,
+        32
+      ],
+      "vertex": 32
+    },
+    "first": "test_pairs/r2/p0/s0/perfect/9x9/a",
+    "layout_sha256": "81e9ad6fb4453de6f0e3392ba86e4accd1c709cf0cb5910207dbc2ea9196506a",
+    "mixed": false,
+    "second": "test_pairs/r2/p0/s0/perfect/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          75
+        ],
+        [
+          67
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 4,
+      "exits": [
+        67,
+        75
+      ],
+      "incoming": 57,
+      "prefix": [
+        30,
+        39,
+        48,
+        57,
+        66
+      ],
+      "vertex": 66
+    },
+    "first": "test_pairs/r2/p1/s1/random/9x9/a",
+    "layout_sha256": "00cba22767faa7d80e2790a9c40262275794773cdd410b84f910e681cb489b41",
+    "mixed": false,
+    "second": "test_pairs/r2/p1/s1/random/9x9/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          243
+        ],
+        [
+          259
+        ]
+      ],
+      "detours": [
+        false,
+        true
+      ],
+      "distance": 3,
+      "exits": [
+        259,
+        243
+      ],
+      "incoming": 261,
+      "prefix": [
+        263,
+        262,
+        261,
+        260
+      ],
+      "vertex": 260
+    },
+    "first": "test_pairs/r2/p2/s7/perfect/17x17/a",
+    "layout_sha256": "b172bc9c707d9aabc45ce771f994f4fdd56f85ec2c0c1867eb12039e409aa279",
+    "mixed": false,
+    "second": "test_pairs/r2/p2/s7/perfect/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          133
+        ],
+        [
+          149
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 5,
+      "exits": [
+        149,
+        151,
+        133
+      ],
+      "incoming": 167,
+      "prefix": [
+        219,
+        218,
+        201,
+        184,
+        167,
+        150
+      ],
+      "vertex": 150
+    },
+    "first": "test_pairs/r2/p3/s0/random/17x17/a",
+    "layout_sha256": "47778b7ad6249962638edea9e939c98075d49be7876a946acfbdfab4e8cde67b",
+    "mixed": false,
+    "second": "test_pairs/r2/p3/s0/random/17x17/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          529
+        ],
+        [
+          463
+        ]
+      ],
+      "detours": [
+        true,
+        false
+      ],
+      "distance": 8,
+      "exits": [
+        463,
+        529
+      ],
+      "incoming": 497,
+      "prefix": [
+        368,
+        401,
+        434,
+        433,
+        432,
+        465,
+        498,
+        497,
+        496
+      ],
+      "vertex": 496
+    },
+    "first": "test_pairs/r2/p4/s0/perfect/33x33/a",
+    "layout_sha256": "204a5764433853b8922df41b9d6241c5f0f4c0f97287e38610c2d386192c497d",
+    "mixed": false,
+    "second": "test_pairs/r2/p4/s0/perfect/33x33/b"
+  },
+  {
+    "decision": {
+      "allowed": [
+        [
+          998
+        ],
+        [
+          1030
+        ]
+      ],
+      "detours": [
+        false,
+        false
+      ],
+      "distance": 6,
+      "exits": [
+        1030,
+        998
+      ],
+      "incoming": 1064,
+      "prefix": [
+        1069,
+        1068,
+        1067,
+        1066,
+        1065,
+        1064,
+        1031
+      ],
+      "vertex": 1031
+    },
+    "first": "test_pairs/r2/p5/s0/random/33x33/a",
+    "layout_sha256": "261c58f07c50b7c7d1676cea776d4cbb41517fcc2296bcc43cd75a9a42b6f8bb",
+    "mixed": false,
+    "second": "test_pairs/r2/p5/s0/random/33x33/b"
+  },
+  {
+    "decision": null,
+    "first": "test_pairs/r2/p6/s0/disconnected/9x9/a",
+    "layout_sha256": "ba87b2d0cd8030cb379897a1e55eda3ff870e569f63bbf266404fb013a203272",
+    "mixed": true,
+    "second": "test_pairs/r2/p6/s0/disconnected/9x9/b"
+  },
+  {
+    "decision": null,
+    "first": "test_pairs/r2/p7/s0/disconnected/17x17/a",
+    "layout_sha256": "1bd105a2a327e70cfc6c956eced6a4ba52546aee775e4f6d08303e450735e1c6",
+    "mixed": true,
+    "second": "test_pairs/r2/p7/s0/disconnected/17x17/b"
+  }
+]

@@ -6,6 +6,61 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [junction-choice study V8](results/junction_choice.md) and its
+[frozen-primitive confirmation V8A](results/junction_confirmation.md) are complete;
+**106 tests pass**. Twelve conditions evolved 96 organisms for 48 more generations,
+comparing current Balanced pressure with source-dependent fork-choice credit.
+The runtime, 128-gene/eight-channel capacity and input stayed fixed. Both V7
+lineages and their protected diversity remain preserved.
+
+Multirange Junction task archives solve **3/216** unseen shortest paths, versus
+0/216 Balanced and 1/216 frozen. All task arms solve **0/174** long cases and
+0/42 paired targets. The three Junction successes are only 1–3 edges, including
+two paths with one turn; no mandatory detour is solved. BFS/A*/wavefront solve
+all 216 ordinary and 42 paired reachable inputs and all no-path cases. There is
+no competitive speedup or established general solver.
+
+**Two validation-only fork-choice primitives emerged**, one per multirange
+pressure. They choose the proper source-connected exit under switched goals;
+both need the goal pulse and nonlocal reads on their qualifying examples.
+One primitive requires an instruction reorder **and** a scratch-register
+redirection: either change alone fails, while their combination succeeds.
+This demonstrates cooperating changes in that parent/context, not a general
+regulatory strategy. Full validation routes remain wrong.
+
+Neither primitive transfers to the 12 new V8A confirmation layouts: **0/12**
+paired fork choices and 0/24 complete routes, also 0/12 and 0/24 for their roots/
+parents. The primary final selections make 0/18 unseen paired choices. A
+supplemental validation archive preserves both primitives, including one the
+mean-J archive missed because broad prefix growth ranked higher.
+
+The extension gate failed. Search 13.47 minutes; main 16.54 minutes; main peak
+RSS 208.2 MiB. Full population/RNG and 33,334 new individual lineages are saved.
+All 6,908 main final/diagnostic normal outputs and 58,686 fitness records were
+audited; V8A additionally verifies 124 candidate and 24 BFS outputs. V1–V7
+source/raw data remain unchanged. These bounded negatives leave the capacity,
+regulation and longer-evolution hypotheses open.
+
+Next test: protect both cooperating variants in common initial cohorts, then
+compare strict paired-choice-first selection with the current prefix-weighted
+reward on new layouts, keeping full route correctness primary. Preserve
+neutral diversity and require transfer before an hour-scale extension.
+
+```bash
+.venv/bin/python -m maze_evolution.junction_study --out results/repeat_junction
+.venv/bin/python -m maze_evolution.junction_diagnostics --out results/repeat_junction
+.venv/bin/python -m maze_evolution.junction_audit --out results/repeat_junction --repack
+.venv/bin/python -m maze_evolution.junction_report --out results/repeat_junction
+.venv/bin/python -m maze_evolution.junction_confirmation --out results/repeat_confirmation
+```
+
+See the [V8 protocol](docs/JUNCTION_STUDY_V8.md),
+[V8A protocol](docs/JUNCTION_CONFIRMATION_V8A.md),
+[`results/junction_choice/`](results/junction_choice/) and
+[`results/junction_confirmation/`](results/junction_confirmation/).
+
+## Balanced two-goal pressure V7 — October 18, 2026
+
 The [balanced two-goal study V7](results/balanced_goal.md) is complete; **100 tests
 pass**. Twelve conditions continued V6 random-origin populations for 48 further
 generations with 96 organisms each. Both arms use the same goal pulse, genome

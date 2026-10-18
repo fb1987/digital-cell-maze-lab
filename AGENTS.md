@@ -34,8 +34,10 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1–V7 are complete; **100 tests pass**.
-Read `results/balanced_goal.md` and `docs/BALANCE_STUDY_V7.md` first, then
+Current checkpoint (October 18, 2026): V1–V8 and V8A are complete; **106 tests pass**.
+Read `results/junction_choice.md`, `docs/JUNCTION_STUDY_V8.md`,
+`results/junction_confirmation.md`, `docs/JUNCTION_CONFIRMATION_V8A.md` first,
+then `results/balanced_goal.md` and `docs/BALANCE_STUDY_V7.md` first, then
 `results/goal_beacon.md` and `docs/BEACON_STUDY_V6.md`, then
 `results/factor_curriculum.md` and `docs/FACTOR_STUDY_V5.md`, then
 `results/goal_conditioning.md` and `docs/GOAL_STUDY_V4.md`, then
@@ -231,19 +233,92 @@ lossless decoded/stored log hashes and full prior populations are preserved.
 Construction seed1074 differs from study2026101805; final layouts were generated
 only after model freeze. V1–V6 code/raw results remain unchanged.
 
-A justified next experiment tests explicit source-connected, goal-dependent
-junction-choice credit against current Balanced pressure, holding input,
-capacity and inference limits fixed. Require distinct next choices under paired
-goals, source connection to the junction, the desired branch on and wrong branch
-suppressed. Include deceptive detours; for cyclic cases credit any valid
-shortest next step, not arbitrary BFS tie order. Oracle branch labels belong
-only in fitness, never inference. Preregister sampling, graded credit and
-case assignment before running; reserve layouts excluding all V1–V7 manifests.
-Completed exact shortest paths with turns/detours and real cost remain primary.
-Preserve Mean and Balanced lineages, communication, directional growth and
-neutral diversity. Capacity stayed fixed in V7; larger heritable complexity,
-regulation and time remain hypotheses rather than guarantees. No known solver
-may be inserted into the random-origin lineages.
+V7's proposed junction-pressure test is now complete as V8. At unchanged V6
+pulse input/runtime, eight channels and128 genes, local/evolved ×Balanced/
+Junction ×3 ran96 organisms for48 generations. Common decision-rich pairs
+require a shared shortest prefix at source distance2..8 and goals≥4 beyond,
+with disjoint sets of all valid shortest exits. Half of pair indices require
+an initially misleading Manhattan bearing. Both arms share this sampling;
+V8 versus V7 is not a pressure-only comparison. J=.25 causal connected prefix
++.75 branch choice; Junction uses J_i+minJ in place of Balanced G_i+minG.
+All shortest-next-step ties are accepted; wrong exits must be suppressed for
+strict qualification. Labels stay in fitness, never candidate inference.
+Study seed2026101806, independent construction-test seed1084;6896 prior whole
+layouts excluded. Models froze before264 ordinary and24 paired final layouts.
+
+V8 primary task accuracy: multirange Junction3/216 versus Balanced0/216 and
+frozen1/216; local Junction1/216 versus Balanced0/216 and frozen1/216. All task
+arms0/174 at distance≥8,0/42 paired and0/144 mandatory detours. Multirange
+Junction's3 successes span1–3 edges, two with one turn. BFS/A*/wave all216/216,
+42/42 and all48/6 unreachable inputs. Correct no-path varies0..32/48, with
+no false no-path claims on reachable primary cases. No competitive speedup.
+
+Primary selected junction archives make0/18 strict-both choices on fresh
+regular pairs. Their multirange J scores: treatment.2345, Balanced.1877,
+frozen.2433, dominated by prefix credit. Goal switch changes junction state
+at tick16 in6/18 treatment,9/18 Balanced and7/18 frozen, distinct from useful
+exit choice. Only1/18 pairs has BOTH goals outside every local decision
+site's16-edge influence cone; this cannot explain the overall failure.
+
+A validation-only strict-choice archive, planned during training before final
+inspection, finds two qualifying multirange variants. Both are preserved in
+`results/junction_choice/strict_validation_archive.json` along with complete
+ancestry replay at `choice_ancestry.json.gz`. They are NOT selected by final
+performance or used to alter V8 breeding/gates/primary selections.
+Balanced replicate2: birth4 id `junction/evolved/balanced/2/i284`, after three
+ancestral mutation steps, makes proper paired choices on a cyclic17×17
+validation case with goal distances17/8 and source-to-junction2. Junction
+replicate1: birth7 id `junction/evolved/junction/1/i472`, from initial i3,
+qualifies on a17×17 tree with goal distances23/10 and source-to-junction4.
+Both lose the choice under either goal-pulse removal or nonlocal ablation;
+neither completes either validation route. Gene rows may shift during
+insertion/deletion; do not interpret83 changed rows in the first lineage as
+83 independent mutations.
+
+V8A separately preregistered a tiny confirmation AFTER V8 results/ancestry,
+BEFORE its new layouts. Seed2026101807,12 new shared regular layouts/24 inputs,
+all7490 V1–V8 layouts excluded. Five unique root/parent/variant genotypes from
+the two validation-selected lineages all score0/12 strict-both and0/24 valid/
+shortest outputs; BFS24/24. No training, tuning or reselection follows.
+The Junction variant differs from its parent by swapping rows27/60 (neighbor
+count and nonlocal minimum) and redirecting row66's destination63→43.
+Counterfactual groups on the original validation pair: parent J=.0833;
+swap alone.0833; register change alone.0833; combined child.8333 and strict
+both true. This supports a context-specific cooperative interaction between
+two change groups, NOT a general solver or necessary individual-gene proof.
+Full raw data/provenance are in `results/junction_confirmation/`.
+
+The mean-J archive can discard a useful choice on one pair in favor of broad
+prefix growth across all pairs; the strict validation supplement rescued the
+second primitive. Training recorded27 strict-both pair responses under
+multirange Balanced and24 under Junction, zero local (repeated genomes/cases,
+not independent discoveries). A matched-parent diagnostic finds9158/18610
+changed-genotype children (49.2%) match its saved behavioral fingerprint;
+work/active counters and hidden trajectories can differ. Preserve neutral
+variation and these cooperating primitives. Task genomes114–128 genes,
+conservative output/stop slices10–61; length is not effective complexity.
+
+Gate failed. Search13.47min, main16.54min, peak main208.2MiB; diagnostics20.92s,
+compression9.82s, audit18.04s, V8A4.07s plus.17s verification. Audited6908 main
+final/diagnostic normal outputs,58686 fitness records,263612 junction masks,
+29 valid training claims,48 selected replays,12 junction and12 balanced archive
+maxima. V8A verifies124 candidate outputs/masks plus24 BFS outputs. Main
+charged427687305596 dispatch-plus-read units.33334 new individuals; all source,
+layout and lineage checks pass. Full next populations/RNG checkpoints are
+`results/junction_choice/checkpoints/junction_{local|evolved}_{balanced|junction}_{0|1|2}.json`.
+V1–V7 code/raw results remain immutable. V8A raw results also remain immutable.
+
+A justified next experiment preserves BOTH V8 strict-choice variants and all
+useful prior task/source/goal/neutral lineages in common initial cohorts, then
+compares strict paired-choice-first pressure against current prefix-weighted
+pressure at unchanged capacity/input/caps. Keep complete-route correctness
+first. Explicitly preserve strict-choice validation archives in both arms and
+record their independence from final testing. Require transfer across rotating
+fork contexts and new holdouts before hour-scale extension. Capacity, regulation,
+modular cooperation and longer evolution remain live hypotheses. Do not insert
+known solver rules into random-origin lineages. Exclude ALL V1–V8 and V8A layouts
+(including BOTH new manifests;7502 unique layouts total) from future work.
+Do not retune against already inspected tests. Use new separate version modules.
 Original mission steps below are historical; do not repeat them as unfinished.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.
