@@ -1,0 +1,7 @@
+# V10 diagnostic detail, fixed during training
+
+Specified while training is running, before any V10 final layouts or results exist. This does not alter the preregistered training, selection, gate or primary evaluation. The pre-training protocol already permits reused boundary-training-pair comparisons.
+
+For each frozen boundary leader(generations15,31,47), repeat its original rotating training batch with original training caps. Compare the same batch with the initial frozen-choice archive and final hard-validation choice archive. Save every normal/source-on/source-off raster, the complete fitness and charged work. Independently require the leader's replay to equal its original training record exactly. These are **reused training examples**, not holdouts; selection of the leader on that batch favors it, so no causal evolutionary improvement or transfer follows just from beating the frozen archive. The comparison helps identify choice already present in inherited controls and whether selection retained an easy response.
+
+Primary final models remain task/choice/frozen. Boundary leader transfer to common hard validation and final paired inputs was preregistered before training. All diagnostic selections were frozen before final generation. No diagnostic model breeds or replaces a primary selection. Diagnostic helper hashes/costs and independent raster checks are recorded separately.
