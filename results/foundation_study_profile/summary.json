@@ -1,0 +1,97 @@
+{
+  "scope": "Timing/throughput only; discarded profile descendants; excluded V12A fixtures",
+  "conditions": [
+    {
+      "condition": "native_local_evolution",
+      "initial_seconds": 13.059005166986026,
+      "three_generation_seconds": 0.812057624978479,
+      "responses": 19456,
+      "work": 7804072658,
+      "selected_validation": [
+        40,
+        40
+      ]
+    },
+    {
+      "condition": "native_local_resample",
+      "initial_seconds": 13.222600125009194,
+      "three_generation_seconds": 1.172270082985051,
+      "responses": 19456,
+      "work": 7932985629,
+      "selected_validation": [
+        40,
+        40
+      ]
+    },
+    {
+      "condition": "native_evolved_evolution",
+      "initial_seconds": 10.222259250003844,
+      "three_generation_seconds": 1.009691707964521,
+      "responses": 19456,
+      "work": 6034173154,
+      "selected_validation": [
+        40,
+        40
+      ]
+    },
+    {
+      "condition": "native_evolved_resample",
+      "initial_seconds": 10.223620624979958,
+      "three_generation_seconds": 1.2930766670033336,
+      "responses": 19456,
+      "work": 6120384529,
+      "selected_validation": [
+        40,
+        40
+      ]
+    },
+    {
+      "condition": "fresh_local_evolution",
+      "initial_seconds": 5.062804709014017,
+      "three_generation_seconds": 0.823557541007176,
+      "responses": 19456,
+      "work": 2960613820,
+      "selected_validation": [
+        0,
+        0
+      ]
+    },
+    {
+      "condition": "fresh_local_resample",
+      "initial_seconds": 5.047076874994673,
+      "three_generation_seconds": 1.1012875000014901,
+      "responses": 19456,
+      "work": 3129421224,
+      "selected_validation": [
+        0,
+        0
+      ]
+    },
+    {
+      "condition": "fresh_evolved_evolution",
+      "initial_seconds": 5.1930832079960965,
+      "three_generation_seconds": 0.8566291250172071,
+      "responses": 19456,
+      "work": 2953913629,
+      "selected_validation": [
+        0,
+        0
+      ]
+    },
+    {
+      "condition": "fresh_evolved_resample",
+      "initial_seconds": 5.205695416021626,
+      "three_generation_seconds": 1.121049540990498,
+      "responses": 19456,
+      "work": 3108164221,
+      "selected_validation": [
+        0,
+        0
+      ]
+    }
+  ],
+  "elapsed_seconds": 75.99001079099253,
+  "max_rss_bytes": 128172032,
+  "validation_inputs": 160,
+  "training_inputs": 12
+}
