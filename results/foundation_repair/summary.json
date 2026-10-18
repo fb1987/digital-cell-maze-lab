@@ -1,0 +1,710 @@
+{
+  "seed": 2026101814,
+  "source_sha256": {
+    "maze_evolution/__init__.py": "9bd30272bd151cc72e358ba90b756233fa559a67c7106fabf5d5ad3765d784e1",
+    "maze_evolution/balance_audit.py": "c2b39c232beff31306fdc45711eda1732a328c2a1cac499d35aaee15793c3bd2",
+    "maze_evolution/balance_data.py": "82bf48b116194ba68df5676dc953606a9de68120e01c32b6136380252a2804f4",
+    "maze_evolution/balance_diagnostics.py": "8b4bd851c2006565a847e90dddc99c0485c13b321f45f25e7c9a151c8b1e2975",
+    "maze_evolution/balance_fitness.py": "e92eee5940cb3b5151eb95105084a0901ee25863ca6dab76f030b6969b4ddfde",
+    "maze_evolution/balance_report.py": "3940293146b203054cd905af41f99549dd5e093e046b534439044bb27abbcb27",
+    "maze_evolution/balance_search.py": "4129d0ea01713d9d3777b4817bad5e4177114d52498f148fe5cf461646c914c4",
+    "maze_evolution/balance_study.py": "18e319a3b3ef724f25837ff1c2281ea6d9cbbd7ca559563fe9e54851d6bb190a",
+    "maze_evolution/baselines.py": "21858b34e9c9128c484cbeccf0290bde33477089f088a98e73d3a160a486b700",
+    "maze_evolution/beacon_audit.py": "7cfb745be302fe75d56317dca1eb393668392926747235f3897562a5a0240d3b",
+    "maze_evolution/beacon_data.py": "f8e5e796744e8bdb881d3bba88831cbd38b2763494e7ddb0cb3c6e05477a5cb4",
+    "maze_evolution/beacon_diagnostics.py": "4c324b374d9e68adab493c50c31fd7443231df2aa7ac9616b152440358dd10b8",
+    "maze_evolution/beacon_fitness.py": "3ed4aa5155f6bf8c879caf85320e4c9712923b63b96ffd302dcf58d1a842dee7",
+    "maze_evolution/beacon_probe.py": "6d9afa68869f9d29bd4921945b8a7631607f3147b4921230e77f1182940b45db",
+    "maze_evolution/beacon_report.py": "eed44bc463da040c6288c173acd30f3c1a5b2fb3520092aacf5befb57bcd8753",
+    "maze_evolution/beacon_runtime.py": "bf95142ffe0b869095e21518f85ac31934cff3329cd831405d4f191ab8f4d047",
+    "maze_evolution/beacon_search.py": "5a3555f850c3ffba40411293ea7a9b6cfc5eee568bfa8c991e3df0d33489da77",
+    "maze_evolution/beacon_study.py": "65d664ef3864f3c6d7922000c74a6a43688a580027560d22a4e0063897c9f057",
+    "maze_evolution/choice_audit.py": "d65acf23936c861916f18311364899ef85f658b2630e1f15766cfcca69f6e31d",
+    "maze_evolution/choice_data.py": "6c534101692bf670729e29aeccf4c4a2d485f1bace48efd491bb348b056a0bf3",
+    "maze_evolution/choice_diagnostics.py": "330d99cb8732de4fd367f905250d5321fa5aa838e931d23193b460f0af739a5b",
+    "maze_evolution/choice_fitness.py": "2217c4e516091a999adc89faf0c6eb2d945d5952f51ec86939b4527cf83e20d3",
+    "maze_evolution/choice_path_diagnostic.py": "ff90eba3833b525133e4bf0cf660bdbe69c856462dcbd81e3086c8fd32e15d5a",
+    "maze_evolution/choice_report.py": "d3df5c27f5486f09cc6bf70934a1cad82adb50f8100ed1cf5e48c05338ffc538",
+    "maze_evolution/choice_search.py": "432458c6c4b3ef1b1bc3b91efcc61bfa45628663ee3034c64098a569bd07ac2a",
+    "maze_evolution/choice_selection_diagnostic.py": "84c24f62e327990ca91c866e7cd6137f23da82673f201c210a0a0ed97e87f84a",
+    "maze_evolution/choice_study.py": "884fc09805f9518e2111e9edc3aa2c90b5804b8d71886f8f6dc807328347ff94",
+    "maze_evolution/datasets.py": "bdd27b13b2406119f1b3b7ca3a79599b23ca21272c02165a2da61849e5d6e131",
+    "maze_evolution/distance_audit.py": "1e4803674b13d7c81d88e634c8e59739cfb338312e928df2cc5c40c7a28425fc",
+    "maze_evolution/distance_confirmation.py": "cc4e03f0730df5e6420d9da1f726fe3997f189315621bd1a203daa83e83033f2",
+    "maze_evolution/distance_data.py": "68a4d4c4c3458d92eb2341348f6696fae00658139a8da64b53630b24c854db48",
+    "maze_evolution/distance_diagnostics.py": "7ebc4ce87ab2685107500b8146a74841c92d9918f5725c641d876fb3e1b445c3",
+    "maze_evolution/distance_fitness.py": "30709b3ac8eac18166724e1cc97bed8b02e75737920670b110227e720539f6ff",
+    "maze_evolution/distance_report.py": "5e6eb7b5431ae67be01d68bbdabdd002b756aeeed55e1363dff8297385e7c84f",
+    "maze_evolution/distance_search.py": "8b1208326748d472ea4b40586b0b0c8f4db55007fe2bd779ab9db4b245fa544f",
+    "maze_evolution/distance_study.py": "63fd22bb6c57e73da83444d023a65986ee5878046ee114959e2f4ead8f3782b9",
+    "maze_evolution/distance_training_diagnostic.py": "a0812956369e617e8fdbe35072436cbc8368cf825f2393748444d2b9712a096d",
+    "maze_evolution/distance_training_verify.py": "66420e9a61687e8a659080c64d1ab20eac8b7f3e19fb42a289b72793e9e98fe5",
+    "maze_evolution/evaluator.py": "dc180e7c53782f3996ef7b17fdba715105d7105fbbe18ca362780bdb116b4fd0",
+    "maze_evolution/experiment.py": "a0fdc85bcc7f28c5cbf114b8ed9ac0085bcde1ccd29af969a22337d5ee465b01",
+    "maze_evolution/factor_audit.py": "4bbcd5a2f227ee104c09f8c05aeea3b8ff7bf3d63c40b317c7f1f96715274fa6",
+    "maze_evolution/factor_data.py": "4df685fcb5bcbde37d0b9ffcd84fbf4d21a314448ee7e495b2902c47788d9c72",
+    "maze_evolution/factor_diagnostics.py": "b8e6c7c67466588a79303e43706af01a38e6e6d4e71075900a15cd3ce4b60976",
+    "maze_evolution/factor_fitness.py": "4394571e53296723b7149a8e4255da8ee1f61e60d3e2deffd1bed67626bf158f",
+    "maze_evolution/factor_lineage_diagnostic.py": "d6780246babf4a55001eb63205f489a3483568574c4cba823ab246dcacf5ae88",
+    "maze_evolution/factor_prefix_diagnostic.py": "7964de8319376ccef089a2ad83dcdc72880f10303ccc692f15d5a7d8b5d8370a",
+    "maze_evolution/factor_report.py": "67621d495ea130e9e1fd9c22e93521e39c04daf3192e4c6d0d6216090cefca81",
+    "maze_evolution/factor_search.py": "d046104baf4af4612ff6f58f4986dd18ce7a0f2664eafbe63c718d0f1df46015",
+    "maze_evolution/factor_study.py": "399501a0044217189390a918934f8379e518091993b049ca1c23fa252c18c00f",
+    "maze_evolution/factor_timecourse.py": "f3b9884fb368da95e5e405017c3f041a5738dc8277f38e04cc496b84936aaf56",
+    "maze_evolution/foundation_calibration.py": "c6e31c9d4642d299ef0dac2386935903a8cbe35a856d2dceacaa957a6c4c2b57",
+    "maze_evolution/foundation_calibration_audit.py": "76795e6f182dba2b4dfccafec105db47b785f965984f4d5a134cf9e269b68b15",
+    "maze_evolution/foundation_calibration_report.py": "907d5c42fea507f28126b1eee16b8775b946a7b1335d4fb9653c8bb41e8e9b26",
+    "maze_evolution/foundation_data.py": "f09eed05e0e52c16a9b64a931d680904b62d60d29e8509a2576f81ed3b5fd16a",
+    "maze_evolution/foundation_fitness.py": "ee3f67aac946234b9928952da833757c961cafb0884f5790b5aebcc50baa1be3",
+    "maze_evolution/foundation_repair.py": "2933d4e189f55faf46b926c464395b251a709fc07fe260bcb9754107349b3cb8",
+    "maze_evolution/foundation_repair_audit.py": "274dd80febc521eec5e0ec2b13a49e6c195aac2104b3f04bce9b29abd260fb38",
+    "maze_evolution/foundation_repair_search.py": "b8cd81104c214b3f7ec3d2ed5c1ca30cf42c16627390c2705a8b76ead1b493a7",
+    "maze_evolution/foundation_search.py": "2252ad54ea5dd217efad7c0376c27f7710c9966b372131f1f7b3dd1d559938f9",
+    "maze_evolution/genome.py": "ae37bd0a39d769c93cf711a8a12b71f191c962d1b38404229f8cac74e8a0836a",
+    "maze_evolution/goal_audit.py": "b3a37e92f5cf09e528bf8db78e7e924ae7f29f494823b22ff56511dcd5a987bc",
+    "maze_evolution/goal_data.py": "98694b72920a64d56361e596e5e26e9e6ebbb88533e7fc727f0de14620155c36",
+    "maze_evolution/goal_diagnostics.py": "4493afa90d379a7261cf00837423e409ef0177c9920601b59117c9cf39ac6eed",
+    "maze_evolution/goal_fitness.py": "63605434727eb4da4558ae8fa7a0d315878b9c242303f0111c493c076f6c5e93",
+    "maze_evolution/goal_recovery.py": "4269d1981eb4ddeba7f8b4d485f60b140bff9a7b8bb5bfccb93356f545aae6a7",
+    "maze_evolution/goal_report.py": "6212d21e0d852b6a939d78490ba44bc7894273bb421515976d2394a945dc32ab",
+    "maze_evolution/goal_search.py": "0254efc3a558e9f03c5a37ef1ff39ff1a8c9ce81ba714bbf56488e662932f0da",
+    "maze_evolution/goal_study.py": "5ad04cd99b84d602ab7db3dfa7676f709b784957a2a549b306439fa78fdf359b",
+    "maze_evolution/growth.py": "26abc8a63d23126b0bc972817864cd940881fb6d4dba43acadf052b4407d0ca4",
+    "maze_evolution/growth_audit.py": "8d9a4820276bb36df266a85f3894559e842e78f7cadc44e3ee27bb8e8a2f6ff2",
+    "maze_evolution/growth_context.py": "06fbef789af97b5a70d7141c0580856300b67f13c34418d5e93c6ab40add08ae",
+    "maze_evolution/growth_data.py": "63197938fabde65f38005e7c79503b5fc4601d128fbc29c384835bb77d1d0b31",
+    "maze_evolution/growth_diagnostics.py": "57ec51ce3f26c08c90641b6c3bafd0b26a22d265833fadc8b58b308be0e9a506",
+    "maze_evolution/growth_equivalence.py": "0d7230c53afe071291d872b9a5f223ddc0142eb64b3c937081ddd02231067de9",
+    "maze_evolution/growth_fitness.py": "7766335c29a0ecb28aca6e9cf5db37559223de2bfb32d6316e5dfae23981c487",
+    "maze_evolution/growth_report.py": "1c088ef864490e30703b351698c2010009e6326158f214be2cca162c6aa1b1ec",
+    "maze_evolution/growth_runtime.py": "24cc41b89a1cadf647c18bd3ec166dec3665deb1c6073cf84dfe6cea19969e79",
+    "maze_evolution/growth_search.py": "9bf0db6b0a76fb6fab20b8895475bb0a6f6c4b2d7c66bdff742e188dfa884409",
+    "maze_evolution/growth_study.py": "9623be2582e8f13c599835efda4f5ae2ed2f4e88c081d4c96155ac2ac8051c7f",
+    "maze_evolution/inspect_results.py": "9e744e79802325ae0edbe93c5128fe35f01b28eba209739d0dd6679922e00733",
+    "maze_evolution/junction_audit.py": "50e56f98fe464089f617f575e274ddc3636f71f9b46d7fbb5ac4d3330f480b34",
+    "maze_evolution/junction_confirmation.py": "8c9d280ad441c4ed0650a06486f4e7c5fbf2a64be09822d5656c83c635496464",
+    "maze_evolution/junction_data.py": "582c0df3a02d31d37395a53ab10bafcfce29a3c75ded9cad80c93ad15cd297f9",
+    "maze_evolution/junction_diagnostics.py": "46a24b058cd53ce020fb33741cfd730a0698077e9efff134a53e9e4fb5604170",
+    "maze_evolution/junction_fitness.py": "a6b894707f16b4dde441449e37f9644c7ad2431cd4de48594f501fb2d38fb75b",
+    "maze_evolution/junction_report.py": "8d0d9bbc4644bb3dc3a81239c46645c20cd01c4530033a40a4f6d828e5c4dc20",
+    "maze_evolution/junction_search.py": "d4b5078bf3f9cf740e30ecd0a650275b5da063aaafb648332532d966d1ace0dd",
+    "maze_evolution/junction_study.py": "7b49155a00262038c478e1fdfa016a9559d4eaea84df8f8712347f097960e7c1",
+    "maze_evolution/range_audit.py": "f7bdc4c6d8387c734badd38619bf902dbfcb5c09d59fdb1f427d3335faa21575",
+    "maze_evolution/range_report.py": "47ceb86ce1f1bd6049317089afb9f214ae6b97d15f022e3fea33eba6deba5bdc",
+    "maze_evolution/range_study.py": "5514a8d6f1bbc125b6b3984d65a4f5f98d03beca87d4979836cda50b7cb76a23",
+    "maze_evolution/regulatory.py": "d458e53866324e3ae236069b7b0ef3645d840eb0f82ab526d09f5d3df4158323",
+    "maze_evolution/regulatory_runtime.py": "94eac319c43f9b23b7770bc3b69cd20b6a3eee9986c994fcfc8eba873e16e89b",
+    "maze_evolution/regulatory_search.py": "e1e2d3722549be1fc2f7df8f58fc55e584994373f360ca94c19695953f7f1979",
+    "maze_evolution/runtime.py": "fbfb3d561ebe6dd118bf87e99047770e541b2f5cf2635b5ffb8dfa6786a5aa61",
+    "maze_evolution/signal_audit.py": "54d9af105bc8f52c7e8612c741428fc14d17ee54292940c6a0674e37d6116165",
+    "maze_evolution/signal_diagnostics.py": "a707af35a7793df5054813826d5127488dca3de7f90beca0cdfa74bc0d044a97",
+    "maze_evolution/signal_fitness.py": "9575d95f6b8a5e6bb292681b5e4a48f3a4b4d5d84d7c06cafb615bdea0c2e729",
+    "maze_evolution/signal_probe.py": "2b5b81b1ee3742f62f7622f7695d15372050159e2569f705ab2a0feec0ea9da2",
+    "maze_evolution/signal_report.py": "3b56f7165dc8cbf0b43b51f92e5cdfb53c3250a7a1308c1e40dc053c9c811411",
+    "maze_evolution/signal_search.py": "fad95930fef820528c1da4618c7afa70dace2bce65debe7bb879b9bbe3a4e7e0",
+    "maze_evolution/signal_study.py": "c3f0095fded176bb270ebd31b749464fe7e3bca1451bec3c00bfad591a9b7d7a",
+    "cellular_maze_lab.py": "8585ba536c228d100040e5d616de0d082317c3f3c07f28fbfa418f5f6ebf4972",
+    "docs/FOUNDATION_REPAIR_V12B.md": "e6da6af6aed13b5ffd893593a7a2191a67c6b8aca68423f3eb83a79dd3b8b26c",
+    "tests/test_foundation_repair.py": "be7e845c351f8f073d32fc18185addccfaf8917223c21d8ddf9e986b4b6b4b86"
+  },
+  "input_sha256": {
+    "results/first_evolution/mazes.json": "b61845b5161651c58019e7ad4a39c35f55a440d3c51badf9596713f726d7de1a",
+    "results/range_and_regulation/mazes.json.gz": "89792094760cfaac4a101ddf51ba22d3ea6ff9bb885cbc3014a68b0a428568c3",
+    "results/source_pressure/mazes.json.gz": "dcbc2fbbfaff9babb2c7706effb13485bd9db84b8a3bc2e9108ed5f3d8b7cf63",
+    "results/goal_conditioning/mazes.json.gz": "a4bb4999b1cb8c3bbb14074b72121af1ecc2e619eab9b5c135aa84b41bb800f6",
+    "results/factor_curriculum/mazes.json.gz": "655d8474580e98147e3d8d79e3c604e884d8e73b236611c705d28d06fb05b31e",
+    "results/goal_beacon/mazes.json.gz": "1e6305eba578b828f6a2a53ee982bc7d1f7d6578411f0cd2efbb842786772bb5",
+    "results/balanced_goal/mazes.json.gz": "5e041088427207b2bb4bad319572d00017c49e69140201cbe705259cca62a1f5",
+    "results/junction_choice/mazes.json.gz": "63975d71f32267630db34441b306a5ce7a15ca1dc9ae23bba7291e1f40454357",
+    "results/junction_confirmation/mazes.json.gz": "20e28e241cbcd28ea9cb5251e36786e913a5e21506ab0f161ddc64e9494c1e1a",
+    "results/choice_priority/mazes.json.gz": "e075f80cb116767972347f0117f1c576931250b8c75278e487581c88c0977cd4",
+    "results/distance_curriculum/mazes.json.gz": "4907b2f46504be018be4d26bdf943893b546ead461754b45acf56b26c99dbca8",
+    "results/distance_confirmation/mazes.json.gz": "c14f40c8e7b5422574b8a10c225813dda508ae812a5a77e062d4e3c52b68b567",
+    "results/capacity_growth/mazes.json.gz": "1793ae9400eb7897df1cdbcf16511e02c79cacbc0fb273ba1d92ccfa1bc4907e",
+    "results/foundation_calibration/mazes.json.gz": "d96f15ad282e1bdb4ed359f5d829678b59ce98aab867df4941f02d2001e6c905",
+    "results/foundation_calibration/fixtures.json.gz": "bc91a53ddf74723ee01d162d30355a6a4b778cbd3bc86d7c756689c461d9c96f",
+    "results/foundation_calibration/summary.json": "707bf0e10a5e9a818100621d7a68b79e42b63b81685a120f24187d12ee442645",
+    "results/foundation_calibration/verification.json": "2d12fed57636437be2d4965429874da3053a5bf581fa7cc8d0526863ecb77972"
+  },
+  "frozen_sha256": "11d88c4bee4c2948679c20d4e959e12cf4fcc9224a2b72f7a5c13a91dda11908",
+  "chosen_policy": "single",
+  "validation_policy_ranks": {
+    "wide": [
+      4,
+      0.5347222222222222,
+      0
+    ],
+    "single": [
+      6,
+      0.7337962962962963,
+      1
+    ]
+  },
+  "successful_replicates": {
+    "wide": {
+      "west_return_gate": 2,
+      "output_register": 0,
+      "two_return_gates": 2
+    },
+    "single": {
+      "west_return_gate": 3,
+      "output_register": 2,
+      "two_return_gates": 1
+    }
+  },
+  "repair_gate": true,
+  "confirmations": {
+    "west_return_gate/wide/r0/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -21352448
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "west_return_gate/wide/r0/frozen": {
+      "fitness": [
+        40,
+        40,
+        0,
+        12,
+        71.91190476,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 12
+    },
+    "west_return_gate/single/r0/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -7673536
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "west_return_gate/single/r0/frozen": {
+      "fitness": [
+        40,
+        40,
+        0,
+        12,
+        71.91190476,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 12
+    },
+    "west_return_gate/wide/r1/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -12602400
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "west_return_gate/wide/r1/frozen": {
+      "fitness": [
+        52,
+        52,
+        0,
+        16,
+        84.67252747,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 16
+    },
+    "west_return_gate/single/r1/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -9745856
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "west_return_gate/single/r1/frozen": {
+      "fitness": [
+        52,
+        52,
+        0,
+        16,
+        84.67252747,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 16
+    },
+    "west_return_gate/wide/r2/champion": {
+      "fitness": [
+        44,
+        44,
+        0,
+        10,
+        74.59746032,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 10
+    },
+    "west_return_gate/wide/r2/frozen": {
+      "fitness": [
+        44,
+        44,
+        0,
+        10,
+        74.06730159,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 10
+    },
+    "west_return_gate/single/r2/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -13529664
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "west_return_gate/single/r2/frozen": {
+      "fitness": [
+        44,
+        44,
+        0,
+        10,
+        74.06730159,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 10
+    },
+    "output_register/wide/r0/champion": {
+      "fitness": [
+        4,
+        4,
+        0,
+        0,
+        33.58619048,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/wide/r0/frozen": {
+      "fitness": [
+        0,
+        0,
+        -96,
+        0,
+        0.0,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/single/r0/champion": {
+      "fitness": [
+        0,
+        0,
+        0,
+        0,
+        21.57698413,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/single/r0/frozen": {
+      "fitness": [
+        0,
+        0,
+        -96,
+        0,
+        0.0,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/wide/r1/champion": {
+      "fitness": [
+        8,
+        8,
+        0,
+        0,
+        19.13010989,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/wide/r1/frozen": {
+      "fitness": [
+        0,
+        0,
+        -96,
+        0,
+        0.0,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/single/r1/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -12573456
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "output_register/single/r1/frozen": {
+      "fitness": [
+        0,
+        0,
+        -96,
+        0,
+        0.0,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/wide/r2/champion": {
+      "fitness": [
+        0,
+        0,
+        0,
+        0,
+        15.76825397,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/wide/r2/frozen": {
+      "fitness": [
+        0,
+        0,
+        -96,
+        0,
+        0.0,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "output_register/single/r2/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -12353088
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "output_register/single/r2/frozen": {
+      "fitness": [
+        0,
+        0,
+        -96,
+        0,
+        0.0,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 0
+    },
+    "two_return_gates/wide/r0/champion": {
+      "fitness": [
+        40,
+        40,
+        0,
+        12,
+        70.51190476,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 12
+    },
+    "two_return_gates/wide/r0/frozen": {
+      "fitness": [
+        18,
+        18,
+        0,
+        2,
+        37.33333333,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 2
+    },
+    "two_return_gates/single/r0/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -11176672
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "two_return_gates/single/r0/frozen": {
+      "fitness": [
+        18,
+        18,
+        0,
+        2,
+        37.33333333,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 2
+    },
+    "two_return_gates/wide/r1/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -8401600
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "two_return_gates/wide/r1/frozen": {
+      "fitness": [
+        28,
+        28,
+        0,
+        4,
+        44.68395604,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 4
+    },
+    "two_return_gates/single/r1/champion": {
+      "fitness": [
+        52,
+        52,
+        0,
+        16,
+        87.04967033,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 16
+    },
+    "two_return_gates/single/r1/frozen": {
+      "fitness": [
+        28,
+        28,
+        0,
+        4,
+        44.68395604,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 4
+    },
+    "two_return_gates/wide/r2/champion": {
+      "fitness": [
+        96,
+        96,
+        0,
+        48,
+        172.8,
+        -16626816
+      ],
+      "outputs": 96,
+      "paired_optimal": 48
+    },
+    "two_return_gates/wide/r2/frozen": {
+      "fitness": [
+        20,
+        20,
+        0,
+        2,
+        39.21587302,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 2
+    },
+    "two_return_gates/single/r2/champion": {
+      "fitness": [
+        20,
+        20,
+        0,
+        2,
+        39.21587302,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 2
+    },
+    "two_return_gates/single/r2/frozen": {
+      "fitness": [
+        20,
+        20,
+        0,
+        2,
+        39.21587302,
+        0
+      ],
+      "outputs": 96,
+      "paired_optimal": 2
+    }
+  },
+  "conditions": {
+    "west_return_gate/wide/r0": {
+      "seconds": 19.053673500020523,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "a4189f3007ed2eb57e66c7a5db733b532ca4c8d3311c47f8e8934283d710de55"
+    },
+    "west_return_gate/single/r0": {
+      "seconds": 3.518422332999762,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "a4189f3007ed2eb57e66c7a5db733b532ca4c8d3311c47f8e8934283d710de55"
+    },
+    "west_return_gate/wide/r1": {
+      "seconds": 5.114531958999578,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "95991e5cf74bd259b11fb00fe6dde3d00220907fb4713dd5497b8fd9736c0275"
+    },
+    "west_return_gate/single/r1": {
+      "seconds": 13.446806082967669,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "95991e5cf74bd259b11fb00fe6dde3d00220907fb4713dd5497b8fd9736c0275"
+    },
+    "west_return_gate/wide/r2": {
+      "seconds": 31.72938149998663,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "fb008af7676f253e59dd788af290a010fcc7c368b7f257d3f198adc5969e70f7"
+    },
+    "west_return_gate/single/r2": {
+      "seconds": 5.542081166990101,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "fb008af7676f253e59dd788af290a010fcc7c368b7f257d3f198adc5969e70f7"
+    },
+    "output_register/wide/r0": {
+      "seconds": 24.60243804199854,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "4738c07e49dd0f889a6676696d4134b087cce2a591b4f900b1d61774d7a88aa6"
+    },
+    "output_register/single/r0": {
+      "seconds": 37.4426821670495,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "4738c07e49dd0f889a6676696d4134b087cce2a591b4f900b1d61774d7a88aa6"
+    },
+    "output_register/wide/r1": {
+      "seconds": 32.50138654198963,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "71676219ef4cc3685f8468697af49608c7dd45e4a739360ba518d939abdb8e78"
+    },
+    "output_register/single/r1": {
+      "seconds": 4.354605792032089,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "71676219ef4cc3685f8468697af49608c7dd45e4a739360ba518d939abdb8e78"
+    },
+    "output_register/wide/r2": {
+      "seconds": 31.809609582996927,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "6160de799bcbae5bcc641645d98cc94150c93620838b58fe67730e6970085c93"
+    },
+    "output_register/single/r2": {
+      "seconds": 4.440917874977458,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "6160de799bcbae5bcc641645d98cc94150c93620838b58fe67730e6970085c93"
+    },
+    "two_return_gates/wide/r0": {
+      "seconds": 17.3419214579626,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "50b925b9e4c987e5632aa692f0c2183d824c1954546fa6b2417fe942cb15a585"
+    },
+    "two_return_gates/single/r0": {
+      "seconds": 3.610601124993991,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "50b925b9e4c987e5632aa692f0c2183d824c1954546fa6b2417fe942cb15a585"
+    },
+    "two_return_gates/wide/r1": {
+      "seconds": 3.9355008330312558,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "3247bc833ff70e960c60aa572bc4414c4c7ed1f62f651f55e1f581971b933aba"
+    },
+    "two_return_gates/single/r1": {
+      "seconds": 19.89736358396476,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "3247bc833ff70e960c60aa572bc4414c4c7ed1f62f651f55e1f581971b933aba"
+    },
+    "two_return_gates/wide/r2": {
+      "seconds": 12.162825374980457,
+      "reason": "complete_validation_repair",
+      "initial_rng_sha256": "9eb87986399e1505bdf7443d06db9e3bdc370feb1e93aa5ae64e00fd0159d96e"
+    },
+    "two_return_gates/single/r2": {
+      "seconds": 18.852467374992557,
+      "reason": "generation_limit",
+      "initial_rng_sha256": "9eb87986399e1505bdf7443d06db9e3bdc370feb1e93aa5ae64e00fd0159d96e"
+    }
+  },
+  "population": 64,
+  "max_generations": 64,
+  "per_condition_seconds": 60,
+  "limits": {
+    "max_steps": 256,
+    "reads_per_site": 4096,
+    "instructions_per_site": 32768,
+    "max_cells": 65536
+  },
+  "repair_responses": 513792,
+  "repair_work": 130509835369,
+  "intact_validation_responses": 288,
+  "intact_validation_work": 25528160,
+  "holdout_responses": 3744,
+  "holdout_work": 560456038,
+  "excluded_layouts": 15876,
+  "resulting_layouts": 17700,
+  "elapsed_seconds": 291.9079920829972,
+  "max_rss_bytes": 257540096,
+  "parent_revision": "26fdd123d953b2dae6720f6dabde3cac35b46b8c",
+  "python": "3.13.15",
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.4",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "pytest": "9.1.1"
+  }
+}
