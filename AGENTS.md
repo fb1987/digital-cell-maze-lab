@@ -61,10 +61,13 @@ plus the later time-course test. Preserve all next populations/RNG and raw data.
 
 All **52,424 whole layouts** through V12C must be excluded in a new study,
 including unqueried ordinary symmetries and software fixtures. Do not retune
-against inspected final cases. The proposed next step is one unchanged
-75-minute continuation with current frozen controls and a stronger paired-skill,
-retention and orientation criterion. It is not implemented or launched. Use a
-new protocol/module/output directory; do not alter immutable V12 source/budgets
+against inspected final cases. The user has authorized one unchanged75-minute continuation (V12D). Read
+`docs/FOUNDATION_CONTINUATION_V12D.md`; new implementation is
+`maze_evolution/foundation_continuation*.py`, output
+`results/foundation_continuation/`. All24 states resume at generation442;
+V12C validation is intentionally reused, while new training/final layouts
+exclude all52,424 prior layouts. Stronger paired-skill, retention and orientation
+criteria are fixed before launch. Do not alter immutable V12 source/budgets
 or repeat completed work as though it were unfinished.
 
 Historical checkpoint before V12: V1–V11,V8A,V10A are complete.
