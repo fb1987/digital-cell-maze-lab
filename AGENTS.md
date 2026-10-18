@@ -34,8 +34,9 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1–V6 are complete; **95 tests pass**.
-Read `results/goal_beacon.md` and `docs/BEACON_STUDY_V6.md` first, then
+Current checkpoint (October 18, 2026): V1–V7 are complete; **100 tests pass**.
+Read `results/balanced_goal.md` and `docs/BALANCE_STUDY_V7.md` first, then
+`results/goal_beacon.md` and `docs/BEACON_STUDY_V6.md`, then
 `results/factor_curriculum.md` and `docs/FACTOR_STUDY_V5.md`, then
 `results/goal_conditioning.md` and `docs/GOAL_STUDY_V4.md`, then
 `results/source_pressure.md`,
@@ -167,16 +168,82 @@ and full genotypes are saved. Mean-G selection discarded some more balanced
 variants (e.g. Pulse replicate1 has validation both=0.5 in the supplemental
 archive but0 in the final mean-G archive). Do not present that as unseen accuracy.
 
-A justified next controlled experiment keeps pulse input, capacity and
-source-pressure component fixed, comparing current mean goal reward with a
-blend of mean and weaker-goal reward: pair2(G_A+G_B) versus
-(G_A+G_B)+2min(G_A,G_B), both max4 and the blend keeps a gradient with one
-missing response. Preregister case-level bonus assignment and selection;
-include frozen controls and preserve both arms' useful variants. Track exact
-turning/detour paths, both-direction output quality and real cost on fresh
-layouts excluding all V1–V6 manifests. Greater heritable capacity, regulation
-and time remain hypotheses; do not infer impossibility from bounded negatives
-or insert a known solver into a random-origin lineage.
+V7 completes that balanced-pressure comparison. Twelve conditions,
+local/evolved ×mean/balanced ×3,96 organisms ×48 additional generations. Both
+use the unchanged V6 pulse runtime and8-channel/128-gene limits. Per regular
+pair, Mean rewards2(G_A+G_B); Balanced rewards(G_A+G_B)+2min(G_A,G_B), assigning
+case i the bonusG_i+min. Both maxima4. Mixed unreachable pairs retain2G_i in
+both. Normal correctness/no-path priority, source reward and costs stay fixed.
+
+Base next populations/RNG are V6 Pulse. Both V6 arms' validation task/goal/source
+archives, protected ancestors and supplemental balanced variants are injected
+by recorded criteria and protected equally. Validation uses Mean in both arms;
+common balanced archives rank B=mean regular-pair minG,then both,Q,meanG,
+validity/optimality. Both nominate balanced training leaders. Task archives use
+normal fitness. Final selections are task/balanced plus their frozen controls;
+mean-goal/source/Q/S archives remain saved. Absolute V6/V7 archive scores are
+not a pressure-only comparison because the common archival policy changed.
+
+On independent paired tests, multirange Balanced B0.0310 vsMean0.0048 vsfrozen
+0.0215; individual G0.0509 /0.0386 /0.0352. Both-direction qualification2/18
+versus0/18 Mean and1/18 frozen. Gain concentrates in replicate1;replicate0
+retains B,replicate2 is slightly below frozen. Local Mean B0.0127 versusBalanced
+0.0031, frozen0.0031. These are intermediate measures, not completed routes.
+Removing the goal pulse reduces multirange Balanced B to0 (G remains0.0060);
+zeroing nonlocal reads reduces B to0,source score0.4911→0.0831. Do not claim
+all mean-G or source signals vanish. Mean's nonlocal-ablated B remains0.0038.
+
+Primary task accuracy:local4/216 under both (same frozen);multirange Balanced
+1/216 (same frozen),Mean2/216 (frozen1/216). All0/165 distance>=8 and0/42 paired
+reachable targets. Candidate task successes are1–5 edges; an inherited local
+five-edge route has two turns. Do not claim a new general route algorithm from
+the extra short straight Mean success. BFS/A*/wavefront solve all216 primary,
+42 paired reachable targets,48 primary and6 paired no-path cases. No speedup.
+
+Diagnostic added during training before final inspection: on9 perfect-tree
+pairs, locate the last shared oracle-prefix vertex and distinct next neighbor
+for each goal. A correct local choice requires source-connected output at the
+junction and desired neighbor, with the other branch off. Both-choice success
+is0/9 in every selected archive. Multirange Balanced reaches the junction under
+both goals and illuminates all three positions in6/9;source-to-junction distance
+can exceed16 in another case. This reuses saved tick16 rasters, without new
+inference, and is not another final accuracy measure. Source state changes at
+tick16:Mean11/18,Balanced4/18,frozen4/18. Communication at source is distinct
+from useful goal-dependent output. Full records:`junction_diagnostics.json`.
+
+A matched-parent mutation diagnostic (also specified during training) observes
+18628 newly born children whose parent is evaluated on the same rotating batch.
+18423 change genotype;8585 of those (46.6%) match the saved normal/probe rasters,
+status/steps and scalar fitness traits. Hidden trajectories may still differ.
+1484 have higher,7196 lower training fitness (cost tie-break excluded). This is
+a conditional subset, not an unbiased neutrality estimate. Preserve neutral
+variation; gene length is not effective complexity. Task genomes126–128 genes,
+conservative output/stop slices21–57; full-state quiescence may depend on others.
+
+Gate failed;search13.18min,main16.18min,peak192.2MiB onM4. Audited5016 primary,
+912 paired,768 pulse-removed and192 range-ablated normal outputs;58240 fitness
+records,256512 source arithmetic records,99 valid training claims,48 replays,
+12 archive maxima and all provenance/layout checks passed. There are34822 new
+individuals and complete next populations/RNG in
+`results/balanced_goal/checkpoints/balance_{local|evolved}_{mean|balanced}_{0|1|2}.json`.
+Separate `balance_*` modules reuse unchanged V6 inference. Source hashes,
+lossless decoded/stored log hashes and full prior populations are preserved.
+Construction seed1074 differs from study2026101805; final layouts were generated
+only after model freeze. V1–V6 code/raw results remain unchanged.
+
+A justified next experiment tests explicit source-connected, goal-dependent
+junction-choice credit against current Balanced pressure, holding input,
+capacity and inference limits fixed. Require distinct next choices under paired
+goals, source connection to the junction, the desired branch on and wrong branch
+suppressed. Include deceptive detours; for cyclic cases credit any valid
+shortest next step, not arbitrary BFS tie order. Oracle branch labels belong
+only in fitness, never inference. Preregister sampling, graded credit and
+case assignment before running; reserve layouts excluding all V1–V7 manifests.
+Completed exact shortest paths with turns/detours and real cost remain primary.
+Preserve Mean and Balanced lineages, communication, directional growth and
+neutral diversity. Capacity stayed fixed in V7; larger heritable complexity,
+regulation and time remain hypotheses rather than guarantees. No known solver
+may be inserted into the random-origin lineages.
 Original mission steps below are historical; do not repeat them as unfinished.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.

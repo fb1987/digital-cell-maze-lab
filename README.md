@@ -6,6 +6,60 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [balanced two-goal study V7](results/balanced_goal.md) is complete; **100 tests
+pass**. Twelve conditions continued V6 random-origin populations for 48 further
+generations with 96 organisms each. Both arms use the same goal pulse, genome
+capacity, starting genotypes and archive-selection rules. Balanced pressure
+adds credit for the weaker of two goal responses, alongside the existing
+credit for the stronger response. Both reward maxima match; mixed unreachable
+pairs retain their original scoring.
+
+**Multirange two-goal output improved:** weaker-goal score B is 0.0310 versus
+0.0215 frozen and 0.0048 under Mean pressure. Both-direction qualification is
+2/18 unseen regular pairs, versus 1/18 frozen and 0/18 Mean. The improvement is
+concentrated in one replicate; local Mean performs better than local Balanced.
+Removing the goal pulse or nonlocal reads reduces the multirange Balanced B
+score to zero. These are intermediate output measures, not correct routes.
+
+Primary task archives solve local 4/216 under either pressure (same frozen),
+multirange 1/216 Balanced and 2/216 Mean (frozen 1/216). All task arms solve 0/165
+long cases and 0/42 paired targets. An existing local genome produces a five-edge
+path with two turns; completed task successes span 1–5 edges. BFS/A*/wavefront
+solve all 216 primary and 42 paired reachable targets plus all no-path cases.
+No competitive speedup is demonstrated.
+
+The new junction diagnostic finds 0/9 pairs with both required choices correct.
+In 6/9 multirange Balanced tree pairs, source-connected output reaches the fork
+under both goals and illuminates both outgoing alternatives. Goal-sensitive
+growth is still missing useful branch suppression. Mean changes source state
+in 11/18 pairs at tick 16 versus 4/18 Balanced; more source response alone does not
+predict the better paired output here.
+
+The extension gate failed. Search 13.18 minutes; main run 16.18 minutes; peak RSS
+192.2 MiB. All 6,888 final/diagnostic normal outputs and 58,240 fitness records
+were audited. Population/RNG, lineage, balanced/goal/task/source archives and
+neutral diversity remain preserved. V1–V6 source and raw data are unchanged.
+Construction tests used a separate seed; models froze before final layouts.
+
+The next controlled experiment should reward source-connected, goal-dependent
+junction choices, including suppression of the wrong branch, against the
+current pressure. Include cyclic shortest-step ties and deceptive detours,
+keep all oracle labels in fitness, and reserve fresh layouts. Preserve both
+lineages; capacity stayed fixed in V7, so the capacity hypothesis remains open.
+
+```bash
+.venv/bin/python -m maze_evolution.balance_study --out results/repeat_balance
+.venv/bin/python -m maze_evolution.balance_diagnostics --out results/repeat_balance
+.venv/bin/python -m maze_evolution.balance_audit --out results/repeat_balance
+.venv/bin/python -m maze_evolution.balance_report --out results/repeat_balance
+```
+
+See the [V7 protocol](docs/BALANCE_STUDY_V7.md) and
+[`results/balanced_goal/`](results/balanced_goal/). Exact unseen shortest paths,
+latency and memory remain the mission's final measures.
+
+## Goal-state pulse V6 — October 18, 2026
+
 The [goal-state pulse study V6](results/goal_beacon.md) is complete; **95 tests
 pass**. Twelve conditions continued random-origin populations for 48 generations
 with 96 organisms each. Both input arms use identical initial genotypes and the

@@ -1,0 +1,5301 @@
+{
+  "counts": {
+    "balance/evolved/balanced/0": {
+      "changed_genome": 1534,
+      "changed_genome_same_behavior": 803,
+      "coeval_new_children": 1550,
+      "equal_training_fitness": 887,
+      "higher_training_fitness": 72,
+      "lower_training_fitness": 591,
+      "same_recorded_behavior": 819
+    },
+    "balance/evolved/balanced/1": {
+      "changed_genome": 1452,
+      "changed_genome_same_behavior": 813,
+      "coeval_new_children": 1467,
+      "equal_training_fitness": 896,
+      "higher_training_fitness": 91,
+      "lower_training_fitness": 480,
+      "same_recorded_behavior": 828
+    },
+    "balance/evolved/balanced/2": {
+      "changed_genome": 1629,
+      "changed_genome_same_behavior": 549,
+      "coeval_new_children": 1650,
+      "equal_training_fitness": 620,
+      "higher_training_fitness": 141,
+      "lower_training_fitness": 889,
+      "same_recorded_behavior": 570
+    },
+    "balance/evolved/mean/0": {
+      "changed_genome": 1422,
+      "changed_genome_same_behavior": 709,
+      "coeval_new_children": 1440,
+      "equal_training_fitness": 785,
+      "higher_training_fitness": 47,
+      "lower_training_fitness": 608,
+      "same_recorded_behavior": 727
+    },
+    "balance/evolved/mean/1": {
+      "changed_genome": 1546,
+      "changed_genome_same_behavior": 729,
+      "coeval_new_children": 1570,
+      "equal_training_fitness": 822,
+      "higher_training_fitness": 128,
+      "lower_training_fitness": 620,
+      "same_recorded_behavior": 753
+    },
+    "balance/evolved/mean/2": {
+      "changed_genome": 1524,
+      "changed_genome_same_behavior": 458,
+      "coeval_new_children": 1531,
+      "equal_training_fitness": 510,
+      "higher_training_fitness": 142,
+      "lower_training_fitness": 879,
+      "same_recorded_behavior": 465
+    },
+    "balance/local/balanced/0": {
+      "changed_genome": 1342,
+      "changed_genome_same_behavior": 779,
+      "coeval_new_children": 1353,
+      "equal_training_fitness": 855,
+      "higher_training_fitness": 73,
+      "lower_training_fitness": 425,
+      "same_recorded_behavior": 790
+    },
+    "balance/local/balanced/1": {
+      "changed_genome": 1671,
+      "changed_genome_same_behavior": 680,
+      "coeval_new_children": 1681,
+      "equal_training_fitness": 927,
+      "higher_training_fitness": 228,
+      "lower_training_fitness": 526,
+      "same_recorded_behavior": 690
+    },
+    "balance/local/balanced/2": {
+      "changed_genome": 1659,
+      "changed_genome_same_behavior": 772,
+      "coeval_new_children": 1686,
+      "equal_training_fitness": 916,
+      "higher_training_fitness": 154,
+      "lower_training_fitness": 616,
+      "same_recorded_behavior": 799
+    },
+    "balance/local/mean/0": {
+      "changed_genome": 1485,
+      "changed_genome_same_behavior": 874,
+      "coeval_new_children": 1504,
+      "equal_training_fitness": 955,
+      "higher_training_fitness": 71,
+      "lower_training_fitness": 478,
+      "same_recorded_behavior": 893
+    },
+    "balance/local/mean/1": {
+      "changed_genome": 1546,
+      "changed_genome_same_behavior": 641,
+      "coeval_new_children": 1566,
+      "equal_training_fitness": 887,
+      "higher_training_fitness": 207,
+      "lower_training_fitness": 472,
+      "same_recorded_behavior": 661
+    },
+    "balance/local/mean/2": {
+      "changed_genome": 1613,
+      "changed_genome_same_behavior": 778,
+      "coeval_new_children": 1630,
+      "equal_training_fitness": 888,
+      "higher_training_fitness": 130,
+      "lower_training_fitness": 612,
+      "same_recorded_behavior": 795
+    }
+  },
+  "definition": "Recorded phenotype includes normal/probe binary rasters, normal status/steps, partial/source/goal metrics; unobserved hidden trajectories can still differ. Fitness comparisons omit the final cost tie-break.",
+  "generations": [
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 7,
+      "coeval_children": 7,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 3
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 26,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 36,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 46,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 15,
+      "coeval_children": 15,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 34,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 49,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 27
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 35
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 25,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 29
+    },
+    {
+      "changed_genome": 15,
+      "coeval_children": 15,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 27
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 27
+    },
+    {
+      "changed_genome": 15,
+      "coeval_children": 15,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 18,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 30,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 19,
+      "coeval_children": 20,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 50,
+      "condition": "balance/evolved/balanced/0",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 33
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 27,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 46,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 19,
+      "coeval_children": 19,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 31,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 39
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 6,
+      "coeval_children": 6,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 50,
+      "same_recorded_behavior": 3
+    },
+    {
+      "changed_genome": 4,
+      "coeval_children": 4,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 3
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 33
+    },
+    {
+      "changed_genome": 13,
+      "coeval_children": 14,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 18,
+      "coeval_children": 18,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 35,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 45,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 21,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 30
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 17,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 10,
+      "coeval_children": 10,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 14,
+      "coeval_children": 14,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/evolved/balanced/1",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 80,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 81,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 85,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 82,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 35,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 34,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 44,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 85,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 22,
+      "coeval_children": 22,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 15,
+      "coeval_children": 16,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 82,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 45,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 82,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 76,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 77,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 38,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 81,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 4
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 81,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 19,
+      "coeval_children": 19,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 82,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 14,
+      "coeval_children": 14,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 3
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 44,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 81,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 40,
+      "condition": "balance/evolved/balanced/2",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/evolved/mean/0",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 7,
+      "coeval_children": 7,
+      "condition": "balance/evolved/mean/0",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 3
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/evolved/mean/0",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/0",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/evolved/mean/0",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/0",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 12,
+      "coeval_children": 12,
+      "condition": "balance/evolved/mean/0",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/evolved/mean/0",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/evolved/mean/0",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 28,
+      "condition": "balance/evolved/mean/0",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/mean/0",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/mean/0",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 27
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 28,
+      "condition": "balance/evolved/mean/0",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/evolved/mean/0",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/mean/0",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/0",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/evolved/mean/0",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 26,
+      "condition": "balance/evolved/mean/0",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/0",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/0",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/evolved/mean/0",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/evolved/mean/0",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 15,
+      "coeval_children": 15,
+      "condition": "balance/evolved/mean/0",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/0",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 14,
+      "coeval_children": 14,
+      "condition": "balance/evolved/mean/0",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/evolved/mean/0",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/0",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/evolved/mean/0",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/0",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/0",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/0",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 48,
+      "condition": "balance/evolved/mean/0",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/evolved/mean/0",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 48,
+      "condition": "balance/evolved/mean/0",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/evolved/mean/0",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/0",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/0",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/mean/0",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/0",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/evolved/mean/0",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 17,
+      "condition": "balance/evolved/mean/0",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/evolved/mean/0",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 26,
+      "condition": "balance/evolved/mean/0",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/0",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/mean/0",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/evolved/mean/0",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 10,
+      "coeval_children": 10,
+      "condition": "balance/evolved/mean/0",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/evolved/mean/0",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/evolved/mean/1",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 46,
+      "condition": "balance/evolved/mean/1",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 18,
+      "coeval_children": 18,
+      "condition": "balance/evolved/mean/1",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/1",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/evolved/mean/1",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 44,
+      "condition": "balance/evolved/mean/1",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/evolved/mean/1",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/evolved/mean/1",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/evolved/mean/1",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/1",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/1",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/1",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/1",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/evolved/mean/1",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 44,
+      "condition": "balance/evolved/mean/1",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/mean/1",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/1",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 14,
+      "coeval_children": 15,
+      "condition": "balance/evolved/mean/1",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/1",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/1",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/1",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/1",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/evolved/mean/1",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/evolved/mean/1",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/1",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/1",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 77,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 21,
+      "condition": "balance/evolved/mean/1",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/1",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 14,
+      "coeval_children": 14,
+      "condition": "balance/evolved/mean/1",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/evolved/mean/1",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 38,
+      "condition": "balance/evolved/mean/1",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 29
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/evolved/mean/1",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/1",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/evolved/mean/1",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/1",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/1",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 22,
+      "condition": "balance/evolved/mean/1",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/evolved/mean/1",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/1",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/evolved/mean/1",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/1",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/evolved/mean/1",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/mean/1",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/mean/1",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/evolved/mean/1",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/evolved/mean/1",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/mean/1",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/1",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/evolved/mean/2",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/evolved/mean/2",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 80,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/evolved/mean/2",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 76,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/2",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/2",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/evolved/mean/2",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 76,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/evolved/mean/2",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/2",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 41,
+      "condition": "balance/evolved/mean/2",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/2",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/evolved/mean/2",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 82,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/evolved/mean/2",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 80,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/evolved/mean/2",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/mean/2",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 77,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/2",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/mean/2",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/mean/2",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 76,
+      "same_recorded_behavior": 4
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/evolved/mean/2",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 85,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/evolved/mean/2",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/evolved/mean/2",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 85,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/2",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/evolved/mean/2",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/2",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/2",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 81,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/evolved/mean/2",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 4
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/evolved/mean/2",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 81,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/evolved/mean/2",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/mean/2",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 13,
+      "coeval_children": 13,
+      "condition": "balance/evolved/mean/2",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/evolved/mean/2",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 80,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/evolved/mean/2",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/evolved/mean/2",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 77,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/mean/2",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 4
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/evolved/mean/2",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 82,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/evolved/mean/2",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 76,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/evolved/mean/2",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 80,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/evolved/mean/2",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 79,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/evolved/mean/2",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/evolved/mean/2",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 81,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 17,
+      "condition": "balance/evolved/mean/2",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/evolved/mean/2",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/evolved/mean/2",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/evolved/mean/2",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/evolved/mean/2",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 29,
+      "condition": "balance/evolved/mean/2",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 30,
+      "condition": "balance/evolved/mean/2",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 80,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/evolved/mean/2",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 77,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/evolved/mean/2",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 78,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/local/balanced/0",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 44,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/local/balanced/0",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 38,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/local/balanced/0",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 40,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 7,
+      "coeval_children": 7,
+      "condition": "balance/local/balanced/0",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 42,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/local/balanced/0",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/balanced/0",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/local/balanced/0",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/balanced/0",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/local/balanced/0",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/local/balanced/0",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 42,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/local/balanced/0",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 50,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/local/balanced/0",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 35,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/balanced/0",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 46,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 18,
+      "coeval_children": 18,
+      "condition": "balance/local/balanced/0",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 21,
+      "condition": "balance/local/balanced/0",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 50,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/balanced/0",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/local/balanced/0",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/balanced/0",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 45,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 18,
+      "coeval_children": 20,
+      "condition": "balance/local/balanced/0",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 9,
+      "coeval_children": 9,
+      "condition": "balance/local/balanced/0",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 32,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 40,
+      "condition": "balance/local/balanced/0",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 15,
+      "coeval_children": 15,
+      "condition": "balance/local/balanced/0",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 46,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 48,
+      "condition": "balance/local/balanced/0",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 48,
+      "condition": "balance/local/balanced/0",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 38,
+      "same_recorded_behavior": 30
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/local/balanced/0",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/local/balanced/0",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/local/balanced/0",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/local/balanced/0",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 34,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 13,
+      "coeval_children": 13,
+      "condition": "balance/local/balanced/0",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/balanced/0",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/local/balanced/0",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/local/balanced/0",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 50,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/local/balanced/0",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/local/balanced/0",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 8,
+      "coeval_children": 8,
+      "condition": "balance/local/balanced/0",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 43,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/local/balanced/0",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/local/balanced/0",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 22,
+      "condition": "balance/local/balanced/0",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 50,
+      "condition": "balance/local/balanced/0",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/local/balanced/0",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 19,
+      "coeval_children": 19,
+      "condition": "balance/local/balanced/0",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 48,
+      "condition": "balance/local/balanced/0",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 39,
+      "condition": "balance/local/balanced/0",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/local/balanced/0",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/local/balanced/0",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/local/balanced/0",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/balanced/0",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 15,
+      "coeval_children": 15,
+      "condition": "balance/local/balanced/0",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/local/balanced/1",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/balanced/1",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/local/balanced/1",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 38,
+      "condition": "balance/local/balanced/1",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/balanced/1",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/balanced/1",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 29
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/local/balanced/1",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/local/balanced/1",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/balanced/1",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 36,
+      "condition": "balance/local/balanced/1",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 49,
+      "condition": "balance/local/balanced/1",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/local/balanced/1",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 22,
+      "coeval_children": 22,
+      "condition": "balance/local/balanced/1",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/local/balanced/1",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/local/balanced/1",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/local/balanced/1",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/balanced/1",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/balanced/1",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/local/balanced/1",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 51,
+      "coeval_children": 51,
+      "condition": "balance/local/balanced/1",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 46,
+      "condition": "balance/local/balanced/1",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 51,
+      "coeval_children": 51,
+      "condition": "balance/local/balanced/1",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/local/balanced/1",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/balanced/1",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/balanced/1",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 46,
+      "condition": "balance/local/balanced/1",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/local/balanced/1",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/local/balanced/1",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/balanced/1",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/local/balanced/1",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/local/balanced/1",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/balanced/1",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/local/balanced/1",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/local/balanced/1",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 31,
+      "condition": "balance/local/balanced/1",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 40,
+      "condition": "balance/local/balanced/1",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/local/balanced/1",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/local/balanced/1",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/local/balanced/1",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 42,
+      "condition": "balance/local/balanced/1",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 5,
+      "coeval_children": 5,
+      "condition": "balance/local/balanced/1",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 1
+    },
+    {
+      "changed_genome": 9,
+      "coeval_children": 9,
+      "condition": "balance/local/balanced/1",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 50,
+      "condition": "balance/local/balanced/1",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 35,
+      "condition": "balance/local/balanced/1",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 22,
+      "coeval_children": 22,
+      "condition": "balance/local/balanced/1",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/local/balanced/1",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/balanced/1",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/local/balanced/1",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/local/balanced/2",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/local/balanced/2",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 14,
+      "coeval_children": 14,
+      "condition": "balance/local/balanced/2",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/balanced/2",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 50,
+      "coeval_children": 50,
+      "condition": "balance/local/balanced/2",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/local/balanced/2",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/balanced/2",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/local/balanced/2",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 36
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/local/balanced/2",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 38,
+      "condition": "balance/local/balanced/2",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 17,
+      "condition": "balance/local/balanced/2",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/local/balanced/2",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 35,
+      "condition": "balance/local/balanced/2",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/balanced/2",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/local/balanced/2",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/local/balanced/2",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/balanced/2",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 48,
+      "condition": "balance/local/balanced/2",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 46,
+      "condition": "balance/local/balanced/2",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/local/balanced/2",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/local/balanced/2",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 33
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 41,
+      "condition": "balance/local/balanced/2",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/local/balanced/2",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/balanced/2",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/balanced/2",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/balanced/2",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 46,
+      "condition": "balance/local/balanced/2",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/local/balanced/2",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/local/balanced/2",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/local/balanced/2",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 39,
+      "condition": "balance/local/balanced/2",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/local/balanced/2",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/local/balanced/2",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/local/balanced/2",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/balanced/2",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 47,
+      "condition": "balance/local/balanced/2",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 47,
+      "condition": "balance/local/balanced/2",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 31,
+      "condition": "balance/local/balanced/2",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/local/balanced/2",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 50,
+      "condition": "balance/local/balanced/2",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 34
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 34,
+      "condition": "balance/local/balanced/2",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 50,
+      "condition": "balance/local/balanced/2",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 27
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/local/balanced/2",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 50,
+      "condition": "balance/local/balanced/2",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 35
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 36,
+      "condition": "balance/local/balanced/2",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 37,
+      "condition": "balance/local/balanced/2",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/balanced/2",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/local/balanced/2",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/local/mean/0",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 44,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/local/mean/0",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 38,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/local/mean/0",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 40,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 7,
+      "coeval_children": 7,
+      "condition": "balance/local/mean/0",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 42,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/local/mean/0",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/mean/0",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 25
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/local/mean/0",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/mean/0",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/local/mean/0",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/local/mean/0",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 42,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/local/mean/0",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 50,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 31,
+      "condition": "balance/local/mean/0",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 36,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 18,
+      "coeval_children": 19,
+      "condition": "balance/local/mean/0",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 50,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/mean/0",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 22,
+      "condition": "balance/local/mean/0",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/local/mean/0",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/local/mean/0",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/local/mean/0",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 30
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 28,
+      "condition": "balance/local/mean/0",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 13,
+      "coeval_children": 13,
+      "condition": "balance/local/mean/0",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 27,
+      "condition": "balance/local/mean/0",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/local/mean/0",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 45,
+      "same_recorded_behavior": 27
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 26,
+      "condition": "balance/local/mean/0",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 32,
+      "condition": "balance/local/mean/0",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 41,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 18,
+      "coeval_children": 18,
+      "condition": "balance/local/mean/0",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 46,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/local/mean/0",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/local/mean/0",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 32,
+      "condition": "balance/local/mean/0",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 45,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/local/mean/0",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/local/mean/0",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/local/mean/0",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 49,
+      "same_recorded_behavior": 28
+    },
+    {
+      "changed_genome": 18,
+      "coeval_children": 19,
+      "condition": "balance/local/mean/0",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 27,
+      "coeval_children": 27,
+      "condition": "balance/local/mean/0",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 48,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 45,
+      "condition": "balance/local/mean/0",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 46,
+      "same_recorded_behavior": 29
+    },
+    {
+      "changed_genome": 13,
+      "coeval_children": 13,
+      "condition": "balance/local/mean/0",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 39,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/local/mean/0",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 30
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/mean/0",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 41,
+      "condition": "balance/local/mean/0",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 49,
+      "condition": "balance/local/mean/0",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 46,
+      "same_recorded_behavior": 35
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/local/mean/0",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 46,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/mean/0",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 44,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 47,
+      "condition": "balance/local/mean/0",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/local/mean/0",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 30
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/local/mean/0",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/mean/0",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/local/mean/0",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/mean/0",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 47,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 49,
+      "condition": "balance/local/mean/0",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 42,
+      "same_recorded_behavior": 38
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/local/mean/1",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/mean/1",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/local/mean/1",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 17
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/local/mean/1",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/mean/1",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/local/mean/1",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 32
+    },
+    {
+      "changed_genome": 19,
+      "coeval_children": 19,
+      "condition": "balance/local/mean/1",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/mean/1",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/local/mean/1",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 50,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 30,
+      "condition": "balance/local/mean/1",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 74,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 48,
+      "condition": "balance/local/mean/1",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/local/mean/1",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 71,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 32,
+      "condition": "balance/local/mean/1",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 36,
+      "condition": "balance/local/mean/1",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 43,
+      "coeval_children": 43,
+      "condition": "balance/local/mean/1",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 58,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 46,
+      "condition": "balance/local/mean/1",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/local/mean/1",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 32,
+      "coeval_children": 33,
+      "condition": "balance/local/mean/1",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 46,
+      "condition": "balance/local/mean/1",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/local/mean/1",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/local/mean/1",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/mean/1",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/mean/1",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 72,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 19,
+      "coeval_children": 19,
+      "condition": "balance/local/mean/1",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 73,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 37,
+      "condition": "balance/local/mean/1",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 37,
+      "condition": "balance/local/mean/1",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 10,
+      "coeval_children": 10,
+      "condition": "balance/local/mean/1",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 27,
+      "condition": "balance/local/mean/1",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 7
+    },
+    {
+      "changed_genome": 35,
+      "coeval_children": 35,
+      "condition": "balance/local/mean/1",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/local/mean/1",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 50,
+      "condition": "balance/local/mean/1",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/local/mean/1",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 37,
+      "condition": "balance/local/mean/1",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 12,
+      "coeval_children": 12,
+      "condition": "balance/local/mean/1",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 69,
+      "same_recorded_behavior": 4
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 46,
+      "condition": "balance/local/mean/1",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/mean/1",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/local/mean/1",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 68,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 56,
+      "coeval_children": 56,
+      "condition": "balance/local/mean/1",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 34,
+      "coeval_children": 34,
+      "condition": "balance/local/mean/1",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/local/mean/1",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 22,
+      "coeval_children": 22,
+      "condition": "balance/local/mean/1",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/mean/1",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 20,
+      "condition": "balance/local/mean/1",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 22,
+      "condition": "balance/local/mean/1",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 22,
+      "condition": "balance/local/mean/1",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 51,
+      "condition": "balance/local/mean/1",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 33,
+      "coeval_children": 33,
+      "condition": "balance/local/mean/1",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 24,
+      "coeval_children": 24,
+      "condition": "balance/local/mean/1",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 0,
+      "coeval_children": 0,
+      "condition": "balance/local/mean/2",
+      "generation": 0,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 0
+    },
+    {
+      "changed_genome": 44,
+      "coeval_children": 44,
+      "condition": "balance/local/mean/2",
+      "generation": 1,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 29
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 17,
+      "condition": "balance/local/mean/2",
+      "generation": 2,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 20,
+      "coeval_children": 21,
+      "condition": "balance/local/mean/2",
+      "generation": 3,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 46,
+      "condition": "balance/local/mean/2",
+      "generation": 4,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/local/mean/2",
+      "generation": 5,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/mean/2",
+      "generation": 6,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/local/mean/2",
+      "generation": 7,
+      "population": 96,
+      "recorded_phenotypes": 51,
+      "same_recorded_behavior": 34
+    },
+    {
+      "changed_genome": 41,
+      "coeval_children": 42,
+      "condition": "balance/local/mean/2",
+      "generation": 8,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 41,
+      "condition": "balance/local/mean/2",
+      "generation": 9,
+      "population": 96,
+      "recorded_phenotypes": 55,
+      "same_recorded_behavior": 22
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/local/mean/2",
+      "generation": 10,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 25,
+      "coeval_children": 25,
+      "condition": "balance/local/mean/2",
+      "generation": 11,
+      "population": 96,
+      "recorded_phenotypes": 70,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/local/mean/2",
+      "generation": 12,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 28,
+      "coeval_children": 28,
+      "condition": "balance/local/mean/2",
+      "generation": 13,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 14
+    },
+    {
+      "changed_genome": 16,
+      "coeval_children": 16,
+      "condition": "balance/local/mean/2",
+      "generation": 14,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 10
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 38,
+      "condition": "balance/local/mean/2",
+      "generation": 15,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/local/mean/2",
+      "generation": 16,
+      "population": 96,
+      "recorded_phenotypes": 56,
+      "same_recorded_behavior": 24
+    },
+    {
+      "changed_genome": 49,
+      "coeval_children": 49,
+      "condition": "balance/local/mean/2",
+      "generation": 17,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 24,
+      "condition": "balance/local/mean/2",
+      "generation": 18,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 15
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/local/mean/2",
+      "generation": 19,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 42,
+      "coeval_children": 43,
+      "condition": "balance/local/mean/2",
+      "generation": 20,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 27
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/local/mean/2",
+      "generation": 21,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 27,
+      "condition": "balance/local/mean/2",
+      "generation": 22,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 38,
+      "condition": "balance/local/mean/2",
+      "generation": 23,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 39,
+      "coeval_children": 39,
+      "condition": "balance/local/mean/2",
+      "generation": 24,
+      "population": 96,
+      "recorded_phenotypes": 66,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 46,
+      "condition": "balance/local/mean/2",
+      "generation": 25,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 26,
+      "coeval_children": 26,
+      "condition": "balance/local/mean/2",
+      "generation": 26,
+      "population": 96,
+      "recorded_phenotypes": 67,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 40,
+      "coeval_children": 40,
+      "condition": "balance/local/mean/2",
+      "generation": 27,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 45,
+      "coeval_children": 45,
+      "condition": "balance/local/mean/2",
+      "generation": 28,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 30,
+      "coeval_children": 30,
+      "condition": "balance/local/mean/2",
+      "generation": 29,
+      "population": 96,
+      "recorded_phenotypes": 64,
+      "same_recorded_behavior": 18
+    },
+    {
+      "changed_genome": 31,
+      "coeval_children": 31,
+      "condition": "balance/local/mean/2",
+      "generation": 30,
+      "population": 96,
+      "recorded_phenotypes": 61,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 29,
+      "condition": "balance/local/mean/2",
+      "generation": 31,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 9
+    },
+    {
+      "changed_genome": 38,
+      "coeval_children": 39,
+      "condition": "balance/local/mean/2",
+      "generation": 32,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 21
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 17,
+      "condition": "balance/local/mean/2",
+      "generation": 33,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 8
+    },
+    {
+      "changed_genome": 22,
+      "coeval_children": 22,
+      "condition": "balance/local/mean/2",
+      "generation": 34,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 6
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 48,
+      "condition": "balance/local/mean/2",
+      "generation": 35,
+      "population": 96,
+      "recorded_phenotypes": 65,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 37,
+      "coeval_children": 39,
+      "condition": "balance/local/mean/2",
+      "generation": 36,
+      "population": 96,
+      "recorded_phenotypes": 57,
+      "same_recorded_behavior": 19
+    },
+    {
+      "changed_genome": 17,
+      "coeval_children": 17,
+      "condition": "balance/local/mean/2",
+      "generation": 37,
+      "population": 96,
+      "recorded_phenotypes": 52,
+      "same_recorded_behavior": 11
+    },
+    {
+      "changed_genome": 19,
+      "coeval_children": 19,
+      "condition": "balance/local/mean/2",
+      "generation": 38,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 4
+    },
+    {
+      "changed_genome": 29,
+      "coeval_children": 30,
+      "condition": "balance/local/mean/2",
+      "generation": 39,
+      "population": 96,
+      "recorded_phenotypes": 62,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/mean/2",
+      "generation": 40,
+      "population": 96,
+      "recorded_phenotypes": 75,
+      "same_recorded_behavior": 5
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 47,
+      "condition": "balance/local/mean/2",
+      "generation": 41,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 20
+    },
+    {
+      "changed_genome": 47,
+      "coeval_children": 49,
+      "condition": "balance/local/mean/2",
+      "generation": 42,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 13
+    },
+    {
+      "changed_genome": 46,
+      "coeval_children": 46,
+      "condition": "balance/local/mean/2",
+      "generation": 43,
+      "population": 96,
+      "recorded_phenotypes": 59,
+      "same_recorded_behavior": 26
+    },
+    {
+      "changed_genome": 23,
+      "coeval_children": 23,
+      "condition": "balance/local/mean/2",
+      "generation": 44,
+      "population": 96,
+      "recorded_phenotypes": 60,
+      "same_recorded_behavior": 16
+    },
+    {
+      "changed_genome": 48,
+      "coeval_children": 48,
+      "condition": "balance/local/mean/2",
+      "generation": 45,
+      "population": 96,
+      "recorded_phenotypes": 54,
+      "same_recorded_behavior": 23
+    },
+    {
+      "changed_genome": 21,
+      "coeval_children": 21,
+      "condition": "balance/local/mean/2",
+      "generation": 46,
+      "population": 96,
+      "recorded_phenotypes": 63,
+      "same_recorded_behavior": 12
+    },
+    {
+      "changed_genome": 36,
+      "coeval_children": 36,
+      "condition": "balance/local/mean/2",
+      "generation": 47,
+      "population": 96,
+      "recorded_phenotypes": 53,
+      "same_recorded_behavior": 23
+    }
+  ],
+  "scope": "Diagnostic specified during training, before final inspection; newly born children whose parent is evaluated on the same rotating training batch only.",
+  "source_sha256": "c2b39c232beff31306fdc45711eda1732a328c2a1cac499d35aaee15793c3bd2"
+}
