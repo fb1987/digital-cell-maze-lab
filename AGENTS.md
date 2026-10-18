@@ -526,7 +526,7 @@ this fingerprint does not identify full hidden trajectories or effective complex
 All earlier source/raw results stay immutable. Full native next populations/RNG:
 results/capacity_growth/checkpoints/growth_{local|evolved}_{cap128|cap256}_{0|1|2}.json.
 
-NEXT JUSTIFIED TEST: retain cap256 capacity and all native random-origin
+HISTORICAL NEXT-STUDY PROPOSAL, DEFERRED BY THE AUDIT BELOW: retain cap256 capacity and all native random-origin
 populations/primitives; compare unchanged pressure against an added bounded
 hidden goal-context discrimination term at fork exits. Preregister the exact
 paired directional contrast/normalization and prove it on independent fixtures.
@@ -537,6 +537,42 @@ RNG, caps, sampling and operators; use fresh layouts excluding ALL 9,296.
 48-generation screen, extension only for replicated hard-validation transfer.
 The proposal is not an executed/preregistered V12. Random-origin discovery,
 capacity/regulation and evolutionary time remain open hypotheses.
+
+CURRENT HANDOFF — RESEARCH AUDIT, October 18, 2026:
+The user requested a deep reassessment before more experiments. Read
+results/research_audit_2026_10_18.md and its analysis/verification packets.
+No new evolution, candidate inference or maze generation was run for the audit.
+Earlier raw results/source remain unchanged. The hidden-context V12 proposal
+above is deferred; it is not the automatically authorized next experiment.
+
+Judgment: local representation works, evolved causal signalling and specific
+fork computations exist, but general random-origin solving and competitive
+speed remain unestablished. Continue research with searchability/timing
+calibration before another shaping term. Keep known working/damaged program
+controls strictly separate from all random-origin lineages. Preserve native
+populations and useful variants; a fresh modern-convention random cohort, if
+tested, must be separately labeled. Exact complete routes remain primary.
+
+Retrospective facts: eleven main runs total208.43min, excluding separate
+tests/audits/diagnostics; V3–V11 record2,834,862 normals/5,669,724 probes.
+V11 protects18–36/96 organisms, leaving30.5–46.2 mutated children/generation
+plus9 immigrants. This is not genetic collapse:95–96 unique genotypes remain.
+All211 successful V2 frozen local seed outputs take2D+1 ticks;160 haveD>=8
+and finish after16. Tick16 source-connected shaping disfavors that developmental
+ordering, although completed solutions still win primary normal fitness.
+This is not a universal solver lower bound or proof that timing explains failure.
+Both goal positions lie outside the local tick16 fork-region cone on10/252
+regular training pairs,1/12 validation,2/18 final; most pairs are within reach.
+Independent distance code verifies all564 inputs;39 original input hashes match.
+
+Recommendation, not an executed/preregistered experiment: calibrate current
+controls/graded repair and achievable developmental objectives; then consider
+one precommitted60–90min stable study of transferable elementary skills with
+replication, frozen and evaluation-budget-matched resampling controls. Do not
+require early exciting transfer to test a preregistered long-incubation claim,
+but do not extend indefinitely. Set the detailed protocol before training.
+Exclude all9296 prior whole layouts plus any new calibration layouts. No
+claim of general progress from proxy scores, genome length, or isolated cases.
 
 Original mission steps below are historical; do not repeat them as unfinished.
 

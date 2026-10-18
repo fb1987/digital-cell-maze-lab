@@ -6,6 +6,23 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [research audit after V11](results/research_audit_2026_10_18.md) is complete.
+It recommends continuing random-origin research, while calibrating the search
+and developmental timing before adding another reward term. Evolved causal
+signalling and context-specific fork choices are real; transferable general
+solving and competitive efficiency remain unestablished. The retrospective
+audit finds a tick-16 shaping bias against the known two-stage wavefront
+development and quantifies the limited number of new mutants per generation.
+No evolution or candidate inference was run for this audit.
+
+The recommended next step is a separate positive-control/repair calibration,
+followed by a stable, bounded random-origin study if calibration succeeds.
+Known solver controls must never enter random-origin lineages. The earlier
+hidden-context reward proposal below is deferred, not executed. The report
+includes evidence, limitations, compute totals, and decision criteria.
+
+## Latest completed experiment — V11
+
 The [heritable capacity study V11](results/capacity_growth.md) is complete.
 Twelve conditions continue 96 random-origin organisms for 48 generations,
 comparing 128- and 256-gene ceilings at identical state capacity, objective,
@@ -35,7 +52,8 @@ audits pass for 23,655 child mutation traces, 59,127 fitness records, saved
 rasters, archive selection, lineage, layouts and source/model/storage hashes.
 All population/RNG checkpoints and earlier results are preserved.
 
-Next: keep the larger capacity and compare current pressure with an added,
+The next test proposed at V11 completion, now deferred by the research audit:
+keep the larger capacity and compare current pressure with an added,
 bounded hidden-context discrimination term at the exits. Keep complete routes
 and strict paired choices above shaping. Preregister the term and fresh-layout
 test before training; exclude all **9,296 whole layouts** seen through V11.

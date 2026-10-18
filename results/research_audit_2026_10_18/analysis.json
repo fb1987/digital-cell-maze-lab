@@ -1,0 +1,4991 @@
+{
+  "scope": "Retrospective read-only aggregation and graph-distance calculations; no candidate inference, new maze generation, selection or evolution.",
+  "studies": [
+    {
+      "study": "first_evolution",
+      "main_seconds": 25.35060745800729,
+      "training_seconds": null,
+      "normal_responses": null,
+      "probe_runs": null,
+      "registered_ids": 4224
+    },
+    {
+      "study": "range_and_regulation",
+      "main_seconds": 740.2860610829957,
+      "training_seconds": null,
+      "normal_responses": null,
+      "probe_runs": null,
+      "registered_ids": 141916
+    },
+    {
+      "study": "source_pressure",
+      "main_seconds": 3853.0799684160156,
+      "training_seconds": 3627.1083997500245,
+      "normal_responses": 802758,
+      "probe_runs": 1605516,
+      "registered_ids": 124366
+    },
+    {
+      "study": "goal_conditioning",
+      "main_seconds": 919.0782437089947,
+      "training_seconds": 580.3563221249788,
+      "normal_responses": 207336,
+      "probe_runs": 414672,
+      "registered_ids": 31634
+    },
+    {
+      "study": "factor_curriculum",
+      "main_seconds": 963.0655069579952,
+      "training_seconds": 781.0635132910102,
+      "normal_responses": 253116,
+      "probe_runs": 506232,
+      "registered_ids": 37415
+    },
+    {
+      "study": "goal_beacon",
+      "main_seconds": 978.8477497910208,
+      "training_seconds": 786.8804537079995,
+      "normal_responses": 254832,
+      "probe_runs": 509664,
+      "registered_ids": 35907
+    },
+    {
+      "study": "balanced_goal",
+      "main_seconds": 970.9840585839993,
+      "training_seconds": 790.5957412499993,
+      "normal_responses": 256512,
+      "probe_runs": 513024,
+      "registered_ids": 34822
+    },
+    {
+      "study": "junction_choice",
+      "main_seconds": 992.6833305000036,
+      "training_seconds": 808.023044667003,
+      "normal_responses": 261864,
+      "probe_runs": 523728,
+      "registered_ids": 33334
+    },
+    {
+      "study": "choice_priority",
+      "main_seconds": 1025.1366004170268,
+      "training_seconds": 834.0942930420279,
+      "normal_responses": 265608,
+      "probe_runs": 531216,
+      "registered_ids": 32258
+    },
+    {
+      "study": "distance_curriculum",
+      "main_seconds": 1017.1609344999888,
+      "training_seconds": 829.3229773749772,
+      "normal_responses": 265680,
+      "probe_runs": 531360,
+      "registered_ids": 31417
+    },
+    {
+      "study": "capacity_growth",
+      "main_seconds": 1020.3167794159963,
+      "training_seconds": 849.1122299999988,
+      "normal_responses": 267156,
+      "probe_runs": 534312,
+      "registered_ids": 29991
+    }
+  ],
+  "main_seconds_total": 12505.989840832044,
+  "v3_through_v11_normal_responses": 2834862,
+  "v3_through_v11_probe_runs": 5669724,
+  "registered_ids_sum": 537284,
+  "v11_population_allocation": [
+    {
+      "condition": "growth/evolved/cap128/0",
+      "population": 96,
+      "generations": 48,
+      "protected": 27,
+      "immigrants_per_generation": 9,
+      "mutated_children": 1989,
+      "mean_mutated_children_per_generation": 41.4375
+    },
+    {
+      "condition": "growth/evolved/cap128/1",
+      "population": 96,
+      "generations": 48,
+      "protected": 28,
+      "immigrants_per_generation": 9,
+      "mutated_children": 1894,
+      "mean_mutated_children_per_generation": 39.458333333333336
+    },
+    {
+      "condition": "growth/evolved/cap128/2",
+      "population": 96,
+      "generations": 48,
+      "protected": 36,
+      "immigrants_per_generation": 9,
+      "mutated_children": 1470,
+      "mean_mutated_children_per_generation": 30.625
+    },
+    {
+      "condition": "growth/evolved/cap256/0",
+      "population": 96,
+      "generations": 48,
+      "protected": 27,
+      "immigrants_per_generation": 9,
+      "mutated_children": 1994,
+      "mean_mutated_children_per_generation": 41.541666666666664
+    },
+    {
+      "condition": "growth/evolved/cap256/1",
+      "population": 96,
+      "generations": 48,
+      "protected": 28,
+      "immigrants_per_generation": 9,
+      "mutated_children": 1888,
+      "mean_mutated_children_per_generation": 39.333333333333336
+    },
+    {
+      "condition": "growth/evolved/cap256/2",
+      "population": 96,
+      "generations": 48,
+      "protected": 36,
+      "immigrants_per_generation": 9,
+      "mutated_children": 1465,
+      "mean_mutated_children_per_generation": 30.520833333333332
+    },
+    {
+      "condition": "growth/local/cap128/0",
+      "population": 96,
+      "generations": 48,
+      "protected": 19,
+      "immigrants_per_generation": 9,
+      "mutated_children": 2218,
+      "mean_mutated_children_per_generation": 46.208333333333336
+    },
+    {
+      "condition": "growth/local/cap128/1",
+      "population": 96,
+      "generations": 48,
+      "protected": 21,
+      "immigrants_per_generation": 9,
+      "mutated_children": 2139,
+      "mean_mutated_children_per_generation": 44.5625
+    },
+    {
+      "condition": "growth/local/cap128/2",
+      "population": 96,
+      "generations": 48,
+      "protected": 18,
+      "immigrants_per_generation": 9,
+      "mutated_children": 2147,
+      "mean_mutated_children_per_generation": 44.729166666666664
+    },
+    {
+      "condition": "growth/local/cap256/0",
+      "population": 96,
+      "generations": 48,
+      "protected": 19,
+      "immigrants_per_generation": 9,
+      "mutated_children": 2191,
+      "mean_mutated_children_per_generation": 45.645833333333336
+    },
+    {
+      "condition": "growth/local/cap256/1",
+      "population": 96,
+      "generations": 48,
+      "protected": 21,
+      "immigrants_per_generation": 9,
+      "mutated_children": 2141,
+      "mean_mutated_children_per_generation": 44.604166666666664
+    },
+    {
+      "condition": "growth/local/cap256/2",
+      "population": 96,
+      "generations": 48,
+      "protected": 18,
+      "immigrants_per_generation": 9,
+      "mutated_children": 2119,
+      "mean_mutated_children_per_generation": 44.145833333333336
+    }
+  ],
+  "v11_horizon_geometry": {
+    "validation_goal": {
+      "pairs": 12,
+      "both_goals_outside_region_cone16": 1,
+      "any_goal_outside_region_cone16": 2,
+      "both_goals_outside_vertex_cone16": 1,
+      "goal_to_region_inputs": 24,
+      "goal_to_region_beyond16": 3,
+      "median_goal_to_vertex_distance": 8.0,
+      "max_goal_to_vertex_distance": 28
+    },
+    "train_goal": {
+      "pairs": 252,
+      "both_goals_outside_region_cone16": 10,
+      "any_goal_outside_region_cone16": 60,
+      "both_goals_outside_vertex_cone16": 12,
+      "goal_to_region_inputs": 504,
+      "goal_to_region_beyond16": 70,
+      "median_goal_to_vertex_distance": 7.0,
+      "max_goal_to_vertex_distance": 30
+    },
+    "test_pairs": {
+      "pairs": 18,
+      "both_goals_outside_region_cone16": 2,
+      "any_goal_outside_region_cone16": 8,
+      "both_goals_outside_vertex_cone16": 2,
+      "goal_to_region_inputs": 36,
+      "goal_to_region_beyond16": 10,
+      "median_goal_to_vertex_distance": 8.0,
+      "max_goal_to_vertex_distance": 53
+    }
+  },
+  "v11_horizon_geometry_details": [
+    {
+      "first": "validation_goal/r0/p0/s1/perfect/9x9/a",
+      "second": "validation_goal/r0/p0/s1/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        8
+      ],
+      "nearest_region_distances": [
+        3,
+        7
+      ],
+      "source_goal_edges": [
+        8,
+        12
+      ]
+    },
+    {
+      "first": "validation_goal/r0/p1/s0/random/9x9/a",
+      "second": "validation_goal/r0/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        10,
+        4
+      ],
+      "nearest_region_distances": [
+        9,
+        3
+      ],
+      "source_goal_edges": [
+        14,
+        8
+      ]
+    },
+    {
+      "first": "validation_goal/r0/p3/s2/perfect/17x17/a",
+      "second": "validation_goal/r0/p3/s2/perfect/17x17/b",
+      "vertex_distances": [
+        7,
+        28
+      ],
+      "nearest_region_distances": [
+        6,
+        27
+      ],
+      "source_goal_edges": [
+        10,
+        31
+      ]
+    },
+    {
+      "first": "validation_goal/r0/p4/s4/random/17x17/a",
+      "second": "validation_goal/r0/p4/s4/random/17x17/b",
+      "vertex_distances": [
+        17,
+        6
+      ],
+      "nearest_region_distances": [
+        16,
+        5
+      ],
+      "source_goal_edges": [
+        19,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p0/s1/perfect/9x9/a",
+      "second": "train_goal/r0/p0/s1/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        12,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r0/p1/s0/random/9x9/a",
+      "second": "train_goal/r0/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p2/s6/perfect/9x9/a",
+      "second": "train_goal/r0/p2/s6/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        11,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r0/p3/s1/random/9x9/a",
+      "second": "train_goal/r0/p3/s1/random/9x9/b",
+      "vertex_distances": [
+        4,
+        4
+      ],
+      "nearest_region_distances": [
+        3,
+        3
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p4/s1/perfect/9x9/a",
+      "second": "train_goal/r0/p4/s1/perfect/9x9/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p5/s0/random/9x9/a",
+      "second": "train_goal/r0/p5/s0/random/9x9/b",
+      "vertex_distances": [
+        4,
+        5
+      ],
+      "nearest_region_distances": [
+        3,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p6/s0/perfect/9x9/a",
+      "second": "train_goal/r0/p6/s0/perfect/9x9/b",
+      "vertex_distances": [
+        7,
+        4
+      ],
+      "nearest_region_distances": [
+        6,
+        3
+      ],
+      "source_goal_edges": [
+        11,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p8/s0/perfect/9x9/a",
+      "second": "train_goal/r0/p8/s0/perfect/9x9/b",
+      "vertex_distances": [
+        9,
+        5
+      ],
+      "nearest_region_distances": [
+        8,
+        4
+      ],
+      "source_goal_edges": [
+        14,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r0/p9/s2/random/9x9/a",
+      "second": "train_goal/r0/p9/s2/random/9x9/b",
+      "vertex_distances": [
+        8,
+        5
+      ],
+      "nearest_region_distances": [
+        7,
+        4
+      ],
+      "source_goal_edges": [
+        11,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p10/s5/perfect/9x9/a",
+      "second": "train_goal/r0/p10/s5/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        10
+      ],
+      "nearest_region_distances": [
+        5,
+        9
+      ],
+      "source_goal_edges": [
+        8,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r0/p11/s0/random/9x9/a",
+      "second": "train_goal/r0/p11/s0/random/9x9/b",
+      "vertex_distances": [
+        7,
+        5
+      ],
+      "nearest_region_distances": [
+        6,
+        4
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p12/s1/perfect/9x9/a",
+      "second": "train_goal/r0/p12/s1/perfect/9x9/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p13/s2/random/9x9/a",
+      "second": "train_goal/r0/p13/s2/random/9x9/b",
+      "vertex_distances": [
+        6,
+        4
+      ],
+      "nearest_region_distances": [
+        5,
+        3
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p14/s3/perfect/9x9/a",
+      "second": "train_goal/r0/p14/s3/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p16/s6/perfect/9x9/a",
+      "second": "train_goal/r0/p16/s6/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        10
+      ],
+      "nearest_region_distances": [
+        7,
+        9
+      ],
+      "source_goal_edges": [
+        12,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r0/p17/s0/random/9x9/a",
+      "second": "train_goal/r0/p17/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        5
+      ],
+      "nearest_region_distances": [
+        5,
+        4
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p18/s0/perfect/9x9/a",
+      "second": "train_goal/r0/p18/s0/perfect/9x9/b",
+      "vertex_distances": [
+        12,
+        4
+      ],
+      "nearest_region_distances": [
+        11,
+        3
+      ],
+      "source_goal_edges": [
+        16,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p19/s0/random/9x9/a",
+      "second": "train_goal/r0/p19/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        4
+      ],
+      "nearest_region_distances": [
+        4,
+        3
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p20/s3/perfect/9x9/a",
+      "second": "train_goal/r0/p20/s3/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        4
+      ],
+      "nearest_region_distances": [
+        5,
+        3
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p21/s0/random/9x9/a",
+      "second": "train_goal/r0/p21/s0/random/9x9/b",
+      "vertex_distances": [
+        4,
+        6
+      ],
+      "nearest_region_distances": [
+        3,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r0/p22/s7/perfect/9x9/a",
+      "second": "train_goal/r0/p22/s7/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        9,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r0/p24/s13/perfect/9x9/a",
+      "second": "train_goal/r0/p24/s13/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        6
+      ],
+      "nearest_region_distances": [
+        9,
+        5
+      ],
+      "source_goal_edges": [
+        12,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p25/s0/random/9x9/a",
+      "second": "train_goal/r0/p25/s0/random/9x9/b",
+      "vertex_distances": [
+        9,
+        5
+      ],
+      "nearest_region_distances": [
+        8,
+        4
+      ],
+      "source_goal_edges": [
+        12,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p26/s3/perfect/9x9/a",
+      "second": "train_goal/r0/p26/s3/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        7
+      ],
+      "nearest_region_distances": [
+        7,
+        6
+      ],
+      "source_goal_edges": [
+        15,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r0/p27/s2/random/9x9/a",
+      "second": "train_goal/r0/p27/s2/random/9x9/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p28/s15/perfect/9x9/a",
+      "second": "train_goal/r0/p28/s15/perfect/9x9/b",
+      "vertex_distances": [
+        9,
+        5
+      ],
+      "nearest_region_distances": [
+        8,
+        4
+      ],
+      "source_goal_edges": [
+        13,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p29/s1/random/9x9/a",
+      "second": "train_goal/r0/p29/s1/random/9x9/b",
+      "vertex_distances": [
+        5,
+        7
+      ],
+      "nearest_region_distances": [
+        4,
+        6
+      ],
+      "source_goal_edges": [
+        10,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r0/p30/s2/perfect/9x9/a",
+      "second": "train_goal/r0/p30/s2/perfect/9x9/b",
+      "vertex_distances": [
+        11,
+        6
+      ],
+      "nearest_region_distances": [
+        10,
+        5
+      ],
+      "source_goal_edges": [
+        14,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p32/s17/perfect/9x9/a",
+      "second": "train_goal/r0/p32/s17/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p33/s0/random/9x9/a",
+      "second": "train_goal/r0/p33/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p34/s7/perfect/9x9/a",
+      "second": "train_goal/r0/p34/s7/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p35/s0/random/9x9/a",
+      "second": "train_goal/r0/p35/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r0/p36/s6/perfect/9x9/a",
+      "second": "train_goal/r0/p36/s6/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        4
+      ],
+      "nearest_region_distances": [
+        9,
+        3
+      ],
+      "source_goal_edges": [
+        14,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p37/s0/random/9x9/a",
+      "second": "train_goal/r0/p37/s0/random/9x9/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p38/s6/perfect/9x9/a",
+      "second": "train_goal/r0/p38/s6/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        6
+      ],
+      "nearest_region_distances": [
+        3,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r0/p40/s2/perfect/9x9/a",
+      "second": "train_goal/r0/p40/s2/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p41/s0/random/9x9/a",
+      "second": "train_goal/r0/p41/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p42/s1/perfect/9x9/a",
+      "second": "train_goal/r0/p42/s1/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        10
+      ],
+      "nearest_region_distances": [
+        3,
+        9
+      ],
+      "source_goal_edges": [
+        8,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r0/p43/s0/random/9x9/a",
+      "second": "train_goal/r0/p43/s0/random/9x9/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p44/s0/perfect/9x9/a",
+      "second": "train_goal/r0/p44/s0/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        12,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r0/p45/s0/random/9x9/a",
+      "second": "train_goal/r0/p45/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p46/s0/perfect/9x9/a",
+      "second": "train_goal/r0/p46/s0/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        10,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r0/p48/s2/perfect/17x17/a",
+      "second": "train_goal/r0/p48/s2/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        6
+      ],
+      "nearest_region_distances": [
+        17,
+        5
+      ],
+      "source_goal_edges": [
+        23,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r0/p49/s0/random/17x17/a",
+      "second": "train_goal/r0/p49/s0/random/17x17/b",
+      "vertex_distances": [
+        18,
+        5
+      ],
+      "nearest_region_distances": [
+        17,
+        4
+      ],
+      "source_goal_edges": [
+        23,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r0/p50/s1/perfect/17x17/a",
+      "second": "train_goal/r0/p50/s1/perfect/17x17/b",
+      "vertex_distances": [
+        10,
+        7
+      ],
+      "nearest_region_distances": [
+        9,
+        6
+      ],
+      "source_goal_edges": [
+        16,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r0/p51/s0/random/17x17/a",
+      "second": "train_goal/r0/p51/s0/random/17x17/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p52/s6/perfect/17x17/a",
+      "second": "train_goal/r0/p52/s6/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        11
+      ],
+      "nearest_region_distances": [
+        17,
+        10
+      ],
+      "source_goal_edges": [
+        25,
+        18
+      ]
+    },
+    {
+      "first": "train_goal/r0/p53/s0/random/17x17/a",
+      "second": "train_goal/r0/p53/s0/random/17x17/b",
+      "vertex_distances": [
+        5,
+        6
+      ],
+      "nearest_region_distances": [
+        4,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r0/p54/s7/perfect/17x17/a",
+      "second": "train_goal/r0/p54/s7/perfect/17x17/b",
+      "vertex_distances": [
+        19,
+        23
+      ],
+      "nearest_region_distances": [
+        18,
+        22
+      ],
+      "source_goal_edges": [
+        23,
+        27
+      ]
+    },
+    {
+      "first": "train_goal/r0/p56/s4/perfect/17x17/a",
+      "second": "train_goal/r0/p56/s4/perfect/17x17/b",
+      "vertex_distances": [
+        24,
+        12
+      ],
+      "nearest_region_distances": [
+        23,
+        11
+      ],
+      "source_goal_edges": [
+        29,
+        17
+      ]
+    },
+    {
+      "first": "train_goal/r0/p57/s0/random/17x17/a",
+      "second": "train_goal/r0/p57/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        10,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r0/p58/s2/perfect/17x17/a",
+      "second": "train_goal/r0/p58/s2/perfect/17x17/b",
+      "vertex_distances": [
+        8,
+        24
+      ],
+      "nearest_region_distances": [
+        7,
+        23
+      ],
+      "source_goal_edges": [
+        15,
+        31
+      ]
+    },
+    {
+      "first": "train_goal/r0/p59/s0/random/17x17/a",
+      "second": "train_goal/r0/p59/s0/random/17x17/b",
+      "vertex_distances": [
+        8,
+        9
+      ],
+      "nearest_region_distances": [
+        7,
+        8
+      ],
+      "source_goal_edges": [
+        15,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r0/p60/s0/perfect/17x17/a",
+      "second": "train_goal/r0/p60/s0/perfect/17x17/b",
+      "vertex_distances": [
+        28,
+        24
+      ],
+      "nearest_region_distances": [
+        27,
+        23
+      ],
+      "source_goal_edges": [
+        32,
+        28
+      ]
+    },
+    {
+      "first": "train_goal/r0/p61/s0/random/17x17/a",
+      "second": "train_goal/r0/p61/s0/random/17x17/b",
+      "vertex_distances": [
+        11,
+        11
+      ],
+      "nearest_region_distances": [
+        10,
+        10
+      ],
+      "source_goal_edges": [
+        17,
+        17
+      ]
+    },
+    {
+      "first": "train_goal/r0/p62/s1/perfect/17x17/a",
+      "second": "train_goal/r0/p62/s1/perfect/17x17/b",
+      "vertex_distances": [
+        16,
+        18
+      ],
+      "nearest_region_distances": [
+        15,
+        17
+      ],
+      "source_goal_edges": [
+        20,
+        22
+      ]
+    },
+    {
+      "first": "train_goal/r0/p64/s4/perfect/17x17/a",
+      "second": "train_goal/r0/p64/s4/perfect/17x17/b",
+      "vertex_distances": [
+        17,
+        7
+      ],
+      "nearest_region_distances": [
+        16,
+        6
+      ],
+      "source_goal_edges": [
+        23,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r0/p65/s0/random/17x17/a",
+      "second": "train_goal/r0/p65/s0/random/17x17/b",
+      "vertex_distances": [
+        9,
+        24
+      ],
+      "nearest_region_distances": [
+        8,
+        23
+      ],
+      "source_goal_edges": [
+        11,
+        26
+      ]
+    },
+    {
+      "first": "train_goal/r0/p66/s0/perfect/17x17/a",
+      "second": "train_goal/r0/p66/s0/perfect/17x17/b",
+      "vertex_distances": [
+        21,
+        13
+      ],
+      "nearest_region_distances": [
+        20,
+        12
+      ],
+      "source_goal_edges": [
+        29,
+        21
+      ]
+    },
+    {
+      "first": "train_goal/r0/p67/s0/random/17x17/a",
+      "second": "train_goal/r0/p67/s0/random/17x17/b",
+      "vertex_distances": [
+        7,
+        14
+      ],
+      "nearest_region_distances": [
+        6,
+        13
+      ],
+      "source_goal_edges": [
+        10,
+        17
+      ]
+    },
+    {
+      "first": "train_goal/r0/p68/s1/perfect/17x17/a",
+      "second": "train_goal/r0/p68/s1/perfect/17x17/b",
+      "vertex_distances": [
+        20,
+        6
+      ],
+      "nearest_region_distances": [
+        19,
+        5
+      ],
+      "source_goal_edges": [
+        23,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p69/s0/random/17x17/a",
+      "second": "train_goal/r0/p69/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        9,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r0/p70/s2/perfect/17x17/a",
+      "second": "train_goal/r0/p70/s2/perfect/17x17/b",
+      "vertex_distances": [
+        13,
+        6
+      ],
+      "nearest_region_distances": [
+        12,
+        5
+      ],
+      "source_goal_edges": [
+        15,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p72/s5/perfect/17x17/a",
+      "second": "train_goal/r0/p72/s5/perfect/17x17/b",
+      "vertex_distances": [
+        13,
+        18
+      ],
+      "nearest_region_distances": [
+        12,
+        17
+      ],
+      "source_goal_edges": [
+        16,
+        21
+      ]
+    },
+    {
+      "first": "train_goal/r0/p73/s0/random/17x17/a",
+      "second": "train_goal/r0/p73/s0/random/17x17/b",
+      "vertex_distances": [
+        15,
+        5
+      ],
+      "nearest_region_distances": [
+        14,
+        4
+      ],
+      "source_goal_edges": [
+        18,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p74/s0/perfect/17x17/a",
+      "second": "train_goal/r0/p74/s0/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        6
+      ],
+      "nearest_region_distances": [
+        17,
+        5
+      ],
+      "source_goal_edges": [
+        21,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p75/s0/random/17x17/a",
+      "second": "train_goal/r0/p75/s0/random/17x17/b",
+      "vertex_distances": [
+        7,
+        10
+      ],
+      "nearest_region_distances": [
+        6,
+        9
+      ],
+      "source_goal_edges": [
+        12,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r0/p76/s0/perfect/17x17/a",
+      "second": "train_goal/r0/p76/s0/perfect/17x17/b",
+      "vertex_distances": [
+        19,
+        18
+      ],
+      "nearest_region_distances": [
+        18,
+        17
+      ],
+      "source_goal_edges": [
+        21,
+        20
+      ]
+    },
+    {
+      "first": "train_goal/r0/p77/s0/random/17x17/a",
+      "second": "train_goal/r0/p77/s0/random/17x17/b",
+      "vertex_distances": [
+        12,
+        15
+      ],
+      "nearest_region_distances": [
+        11,
+        14
+      ],
+      "source_goal_edges": [
+        14,
+        17
+      ]
+    },
+    {
+      "first": "train_goal/r0/p78/s6/perfect/17x17/a",
+      "second": "train_goal/r0/p78/s6/perfect/17x17/b",
+      "vertex_distances": [
+        25,
+        10
+      ],
+      "nearest_region_distances": [
+        24,
+        9
+      ],
+      "source_goal_edges": [
+        28,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r0/p80/s0/perfect/17x17/a",
+      "second": "train_goal/r0/p80/s0/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        5
+      ],
+      "nearest_region_distances": [
+        17,
+        4
+      ],
+      "source_goal_edges": [
+        21,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p81/s0/random/17x17/a",
+      "second": "train_goal/r0/p81/s0/random/17x17/b",
+      "vertex_distances": [
+        11,
+        4
+      ],
+      "nearest_region_distances": [
+        10,
+        3
+      ],
+      "source_goal_edges": [
+        15,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p82/s6/perfect/17x17/a",
+      "second": "train_goal/r0/p82/s6/perfect/17x17/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r0/p83/s0/random/17x17/a",
+      "second": "train_goal/r0/p83/s0/random/17x17/b",
+      "vertex_distances": [
+        11,
+        12
+      ],
+      "nearest_region_distances": [
+        10,
+        11
+      ],
+      "source_goal_edges": [
+        14,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r0/p84/s2/perfect/17x17/a",
+      "second": "train_goal/r0/p84/s2/perfect/17x17/b",
+      "vertex_distances": [
+        22,
+        6
+      ],
+      "nearest_region_distances": [
+        21,
+        5
+      ],
+      "source_goal_edges": [
+        27,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r0/p85/s0/random/17x17/a",
+      "second": "train_goal/r0/p85/s0/random/17x17/b",
+      "vertex_distances": [
+        7,
+        8
+      ],
+      "nearest_region_distances": [
+        6,
+        7
+      ],
+      "source_goal_edges": [
+        13,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r0/p86/s1/perfect/17x17/a",
+      "second": "train_goal/r0/p86/s1/perfect/17x17/b",
+      "vertex_distances": [
+        21,
+        6
+      ],
+      "nearest_region_distances": [
+        20,
+        5
+      ],
+      "source_goal_edges": [
+        23,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p88/s11/perfect/17x17/a",
+      "second": "train_goal/r0/p88/s11/perfect/17x17/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        8,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r0/p89/s0/random/17x17/a",
+      "second": "train_goal/r0/p89/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        10,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r0/p90/s12/perfect/17x17/a",
+      "second": "train_goal/r0/p90/s12/perfect/17x17/b",
+      "vertex_distances": [
+        6,
+        10
+      ],
+      "nearest_region_distances": [
+        5,
+        9
+      ],
+      "source_goal_edges": [
+        12,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r0/p91/s0/random/17x17/a",
+      "second": "train_goal/r0/p91/s0/random/17x17/b",
+      "vertex_distances": [
+        13,
+        8
+      ],
+      "nearest_region_distances": [
+        12,
+        7
+      ],
+      "source_goal_edges": [
+        20,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r0/p92/s0/perfect/17x17/a",
+      "second": "train_goal/r0/p92/s0/perfect/17x17/b",
+      "vertex_distances": [
+        22,
+        14
+      ],
+      "nearest_region_distances": [
+        21,
+        13
+      ],
+      "source_goal_edges": [
+        27,
+        19
+      ]
+    },
+    {
+      "first": "train_goal/r0/p93/s0/random/17x17/a",
+      "second": "train_goal/r0/p93/s0/random/17x17/b",
+      "vertex_distances": [
+        11,
+        5
+      ],
+      "nearest_region_distances": [
+        10,
+        4
+      ],
+      "source_goal_edges": [
+        14,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r0/p94/s4/perfect/17x17/a",
+      "second": "train_goal/r0/p94/s4/perfect/17x17/b",
+      "vertex_distances": [
+        20,
+        6
+      ],
+      "nearest_region_distances": [
+        19,
+        5
+      ],
+      "source_goal_edges": [
+        26,
+        12
+      ]
+    },
+    {
+      "first": "validation_goal/r1/p0/s2/perfect/9x9/a",
+      "second": "validation_goal/r1/p0/s2/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        8,
+        10
+      ]
+    },
+    {
+      "first": "validation_goal/r1/p1/s0/random/9x9/a",
+      "second": "validation_goal/r1/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        4
+      ],
+      "nearest_region_distances": [
+        4,
+        3
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "validation_goal/r1/p3/s0/perfect/17x17/a",
+      "second": "validation_goal/r1/p3/s0/perfect/17x17/b",
+      "vertex_distances": [
+        8,
+        14
+      ],
+      "nearest_region_distances": [
+        7,
+        13
+      ],
+      "source_goal_edges": [
+        14,
+        20
+      ]
+    },
+    {
+      "first": "validation_goal/r1/p4/s1/random/17x17/a",
+      "second": "validation_goal/r1/p4/s1/random/17x17/b",
+      "vertex_distances": [
+        8,
+        12
+      ],
+      "nearest_region_distances": [
+        7,
+        11
+      ],
+      "source_goal_edges": [
+        10,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r1/p0/s4/perfect/9x9/a",
+      "second": "train_goal/r1/p0/s4/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        11,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p1/s0/random/9x9/a",
+      "second": "train_goal/r1/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p2/s4/perfect/9x9/a",
+      "second": "train_goal/r1/p2/s4/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        8
+      ],
+      "nearest_region_distances": [
+        7,
+        7
+      ],
+      "source_goal_edges": [
+        16,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r1/p3/s0/random/9x9/a",
+      "second": "train_goal/r1/p3/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        4
+      ],
+      "nearest_region_distances": [
+        4,
+        3
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p4/s1/perfect/9x9/a",
+      "second": "train_goal/r1/p4/s1/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r1/p5/s0/random/9x9/a",
+      "second": "train_goal/r1/p5/s0/random/9x9/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p6/s1/perfect/9x9/a",
+      "second": "train_goal/r1/p6/s1/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        4
+      ],
+      "nearest_region_distances": [
+        9,
+        3
+      ],
+      "source_goal_edges": [
+        14,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p8/s4/perfect/9x9/a",
+      "second": "train_goal/r1/p8/s4/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        10,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p9/s1/random/9x9/a",
+      "second": "train_goal/r1/p9/s1/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p10/s3/perfect/9x9/a",
+      "second": "train_goal/r1/p10/s3/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        8,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r1/p11/s0/random/9x9/a",
+      "second": "train_goal/r1/p11/s0/random/9x9/b",
+      "vertex_distances": [
+        13,
+        9
+      ],
+      "nearest_region_distances": [
+        12,
+        8
+      ],
+      "source_goal_edges": [
+        16,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p12/s4/perfect/9x9/a",
+      "second": "train_goal/r1/p12/s4/perfect/9x9/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p13/s0/random/9x9/a",
+      "second": "train_goal/r1/p13/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p14/s7/perfect/9x9/a",
+      "second": "train_goal/r1/p14/s7/perfect/9x9/b",
+      "vertex_distances": [
+        9,
+        5
+      ],
+      "nearest_region_distances": [
+        8,
+        4
+      ],
+      "source_goal_edges": [
+        12,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p16/s2/perfect/9x9/a",
+      "second": "train_goal/r1/p16/s2/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        5
+      ],
+      "nearest_region_distances": [
+        7,
+        4
+      ],
+      "source_goal_edges": [
+        11,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p17/s0/random/9x9/a",
+      "second": "train_goal/r1/p17/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        7
+      ],
+      "nearest_region_distances": [
+        4,
+        6
+      ],
+      "source_goal_edges": [
+        9,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r1/p18/s8/perfect/9x9/a",
+      "second": "train_goal/r1/p18/s8/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p19/s0/random/9x9/a",
+      "second": "train_goal/r1/p19/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p20/s2/perfect/9x9/a",
+      "second": "train_goal/r1/p20/s2/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        10
+      ],
+      "nearest_region_distances": [
+        7,
+        9
+      ],
+      "source_goal_edges": [
+        14,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r1/p21/s0/random/9x9/a",
+      "second": "train_goal/r1/p21/s0/random/9x9/b",
+      "vertex_distances": [
+        4,
+        5
+      ],
+      "nearest_region_distances": [
+        3,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p22/s1/perfect/9x9/a",
+      "second": "train_goal/r1/p22/s1/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        12
+      ],
+      "nearest_region_distances": [
+        3,
+        11
+      ],
+      "source_goal_edges": [
+        8,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r1/p24/s5/perfect/9x9/a",
+      "second": "train_goal/r1/p24/s5/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        4
+      ],
+      "nearest_region_distances": [
+        9,
+        3
+      ],
+      "source_goal_edges": [
+        14,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p25/s1/random/9x9/a",
+      "second": "train_goal/r1/p25/s1/random/9x9/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        14,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p26/s1/perfect/9x9/a",
+      "second": "train_goal/r1/p26/s1/perfect/9x9/b",
+      "vertex_distances": [
+        11,
+        6
+      ],
+      "nearest_region_distances": [
+        10,
+        5
+      ],
+      "source_goal_edges": [
+        14,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p27/s3/random/9x9/a",
+      "second": "train_goal/r1/p27/s3/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        9,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p28/s8/perfect/9x9/a",
+      "second": "train_goal/r1/p28/s8/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        4
+      ],
+      "nearest_region_distances": [
+        5,
+        3
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p29/s0/random/9x9/a",
+      "second": "train_goal/r1/p29/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p30/s0/perfect/9x9/a",
+      "second": "train_goal/r1/p30/s0/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        8
+      ],
+      "nearest_region_distances": [
+        9,
+        7
+      ],
+      "source_goal_edges": [
+        16,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r1/p32/s2/perfect/9x9/a",
+      "second": "train_goal/r1/p32/s2/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p33/s0/random/9x9/a",
+      "second": "train_goal/r1/p33/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        6
+      ],
+      "nearest_region_distances": [
+        4,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p34/s7/perfect/9x9/a",
+      "second": "train_goal/r1/p34/s7/perfect/9x9/b",
+      "vertex_distances": [
+        12,
+        4
+      ],
+      "nearest_region_distances": [
+        11,
+        3
+      ],
+      "source_goal_edges": [
+        16,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p35/s0/random/9x9/a",
+      "second": "train_goal/r1/p35/s0/random/9x9/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p36/s5/perfect/9x9/a",
+      "second": "train_goal/r1/p36/s5/perfect/9x9/b",
+      "vertex_distances": [
+        7,
+        8
+      ],
+      "nearest_region_distances": [
+        6,
+        7
+      ],
+      "source_goal_edges": [
+        9,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r1/p37/s0/random/9x9/a",
+      "second": "train_goal/r1/p37/s0/random/9x9/b",
+      "vertex_distances": [
+        4,
+        4
+      ],
+      "nearest_region_distances": [
+        3,
+        3
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p38/s4/perfect/9x9/a",
+      "second": "train_goal/r1/p38/s4/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        8
+      ],
+      "nearest_region_distances": [
+        3,
+        7
+      ],
+      "source_goal_edges": [
+        8,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p40/s3/perfect/9x9/a",
+      "second": "train_goal/r1/p40/s3/perfect/9x9/b",
+      "vertex_distances": [
+        7,
+        6
+      ],
+      "nearest_region_distances": [
+        6,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p41/s0/random/9x9/a",
+      "second": "train_goal/r1/p41/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r1/p42/s11/perfect/9x9/a",
+      "second": "train_goal/r1/p42/s11/perfect/9x9/b",
+      "vertex_distances": [
+        7,
+        10
+      ],
+      "nearest_region_distances": [
+        6,
+        9
+      ],
+      "source_goal_edges": [
+        9,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p43/s1/random/9x9/a",
+      "second": "train_goal/r1/p43/s1/random/9x9/b",
+      "vertex_distances": [
+        6,
+        11
+      ],
+      "nearest_region_distances": [
+        5,
+        10
+      ],
+      "source_goal_edges": [
+        8,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r1/p44/s1/perfect/9x9/a",
+      "second": "train_goal/r1/p44/s1/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        14,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p45/s0/random/9x9/a",
+      "second": "train_goal/r1/p45/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p46/s0/perfect/9x9/a",
+      "second": "train_goal/r1/p46/s0/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        10
+      ],
+      "nearest_region_distances": [
+        3,
+        9
+      ],
+      "source_goal_edges": [
+        8,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r1/p48/s8/perfect/17x17/a",
+      "second": "train_goal/r1/p48/s8/perfect/17x17/b",
+      "vertex_distances": [
+        17,
+        26
+      ],
+      "nearest_region_distances": [
+        16,
+        25
+      ],
+      "source_goal_edges": [
+        23,
+        32
+      ]
+    },
+    {
+      "first": "train_goal/r1/p49/s0/random/17x17/a",
+      "second": "train_goal/r1/p49/s0/random/17x17/b",
+      "vertex_distances": [
+        12,
+        9
+      ],
+      "nearest_region_distances": [
+        11,
+        8
+      ],
+      "source_goal_edges": [
+        14,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r1/p50/s1/perfect/17x17/a",
+      "second": "train_goal/r1/p50/s1/perfect/17x17/b",
+      "vertex_distances": [
+        11,
+        6
+      ],
+      "nearest_region_distances": [
+        10,
+        5
+      ],
+      "source_goal_edges": [
+        17,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p51/s0/random/17x17/a",
+      "second": "train_goal/r1/p51/s0/random/17x17/b",
+      "vertex_distances": [
+        8,
+        6
+      ],
+      "nearest_region_distances": [
+        7,
+        5
+      ],
+      "source_goal_edges": [
+        11,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p52/s6/perfect/17x17/a",
+      "second": "train_goal/r1/p52/s6/perfect/17x17/b",
+      "vertex_distances": [
+        16,
+        6
+      ],
+      "nearest_region_distances": [
+        15,
+        5
+      ],
+      "source_goal_edges": [
+        21,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r1/p53/s0/random/17x17/a",
+      "second": "train_goal/r1/p53/s0/random/17x17/b",
+      "vertex_distances": [
+        10,
+        7
+      ],
+      "nearest_region_distances": [
+        9,
+        6
+      ],
+      "source_goal_edges": [
+        13,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r1/p54/s8/perfect/17x17/a",
+      "second": "train_goal/r1/p54/s8/perfect/17x17/b",
+      "vertex_distances": [
+        26,
+        11
+      ],
+      "nearest_region_distances": [
+        25,
+        10
+      ],
+      "source_goal_edges": [
+        29,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r1/p56/s1/perfect/17x17/a",
+      "second": "train_goal/r1/p56/s1/perfect/17x17/b",
+      "vertex_distances": [
+        13,
+        16
+      ],
+      "nearest_region_distances": [
+        12,
+        15
+      ],
+      "source_goal_edges": [
+        19,
+        22
+      ]
+    },
+    {
+      "first": "train_goal/r1/p57/s0/random/17x17/a",
+      "second": "train_goal/r1/p57/s0/random/17x17/b",
+      "vertex_distances": [
+        21,
+        7
+      ],
+      "nearest_region_distances": [
+        20,
+        6
+      ],
+      "source_goal_edges": [
+        26,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p58/s1/perfect/17x17/a",
+      "second": "train_goal/r1/p58/s1/perfect/17x17/b",
+      "vertex_distances": [
+        28,
+        6
+      ],
+      "nearest_region_distances": [
+        27,
+        5
+      ],
+      "source_goal_edges": [
+        30,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p59/s0/random/17x17/a",
+      "second": "train_goal/r1/p59/s0/random/17x17/b",
+      "vertex_distances": [
+        18,
+        6
+      ],
+      "nearest_region_distances": [
+        17,
+        5
+      ],
+      "source_goal_edges": [
+        20,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p60/s37/perfect/17x17/a",
+      "second": "train_goal/r1/p60/s37/perfect/17x17/b",
+      "vertex_distances": [
+        24,
+        6
+      ],
+      "nearest_region_distances": [
+        23,
+        5
+      ],
+      "source_goal_edges": [
+        27,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p61/s0/random/17x17/a",
+      "second": "train_goal/r1/p61/s0/random/17x17/b",
+      "vertex_distances": [
+        10,
+        9
+      ],
+      "nearest_region_distances": [
+        9,
+        8
+      ],
+      "source_goal_edges": [
+        16,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r1/p62/s7/perfect/17x17/a",
+      "second": "train_goal/r1/p62/s7/perfect/17x17/b",
+      "vertex_distances": [
+        13,
+        12
+      ],
+      "nearest_region_distances": [
+        12,
+        11
+      ],
+      "source_goal_edges": [
+        20,
+        19
+      ]
+    },
+    {
+      "first": "train_goal/r1/p64/s6/perfect/17x17/a",
+      "second": "train_goal/r1/p64/s6/perfect/17x17/b",
+      "vertex_distances": [
+        14,
+        24
+      ],
+      "nearest_region_distances": [
+        13,
+        23
+      ],
+      "source_goal_edges": [
+        22,
+        32
+      ]
+    },
+    {
+      "first": "train_goal/r1/p65/s0/random/17x17/a",
+      "second": "train_goal/r1/p65/s0/random/17x17/b",
+      "vertex_distances": [
+        10,
+        8
+      ],
+      "nearest_region_distances": [
+        9,
+        7
+      ],
+      "source_goal_edges": [
+        18,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r1/p66/s1/perfect/17x17/a",
+      "second": "train_goal/r1/p66/s1/perfect/17x17/b",
+      "vertex_distances": [
+        19,
+        9
+      ],
+      "nearest_region_distances": [
+        18,
+        8
+      ],
+      "source_goal_edges": [
+        22,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p67/s0/random/17x17/a",
+      "second": "train_goal/r1/p67/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r1/p68/s2/perfect/17x17/a",
+      "second": "train_goal/r1/p68/s2/perfect/17x17/b",
+      "vertex_distances": [
+        17,
+        26
+      ],
+      "nearest_region_distances": [
+        16,
+        25
+      ],
+      "source_goal_edges": [
+        22,
+        31
+      ]
+    },
+    {
+      "first": "train_goal/r1/p69/s0/random/17x17/a",
+      "second": "train_goal/r1/p69/s0/random/17x17/b",
+      "vertex_distances": [
+        16,
+        5
+      ],
+      "nearest_region_distances": [
+        15,
+        4
+      ],
+      "source_goal_edges": [
+        19,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p70/s5/perfect/17x17/a",
+      "second": "train_goal/r1/p70/s5/perfect/17x17/b",
+      "vertex_distances": [
+        27,
+        4
+      ],
+      "nearest_region_distances": [
+        26,
+        3
+      ],
+      "source_goal_edges": [
+        31,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p72/s0/perfect/17x17/a",
+      "second": "train_goal/r1/p72/s0/perfect/17x17/b",
+      "vertex_distances": [
+        19,
+        26
+      ],
+      "nearest_region_distances": [
+        18,
+        25
+      ],
+      "source_goal_edges": [
+        23,
+        30
+      ]
+    },
+    {
+      "first": "train_goal/r1/p73/s0/random/17x17/a",
+      "second": "train_goal/r1/p73/s0/random/17x17/b",
+      "vertex_distances": [
+        15,
+        13
+      ],
+      "nearest_region_distances": [
+        14,
+        12
+      ],
+      "source_goal_edges": [
+        18,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r1/p74/s5/perfect/17x17/a",
+      "second": "train_goal/r1/p74/s5/perfect/17x17/b",
+      "vertex_distances": [
+        7,
+        18
+      ],
+      "nearest_region_distances": [
+        6,
+        17
+      ],
+      "source_goal_edges": [
+        13,
+        24
+      ]
+    },
+    {
+      "first": "train_goal/r1/p75/s0/random/17x17/a",
+      "second": "train_goal/r1/p75/s0/random/17x17/b",
+      "vertex_distances": [
+        18,
+        6
+      ],
+      "nearest_region_distances": [
+        17,
+        5
+      ],
+      "source_goal_edges": [
+        24,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p76/s18/perfect/17x17/a",
+      "second": "train_goal/r1/p76/s18/perfect/17x17/b",
+      "vertex_distances": [
+        22,
+        26
+      ],
+      "nearest_region_distances": [
+        21,
+        25
+      ],
+      "source_goal_edges": [
+        28,
+        32
+      ]
+    },
+    {
+      "first": "train_goal/r1/p77/s0/random/17x17/a",
+      "second": "train_goal/r1/p77/s0/random/17x17/b",
+      "vertex_distances": [
+        15,
+        7
+      ],
+      "nearest_region_distances": [
+        14,
+        6
+      ],
+      "source_goal_edges": [
+        20,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p78/s7/perfect/17x17/a",
+      "second": "train_goal/r1/p78/s7/perfect/17x17/b",
+      "vertex_distances": [
+        9,
+        14
+      ],
+      "nearest_region_distances": [
+        8,
+        13
+      ],
+      "source_goal_edges": [
+        17,
+        22
+      ]
+    },
+    {
+      "first": "train_goal/r1/p80/s2/perfect/17x17/a",
+      "second": "train_goal/r1/p80/s2/perfect/17x17/b",
+      "vertex_distances": [
+        16,
+        19
+      ],
+      "nearest_region_distances": [
+        15,
+        18
+      ],
+      "source_goal_edges": [
+        24,
+        27
+      ]
+    },
+    {
+      "first": "train_goal/r1/p81/s0/random/17x17/a",
+      "second": "train_goal/r1/p81/s0/random/17x17/b",
+      "vertex_distances": [
+        16,
+        5
+      ],
+      "nearest_region_distances": [
+        15,
+        4
+      ],
+      "source_goal_edges": [
+        19,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p82/s1/perfect/17x17/a",
+      "second": "train_goal/r1/p82/s1/perfect/17x17/b",
+      "vertex_distances": [
+        28,
+        18
+      ],
+      "nearest_region_distances": [
+        27,
+        17
+      ],
+      "source_goal_edges": [
+        30,
+        20
+      ]
+    },
+    {
+      "first": "train_goal/r1/p83/s0/random/17x17/a",
+      "second": "train_goal/r1/p83/s0/random/17x17/b",
+      "vertex_distances": [
+        8,
+        9
+      ],
+      "nearest_region_distances": [
+        7,
+        8
+      ],
+      "source_goal_edges": [
+        11,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p84/s12/perfect/17x17/a",
+      "second": "train_goal/r1/p84/s12/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        5
+      ],
+      "nearest_region_distances": [
+        17,
+        4
+      ],
+      "source_goal_edges": [
+        21,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p85/s0/random/17x17/a",
+      "second": "train_goal/r1/p85/s0/random/17x17/b",
+      "vertex_distances": [
+        10,
+        17
+      ],
+      "nearest_region_distances": [
+        9,
+        16
+      ],
+      "source_goal_edges": [
+        14,
+        21
+      ]
+    },
+    {
+      "first": "train_goal/r1/p86/s6/perfect/17x17/a",
+      "second": "train_goal/r1/p86/s6/perfect/17x17/b",
+      "vertex_distances": [
+        13,
+        8
+      ],
+      "nearest_region_distances": [
+        12,
+        7
+      ],
+      "source_goal_edges": [
+        20,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r1/p88/s30/perfect/17x17/a",
+      "second": "train_goal/r1/p88/s30/perfect/17x17/b",
+      "vertex_distances": [
+        10,
+        18
+      ],
+      "nearest_region_distances": [
+        9,
+        17
+      ],
+      "source_goal_edges": [
+        18,
+        26
+      ]
+    },
+    {
+      "first": "train_goal/r1/p89/s0/random/17x17/a",
+      "second": "train_goal/r1/p89/s0/random/17x17/b",
+      "vertex_distances": [
+        18,
+        4
+      ],
+      "nearest_region_distances": [
+        17,
+        3
+      ],
+      "source_goal_edges": [
+        22,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r1/p90/s0/perfect/17x17/a",
+      "second": "train_goal/r1/p90/s0/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        5
+      ],
+      "nearest_region_distances": [
+        17,
+        4
+      ],
+      "source_goal_edges": [
+        23,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r1/p91/s0/random/17x17/a",
+      "second": "train_goal/r1/p91/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        11
+      ],
+      "nearest_region_distances": [
+        5,
+        10
+      ],
+      "source_goal_edges": [
+        9,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r1/p92/s25/perfect/17x17/a",
+      "second": "train_goal/r1/p92/s25/perfect/17x17/b",
+      "vertex_distances": [
+        30,
+        12
+      ],
+      "nearest_region_distances": [
+        29,
+        11
+      ],
+      "source_goal_edges": [
+        32,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r1/p93/s0/random/17x17/a",
+      "second": "train_goal/r1/p93/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        9
+      ],
+      "nearest_region_distances": [
+        5,
+        8
+      ],
+      "source_goal_edges": [
+        9,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r1/p94/s0/perfect/17x17/a",
+      "second": "train_goal/r1/p94/s0/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        20
+      ],
+      "nearest_region_distances": [
+        17,
+        19
+      ],
+      "source_goal_edges": [
+        25,
+        27
+      ]
+    },
+    {
+      "first": "validation_goal/r2/p0/s0/perfect/9x9/a",
+      "second": "validation_goal/r2/p0/s0/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        6
+      ],
+      "nearest_region_distances": [
+        9,
+        5
+      ],
+      "source_goal_edges": [
+        12,
+        8
+      ]
+    },
+    {
+      "first": "validation_goal/r2/p1/s0/random/9x9/a",
+      "second": "validation_goal/r2/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "validation_goal/r2/p3/s1/perfect/17x17/a",
+      "second": "validation_goal/r2/p3/s1/perfect/17x17/b",
+      "vertex_distances": [
+        19,
+        26
+      ],
+      "nearest_region_distances": [
+        18,
+        25
+      ],
+      "source_goal_edges": [
+        22,
+        29
+      ]
+    },
+    {
+      "first": "validation_goal/r2/p4/s0/random/17x17/a",
+      "second": "validation_goal/r2/p4/s0/random/17x17/b",
+      "vertex_distances": [
+        16,
+        15
+      ],
+      "nearest_region_distances": [
+        15,
+        14
+      ],
+      "source_goal_edges": [
+        21,
+        20
+      ]
+    },
+    {
+      "first": "train_goal/r2/p0/s5/perfect/9x9/a",
+      "second": "train_goal/r2/p0/s5/perfect/9x9/b",
+      "vertex_distances": [
+        5,
+        6
+      ],
+      "nearest_region_distances": [
+        4,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p1/s0/random/9x9/a",
+      "second": "train_goal/r2/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        9,
+        7
+      ],
+      "nearest_region_distances": [
+        8,
+        6
+      ],
+      "source_goal_edges": [
+        11,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p2/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p2/s0/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p3/s0/random/9x9/a",
+      "second": "train_goal/r2/p3/s0/random/9x9/b",
+      "vertex_distances": [
+        7,
+        5
+      ],
+      "nearest_region_distances": [
+        6,
+        4
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p4/s5/perfect/9x9/a",
+      "second": "train_goal/r2/p4/s5/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        10
+      ],
+      "nearest_region_distances": [
+        3,
+        9
+      ],
+      "source_goal_edges": [
+        8,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r2/p5/s0/random/9x9/a",
+      "second": "train_goal/r2/p5/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p6/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p6/s0/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        12
+      ],
+      "nearest_region_distances": [
+        5,
+        11
+      ],
+      "source_goal_edges": [
+        9,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r2/p8/s3/perfect/9x9/a",
+      "second": "train_goal/r2/p8/s3/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p9/s0/random/9x9/a",
+      "second": "train_goal/r2/p9/s0/random/9x9/b",
+      "vertex_distances": [
+        11,
+        6
+      ],
+      "nearest_region_distances": [
+        10,
+        5
+      ],
+      "source_goal_edges": [
+        14,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p10/s8/perfect/9x9/a",
+      "second": "train_goal/r2/p10/s8/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        8
+      ],
+      "nearest_region_distances": [
+        3,
+        7
+      ],
+      "source_goal_edges": [
+        8,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r2/p11/s2/random/9x9/a",
+      "second": "train_goal/r2/p11/s2/random/9x9/b",
+      "vertex_distances": [
+        4,
+        4
+      ],
+      "nearest_region_distances": [
+        3,
+        3
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p12/s1/perfect/9x9/a",
+      "second": "train_goal/r2/p12/s1/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p13/s0/random/9x9/a",
+      "second": "train_goal/r2/p13/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p14/s8/perfect/9x9/a",
+      "second": "train_goal/r2/p14/s8/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        8
+      ],
+      "nearest_region_distances": [
+        7,
+        7
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p16/s1/perfect/9x9/a",
+      "second": "train_goal/r2/p16/s1/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        11,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r2/p17/s0/random/9x9/a",
+      "second": "train_goal/r2/p17/s0/random/9x9/b",
+      "vertex_distances": [
+        11,
+        4
+      ],
+      "nearest_region_distances": [
+        10,
+        3
+      ],
+      "source_goal_edges": [
+        15,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p18/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p18/s0/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        8
+      ],
+      "nearest_region_distances": [
+        7,
+        7
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p19/s0/random/9x9/a",
+      "second": "train_goal/r2/p19/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p20/s1/perfect/9x9/a",
+      "second": "train_goal/r2/p20/s1/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        8
+      ],
+      "nearest_region_distances": [
+        9,
+        7
+      ],
+      "source_goal_edges": [
+        12,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p21/s1/random/9x9/a",
+      "second": "train_goal/r2/p21/s1/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        9,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p22/s7/perfect/9x9/a",
+      "second": "train_goal/r2/p22/s7/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        4
+      ],
+      "nearest_region_distances": [
+        5,
+        3
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p24/s3/perfect/9x9/a",
+      "second": "train_goal/r2/p24/s3/perfect/9x9/b",
+      "vertex_distances": [
+        8,
+        12
+      ],
+      "nearest_region_distances": [
+        7,
+        11
+      ],
+      "source_goal_edges": [
+        10,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r2/p25/s0/random/9x9/a",
+      "second": "train_goal/r2/p25/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        8
+      ],
+      "nearest_region_distances": [
+        4,
+        7
+      ],
+      "source_goal_edges": [
+        8,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r2/p26/s6/perfect/9x9/a",
+      "second": "train_goal/r2/p26/s6/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        9
+      ],
+      "nearest_region_distances": [
+        5,
+        8
+      ],
+      "source_goal_edges": [
+        9,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r2/p27/s0/random/9x9/a",
+      "second": "train_goal/r2/p27/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        11
+      ],
+      "nearest_region_distances": [
+        5,
+        10
+      ],
+      "source_goal_edges": [
+        8,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r2/p28/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p28/s0/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        9,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r2/p29/s0/random/9x9/a",
+      "second": "train_goal/r2/p29/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p30/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p30/s0/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        12
+      ],
+      "nearest_region_distances": [
+        3,
+        11
+      ],
+      "source_goal_edges": [
+        8,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r2/p32/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p32/s0/perfect/9x9/b",
+      "vertex_distances": [
+        9,
+        6
+      ],
+      "nearest_region_distances": [
+        8,
+        5
+      ],
+      "source_goal_edges": [
+        11,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p33/s0/random/9x9/a",
+      "second": "train_goal/r2/p33/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        5
+      ],
+      "nearest_region_distances": [
+        5,
+        4
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p34/s14/perfect/9x9/a",
+      "second": "train_goal/r2/p34/s14/perfect/9x9/b",
+      "vertex_distances": [
+        12,
+        10
+      ],
+      "nearest_region_distances": [
+        11,
+        9
+      ],
+      "source_goal_edges": [
+        15,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r2/p35/s0/random/9x9/a",
+      "second": "train_goal/r2/p35/s0/random/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p36/s7/perfect/9x9/a",
+      "second": "train_goal/r2/p36/s7/perfect/9x9/b",
+      "vertex_distances": [
+        5,
+        10
+      ],
+      "nearest_region_distances": [
+        4,
+        9
+      ],
+      "source_goal_edges": [
+        8,
+        13
+      ]
+    },
+    {
+      "first": "train_goal/r2/p37/s0/random/9x9/a",
+      "second": "train_goal/r2/p37/s0/random/9x9/b",
+      "vertex_distances": [
+        7,
+        5
+      ],
+      "nearest_region_distances": [
+        6,
+        4
+      ],
+      "source_goal_edges": [
+        10,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p38/s4/perfect/9x9/a",
+      "second": "train_goal/r2/p38/s4/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        8
+      ],
+      "nearest_region_distances": [
+        5,
+        7
+      ],
+      "source_goal_edges": [
+        12,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r2/p40/s3/perfect/9x9/a",
+      "second": "train_goal/r2/p40/s3/perfect/9x9/b",
+      "vertex_distances": [
+        13,
+        8
+      ],
+      "nearest_region_distances": [
+        12,
+        7
+      ],
+      "source_goal_edges": [
+        15,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p41/s3/random/9x9/a",
+      "second": "train_goal/r2/p41/s3/random/9x9/b",
+      "vertex_distances": [
+        4,
+        4
+      ],
+      "nearest_region_distances": [
+        3,
+        3
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p42/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p42/s0/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        7
+      ],
+      "nearest_region_distances": [
+        5,
+        6
+      ],
+      "source_goal_edges": [
+        10,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r2/p43/s0/random/9x9/a",
+      "second": "train_goal/r2/p43/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        8,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p44/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p44/s0/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        6
+      ],
+      "nearest_region_distances": [
+        9,
+        5
+      ],
+      "source_goal_edges": [
+        13,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p45/s0/random/9x9/a",
+      "second": "train_goal/r2/p45/s0/random/9x9/b",
+      "vertex_distances": [
+        8,
+        4
+      ],
+      "nearest_region_distances": [
+        7,
+        3
+      ],
+      "source_goal_edges": [
+        12,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p46/s0/perfect/9x9/a",
+      "second": "train_goal/r2/p46/s0/perfect/9x9/b",
+      "vertex_distances": [
+        10,
+        6
+      ],
+      "nearest_region_distances": [
+        9,
+        5
+      ],
+      "source_goal_edges": [
+        14,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p48/s8/perfect/17x17/a",
+      "second": "train_goal/r2/p48/s8/perfect/17x17/b",
+      "vertex_distances": [
+        23,
+        6
+      ],
+      "nearest_region_distances": [
+        22,
+        5
+      ],
+      "source_goal_edges": [
+        28,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r2/p49/s0/random/17x17/a",
+      "second": "train_goal/r2/p49/s0/random/17x17/b",
+      "vertex_distances": [
+        15,
+        14
+      ],
+      "nearest_region_distances": [
+        14,
+        13
+      ],
+      "source_goal_edges": [
+        22,
+        21
+      ]
+    },
+    {
+      "first": "train_goal/r2/p50/s1/perfect/17x17/a",
+      "second": "train_goal/r2/p50/s1/perfect/17x17/b",
+      "vertex_distances": [
+        15,
+        20
+      ],
+      "nearest_region_distances": [
+        14,
+        19
+      ],
+      "source_goal_edges": [
+        18,
+        23
+      ]
+    },
+    {
+      "first": "train_goal/r2/p51/s1/random/17x17/a",
+      "second": "train_goal/r2/p51/s1/random/17x17/b",
+      "vertex_distances": [
+        17,
+        6
+      ],
+      "nearest_region_distances": [
+        16,
+        5
+      ],
+      "source_goal_edges": [
+        20,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p52/s6/perfect/17x17/a",
+      "second": "train_goal/r2/p52/s6/perfect/17x17/b",
+      "vertex_distances": [
+        9,
+        12
+      ],
+      "nearest_region_distances": [
+        8,
+        11
+      ],
+      "source_goal_edges": [
+        11,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r2/p53/s0/random/17x17/a",
+      "second": "train_goal/r2/p53/s0/random/17x17/b",
+      "vertex_distances": [
+        9,
+        7
+      ],
+      "nearest_region_distances": [
+        8,
+        6
+      ],
+      "source_goal_edges": [
+        12,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p54/s0/perfect/17x17/a",
+      "second": "train_goal/r2/p54/s0/perfect/17x17/b",
+      "vertex_distances": [
+        12,
+        4
+      ],
+      "nearest_region_distances": [
+        11,
+        3
+      ],
+      "source_goal_edges": [
+        16,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p56/s1/perfect/17x17/a",
+      "second": "train_goal/r2/p56/s1/perfect/17x17/b",
+      "vertex_distances": [
+        22,
+        11
+      ],
+      "nearest_region_distances": [
+        21,
+        10
+      ],
+      "source_goal_edges": [
+        27,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r2/p57/s0/random/17x17/a",
+      "second": "train_goal/r2/p57/s0/random/17x17/b",
+      "vertex_distances": [
+        16,
+        4
+      ],
+      "nearest_region_distances": [
+        15,
+        3
+      ],
+      "source_goal_edges": [
+        20,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p58/s0/perfect/17x17/a",
+      "second": "train_goal/r2/p58/s0/perfect/17x17/b",
+      "vertex_distances": [
+        14,
+        8
+      ],
+      "nearest_region_distances": [
+        13,
+        7
+      ],
+      "source_goal_edges": [
+        16,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p59/s0/random/17x17/a",
+      "second": "train_goal/r2/p59/s0/random/17x17/b",
+      "vertex_distances": [
+        5,
+        5
+      ],
+      "nearest_region_distances": [
+        4,
+        4
+      ],
+      "source_goal_edges": [
+        9,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p60/s7/perfect/17x17/a",
+      "second": "train_goal/r2/p60/s7/perfect/17x17/b",
+      "vertex_distances": [
+        28,
+        12
+      ],
+      "nearest_region_distances": [
+        27,
+        11
+      ],
+      "source_goal_edges": [
+        30,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r2/p61/s0/random/17x17/a",
+      "second": "train_goal/r2/p61/s0/random/17x17/b",
+      "vertex_distances": [
+        8,
+        16
+      ],
+      "nearest_region_distances": [
+        7,
+        15
+      ],
+      "source_goal_edges": [
+        10,
+        18
+      ]
+    },
+    {
+      "first": "train_goal/r2/p62/s0/perfect/17x17/a",
+      "second": "train_goal/r2/p62/s0/perfect/17x17/b",
+      "vertex_distances": [
+        23,
+        27
+      ],
+      "nearest_region_distances": [
+        22,
+        26
+      ],
+      "source_goal_edges": [
+        26,
+        30
+      ]
+    },
+    {
+      "first": "train_goal/r2/p64/s8/perfect/17x17/a",
+      "second": "train_goal/r2/p64/s8/perfect/17x17/b",
+      "vertex_distances": [
+        27,
+        8
+      ],
+      "nearest_region_distances": [
+        26,
+        7
+      ],
+      "source_goal_edges": [
+        29,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p65/s0/random/17x17/a",
+      "second": "train_goal/r2/p65/s0/random/17x17/b",
+      "vertex_distances": [
+        11,
+        8
+      ],
+      "nearest_region_distances": [
+        10,
+        7
+      ],
+      "source_goal_edges": [
+        13,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p66/s15/perfect/17x17/a",
+      "second": "train_goal/r2/p66/s15/perfect/17x17/b",
+      "vertex_distances": [
+        29,
+        13
+      ],
+      "nearest_region_distances": [
+        28,
+        12
+      ],
+      "source_goal_edges": [
+        31,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r2/p67/s0/random/17x17/a",
+      "second": "train_goal/r2/p67/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        13
+      ],
+      "nearest_region_distances": [
+        5,
+        12
+      ],
+      "source_goal_edges": [
+        8,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r2/p68/s6/perfect/17x17/a",
+      "second": "train_goal/r2/p68/s6/perfect/17x17/b",
+      "vertex_distances": [
+        8,
+        14
+      ],
+      "nearest_region_distances": [
+        7,
+        13
+      ],
+      "source_goal_edges": [
+        11,
+        17
+      ]
+    },
+    {
+      "first": "train_goal/r2/p69/s0/random/17x17/a",
+      "second": "train_goal/r2/p69/s0/random/17x17/b",
+      "vertex_distances": [
+        7,
+        7
+      ],
+      "nearest_region_distances": [
+        6,
+        6
+      ],
+      "source_goal_edges": [
+        10,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p70/s3/perfect/17x17/a",
+      "second": "train_goal/r2/p70/s3/perfect/17x17/b",
+      "vertex_distances": [
+        21,
+        13
+      ],
+      "nearest_region_distances": [
+        20,
+        12
+      ],
+      "source_goal_edges": [
+        23,
+        15
+      ]
+    },
+    {
+      "first": "train_goal/r2/p72/s2/perfect/17x17/a",
+      "second": "train_goal/r2/p72/s2/perfect/17x17/b",
+      "vertex_distances": [
+        7,
+        18
+      ],
+      "nearest_region_distances": [
+        6,
+        17
+      ],
+      "source_goal_edges": [
+        13,
+        24
+      ]
+    },
+    {
+      "first": "train_goal/r2/p73/s0/random/17x17/a",
+      "second": "train_goal/r2/p73/s0/random/17x17/b",
+      "vertex_distances": [
+        14,
+        5
+      ],
+      "nearest_region_distances": [
+        13,
+        4
+      ],
+      "source_goal_edges": [
+        18,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p74/s0/perfect/17x17/a",
+      "second": "train_goal/r2/p74/s0/perfect/17x17/b",
+      "vertex_distances": [
+        24,
+        21
+      ],
+      "nearest_region_distances": [
+        23,
+        20
+      ],
+      "source_goal_edges": [
+        32,
+        29
+      ]
+    },
+    {
+      "first": "train_goal/r2/p75/s0/random/17x17/a",
+      "second": "train_goal/r2/p75/s0/random/17x17/b",
+      "vertex_distances": [
+        22,
+        6
+      ],
+      "nearest_region_distances": [
+        21,
+        5
+      ],
+      "source_goal_edges": [
+        27,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r2/p76/s11/perfect/17x17/a",
+      "second": "train_goal/r2/p76/s11/perfect/17x17/b",
+      "vertex_distances": [
+        9,
+        22
+      ],
+      "nearest_region_distances": [
+        8,
+        21
+      ],
+      "source_goal_edges": [
+        16,
+        29
+      ]
+    },
+    {
+      "first": "train_goal/r2/p77/s0/random/17x17/a",
+      "second": "train_goal/r2/p77/s0/random/17x17/b",
+      "vertex_distances": [
+        11,
+        13
+      ],
+      "nearest_region_distances": [
+        10,
+        12
+      ],
+      "source_goal_edges": [
+        14,
+        16
+      ]
+    },
+    {
+      "first": "train_goal/r2/p78/s0/perfect/17x17/a",
+      "second": "train_goal/r2/p78/s0/perfect/17x17/b",
+      "vertex_distances": [
+        23,
+        7
+      ],
+      "nearest_region_distances": [
+        22,
+        6
+      ],
+      "source_goal_edges": [
+        26,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p80/s0/perfect/17x17/a",
+      "second": "train_goal/r2/p80/s0/perfect/17x17/b",
+      "vertex_distances": [
+        8,
+        4
+      ],
+      "nearest_region_distances": [
+        7,
+        3
+      ],
+      "source_goal_edges": [
+        12,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p81/s0/random/17x17/a",
+      "second": "train_goal/r2/p81/s0/random/17x17/b",
+      "vertex_distances": [
+        15,
+        8
+      ],
+      "nearest_region_distances": [
+        14,
+        7
+      ],
+      "source_goal_edges": [
+        18,
+        11
+      ]
+    },
+    {
+      "first": "train_goal/r2/p82/s1/perfect/17x17/a",
+      "second": "train_goal/r2/p82/s1/perfect/17x17/b",
+      "vertex_distances": [
+        27,
+        5
+      ],
+      "nearest_region_distances": [
+        26,
+        4
+      ],
+      "source_goal_edges": [
+        32,
+        10
+      ]
+    },
+    {
+      "first": "train_goal/r2/p83/s0/random/17x17/a",
+      "second": "train_goal/r2/p83/s0/random/17x17/b",
+      "vertex_distances": [
+        5,
+        4
+      ],
+      "nearest_region_distances": [
+        4,
+        3
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "train_goal/r2/p84/s12/perfect/17x17/a",
+      "second": "train_goal/r2/p84/s12/perfect/17x17/b",
+      "vertex_distances": [
+        10,
+        16
+      ],
+      "nearest_region_distances": [
+        9,
+        15
+      ],
+      "source_goal_edges": [
+        13,
+        19
+      ]
+    },
+    {
+      "first": "train_goal/r2/p85/s0/random/17x17/a",
+      "second": "train_goal/r2/p85/s0/random/17x17/b",
+      "vertex_distances": [
+        20,
+        7
+      ],
+      "nearest_region_distances": [
+        19,
+        6
+      ],
+      "source_goal_edges": [
+        22,
+        9
+      ]
+    },
+    {
+      "first": "train_goal/r2/p86/s1/perfect/17x17/a",
+      "second": "train_goal/r2/p86/s1/perfect/17x17/b",
+      "vertex_distances": [
+        20,
+        26
+      ],
+      "nearest_region_distances": [
+        19,
+        25
+      ],
+      "source_goal_edges": [
+        25,
+        31
+      ]
+    },
+    {
+      "first": "train_goal/r2/p88/s1/perfect/17x17/a",
+      "second": "train_goal/r2/p88/s1/perfect/17x17/b",
+      "vertex_distances": [
+        6,
+        29
+      ],
+      "nearest_region_distances": [
+        5,
+        28
+      ],
+      "source_goal_edges": [
+        9,
+        32
+      ]
+    },
+    {
+      "first": "train_goal/r2/p89/s0/random/17x17/a",
+      "second": "train_goal/r2/p89/s0/random/17x17/b",
+      "vertex_distances": [
+        12,
+        10
+      ],
+      "nearest_region_distances": [
+        11,
+        9
+      ],
+      "source_goal_edges": [
+        16,
+        14
+      ]
+    },
+    {
+      "first": "train_goal/r2/p90/s3/perfect/17x17/a",
+      "second": "train_goal/r2/p90/s3/perfect/17x17/b",
+      "vertex_distances": [
+        7,
+        27
+      ],
+      "nearest_region_distances": [
+        6,
+        26
+      ],
+      "source_goal_edges": [
+        12,
+        32
+      ]
+    },
+    {
+      "first": "train_goal/r2/p91/s0/random/17x17/a",
+      "second": "train_goal/r2/p91/s0/random/17x17/b",
+      "vertex_distances": [
+        8,
+        9
+      ],
+      "nearest_region_distances": [
+        7,
+        8
+      ],
+      "source_goal_edges": [
+        11,
+        12
+      ]
+    },
+    {
+      "first": "train_goal/r2/p92/s10/perfect/17x17/a",
+      "second": "train_goal/r2/p92/s10/perfect/17x17/b",
+      "vertex_distances": [
+        4,
+        16
+      ],
+      "nearest_region_distances": [
+        3,
+        15
+      ],
+      "source_goal_edges": [
+        8,
+        20
+      ]
+    },
+    {
+      "first": "train_goal/r2/p93/s0/random/17x17/a",
+      "second": "train_goal/r2/p93/s0/random/17x17/b",
+      "vertex_distances": [
+        6,
+        15
+      ],
+      "nearest_region_distances": [
+        5,
+        14
+      ],
+      "source_goal_edges": [
+        9,
+        18
+      ]
+    },
+    {
+      "first": "train_goal/r2/p94/s7/perfect/17x17/a",
+      "second": "train_goal/r2/p94/s7/perfect/17x17/b",
+      "vertex_distances": [
+        11,
+        15
+      ],
+      "nearest_region_distances": [
+        10,
+        14
+      ],
+      "source_goal_edges": [
+        14,
+        18
+      ]
+    },
+    {
+      "first": "test_pairs/r0/p0/s26/perfect/9x9/a",
+      "second": "test_pairs/r0/p0/s26/perfect/9x9/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        11,
+        11
+      ]
+    },
+    {
+      "first": "test_pairs/r0/p1/s0/random/9x9/a",
+      "second": "test_pairs/r0/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        6
+      ],
+      "nearest_region_distances": [
+        4,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        9
+      ]
+    },
+    {
+      "first": "test_pairs/r0/p2/s6/perfect/17x17/a",
+      "second": "test_pairs/r0/p2/s6/perfect/17x17/b",
+      "vertex_distances": [
+        18,
+        23
+      ],
+      "nearest_region_distances": [
+        17,
+        22
+      ],
+      "source_goal_edges": [
+        22,
+        27
+      ]
+    },
+    {
+      "first": "test_pairs/r0/p3/s0/random/17x17/a",
+      "second": "test_pairs/r0/p3/s0/random/17x17/b",
+      "vertex_distances": [
+        11,
+        7
+      ],
+      "nearest_region_distances": [
+        10,
+        6
+      ],
+      "source_goal_edges": [
+        14,
+        10
+      ]
+    },
+    {
+      "first": "test_pairs/r0/p4/s14/perfect/33x33/a",
+      "second": "test_pairs/r0/p4/s14/perfect/33x33/b",
+      "vertex_distances": [
+        47,
+        8
+      ],
+      "nearest_region_distances": [
+        46,
+        7
+      ],
+      "source_goal_edges": [
+        50,
+        11
+      ]
+    },
+    {
+      "first": "test_pairs/r0/p5/s0/random/33x33/a",
+      "second": "test_pairs/r0/p5/s0/random/33x33/b",
+      "vertex_distances": [
+        8,
+        7
+      ],
+      "nearest_region_distances": [
+        7,
+        6
+      ],
+      "source_goal_edges": [
+        11,
+        10
+      ]
+    },
+    {
+      "first": "test_pairs/r1/p0/s2/perfect/9x9/a",
+      "second": "test_pairs/r1/p0/s2/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        12
+      ],
+      "nearest_region_distances": [
+        3,
+        11
+      ],
+      "source_goal_edges": [
+        8,
+        16
+      ]
+    },
+    {
+      "first": "test_pairs/r1/p1/s0/random/9x9/a",
+      "second": "test_pairs/r1/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        8
+      ],
+      "nearest_region_distances": [
+        4,
+        7
+      ],
+      "source_goal_edges": [
+        9,
+        12
+      ]
+    },
+    {
+      "first": "test_pairs/r1/p2/s2/perfect/17x17/a",
+      "second": "test_pairs/r1/p2/s2/perfect/17x17/b",
+      "vertex_distances": [
+        52,
+        6
+      ],
+      "nearest_region_distances": [
+        51,
+        5
+      ],
+      "source_goal_edges": [
+        54,
+        8
+      ]
+    },
+    {
+      "first": "test_pairs/r1/p3/s0/random/17x17/a",
+      "second": "test_pairs/r1/p3/s0/random/17x17/b",
+      "vertex_distances": [
+        8,
+        21
+      ],
+      "nearest_region_distances": [
+        7,
+        20
+      ],
+      "source_goal_edges": [
+        10,
+        23
+      ]
+    },
+    {
+      "first": "test_pairs/r1/p4/s2/perfect/33x33/a",
+      "second": "test_pairs/r1/p4/s2/perfect/33x33/b",
+      "vertex_distances": [
+        53,
+        14
+      ],
+      "nearest_region_distances": [
+        52,
+        13
+      ],
+      "source_goal_edges": [
+        60,
+        21
+      ]
+    },
+    {
+      "first": "test_pairs/r1/p5/s0/random/33x33/a",
+      "second": "test_pairs/r1/p5/s0/random/33x33/b",
+      "vertex_distances": [
+        6,
+        14
+      ],
+      "nearest_region_distances": [
+        5,
+        13
+      ],
+      "source_goal_edges": [
+        9,
+        17
+      ]
+    },
+    {
+      "first": "test_pairs/r2/p0/s0/perfect/9x9/a",
+      "second": "test_pairs/r2/p0/s0/perfect/9x9/b",
+      "vertex_distances": [
+        4,
+        6
+      ],
+      "nearest_region_distances": [
+        3,
+        5
+      ],
+      "source_goal_edges": [
+        8,
+        10
+      ]
+    },
+    {
+      "first": "test_pairs/r2/p1/s0/random/9x9/a",
+      "second": "test_pairs/r2/p1/s0/random/9x9/b",
+      "vertex_distances": [
+        5,
+        4
+      ],
+      "nearest_region_distances": [
+        4,
+        3
+      ],
+      "source_goal_edges": [
+        9,
+        8
+      ]
+    },
+    {
+      "first": "test_pairs/r2/p2/s0/perfect/17x17/a",
+      "second": "test_pairs/r2/p2/s0/perfect/17x17/b",
+      "vertex_distances": [
+        24,
+        9
+      ],
+      "nearest_region_distances": [
+        23,
+        8
+      ],
+      "source_goal_edges": [
+        32,
+        17
+      ]
+    },
+    {
+      "first": "test_pairs/r2/p3/s1/random/17x17/a",
+      "second": "test_pairs/r2/p3/s1/random/17x17/b",
+      "vertex_distances": [
+        6,
+        6
+      ],
+      "nearest_region_distances": [
+        5,
+        5
+      ],
+      "source_goal_edges": [
+        9,
+        9
+      ]
+    },
+    {
+      "first": "test_pairs/r2/p4/s7/perfect/33x33/a",
+      "second": "test_pairs/r2/p4/s7/perfect/33x33/b",
+      "vertex_distances": [
+        30,
+        37
+      ],
+      "nearest_region_distances": [
+        29,
+        36
+      ],
+      "source_goal_edges": [
+        37,
+        44
+      ]
+    },
+    {
+      "first": "test_pairs/r2/p5/s0/random/33x33/a",
+      "second": "test_pairs/r2/p5/s0/random/33x33/b",
+      "vertex_distances": [
+        25,
+        11
+      ],
+      "nearest_region_distances": [
+        24,
+        10
+      ],
+      "source_goal_edges": [
+        32,
+        18
+      ]
+    }
+  ],
+  "v11_training_bookkeeping": {
+    "growth/evolved/cap128/0": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 10802,
+      "normal_budget_failure": 2809,
+      "normal_valid": 1,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 8241,
+      "positive_junction_score_after_ordinary_halt": 5588,
+      "strict_choice": 383,
+      "strict_choice_after_ordinary_halt": 200,
+      "strict_choice_but_invalid_normal": 382,
+      "signal_at_least_half": 10739,
+      "signal_at_least_half_but_zero_goal_score": 8964
+    },
+    "growth/evolved/cap128/1": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 11132,
+      "normal_budget_failure": 3399,
+      "normal_valid": 0,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 9469,
+      "positive_junction_score_after_ordinary_halt": 6121,
+      "strict_choice": 121,
+      "strict_choice_after_ordinary_halt": 81,
+      "strict_choice_but_invalid_normal": 121,
+      "signal_at_least_half": 9006,
+      "signal_at_least_half_but_zero_goal_score": 7319
+    },
+    "growth/evolved/cap128/2": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 10807,
+      "normal_budget_failure": 2876,
+      "normal_valid": 0,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 9638,
+      "positive_junction_score_after_ordinary_halt": 6737,
+      "strict_choice": 158,
+      "strict_choice_after_ordinary_halt": 94,
+      "strict_choice_but_invalid_normal": 158,
+      "signal_at_least_half": 10120,
+      "signal_at_least_half_but_zero_goal_score": 7920
+    },
+    "growth/evolved/cap256/0": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 10811,
+      "normal_budget_failure": 2614,
+      "normal_valid": 2,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 8404,
+      "positive_junction_score_after_ordinary_halt": 5587,
+      "strict_choice": 372,
+      "strict_choice_after_ordinary_halt": 207,
+      "strict_choice_but_invalid_normal": 370,
+      "signal_at_least_half": 10828,
+      "signal_at_least_half_but_zero_goal_score": 9256
+    },
+    "growth/evolved/cap256/1": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 11590,
+      "normal_budget_failure": 3489,
+      "normal_valid": 0,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 9673,
+      "positive_junction_score_after_ordinary_halt": 6513,
+      "strict_choice": 103,
+      "strict_choice_after_ordinary_halt": 70,
+      "strict_choice_but_invalid_normal": 103,
+      "signal_at_least_half": 9006,
+      "signal_at_least_half_but_zero_goal_score": 7627
+    },
+    "growth/evolved/cap256/2": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 10576,
+      "normal_budget_failure": 3176,
+      "normal_valid": 0,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 9728,
+      "positive_junction_score_after_ordinary_halt": 6560,
+      "strict_choice": 195,
+      "strict_choice_after_ordinary_halt": 94,
+      "strict_choice_but_invalid_normal": 195,
+      "signal_at_least_half": 10314,
+      "signal_at_least_half_but_zero_goal_score": 8302
+    },
+    "growth/local/cap128/0": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 4760,
+      "normal_budget_failure": 2869,
+      "normal_valid": 6,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 8943,
+      "positive_junction_score_after_ordinary_halt": 1782,
+      "strict_choice": 872,
+      "strict_choice_after_ordinary_halt": 115,
+      "strict_choice_but_invalid_normal": 866,
+      "signal_at_least_half": 8972,
+      "signal_at_least_half_but_zero_goal_score": 8554
+    },
+    "growth/local/cap128/1": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 6109,
+      "normal_budget_failure": 8859,
+      "normal_valid": 4,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 7970,
+      "positive_junction_score_after_ordinary_halt": 2416,
+      "strict_choice": 589,
+      "strict_choice_after_ordinary_halt": 199,
+      "strict_choice_but_invalid_normal": 585,
+      "signal_at_least_half": 8855,
+      "signal_at_least_half_but_zero_goal_score": 8714
+    },
+    "growth/local/cap128/2": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 4363,
+      "normal_budget_failure": 4053,
+      "normal_valid": 13,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 9425,
+      "positive_junction_score_after_ordinary_halt": 1414,
+      "strict_choice": 572,
+      "strict_choice_after_ordinary_halt": 47,
+      "strict_choice_but_invalid_normal": 559,
+      "signal_at_least_half": 8260,
+      "signal_at_least_half_but_zero_goal_score": 7769
+    },
+    "growth/local/cap256/0": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 5246,
+      "normal_budget_failure": 2907,
+      "normal_valid": 5,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 8911,
+      "positive_junction_score_after_ordinary_halt": 2209,
+      "strict_choice": 885,
+      "strict_choice_after_ordinary_halt": 119,
+      "strict_choice_but_invalid_normal": 880,
+      "signal_at_least_half": 9102,
+      "signal_at_least_half_but_zero_goal_score": 8694
+    },
+    "growth/local/cap256/1": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 5848,
+      "normal_budget_failure": 9123,
+      "normal_valid": 3,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 8093,
+      "positive_junction_score_after_ordinary_halt": 2118,
+      "strict_choice": 570,
+      "strict_choice_after_ordinary_halt": 167,
+      "strict_choice_but_invalid_normal": 567,
+      "signal_at_least_half": 8850,
+      "signal_at_least_half_but_zero_goal_score": 8617
+    },
+    "growth/local/cap256/2": {
+      "organism_batches": 4608,
+      "normal_responses": 18432,
+      "normal_halted_before16": 4633,
+      "normal_budget_failure": 4152,
+      "normal_valid": 7,
+      "regular_goal_inputs": 16128,
+      "positive_junction_score": 9963,
+      "positive_junction_score_after_ordinary_halt": 1735,
+      "strict_choice": 568,
+      "strict_choice_after_ordinary_halt": 47,
+      "strict_choice_but_invalid_normal": 561,
+      "signal_at_least_half": 8455,
+      "signal_at_least_half_but_zero_goal_score": 7799
+    }
+  },
+  "v2_frozen_seed_timing": {
+    "valid_outputs": 211,
+    "steps_equal_2D_plus1": 211,
+    "distance_at_least8": 160,
+    "distance_at_least8_and_steps_over16": 160
+  },
+  "elapsed_seconds": 2.0985165419988334,
+  "source_sha256": "ea37b707724c2c4fbbf4170f0626a0039714ae6c8e09b057e42d6890d628fe78",
+  "input_sha256": {
+    "results/first_evolution/environment.json": "1eb73bf94b5f9854efd05cb16017bc828a19f317b1c00d2386d0c4aff8209d84",
+    "results/first_evolution/verification.json": "027fe48f08fa335a433e600c0e9883365f466112331b4bac55c432cbb7fd909a",
+    "results/range_and_regulation/environment.json": "39099e2ed3320040ded1feaa16e402f216a87911aadac194f1757e7abab034df",
+    "results/range_and_regulation/verification.json": "0806ce65c0bef1729bc6f7017c93d5a556422d2960443b368156d12774929cf0",
+    "results/source_pressure/environment.json": "2c084ae0a74bcb51897fe16d3c7f1fd787eca2e7c07e95ab11d34ed47407dfb9",
+    "results/source_pressure/verification.json": "1026ca0ab38c6fb7aa9cc418d67cdcd5069270145b8c5fa55fd5d8aba053d1c8",
+    "results/goal_conditioning/environment.json": "db4640a175d50d49a8a4bead548bf8eacc7881abedb31034ece7ca72900b3537",
+    "results/goal_conditioning/verification.json": "9ac2d0fb66643224768ec1ca82747670230208905981dde9cf055f369b6f358d",
+    "results/factor_curriculum/environment.json": "fba63ee99dbc01ff16bd59a95a3d9de7465d2c0d5065fe57b75bcde7be86ed6a",
+    "results/factor_curriculum/verification.json": "82896b2b865a1454519bc4dc858903d7fa1686ac5512dabd8a564d9579fd940d",
+    "results/goal_beacon/environment.json": "ec343080af859c09ee65afb39fccabb435a5c0cee3fa73fafa1e3518bfc5433e",
+    "results/goal_beacon/verification.json": "885e55a8ccf8aa8d88faab3e77f55fe66430f84a220589a1495754c471ac494f",
+    "results/balanced_goal/environment.json": "6c1aa2ff93fb334feb39d34ed04eb4e33eb1e54e01aef398ee78521c72251e47",
+    "results/balanced_goal/verification.json": "1511a7a3e3cfb31f1541df52ed83ae5c59b4ee583663dc5748812ecbd74b3713",
+    "results/junction_choice/environment.json": "dccbc61a60d24d248f0b5daa3a3383806187aa2d1cdb8ef529d8b1f1b79fd592",
+    "results/junction_choice/verification.json": "fb227beb1fee2f2e42292dfe9dd9e6fea7bee0c92daf5102ce2a826b00a6fc54",
+    "results/choice_priority/environment.json": "aa9c606b248c873db88d753816ae71ca446d0edf9335f0063a2e184339d9424e",
+    "results/choice_priority/verification.json": "d421fd245e4706cca5a71457b849b68f9719863ce0692146c7a58bd3f939aa7c",
+    "results/distance_curriculum/environment.json": "d0660a44dc4cad4a98c39b30b95b0e089e0b7f12de31887bbedf1ebb47cf29dd",
+    "results/distance_curriculum/verification.json": "73d6d217ace58e64f5ce43d1eb8b41fd21888d1eda4666993e724f1282584e88",
+    "results/capacity_growth/environment.json": "9e0ac2873e00cb899d178fea900e6af576080b68d4b66184da2c61521661ba67",
+    "results/capacity_growth/verification.json": "89397bec4a8935828f80ab84bee76d3e3dfb6abd6da4afbd70953e9e28da3301",
+    "results/capacity_growth/champions.json": "1cf1e1d644e93f24f66015190f622f62489c1620f8634f17c2bc95af283425a2",
+    "results/capacity_growth/mutation_events.json": "e9e8a2153718f5824e6d3ef1da80d85abf19fe863ade79933c6d4d655cfe0828",
+    "results/capacity_growth/mazes.json.gz": "1793ae9400eb7897df1cdbcf16511e02c79cacbc0fb273ba1d92ccfa1bc4907e",
+    "results/capacity_growth/pairs.json": "de00769ea54bfb88901b0b5a99e14195bc9c2685af4336aac2364507c755fd02",
+    "results/capacity_growth/logs/stage0/growth_evolved_cap128_0.evaluations.jsonl.gz": "50a8fe7ab6bd635b67c50028e4bb62d77e2b51f8ef04c8acf2ca0f68a7d03fcd",
+    "results/capacity_growth/logs/stage0/growth_evolved_cap128_1.evaluations.jsonl.gz": "c52703a1ddf88f9915b4e6e1d61a1e45ca2d9760d5e0c6d26ee051cfc81d1763",
+    "results/capacity_growth/logs/stage0/growth_evolved_cap128_2.evaluations.jsonl.gz": "571d95e1759f2ee6595707548017d6accc3d09ab9069a0678e04dda1f9af4ccb",
+    "results/capacity_growth/logs/stage0/growth_evolved_cap256_0.evaluations.jsonl.gz": "6152b7724a9950d684d9b4d88944fd2f4f6328465ea3e998ef917f29755359ec",
+    "results/capacity_growth/logs/stage0/growth_evolved_cap256_1.evaluations.jsonl.gz": "dca3c065b7d8b22218c75a482c716abed81beef4a4f598f888dcdabfa7d2ebb9",
+    "results/capacity_growth/logs/stage0/growth_evolved_cap256_2.evaluations.jsonl.gz": "6229f084452eede9cba8161d73d94db9bfec8b8558cf356e11a937e6bb348cdf",
+    "results/capacity_growth/logs/stage0/growth_local_cap128_0.evaluations.jsonl.gz": "ca6dc83ea0135b584885ff21ffda0b115daabbebbb0c060bcd40fd7de88690a5",
+    "results/capacity_growth/logs/stage0/growth_local_cap128_1.evaluations.jsonl.gz": "1e37f06a2c74367acf11a002247ca102ae63e0d1b3a8ac9e2d5b8b742df1a85a",
+    "results/capacity_growth/logs/stage0/growth_local_cap128_2.evaluations.jsonl.gz": "2b42c889e6f22d1d6793efe7205efaff9886240e0168b949bfa60ea48824c5d6",
+    "results/capacity_growth/logs/stage0/growth_local_cap256_0.evaluations.jsonl.gz": "659493a905ee6fd210885ac6836f3c432f9b9486f5aa00457b69f4241d78910c",
+    "results/capacity_growth/logs/stage0/growth_local_cap256_1.evaluations.jsonl.gz": "38b42c04fe49271f8c56868455ad243840649d64e6223bed7bccd9e9f7ceade7",
+    "results/capacity_growth/logs/stage0/growth_local_cap256_2.evaluations.jsonl.gz": "d48fbc7f0bb348af2a458efff0ea4cf590060df94122e7f2669f5e4c96476ec1",
+    "results/range_and_regulation/holdout.jsonl.gz": "2eea132ad0309f6b1bdb8c484325f52ba8ac5245cf8c801955eb4c9a5d953ec5"
+  },
+  "caveats": [
+    "Main wall time excludes separately recorded tests, diagnostic runs, audits and development.",
+    "Registered IDs include initial re-identification, copies, controls and resampling; not unique independent discoveries.",
+    "Geometry gives necessary local causal-cone conditions, not sufficiency; nonlocal programs have different cones.",
+    "If both goals lie outside the entire region at tick 16, deterministic local forced-probe states there cannot distinguish the two inputs.",
+    "Training counters count repeated response opportunities, and scalar scores are not general solving."
+  ]
+}
