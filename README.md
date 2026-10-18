@@ -9,9 +9,15 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 The user-authorized [calibration-first research goal](docs/FOUNDATION_GOAL_PROGRESS.md)
 is active. [V12A calibration](results/foundation_calibration.md) passes the intact
 solver/runtime controls, but only one of nine damaged-program searches confirms
-reliable repair. The next bounded test compares mutation locality with better
-orientation coverage before committing to the longer random-origin search.
-Known solver controls remain separate from every random-origin lineage.
+reliable repair. [V12B](results/foundation_repair.md) then passes the fixed repair
+gate with orientation-balanced batches and a validation-selected single-edit
+policy. Known solver controls remain separate from every random-origin lineage.
+
+The [preregistered V12C study](docs/FOUNDATION_STUDY_V12C.md) is now running for a
+fixed 75-minute local search budget. It compares native/fresh random populations,
+local/evolved-range signaling, evolution/resampling and frozen controls across
+three replicates. All final selections will be frozen before fresh confirmation.
+Live validation progress is not yet an unseen-maze result.
 
 The [research audit after V11](results/research_audit_2026_10_18.md) is complete.
 It recommends continuing random-origin research, while calibrating the search
