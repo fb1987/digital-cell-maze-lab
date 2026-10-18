@@ -6,6 +6,63 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [strict paired-choice study V9](results/choice_priority.md) is complete;
+**112 tests pass**. Twelve conditions evolved 96 organisms for 48 generations,
+comparing Prefix scoring with a strict paired-choice priority below complete
+route correctness. Both use the same V8 populations/ancestors, archives,
+eight-channel/128-gene capacity and unchanged V6 pulse runtime.
+
+**The new priority did not change evolution.** All six matched pressure pairs
+have identical ordered genotype populations throughout and identical final RNG
+states. Multirange training has 19 strict-both responses per pressure across
+four batches; local has none. Unprotected positive genotypes produce the same
+40 mutated offspring under both pressures. Global best sets match in all four
+active pools, and 512 post-hoc matched-seed parent draws agree. These rare
+choices already reproduce; transfer is the current bottleneck.
+
+Primary task archives solve local **1/216** and multirange **0/216**, matching
+frozen controls. All selected models make **0/18** paired fork choices and
+0/42 paired complete routes. BFS/A*/wavefront solve all 216 ordinary and 42
+paired reachable targets plus all no-path cases. No speed advantage is found.
+
+The inherited local success has nine edges and one turn. Moving its goal to
+an intermediate path site leaves output concentrations/source states identical
+at every tick 1–19; the common endpoint-aware halt emits a five-edge prefix at
+tick 11 instead of nine edges at tick 19. It remains a growth precursor.
+
+Both pressures find the same validation-only fork lineage at births 3/5. It
+needs the goal pulse but retains its paired choice when nonlocal reads are
+zeroed on that case. It does not transfer to the fresh paired set. All 19
+strict training responses have proper incoming source connections and
+shortest incoming prefixes in an additional raster diagnostic.
+
+The gate failed. Search **13.90 minutes**, main **17.09 minutes**, main peak
+**200.4 MiB**. Audits cover 58,998 fitness records, 59,046 priority records,
+267,356 junction masks and 6,908 final/diagnostic normal outputs. Full population/
+RNG checkpoints, 32,258 new IDs and neutral diversity remain saved. V1–V8/V8A
+source and raw results are unchanged.
+
+Next: test a near-to-far goal-distance curriculum at fixed capacity/objective,
+keeping validation and final tasks difficult and independent. This tests
+whether attainable goal-control subfunctions can compose across distance.
+Random-origin discovery, capacity, regulation and evolutionary time remain
+open research tracks; no known solver rules enter these lineages.
+
+```bash
+.venv/bin/python -m maze_evolution.choice_study --out results/repeat_choice
+.venv/bin/python -m maze_evolution.choice_diagnostics --out results/repeat_choice
+.venv/bin/python -m maze_evolution.choice_audit --out results/repeat_choice --repack
+.venv/bin/python -m maze_evolution.choice_path_diagnostic --out results/repeat_choice
+.venv/bin/python -m maze_evolution.choice_selection_diagnostic --out results/repeat_choice
+.venv/bin/python -m maze_evolution.choice_report --out results/repeat_choice
+```
+
+See the [V9 protocol](docs/CHOICE_STUDY_V9.md) and
+[`results/choice_priority/`](results/choice_priority/). Post-hoc path/selection
+assays are labelled and do not alter primary selection or accuracy.
+
+## Junction choices V8 and confirmation V8A — October 18, 2026
+
 The [junction-choice study V8](results/junction_choice.md) and its
 [frozen-primitive confirmation V8A](results/junction_confirmation.md) are complete;
 **106 tests pass**. Twelve conditions evolved 96 organisms for 48 more generations,

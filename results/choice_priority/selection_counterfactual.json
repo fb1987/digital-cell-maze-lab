@@ -1,0 +1,3283 @@
+{
+  "active_pools": 4,
+  "analysis_seeds": "1139000..1139127; selection only, no maze generation",
+  "changed_global_top_sets": 0,
+  "changed_parent_genotypes": 0,
+  "changed_parent_ids": 0,
+  "draws": 512,
+  "elapsed_seconds": 2.1291882090154104,
+  "input_sha256": {
+    "logs/stage0/choice_evolved_prefix_0.evaluations.jsonl.gz": "4d5c3ef62f90a52c90679e4212af6f5772a9f492119e4f8da7745567e01b2493",
+    "logs/stage0/choice_evolved_prefix_0.genomes.jsonl.gz": "92ae3e731b8e4747fa85d8044614c6f50f3d7255c6a3c6de1fab01eb00e4f1c1",
+    "logs/stage0/choice_evolved_prefix_1.evaluations.jsonl.gz": "574f06e5260e00699d7db49dd7399291ccb22e567d7c7de238b326f3f88146d3",
+    "logs/stage0/choice_evolved_prefix_1.genomes.jsonl.gz": "8e6ae1164a8c353c75fd1625be0048795387157ad13a0a1ba2cf3d0d512d72fc",
+    "logs/stage0/choice_evolved_prefix_2.evaluations.jsonl.gz": "de116b50a8a6ef4cfcb18e5ff0194fb107f2854523e92a083c9bd0ed99d6833d",
+    "logs/stage0/choice_evolved_prefix_2.genomes.jsonl.gz": "110f9f1572339917868c7fcd2e1b659364670daac6a74a3493b6e8bfd06f3afb",
+    "logs/stage0/choice_local_prefix_0.evaluations.jsonl.gz": "7a9997f7e041db08d019be3226af21deb99ba89dc83506aa7f226244a6fcda6d",
+    "logs/stage0/choice_local_prefix_0.genomes.jsonl.gz": "95199c95feda89118d86db98fe0707d2b27ba0019c898235599a4f2b4fb17a6c",
+    "logs/stage0/choice_local_prefix_1.evaluations.jsonl.gz": "1b04fe47222764bfdc2f46b37b375c7af7b6aef8d7590ee5e3f763f27dbce7d8",
+    "logs/stage0/choice_local_prefix_1.genomes.jsonl.gz": "7245423443e1cde448418b7514444357d6feb06b9b53963b4ea454ef4562a399",
+    "logs/stage0/choice_local_prefix_2.evaluations.jsonl.gz": "008ef0c4c9fc9f84e6698ced71a0e78833e31a707ed61abd874b7a60e5d54549",
+    "logs/stage0/choice_local_prefix_2.genomes.jsonl.gz": "4f809af3dc271e601ee2e0b3626f38b04650243d2776968355d0f4f82a56958a"
+  },
+  "records": [
+    {
+      "cases": [
+        {
+          "case": "train_goal/r0/p32/s2/perfect/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        },
+        {
+          "case": "train_goal/r0/p32/s2/perfect/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        },
+        {
+          "case": "train_goal/r0/p33/s0/random/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 3
+        },
+        {
+          "case": "train_goal/r0/p33/s0/random/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 3
+        }
+      ],
+      "changed_parent_genotypes": 0,
+      "changed_parent_ids": 0,
+      "choice_top": [
+        "choice/evolved/prefix/0/i14",
+        "choice/evolved/prefix/0/i3",
+        "choice/evolved/prefix/0/i924"
+      ],
+      "condition": "choice/evolved/prefix/0",
+      "draws": 128,
+      "draws_detail": [
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139000
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139001
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i930",
+          "prefix": "choice/evolved/prefix/0/i930",
+          "same_genotype": true,
+          "seed": 1139002
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139003
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i922",
+          "prefix": "choice/evolved/prefix/0/i922",
+          "same_genotype": true,
+          "seed": 1139004
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139005
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139006
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139007
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139008
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139009
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139010
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139011
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139012
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139013
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i817",
+          "prefix": "choice/evolved/prefix/0/i817",
+          "same_genotype": true,
+          "seed": 1139014
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139015
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139016
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139017
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139018
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139019
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i901",
+          "prefix": "choice/evolved/prefix/0/i901",
+          "same_genotype": true,
+          "seed": 1139020
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139021
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139022
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139023
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139024
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139025
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139026
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139027
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139028
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139029
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139030
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139031
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139032
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139033
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139034
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139035
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139036
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139037
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i922",
+          "prefix": "choice/evolved/prefix/0/i922",
+          "same_genotype": true,
+          "seed": 1139038
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i817",
+          "prefix": "choice/evolved/prefix/0/i817",
+          "same_genotype": true,
+          "seed": 1139039
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i922",
+          "prefix": "choice/evolved/prefix/0/i922",
+          "same_genotype": true,
+          "seed": 1139040
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139041
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139042
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139043
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139044
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139045
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i901",
+          "prefix": "choice/evolved/prefix/0/i901",
+          "same_genotype": true,
+          "seed": 1139046
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139047
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139048
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139049
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139050
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139051
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139052
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139053
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139054
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139055
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139056
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139057
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139058
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139059
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139060
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139061
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139062
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139063
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139064
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139065
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139066
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139067
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139068
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139069
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139070
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139071
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139072
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139073
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139074
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139075
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139076
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139077
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139078
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i928",
+          "prefix": "choice/evolved/prefix/0/i928",
+          "same_genotype": true,
+          "seed": 1139079
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139080
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i930",
+          "prefix": "choice/evolved/prefix/0/i930",
+          "same_genotype": true,
+          "seed": 1139081
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139082
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139083
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139084
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139085
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139086
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139087
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139088
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139089
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139090
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139091
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139092
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139093
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139094
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139095
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139096
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139097
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139098
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139099
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139100
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139101
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139102
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139103
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i901",
+          "prefix": "choice/evolved/prefix/0/i901",
+          "same_genotype": true,
+          "seed": 1139104
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139105
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i901",
+          "prefix": "choice/evolved/prefix/0/i901",
+          "same_genotype": true,
+          "seed": 1139106
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139107
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139108
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139109
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139110
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i812",
+          "prefix": "choice/evolved/prefix/0/i812",
+          "same_genotype": true,
+          "seed": 1139111
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139112
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i930",
+          "prefix": "choice/evolved/prefix/0/i930",
+          "same_genotype": true,
+          "seed": 1139113
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139114
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i924",
+          "prefix": "choice/evolved/prefix/0/i924",
+          "same_genotype": true,
+          "seed": 1139115
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139116
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139117
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139118
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139119
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139120
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139121
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i930",
+          "prefix": "choice/evolved/prefix/0/i930",
+          "same_genotype": true,
+          "seed": 1139122
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139123
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i14",
+          "prefix": "choice/evolved/prefix/0/i14",
+          "same_genotype": true,
+          "seed": 1139124
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i95",
+          "prefix": "choice/evolved/prefix/0/i95",
+          "same_genotype": true,
+          "seed": 1139125
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i930",
+          "prefix": "choice/evolved/prefix/0/i930",
+          "same_genotype": true,
+          "seed": 1139126
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i3",
+          "prefix": "choice/evolved/prefix/0/i3",
+          "same_genotype": true,
+          "seed": 1139127
+        }
+      ],
+      "generation": 16,
+      "prefix_top": [
+        "choice/evolved/prefix/0/i14",
+        "choice/evolved/prefix/0/i3",
+        "choice/evolved/prefix/0/i924"
+      ],
+      "same_global_top_set": true,
+      "strict_pair_responses": 3
+    },
+    {
+      "cases": [
+        {
+          "case": "train_goal/r0/p44/s1/perfect/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 11
+        },
+        {
+          "case": "train_goal/r0/p44/s1/perfect/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 11
+        },
+        {
+          "case": "train_goal/r0/p45/s0/random/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        },
+        {
+          "case": "train_goal/r0/p45/s0/random/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        }
+      ],
+      "changed_parent_genotypes": 0,
+      "changed_parent_ids": 0,
+      "choice_top": [
+        "choice/evolved/prefix/0/i1223",
+        "choice/evolved/prefix/0/i1227",
+        "choice/evolved/prefix/0/i1235",
+        "choice/evolved/prefix/0/i1251",
+        "choice/evolved/prefix/0/i94"
+      ],
+      "condition": "choice/evolved/prefix/0",
+      "draws": 128,
+      "draws_detail": [
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139000
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139001
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139002
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1087",
+          "prefix": "choice/evolved/prefix/0/i1087",
+          "same_genotype": true,
+          "seed": 1139003
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139004
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139005
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139006
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139007
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139008
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139009
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139010
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139011
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1253",
+          "prefix": "choice/evolved/prefix/0/i1253",
+          "same_genotype": true,
+          "seed": 1139012
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139013
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i6",
+          "prefix": "choice/evolved/prefix/0/i6",
+          "same_genotype": true,
+          "seed": 1139014
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139015
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1251",
+          "prefix": "choice/evolved/prefix/0/i1251",
+          "same_genotype": true,
+          "seed": 1139016
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139017
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1235",
+          "prefix": "choice/evolved/prefix/0/i1235",
+          "same_genotype": true,
+          "seed": 1139018
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139019
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1235",
+          "prefix": "choice/evolved/prefix/0/i1235",
+          "same_genotype": true,
+          "seed": 1139020
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139021
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139022
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i918",
+          "prefix": "choice/evolved/prefix/0/i918",
+          "same_genotype": true,
+          "seed": 1139023
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139024
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139025
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139026
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139027
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139028
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1251",
+          "prefix": "choice/evolved/prefix/0/i1251",
+          "same_genotype": true,
+          "seed": 1139029
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139030
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1251",
+          "prefix": "choice/evolved/prefix/0/i1251",
+          "same_genotype": true,
+          "seed": 1139031
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139032
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1244",
+          "prefix": "choice/evolved/prefix/0/i1244",
+          "same_genotype": true,
+          "seed": 1139033
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139034
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139035
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139036
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139037
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139038
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139039
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139040
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1227",
+          "prefix": "choice/evolved/prefix/0/i1227",
+          "same_genotype": true,
+          "seed": 1139041
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139042
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1251",
+          "prefix": "choice/evolved/prefix/0/i1251",
+          "same_genotype": true,
+          "seed": 1139043
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139044
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139045
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1227",
+          "prefix": "choice/evolved/prefix/0/i1227",
+          "same_genotype": true,
+          "seed": 1139046
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139047
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i6",
+          "prefix": "choice/evolved/prefix/0/i6",
+          "same_genotype": true,
+          "seed": 1139048
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139049
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139050
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139051
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1244",
+          "prefix": "choice/evolved/prefix/0/i1244",
+          "same_genotype": true,
+          "seed": 1139052
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139053
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139054
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139055
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1253",
+          "prefix": "choice/evolved/prefix/0/i1253",
+          "same_genotype": true,
+          "seed": 1139056
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139057
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139058
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1235",
+          "prefix": "choice/evolved/prefix/0/i1235",
+          "same_genotype": true,
+          "seed": 1139059
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i918",
+          "prefix": "choice/evolved/prefix/0/i918",
+          "same_genotype": true,
+          "seed": 1139060
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139061
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139062
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139063
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139064
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139065
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139066
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1244",
+          "prefix": "choice/evolved/prefix/0/i1244",
+          "same_genotype": true,
+          "seed": 1139067
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139068
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139069
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1227",
+          "prefix": "choice/evolved/prefix/0/i1227",
+          "same_genotype": true,
+          "seed": 1139070
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139071
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139072
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139073
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139074
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139075
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139076
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139077
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139078
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1253",
+          "prefix": "choice/evolved/prefix/0/i1253",
+          "same_genotype": true,
+          "seed": 1139079
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139080
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139081
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i918",
+          "prefix": "choice/evolved/prefix/0/i918",
+          "same_genotype": true,
+          "seed": 1139082
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139083
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139084
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139085
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139086
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1087",
+          "prefix": "choice/evolved/prefix/0/i1087",
+          "same_genotype": true,
+          "seed": 1139087
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i918",
+          "prefix": "choice/evolved/prefix/0/i918",
+          "same_genotype": true,
+          "seed": 1139088
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i6",
+          "prefix": "choice/evolved/prefix/0/i6",
+          "same_genotype": true,
+          "seed": 1139089
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1087",
+          "prefix": "choice/evolved/prefix/0/i1087",
+          "same_genotype": true,
+          "seed": 1139090
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139091
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139092
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139093
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139094
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139095
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139096
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1087",
+          "prefix": "choice/evolved/prefix/0/i1087",
+          "same_genotype": true,
+          "seed": 1139097
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1253",
+          "prefix": "choice/evolved/prefix/0/i1253",
+          "same_genotype": true,
+          "seed": 1139098
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1087",
+          "prefix": "choice/evolved/prefix/0/i1087",
+          "same_genotype": true,
+          "seed": 1139099
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1235",
+          "prefix": "choice/evolved/prefix/0/i1235",
+          "same_genotype": true,
+          "seed": 1139100
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i94",
+          "prefix": "choice/evolved/prefix/0/i94",
+          "same_genotype": true,
+          "seed": 1139101
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1248",
+          "prefix": "choice/evolved/prefix/0/i1248",
+          "same_genotype": true,
+          "seed": 1139102
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139103
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1227",
+          "prefix": "choice/evolved/prefix/0/i1227",
+          "same_genotype": true,
+          "seed": 1139104
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1251",
+          "prefix": "choice/evolved/prefix/0/i1251",
+          "same_genotype": true,
+          "seed": 1139105
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1235",
+          "prefix": "choice/evolved/prefix/0/i1235",
+          "same_genotype": true,
+          "seed": 1139106
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i918",
+          "prefix": "choice/evolved/prefix/0/i918",
+          "same_genotype": true,
+          "seed": 1139107
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139108
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139109
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i6",
+          "prefix": "choice/evolved/prefix/0/i6",
+          "same_genotype": true,
+          "seed": 1139110
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1227",
+          "prefix": "choice/evolved/prefix/0/i1227",
+          "same_genotype": true,
+          "seed": 1139111
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1034",
+          "prefix": "choice/evolved/prefix/0/i1034",
+          "same_genotype": true,
+          "seed": 1139112
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i6",
+          "prefix": "choice/evolved/prefix/0/i6",
+          "same_genotype": true,
+          "seed": 1139113
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139114
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139115
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i918",
+          "prefix": "choice/evolved/prefix/0/i918",
+          "same_genotype": true,
+          "seed": 1139116
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139117
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1087",
+          "prefix": "choice/evolved/prefix/0/i1087",
+          "same_genotype": true,
+          "seed": 1139118
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i6",
+          "prefix": "choice/evolved/prefix/0/i6",
+          "same_genotype": true,
+          "seed": 1139119
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139120
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1146",
+          "prefix": "choice/evolved/prefix/0/i1146",
+          "same_genotype": true,
+          "seed": 1139121
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1255",
+          "prefix": "choice/evolved/prefix/0/i1255",
+          "same_genotype": true,
+          "seed": 1139122
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1223",
+          "prefix": "choice/evolved/prefix/0/i1223",
+          "same_genotype": true,
+          "seed": 1139123
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i918",
+          "prefix": "choice/evolved/prefix/0/i918",
+          "same_genotype": true,
+          "seed": 1139124
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i2",
+          "prefix": "choice/evolved/prefix/0/i2",
+          "same_genotype": true,
+          "seed": 1139125
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1244",
+          "prefix": "choice/evolved/prefix/0/i1244",
+          "same_genotype": true,
+          "seed": 1139126
+        },
+        {
+          "choice": "choice/evolved/prefix/0/i1121",
+          "prefix": "choice/evolved/prefix/0/i1121",
+          "same_genotype": true,
+          "seed": 1139127
+        }
+      ],
+      "generation": 22,
+      "prefix_top": [
+        "choice/evolved/prefix/0/i1223",
+        "choice/evolved/prefix/0/i1227",
+        "choice/evolved/prefix/0/i1235",
+        "choice/evolved/prefix/0/i1251",
+        "choice/evolved/prefix/0/i94"
+      ],
+      "same_global_top_set": true,
+      "strict_pair_responses": 11
+    },
+    {
+      "cases": [
+        {
+          "case": "train_goal/r1/p4/s0/perfect/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 3
+        },
+        {
+          "case": "train_goal/r1/p4/s0/perfect/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 3
+        },
+        {
+          "case": "train_goal/r1/p5/s1/random/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        },
+        {
+          "case": "train_goal/r1/p5/s1/random/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        }
+      ],
+      "changed_parent_genotypes": 0,
+      "changed_parent_ids": 0,
+      "choice_top": [
+        "choice/evolved/prefix/1/i94"
+      ],
+      "condition": "choice/evolved/prefix/1",
+      "draws": 128,
+      "draws_detail": [
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139000
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139001
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139002
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139003
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139004
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139005
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139006
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139007
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139008
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139009
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139010
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139011
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139012
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139013
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139014
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139015
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139016
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139017
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139018
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139019
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139020
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139021
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139022
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139023
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139024
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139025
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139026
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139027
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139028
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139029
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139030
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139031
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139032
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139033
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139034
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139035
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139036
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139037
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139038
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139039
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139040
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139041
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139042
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139043
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139044
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139045
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139046
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139047
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139048
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139049
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139050
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139051
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139052
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139053
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139054
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139055
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139056
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139057
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139058
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139059
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139060
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139061
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139062
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139063
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139064
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139065
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139066
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139067
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139068
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139069
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139070
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139071
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139072
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139073
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139074
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139075
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139076
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139077
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139078
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139079
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139080
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139081
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139082
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139083
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139084
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139085
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139086
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139087
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139088
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139089
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139090
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139091
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139092
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139093
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139094
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139095
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139096
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139097
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139098
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139099
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139100
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139101
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139102
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139103
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139104
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139105
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139106
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139107
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139108
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139109
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139110
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139111
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139112
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139113
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139114
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139115
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139116
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139117
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139118
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139119
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139120
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139121
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139122
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139123
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i66",
+          "prefix": "choice/evolved/prefix/1/i66",
+          "same_genotype": true,
+          "seed": 1139124
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i95",
+          "prefix": "choice/evolved/prefix/1/i95",
+          "same_genotype": true,
+          "seed": 1139125
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i94",
+          "prefix": "choice/evolved/prefix/1/i94",
+          "same_genotype": true,
+          "seed": 1139126
+        },
+        {
+          "choice": "choice/evolved/prefix/1/i83",
+          "prefix": "choice/evolved/prefix/1/i83",
+          "same_genotype": true,
+          "seed": 1139127
+        }
+      ],
+      "generation": 2,
+      "prefix_top": [
+        "choice/evolved/prefix/1/i94"
+      ],
+      "same_global_top_set": true,
+      "strict_pair_responses": 3
+    },
+    {
+      "cases": [
+        {
+          "case": "train_goal/r2/p28/s0/perfect/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 2
+        },
+        {
+          "case": "train_goal/r2/p28/s0/perfect/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 2
+        },
+        {
+          "case": "train_goal/r2/p29/s0/random/9x9/a",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        },
+        {
+          "case": "train_goal/r2/p29/s0/random/9x9/b",
+          "route_survivors": 96,
+          "same_first_case_survivor_set": true,
+          "strict_surviving_routes": 0
+        }
+      ],
+      "changed_parent_genotypes": 0,
+      "changed_parent_ids": 0,
+      "choice_top": [
+        "choice/evolved/prefix/2/i475"
+      ],
+      "condition": "choice/evolved/prefix/2",
+      "draws": 128,
+      "draws_detail": [
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139000
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139001
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139002
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139003
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139004
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139005
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139006
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139007
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139008
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139009
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139010
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139011
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139012
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139013
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139014
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139015
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139016
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139017
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139018
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i680",
+          "prefix": "choice/evolved/prefix/2/i680",
+          "same_genotype": true,
+          "seed": 1139019
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139020
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139021
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139022
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139023
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139024
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139025
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139026
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139027
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139028
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139029
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139030
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139031
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139032
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139033
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139034
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i695",
+          "prefix": "choice/evolved/prefix/2/i695",
+          "same_genotype": true,
+          "seed": 1139035
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139036
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139037
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139038
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139039
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139040
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139041
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139042
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139043
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139044
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139045
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139046
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139047
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139048
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139049
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139050
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139051
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139052
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139053
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139054
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139055
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139056
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139057
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139058
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139059
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139060
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139061
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139062
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139063
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139064
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139065
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i695",
+          "prefix": "choice/evolved/prefix/2/i695",
+          "same_genotype": true,
+          "seed": 1139066
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139067
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139068
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139069
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139070
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139071
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139072
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139073
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139074
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139075
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139076
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139077
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139078
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139079
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139080
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139081
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139082
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139083
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139084
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139085
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139086
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139087
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139088
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139089
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139090
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139091
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139092
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139093
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i695",
+          "prefix": "choice/evolved/prefix/2/i695",
+          "same_genotype": true,
+          "seed": 1139094
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139095
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139096
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139097
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139098
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139099
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139100
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139101
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139102
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139103
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139104
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139105
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139106
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139107
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139108
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139109
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139110
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139111
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139112
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139113
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i680",
+          "prefix": "choice/evolved/prefix/2/i680",
+          "same_genotype": true,
+          "seed": 1139114
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i680",
+          "prefix": "choice/evolved/prefix/2/i680",
+          "same_genotype": true,
+          "seed": 1139115
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139116
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139117
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139118
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139119
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139120
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139121
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139122
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139123
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i722",
+          "prefix": "choice/evolved/prefix/2/i722",
+          "same_genotype": true,
+          "seed": 1139124
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i742",
+          "prefix": "choice/evolved/prefix/2/i742",
+          "same_genotype": true,
+          "seed": 1139125
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i475",
+          "prefix": "choice/evolved/prefix/2/i475",
+          "same_genotype": true,
+          "seed": 1139126
+        },
+        {
+          "choice": "choice/evolved/prefix/2/i743",
+          "prefix": "choice/evolved/prefix/2/i743",
+          "same_genotype": true,
+          "seed": 1139127
+        }
+      ],
+      "generation": 14,
+      "prefix_top": [
+        "choice/evolved/prefix/2/i475"
+      ],
+      "same_global_top_set": true,
+      "strict_pair_responses": 2
+    }
+  ],
+  "scope": "Post-hoc counterfactual on observed V9 Prefix training populations with K>0; identical pools are independently verified across pressures.128 matched-seed parent draws/pool, no new candidate inference or training. Not an estimate over unseen genotype populations.",
+  "source_sha256": "84c24f62e327990ca91c866e7cd6137f23da82673f201c210a0a0ed97e87f84a"
+}

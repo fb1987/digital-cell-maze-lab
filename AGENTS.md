@@ -34,8 +34,9 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V1–V8 and V8A are complete; **106 tests pass**.
-Read `results/junction_choice.md`, `docs/JUNCTION_STUDY_V8.md`,
+Current checkpoint (October 18, 2026): V1–V9 and V8A are complete; **112 tests pass**.
+Read `results/choice_priority.md` and `docs/CHOICE_STUDY_V9.md` first,
+then `results/junction_choice.md`, `docs/JUNCTION_STUDY_V8.md`,
 `results/junction_confirmation.md`, `docs/JUNCTION_CONFIRMATION_V8A.md` first,
 then `results/balanced_goal.md` and `docs/BALANCE_STUDY_V7.md` first, then
 `results/goal_beacon.md` and `docs/BEACON_STUDY_V6.md`, then
@@ -308,17 +309,88 @@ layout and lineage checks pass. Full next populations/RNG checkpoints are
 `results/junction_choice/checkpoints/junction_{local|evolved}_{balanced|junction}_{0|1|2}.json`.
 V1–V7 code/raw results remain immutable. V8A raw results also remain immutable.
 
-A justified next experiment preserves BOTH V8 strict-choice variants and all
-useful prior task/source/goal/neutral lineages in common initial cohorts, then
-compares strict paired-choice-first pressure against current prefix-weighted
-pressure at unchanged capacity/input/caps. Keep complete-route correctness
-first. Explicitly preserve strict-choice validation archives in both arms and
-record their independence from final testing. Require transfer across rotating
-fork contexts and new holdouts before hour-scale extension. Capacity, regulation,
-modular cooperation and longer evolution remain live hypotheses. Do not insert
-known solver rules into random-origin lineages. Exclude ALL V1–V8 and V8A layouts
-(including BOTH new manifests;7502 unique layouts total) from future work.
-Do not retune against already inspected tests. Use new separate version modules.
+V9 completes that strict-choice-first comparison. Local/evolved ×Prefix/Choice
+×3,96 organisms ×48 generations, fork matching V8 Junction populations/RNG.
+Preserve task/J/B/G/source, protected variants, strict-validation selections
+and qualifying ancestors from both native V8 arms. No cross-replicate/topology
+transfer. Protected counts13/15/15 local,23/19/25 evolved. Same V6 pulse VM,
+8 channels,128 genes,unchanged V8 J shaping/caps. Global rank(V,O,N,0,S,W)
+versus(V,O,N,K,S,W); K counts strict-both pairs. Normal correctness first.
+Case lexicase inserts the pair bit before smooth shaping; zero control
+preserves old RNG. Common validation is Prefix; choice archive ranks
+(strict-both,J,B,G,valid,optimal). Both arms save all named archives.
+
+All six matched pressure pairs have IDENTICAL ordered genotype populations at
+every generation and identical final RNG states. The priority was implemented
+and verified, not silently zeroed: each multirange pressure records19 strict-
+both training responses across4 batches (rep0:g16/g22,rep1:g2,rep2:g14); local
+none.10 positive unprotected-genotype opportunities across3 batches retain5
+copies and produce40 mutated offspring under either pressure. All positive
+parents (protected included) produce83 offspring per pressure. All four active
+pools have the same global best sets;512 post-hoc matched-seed lexicase draws
+also choose identical parent IDs/genotypes. Priority is redundant for observed
+selection outcomes, NOT proven redundant for every possible population.
+Choice primitives already reproduce; transfer is the observed bottleneck.
+Full records:`reproductive_priority.json`,`priority_trajectories.json`,
+`selection_counterfactual.json` (analysis seeds1139000..1139127,no inference).
+
+Primary task accuracy local1/216,multirange0/216 under both, matching frozen.
+All selected models0/18 strict-both final pairs and0/42 paired full routes.
+Task distance≥8:local1/171,multirange0/171. Local success9 edges,1 turn, already
+in frozen control. Task no-path16/48,no false primary reachable claims. BFS/
+A*/wave216/216,42/42,all48/6 no-path. No speed advantage. Do not compare absolute
+accuracy across versions as a pressure effect: common archive/seed changes.
+
+Post-hoc inspected-final path assay (NOT another holdout): frozen and current
+local task have identical genotype. Original9-edge goal emits tick19; midpoint
+5-edge goal emits tick11. Forced probes show identical output concentrations
+and source states under both goals at EVERY tick1–19; both halts satisfy the
+common source-stop/endpoint conditions. Endpoint-aware halting chooses length
+from the same measured growth trajectory here; do not call it goal-guided
+routing. `inherited_path_diagnostic.json`,independent replay also passes.
+Assay.080s,2 normals/38 probes,2540210 work; replay separately recorded.
+
+Both pressures find the SAME evolved-rep2 validation-only lineage: initial i40
+fails the fork; birth3 i218 succeeds; birth5 i324 retained. Different pressure
+prefixes are aliases of the same genotype trajectory, not independent finds.
+Its9×9 cyclic qualifying pair has source-to-junction4; it needs the goal pulse,
+but nonlocal ablation retains J=1/strict-both on THIS case. Unlike the two V8
+examples,long reads are not necessary here; this does not imply forcing every
+range1 or general local solving. Fresh final paired tests remain0/18. Preserve
+this new variant with both V8 primitives, directional growth and neutral drift.
+A saved-raster entry diagnostic specified during training removes desired
+exits and checks incoming source reachability/shortest-prefix length. All19
+strict-both training responses per multirange pressure pass under both goals.
+It does not change registered K/primary results. `entry_diagnostics.json`.
+
+V9 seed2026101808,construction seed1094,7502 prior layouts excluded. Freeze
+BEFORE264 ordinary/24 paired final layouts. SHA
+74b6135000533707aa7fdc367152365e227047044ac92b043648d77e071c5cfb.
+Gate failed;search13.90min,main17.09min,main peak200.4MiB. Diagnostics20.30s,
+compression10.15s,audit19.51s,post-hoc parent replay2.13s.58998 fitness records,
+59046 priority records,267356 junction masks,100 valid training claims,48
+selected normal replays,12 each task/choice/J/B archive maxima all pass.
+6908 main final/diagnostic normals audited,plus2 path normals/replay. Training
+265608 normals+531216 probes,436915640448 dispatch-plus-read units.32258 new
+IDs,full next populations/RNG in
+`results/choice_priority/checkpoints/choice_{local|evolved}_{prefix|choice}_{0|1|2}.json`.
+All70 frozen sources and lineage/layout/storage checks pass. Conditional
+changed-genotype neutrality8784/18048 (48.7%) by saved behavioral fingerprint;
+work/expression/hidden trajectories can differ. Gene length is not effective
+complexity. Prior V1–V8/V8A source/raw data remain immutable.
+
+The next justified test addresses transfer rather than increasing priority
+again: a near-to-far GOAL-TO-FORK distance curriculum versus the current minimum-
+distance distribution, same capacity/objective/common protected cohorts. Start
+with attainable but genuinely source-dependent paired decisions, increase
+cue distance on a preregistered schedule. Hold validation/final at the harder
+distances; preserve all known variants and neutral diversity. Use new layouts;
+report curriculum training AND independent transfer. Capacity, regulation and
+longer evolution remain central live hypotheses. No known wavefront/solver
+rules enter random-origin lineages. Larger precursor scores alone do not
+justify hour-scale extension. Exclude ALL V1–V9/V8A layouts (including V9
+manifest):8096 unique layouts. Do not retune against inspected tests; use new
+separate version modules.
 Original mission steps below are historical; do not repeat them as unfinished.
 
 1. Inspect and run `cellular_maze_lab.py` and `tests/`.
