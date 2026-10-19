@@ -6,6 +6,37 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12J matched junction-distance study](results/junction_distance.md) is
+complete and audited. **There is no universal four-edge decision ceiling, but
+there is still no robust general solver.** Thirteen frozen random-origin models
+and a separate known control were tested on twelve fresh matched contexts.
+No evolution occurred.
+
+An inherited local genome completes paired 17-edge fork routes with an eight-edge
+source prefix, but loses its longer-prefix pairs when that prefix bends. Two
+carried multirange variants show the opposite shape preference at prefix eight.
+Their parents reproduce the same normal outputs; the shared ancestor and an
+unmutated 68-gene random draw outperform several descendants. All random models
+fail the broader transfer screen and no-path controls.
+
+On two fixed mechanism contexts, **zeroing nonlocal values rescues 128 short
+paired conditions per carried Branch model** (64 unique paired inputs), while
+retaining read charges. The inherited local model's 27 successful probe pairs
+need its goal pulse and endpoint-aware stopping. These results justify testing
+robustness and regulation; they do not establish a beneficial multirange effect.
+
+![Shape sensitivity and nonlocal interference](results/junction_distance/visuals/matched_rasters.png)
+
+Main inference: **10.41 minutes / 12-minute cap**, 277,152 calls. Independent
+audit passes on its first attempt: 279,470 candidate replays, all saved trajectories,
+and 692 prior G/H/I completion entries. Twenty-eight focused tests pass (nine new);
+204 collected, not a fresh full-suite run. All populations/RNG and raw evidence
+remain intact. Exclude **150,776 whole layouts** next. See the
+[completed handoff](docs/JUNCTION_DISTANCE_PROGRESS.md) and
+[unlaunched robustness-pressure proposal](results/junction_distance/next_experiment.md).
+
+## Completed equal-budget validation comparison V12I
+
 The [V12I equal-budget validation comparison](results/validation_breadth.md) is
 complete and audited. **Broader validation improves several existing selections,
 but no cohort passes the preregistered two-of-three-replicate gate.** Both arms
@@ -33,7 +64,7 @@ passes 666,328 candidate replays and 679,000 raster checks. Thirty-one focused t
 pass (ten new); 195 are collected, not a fresh full-suite run. All prior states and
 new raw evidence remain intact. Exclude **144,120 whole layouts** next. The
 [proposed next step](results/validation_breadth/next_experiment.md) is a bounded
-junction-distance/branch-suppression test before more breeding; it is not launched.
+junction-distance/branch-suppression test before more breeding, now completed as V12J above.
 See the [completed handoff](docs/VALIDATION_BREADTH_PROGRESS.md).
 
 ## Completed fixed-panel confirmation V12H

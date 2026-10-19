@@ -34,10 +34,93 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12I is complete and audited**. Read
+Current checkpoint: **V12J is complete and independently audited**. Read
+`results/junction_distance.md` and `docs/JUNCTION_DISTANCE_PROGRESS.md` first.
+Do not repeat J, extend its closed720s cap, resume G/H/I, train or reselect on
+inspected J final cases. The robustness-pressure follow-up is a proposal only.
+
+Protocol/panel/fixtures/source frozen and pushed in e4ca508 BEFORE main generation.
+Seed2026101905; fixtures1244. Thirteen fixed random-origin genomes + separate
+intact control; no evolution or editing. Strong narrow/broad Branch i5140/i7406,
+parents i5076/i7327, shared E ancestor i108890, narrow longer-prefix i4596 and broad
+i5708, inherited local i114696, local i5138, fresh evolved i2653, fresh local i8001
+and founder i69, unmutated68-gene resampling i4469. All prior states/RNG preserved.
+
+Twelve independent25x25contexts,8poses,2goals; first-junction prefixes1/2/4/6/8,
+straight/bent, fixed downstream goals/arms/clutter. Source always an endpoint.
+Fork, extra dead end at2/4along goal arm, true opposite-arm cycles at2/4,
+2corridors and disconnected control. Cycle-distance contrasts ALSO alter
+alternative length/open-cell count. Restricted orthogonal grammar. Prefix1/2
+shape labels intentionally duplicate inputs. Per model13,440inputs:9,600branched
+(4,800protocolpairs;3,840unique inputpairs),1,920corridors,1,920no-path.
+
+Normal pairs /4800: shared ancestor288;resampling192;broad Currenti5708 164;
+inherited local145;narrow Branch74;itsparent74;broad Branch50;itsparent50;
+other five random models0;intact4800. Ancestor288=96fork+96two_2+96cycle_2,
+allprefix1,halfposes. Narrow74=58fork+8two_2+8cycle_2; broad50=42+4+4.
+All random models0two_4/cycle_4 pairs. No random transfer-gate passes.
+Narrow/broad masks/status/steps match their immediate parents on all13,440normal
+inputs. Narrow recorded counters also identical; broad child costs more dispatch,
+active instructions and array bytes. No claim of identical hidden state.
+
+Inherited locali114696 completes8prefix8forkpairs on6contexts, straight only,
+paired17/17-edge routes possible, noneall8poses. Narrow/broad each6prefix8forkpairs
+on2contexts, bent only, pairedroutes up to15edges. These are newly evaluated old
+genomes, not J evolutionary gains. Local loses bentprefix4+; simple distance
+ceiling falsified, but robust solving unestablished. Resampling all12prefix1fork
+contexts/all8poses;zero atprefix2+. Only resampling passes descriptive distance-
+failure screen; other near baselines too weak. No direct G/H/I/J causal scorechange.
+
+Fixed mechanism subset:9targets,first2contexts,1,600branched inputs/mode/model.
+Locali114696 normal27pairs: pulse-off0,flag-off27,endpoint-off0,nonlocal-off27.
+Resampling32pairs: pulse-off32,flag-off0,endpoint-off32,nonlocal-off32.
+Narrow/broad normal0on THESE2contexts;nonlocal-zero rescues128pairs each
+(64unique), all8poses:prefix1fork/two_2/cycle_2 +prefix2fork;noneprefix4+or
+attachment4. Reads stay charged. This is context-specific harmful nonlocal
+interference, not beneficial multirange causality or general solving. Pulse/flag
+probes on failing Branch normals cannot establish necessity for successes elsewhere.
+Shared ancestor was outside mechanism subset; no post-hoc extra probes.
+
+Trace subset1context,2poses,3prefixlevels,3graphs,2shapes,4signalmodes;2592traces
+all64ticks. Fresh local has9normal-failing inputs with12later shortest frames,
+including2paired configurations with simultaneous shortest frames; NOT normal
+solutions. No stopping retune. Branch targets0shortestframes. Both signals off
+makes paired full trajectories identical. Local source/junction responses12/36,
+36/36 disappearpulse-off,remainflag-off. Resampling source/junction0 despite
+normalpairs: internal response proxy is not a universal requirement for correctness.
+
+All normal legal outputs shortest. All random models0/1920correct no-path;
+no false reachable no-path. BFS/A*/bitwave/intact11520/11520reachable +1920/1920
+no-path. No J latency benchmark, no speedup, no general solver.
+
+Main624.699candidate seconds/720cap,277152calls,371500676156work;wall647.136s,
+815.02MiBRSS. Calibration2318calls2.728candidate seconds separately. Rough388s
+projection overweighted fast control; next profiling must weight per-model calls.
+Audit first attempt PASS:658.499s wall,1115.88MiBRSS,279470response replays,
+319790terminalrasterchecks including40320baselines,2664fulltraces includingfixtures,
+170496frames;165888mainframes additionally graded;1296independent observer,
+112native parity,435emission matches.157source/8registrationinput/8panelsource/
+3maininput hashes;692oldG/H/Icompletion entries unchanged. No frozen-source repair
+or protocol deviation.9new+19related tests pass;204collected,NOTfullsuite.
+
+Exclude **150,776 whole layouts** through J:144120throughI+512Jfixtures+6144Jmain.
+`junction_distance_data.exclusions()` returns144120throughI; future code must ALSO
+add `junction_distance_fixtures/mazes.json.gz` and
+`junction_distance/confirmation/mazes.json.gz`. Saved raw masks, trajectories,
+ancestry, parent diffs and success certificates remain intact.
+
+Next proposal only: `results/junction_distance/next_experiment.md`. Calibrate NEW
+balanced shapes and useful near controls; preserve local pulse/flag-based/random
+resampling/ancestor diversity. Compare ONE context-consistency selection change
+against current policy with identical cases/calls/capacity/mutation; keep fresh
+random-origin arms, resampling and frozen controls. Independently validate
+nonlocal rescue before proposing a heritable gate. Do not combine new runtime
+and new pressure into one uninterpretable test or launch unchanged60–90minsearch.
+
+Historical checkpoint: **V12I is complete and audited**. Read
 `results/validation_breadth.md` and this handoff first. Do not repeat I, extend
 its closed cap, resume G/H, train or reselect on inspected I final cases.
-The junction-distance follow-up is a proposal only, not launched.
+The junction-distance follow-up is now completed as V12J above.
 
 The performance-blind fixed pool contains all G initial validation-screened
 individuals plus every later validation nominee within each original condition:

@@ -1,0 +1,2434 @@
+{
+  "models": {
+    "branch_narrow": {
+      "unique_completed_input_pairs": 50,
+      "complete_pairs": 74,
+      "corridors": {
+        "straight/1": {
+          "optimal": 100,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 100,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 72,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 15,
+      "prefix8_pairs": [
+        {
+          "model": "branch_narrow",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 0,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-0",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-0"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 4,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-4",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-4"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        }
+      ],
+      "optimal": 1500,
+      "legal": 1500,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "step_budget": 5380,
+        "emitted": 7128,
+        "read_budget": 932
+      },
+      "step_counts": {
+        "256": 5380,
+        "74": 872,
+        "254": 22,
+        "8": 1000,
+        "64": 340,
+        "12": 804,
+        "241": 26,
+        "78": 72,
+        "128": 64,
+        "80": 160,
+        "252": 24,
+        "232": 28,
+        "242": 46,
+        "223": 32,
+        "253": 58,
+        "84": 272,
+        "221": 16,
+        "233": 54,
+        "215": 16,
+        "243": 60,
+        "184": 16,
+        "239": 24,
+        "204": 22,
+        "229": 22,
+        "224": 34,
+        "248": 58,
+        "54": 812,
+        "72": 140,
+        "237": 52,
+        "68": 104,
+        "236": 14,
+        "234": 32,
+        "247": 38,
+        "228": 46,
+        "200": 12,
+        "227": 20,
+        "225": 32,
+        "219": 30,
+        "206": 10,
+        "216": 16,
+        "217": 16,
+        "211": 12,
+        "212": 4,
+        "238": 32,
+        "138": 24,
+        "122": 8,
+        "108": 34,
+        "218": 6,
+        "150": 8,
+        "156": 4,
+        "44": 672,
+        "94": 672,
+        "58": 168,
+        "114": 450,
+        "118": 100,
+        "251": 12,
+        "230": 20,
+        "188": 6,
+        "166": 8,
+        "249": 20,
+        "180": 4,
+        "231": 4,
+        "186": 4,
+        "168": 4,
+        "174": 2,
+        "164": 2,
+        "240": 4,
+        "246": 10,
+        "226": 6,
+        "104": 112,
+        "98": 48,
+        "124": 76,
+        "235": 4,
+        "117": 2,
+        "220": 2
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 15,
+        "1": 4,
+        "2": 16,
+        "3": 2,
+        "4": 15,
+        "5": 2,
+        "6": 16,
+        "7": 4
+      }
+    },
+    "branch_broad": {
+      "unique_completed_input_pairs": 38,
+      "complete_pairs": 50,
+      "corridors": {
+        "straight/1": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 104,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 104,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 116,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 15,
+      "prefix8_pairs": [
+        {
+          "model": "branch_broad",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 0,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-0",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-0"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 4,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-4",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-4"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        }
+      ],
+      "optimal": 1430,
+      "legal": 1430,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "step_budget": 3476,
+        "emitted": 9534,
+        "quiescent": 164,
+        "read_budget": 266
+      },
+      "step_counts": {
+        "256": 3476,
+        "48": 52,
+        "46": 256,
+        "45": 160,
+        "38": 160,
+        "36": 896,
+        "40": 312,
+        "65": 16,
+        "54": 644,
+        "42": 192,
+        "251": 32,
+        "44": 808,
+        "62": 364,
+        "241": 16,
+        "60": 332,
+        "56": 40,
+        "82": 416,
+        "232": 14,
+        "80": 320,
+        "76": 56,
+        "86": 20,
+        "223": 10,
+        "100": 308,
+        "96": 48,
+        "102": 108,
+        "26": 348,
+        "78": 16,
+        "97": 12,
+        "246": 38,
+        "253": 14,
+        "236": 28,
+        "52": 756,
+        "242": 16,
+        "227": 22,
+        "72": 826,
+        "233": 8,
+        "219": 16,
+        "92": 638,
+        "230": 4,
+        "84": 40,
+        "79": 4,
+        "74": 384,
+        "70": 8,
+        "94": 536,
+        "90": 18,
+        "243": 12,
+        "114": 220,
+        "110": 8,
+        "66": 20,
+        "63": 12,
+        "113": 8,
+        "124": 34,
+        "126": 10,
+        "75": 8,
+        "125": 4,
+        "134": 4,
+        "142": 4,
+        "162": 4,
+        "252": 2,
+        "101": 4,
+        "103": 4,
+        "108": 2,
+        "105": 2,
+        "116": 4,
+        "85": 2,
+        "109": 2,
+        "91": 2,
+        "115": 2,
+        "88": 6,
+        "118": 2,
+        "132": 2,
+        "146": 2,
+        "152": 2,
+        "58": 16,
+        "71": 4,
+        "77": 4,
+        "57": 4,
+        "237": 12,
+        "228": 6,
+        "34": 120,
+        "55": 4,
+        "64": 34,
+        "104": 40,
+        "245": 4,
+        "73": 4,
+        "254": 4,
+        "248": 4,
+        "231": 2,
+        "247": 2
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 9,
+        "1": 0,
+        "2": 16,
+        "3": 0,
+        "4": 9,
+        "5": 0,
+        "6": 16,
+        "7": 0
+      }
+    },
+    "long_prefix": {
+      "unique_completed_input_pairs": 0,
+      "complete_pairs": 0,
+      "corridors": {
+        "straight/1": {
+          "optimal": 56,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 56,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 0,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 0,
+      "prefix8_pairs": [],
+      "optimal": 112,
+      "legal": 112,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 13056,
+        "step_budget": 384
+      },
+      "step_counts": {
+        "6": 13056,
+        "256": 384
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    },
+    "long_replacement": {
+      "unique_completed_input_pairs": 82,
+      "complete_pairs": 164,
+      "corridors": {
+        "straight/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 172,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 172,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 172,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 172,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 172,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 172,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 176,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 176,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 10,
+      "prefix8_pairs": [],
+      "optimal": 2596,
+      "legal": 2596,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 11520,
+        "step_budget": 1920
+      },
+      "step_counts": {
+        "40": 1584,
+        "30": 744,
+        "256": 1920,
+        "44": 720,
+        "36": 1224,
+        "52": 720,
+        "42": 576,
+        "60": 720,
+        "48": 1416,
+        "68": 576,
+        "54": 192,
+        "56": 1008,
+        "64": 504,
+        "28": 504,
+        "24": 384,
+        "32": 648
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 22,
+        "1": 24,
+        "2": 12,
+        "3": 24,
+        "4": 12,
+        "5": 24,
+        "6": 22,
+        "7": 24
+      }
+    },
+    "local_long": {
+      "unique_completed_input_pairs": 97,
+      "complete_pairs": 145,
+      "corridors": {
+        "straight/1": {
+          "optimal": 144,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 144,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 144,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 144,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 144,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 144,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 144,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 72,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 17,
+      "prefix8_pairs": [
+        {
+          "model": "local_long",
+          "base": "confirmation/c0/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 3,
+          "cases": [
+            "confirmation/c0/s0/straight/p8/fork/0/d4-3",
+            "confirmation/c0/s0/straight/p8/fork/1/d4-3"
+          ],
+          "shortest_edges": [
+            17,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "local_long",
+          "base": "confirmation/c0/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 7,
+          "cases": [
+            "confirmation/c0/s0/straight/p8/fork/0/d4-7",
+            "confirmation/c0/s0/straight/p8/fork/1/d4-7"
+          ],
+          "shortest_edges": [
+            17,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "local_long",
+          "base": "confirmation/c1/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 3,
+          "cases": [
+            "confirmation/c1/s0/straight/p8/fork/0/d4-3",
+            "confirmation/c1/s0/straight/p8/fork/1/d4-3"
+          ],
+          "shortest_edges": [
+            16,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "local_long",
+          "base": "confirmation/c4/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 3,
+          "cases": [
+            "confirmation/c4/s0/straight/p8/fork/0/d4-3",
+            "confirmation/c4/s0/straight/p8/fork/1/d4-3"
+          ],
+          "shortest_edges": [
+            17,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "local_long",
+          "base": "confirmation/c4/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 7,
+          "cases": [
+            "confirmation/c4/s0/straight/p8/fork/0/d4-7",
+            "confirmation/c4/s0/straight/p8/fork/1/d4-7"
+          ],
+          "shortest_edges": [
+            17,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "local_long",
+          "base": "confirmation/c5/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 3,
+          "cases": [
+            "confirmation/c5/s0/straight/p8/fork/0/d4-3",
+            "confirmation/c5/s0/straight/p8/fork/1/d4-3"
+          ],
+          "shortest_edges": [
+            16,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "local_long",
+          "base": "confirmation/c7/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 3,
+          "cases": [
+            "confirmation/c7/s0/straight/p8/fork/0/d4-3",
+            "confirmation/c7/s0/straight/p8/fork/1/d4-3"
+          ],
+          "shortest_edges": [
+            14,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "local_long",
+          "base": "confirmation/c11/s0",
+          "shape": "straight",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 3,
+          "cases": [
+            "confirmation/c11/s0/straight/p8/fork/0/d4-3",
+            "confirmation/c11/s0/straight/p8/fork/1/d4-3"
+          ],
+          "shortest_edges": [
+            16,
+            17
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        }
+      ],
+      "optimal": 2813,
+      "legal": 2813,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 7344,
+        "step_budget": 6096
+      },
+      "step_counts": {
+        "48": 408,
+        "38": 492,
+        "256": 6096,
+        "37": 672,
+        "35": 114,
+        "42": 540,
+        "41": 264,
+        "50": 144,
+        "49": 186,
+        "58": 144,
+        "57": 144,
+        "45": 348,
+        "52": 84,
+        "66": 120,
+        "65": 120,
+        "51": 90,
+        "47": 54,
+        "55": 36,
+        "33": 312,
+        "34": 216,
+        "31": 126,
+        "46": 312,
+        "53": 288,
+        "54": 288,
+        "43": 120,
+        "61": 156,
+        "62": 156,
+        "30": 444,
+        "26": 168,
+        "25": 252,
+        "23": 84,
+        "29": 240,
+        "36": 132,
+        "39": 42,
+        "27": 24,
+        "40": 24
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 74,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 71
+      }
+    },
+    "local_cycle": {
+      "unique_completed_input_pairs": 0,
+      "complete_pairs": 0,
+      "corridors": {
+        "straight/1": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 0,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 0,
+      "prefix8_pairs": [],
+      "optimal": 0,
+      "legal": 0,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "step_budget": 13440
+      },
+      "step_counts": {
+        "256": 13440
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    },
+    "fresh_evolved": {
+      "unique_completed_input_pairs": 0,
+      "complete_pairs": 0,
+      "corridors": {
+        "straight/1": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 0,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 0,
+      "prefix8_pairs": [],
+      "optimal": 0,
+      "legal": 0,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 13056,
+        "step_budget": 248,
+        "quiescent": 136
+      },
+      "step_counts": {
+        "7": 13056,
+        "256": 248,
+        "18": 120,
+        "20": 8,
+        "19": 8
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    },
+    "fresh_local": {
+      "unique_completed_input_pairs": 0,
+      "complete_pairs": 0,
+      "corridors": {
+        "straight/1": {
+          "optimal": 18,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 14,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 18,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 14,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 0,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 0,
+      "prefix8_pairs": [],
+      "optimal": 124,
+      "legal": 124,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 13056,
+        "step_budget": 384
+      },
+      "step_counts": {
+        "6": 6528,
+        "256": 384,
+        "7": 6528
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    },
+    "fresh_local_narrow": {
+      "unique_completed_input_pairs": 0,
+      "complete_pairs": 0,
+      "corridors": {
+        "straight/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 192,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 0,
+      "prefix8_pairs": [],
+      "optimal": 1920,
+      "legal": 1920,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 13056,
+        "quiescent": 384
+      },
+      "step_counts": {
+        "9": 13440
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    },
+    "resampled": {
+      "unique_completed_input_pairs": 96,
+      "complete_pairs": 192,
+      "corridors": {
+        "straight/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 192,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 10,
+      "prefix8_pairs": [],
+      "optimal": 2688,
+      "legal": 2688,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 11520,
+        "quiescent": 1920
+      },
+      "step_counts": {
+        "21": 2112,
+        "24": 640,
+        "23": 960,
+        "27": 960,
+        "31": 960,
+        "35": 768,
+        "19": 864,
+        "22": 560,
+        "25": 1344,
+        "29": 1344,
+        "33": 672,
+        "15": 672,
+        "18": 560,
+        "17": 864,
+        "20": 160
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 24,
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 24,
+        "7": 24
+      }
+    },
+    "branch_narrow_parent": {
+      "unique_completed_input_pairs": 50,
+      "complete_pairs": 74,
+      "corridors": {
+        "straight/1": {
+          "optimal": 100,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 100,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 72,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 15,
+      "prefix8_pairs": [
+        {
+          "model": "branch_narrow_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 0,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-0",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-0"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 4,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-4",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-4"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow_parent",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_narrow_parent",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        }
+      ],
+      "optimal": 1500,
+      "legal": 1500,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "step_budget": 5380,
+        "emitted": 7128,
+        "read_budget": 932
+      },
+      "step_counts": {
+        "256": 5380,
+        "74": 872,
+        "254": 22,
+        "8": 1000,
+        "64": 340,
+        "12": 804,
+        "241": 26,
+        "78": 72,
+        "128": 64,
+        "80": 160,
+        "252": 24,
+        "232": 28,
+        "242": 46,
+        "223": 32,
+        "253": 58,
+        "84": 272,
+        "221": 16,
+        "233": 54,
+        "215": 16,
+        "243": 60,
+        "184": 16,
+        "239": 24,
+        "204": 22,
+        "229": 22,
+        "224": 34,
+        "248": 58,
+        "54": 812,
+        "72": 140,
+        "237": 52,
+        "68": 104,
+        "236": 14,
+        "234": 32,
+        "247": 38,
+        "228": 46,
+        "200": 12,
+        "227": 20,
+        "225": 32,
+        "219": 30,
+        "206": 10,
+        "216": 16,
+        "217": 16,
+        "211": 12,
+        "212": 4,
+        "238": 32,
+        "138": 24,
+        "122": 8,
+        "108": 34,
+        "218": 6,
+        "150": 8,
+        "156": 4,
+        "44": 672,
+        "94": 672,
+        "58": 168,
+        "114": 450,
+        "118": 100,
+        "251": 12,
+        "230": 20,
+        "188": 6,
+        "166": 8,
+        "249": 20,
+        "180": 4,
+        "231": 4,
+        "186": 4,
+        "168": 4,
+        "174": 2,
+        "164": 2,
+        "240": 4,
+        "246": 10,
+        "226": 6,
+        "104": 112,
+        "98": 48,
+        "124": 76,
+        "235": 4,
+        "117": 2,
+        "220": 2
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 15,
+        "1": 4,
+        "2": 16,
+        "3": 2,
+        "4": 15,
+        "5": 2,
+        "6": 16,
+        "7": 4
+      }
+    },
+    "branch_broad_parent": {
+      "unique_completed_input_pairs": 38,
+      "complete_pairs": 50,
+      "corridors": {
+        "straight/1": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 104,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 72,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 104,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 116,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 116,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 15,
+      "prefix8_pairs": [
+        {
+          "model": "branch_broad_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 0,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-0",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-0"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 4,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-4",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-4"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad_parent",
+          "base": "confirmation/c2/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c2/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c2/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            14,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad_parent",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 2,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-2",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-2"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        },
+        {
+          "model": "branch_broad_parent",
+          "base": "confirmation/c8/s0",
+          "shape": "bent",
+          "prefix": 8,
+          "family": "fork",
+          "pose": 6,
+          "cases": [
+            "confirmation/c8/s0/bent/p8/fork/0/d4-6",
+            "confirmation/c8/s0/bent/p8/fork/1/d4-6"
+          ],
+          "shortest_edges": [
+            15,
+            14
+          ],
+          "alternative_edges": [
+            null,
+            null
+          ]
+        }
+      ],
+      "optimal": 1430,
+      "legal": 1430,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "step_budget": 3476,
+        "emitted": 9534,
+        "quiescent": 164,
+        "read_budget": 266
+      },
+      "step_counts": {
+        "256": 3476,
+        "48": 52,
+        "46": 256,
+        "45": 160,
+        "38": 160,
+        "36": 896,
+        "40": 312,
+        "65": 16,
+        "54": 644,
+        "42": 192,
+        "251": 32,
+        "44": 808,
+        "62": 364,
+        "241": 16,
+        "60": 332,
+        "56": 40,
+        "82": 416,
+        "232": 14,
+        "80": 320,
+        "76": 56,
+        "86": 20,
+        "223": 10,
+        "100": 308,
+        "96": 48,
+        "102": 108,
+        "26": 348,
+        "78": 16,
+        "97": 12,
+        "246": 38,
+        "253": 14,
+        "236": 28,
+        "52": 756,
+        "242": 16,
+        "227": 22,
+        "72": 826,
+        "233": 8,
+        "219": 16,
+        "92": 638,
+        "230": 4,
+        "84": 40,
+        "79": 4,
+        "74": 384,
+        "70": 8,
+        "94": 536,
+        "90": 18,
+        "243": 12,
+        "114": 220,
+        "110": 8,
+        "66": 20,
+        "63": 12,
+        "113": 8,
+        "124": 34,
+        "126": 10,
+        "75": 8,
+        "125": 4,
+        "134": 4,
+        "142": 4,
+        "162": 4,
+        "252": 2,
+        "101": 4,
+        "103": 4,
+        "108": 2,
+        "105": 2,
+        "116": 4,
+        "85": 2,
+        "109": 2,
+        "91": 2,
+        "115": 2,
+        "88": 6,
+        "118": 2,
+        "132": 2,
+        "146": 2,
+        "152": 2,
+        "58": 16,
+        "71": 4,
+        "77": 4,
+        "57": 4,
+        "237": 12,
+        "228": 6,
+        "34": 120,
+        "55": 4,
+        "64": 34,
+        "104": 40,
+        "245": 4,
+        "73": 4,
+        "254": 4,
+        "248": 4,
+        "231": 2,
+        "247": 2
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 9,
+        "1": 0,
+        "2": 16,
+        "3": 0,
+        "4": 9,
+        "5": 0,
+        "6": 16,
+        "7": 0
+      }
+    },
+    "shared_ancestor": {
+      "unique_completed_input_pairs": 144,
+      "complete_pairs": 288,
+      "corridors": {
+        "straight/1": {
+          "optimal": 48,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 48,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 48,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 48,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 48,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 48,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 0,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 0,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 10,
+      "prefix8_pairs": [],
+      "optimal": 960,
+      "legal": 960,
+      "no_path": 0,
+      "false_no_path": 0,
+      "status_counts": {
+        "step_budget": 8356,
+        "read_budget": 1700,
+        "emitted": 3384
+      },
+      "step_counts": {
+        "256": 8356,
+        "246": 160,
+        "40": 692,
+        "241": 176,
+        "44": 660,
+        "46": 32,
+        "252": 160,
+        "231": 80,
+        "56": 352,
+        "222": 48,
+        "227": 32,
+        "210": 32,
+        "213": 16,
+        "218": 32,
+        "202": 16,
+        "54": 4,
+        "36": 424,
+        "236": 144,
+        "42": 36,
+        "226": 112,
+        "52": 308,
+        "217": 48,
+        "223": 48,
+        "206": 24,
+        "207": 24,
+        "209": 32,
+        "214": 48,
+        "199": 32,
+        "50": 12,
+        "28": 336,
+        "32": 404,
+        "34": 28,
+        "240": 16,
+        "250": 16,
+        "230": 16,
+        "249": 32,
+        "229": 48,
+        "239": 44,
+        "238": 4,
+        "220": 32,
+        "237": 16,
+        "243": 32,
+        "224": 32,
+        "233": 32,
+        "215": 32,
+        "38": 8,
+        "48": 88,
+        "255": 4,
+        "234": 16,
+        "244": 16,
+        "225": 16,
+        "212": 8,
+        "211": 8,
+        "232": 16
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 0,
+        "1": 72,
+        "2": 0,
+        "3": 72,
+        "4": 0,
+        "5": 72,
+        "6": 0,
+        "7": 72
+      }
+    },
+    "intact": {
+      "unique_completed_input_pairs": 3840,
+      "complete_pairs": 4800,
+      "corridors": {
+        "straight/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/2": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/4": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/6": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "straight/8": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/1": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/2": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/4": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/6": {
+          "optimal": 192,
+          "inputs": 192
+        },
+        "bent/8": {
+          "optimal": 192,
+          "inputs": 192
+        }
+      },
+      "longest_paired_edges": 17,
+      "prefix8_pairs": [],
+      "optimal": 11520,
+      "legal": 11520,
+      "no_path": 1920,
+      "false_no_path": 0,
+      "status_counts": {
+        "emitted": 11520,
+        "no_path": 1920
+      },
+      "step_counts": {
+        "21": 2112,
+        "4": 384,
+        "23": 960,
+        "5": 384,
+        "27": 960,
+        "7": 384,
+        "31": 960,
+        "9": 384,
+        "35": 768,
+        "11": 384,
+        "19": 864,
+        "25": 1344,
+        "29": 1344,
+        "33": 672,
+        "15": 672,
+        "17": 864
+      },
+      "goal_aware_complete_pairs_by_pose": {
+        "0": 600,
+        "1": 600,
+        "2": 600,
+        "3": 600,
+        "4": 600,
+        "5": 600,
+        "6": 600,
+        "7": 600
+      }
+    }
+  },
+  "parent_comparisons": {
+    "branch_narrow": {
+      "mask": 0,
+      "status": 0,
+      "steps": 0,
+      "reads": 0,
+      "dispatches": 0,
+      "active": 0,
+      "array_bytes": 0,
+      "range_reads": 0
+    },
+    "branch_broad": {
+      "mask": 0,
+      "status": 0,
+      "steps": 0,
+      "reads": 0,
+      "dispatches": 13440,
+      "active": 13440,
+      "array_bytes": 13440,
+      "range_reads": 0
+    }
+  },
+  "interventions": {
+    "branch_narrow/pulse_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "branch_narrow/flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "branch_narrow/pulse_flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "branch_narrow/endpoint_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "branch_narrow/all_goal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "branch_narrow/nonlocal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 128,
+      "changed_masks": 1600
+    },
+    "branch_broad/pulse_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "branch_broad/flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "branch_broad/pulse_flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "branch_broad/endpoint_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "branch_broad/all_goal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "branch_broad/nonlocal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 128,
+      "changed_masks": 1596
+    },
+    "long_prefix/pulse_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "long_prefix/flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "long_prefix/pulse_flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "long_prefix/endpoint_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "long_prefix/all_goal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "long_prefix/nonlocal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "local_long/pulse_off": {
+      "normal_success_pairs": 27,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 754
+    },
+    "local_long/flag_off": {
+      "normal_success_pairs": 27,
+      "retained": 27,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "local_long/pulse_flag_off": {
+      "normal_success_pairs": 27,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 754
+    },
+    "local_long/endpoint_off": {
+      "normal_success_pairs": 27,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1140
+    },
+    "local_long/all_goal_off": {
+      "normal_success_pairs": 27,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1140
+    },
+    "local_long/nonlocal_off": {
+      "normal_success_pairs": 27,
+      "retained": 27,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "local_cycle/pulse_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "local_cycle/flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "local_cycle/pulse_flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "local_cycle/endpoint_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "local_cycle/all_goal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "local_cycle/nonlocal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "fresh_evolved/pulse_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "fresh_evolved/flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "fresh_evolved/pulse_flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "fresh_evolved/endpoint_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "fresh_evolved/all_goal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "fresh_evolved/nonlocal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "fresh_local/pulse_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "fresh_local/flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 480
+    },
+    "fresh_local/pulse_flag_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "fresh_local/endpoint_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 800
+    },
+    "fresh_local/all_goal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "fresh_local/nonlocal_off": {
+      "normal_success_pairs": 0,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "resampled/pulse_off": {
+      "normal_success_pairs": 32,
+      "retained": 32,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "resampled/flag_off": {
+      "normal_success_pairs": 32,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "resampled/pulse_flag_off": {
+      "normal_success_pairs": 32,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "resampled/endpoint_off": {
+      "normal_success_pairs": 32,
+      "retained": 32,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "resampled/all_goal_off": {
+      "normal_success_pairs": 32,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "resampled/nonlocal_off": {
+      "normal_success_pairs": 32,
+      "retained": 32,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "intact/pulse_off": {
+      "normal_success_pairs": 800,
+      "retained": 800,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "intact/flag_off": {
+      "normal_success_pairs": 800,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "intact/pulse_flag_off": {
+      "normal_success_pairs": 800,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "intact/endpoint_off": {
+      "normal_success_pairs": 800,
+      "retained": 800,
+      "gained": 0,
+      "changed_masks": 0
+    },
+    "intact/all_goal_off": {
+      "normal_success_pairs": 800,
+      "retained": 0,
+      "gained": 0,
+      "changed_masks": 1600
+    },
+    "intact/nonlocal_off": {
+      "normal_success_pairs": 800,
+      "retained": 800,
+      "gained": 0,
+      "changed_masks": 0
+    }
+  },
+  "provenance": "Descriptive analysis of saved fixed-panel normal/intervention outputs; no additional candidate calls."
+}

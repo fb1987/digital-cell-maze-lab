@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "counts": {
+    "panel_source_hashes": 8,
+    "prior_completion_entries": 692,
+    "main_input_hashes": 3,
+    "graded_replays": 279470,
+    "trace_frames": 170496,
+    "full_horizon_traces": 2664,
+    "native_adapter_checks": 112,
+    "independent_observer_checks": 1296,
+    "native_emission_trace_matches": 435,
+    "baseline_replays": 40320
+  },
+  "geometry": {
+    "reachable_cases": 11520,
+    "legal_longer_rasters": 3840,
+    "no_path_cases": 1920,
+    "contexts": 12,
+    "cases": 13440,
+    "whole_layouts": 6144
+  },
+  "fixture_geometry": {
+    "reachable_cases": 960,
+    "legal_longer_rasters": 320,
+    "no_path_cases": 160,
+    "contexts": 1,
+    "cases": 1120,
+    "whole_layouts": 512
+  },
+  "old_layouts": 144120,
+  "fixture_layouts": 512,
+  "new_layouts": 6144,
+  "future_exclusions": 150776,
+  "source_hashes": 157,
+  "input_hashes": 8,
+  "warmup": {
+    "seconds": 0.13144541694782674,
+    "candidate_calls": 3,
+    "baseline_calls": 3,
+    "case": "fixture/c0/s0/straight/p1/fork/0/d4-0",
+    "readonly_input": true
+  },
+  "candidate_replay_seconds": 627.5532211600221,
+  "audit_work": 374397049682,
+  "wall_seconds": 658.4986797500169,
+  "peak_rss_bytes": 1170079744
+}

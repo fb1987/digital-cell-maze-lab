@@ -1,0 +1,234 @@
+[
+  {
+    "case": "confirmation/c0/s0/straight/p1/cycle_2/0/d4-0",
+    "model": "branch_narrow",
+    "mode": "normal",
+    "row": {
+      "case": "confirmation/c0/s0/straight/p1/cycle_2/0/d4-0",
+      "status": "emitted",
+      "steps": 74,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "disconnected_output",
+      "partial": 0.14,
+      "reads": 660454,
+      "range_reads": [
+        548196,
+        15170,
+        69782,
+        27306
+      ],
+      "dispatches": 770636,
+      "active": 589935,
+      "array_bytes": 29275,
+      "mask": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000400fc07000004000008000000000000000000000000000000000000000000000000000000"
+    },
+    "shortest_edges": 10,
+    "alternative_edges": 22
+  },
+  {
+    "case": "confirmation/c0/s0/straight/p1/cycle_2/1/d4-0",
+    "model": "branch_narrow",
+    "mode": "normal",
+    "row": {
+      "case": "confirmation/c0/s0/straight/p1/cycle_2/1/d4-0",
+      "status": "emitted",
+      "steps": 74,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "disconnected_output",
+      "partial": 0.14,
+      "reads": 660454,
+      "range_reads": [
+        548196,
+        15170,
+        69782,
+        27306
+      ],
+      "dispatches": 770636,
+      "active": 590188,
+      "array_bytes": 29275,
+      "mask": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000f01f0040000080000000000000000000000000000000000000000000000000000000"
+    },
+    "shortest_edges": 10,
+    "alternative_edges": 22
+  },
+  {
+    "case": "confirmation/c0/s0/straight/p8/fork/0/d4-3",
+    "model": "local_long",
+    "mode": "normal",
+    "row": {
+      "case": "confirmation/c0/s0/straight/p8/fork/0/d4-3",
+      "status": "emitted",
+      "steps": 66,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 348722,
+      "range_reads": [
+        348722,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 625152,
+      "active": 475765,
+      "array_bytes": 29331,
+      "mask": "0000000000000000000000000000000000000000000000000000000000000000000000fe03000004000008000010000020000040000080000000010000020000040000000000000000000000000000"
+    },
+    "shortest_edges": 17,
+    "alternative_edges": null
+  },
+  {
+    "case": "confirmation/c0/s0/straight/p8/fork/1/d4-3",
+    "model": "local_long",
+    "mode": "normal",
+    "row": {
+      "case": "confirmation/c0/s0/straight/p8/fork/1/d4-3",
+      "status": "emitted",
+      "steps": 51,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 270808,
+      "range_reads": [
+        270808,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 483072,
+      "active": 370108,
+      "array_bytes": 29331,
+      "mask": "0000000000000000010000020000040000080000100000200000400000800000000100fe03000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "shortest_edges": 17,
+    "alternative_edges": null
+  },
+  {
+    "case": "confirmation/c0/s0/bent/p8/fork/0/d4-3",
+    "model": "local_long",
+    "mode": "normal",
+    "row": {
+      "case": "confirmation/c0/s0/bent/p8/fork/0/d4-3",
+      "status": "step_budget",
+      "steps": 256,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "budget_exhausted",
+      "partial": 0.05,
+      "reads": 1331482,
+      "range_reads": [
+        1331482,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 2424832,
+      "active": 1814303,
+      "array_bytes": 29331,
+      "mask": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000"
+    },
+    "shortest_edges": 17,
+    "alternative_edges": null
+  },
+  {
+    "case": "confirmation/c0/s0/bent/p8/fork/1/d4-3",
+    "model": "local_long",
+    "mode": "normal",
+    "row": {
+      "case": "confirmation/c0/s0/bent/p8/fork/1/d4-3",
+      "status": "step_budget",
+      "steps": 256,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "budget_exhausted",
+      "partial": 0.05,
+      "reads": 1366882,
+      "range_reads": [
+        1366882,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 2424832,
+      "active": 1866498,
+      "array_bytes": 29331,
+      "mask": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000"
+    },
+    "shortest_edges": 17,
+    "alternative_edges": null
+  },
+  {
+    "case": "confirmation/c0/s0/straight/p1/cycle_2/0/d4-0",
+    "model": "branch_narrow",
+    "mode": "nonlocal_off",
+    "row": {
+      "case": "confirmation/c0/s0/straight/p1/cycle_2/0/d4-0",
+      "status": "emitted",
+      "steps": 74,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 659076,
+      "range_reads": [
+        546818,
+        15170,
+        69782,
+        27306
+      ],
+      "dispatches": 770636,
+      "active": 588787,
+      "array_bytes": 29275,
+      "mask": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000400fc0f000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "shortest_edges": 10,
+    "alternative_edges": 22
+  },
+  {
+    "case": "confirmation/c0/s0/straight/p1/cycle_2/1/d4-0",
+    "model": "branch_narrow",
+    "mode": "nonlocal_off",
+    "row": {
+      "case": "confirmation/c0/s0/straight/p1/cycle_2/1/d4-0",
+      "status": "emitted",
+      "steps": 74,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 659076,
+      "range_reads": [
+        546818,
+        15170,
+        69782,
+        27306
+      ],
+      "dispatches": 770636,
+      "active": 588787,
+      "array_bytes": 29275,
+      "mask": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000f81f0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "shortest_edges": 10,
+    "alternative_edges": 22
+  }
+]

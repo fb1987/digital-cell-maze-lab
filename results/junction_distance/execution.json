@@ -1,0 +1,35 @@
+{
+  "budget": {
+    "seconds": 624.6989692728966,
+    "calls": 277152,
+    "work": 371500676156,
+    "scopes": {
+      "normal": {
+        "seconds": 433.3848377055838,
+        "calls": 188160,
+        "work": 257645882878
+      },
+      "interventions": {
+        "seconds": 187.6968404345098,
+        "calls": 86400,
+        "work": 111792287945
+      },
+      "traces": {
+        "seconds": 3.617291132803075,
+        "calls": 2592,
+        "work": 2062505333
+      }
+    },
+    "maximum": 0.019544042006600648
+  },
+  "warmup": {
+    "seconds": 0.06440062500769272,
+    "candidate_calls": 3,
+    "baseline_calls": 3,
+    "case": "fixture/c0/s0/straight/p1/fork/0/d4-0",
+    "readonly_input": true
+  },
+  "wall_seconds": 647.136025417014,
+  "peak_rss_bytes": 854605824,
+  "complete": true
+}
