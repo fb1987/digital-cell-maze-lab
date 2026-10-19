@@ -1,0 +1,26 @@
+{"profile_origin": "carry", "calls": 31860, "seconds": 73.43887941585854}
+{"profile_origin": "fresh", "calls": 70884, "seconds": 77.53118469723267}
+{
+  "passed": false,
+  "warmup": {
+    "seconds": 0.05374995799502358,
+    "candidate_calls": 2,
+    "baseline_calls": 3,
+    "case": "fixture/carry/straight/p1/straight/long1/t0/s0/position0/fork/0/d4-0",
+    "read_only": true
+  },
+  "budget": {
+    "cap_seconds": 240,
+    "cap_calls": 130000,
+    "seconds": 89.38795440428657,
+    "calls": 77436,
+    "work": 53979066644,
+    "maximum": 0.00926229200558737
+  },
+  "parity_comparisons": 3276,
+  "projected_calibration_seconds": 310.1247387889307,
+  "validation_upper_seconds": 140.17586421221495,
+  "final_upper_seconds": 262.58616312406957,
+  "wall_seconds": 92.15564929100219,
+  "peak_rss_bytes": 192364544
+}
