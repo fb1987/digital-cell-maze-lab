@@ -1,0 +1,15 @@
+{
+  "reason": "Original preflight failed because a single slowest-group rate was applied to every evaluation. Original attempt remains closed with zero scientific calls. Revised bound retains2x safety factor,600s projected threshold,720s hard main cap,all8poses and exact frozen genomes; sums individual discovery costs and group-wise worst possible nominee costs. Only timing data used; no fixture scores inspected.",
+  "scientific_calls": 0,
+  "original_attempt": "stopped_at_profile",
+  "walks_per_root_block": 8,
+  "hashes": {
+    "results/mutation_accessibility_fixtures/profile.json": "170aa75e2b4e905dadcddaa300d8d2c48510dacb0d51c4fb8a4a5f24fabdaf52",
+    "results/mutation_accessibility_fixtures/profile_original.json": "6cc61bb19c1a1b96333660d06145b84b996a75df6a1bf5a90f2310177e6d65aa",
+    "results/mutation_accessibility_fixtures/rates.json.gz": "1af0b5ef629d617603c172d678ff80a6bbf30c6f468bcdbf54727c26d2ecf5ec",
+    "maze_evolution/mutation_accessibility_budget.py": "47795bc19fd9efa80773c9163db9edb9e14cd4dc39940cf4dfad1094076727bc",
+    "maze_evolution/mutation_accessibility_audit_amended.py": "62f69816cec42f0ae7b32b135afa980a9206ea4fcca12b9a0e66d2f86ba63638",
+    "tests/test_mutation_accessibility_budget.py": "714f96ec7b086845601afeab59697d45fc4f72885d82cfc86d6d7892251e7f8f",
+    "tools/register_mutation_accessibility_budget.py": "b0cd97243accf1ac29390ad563af0ecff7d96f674b506d563aca9ef336f6bd23"
+  }
+}
