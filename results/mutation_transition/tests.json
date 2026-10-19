@@ -1,0 +1,15 @@
+{
+  "focused_tests_passed": 22,
+  "new_tests_passed": 11,
+  "related_tests_passed": 11,
+  "seconds": 4.57,
+  "command": ".venv/bin/python -m pytest -q tests/test_mutation_transition.py tests/test_mutation_depth.py",
+  "initial_result": {
+    "passed": 21,
+    "failed": 1,
+    "seconds": 4.55,
+    "reason": "Test expected alternative minus shortest length 8; simple source-goal route difference is 12. Corrected assertion and protocol before freeze, no candidate calls and no fixture changes."
+  },
+  "tests_collected": 263,
+  "fresh_full_suite": false
+}
