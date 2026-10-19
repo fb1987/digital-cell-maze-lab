@@ -1,0 +1,95 @@
+{"stage": "fixture", "models": 100, "calls": 9600, "seconds": 0.95}
+{"stage": "fixture", "models": 200, "calls": 19200, "seconds": 1.99}
+{"stage": "fixture", "models": 300, "calls": 28800, "seconds": 3.46}
+{"stage": "fixture", "models": 400, "calls": 38400, "seconds": 5.22}
+{"stage": "fixture", "models": 500, "calls": 48000, "seconds": 6.54}
+{"stage": "fixture", "models": 600, "calls": 57600, "seconds": 7.6}
+{"stage": "fixture", "models": 700, "calls": 67200, "seconds": 9.0}
+{"stage": "fixture", "models": 800, "calls": 76800, "seconds": 10.01}
+{"stage": "fixture", "models": 900, "calls": 86400, "seconds": 11.51}
+{
+  "passed": false,
+  "walks_per_root_block": 0,
+  "planning_rate": 0.0012488136117857114,
+  "group_rates": {
+    "P9/0/depth1": 5.5989049504508635e-05,
+    "P9/0/depth4": 5.5687594226583315e-05,
+    "P9/0/depth16": 6.342032315842516e-05,
+    "P9/0/resample": 3.1646429647480545e-05,
+    "P9/1/depth1": 5.9142032834339865e-05,
+    "P9/1/depth4": 5.72085196684687e-05,
+    "P9/1/depth16": 5.583749960654435e-05,
+    "P9/1/resample": 0.00011988074830545277,
+    "P9/2/depth1": 5.680762819793017e-05,
+    "P9/2/depth4": 6.239633944460365e-05,
+    "P9/2/depth16": 8.328132673796063e-05,
+    "P9/2/resample": 9.308505741500994e-05,
+    "Qfresh0/0/depth1": 0.000152315141993616,
+    "Qfresh0/0/depth4": 0.00041083767841125035,
+    "Qfresh0/0/depth16": 0.0006244068058928557,
+    "Qfresh0/0/resample": 0.0001626471838562793,
+    "Qfresh0/1/depth1": 9.077535780003625e-05,
+    "Qfresh0/1/depth4": 0.00034848100494855316,
+    "Qfresh0/1/depth16": 0.0005152802582415461,
+    "Qfresh0/1/resample": 0.00011366022242024579,
+    "Qfresh0/2/depth1": 0.00015067583770663381,
+    "Qfresh0/2/depth4": 0.0003860583666058422,
+    "Qfresh0/2/depth16": 0.0005442315554470648,
+    "Qfresh0/2/resample": 0.00020029756035455648,
+    "Qcurrent1/0/depth1": 5.091769397343645e-05,
+    "Qcurrent1/0/depth4": 5.165305458376679e-05,
+    "Qcurrent1/0/depth16": 5.360213299354655e-05,
+    "Qcurrent1/0/resample": 0.000453871026517542,
+    "Qcurrent1/1/depth1": 5.023761146579394e-05,
+    "Qcurrent1/1/depth4": 5.047934306882477e-05,
+    "Qcurrent1/1/depth16": 0.0002305802147096377,
+    "Qcurrent1/1/resample": 0.00016306081844656245,
+    "Qcurrent1/2/depth1": 5.243111407556474e-05,
+    "Qcurrent1/2/depth4": 0.00011645160399590775,
+    "Qcurrent1/2/depth16": 0.0002026821852041394,
+    "Qcurrent1/2/resample": 0.00022596930352847266,
+    "Qfresh2/0/depth1": 3.9531985597326034e-05,
+    "Qfresh2/0/depth4": 3.9555729548131545e-05,
+    "Qfresh2/0/depth16": 4.5274562050205226e-05,
+    "Qfresh2/0/resample": 6.904049807114158e-05,
+    "Qfresh2/1/depth1": 4.001963964128663e-05,
+    "Qfresh2/1/depth4": 4.003228635459285e-05,
+    "Qfresh2/1/depth16": 6.195731062537864e-05,
+    "Qfresh2/1/resample": 0.00018749798433267034,
+    "Qfresh2/2/depth1": 4.02916526051437e-05,
+    "Qfresh2/2/depth4": 4.008592774577361e-05,
+    "Qfresh2/2/depth16": 8.728224152794914e-05,
+    "Qfresh2/2/resample": 6.88656108422947e-05,
+    "Qrandom95/0/depth1": 4.091719218498232e-05,
+    "Qrandom95/0/depth4": 4.194626429428657e-05,
+    "Qrandom95/0/depth16": 3.965011383873692e-05,
+    "Qrandom95/0/resample": 0.00024614632426770794,
+    "Qrandom95/1/depth1": 4.114780282786038e-05,
+    "Qrandom95/1/depth4": 4.1216992144654796e-05,
+    "Qrandom95/1/depth16": 4.2598887299997536e-05,
+    "Qrandom95/1/resample": 0.00022408228714236125,
+    "Qrandom95/2/depth1": 3.933304018725418e-05,
+    "Qrandom95/2/depth4": 3.965551976155742e-05,
+    "Qrandom95/2/depth16": 3.9951832491169625e-05,
+    "Qrandom95/2/resample": 0.00026311913965552475
+  },
+  "planned_calls_upper": 0,
+  "projected_seconds": 0.0,
+  "budget": {
+    "cap_seconds": 120,
+    "seconds": 12.34770008851774,
+    "calls": 91776,
+    "work": 7367604280,
+    "maximum": 0.002295167010743171
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.13400695798918605,
+    "case": "fixture/core/a(2, 2)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "wall_seconds": 15.477437541994732,
+  "scores_used_for_schedule": false
+}
+
