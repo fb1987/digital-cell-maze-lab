@@ -6,5 +6,14 @@
   "fixture_labels_independently_checked": 200,
   "initial_test_issue": "Oracle-import isolation test falsely matched dataclasses by substring; changed to exact allowed module names before freeze. No runtime failure.",
   "prior_coverage": 153,
-  "fresh_full_suite": false
+  "fresh_full_suite": false,
+  "postfreeze_analysis_tests": 2,
+  "postfreeze_analysis_result": "2 passed in 0.24s",
+  "current_test_coverage": 163,
+  "notes": "8 new runtime/data tests before candidate evaluation, 2 analysis regressions after final data; 5 existing focused tests also passed. The full 163-test suite was not run.",
+  "collection_check": {
+    "command": ".venv/bin/python -m pytest tests --collect-only -q",
+    "result": "163 tests collected in 0.11s",
+    "unscoped_attempt": "Unscoped collection descended into ignored output/plot-libs dependency test suites and raised five third-party fixture/dependency errors. Scoping collection to repository tests/ passes; no runtime or study source was changed."
+  }
 }

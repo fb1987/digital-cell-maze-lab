@@ -34,7 +34,56 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): V12E is complete. Read
+Current checkpoint (October 19, 2026): V12F is complete. Read
+`results/route_confirmation.md` and `docs/ROUTE_CONFIRMATION_PROGRESS.md` first.
+Do not rerun/extend it or resume V12E. No evolution occurred. Protocol, source,
+fixtures and exact target/parent/checkpoint/replacement models were frozen and
+pushed in9298bd0 BEFORE fresh final generation. Seed2026101901; preflight1204.
+48 reachable bases ×8paired poses ×2goals =768inputs, plus64disconnected inputs.
+Bands4–8/9–16/17–32; balanced trees/cycles, interior/rim sources and junction
+bearing. Every paired task requires different shortest exits after a shared prefix.
+
+Targeti72095 and parenti72029 both0/768legal/shortest,0/384pairs,0/64no-path.
+D checkpointi66411 solves10/768and2/384pairs; E Paired replacementi103154 solves
+5/768and0pairs. All these successes are4–8edges; allfour0/512at9–32edges.
+The checkpoint's2pairs are two poses of ONE cyclic base. IntactVM/BFS solve
+768/768reachable,384/384pairs,64/64no-path. Target screen fails in both families.
+
+Target normal emits768reachable rasters:712branched/cyclic,56disconnected.
+Goal switching changes source state360/384,junction384/384,output away from
+goals376/384 at some recorded tick; strict-both choices0/384 at all recorded
+and pre-stop ticks. Pulse-off removes measured goal response; static flag removal
+leaves every measured normal output and complete target trajectory unchanged.
+Source-only stopping emits all832responses at tick2, missing goals. All266,312
+recorded frames across4variants have0legal path geometry. Caps remain active;
+only384/768traces pervariant reach96ticks. Forced probes are not normal outputs.
+
+Post-hoc saved geometry shows all THREE earlier target9/24/25-edge successes
+have degree2 at source/goal and every internal route vertex: winding corridors
+with NO internal branch junctions. This is reused explanatory evidence, not a
+new holdout. V12F also changes generators; do not attribute the between-study
+difference solely to branches. Random-origin discovery remains central, but
+these successes do not establish general branch routing. Target and parent
+normal outputs/status/ticks/work match on all832cases; hidden parent trajectories
+were not recorded. Keep all genomes and useful diversity.
+
+Inference123.65s,10,560responses,73,688,626,896workunits,589.25MiBpeak;600s cap
+not extended. Wall137.13s;audit191.35s separately. Audit passes139source/36input
+hashes,616fixture/final pair labels,8,320normal rasters/replays,4,160native-adapter
+checks,3,072trajectory replays,1,536observer checks,266,312geometry frames.
+10new tests covered plus previous153 and5existing focused passes; do not claim
+fresh full163-test run. No eligible successful target timing case; no speedup.
+
+All **125,008 whole layouts** through V12F must be excluded next, including
+200new fixtures and416final poses. Preserve raw masks/trajectories and all old
+population/RNG states. No retuning against inspected final data. Next proposal,
+NOT launched/preregistered: calibrate minimal paired forks, then isolate one
+branch-suppression curriculum/pressure change in matched random-origin arms,
+with common protected corridor/short-route/choice diversity. A validation gate
+must precede more60–90min compute. Include corridors and branches under the
+SAME generator in future confirmation. See `results/route_confirmation/next_experiment.md`.
+
+Historical checkpoint (October 18, 2026): V12E is complete. Read
 `results/foundation_pair.md` and `docs/FOUNDATION_PAIR_PROGRESS.md` first.
 Do not rerun or extend it. Eighteen conditions of 96 organisms fork generation
 865 fresh-origin states into Current/Paired evolution plus Current resampling,

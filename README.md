@@ -4,7 +4,40 @@ An experimental, **offline-first**, biologically inspired computing project. The
 
 The central distinction: **one organism solves one entire maze.** The many grid sites are the organism's internal computing medium, *not* independent intelligent agents. Dozens or thousands of organisms, each possessing a different genome, can be evaluated in a population and selectively reproduced/mutated.
 
-## Current checkpoint — October 18, 2026
+## Current checkpoint — October 19, 2026
+
+The [V12F independent confirmation](results/route_confirmation.md) is complete.
+**The preserved longer-route genome fails transfer: 0/768 fresh reachable
+routes and 0/384 complete goal pairs.** Its parent also scores zero; the original
+checkpoint achieves 10 individual short routes and two paired poses of one cyclic
+base, and the Paired replacement achieves five individual short routes. None of
+the four solves a 9–32-edge input. BFS and the intact wavefront solve all 768
+reachable and 64 disconnected inputs.
+
+The mechanism is clearer. Switching goals changes the target's junction state
+in all 384 pairs, but it never selects both correct exits. Static flag removal
+leaves measured trajectories unchanged; removing the pulse removes the measured
+goal response. Removing endpoint checks makes it emit after two ticks, without
+reaching the goal. No legal path occurs in any of 266,312 saved trajectory frames.
+A post-hoc geometry check finds that the earlier 9/24/25-edge successes all lay
+within **winding corridors with no internal branch junctions**. The confirmation
+also uses new generators, so the distribution change limits causal comparisons.
+
+All models and protocol were pushed in `9298bd0` before fresh case generation.
+Inference took 123.65 seconds under a fixed ten-minute cap; independent audit
+191.35 seconds. Every normal output and complete trajectory replays correctly.
+Ten new tests are covered alongside the previous 153, plus five focused existing
+tests; no full 163-test run is claimed. All raw evidence and prior population/RNG
+checkpoints remain intact. Future studies must exclude **125,008 whole layouts**.
+
+Random-origin discovery remains an active research direction. The
+[next recommendation](results/route_confirmation/next_experiment.md), not launched,
+is a controlled minimal-fork learning test focused on suppressing wrong branches,
+with useful corridor and short-route diversity preserved. The unchanged search
+recipe should not receive another long run merely because of the earlier isolated
+long outputs. See the [completed handoff](docs/ROUTE_CONFIRMATION_PROGRESS.md).
+
+## Completed controlled comparison V12E
 
 The [V12E controlled comparison](results/foundation_pair.md) is complete:
 **500 additional matched generations, 865→1365, in 75.14 minutes**, across 18
