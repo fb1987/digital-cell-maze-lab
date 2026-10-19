@@ -34,6 +34,17 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+The user has now authorized V12E, the controlled completed-pair-priority
+comparison. Read `docs/FOUNDATION_PAIR_V12E.md` and
+`docs/FOUNDATION_PAIR_PROGRESS.md`. New `foundation_pair*.py` modules and
+`results/foundation_pair/` preserve all completed V12 source/raw packets.
+Eighteen matched conditions fork generation-865 fresh-origin populations/RNG;
+fixed 4500-second search, common final archives, new 3–8-edge transfer and
+retention criteria. Finish confirmation/audit/report after search; do not
+repeat or extend V12D. All 85,548 older layouts plus 80 new construction fixtures
+are excluded from new training/final generation. Old validation is deliberately
+reused selection data.
+
 Current checkpoint (October 18, 2026): the authorized V12D continuation is
 complete. Read `results/foundation_continuation.md` and
 `docs/FOUNDATION_CONTINUATION_PROGRESS.md` first. Do not repeat the completed

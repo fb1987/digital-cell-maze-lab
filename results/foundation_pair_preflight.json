@@ -1,0 +1,30 @@
+{
+  "tests_covered": 8,
+  "first_run": {
+    "passed": 6,
+    "failed": 1,
+    "seconds": 28.3,
+    "issue": "Test reader used the integer changes count instead of the events list; corrected before launch."
+  },
+  "focused_recheck": {
+    "passed": 2,
+    "seconds": 11.88,
+    "scope": "Corrected tradeoff test plus new paired-arm deterministic-resume test"
+  },
+  "parent_generation": 865,
+  "conditions": 18,
+  "population": 96,
+  "matched_evolution_forks": 6,
+  "excluded_layouts": 85628,
+  "construction_seed": 1194,
+  "construction_new_layouts": 80,
+  "candidate_inferences_on_new_fixture_layouts": 0,
+  "source_sha256": {
+    "maze_evolution/foundation_pair_screen.py": "bffc2513ebb9d7216a1a3cfe2765cff19102e0c21eee7284c79759ee16ba8903",
+    "maze_evolution/foundation_pair_search.py": "742e61798ab8b54cfc7df1e3f01b7007c147b9caa5a1c487ab51f5506d33aecc",
+    "maze_evolution/foundation_pair_data.py": "ba49434947aab132e5b9a7e6cd75d933fa89385292982801f2f108a45b7525b8",
+    "maze_evolution/foundation_pair.py": "4016f6b2f4758705299493eaeba84cb3cf314ebcbd9605d03780ced7cc5a2551",
+    "tests/test_foundation_pair.py": "eaf75beadcc0a442213fd0133e046c831d45c3ab7f2535e32ca64b7055bf8378",
+    "docs/FOUNDATION_PAIR_V12E.md": "25f8e51d8c9e03dd28bc14118cdc46f49ee75e6e6b3fa2d1ee0799def00955d1"
+  }
+}

@@ -6,6 +6,17 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The user-authorized [V12E controlled comparison](docs/FOUNDATION_PAIR_V12E.md)
+is prepared for its fixed 75-minute search. Eighteen conditions compare
+completed-pair-first and Current evolution from identical generation-865
+fresh-origin populations/RNG, plus continued resampling controls. Primary models
+use the same validation archive rule in both arms; fresh tests separate
+two-edge retention from 3–8-edge transfer. See the
+[progress record](docs/FOUNDATION_PAIR_PROGRESS.md). Preflight passes; no V12E
+confirmation result is available yet.
+
+## Completed continuation V12D
+
 The [V12D continuation](results/foundation_continuation.md) is complete:
 **423 additional matched generations in 75.32 minutes**, carrying all 24
 populations of 96 organisms and their RNG states from generation 442 to 865.
