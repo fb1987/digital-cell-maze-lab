@@ -1,0 +1,974 @@
+{
+  "discovery": {
+    "0/local": {
+      "arms": {
+        "depth1": {
+          "gene_range": [
+            64,
+            99.0,
+            129
+          ],
+          "genetically_changed": 183,
+          "mask_changes": 2,
+          "counter_changes": 117,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 9140010289,
+          "emitted_calls": 13852,
+          "max_array_bytes": 6752,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 1
+        },
+        "depth4": {
+          "gene_range": [
+            63,
+            100.0,
+            131
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 14,
+          "counter_changes": 185,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 8555213704,
+          "emitted_calls": 13484,
+          "max_array_bytes": 6808,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 1
+        },
+        "depth16": {
+          "gene_range": [
+            66,
+            108.5,
+            145
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 41,
+          "counter_changes": 192,
+          "useful": 1,
+          "logical_calls": 92160,
+          "logical_work": 7139878253,
+          "emitted_calls": 12000,
+          "max_array_bytes": 7200,
+          "corridor_loss_candidates": 3,
+          "pair_loss_candidates": 1
+        },
+        "single": {
+          "gene_range": [
+            64,
+            99.0,
+            129
+          ],
+          "genetically_changed": 188,
+          "mask_changes": 1,
+          "counter_changes": 128,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 9175049245,
+          "emitted_calls": 13872,
+          "max_array_bytes": 6752,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "resample": {
+          "gene_range": [
+            64,
+            96.0,
+            128
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 100,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5658013783,
+          "emitted_calls": 15308,
+          "max_array_bytes": 6724,
+          "corridor_loss_candidates": 6,
+          "pair_loss_candidates": 2
+        }
+      },
+      "first_queried_depth": {
+        "mask": {
+          "none": 150,
+          "4": 12,
+          "16": 28,
+          "1": 2
+        },
+        "counter": {
+          "1": 117,
+          "4": 70,
+          "16": 5
+        },
+        "response": {
+          "none": 122,
+          "16": 42,
+          "4": 21,
+          "1": 7
+        },
+        "useful": {
+          "none": 191,
+          "16": 1
+        },
+        "new_nonadj": {
+          "none": 191,
+          "16": 1
+        }
+      }
+    },
+    "0/evolved": {
+      "arms": {
+        "depth1": {
+          "gene_range": [
+            64,
+            99.0,
+            129
+          ],
+          "genetically_changed": 183,
+          "mask_changes": 2,
+          "counter_changes": 116,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 8465096112,
+          "emitted_calls": 14134,
+          "max_array_bytes": 6752,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "depth4": {
+          "gene_range": [
+            63,
+            100.0,
+            131
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 15,
+          "counter_changes": 185,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 8154268361,
+          "emitted_calls": 13744,
+          "max_array_bytes": 6808,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "depth16": {
+          "gene_range": [
+            66,
+            108.5,
+            145
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 42,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 6711108768,
+          "emitted_calls": 11688,
+          "max_array_bytes": 7200,
+          "corridor_loss_candidates": 4,
+          "pair_loss_candidates": 0
+        },
+        "single": {
+          "gene_range": [
+            64,
+            99.0,
+            129
+          ],
+          "genetically_changed": 188,
+          "mask_changes": 1,
+          "counter_changes": 128,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 8416271158,
+          "emitted_calls": 14188,
+          "max_array_bytes": 6752,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "resample": {
+          "gene_range": [
+            64,
+            96.0,
+            128
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 98,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 4930885419,
+          "emitted_calls": 15136,
+          "max_array_bytes": 6724,
+          "corridor_loss_candidates": 6,
+          "pair_loss_candidates": 0
+        }
+      },
+      "first_queried_depth": {
+        "mask": {
+          "none": 148,
+          "16": 29,
+          "4": 13,
+          "1": 2
+        },
+        "counter": {
+          "1": 116,
+          "4": 71,
+          "16": 5
+        },
+        "response": {
+          "none": 124,
+          "16": 41,
+          "4": 21,
+          "1": 6
+        },
+        "useful": {
+          "none": 192
+        },
+        "new_nonadj": {
+          "none": 192
+        }
+      }
+    },
+    "1/local": {
+      "arms": {
+        "depth1": {
+          "gene_range": [
+            63,
+            94.0,
+            131
+          ],
+          "genetically_changed": 181,
+          "mask_changes": 3,
+          "counter_changes": 115,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5018414498,
+          "emitted_calls": 12492,
+          "max_array_bytes": 6808,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "depth4": {
+          "gene_range": [
+            64,
+            97.0,
+            134
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 13,
+          "counter_changes": 186,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5573298540,
+          "emitted_calls": 13192,
+          "max_array_bytes": 6892,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "depth16": {
+          "gene_range": [
+            64,
+            104.0,
+            149
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 37,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 4976991501,
+          "emitted_calls": 11892,
+          "max_array_bytes": 7312,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "single": {
+          "gene_range": [
+            63,
+            94.0,
+            134
+          ],
+          "genetically_changed": 186,
+          "mask_changes": 2,
+          "counter_changes": 120,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 4603357308,
+          "emitted_calls": 12352,
+          "max_array_bytes": 6892,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "resample": {
+          "gene_range": [
+            64,
+            96.0,
+            128
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 94,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5405514881,
+          "emitted_calls": 11356,
+          "max_array_bytes": 6724,
+          "corridor_loss_candidates": 2,
+          "pair_loss_candidates": 0
+        }
+      },
+      "first_queried_depth": {
+        "mask": {
+          "4": 10,
+          "none": 155,
+          "1": 3,
+          "16": 24
+        },
+        "counter": {
+          "1": 115,
+          "16": 4,
+          "4": 73
+        },
+        "response": {
+          "4": 12,
+          "none": 145,
+          "1": 4,
+          "16": 31
+        },
+        "useful": {
+          "none": 192
+        },
+        "new_nonadj": {
+          "none": 192
+        }
+      }
+    },
+    "1/evolved": {
+      "arms": {
+        "depth1": {
+          "gene_range": [
+            63,
+            94.0,
+            131
+          ],
+          "genetically_changed": 181,
+          "mask_changes": 3,
+          "counter_changes": 116,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 4648459149,
+          "emitted_calls": 14220,
+          "max_array_bytes": 6808,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "depth4": {
+          "gene_range": [
+            64,
+            97.0,
+            134
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 13,
+          "counter_changes": 186,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 4993471337,
+          "emitted_calls": 14896,
+          "max_array_bytes": 6892,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "depth16": {
+          "gene_range": [
+            64,
+            104.0,
+            149
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 34,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 4486039732,
+          "emitted_calls": 13212,
+          "max_array_bytes": 7312,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "single": {
+          "gene_range": [
+            63,
+            94.0,
+            134
+          ],
+          "genetically_changed": 186,
+          "mask_changes": 2,
+          "counter_changes": 121,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 4327632440,
+          "emitted_calls": 13856,
+          "max_array_bytes": 6892,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "resample": {
+          "gene_range": [
+            64,
+            96.0,
+            128
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 90,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5212172277,
+          "emitted_calls": 11260,
+          "max_array_bytes": 6724,
+          "corridor_loss_candidates": 2,
+          "pair_loss_candidates": 0
+        }
+      },
+      "first_queried_depth": {
+        "mask": {
+          "4": 10,
+          "none": 158,
+          "1": 3,
+          "16": 21
+        },
+        "counter": {
+          "1": 116,
+          "16": 4,
+          "4": 72
+        },
+        "response": {
+          "4": 13,
+          "none": 147,
+          "1": 4,
+          "16": 28
+        },
+        "useful": {
+          "none": 192
+        },
+        "new_nonadj": {
+          "none": 192
+        }
+      }
+    },
+    "2/local": {
+      "arms": {
+        "depth1": {
+          "gene_range": [
+            64,
+            92.0,
+            133
+          ],
+          "genetically_changed": 183,
+          "mask_changes": 2,
+          "counter_changes": 128,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5490204000,
+          "emitted_calls": 11080,
+          "max_array_bytes": 6864,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "depth4": {
+          "gene_range": [
+            62,
+            94.0,
+            143
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 8,
+          "counter_changes": 187,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5356601380,
+          "emitted_calls": 10812,
+          "max_array_bytes": 7144,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "depth16": {
+          "gene_range": [
+            67,
+            104.5,
+            169
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 25,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5813122290,
+          "emitted_calls": 9516,
+          "max_array_bytes": 7872,
+          "corridor_loss_candidates": 3,
+          "pair_loss_candidates": 0
+        },
+        "single": {
+          "gene_range": [
+            64,
+            91.0,
+            135
+          ],
+          "genetically_changed": 186,
+          "mask_changes": 2,
+          "counter_changes": 123,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5661331308,
+          "emitted_calls": 11084,
+          "max_array_bytes": 6920,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "resample": {
+          "gene_range": [
+            64,
+            96.5,
+            128
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 85,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 6104209022,
+          "emitted_calls": 12348,
+          "max_array_bytes": 6724,
+          "corridor_loss_candidates": 8,
+          "pair_loss_candidates": 0
+        }
+      },
+      "first_queried_depth": {
+        "mask": {
+          "none": 166,
+          "16": 18,
+          "1": 2,
+          "4": 6
+        },
+        "counter": {
+          "1": 128,
+          "4": 60,
+          "16": 4
+        },
+        "response": {
+          "none": 150,
+          "4": 10,
+          "16": 30,
+          "1": 2
+        },
+        "useful": {
+          "none": 192
+        },
+        "new_nonadj": {
+          "none": 192
+        }
+      }
+    },
+    "2/evolved": {
+      "arms": {
+        "depth1": {
+          "gene_range": [
+            64,
+            92.0,
+            133
+          ],
+          "genetically_changed": 183,
+          "mask_changes": 2,
+          "counter_changes": 128,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5426899672,
+          "emitted_calls": 10600,
+          "max_array_bytes": 6864,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "depth4": {
+          "gene_range": [
+            62,
+            94.0,
+            143
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 8,
+          "counter_changes": 187,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5272363397,
+          "emitted_calls": 10300,
+          "max_array_bytes": 7144,
+          "corridor_loss_candidates": 1,
+          "pair_loss_candidates": 0
+        },
+        "depth16": {
+          "gene_range": [
+            67,
+            104.5,
+            169
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 24,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5672059663,
+          "emitted_calls": 9132,
+          "max_array_bytes": 7872,
+          "corridor_loss_candidates": 2,
+          "pair_loss_candidates": 0
+        },
+        "single": {
+          "gene_range": [
+            64,
+            91.0,
+            135
+          ],
+          "genetically_changed": 186,
+          "mask_changes": 2,
+          "counter_changes": 126,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5463451462,
+          "emitted_calls": 10764,
+          "max_array_bytes": 6920,
+          "corridor_loss_candidates": 0,
+          "pair_loss_candidates": 0
+        },
+        "resample": {
+          "gene_range": [
+            64,
+            96.5,
+            128
+          ],
+          "genetically_changed": 192,
+          "mask_changes": 79,
+          "counter_changes": 192,
+          "useful": 0,
+          "logical_calls": 92160,
+          "logical_work": 5610487220,
+          "emitted_calls": 11430,
+          "max_array_bytes": 6724,
+          "corridor_loss_candidates": 6,
+          "pair_loss_candidates": 0
+        }
+      },
+      "first_queried_depth": {
+        "mask": {
+          "none": 167,
+          "16": 17,
+          "1": 2,
+          "4": 6
+        },
+        "counter": {
+          "1": 128,
+          "4": 60,
+          "16": 4
+        },
+        "response": {
+          "none": 152,
+          "4": 9,
+          "16": 29,
+          "1": 2
+        },
+        "useful": {
+          "none": 192
+        },
+        "new_nonadj": {
+          "none": 192
+        }
+      }
+    }
+  },
+  "final": {
+    "0/local": {
+      "depth1": {
+        "id": "mutation_depth/r0/f81/walk0/d1",
+        "pairs": 8,
+        "nonadj": 0,
+        "mean_score": 0.03125,
+        "strict": 0,
+        "corridors": 72,
+        "same_program_as_reference": false
+      },
+      "depth4": {
+        "id": "mutation_depth/r0/f81/walk0/d4",
+        "pairs": 8,
+        "nonadj": 0,
+        "mean_score": 0.03125,
+        "strict": 0,
+        "corridors": 72,
+        "same_program_as_reference": false
+      },
+      "depth16": {
+        "id": "mutation_depth/r0/f71/walk0/d16",
+        "pairs": 96,
+        "nonadj": 64,
+        "mean_score": 0.6666666666666666,
+        "strict": 64,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "single": {
+        "id": "mutation_depth/r0/f81/single1",
+        "pairs": 8,
+        "nonadj": 0,
+        "mean_score": 0.03125,
+        "strict": 0,
+        "corridors": 72,
+        "same_program_as_reference": false
+      },
+      "resample": {
+        "id": "mutation_depth/r0/f15/random1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      }
+    },
+    "0/evolved": {
+      "depth1": {
+        "id": "mutation_depth/r0/f81/walk0/d1",
+        "pairs": 12,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 10,
+        "same_program_as_reference": false
+      },
+      "depth4": {
+        "id": "mutation_depth/r0/f81/walk0/d4",
+        "pairs": 12,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 10,
+        "same_program_as_reference": false
+      },
+      "depth16": {
+        "id": "mutation_depth/r0/f81/walk0/d16",
+        "pairs": 12,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 10,
+        "same_program_as_reference": false
+      },
+      "single": {
+        "id": "mutation_depth/r0/f81/single1",
+        "pairs": 12,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 10,
+        "same_program_as_reference": false
+      },
+      "resample": {
+        "id": "mutation_depth/r0/f30/random0",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      }
+    },
+    "1/local": {
+      "depth1": {
+        "id": "mutation_depth/r1/f62/walk1/d1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth4": {
+        "id": "mutation_depth/r1/f62/walk1/d4",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth16": {
+        "id": "mutation_depth/r1/f53/walk0/d16",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "single": {
+        "id": "mutation_depth/r1/f62/single1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "resample": {
+        "id": "mutation_depth/r1/f26/random1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      }
+    },
+    "1/evolved": {
+      "depth1": {
+        "id": "mutation_depth/r1/f62/walk1/d1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth4": {
+        "id": "mutation_depth/r1/f62/walk1/d4",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth16": {
+        "id": "mutation_depth/r1/f53/walk0/d16",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "single": {
+        "id": "mutation_depth/r1/f62/single1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "resample": {
+        "id": "mutation_depth/r1/f26/random1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      }
+    },
+    "2/local": {
+      "depth1": {
+        "id": "mutation_depth/r2/f14/walk1/d1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth4": {
+        "id": "mutation_depth/r2/f14/walk0/d4",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth16": {
+        "id": "mutation_depth/r2/f69/walk1/d16",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "single": {
+        "id": "mutation_depth/r2/f14/single1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "resample": {
+        "id": "mutation_depth/r2/f74/random1",
+        "pairs": 32,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 64,
+        "same_program_as_reference": false
+      }
+    },
+    "2/evolved": {
+      "depth1": {
+        "id": "mutation_depth/r2/f14/walk1/d1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth4": {
+        "id": "mutation_depth/r2/f14/walk0/d4",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "depth16": {
+        "id": "mutation_depth/r2/f69/walk1/d16",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "single": {
+        "id": "mutation_depth/r2/f14/single1",
+        "pairs": 0,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 320,
+        "same_program_as_reference": false
+      },
+      "resample": {
+        "id": "mutation_depth/r2/f74/random1",
+        "pairs": 32,
+        "nonadj": 0,
+        "mean_score": 0.0,
+        "strict": 0,
+        "corridors": 64,
+        "same_program_as_reference": false
+      }
+    }
+  }
+}

@@ -6,6 +6,36 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12O cumulative-mutation assay](results/mutation_depth.md) is complete and
+independently audited. **A new random-origin descendant acquires a short-route
+skill after a performance-blind 16-edit walk.** On untouched final layouts it
+completes 64 non-adjacent shortest-path pairs, all 32 adjacent pairs and all 320
+corridors. Its original founder and depth-1/depth-4 checkpoints complete no pairs.
+
+The new skill works for two- and three-edge choices at the source, in straight
+and turning forms, all eight poses. It fails the tested one-edge shared-prefix
+forks. Only one of 576 deep walks supplies the new interior branch response;
+the broader discovery gate fails, so no evolution pilot launches. This is a
+rare confirmed gain, not general solving or a replicated population advantage.
+
+![New short-route behavior after cumulative mutation](results/mutation_depth/visuals/saved_mutation_example.png)
+
+Two other depth-16 descendants solve every matched corridor and correctly report
+the isolated disconnected goals, while still failing every paired choice.
+All intermediate genomes and RNG are saved. The next proposal freezes the new
+lineage's seventeen states and tests the mutation transition and transfer limits
+on a new matched corpus, before considering a larger evolutionary run.
+
+Main inference: **349.14 seconds**, 3,100,320 calls. Audit passes first attempt:
+3,475,080 exact candidate replays, 3,477,960 independently graded rasters and
+all 1,883 prior completion entries. Twenty-two focused tests covered;252 tests
+collected, not a fresh full suite. Exclude **178,232 whole layouts** next.
+Beneficial multirange use and speedup remain unestablished. See the
+[handoff](docs/MUTATION_DEPTH_PROGRESS.md) and
+[unlaunched lineage proposal](results/mutation_depth/next_experiment.md).
+
+## Completed branch-pressure calibration V12N
+
 The [V12N branch-pressure calibration](results/branch_pressure_calibration.md) is
 complete and audited. **The new pressure did not change selection**, so the
 conditional evolution pilot was not launched. Across three preserved random
@@ -28,7 +58,7 @@ completion entries. Twenty-one focused tests pass; 241 repository tests collecte
 not a fresh full suite. Exclude **177,032 whole layouts** next. General solving,
 beneficial multirange use and speedup remain unestablished. See the
 [handoff](docs/BRANCH_PRESSURE_CALIBRATION_PROGRESS.md) and
-[unlaunched cumulative-variation proposal](results/branch_pressure_calibration/next_experiment.md).
+[cumulative-variation proposal](results/branch_pressure_calibration/next_experiment.md), now completed as V12O above.
 
 ## Completed inherited exposure calibration V12M
 

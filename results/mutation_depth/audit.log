@@ -1,0 +1,54 @@
+{"scope": "fixture", "models": 500, "replays": 30000, "seconds": 4.08}
+{"scope": "fixture", "models": 1000, "replays": 60000, "seconds": 8.22}
+{"scope": "fixture", "models": 1500, "replays": 90000, "seconds": 11.76}
+{"scope": "fixture", "models": 2000, "replays": 120000, "seconds": 16.07}
+{"scope": "fixture", "models": 2500, "replays": 150000, "seconds": 20.41}
+{"scope": "fixture", "models": 3000, "replays": 180000, "seconds": 24.27}
+{"scope": "fixture", "models": 3500, "replays": 210000, "seconds": 28.23}
+{"scope": "fixture", "models": 4000, "replays": 240000, "seconds": 33.02}
+{"scope": "fixture", "models": 4500, "replays": 270000, "seconds": 36.91}
+{"scope": "fixture", "models": 5000, "replays": 300000, "seconds": 41.28}
+{"scope": "fixture", "models": 5500, "replays": 330000, "seconds": 45.33}
+{"scope": "fixture", "models": 6000, "replays": 360000, "seconds": 49.52}
+{"scope": "fixture", "complete": true, "calls": 374760, "seconds": 51.59577754198108}
+{"scope": "discovery", "models": 500, "replays": 614760, "seconds": 33.44}
+{"scope": "discovery", "models": 1000, "replays": 854760, "seconds": 67.26}
+{"scope": "discovery", "models": 1500, "replays": 1094760, "seconds": 96.34}
+{"scope": "discovery", "models": 2000, "replays": 1334760, "seconds": 130.33}
+{"scope": "discovery", "models": 2500, "replays": 1574760, "seconds": 164.76}
+{"scope": "discovery", "models": 3000, "replays": 1814760, "seconds": 196.06}
+{"scope": "discovery", "models": 3500, "replays": 2054760, "seconds": 228.91}
+{"scope": "discovery", "models": 4000, "replays": 2294760, "seconds": 267.95}
+{"scope": "discovery", "models": 4500, "replays": 2534760, "seconds": 300.08}
+{"scope": "discovery", "models": 5000, "replays": 2774760, "seconds": 335.35}
+{"scope": "discovery", "models": 5500, "replays": 3014760, "seconds": 366.93}
+{"scope": "discovery", "models": 6000, "replays": 3254760, "seconds": 401.22}
+{"scope": "discovery", "complete": true, "calls": 2998080, "seconds": 418.3789575410192}
+{"scope": "validation", "complete": true, "calls": 42720, "seconds": 5.8042248749989085}
+{"scope": "confirmation", "complete": true, "calls": 59520, "seconds": 7.122913333005272}
+{
+  "passed": true,
+  "counts": {
+    "prior_completion_hashes": 1883,
+    "mutation_steps": 9792,
+    "walks": 576,
+    "random_draws": 576,
+    "preserved_founders": 288,
+    "graph_cases": 2400,
+    "whole_layouts_through_O": 178232,
+    "candidate_replays": 3475080,
+    "fixture_calls": 374760,
+    "independent_model_scores": 6397,
+    "discovery_calls": 2998080,
+    "validation_calls": 42720,
+    "confirmation_calls": 59520,
+    "nominee_ranks": 5760,
+    "validated_choices": 30,
+    "baseline_replays": 2880,
+    "independent_rasters": 3477960
+  },
+  "source_hashes": 181,
+  "input_hashes": 12,
+  "wall_seconds": 495.5733686669846,
+  "peak_rss_bytes": 1524776960
+}

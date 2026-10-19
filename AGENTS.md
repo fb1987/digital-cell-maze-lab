@@ -34,11 +34,87 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12N is complete and independently audited**. Read
+Current checkpoint: **V12O is complete and independently audited**. Read
+`results/mutation_depth.md` and `docs/MUTATION_DEPTH_PROGRESS.md` first. Do not
+repeat O, extend its closed cap, alter frozen source, resume old runs or
+train/reselect on final cases. The broad discovery gate fails; no evolution
+pilot launched. A targeted lineage/transfer follow-up is a proposal only.
+
+Protocol/source/pools/fixtures pushed in f08484c BEFORE any candidate inference;
+all discovery/validation evidence and choices pushed in 21d5bfb BEFORE final
+generation. Seed2026101910; fixtures1294. Three original M groups of96 founders;
+two performance-blind16-edit walks/founder queried at1/4/16, plus two independent
+one-edit children and two random draws. Each terminal arm192/group. Totals:
+3168 evaluated identities,6246 physical local/nonlocal configs,576 walks,
+9792 mutation events,576 random draws. Every intermediate genome and replayable
+RNG state saved. No known solver injection, breeding or performance feedback
+between edits. All-on M runtime/pulse/limits fixed; exposure bits inert.
+
+**New positive lineage:** local `mutation_depth/r0/f71/walk0/d16`,137 genes,
+descends from original random M `exposure/fresh/0/founder71`,128 genes. Untouched
+final gives96/160 complete shortest pairs:32 adjacent +64 non-adjacent, plus
+320/320 corridors and512/640 reachable shortest outputs. Non-adjacent successes:
+32 two-edge-arm +32 three-edge-arm pairs, straight/turning forms,8 clutter
+contexts of4 route-shape types, all8 poses. Founder and SAME WALK depths1/4 each
+0pairs and32corridors; all960 early masks match founder, but counters differ.
+Skill is present by16 and absent at4; first causal edit and necessity of16 edits
+are unknown. Immediate parent15 is saved but NOT queried. Preserve all17 states.
+
+Both shared-prefix fork classes fail. Each has ONE shared edge and total route
+length2 or3. Source degree/branch/tail geometry also differ, so failure is not
+an isolated causal prefix diagnosis. Target0/320correct no-path,0false claims.
+No new mechanism ablations. General solving, useful multirange and speedup remain
+unestablished. On DISCOVERY, same target local32nonadjpairs/160corridors versus
+nonlocal0/0; selection evidence only. Final nonlocal choice is a different genome.
+
+Only1 useful new response in discovery, group0/local/depth16:one founder/behavior.
+Its final-transfer gate PASSES, discovery gate FAILS (requires4useful,2founders/
+behaviors,2more than EACH depth1/single/resample control). Every combined gate
+fails; no depth/topology qualifies2/3. Do not reinterpret this as evolutionary
+readiness. Local changed masks at depths1/4/16 are[2,3,2]/[14,13,8]/[41,37,25]
+per192 candidates; more changed outputs do not imply useful solving. Median
+lengths96/97/105, deepest64–169; none reaches256-gene ceiling.
+
+Other selected choices0nonadjpairs. Group2 unmutated resample gives32adjpairs
+and64corridors inboth topologies; preserve it. Two separate depth16 descendants,
+`mutation_depth/r1/f53/walk0/d16` and `mutation_depth/r2/f69/walk1/d16`, each give
+320corridors+320correct no-path and0pairs underboth topologies. Group1 founder
+0corridors/0NP; group2 founder80corridors/320NP but432falseNP onreachable.
+All30 selected choices0falseNP. Disconnected goals are isolated clutter cells;
+these are limited reachability gains, not general no-path recognition.
+
+Scientific stages query all8poses. Discovery/validation10 contexts each,480
+inputs/80pairs; final20 contexts,960 inputs/160pairs,320corridors,320no-path.
+Small9×9 tree grammar, repeated route forms; no cycles/general maze test. Poses,
+goals, variants, walks/depths correlated. IntactVM/BFS/A*/bitwave each solve
+640reachable+320disconnected. No latency benchmark.
+
+Main349.14candidate seconds/720cap,3100320calls,203251399805work; wall414.93s,
+1249.61MiB peakRSS. Profile separate374760calls/42.45candidate seconds. Audit
+PASSES first attempt:495.57s wall,1454.14MiB RSS,3475080 exactcandidate replays,
+3477960 independently graded rasters,2880baseline replays,all9792events/576walks,
+6397model summaries,5760nominee ranks,30choices,181source/12input/1883prior
+completion hashes. No source repair or protocol deviation.22distinct focused
+tests covered (11new+11N);252collected,NOT a fresh full suite.
+
+Exclude ALL178232 whole layouts:177032throughN +240fixtures +240discovery
++240validation +480final. `mutation_depth_data.exclusions()` returns throughN
+ONLY; add `mazes.json.gz` from `results/mutation_depth_fixtures/` and
+`results/mutation_depth/{discovery,validation,confirmation}/`, including all poses.
+All old populations/RNG and completion packets remain intact.
+
+Next proposal only:freeze all17 saved target states, reachability lineages and
+controls; use a new matched corpus to localize the first useful transition and
+separate source prefix/degree/bends from downstream arm geometry. Normal successes
+precede preselected pulse/flag/endpoint/nonlocal probes. At most12candidate
+minutes after fixture profiling; no automatic60–90min evolution extension.
+See `results/mutation_depth/next_experiment.md`.
+
+Historical checkpoint: **V12N is complete and independently audited**. Read
 `results/branch_pressure_calibration.md` and `docs/BRANCH_PRESSURE_CALIBRATION_PROGRESS.md`.
 Do not rerun/extend N, resume old closed runs or train/reselect on its final cases.
 All calibration/final readiness gates FAIL; NO evolution pilot launched. The
-cumulative-mutation/full-orientation follow-up is a proposal only.
+cumulative-mutation/full-orientation follow-up is now completed as V12O above.
 
 Protocol/source/pools/fixtures pushed74fcc24 BEFORE anycandidatecall;12validation
 choices/evidence pushed8bbf2cf BEFORE finalgeneration. Seed2026101909,fixtures1284.
