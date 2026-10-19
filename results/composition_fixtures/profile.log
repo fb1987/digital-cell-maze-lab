@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "planning_rate": 0.0004490447924783641,
+  "pool_rates": {
+    "carry/0": 0.00018380823265336707,
+    "carry/1": 0.00017504369498055894,
+    "carry/2": 0.00022452239623918204,
+    "fresh/0": 0.0001357419747718167,
+    "fresh/1": 0.00021782702075749208,
+    "fresh/2": 0.00011574534487913802
+  },
+  "estimated_initial_seconds": 893.8937104158103,
+  "estimated_round_seconds": 11.057278969987237,
+  "estimated_96_round_seconds": 1955.3924915345851,
+  "budget": {
+    "cap_seconds": 180,
+    "seconds": 2.580816322180908,
+    "calls": 17792,
+    "work": 1532100300,
+    "maximum": 0.003892540989909321
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.10572633298579603,
+    "case": "fixture/core/a(2, 2)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "wall_seconds": 3.2291354999761097,
+  "scores_used_for_schedule": false
+}
+
