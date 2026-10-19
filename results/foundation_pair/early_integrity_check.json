@@ -1,0 +1,1453 @@
+{
+  "scope": "Read-only integrity check on a closed search checkpoint; no new layouts or candidate inference",
+  "through_generation": 905,
+  "additional_generations": 40,
+  "fitness_records": 69480,
+  "record_kinds": {
+    "train": 69120,
+    "validation": 360
+  },
+  "graded_search_rasters": 559872,
+  "training_success_records": 42288,
+  "sampled_other_training_records": 48,
+  "reproduction": {
+    "registered": 60480,
+    "mutations": 36000,
+    "immigrants": 24480,
+    "description": "Every child, mutation event, random immigrant, parent selection, retained population and RNG hash replayed from the verified starting state; no candidate inference.",
+    "conditions": {
+      "foundation_pair_paired/local/fresh/evolution/0": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 0,
+        "retained_genotype_sets_differ": 2,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2696,
+        "counterfactual_parent_ids_differ": 1,
+        "counterfactual_parent_genotypes_differ": 1,
+        "random_parent_draws": 304,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_current/local/fresh/resample/0": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 5,
+        "retained_genotype_sets_differ": 0,
+        "mutations": 0,
+        "immigrants": 3360,
+        "registered": 3360
+      },
+      "foundation_pair_current/evolved/fresh/evolution/0": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 1,
+        "retained_genotype_sets_differ": 2,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2698,
+        "counterfactual_parent_ids_differ": 19,
+        "counterfactual_parent_genotypes_differ": 19,
+        "random_parent_draws": 302,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_paired/evolved/fresh/evolution/0": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 0,
+        "retained_genotype_sets_differ": 0,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2720,
+        "counterfactual_parent_ids_differ": 7,
+        "counterfactual_parent_genotypes_differ": 7,
+        "random_parent_draws": 280,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_current/evolved/fresh/resample/0": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 6,
+        "retained_genotype_sets_differ": 0,
+        "mutations": 0,
+        "immigrants": 3360,
+        "registered": 3360
+      },
+      "foundation_pair_current/local/fresh/evolution/1": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 3,
+        "retained_genotype_sets_differ": 2,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2708,
+        "counterfactual_parent_ids_differ": 19,
+        "counterfactual_parent_genotypes_differ": 19,
+        "random_parent_draws": 292,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_paired/local/fresh/evolution/1": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 2,
+        "retained_genotype_sets_differ": 2,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2689,
+        "counterfactual_parent_ids_differ": 28,
+        "counterfactual_parent_genotypes_differ": 28,
+        "random_parent_draws": 311,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_current/local/fresh/resample/1": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 4,
+        "retained_genotype_sets_differ": 0,
+        "mutations": 0,
+        "immigrants": 3360,
+        "registered": 3360
+      },
+      "foundation_pair_current/evolved/fresh/evolution/1": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 2,
+        "retained_genotype_sets_differ": 4,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2707,
+        "counterfactual_parent_ids_differ": 10,
+        "counterfactual_parent_genotypes_differ": 10,
+        "random_parent_draws": 293,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_paired/evolved/fresh/evolution/1": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 0,
+        "retained_genotype_sets_differ": 2,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2687,
+        "counterfactual_parent_ids_differ": 7,
+        "counterfactual_parent_genotypes_differ": 7,
+        "random_parent_draws": 313,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_current/evolved/fresh/resample/1": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 3,
+        "retained_genotype_sets_differ": 0,
+        "mutations": 0,
+        "immigrants": 3360,
+        "registered": 3360
+      },
+      "foundation_pair_current/local/fresh/evolution/2": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 0,
+        "retained_genotype_sets_differ": 1,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2716,
+        "counterfactual_parent_ids_differ": 20,
+        "counterfactual_parent_genotypes_differ": 20,
+        "random_parent_draws": 284,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_paired/local/fresh/evolution/2": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 0,
+        "retained_genotype_sets_differ": 3,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2713,
+        "counterfactual_parent_ids_differ": 26,
+        "counterfactual_parent_genotypes_differ": 26,
+        "random_parent_draws": 287,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_current/local/fresh/resample/2": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 11,
+        "retained_genotype_sets_differ": 0,
+        "mutations": 0,
+        "immigrants": 3360,
+        "registered": 3360
+      },
+      "foundation_pair_current/evolved/fresh/evolution/2": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 0,
+        "retained_genotype_sets_differ": 6,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2697,
+        "counterfactual_parent_ids_differ": 6,
+        "counterfactual_parent_genotypes_differ": 6,
+        "random_parent_draws": 303,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_paired/evolved/fresh/evolution/2": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 1,
+        "retained_genotype_sets_differ": 8,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2711,
+        "counterfactual_parent_ids_differ": 25,
+        "counterfactual_parent_genotypes_differ": 25,
+        "random_parent_draws": 289,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      },
+      "foundation_pair_current/evolved/fresh/resample/2": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 9,
+        "retained_genotype_sets_differ": 0,
+        "mutations": 0,
+        "immigrants": 3360,
+        "registered": 3360
+      },
+      "foundation_pair_current/local/fresh/evolution/0": {
+        "generations": 40,
+        "global_top_genotype_sets_differ": 0,
+        "retained_genotype_sets_differ": 2,
+        "parent_draws": 3000,
+        "lexicase_parent_draws": 2716,
+        "counterfactual_parent_ids_differ": 6,
+        "counterfactual_parent_genotypes_differ": 6,
+        "random_parent_draws": 284,
+        "mutations": 3000,
+        "immigrants": 360,
+        "registered": 3360
+      }
+    },
+    "parent_counterfactual": "Same current population and identical RNG state immediately before each actual parent draw, alternate global/case priority; descriptive, not a second evolved trajectory.",
+    "differing_parent_examples": [
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 867,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i72903",
+        "alternative_parent": "foundation_study/local/fresh/evolution/1/i72610"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 867,
+        "mechanism": "random",
+        "selected_parent": "foundation_study/local/fresh/evolution/1/i72610",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i72903"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i72935",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i72936"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i72967",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i72969"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i72977",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i72979"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i73000",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i73001"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i72990",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i72995"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i72965",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i72968"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i73004",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i72894"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i72983",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i72991"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i72936",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i72935"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i72969",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i72967"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i72979",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i72977"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i72968",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i72965"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 868,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i72894",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73004"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 869,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73065",
+        "alternative_parent": "foundation_study/local/fresh/evolution/1/i72313"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 869,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i73074",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i73017"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 869,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i72955",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i73083"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/1",
+        "generation": 869,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i73047",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i73082"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 870,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73140",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73111"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 870,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73164",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73175"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/2",
+        "generation": 870,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73170",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73118"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 870,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73118",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73170"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73220",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73138"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73194",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/2/i72857"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73194",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/2/i72857"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73226",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/2/i73236"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73191",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73138"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73251",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i72857"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73251",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i72857"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 871,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73236",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73226"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 872,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73316",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73120"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73647",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73635"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73631",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73630"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i73635",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i73647"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i73630",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i73631"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73678",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73642"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73655",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73515"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73661",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73648"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/0",
+        "generation": 876,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i73642",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i73678"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i73720",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i73725"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i73729",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i73739"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i73701",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i73691"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i73716",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i73719"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i72941",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i73123"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73702",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73747"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73747",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73761"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73610",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73623"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73628",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i73692"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73728",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73725"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73722",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73719"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73750",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73748"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73725",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73720"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73739",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73729"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 877,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i73719",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i73716"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 879,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73910",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73909"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 879,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73883",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73872"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 879,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73906",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73905"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 879,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73920",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73919"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 879,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73926",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73925"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 879,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73103",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73883"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 879,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73917",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73916"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 880,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73738",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i73783"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 880,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73951",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73103"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 880,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73883",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73948"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 882,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73439",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73951"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 882,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i74164",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i74059"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 882,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i73439",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i73951"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i74278",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i74339"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74282",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74280"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74334",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74330"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74331",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74328"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74283",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74282"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74300",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74294"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74339",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74332"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74319",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74314"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74330",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74325"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/0",
+        "generation": 884,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/0/i74294",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/0/i74288"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74435",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74420"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74374",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74390"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74403",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74384"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74403",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74384"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74427",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74402"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/1",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i74375",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i74434"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/1",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i74381",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i74387"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 885,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i73036",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74389"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 886,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74504",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74498"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i74656",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i74646"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i74648",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i74647"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74647",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74650"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74665",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74675"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74660",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74667"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74653",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74662"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74647",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74650"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74193",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74616"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74648",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74622"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/0",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/0/i74618",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/0/i74622"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/0",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/0/i74664",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/0/i74671"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/0",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/0/i74631",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/0/i74635"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/0",
+        "generation": 888,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/0/i74686",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/0/i74687"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 889,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74698",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74435"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 889,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74732",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i74756"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 889,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i74702",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i74701"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 889,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i74698",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i74703"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 889,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i74742",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i74745"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 890,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74320",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i74794"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 890,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74805",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74849"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 890,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i74762",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i74701"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 890,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i74782",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i74828"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 890,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i74517",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i74832"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 892,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74989",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i74994"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 892,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74959",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74961"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 892,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74977",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74986"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 892,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74976",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74977"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 892,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74972",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i74976"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/0",
+        "generation": 892,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i74991",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i74876"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/0",
+        "generation": 892,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i74987",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i74998"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75039",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75033"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75039",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75033"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75067",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75043"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75038",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75096"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75095",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75072"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75068",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75107"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75107",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i72910"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 893,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i74884",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75034"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/0",
+        "generation": 894,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/0/i75033",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/0/i75036"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 896,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75259",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75291"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 896,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75334",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75039"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 896,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75300",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75302"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i75514",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i75513"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i75476",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i75473"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i75456",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i75383"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i75512",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i75508"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i75453",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i75399"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/1/i75476",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/1/i75471"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i75406",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i74636"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i75480",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i75485"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i75510",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i75454"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/1",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i75374",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/1/i75493"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75486",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75493"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 898,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75506",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75519"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 900,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i75656",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i75671"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/1",
+        "generation": 900,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/1/i75690",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/1/i75378"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 900,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75687",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75695"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 900,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75660",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75659"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 900,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75664",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75643"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 900,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75509",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75693"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/2",
+        "generation": 900,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75633",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/2/i75297"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/0",
+        "generation": 901,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75716",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75775"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/0",
+        "generation": 901,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75527",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75717"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/0",
+        "generation": 901,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75723",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75726"
+      },
+      {
+        "condition": "foundation_pair_paired/evolved/fresh/evolution/0",
+        "generation": 901,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75767",
+        "alternative_parent": "foundation_pair_paired/evolved/fresh/evolution/0/i75773"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75856",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75847"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75817",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75796"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75847",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75846"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75794",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75815"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75807",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75804"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75821",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75818"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75835",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75824"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75798",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75796"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/2",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/2/i75857",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/2/i75854"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75835",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75844"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75845",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75846"
+      },
+      {
+        "condition": "foundation_pair_paired/local/fresh/evolution/2",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_paired/local/fresh/evolution/2/i75849",
+        "alternative_parent": "foundation_pair_paired/local/fresh/evolution/2/i75853"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/0",
+        "generation": 902,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/0/i75795",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/0/i75791"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 903,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i75947",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i75921"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 903,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i75894",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i75901"
+      },
+      {
+        "condition": "foundation_pair_current/local/fresh/evolution/1",
+        "generation": 903,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/local/fresh/evolution/1/i75933",
+        "alternative_parent": "foundation_pair_current/local/fresh/evolution/1/i75939"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/2",
+        "generation": 904,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/2/i75939",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/2/i76027"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 904,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75999",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i76000"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 904,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i76007",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i76008"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 904,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i76029",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i76030"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 904,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75988",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75990"
+      },
+      {
+        "condition": "foundation_pair_current/evolved/fresh/evolution/0",
+        "generation": 904,
+        "mechanism": "random",
+        "selected_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75976",
+        "alternative_parent": "foundation_pair_current/evolved/fresh/evolution/0/i75977"
+      }
+    ]
+  },
+  "archive_changes": 13,
+  "elapsed_seconds": 38.47319187503308,
+  "all_checks_passed": true,
+  "verifier_sources": {
+    "foundation_pair_audit.py": "30a1cc4699b867cf63afaa44d24d0ed63cb86a7c9272f57d245df681f4b87d88",
+    "foundation_pair_replay.py": "dea67d6576ca9925de74e7e090fb9ad1d9bb5819e875f0ef2f7eaa4e0ffb3d5c"
+  }
+}
