@@ -6,6 +6,36 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12S recombination comparison](results/composition_study.md) and three-step
+research reassessment are complete and independently audited. **Sustained search
+finds stronger random-origin routing, but compatible recombination does not show
+a replicated advantage over mutation.**
+
+294 matched generations run for 72.22 minutes across 18 conditions. Two fresh mutation
+lineages complete 132 and 224 of 864 positive-prefix pairs on new contexts; matched
+recombination/resampling primaries complete zero. Carried mutation yields 512/390/512,
+recombination 448/512/224, versus 224 each for frozen/resampling controls. Only one
+recombination replicate passes both gates—and its winner has no splice ancestry.
+There are 45,248 actual splices, 97.3% transferring a single instruction. This does not
+establish useful combination of functional modules.
+
+![Matched comparisons and operator use](results/composition_study/comparison.png)
+
+Preserve the rarer prefix-four/cycle specialist and the fresh descendants. The best
+ordinary result is 74/384; all random-origin models fail 128 partition-disconnected
+inputs. General solving, multirange advantage and speedup remain unestablished.
+The [report](results/composition_study.md) distinguishes structural transfer,
+ancestry, lost skills and proposed mechanism tests. No next experiment launched.
+
+Audit passes 3,456,354 exact candidate replays and all
+birth/RNG/selection reconstruction. Training replay is sampled as preregistered;
+validation/final replay is complete. All populations and raw data remain saved.
+Exclude **217,240 whole layouts** next. See the
+[handoff](docs/COMPOSITION_PROGRESS.md), including lossless ancestry-log restoration
+after a fresh clone, and the [unlaunched proposal](results/composition_study/next_experiment.md).
+
+## Completed mutation-accessibility study V12R
+
 The [V12R mutation-accessibility assay](results/mutation_accessibility.md) is
 complete and independently audited. **Longer random mutation walks change more
 outputs, but no tested mutant improves the discovery routing score, and no final

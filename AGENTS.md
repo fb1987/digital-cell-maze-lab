@@ -34,38 +34,37 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Active authorized goal: **three-step research reassessment and V12S composition study**.
-Read `results/research_reset/assessment.md` and `docs/COMPOSITION_V12S.md` first.
-User explicitly authorizes a fixed60–90minute controlled evolution comparison;
-chosen75minute search includes compatible complementary recombination versus
-mutation andresampling,carry/fresh×3replicates. This supersedes automatically
-launching R's execution-informed-mutation proposal. Goalremainsactive until
-search,untouchedconfirmation,audit,reportandcheckpointsarecomplete.
+Current checkpoint: **V12S is complete and independently audited**. Read
+`results/composition_study.md`, `docs/COMPOSITION_PROGRESS.md`, and the saved
+`results/research_reset/assessment.md` first. The authorized three-step goal is
+complete. Do not repeat/extend S or tune/reselect on inspected finals.
 
-Steps1–2 saved-data/staticauditcomplete:16preservedrandom-origin identities span
-oldjunction/cycle/longprefix,K2,P/Qwave/reachability,Rexception. All2913priorhashes
-verified. Only8/240directedpairings admit conservative structurallyaligned splice,
-allwithinrelatedlineages. No claimofcross-familyfunctionalmodulecompatibility.
-No knownsolvergenes inpopulations. Architecture/runtimeunchanged. Preserve all
-oldpopulations/RNG;nohistoricalfinal usedasnewvalidation.
+294matchedgenerations,72.22minutes; carry/fresh×mutation/recombination/resampling×3,
+96organisms. Source/runtimefixed; no knownsolver ancestry. Registrationsf650b93,
+4750c0f; allchoices/pops/RNG/datapushedb9f8a7f BEFOREfinal.89aliases/41models,
+7424inputs/model. Main9511168calls,3309.88candidate seconds. Allpopulations preserved.
+Carrypositivepairs mutation[512,390,512],recombination[448,512,224],controls[224,224,224];
+freshmutation[132,0,224],otherprimaries0. Onlycarryrep1passesbothgates;neither2/3.
+ThepassingrecombinationarmprimaryhasZEROspliceancestry (six ordinarymutation steps).
+Actual45248splices/56448attempts,only1238multi-instructiontransfers. No replicated
+sexual advantage or causal functional-module composition. Actualsplicedcarry0
+has448pairs/3historicalroots,butmutation512. Freshsuccessfullineages descend
+96/75mutationsteps fromnewrandomimmigrants; exactrootsnotfinaltested.
+Preservecarry1mutationi18358:86prefix4pairsincl6twojunction/4cycle,up to10edges.
+Bestordinary74/384;all40randommodels0/128partition-no-path. No generalsolver,
+multirangeadvantage orspeedup. Structuredrouteformsrecur;clutter/posesnotindependent
+structuralgeneralization. Readfullreportforancestry,retention,normalrasterlimits.
 
-V12S seed2026101914,fixtures1334,schedulesoftware1335. Correctedfixtures3968inputs,
-schedulefixtures11520inputs;wholelayoutsthroughpreflight198328. OriginalsmallDFS9
-ordinarypreparation exhaustedoldlayoutpool (4000rejections),zero candidatecalls,
-BEFOREregistration. Partial3456inputs savedpreparation_rejected,all included in
-correctedfixtures. OrdinaryperfectcasesnowWilson. Noextraexcludedlayouts beyond
-correctedfixture; preserveoriginalissuepacket.
-
-Freeze protocol/source/pools/fixtures BEFOREprofile,thenfreezeprofileBEFOREnew
-validation/training. Freezeallchoices/nextstates/RNG BEFOREfinalgeneration. Use
-`python -m maze_evolution.composition_study` actions. Mainsearchfixed4500swall,
-matchedgenerations,initialvalidationincluded,stopswithroundreserve;5400candidate
-seconds globalwith600reservedforfinal,40Mcalls,40Twork,4GiBRSS,3GiBartifacts.
-Noearly-performancegate or extension. Mainaudit exactreplays allnontraining and
-predefined1/256training sample,independentlygradesallclaimedvalid/no-pathtraining
-plus sample,allfitness/event/RNGreproduced. Do notclaimfulltraininginference replay.
-Seeprotocol forsampling,contrast andprimaryconfirmationgate. 10newtests pass;
-scopedcollectionrecord inresults/composition_study. Historicalsourceimmutable.
+Audit firstattemptpasses3,456,354exactreplays,
+6,458,008gradedrasters,allbirths/RNG/fitness
+and2913priorhashes. Trainingexactreplayissampled1/256;do notclaimfullinferenceaudit.
+10newtestspass,293collected,notfreshfullsuite. AllfrozenSscientificsourcesunchanged.
+Afterfreshclone,restorebyte-identicalancestrylogBEFOREaudit/priorchecks with
+`tools/archive_composition_births.py restore`;sixremotechunks preserve199165540bytes.
+Excludeall217,240wholelayoutsthroughS; helperexclusions()onlythroughR,
+soaddSfixtures,schedulefixtures,validation,EVERYtraingeneration,andconfirmation
+manifests as specified in COMPOSITION_PROGRESS. Nextmechanism/transferproposal
+is NOTlaunched. Noautomaticunchangedlongsearch orrecombinationextension.
 
 Historical checkpoint: **V12R is complete and independently audited**. Read
 `results/mutation_accessibility.md` and `docs/MUTATION_ACCESSIBILITY_PROGRESS.md`

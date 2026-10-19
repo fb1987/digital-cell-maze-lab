@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "wall_seconds": 2194.6529975410085,
+  "peak_rss_bytes": 1587757056,
+  "prior_hashes": 2913,
+  "source_hashes": 201,
+  "input_hashes": 16,
+  "logged_candidate_calls": 9528960,
+  "exact_candidate_replays": 3456354,
+  "independently_graded_candidate_rasters": 6458008,
+  "baseline_replays": 22272,
+  "training_sampling": "all claimed valid/no-path independently graded; deterministic1/256 exact replay plus grading of all other training outputs; all nontraining outputs exact replay and grading",
+  "generations": 294,
+  "populations": 18,
+  "reproduction": {
+    "carry/0/mutation": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/0/recombination": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 9408,
+      "splices": 6647,
+      "complementary_splices": 1723
+    },
+    "carry/0/resample": {
+      "births": 21168,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/1/mutation": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/1/recombination": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 9408,
+      "splices": 8448,
+      "complementary_splices": 2294
+    },
+    "carry/1/resample": {
+      "births": 21168,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/2/mutation": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/2/recombination": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 9408,
+      "splices": 6267,
+      "complementary_splices": 1327
+    },
+    "carry/2/resample": {
+      "births": 21168,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/0/mutation": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/0/recombination": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 9408,
+      "splices": 8178,
+      "complementary_splices": 3461
+    },
+    "fresh/0/resample": {
+      "births": 21168,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/1/mutation": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/1/recombination": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 9408,
+      "splices": 7853,
+      "complementary_splices": 1546
+    },
+    "fresh/1/resample": {
+      "births": 21168,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/2/mutation": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/2/recombination": {
+      "births": 21168,
+      "mutations": 18522,
+      "attempts": 9408,
+      "splices": 7855,
+      "complementary_splices": 2388
+    },
+    "fresh/2/resample": {
+      "births": 21168,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    }
+  },
+  "whole_layouts": 217240,
+  "geometry": {
+    "fixture": {
+      "inputs": 3456,
+      "pairs": 576,
+      "whole_layouts": 1040,
+      "contexts": 14,
+      "ordinary_inputs": 512
+    },
+    "validation": {
+      "inputs": 3456,
+      "pairs": 576,
+      "whole_layouts": 1040,
+      "contexts": 14,
+      "ordinary_inputs": 0
+    },
+    "confirmation": {
+      "inputs": 6912,
+      "pairs": 1152,
+      "whole_layouts": 2080,
+      "contexts": 28,
+      "ordinary_inputs": 512
+    }
+  }
+}

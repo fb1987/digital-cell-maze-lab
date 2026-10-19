@@ -34,7 +34,7 @@ for col, origin in enumerate(('carry', 'fresh')):
     ax.set_ylim(0, max(10, ax.get_ylim()[1] * 1.2))
     ax.grid(axis='y', alpha=.2)
     ax.set_axisbelow(True)
-    if col == 0:
+    if col == 1:
         ax.legend(fontsize=8, loc='upper right')
     ax = axes[1, col]
     cs = [description['reproduction'][f'{origin}/{r}/recombination'] for r in range(3)]
@@ -46,6 +46,7 @@ for col, origin in enumerate(('carry', 'fresh')):
     ax.bar(range(3), attempts-splices, bottom=splices, color='#dce0e6', label='No compatible donor')
     ax.set_xticks(range(3), ['Replicate 0', 'Replicate 1', 'Replicate 2'])
     ax.set_ylabel('Mating attempts')
+    ax.set_ylim(0,max(attempts)*1.35)
     ax.grid(axis='y', alpha=.2)
     ax.set_axisbelow(True)
     if col == 0:
@@ -55,7 +56,7 @@ common_top = max(ax.get_ylim()[1] for ax in axes[0])
 for ax in axes[0]:
     ax.set_ylim(0, common_top)
 fig.suptitle('Compatible recombination: fresh confirmation and actual operator use', fontsize=14)
-fig.text(.5, .015, 'Top: normal shortest paths to both goals. Bottom: donor score gains include partial credit; they do not prove ability transfer.\nPoses and graph variants are correlated. All primaries shown; no final reselection.', ha='center', fontsize=9)
-fig.tight_layout(rect=(0, .065, 1, .95))
+fig.text(.5, .015, 'Top: normal shortest paths to both goals. Bottom: donor score gains include partial credit; they do not prove ability transfer.\nPoses and graph variants are correlated. All primaries shown; no final reselection.\nThe passing recombination-arm winner has mutation-only ancestry.', ha='center', fontsize=9)
+fig.tight_layout(rect=(0, .085, 1, .95))
 fig.savefig(OUT / 'comparison.png', dpi=180)
 fig.savefig(OUT / 'comparison.pdf')

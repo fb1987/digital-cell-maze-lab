@@ -1,0 +1,2422 @@
+{
+  "candidate_calls": 0,
+  "post_hoc": true,
+  "interpretation": "Oracle-based observer fit on inspected saved outputs. A fit does not prove the internal mechanism, stopping logic or causal necessity; no predictor enters inference, evolution or model selection.",
+  "predictor": "Goal-distance ball with radius equal to source-to-goal shortest distance, then 0 through 6 synchronous rounds deleting degree<=1 output sites except source and goal.",
+  "aliases": {
+    "carry/0/mutation/primary": "local/5c50b555be5bcc7723ff/7",
+    "carry/1/mutation/primary": "local/ad8e92fc8e9a1c2a65ee/7",
+    "carry/0/recombination/primary": "local/6b8995145f524e06a4fe/7",
+    "carry/1/recombination/primary": "local/880a6998d1dd28c70f76/7",
+    "fresh/0/mutation/primary": "local/9b9b2f202b896675fcf1/7",
+    "fresh/2/mutation/primary": "local/795ced3564e9a8adc747/7"
+  },
+  "results": {
+    "local/5c50b555be5bcc7723ff/7": {
+      "structured": {
+        "inputs": 4608,
+        "mask_matches": [
+          2752,
+          3360,
+          3904,
+          4320,
+          3904,
+          3904,
+          3904
+        ],
+        "emitted_mask_matches": [
+          2752,
+          3360,
+          3904,
+          4320,
+          3904,
+          3904,
+          3904
+        ]
+      },
+      "all_reachable": {
+        "inputs": 4992,
+        "mask_matches": [
+          2768,
+          3384,
+          3960,
+          4392,
+          3968,
+          3968,
+          3968
+        ],
+        "emitted_mask_matches": [
+          2768,
+          3384,
+          3960,
+          4392,
+          3968,
+          3968,
+          3968
+        ]
+      },
+      "paired/fork/prefix0": {
+        "inputs": 448,
+        "mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired": {
+        "inputs": 2304,
+        "mask_matches": [
+          480,
+          1088,
+          1632,
+          2048,
+          1632,
+          1632,
+          1632
+        ],
+        "emitted_mask_matches": [
+          480,
+          1088,
+          1632,
+          2048,
+          1632,
+          1632,
+          1632
+        ]
+      },
+      "corridor": {
+        "inputs": 2304,
+        "mask_matches": [
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272
+        ],
+        "emitted_mask_matches": [
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272
+        ]
+      },
+      "paired/fork/prefix1": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired/fork/prefix2": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          0,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired/fork/prefix4": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          128,
+          64,
+          256,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          128,
+          64,
+          256,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/two_junction/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          32,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          32,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/two_junction/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          0,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/two_junction/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      },
+      "paired/two_junction/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          32,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          32,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/cycle/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/cycle/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ]
+      },
+      "ordinary": {
+        "inputs": 384,
+        "mask_matches": [
+          16,
+          24,
+          56,
+          72,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          16,
+          24,
+          56,
+          72,
+          64,
+          64,
+          64
+        ]
+      },
+      "ordinary_perfect": {
+        "inputs": 192,
+        "mask_matches": [
+          16,
+          8,
+          24,
+          40,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          16,
+          8,
+          24,
+          40,
+          32,
+          32,
+          32
+        ]
+      },
+      "ordinary_random": {
+        "inputs": 192,
+        "mask_matches": [
+          0,
+          16,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          16,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      }
+    },
+    "local/6b8995145f524e06a4fe/7": {
+      "structured": {
+        "inputs": 4608,
+        "mask_matches": [
+          2912,
+          3360,
+          4320,
+          3840,
+          3840,
+          3840,
+          3840
+        ],
+        "emitted_mask_matches": [
+          2912,
+          3360,
+          4320,
+          3840,
+          3840,
+          3840,
+          3840
+        ]
+      },
+      "all_reachable": {
+        "inputs": 4992,
+        "mask_matches": [
+          2928,
+          3416,
+          4376,
+          3880,
+          3880,
+          3880,
+          3880
+        ],
+        "emitted_mask_matches": [
+          2928,
+          3416,
+          4376,
+          3880,
+          3880,
+          3880,
+          3880
+        ]
+      },
+      "paired/fork/prefix0": {
+        "inputs": 448,
+        "mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired": {
+        "inputs": 2304,
+        "mask_matches": [
+          608,
+          1056,
+          2016,
+          1536,
+          1536,
+          1536,
+          1536
+        ],
+        "emitted_mask_matches": [
+          608,
+          1056,
+          2016,
+          1536,
+          1536,
+          1536,
+          1536
+        ]
+      },
+      "corridor": {
+        "inputs": 2304,
+        "mask_matches": [
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304
+        ],
+        "emitted_mask_matches": [
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304
+        ]
+      },
+      "paired/fork/prefix1": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired/fork/prefix2": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          0,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired/fork/prefix4": {
+        "inputs": 448,
+        "mask_matches": [
+          128,
+          64,
+          256,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          128,
+          64,
+          256,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/two_junction/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          32,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          32,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/two_junction/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          64,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          64,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      },
+      "paired/two_junction/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      },
+      "paired/two_junction/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          32,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          32,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/cycle/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "ordinary": {
+        "inputs": 384,
+        "mask_matches": [
+          16,
+          56,
+          56,
+          40,
+          40,
+          40,
+          40
+        ],
+        "emitted_mask_matches": [
+          16,
+          56,
+          56,
+          40,
+          40,
+          40,
+          40
+        ]
+      },
+      "ordinary_perfect": {
+        "inputs": 192,
+        "mask_matches": [
+          16,
+          16,
+          32,
+          16,
+          16,
+          16,
+          16
+        ],
+        "emitted_mask_matches": [
+          16,
+          16,
+          32,
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "ordinary_random": {
+        "inputs": 192,
+        "mask_matches": [
+          0,
+          40,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "emitted_mask_matches": [
+          0,
+          40,
+          24,
+          24,
+          24,
+          24,
+          24
+        ]
+      }
+    },
+    "local/ad8e92fc8e9a1c2a65ee/7": {
+      "structured": {
+        "inputs": 4608,
+        "mask_matches": [
+          2654,
+          3142,
+          3540,
+          3460,
+          3546,
+          3566,
+          3558
+        ],
+        "emitted_mask_matches": [
+          2654,
+          3142,
+          3540,
+          3460,
+          3546,
+          3566,
+          3558
+        ]
+      },
+      "all_reachable": {
+        "inputs": 4992,
+        "mask_matches": [
+          2679,
+          3193,
+          3576,
+          3493,
+          3578,
+          3599,
+          3590
+        ],
+        "emitted_mask_matches": [
+          2679,
+          3193,
+          3576,
+          3493,
+          3578,
+          3599,
+          3590
+        ]
+      },
+      "paired/fork/prefix0": {
+        "inputs": 448,
+        "mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired": {
+        "inputs": 2304,
+        "mask_matches": [
+          590,
+          1078,
+          1476,
+          1396,
+          1482,
+          1502,
+          1494
+        ],
+        "emitted_mask_matches": [
+          590,
+          1078,
+          1476,
+          1396,
+          1482,
+          1502,
+          1494
+        ]
+      },
+      "corridor": {
+        "inputs": 2304,
+        "mask_matches": [
+          2064,
+          2064,
+          2064,
+          2064,
+          2064,
+          2064,
+          2064
+        ],
+        "emitted_mask_matches": [
+          2064,
+          2064,
+          2064,
+          2064,
+          2064,
+          2064,
+          2064
+        ]
+      },
+      "paired/fork/prefix1": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          416,
+          416,
+          416,
+          416,
+          416,
+          416
+        ],
+        "emitted_mask_matches": [
+          0,
+          416,
+          416,
+          416,
+          416,
+          416,
+          416
+        ]
+      },
+      "paired/fork/prefix2": {
+        "inputs": 448,
+        "mask_matches": [
+          16,
+          40,
+          280,
+          280,
+          280,
+          280,
+          280
+        ],
+        "emitted_mask_matches": [
+          16,
+          40,
+          280,
+          280,
+          280,
+          280,
+          280
+        ]
+      },
+      "paired/fork/prefix4": {
+        "inputs": 448,
+        "mask_matches": [
+          82,
+          66,
+          128,
+          72,
+          152,
+          152,
+          152
+        ],
+        "emitted_mask_matches": [
+          82,
+          66,
+          128,
+          72,
+          152,
+          152,
+          152
+        ]
+      },
+      "paired/two_junction/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          36,
+          36,
+          56,
+          56,
+          56,
+          56,
+          56
+        ],
+        "emitted_mask_matches": [
+          36,
+          36,
+          56,
+          56,
+          56,
+          56,
+          56
+        ]
+      },
+      "paired/two_junction/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          42,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          42,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      },
+      "paired/two_junction/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          4,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "emitted_mask_matches": [
+          0,
+          4,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "paired/two_junction/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          6,
+          4,
+          0,
+          22,
+          22,
+          22
+        ],
+        "emitted_mask_matches": [
+          0,
+          6,
+          4,
+          0,
+          22,
+          22,
+          22
+        ]
+      },
+      "paired/cycle/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          8,
+          8,
+          48,
+          48,
+          48,
+          48,
+          48
+        ],
+        "emitted_mask_matches": [
+          8,
+          8,
+          48,
+          48,
+          48,
+          48,
+          48
+        ]
+      },
+      "paired/cycle/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          4,
+          28,
+          8,
+          8,
+          8,
+          8
+        ],
+        "emitted_mask_matches": [
+          0,
+          4,
+          28,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "paired/cycle/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          4,
+          8,
+          16,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          4,
+          8,
+          16,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          4,
+          8,
+          0,
+          0,
+          20,
+          12
+        ],
+        "emitted_mask_matches": [
+          0,
+          4,
+          8,
+          0,
+          0,
+          20,
+          12
+        ]
+      },
+      "ordinary": {
+        "inputs": 384,
+        "mask_matches": [
+          25,
+          51,
+          36,
+          33,
+          32,
+          33,
+          32
+        ],
+        "emitted_mask_matches": [
+          25,
+          51,
+          36,
+          33,
+          32,
+          33,
+          32
+        ]
+      },
+      "ordinary_perfect": {
+        "inputs": 192,
+        "mask_matches": [
+          24,
+          17,
+          18,
+          15,
+          14,
+          15,
+          14
+        ],
+        "emitted_mask_matches": [
+          24,
+          17,
+          18,
+          15,
+          14,
+          15,
+          14
+        ]
+      },
+      "ordinary_random": {
+        "inputs": 192,
+        "mask_matches": [
+          1,
+          34,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "emitted_mask_matches": [
+          1,
+          34,
+          18,
+          18,
+          18,
+          18,
+          18
+        ]
+      }
+    },
+    "local/880a6998d1dd28c70f76/7": {
+      "structured": {
+        "inputs": 4608,
+        "mask_matches": [
+          2784,
+          3392,
+          3936,
+          4352,
+          3936,
+          3936,
+          3936
+        ],
+        "emitted_mask_matches": [
+          2784,
+          3392,
+          3936,
+          4352,
+          3936,
+          3936,
+          3936
+        ]
+      },
+      "all_reachable": {
+        "inputs": 4992,
+        "mask_matches": [
+          2800,
+          3416,
+          3992,
+          4424,
+          4000,
+          4000,
+          4000
+        ],
+        "emitted_mask_matches": [
+          2800,
+          3416,
+          3992,
+          4424,
+          4000,
+          4000,
+          4000
+        ]
+      },
+      "paired/fork/prefix0": {
+        "inputs": 448,
+        "mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired": {
+        "inputs": 2304,
+        "mask_matches": [
+          480,
+          1088,
+          1632,
+          2048,
+          1632,
+          1632,
+          1632
+        ],
+        "emitted_mask_matches": [
+          480,
+          1088,
+          1632,
+          2048,
+          1632,
+          1632,
+          1632
+        ]
+      },
+      "corridor": {
+        "inputs": 2304,
+        "mask_matches": [
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304
+        ],
+        "emitted_mask_matches": [
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304
+        ]
+      },
+      "paired/fork/prefix1": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired/fork/prefix2": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          0,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired/fork/prefix4": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          128,
+          64,
+          256,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          128,
+          64,
+          256,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/two_junction/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          32,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          32,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/two_junction/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          0,
+          32,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/two_junction/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      },
+      "paired/two_junction/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          32,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          32,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/cycle/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/cycle/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0
+        ]
+      },
+      "ordinary": {
+        "inputs": 384,
+        "mask_matches": [
+          16,
+          24,
+          56,
+          72,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          16,
+          24,
+          56,
+          72,
+          64,
+          64,
+          64
+        ]
+      },
+      "ordinary_perfect": {
+        "inputs": 192,
+        "mask_matches": [
+          16,
+          8,
+          24,
+          40,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          16,
+          8,
+          24,
+          40,
+          32,
+          32,
+          32
+        ]
+      },
+      "ordinary_random": {
+        "inputs": 192,
+        "mask_matches": [
+          0,
+          16,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          16,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      }
+    },
+    "local/9b9b2f202b896675fcf1/7": {
+      "structured": {
+        "inputs": 4608,
+        "mask_matches": [
+          3120,
+          3072,
+          2976,
+          2968,
+          2920,
+          2920,
+          2920
+        ],
+        "emitted_mask_matches": [
+          3120,
+          3072,
+          2976,
+          2968,
+          2920,
+          2920,
+          2920
+        ]
+      },
+      "all_reachable": {
+        "inputs": 4992,
+        "mask_matches": [
+          3216,
+          3088,
+          2986,
+          2978,
+          2930,
+          2930,
+          2930
+        ],
+        "emitted_mask_matches": [
+          3216,
+          3088,
+          2986,
+          2978,
+          2930,
+          2930,
+          2930
+        ]
+      },
+      "paired/fork/prefix0": {
+        "inputs": 448,
+        "mask_matches": [
+          304,
+          304,
+          304,
+          304,
+          304,
+          304,
+          304
+        ],
+        "emitted_mask_matches": [
+          304,
+          304,
+          304,
+          304,
+          304,
+          304,
+          304
+        ]
+      },
+      "paired": {
+        "inputs": 2304,
+        "mask_matches": [
+          848,
+          800,
+          704,
+          696,
+          648,
+          648,
+          648
+        ],
+        "emitted_mask_matches": [
+          848,
+          800,
+          704,
+          696,
+          648,
+          648,
+          648
+        ]
+      },
+      "corridor": {
+        "inputs": 2304,
+        "mask_matches": [
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272
+        ],
+        "emitted_mask_matches": [
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272,
+          2272
+        ]
+      },
+      "paired/fork/prefix1": {
+        "inputs": 448,
+        "mask_matches": [
+          64,
+          232,
+          232,
+          232,
+          232,
+          232,
+          232
+        ],
+        "emitted_mask_matches": [
+          64,
+          232,
+          232,
+          232,
+          232,
+          232,
+          232
+        ]
+      },
+      "paired/fork/prefix2": {
+        "inputs": 448,
+        "mask_matches": [
+          132,
+          132,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "emitted_mask_matches": [
+          132,
+          132,
+          64,
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      "paired/fork/prefix4": {
+        "inputs": 448,
+        "mask_matches": [
+          256,
+          56,
+          56,
+          40,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          256,
+          56,
+          56,
+          40,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/two_junction/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          48,
+          28,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "emitted_mask_matches": [
+          48,
+          28,
+          24,
+          24,
+          24,
+          24,
+          24
+        ]
+      },
+      "paired/two_junction/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          4,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "emitted_mask_matches": [
+          4,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "paired/two_junction/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "emitted_mask_matches": [
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "paired/two_junction/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          16,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          16,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          16,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          16,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "ordinary": {
+        "inputs": 384,
+        "mask_matches": [
+          96,
+          16,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "emitted_mask_matches": [
+          96,
+          16,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "ordinary_perfect": {
+        "inputs": 192,
+        "mask_matches": [
+          78,
+          14,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "emitted_mask_matches": [
+          78,
+          14,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "ordinary_random": {
+        "inputs": 192,
+        "mask_matches": [
+          18,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "emitted_mask_matches": [
+          18,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    "local/795ced3564e9a8adc747/7": {
+      "structured": {
+        "inputs": 4608,
+        "mask_matches": [
+          2976,
+          4320,
+          3264,
+          3264,
+          3264,
+          3264,
+          3264
+        ],
+        "emitted_mask_matches": [
+          2976,
+          4320,
+          3264,
+          3264,
+          3264,
+          3264,
+          3264
+        ]
+      },
+      "all_reachable": {
+        "inputs": 4992,
+        "mask_matches": [
+          3040,
+          4392,
+          3288,
+          3288,
+          3288,
+          3288,
+          3288
+        ],
+        "emitted_mask_matches": [
+          3040,
+          4392,
+          3288,
+          3288,
+          3288,
+          3288,
+          3288
+        ]
+      },
+      "paired/fork/prefix0": {
+        "inputs": 448,
+        "mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          448,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired": {
+        "inputs": 2304,
+        "mask_matches": [
+          672,
+          2016,
+          960,
+          960,
+          960,
+          960,
+          960
+        ],
+        "emitted_mask_matches": [
+          672,
+          2016,
+          960,
+          960,
+          960,
+          960,
+          960
+        ]
+      },
+      "corridor": {
+        "inputs": 2304,
+        "mask_matches": [
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304
+        ],
+        "emitted_mask_matches": [
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304,
+          2304
+        ]
+      },
+      "paired/fork/prefix1": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ],
+        "emitted_mask_matches": [
+          0,
+          448,
+          448,
+          448,
+          448,
+          448,
+          448
+        ]
+      },
+      "paired/fork/prefix2": {
+        "inputs": 448,
+        "mask_matches": [
+          0,
+          448,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          448,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/fork/prefix4": {
+        "inputs": 448,
+        "mask_matches": [
+          192,
+          256,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          192,
+          256,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/two_junction/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          32,
+          64,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          32,
+          64,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      },
+      "paired/two_junction/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "emitted_mask_matches": [
+          0,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32
+        ]
+      },
+      "paired/two_junction/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/two_junction/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix0": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix1": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix2": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "paired/cycle/prefix4": {
+        "inputs": 64,
+        "mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emitted_mask_matches": [
+          0,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "ordinary": {
+        "inputs": 384,
+        "mask_matches": [
+          64,
+          72,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "emitted_mask_matches": [
+          64,
+          72,
+          24,
+          24,
+          24,
+          24,
+          24
+        ]
+      },
+      "ordinary_perfect": {
+        "inputs": 192,
+        "mask_matches": [
+          56,
+          40,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "emitted_mask_matches": [
+          56,
+          40,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "ordinary_random": {
+        "inputs": 192,
+        "mask_matches": [
+          8,
+          32,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "emitted_mask_matches": [
+          8,
+          32,
+          16,
+          16,
+          16,
+          16,
+          16
+        ]
+      }
+    }
+  }
+}
