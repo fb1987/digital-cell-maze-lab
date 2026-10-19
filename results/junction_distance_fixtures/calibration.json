@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "geometry": {
+    "reachable_cases": 960,
+    "legal_longer_rasters": 320,
+    "no_path_cases": 160,
+    "contexts": 1,
+    "cases": 1120,
+    "whole_layouts": 512
+  },
+  "warmup": {
+    "seconds": 0.13952475000405684,
+    "candidate_calls": 3,
+    "baseline_calls": 3,
+    "case": "fixture/c0/s0/straight/p1/fork/0/d4-0",
+    "readonly_input": true
+  },
+  "budget": {
+    "seconds": 2.7275039557134733,
+    "calls": 2318,
+    "work": 1683599446,
+    "scopes": {
+      "normal": {
+        "seconds": 2.151112746214494,
+        "calls": 2030,
+        "work": 1329944977
+      },
+      "interventions": {
+        "seconds": 0.46118558436864987,
+        "calls": 216,
+        "work": 284588359
+      },
+      "traces": {
+        "seconds": 0.11520562513032928,
+        "calls": 72,
+        "work": 69066110
+      }
+    },
+    "maximum": 0.009485541027970612
+  },
+  "rough_projected_candidate_seconds": 388.00753493575735,
+  "main_call_count": 277152,
+  "wall_seconds": 3.190983208012767,
+  "peak_rss_bytes": 137707520
+}
