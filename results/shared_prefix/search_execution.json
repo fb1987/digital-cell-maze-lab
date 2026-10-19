@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "generations": 32,
+  "planned_generations": 32,
+  "stop": "planned_generations",
+  "initial_budget": {
+    "cap_seconds": 720,
+    "seconds": 84.02470662991982,
+    "calls": 442368,
+    "work": 49722448044,
+    "maximum": 0.004682291008066386
+  },
+  "budget": {
+    "cap_seconds": 720,
+    "seconds": 241.98279623454437,
+    "calls": 1216512,
+    "work": 141085653053,
+    "maximum": 0.004682291008066386
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.08640029100934044,
+    "case": "validation/core/a2/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "wall_seconds": 324.35201733297436,
+  "peak_rss_bytes": 997703680
+}
