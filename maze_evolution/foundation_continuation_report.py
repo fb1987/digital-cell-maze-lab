@@ -17,6 +17,30 @@ from .growth import Genome
 from .range_audit import output_dataflow
 
 
+def primary_interventions(out, records):
+    """Aggregate successful-case interventions by primary alias, retaining paired scope."""
+    counts, outcomes = defaultdict(Counter), {}
+    for record in lines(out / 'interventions/outputs.jsonl.gz'):
+        for alias in record['aliases']:
+            if alias['role'] != 'champion' or alias['scope'] != 'micro' or '/evolution/' not in alias['condition']:
+                continue
+            key = alias['condition']
+            counts[key]['original_successes'] += 1
+            for name, row in record['variants'].items():
+                counts[key][name] += row['optimal']
+                outcomes[key, name, record['case']] = row['optimal']
+    for record in records:
+        if record['role'] != 'champion' or record['scope'] != 'micro' or '/evolution/' not in record['key']:
+            continue
+        for i in range(0, len(record['cases']), 2):
+            a, b = record['cases'][i:i + 2]
+            if not a['pair_optimal'] or '/level0/' in a['case']:
+                continue
+            for name in ('replay', 'no_goal_pulse', 'zero_nonlocal', 'both'):
+                counts[record['key']][name + '_pairs'] += int(outcomes[record['key'], name, a['case']] and outcomes[record['key'], name, b['case']])
+    return {key: dict(value) for key, value in counts.items()}
+
+
 def run(out):
     out = Path(out)
     summary = json.loads((out / 'search_summary.json').read_text())
@@ -111,6 +135,7 @@ def run(out):
     analysis['validation_selection_changes'] = json.loads((out / 'primary_selection_changes.json').read_text())
     if (out / 'interventions/summary.json').exists():
         analysis['posthoc_interventions'] = json.loads((out / 'interventions/summary.json').read_text())
+        analysis['primary_interventions'] = primary_interventions(out, records)
     discussion = (out / 'discussion.md').read_text() if (out / 'discussion.md').exists() else ''
     analysis['discussion_sha256'] = hashlib.sha256(discussion.encode()).hexdigest()
     write_json(out / 'analysis.json', analysis)

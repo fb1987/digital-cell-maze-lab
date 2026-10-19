@@ -3,7 +3,10 @@
 The October 18 user-authorized research goal is complete: calibration, ordinary
 developmental scoring, a justified stable 75-minute search, fresh confirmation,
 independent audit, analysis and figures. Read `results/foundation_study.md`.
-The next continuation is a recommendation and has not been launched.
+The subsequently authorized V12D continuation is also complete; see
+`docs/FOUNDATION_CONTINUATION_PROGRESS.md` and
+`results/foundation_continuation.md`. The record below preserves the original
+V12A–C goal and its results.
 
 - V12A verifies intact controls but fails its repair gate: fresh successful
   replicates 0/3 west return, 1/3 output register, 0/3 two return gates.

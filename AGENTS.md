@@ -34,9 +34,62 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 18, 2026): the user-authorized calibration-first
-plan is complete. Read `results/foundation_study.md` and
-`docs/FOUNDATION_GOAL_PROGRESS.md` first. V12A fails its repair gate; V12B
+Current checkpoint (October 18, 2026): the authorized V12D continuation is
+complete. Read `results/foundation_continuation.md` and
+`docs/FOUNDATION_CONTINUATION_PROGRESS.md` first. Do not repeat the completed
+experiment or extend its budget. All 24 states continue intact from generation
+442 to 865: 423 additional matched generations, 75.32 minutes, 12,427,776 new
+responses, 472.05 MiB peak search RSS. Runtime, 256-gene capacity, fitness,
+selection and curriculum rules are unchanged; levels remain [1,1,1].
+
+Fresh-origin evolved-range primary selections pass the stronger preregistered
+screen in 2/3 replicates: 103/864 non-adjacent shortest outputs and 28/432
+complete pairs, versus 30/864 and 0/432 at the V12C checkpoint on the SAME new
+cases, and zero for continued resampling. All 144 adjacent pairs are retained.
+Three independent base groups work in all eight paired poses (two trees,
+one cyclic). Scope is short: 24 completed pairs have two-edge routes to both
+goals; four pair two- and four-edge routes. No primary selection completes a
+pair in dedicated 4–8- or 8–16-edge levels. All selected fresh-evolved lineages
+descend from random immigrants during V12C, never known solvers.
+
+Prespecified selections at additional generations 0/48/128/256/423 give
+fresh/evolved 0/0/8/22/28 complete pairs on this same new corpus (correlated
+evidence, not five independent tests). Success-conditioned interventions on
+its 103 non-adjacent outputs retain 34 shortest outputs and 0/28 pairs without
+the goal pulse, versus all 103 and 28/28 when nonlocal values are zeroed.
+Static goal flags/endpoint halting remain; ablated reads keep their cost.
+Do not claim a causal multirange advantage from this winning cohort.
+
+General solving remains unestablished: current primary ordinary counts
+native/local 4/216, native/evolved 7/216, fresh/local 7/216, fresh/evolved 5/216;
+all 0/176 distance≥8. A longer success in the native/evolved checkpoint is
+lost by its continuation. Fresh/evolved reports 1/48 no-path, matching its
+checkpoint; other current cohorts 0/48. BFS/A*/bit-wavefront solve 216/216 and
+48/48; intact wavefront solves 210/216, with six long tree routes exceeding
+1024 ticks. Eligible random-origin elementary outputs are median 63.25× slower
+than compiled BFS. No competitive speedup is established.
+
+All final and time-course selections were frozen/pushed in `1c22023` before
+fresh final generation; preregistration is `7e30e60`. Independent audit passes
+380,700 mutations, 979,680 fitness records, 6,274,032 graded search rasters,
+all 63,840 final raster aliases and 33,912 distinct candidate replays. All
+119 source and 36 input hashes pass. Six new regression tests pass in addition
+to the 137 previously covered tests; do not claim a fresh full 143-test run.
+Preserve all next populations/RNG, raw masks, histories and old study packets.
+
+All **85,548 whole layouts** through V12D must be excluded in any new independent
+study, including unqueried ordinary symmetries and software fixtures. V12C
+validation was intentionally reused in V12D and is selection data, not holdout
+evidence. No retuning against inspected final cases. The next proposal (not
+launched) is complete-pair-first selection versus current ordering, forked
+from the same fresh-origin populations/RNG with capacity/runtime/schedule and
+local/evolved controls fixed. Four of 56 primary validation replacements lost
+non-adjacent pairs while increasing individual route counts; this motivates a
+test, not a claim that different selection will solve generalization.
+
+Historical V12A–C checkpoint: the user-authorized calibration-first plan is
+complete. See `results/foundation_study.md` and
+`docs/FOUNDATION_GOAL_PROGRESS.md`. V12A fails its repair gate; V12B
 passes after a validation-selected single-edit policy and balanced orientations.
 Known/repaired solver controls remain separate from random-origin lineages.
 
@@ -59,16 +112,10 @@ Audit passes 397,800 mutations, 1,026,048 fitness records, 5,972,328 search rast
 and all final outputs. 137 current tests are covered by 136 full-suite passes
 plus the later time-course test. Preserve all next populations/RNG and raw data.
 
-All **52,424 whole layouts** through V12C must be excluded in a new study,
-including unqueried ordinary symmetries and software fixtures. Do not retune
-against inspected final cases. The user has authorized one unchanged75-minute continuation (V12D). Read
-`docs/FOUNDATION_CONTINUATION_V12D.md`; new implementation is
-`maze_evolution/foundation_continuation*.py`, output
-`results/foundation_continuation/`. All24 states resume at generation442;
-V12C validation is intentionally reused, while new training/final layouts
-exclude all52,424 prior layouts. Stronger paired-skill, retention and orientation
-criteria are fixed before launch. Do not alter immutable V12 source/budgets
-or repeat completed work as though it were unfinished.
+All 52,424 whole layouts through V12C were excluded from new V12D training and
+final cases. The unchanged continuation is now complete as described above;
+implementation is `maze_evolution/foundation_continuation*.py`, output is
+`results/foundation_continuation/`. Do not alter immutable V12 source/budgets.
 
 Historical checkpoint before V12: V1–V11,V8A,V10A are complete.
 123 current tests are covered (122 full-suite passes, 4 focused passes after

@@ -159,7 +159,7 @@ def run(out):
 
     # Validation chooses this illustrative model; saved final outputs choose the displayed pair.
     key = max(sorted(k for k, v in frozen.items() if v['config']['method'] == 'evolution'
-                     and v['config']['origin'] == 'fresh' and v['config']['topology'] == 'local'),
+                     and v['config']['origin'] == 'fresh' and v['config']['topology'] == 'evolved'),
               key=lambda k: tuple(frozen[k]['champion_rank']))
     paired_key = key
     chosen = [r for r in indexed[key, 'champion', 'micro']['cases'] if '/level1/' in r['case']]
@@ -175,8 +175,8 @@ def run(out):
         grid(axes[i, 1], m, mask(row, m), row['optimal'], 'Current · ' + ('shortest' if row['optimal'] else row['failure']))
         grid(axes[i, 2], m, mask(old, m), old['optimal'], 'V12C checkpoint · ' + ('shortest' if old['optimal'] else old['failure']))
     cfg = frozen[key]['config']
-    fig.suptitle(f"New unseen goal pair · fresh/local/replicate {cfg['replicate']} · primary selection", fontsize=13)
-    fig.text(.5, .025, 'Post-hoc illustration. Blue: source; gold: goal; green: shortest-correct; orange: failed output. Model chosen on validation.', ha='center', fontsize=8)
+    fig.suptitle(f"New unseen goal pair · fresh/{cfg['topology']}/replicate {cfg['replicate']} · primary selection", fontsize=13)
+    fig.text(.5, .025, 'Post-hoc illustration of the passing cohort; model ranked on validation. Blue: source; gold: goal; green: shortest; orange: failed.', ha='center', fontsize=8)
     fig.subplots_adjust(left=.035, right=.985, bottom=.08, top=.88, wspace=.10, hspace=.28)
     fig.savefig(visual / 'paired_example.png', dpi=170)
     plt.close(fig)
@@ -216,7 +216,10 @@ def run(out):
     fig.subplots_adjust(left=.035, right=.985, bottom=.08, top=.88, wspace=.10, hspace=.28)
     fig.savefig(visual / 'ordinary_examples.png', dpi=170)
     plt.close(fig)
+    for path in visual.glob('*.svg'):
+        path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines()) + '\n')
     (visual / 'metadata.json').write_text(json.dumps(dict(matplotlib=matplotlib.__version__,
+        illustration_scope='Cohort chosen after confirmation; model ranked on validation within that cohort; cases illustrative, not a new assay',
         paired_model=paired_key, paired_cases=[r['case'] for r in pair],
         orientation_group=base, complete_paired_poses=complete_poses,
         ordinary_model=key, ordinary_cases=examples), indent=2) + '\n')

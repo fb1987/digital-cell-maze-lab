@@ -6,6 +6,47 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
+The [V12D continuation](results/foundation_continuation.md) is complete:
+**423 additional matched generations in 75.32 minutes**, carrying all 24
+populations of 96 organisms and their RNG states from generation 442 to 865.
+Runtime, capacity, fitness and selection stayed unchanged. Every final model
+was frozen and pushed before fresh confirmation layouts were generated.
+
+**The fresh-origin cohort with evolvable ranges passes the stronger screen in
+two of three replicates.** On the same new cases, complete non-adjacent shortest
+pairs rise from 0/432 at the V12C checkpoint to **28/432**, versus zero for
+continued resampling. Individual shortest outputs rise 30/864→103/864. Three
+independent layouts work in all eight paired poses (two trees and one cyclic),
+and all 144 adjacent pairs are retained. Most successes are two-edge routes;
+no primary model completes a pair in the dedicated 4–8- or 8–16-edge levels.
+This is a stronger transferable short-route primitive, not a general solver.
+
+The prespecified same-corpus time course gives 0/0/8/22/28 complete pairs at
+additional generations 0/48/128/256/423. Removing the goal pulse eliminates
+all 28 paired successes; zeroing nonlocal values preserves all 28. The
+interventions condition on successful cases. They support goal-pulse dependence
+but do not establish that longer-range signalling caused the improvement.
+
+Every current cohort solves **0/176 ordinary distance≥8 cases**; the best solves
+7/216 ordinary reachable cases. BFS/A*/bit-wavefront solve 216/216 and 48/48
+disconnected cases. Eligible elementary timings are a median **63.25× slower
+than compiled BFS**. Search adds 12.43 million responses at 472.05 MiB peak RSS.
+The independent audit passes 380,700 new mutations, 979,680 fitness records,
+6,274,032 graded search rasters and all final outputs/replays. Six new regression
+tests pass, in addition to coverage of the previous 137 tests; the entire
+143-test suite was not rerun. Full populations/RNG and raw data are preserved.
+
+Future independent studies must exclude all **85,548 whole layouts** through
+V12D, including unqueried symmetries and software fixtures. Do not retune against
+inspected final cases. The next recommendation is a matched test of
+complete-pair-first selection versus the current ordering, at fixed capacity,
+runtime and compute, with new 3–8-edge transfer and retention criteria.
+**That next study has not been launched.** See the
+[V12D protocol](docs/FOUNDATION_CONTINUATION_V12D.md) and
+[completed progress record](docs/FOUNDATION_CONTINUATION_PROGRESS.md).
+
+## Calibration and first stable search V12A–C — historical
+
 The [calibration-first research plan](docs/FOUNDATION_GOAL_PROGRESS.md) is complete.
 [V12A](results/foundation_calibration.md) verifies the intact runtime but fails its
 repair gate. [V12B](results/foundation_repair.md) passes after comparing single-edit
@@ -33,11 +74,12 @@ process. The audit passes for 397,800 mutations, 1,026,048 fitness records,
 5,972,328 independently graded search rasters and every final output. There are
 137 current tests covered: 136 full-suite passes plus one later time-course test.
 All populations/RNG, ancestry, raw masks and earlier studies are preserved.
-Future studies must exclude all **52,424** recorded whole layouts.
+At V12D launch, all **52,424** recorded whole layouts were excluded from new
+training and confirmation; V12C validation was deliberately reused.
 
-The proposed next experiment is one unchanged 75-minute continuation, with
-today's frozen selections as extra controls and a stronger paired-transfer,
-retention and orientation criterion. It has **not** been launched. Read the
+The unchanged 75-minute continuation proposed here became the completed V12D
+study above, with V12C frozen selections as extra controls and a stronger
+paired-transfer, retention and orientation criterion. Read the original
 [protocol](docs/FOUNDATION_STUDY_V12C.md) and
 [confirmation notes](docs/FOUNDATION_STUDY_CONFIRMATION.md).
 
