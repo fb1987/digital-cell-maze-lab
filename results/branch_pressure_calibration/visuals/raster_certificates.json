@@ -1,0 +1,218 @@
+[
+  {
+    "model": "local/fa127ced5c346e4a0281/7",
+    "item_id": "branch_pressure/r0/f81/edit1",
+    "row": {
+      "case": "confirmation/two_edge/turning/c9/s0/paired/0/d4-0",
+      "status": "step_budget",
+      "steps": 256,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "budget_exhausted",
+      "partial": 0.0,
+      "reads": 211200,
+      "range_reads": [
+        211200,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 270336,
+      "active": 230892,
+      "array_bytes": 5828,
+      "mask": "0000000080020400000000",
+      "exposure_checks": 16896,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "base": "confirmation/two_edge/turning/c9/s0",
+      "template": "confirmation/two_edge/turning/c9/s0",
+      "index": 9,
+      "pose": 0,
+      "family": "paired",
+      "side": 0,
+      "kind": "two_edge",
+      "goal_shape": "turning",
+      "prefix": 0,
+      "junction": 40,
+      "path": [
+        40,
+        39,
+        30
+      ],
+      "clutter": [
+        14,
+        19,
+        37,
+        55,
+        58,
+        68
+      ]
+    },
+    "pair_score": 0.0
+  },
+  {
+    "model": "local/fa127ced5c346e4a0281/7",
+    "item_id": "branch_pressure/r0/f81/edit1",
+    "row": {
+      "case": "confirmation/two_edge/turning/c9/s0/paired/1/d4-0",
+      "status": "step_budget",
+      "steps": 256,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "budget_exhausted",
+      "partial": 0.24753086419753087,
+      "reads": 211200,
+      "range_reads": [
+        211200,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 270336,
+      "active": 230892,
+      "array_bytes": 5828,
+      "mask": "0000000080020400000000",
+      "exposure_checks": 16896,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "base": "confirmation/two_edge/turning/c9/s0",
+      "template": "confirmation/two_edge/turning/c9/s0",
+      "index": 9,
+      "pose": 0,
+      "family": "paired",
+      "side": 1,
+      "kind": "two_edge",
+      "goal_shape": "turning",
+      "prefix": 0,
+      "junction": 40,
+      "path": [
+        40,
+        41,
+        50
+      ],
+      "clutter": [
+        14,
+        19,
+        37,
+        55,
+        58,
+        68
+      ]
+    },
+    "pair_score": 0.0
+  },
+  {
+    "model": "local/fa127ced5c346e4a0281/7",
+    "item_id": "branch_pressure/r0/f81/edit1",
+    "row": {
+      "case": "confirmation/two_edge/turning/c9/s0/paired/0/d4-1",
+      "status": "emitted",
+      "steps": 4,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "disconnected_output",
+      "partial": 0.8975308641975309,
+      "reads": 3300,
+      "range_reads": [
+        3300,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 4224,
+      "active": 3588,
+      "array_bytes": 5828,
+      "mask": "0000008001010100000000",
+      "exposure_checks": 264,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "base": "confirmation/two_edge/turning/c9/s0",
+      "template": "confirmation/two_edge/turning/c9/s0",
+      "index": 9,
+      "pose": 1,
+      "family": "paired",
+      "side": 0,
+      "kind": "two_edge",
+      "goal_shape": "turning",
+      "prefix": 0,
+      "junction": 40,
+      "path": [
+        40,
+        31,
+        32
+      ],
+      "clutter": [
+        52,
+        15,
+        13,
+        11,
+        38,
+        46
+      ]
+    },
+    "pair_score": 0.375
+  },
+  {
+    "model": "local/fa127ced5c346e4a0281/7",
+    "item_id": "branch_pressure/r0/f81/edit1",
+    "row": {
+      "case": "confirmation/two_edge/turning/c9/s0/paired/1/d4-1",
+      "status": "emitted",
+      "steps": 6,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "branch_or_cycle",
+      "partial": 0.3,
+      "reads": 4950,
+      "range_reads": [
+        4950,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 6336,
+      "active": 5392,
+      "array_bytes": 5828,
+      "mask": "0000008001010300000000",
+      "exposure_checks": 396,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "base": "confirmation/two_edge/turning/c9/s0",
+      "template": "confirmation/two_edge/turning/c9/s0",
+      "index": 9,
+      "pose": 1,
+      "family": "paired",
+      "side": 1,
+      "kind": "two_edge",
+      "goal_shape": "turning",
+      "prefix": 0,
+      "junction": 40,
+      "path": [
+        40,
+        49,
+        48
+      ],
+      "clutter": [
+        52,
+        15,
+        13,
+        11,
+        38,
+        46
+      ]
+    },
+    "pair_score": 0.375
+  }
+]

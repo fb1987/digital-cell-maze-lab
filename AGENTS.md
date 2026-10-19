@@ -34,10 +34,66 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12M is complete and independently audited**. Read
+Current checkpoint: **V12N is complete and independently audited**. Read
+`results/branch_pressure_calibration.md` and `docs/BRANCH_PRESSURE_CALIBRATION_PROGRESS.md`.
+Do not rerun/extend N, resume old closed runs or train/reselect on its final cases.
+All calibration/final readiness gates FAIL; NO evolution pilot launched. The
+cumulative-mutation/full-orientation follow-up is a proposal only.
+
+Protocol/source/pools/fixtures pushed74fcc24 BEFORE anycandidatecall;12validation
+choices/evidence pushed8bbf2cf BEFORE finalgeneration. Seed2026101909,fixtures1284.
+Three original M96-founder groups +2independentone-edit children/founder:864ids,
+576events,1662physical local/nonlocal configurations. Exposurebitsunchanged/inert;
+all-onM runtime/goalpulse/limits,capacity256. SameevidenceandRNGforbothpressures.
+Mvalidation-selected anchors protected equally. No breeding orknownsolverinjection.
+
+Choiceproxy measures appropriate change on exclusiveINTERIORgoalarms excluding
+bothgoalmarkers/sharedcells, timesweakerpathF1. Ordinaryemissiononly. Insertedafter
+completepairs andbeforeindividual/corridor counts. Currentproxy0 reproducesM.
+Cal/val10new9×9contexts each,evenposes0/2/4/6:240inputs,40pairs. Final30contexts,
+all8poses:1440inputs,240pairs(48adjacent/192nonadjacent),480corr/480NP. Fivekindsof
+adjacent/two-/three-edge arms/sharedprefixforks×2shapes,isolatedclutter. Treegrammar
+only;routeformsrepeat,poses/controls correlated. All8poses saved/excluded.
+
+Everycalcandidateproxy0,strict-both0,nonadjpairs0. All6cohorts0/64parentchanges,
+sameelites/nominees;activationfails. Finalsamechoices underbothpressures:group0
+local12adjacentpairs,0nonadj,.03125proxy,108corr;nonlocal12adjacent,0nonadj,
+.0023148148proxy,12corr. Other4cohorts0pairs/0proxy,480corr. AllNP0,nofalseNP.
+IntactVM/BFS/A*/bitwave solve960reachable+480disconnected. No speedclaim.
+
+Group0selected `branch_pressure/r0/f81/edit1` is GENOTYPE IDENTICAL to Mfounder81,
+96genes;ineffectiveedit,tie-breakalias,notnewdiscovery. All1440finalmasks matchparent.
+Localpositivepartials:12pairs on3turning2-edge contexts atposes1/3/5/7(score.375).
+Nonlocal:2poses(3/7)ofone3-edgecontext(score1/6). Strict-both0,nonadjcomplete0.
+**Calibrationomittedquarter-turnposes**. Thiscoverageflawpreventsclaimingnopositive
+responseanywhere;finalpartialsarenotnewselectionevidence orpressureadvantage.
+
+543/576mutationschangegenotype (groups184/179/180of192),butmask-changingchildren
+local/nonlocal=5/5,2/1,2/2. Counters/stepschange127/128,116/116,121/123:computation
+changesmoreoften thanoutput;doNOTinferinactivegenes/hiddenstateequivalence.
+Somecalgoalswitchawayfrommarkers(5/8,6/6,0/0candidates/288)hasnegativeinterior
+contrast;allpositive0. Ndoesnottestcumulativeedits/longerevolution/largercapacity.
+
+Main49.423candidate seconds,426960calls,28906147288work;cal+val47.843/480s,
+final1.580/200s.1512MiBpeakRSS. Profile1440calls/.182s separate;timinggatepassed.
+AuditfirstattemptPASSES71.303s/1742.88MiB:428400candidate replays,432720independent
+rastergrades,4320baselines,576events/RNG,768parentdraws,3456ranks,12choices,
+2880graphcases,177source/10inputhashes,1641priorcompletionentries. No sourcerepair/
+protocoldeviation.21focusedtests(11new+10M),241collected,NOTfreshfullsuite.
+Initialunscopedcollectionfailedonoptionalplot-librarytests;scopedcollectionpasses.
+
+Exclude177032wholelayouts:175592throughM+240Nfixtures+240cal+240val+720final.
+`branch_pressure_data.exclusions()`returnsTHROUGH M ONLY;addmazes.json.gzfromN
+fixtures/calibration/validation/confirmation,includingunqueriedposes.
+Nextproposal: boundedcumulativemutation/full8poseassay with equal-budget one-edit/
+resamplingcontrols,allintermediates/RNGandanchorspreserved. Thenchoosebetween
+shortdiversity-preservingevolution oraspecificexpression/emissionmechanismtest.
+Noauto60–90min;normalnonadjpairedgains2/3evolutionreplicates+retentionstillrequired.
+
+Historical checkpoint: **V12M is complete and independently audited**. Read
 `results/exposure_calibration.md` and `docs/EXPOSURE_CALIBRATION_PROGRESS.md` first.
 Do not repeat/extend M, resume older closed runs, or train/reselect on M final cases.
-The goal-conditioned branch-pressure follow-up is a proposal only, not launched.
+Its proposed branch-pressure calibration is completed as V12N above.
 
 Inherited radii2/4/8 bits are implemented with exact all-on/all-off parity and
 charged exposure checks. Static suppression, not dynamic regulation. Sixteen

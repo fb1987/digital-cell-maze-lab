@@ -6,6 +6,32 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12N branch-pressure calibration](results/branch_pressure_calibration.md) is
+complete and audited. **The new pressure did not change selection**, so the
+conditional evolution pilot was not launched. Across three preserved random
+founder groups and their one-edit neighborhoods, its interior branch-choice score
+was zero on all queried calibration cases.
+
+Most edits changed computation counters, but only **1–5 of 192 children per
+cohort changed a returned mask**. Independent final data also exposes a calibration
+coverage limitation: an unchanged founder has small one-sided responses in
+quarter-turn orientations omitted from calibration. It still completes no
+non-adjacent pair. The next proposal tests cumulative mutation and all eight poses,
+with equal-budget controls, before choosing a further evolution or runtime study.
+Random-origin discovery remains open; this was not a test of extended evolution.
+
+![Selection activation and transfer](results/branch_pressure_calibration/visuals/pressure_and_transfer.png)
+
+Main inference: **49.42 seconds**, 426,960 calls. Audit passes first attempt:
+428,400 exact candidate replays, 432,720 independent raster grades and 1,641 prior
+completion entries. Twenty-one focused tests pass; 241 repository tests collected,
+not a fresh full suite. Exclude **177,032 whole layouts** next. General solving,
+beneficial multirange use and speedup remain unestablished. See the
+[handoff](docs/BRANCH_PRESSURE_CALIBRATION_PROGRESS.md) and
+[unlaunched cumulative-variation proposal](results/branch_pressure_calibration/next_experiment.md).
+
+## Completed inherited exposure calibration V12M
+
 The [V12M inherited exposure calibration](results/exposure_calibration.md) is
 complete and audited. **Inherited suppression improves an older Branch model
 from 32 to 48 unseen paired solutions, but matches switching all nonlocal values
@@ -27,7 +53,7 @@ records and 1,390 prior completion entries. Ten new plus sixteen related focused
 tests pass; 230 collected, not a fresh full suite. Exclude **175,592 whole layouts**
 next. General solving, beneficial multirange use and speedup remain unestablished.
 See the [handoff](docs/EXPOSURE_CALIBRATION_PROGRESS.md) and
-[unlaunched pressure-calibration proposal](results/exposure_calibration/next_experiment.md).
+[pressure-calibration proposal](results/exposure_calibration/next_experiment.md), now completed as V12N above.
 
 ## Completed lineage confirmation V12L
 
