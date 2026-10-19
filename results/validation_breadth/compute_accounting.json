@@ -1,0 +1,97 @@
+{
+  "main_candidate_budget": {
+    "seconds": 532.9939966983511,
+    "calls": 658176,
+    "work": 312103773228,
+    "maximum": 0.01672312500886619,
+    "scopes": {
+      "validation/narrow": {
+        "seconds": 192.96624265849823,
+        "calls": 240384,
+        "work": 113328480556
+      },
+      "validation/broad": {
+        "seconds": 197.98616594070336,
+        "calls": 240384,
+        "work": 116188813313
+      },
+      "final": {
+        "seconds": 142.04158809914952,
+        "calls": 177408,
+        "work": 82586479359
+      }
+    },
+    "cap_seconds": 720.0,
+    "max_calls": 1200000
+  },
+  "profile_calibration": {
+    "seconds": 6.100839092279784,
+    "calls": 8152,
+    "work": 3663646291,
+    "maximum": 0.008329083968419582,
+    "scopes": {
+      "controls": {
+        "seconds": 0.03160541853867471,
+        "calls": 640,
+        "work": 13236684
+      },
+      "profile": {
+        "seconds": 6.06923367374111,
+        "calls": 7512,
+        "work": 3650409607
+      }
+    },
+    "cap_seconds": 60,
+    "max_calls": 10000
+  },
+  "audit_candidate_budget": {
+    "seconds": 541.1684358596103,
+    "calls": 666328,
+    "work": 315767419519,
+    "maximum": 0.015696040994953364,
+    "scopes": {
+      "replay/fixtures": {
+        "seconds": 6.299595661112107,
+        "calls": 8152,
+        "work": 3663646291
+      },
+      "replay/validation": {
+        "seconds": 392.3144583039684,
+        "calls": 480768,
+        "work": 229517293869
+      },
+      "replay/final": {
+        "seconds": 142.5543818945298,
+        "calls": 177408,
+        "work": 82586479359
+      }
+    },
+    "cap_seconds": 720.0,
+    "max_calls": 1200000
+  },
+  "main_wall_seconds": 560.359527249937,
+  "profile_wall_seconds": 6.82139462500345,
+  "audit_wall_seconds": 582.1529125410016,
+  "charged_candidate_calls": 1332656,
+  "charged_candidate_work": 631534839038,
+  "charged_candidate_seconds": 1080.2632716502412,
+  "warmup_candidate_calls": 4,
+  "warmup_baseline_calls": 12,
+  "warmup_seconds": 0.26081258297199383,
+  "warmup_work": "Not metered; four fixture VM calls and twelve baseline calls, outside main cap",
+  "main_baseline_calls": 12672,
+  "audit_baseline_calls": 12672,
+  "main_input_raster_bytes": 411360000,
+  "main_returned_raster_bytes": 411360000,
+  "main_packed_mask_bytes": 51995904,
+  "interface_volume_is_not_bus_traffic": true,
+  "peak_main_rss_bytes": 713900032,
+  "peak_audit_rss_bytes": 820199424,
+  "model_setup_seconds": 0.47919679869664833,
+  "budget_extended": false,
+  "audit_attempts": 1,
+  "experimental_protocol_deviations": [],
+  "pre_registration_fixture_correction": "Rejected one-edge cycle attachment before any candidate inference; preserved/excluded 192 layouts",
+  "unmetered_other_work": "Software tests, rejected/accepted fixture generation, pool preparation, development, Git, plotting and report assembly; no additional research candidate inference",
+  "source_and_results_of_earlier_studies_unchanged": true
+}

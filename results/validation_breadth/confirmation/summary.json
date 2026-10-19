@@ -1,0 +1,46 @@
+{
+  "selection_revision": "e53bfa1ffbcb0720dba7f6be59b2ec7a05178f07",
+  "seed": 2026101904,
+  "budget": {
+    "seconds": 532.9939966983511,
+    "calls": 658176,
+    "work": 312103773228,
+    "maximum": 0.01672312500886619,
+    "scopes": {
+      "validation/narrow": {
+        "seconds": 192.96624265849823,
+        "calls": 240384,
+        "work": 113328480556
+      },
+      "validation/broad": {
+        "seconds": 197.98616594070336,
+        "calls": 240384,
+        "work": 116188813313
+      },
+      "final": {
+        "seconds": 142.04158809914952,
+        "calls": 177408,
+        "work": 82586479359
+      }
+    },
+    "cap_seconds": 720.0,
+    "max_calls": 1200000
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.050802625017240644,
+    "case": "fixture/stratum0/g0/s1/fork/a/d4-0",
+    "readonly_uint8": true,
+    "work_metered": false
+  },
+  "physical_models": 42,
+  "baseline_calls": 12672,
+  "input_count": 4224,
+  "contexts": 64,
+  "model_setup_seconds": 0.008888247888535261,
+  "prior_layouts": 141496,
+  "resulting_layouts": 144120,
+  "wall_seconds": 152.83038508397294,
+  "peak_rss_bytes": 713900032
+}

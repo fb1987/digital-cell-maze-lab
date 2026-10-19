@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "source_hashes": 153,
+  "input_hashes": 16,
+  "pool_source_hashes": 115,
+  "prior_completion_hashes": 481,
+  "geometry": {
+    "fixtures": {
+      "decision_labels": 192,
+      "reachable_cases": 256,
+      "legal_longer_masks": 64,
+      "no_path_cases": 64,
+      "contexts": 4,
+      "whole_layouts": 192,
+      "cases": 320
+    },
+    "validation": {
+      "decision_labels": 2880,
+      "reachable_cases": 3840,
+      "legal_longer_masks": 960,
+      "contexts": 60,
+      "whole_layouts": 2400,
+      "cases": 3840
+    },
+    "final": {
+      "decision_labels": 3072,
+      "reachable_cases": 4096,
+      "legal_longer_masks": 1024,
+      "no_path_cases": 128,
+      "contexts": 64,
+      "whole_layouts": 2624,
+      "cases": 4224
+    }
+  },
+  "resulting_layouts": 144120,
+  "graded_rasters": 679000,
+  "budget": {
+    "seconds": 541.1684358596103,
+    "calls": 666328,
+    "work": 315767419519,
+    "maximum": 0.015696040994953364,
+    "scopes": {
+      "replay/fixtures": {
+        "seconds": 6.299595661112107,
+        "calls": 8152,
+        "work": 3663646291
+      },
+      "replay/validation": {
+        "seconds": 392.3144583039684,
+        "calls": 480768,
+        "work": 229517293869
+      },
+      "replay/final": {
+        "seconds": 142.5543818945298,
+        "calls": 177408,
+        "work": 82586479359
+      }
+    },
+    "cap_seconds": 720.0,
+    "max_calls": 1200000
+  },
+  "baseline_replays": 12672,
+  "condition_arm_choices": 60,
+  "physical_final_models": 42,
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.05730699998093769,
+    "case": "fixture/stratum0/g0/s1/fork/a/d4-0",
+    "readonly_uint8": true,
+    "work_metered": false
+  },
+  "wall_seconds": 582.1529125410016,
+  "peak_rss_bytes": 820199424
+}

@@ -1,0 +1,41 @@
+{
+  "condition": "fork/carry/local/branch/evolution/0",
+  "base": "final/stratum1/g6/s9",
+  "symmetry": 0,
+  "family": "fork",
+  "shortest_edges": [
+    10,
+    11
+  ],
+  "alternative_edges": [
+    26,
+    27
+  ],
+  "entries": [
+    {
+      "arm": "narrow",
+      "model": "local/91fb9cabf512adf858df",
+      "case": "final/stratum1/g6/s9/fork/a/d4-0",
+      "optimal": false
+    },
+    {
+      "arm": "broad",
+      "model": "local/084a94e34b5b5719f72e",
+      "case": "final/stratum1/g6/s9/fork/a/d4-0",
+      "optimal": true
+    },
+    {
+      "arm": "narrow",
+      "model": "local/91fb9cabf512adf858df",
+      "case": "final/stratum1/g6/s9/fork/b/d4-0",
+      "optimal": true
+    },
+    {
+      "arm": "broad",
+      "model": "local/084a94e34b5b5719f72e",
+      "case": "final/stratum1/g6/s9/fork/b/d4-0",
+      "optimal": true
+    }
+  ],
+  "selection": "Largest positive condition gain; prefer cycle, then longest total routes, then construction identity. Post-hoc saved-raster illustration only."
+}

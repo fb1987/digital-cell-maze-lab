@@ -50,10 +50,10 @@ def run():
         delta=[cohorts[k]['pair_counts_by_replicate']['broad'][r]-cohorts[k]['pair_counts_by_replicate']['narrow'][r] for k in keys]
         axes[1].scatter(delta,y+(r-1)*.13,s=36,c=color,marker=marker,label=f'Replicate {r+1}',zorder=3)
     axes[1].set_xlabel('Broad − narrow complete pairs / 1,536'); axes[1].set_title('Replicate consistency')
-    axes[1].legend(frameon=False,fontsize=8,loc='lower right')
+    axes[1].legend(frameon=False,fontsize=8,loc='center right')
     for ax in axes:
         ax.grid(axis='x',alpha=.18); ax.set_axisbelow(True)
-    fig.suptitle('V12I · does broader validation select better existing genomes?',fontsize=15,y=1.02)
+    fig.suptitle('V12I · broader validation improves some existing selections',fontsize=15,y=1.02)
     fig.text(.5,-.035,'Untouched final: 64 independent contexts × 8 poses × 3 matched graph variants. Poses and variants are correlated.\nNarrow: 4 contexts × 4 poses. Broad: 16 contexts × 1 pose. No genomes evolved during this experiment.',ha='center',fontsize=9)
     fig.tight_layout(); save(fig,'comparison')
 
@@ -102,4 +102,40 @@ def run():
         selection='Largest positive condition gain; prefer cycle, then longest total routes, then construction identity. Post-hoc saved-raster illustration only.'),indent=2)+'\n')
 
 
-if __name__=='__main__': run()
+def best_cycle():
+    diagnostics=json.loads((OUT/'saved_raster_diagnostics.json').read_text())
+    key=min((k for k in diagnostics['models'] if not k.startswith('known/')),
+        key=lambda k:(-diagnostics['models'][k]['pairs'],k))
+    rows=next(p['rows'] for p in lines(OUT/'confirmation/outputs.jsonl.gz') if p['model']==key)
+    outputs={r['case']:r for r in rows}; cases,contexts,_=load(OUT/'confirmation')
+    options=[]
+    for c in contexts:
+        if c['id'] not in diagnostics['models'][key]['all_eight_contexts_all_families']:
+            continue
+        p=c['poses'][0]
+        options.append((-sum(len(x) for x in p['meta']['paths']),c['id'],p))
+    if not options: return
+    _,base,pose=min(options,key=lambda x:x[:2])
+    fig,axes=plt.subplots(2,3,figsize=(10.7,7.1)); entries=[]
+    for col,family in enumerate(FAMILIES):
+        for side,cid in enumerate(pose['cases'][family]):
+            row=outputs[cid]; assert row['optimal']; m=cases[cid].maze
+            mask=np.unpackbits(np.frombuffer(bytes.fromhex(row['mask']),np.uint8),bitorder='little')[:len(m.cells)]
+            grid=np.array(list(m.cells),int);grid[mask>0]=2
+            ax=axes[side,col];ax.imshow(grid.reshape(m.h,m.w),cmap=ListedColormap(['#283747','#edf0e8','#e6a052']),vmin=0,vmax=2,interpolation='none')
+            ax.scatter([m.start%m.w],[m.start//m.w],s=40,c='#49a4d7',edgecolors='white',linewidths=.7)
+            ax.scatter([m.goal%m.w],[m.goal//m.w],s=65,c='#eddd66',marker='*',edgecolors='#293646',linewidths=.5)
+            ax.set_xticks([]);ax.set_yticks([])
+            ax.set_title(f'{family.replace("_"," ").title()} · goal {side+1}\nCorrect shortest output',fontsize=10)
+            entries.append(dict(model=key,case=cid,optimal=True))
+    short=[len(x)-1 for x in pose['meta']['paths']]; alt=[len(x)-1 for x in pose['meta']['alternatives']]
+    fig.suptitle('A preserved random-origin genome routes both goals through a real cycle',fontsize=13,y=1.01)
+    fig.text(.5,.012,f'Shortest routes: {short} edges; cycle alternatives: {alt}. First junction: {pose["meta"]["lengths"][0]} edge from source.\nAll eight poses work on these matched graphs. Post-hoc illustration of the highest-scoring frozen final variant; no extra inference.',ha='center',fontsize=9)
+    fig.tight_layout(rect=[0,.06,1,.98]);save(fig,'preserved_cycle')
+    (VIS/'preserved_cycle_selection.json').write_text(json.dumps(dict(model=key,base=base,symmetry=0,
+        shortest_edges=short,alternative_edges=alt,entries=entries,
+        selection='Post-hoc highest paired-scoring frozen model; longest total paired route in an all-family/all-eight-pose cycle context; tie by base. No change to primary selections.'),indent=2)+'\n')
+
+
+if __name__=='__main__':
+    run();best_cycle()

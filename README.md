@@ -6,6 +6,38 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12I equal-budget validation comparison](results/validation_breadth.md) is
+complete and audited. **Broader validation improves several existing selections,
+but no cohort passes the preregistered two-of-three-replicate gate.** Both arms
+use the same frozen condition pools (1,878 distinct genome/topology combinations)
+and exactly 128 inputs/genotype. Narrow uses four contexts × four poses; broad
+sixteen × one. Each arm makes 240,384 physical calls. No evolution occurs.
+
+On a new 64-context final corpus, carried/local Branch complete pairs rise
+**104→212 /4,608**, carried/multirange Current **432→492**, and carried/multirange
+Branch **610→606**. Some replacements lose corridor competence or rare
+longer-prefix skills. The original resampling control remains competitive:
+broader validation recovers its unmutated 68-gene draw, which completes 80 fork
+pairs while handling all corridors, but no two-junction or cycle pairs.
+
+A preserved 254-gene random-origin G nominee, selected by **narrow** validation,
+completes 416/1,536 pairs: all 32 short-prefix fork contexts in every pose, plus ten
+real-cycle contexts in every pose. Its cycle successes all have a one-edge
+source prefix. Across all selected models, no pair works with a 5–8-edge source
+prefix. General solving, multirange causality and speedup remain unestablished.
+
+![Equal-budget validation comparison](results/validation_breadth/visuals/comparison.png)
+
+Main inference took 8.88 minutes within a closed 12-minute cap; the separate audit
+passes 666,328 candidate replays and 679,000 raster checks. Thirty-one focused tests
+pass (ten new); 195 are collected, not a fresh full-suite run. All prior states and
+new raw evidence remain intact. Exclude **144,120 whole layouts** next. The
+[proposed next step](results/validation_breadth/next_experiment.md) is a bounded
+junction-distance/branch-suppression test before more breeding; it is not launched.
+See the [completed handoff](docs/VALIDATION_BREADTH_PROGRESS.md).
+
+## Completed fixed-panel confirmation V12H
+
 The [V12H fixed-panel confirmation](results/routing_transfer.md) is complete.
 **The previous G leader fails all 2,304 new branched inputs, while retaining
 690/768 matched corridors.** All G primary and frozen selections were tested;
@@ -31,9 +63,9 @@ Inference took **152.76 seconds** under a fixed ten-minute cap; the complete aud
 passes after an audit-only NumPy-count serialization repair. All old populations,
 RNG and raw evidence are preserved. Ten new tests are covered, plus eight focused
 existing adapter tests; this was not a full 185-test run. Future independent
-studies must exclude **138,712 whole layouts**. The proposed next step is a
-[budget-matched validation-coverage comparison](results/routing_transfer/next_experiment.md)
-on a frozen existing genome pool, before more breeding. See the
+studies must exclude **138,712 whole layouts**. H proposed a
+[budget-matched validation-coverage comparison](results/routing_transfer/next_experiment.md),
+now completed as I above. See the
 [completed handoff](docs/ROUTING_TRANSFER_PROGRESS.md).
 
 ## Completed minimal-fork pilot V12G
