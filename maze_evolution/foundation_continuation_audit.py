@@ -279,6 +279,9 @@ def run(out):
     assert hashlib.sha256(software.read_bytes()).hexdigest() == confirmed['software_fixture_sha256']
     assert file_sha(out / 'checkpoint_selections.json.gz') == summary['checkpoint_selections_sha256'] == confirmed['checkpoint_sha256']
     assert read_compressed(out / 'checkpoint_selections.json.gz') == read_compressed(PARENT / 'frozen_selections.json.gz')
+    timecourse = json.loads((out / 'timecourse/freeze.json').read_text())
+    assert file_sha(out / 'timecourse/selections.json.gz') == timecourse['selection_sha256'] == confirmed['timecourse_selection_sha256']
+    assert timecourse['search_summary_sha256'] == file_sha(out / 'search_summary.json')
     checkpoint = read_compressed(out / 'checkpoint.latest.json.gz')
     assert checkpoint['generation'] == summary['rounds']
     assert checkpoint['segments'] == summary['segments']
