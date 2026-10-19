@@ -6,6 +6,35 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12K robustness-pressure study](results/robustness_pressure.md) is complete
+and audited. **A new random-origin descendant solves 64 unseen fork pairs across
+eight contexts in every pose**, versus ten for its frozen initial selection. It
+handles straight and turning goal arms and routes to eleven edges, but only
+one/two-edge source prefixes; extra-junction/cycle pairs still fail.
+
+Context-consistency pressure does not beat paired-count pressure: ten of twelve
+paired searches stay genetically identical and every cohort fails the expansion
+gate. Fresh founders complete no queried training pairs in this short pilot.
+Their population/RNG states remain preserved; random-origin discovery stays open.
+
+A separate new-corpus diagnostic confirms harmful nonlocal exposure in the older
+broad Branch lineage: zeroing those values improves 88→128 pairs across four
+contexts and both goal-arm shapes. The narrower variant improves on only two
+contexts. This supports testing heritable exposure control, not a claim that
+multiple ranges are beneficial or that a regulatory gate has evolved.
+
+![A new fork skill and its transfer limit](results/robustness_pressure/visuals/new_descendant_limit.png)
+
+Search: **23 matched generations, 11.48 minutes / 12-minute cap**, 1.64 million
+physical calls with equal logical budgets. Audit passes first attempt: 1,774,976
+candidate replays, 1,786,496 raster checks and all thirty final states/RNG.
+Twenty-nine focused tests pass; 212 collected, not a fresh full suite. Exclude
+**163,928 whole layouts** next. General solving and speedup remain unestablished.
+See the [handoff](docs/ROBUSTNESS_PRESSURE_PROGRESS.md) and
+[unlaunched confirmation/regulation proposal](results/robustness_pressure/next_experiment.md).
+
+## Completed matched junction-distance study V12J
+
 The [V12J matched junction-distance study](results/junction_distance.md) is
 complete and audited. **There is no universal four-edge decision ceiling, but
 there is still no robust general solver.** Thirteen frozen random-origin models
@@ -33,7 +62,7 @@ and 692 prior G/H/I completion entries. Twenty-eight focused tests pass (nine ne
 204 collected, not a fresh full-suite run. All populations/RNG and raw evidence
 remain intact. Exclude **150,776 whole layouts** next. See the
 [completed handoff](docs/JUNCTION_DISTANCE_PROGRESS.md) and
-[unlaunched robustness-pressure proposal](results/junction_distance/next_experiment.md).
+[robustness-pressure proposal](results/junction_distance/next_experiment.md), now completed as V12K above.
 
 ## Completed equal-budget validation comparison V12I
 

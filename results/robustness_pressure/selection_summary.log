@@ -1,0 +1,20 @@
+carry local
+pair evolution archives pairs [64, 0, 8] full [8, 0, 0] corr [384, 0, 20] far [0, 0, 0] steps [0, 4, 1]
+context evolution archives pairs [64, 0, 8] full [8, 0, 0] corr [384, 0, 20] far [0, 0, 0] steps [0, 4, 0]
+pair evolution frozen pairs [64, 0, 8] full [8, 0, 0] corr [384, 1, 20] far [0, 0, 0] steps [0, 0, 0]
+carry evolved
+pair evolution archives pairs [98, 6, 64] full [12, 0, 8] corr [272, 26, 384] far [2, 0, 0] steps [0, 5, 16]
+context evolution archives pairs [98, 6, 64] full [12, 0, 8] corr [272, 26, 384] far [2, 0, 0] steps [0, 5, 16]
+pair evolution frozen pairs [98, 0, 10] full [12, 0, 0] corr [272, 8, 356] far [2, 0, 0] steps [0, 0, 0]
+fresh local
+pair evolution archives pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [0, 0, 0]
+context evolution archives pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [0, 0, 0]
+pair evolution frozen pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [0, 0, 0]
+pair resample archives pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [0, 0, 0]
+fresh evolved
+pair evolution archives pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [1, 6, 1]
+context evolution archives pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [1, 6, 1]
+pair evolution frozen pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [0, 0, 0]
+pair resample archives pairs [0, 0, 0] full [0, 0, 0] corr [384, 384, 384] far [0, 0, 0] steps [0, 0, 0]
+Pressure differences [{'origin': 'carry', 'topology': 'local', 'replicate': 0, 'different_rounds': 15, 'first_difference': 8, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': False}, {'origin': 'carry', 'topology': 'local', 'replicate': 1, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'carry', 'topology': 'local', 'replicate': 2, 'different_rounds': 23, 'first_difference': 0, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': False}, {'origin': 'carry', 'topology': 'evolved', 'replicate': 0, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'carry', 'topology': 'evolved', 'replicate': 1, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'carry', 'topology': 'evolved', 'replicate': 2, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'fresh', 'topology': 'local', 'replicate': 0, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'fresh', 'topology': 'local', 'replicate': 1, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'fresh', 'topology': 'local', 'replicate': 2, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'fresh', 'topology': 'evolved', 'replicate': 0, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'fresh', 'topology': 'evolved', 'replicate': 1, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}, {'origin': 'fresh', 'topology': 'evolved', 'replicate': 2, 'different_rounds': 0, 'first_difference': None, 'pair_top_sets_differ': 0, 'context_top_sets_differ': 0, 'final_rng_equal': True}]
+Unique final models 37

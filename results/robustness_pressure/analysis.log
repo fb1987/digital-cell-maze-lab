@@ -1,0 +1,196 @@
+{
+  "rescue": {
+    "branch_narrow": {
+      "passed": false,
+      "normal": 96,
+      "zero": 128,
+      "positive_contexts": 2,
+      "lost_far": 0
+    },
+    "branch_broad": {
+      "passed": true,
+      "normal": 88,
+      "zero": 128,
+      "positive_contexts": 4,
+      "lost_far": 0
+    },
+    "long_prefix": {
+      "passed": false,
+      "normal": 8,
+      "zero": 8,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "long_replacement": {
+      "passed": false,
+      "normal": 46,
+      "zero": 46,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "local_long": {
+      "passed": false,
+      "normal": 13,
+      "zero": 13,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "local_cycle": {
+      "passed": false,
+      "normal": 24,
+      "zero": 24,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "fresh_evolved": {
+      "passed": false,
+      "normal": 8,
+      "zero": 8,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "fresh_local": {
+      "passed": false,
+      "normal": 0,
+      "zero": 0,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "fresh_local_narrow": {
+      "passed": false,
+      "normal": 0,
+      "zero": 0,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "resampled": {
+      "passed": false,
+      "normal": 32,
+      "zero": 32,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "branch_narrow_parent": {
+      "passed": false,
+      "normal": 96,
+      "zero": 128,
+      "positive_contexts": 2,
+      "lost_far": 0
+    },
+    "branch_broad_parent": {
+      "passed": true,
+      "normal": 88,
+      "zero": 128,
+      "positive_contexts": 4,
+      "lost_far": 0
+    },
+    "shared_ancestor": {
+      "passed": false,
+      "normal": 24,
+      "zero": 24,
+      "positive_contexts": 0,
+      "lost_far": 0
+    },
+    "intact": {
+      "passed": false,
+      "normal": 576,
+      "zero": 576,
+      "positive_contexts": 0,
+      "lost_far": 0
+    }
+  },
+  "gates": {
+    "carry/local": {
+      "passed": false,
+      "replicates": [
+        {
+          "passed": false,
+          "context": 64,
+          "pair": 64,
+          "frozen": 64
+        },
+        {
+          "passed": false,
+          "context": 0,
+          "pair": 0,
+          "frozen": 0
+        },
+        {
+          "passed": false,
+          "context": 8,
+          "pair": 8,
+          "frozen": 8
+        }
+      ]
+    },
+    "carry/evolved": {
+      "passed": false,
+      "replicates": [
+        {
+          "passed": false,
+          "context": 98,
+          "pair": 98,
+          "frozen": 98
+        },
+        {
+          "passed": false,
+          "context": 6,
+          "pair": 6,
+          "frozen": 0
+        },
+        {
+          "passed": false,
+          "context": 64,
+          "pair": 64,
+          "frozen": 10
+        }
+      ]
+    },
+    "fresh/local": {
+      "passed": false,
+      "replicates": [
+        {
+          "passed": false,
+          "context": 0,
+          "pair": 0,
+          "frozen": 0
+        },
+        {
+          "passed": false,
+          "context": 0,
+          "pair": 0,
+          "frozen": 0
+        },
+        {
+          "passed": false,
+          "context": 0,
+          "pair": 0,
+          "frozen": 0
+        }
+      ]
+    },
+    "fresh/evolved": {
+      "passed": false,
+      "replicates": [
+        {
+          "passed": false,
+          "context": 0,
+          "pair": 0,
+          "frozen": 0
+        },
+        {
+          "passed": false,
+          "context": 0,
+          "pair": 0,
+          "frozen": 0
+        },
+        {
+          "passed": false,
+          "context": 0,
+          "pair": 0,
+          "frozen": 0
+        }
+      ]
+    }
+  }
+}

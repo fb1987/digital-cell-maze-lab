@@ -1,0 +1,308 @@
+[
+  {
+    "model": "robustness/carry/evolved/pair/evolution/2/archives/context",
+    "row": {
+      "case": "final/turning/p2/straight/long1/c15/s0/fork/0/d4-0",
+      "status": "emitted",
+      "steps": 21,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 125841,
+      "range_reads": [
+        104358,
+        11025,
+        7833,
+        2625
+      ],
+      "dispatches": 134400,
+      "active": 101533,
+      "array_bytes": 22891,
+      "mask": "0000000000000000000000000000000000000000000004008000001f00200000040000000000000000000000000000000000000000000000"
+    },
+    "metadata": {
+      "base": "final/turning/p2/straight/long1/c15/s0",
+      "index": 15,
+      "goal_shape": "turning",
+      "source_shape": "straight",
+      "prefix": 2,
+      "family": "fork",
+      "side": 0,
+      "pose": 0,
+      "long": true,
+      "junction": 220,
+      "path": [
+        178,
+        199,
+        220,
+        219,
+        218,
+        217,
+        216,
+        237,
+        258
+      ],
+      "alternative": [],
+      "tails": [
+        6,
+        8
+      ],
+      "depth": 4,
+      "clutter": [
+        70,
+        74,
+        114,
+        139,
+        268,
+        339,
+        341,
+        403
+      ]
+    }
+  },
+  {
+    "model": "robustness/carry/evolved/pair/evolution/2/archives/context",
+    "row": {
+      "case": "final/turning/p2/straight/long1/c15/s0/fork/1/d4-0",
+      "status": "emitted",
+      "steps": 27,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 162112,
+      "range_reads": [
+        134275,
+        14175,
+        10287,
+        3375
+      ],
+      "dispatches": 172800,
+      "active": 130884,
+      "array_bytes": 22891,
+      "mask": "000000000000000000000000000000000000000000000400800000f001002000000400800000100000000000000000000000000000000000"
+    },
+    "metadata": {
+      "base": "final/turning/p2/straight/long1/c15/s0",
+      "index": 15,
+      "goal_shape": "turning",
+      "source_shape": "straight",
+      "prefix": 2,
+      "family": "fork",
+      "side": 1,
+      "pose": 0,
+      "long": true,
+      "junction": 220,
+      "path": [
+        178,
+        199,
+        220,
+        221,
+        222,
+        223,
+        224,
+        245,
+        266,
+        287,
+        308
+      ],
+      "alternative": [],
+      "tails": [
+        6,
+        8
+      ],
+      "depth": 4,
+      "clutter": [
+        70,
+        74,
+        114,
+        139,
+        268,
+        339,
+        341,
+        403
+      ]
+    }
+  },
+  {
+    "model": "robustness/carry/evolved/pair/evolution/2/archives/context",
+    "row": {
+      "case": "final/turning/p2/straight/long1/c15/s0/cycle/0/d4-0",
+      "status": "emitted",
+      "steps": 21,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "branch_or_cycle",
+      "partial": 0.3,
+      "reads": 180870,
+      "range_reads": [
+        150138,
+        15876,
+        11076,
+        3780
+      ],
+      "dispatches": 193536,
+      "active": 145880,
+      "array_bytes": 22891,
+      "mask": "0000000000000000000000000000000000000000000004008000001f00a00000140000000000000000000000000000000000000000000000"
+    },
+    "metadata": {
+      "base": "final/turning/p2/straight/long1/c15/s0",
+      "index": 15,
+      "goal_shape": "turning",
+      "source_shape": "straight",
+      "prefix": 2,
+      "family": "cycle",
+      "side": 0,
+      "pose": 0,
+      "long": true,
+      "junction": 220,
+      "path": [
+        178,
+        199,
+        220,
+        219,
+        218,
+        217,
+        216,
+        237,
+        258
+      ],
+      "alternative": [
+        178,
+        199,
+        220,
+        221,
+        222,
+        243,
+        264,
+        285,
+        306,
+        305,
+        304,
+        303,
+        302,
+        281,
+        260,
+        239,
+        218,
+        217,
+        216,
+        237,
+        258
+      ],
+      "tails": [
+        6,
+        8
+      ],
+      "depth": 4,
+      "clutter": [
+        70,
+        74,
+        114,
+        139,
+        268,
+        339,
+        341,
+        403
+      ]
+    }
+  },
+  {
+    "model": "robustness/carry/evolved/pair/evolution/2/archives/context",
+    "row": {
+      "case": "final/turning/p2/straight/long1/c15/s0/cycle/1/d4-0",
+      "status": "emitted",
+      "steps": 27,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "branch_or_cycle",
+      "partial": 0.3,
+      "reads": 232783,
+      "range_reads": [
+        193123,
+        20412,
+        14388,
+        4860
+      ],
+      "dispatches": 248832,
+      "active": 187837,
+      "array_bytes": 22891,
+      "mask": "000000000000000000000000000000000000000000000400800000f001002800000500800000100000000000000000000000000000000000"
+    },
+    "metadata": {
+      "base": "final/turning/p2/straight/long1/c15/s0",
+      "index": 15,
+      "goal_shape": "turning",
+      "source_shape": "straight",
+      "prefix": 2,
+      "family": "cycle",
+      "side": 1,
+      "pose": 0,
+      "long": true,
+      "junction": 220,
+      "path": [
+        178,
+        199,
+        220,
+        221,
+        222,
+        223,
+        224,
+        245,
+        266,
+        287,
+        308
+      ],
+      "alternative": [
+        178,
+        199,
+        220,
+        219,
+        218,
+        239,
+        260,
+        281,
+        302,
+        303,
+        304,
+        305,
+        306,
+        285,
+        264,
+        243,
+        222,
+        223,
+        224,
+        245,
+        266,
+        287,
+        308
+      ],
+      "tails": [
+        6,
+        8
+      ],
+      "depth": 4,
+      "clutter": [
+        70,
+        74,
+        114,
+        139,
+        268,
+        339,
+        341,
+        403
+      ]
+    }
+  }
+]
