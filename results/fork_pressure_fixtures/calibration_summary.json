@@ -1,0 +1,56 @@
+{
+  "controls": {
+    "intact": {
+      "inputs": 224,
+      "valid": 192,
+      "optimal": 192,
+      "no_path": 32,
+      "strict_pairs": 48,
+      "complete_fork_pairs": 48
+    },
+    "west_return_gate": {
+      "inputs": 224,
+      "valid": 80,
+      "optimal": 80,
+      "no_path": 32,
+      "strict_pairs": 12,
+      "complete_fork_pairs": 12
+    },
+    "parent_gate": {
+      "inputs": 224,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 32,
+      "strict_pairs": 0,
+      "complete_fork_pairs": 0
+    },
+    "output_register": {
+      "inputs": 224,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 32,
+      "strict_pairs": 0,
+      "complete_fork_pairs": 0
+    },
+    "two_return_gates": {
+      "inputs": 224,
+      "valid": 32,
+      "optimal": 32,
+      "no_path": 32,
+      "strict_pairs": 2,
+      "complete_fork_pairs": 2
+    },
+    "two_dependencies": {
+      "inputs": 224,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 32,
+      "strict_pairs": 0,
+      "complete_fork_pairs": 0
+    }
+  },
+  "synthetic_outputs": 480,
+  "bfs_inputs": 224,
+  "seconds": 0.31173900002613664,
+  "passed": true
+}
