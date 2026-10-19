@@ -1,0 +1,1207 @@
+{
+  "passed": true,
+  "seed": 1224,
+  "geometry": {
+    "shortest_masks": 256,
+    "decision_labels": 192,
+    "reachable_cases": 256,
+    "legal_longer_masks": 64,
+    "no_path_cases": 64,
+    "contexts": 4,
+    "whole_layouts": 192,
+    "cases": 320
+  },
+  "summaries": {
+    "intact": {
+      "inputs": 320,
+      "strata": {
+        "fork/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 8,
+            "fixture/band0/g1/s0": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "two_junction/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 8,
+            "fixture/band0/g1/s0": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "alternate_cycle/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 8,
+            "fixture/band0/g1/s0": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "corridor/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "disconnected/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "fork/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 8,
+            "fixture/band1/g1/s2": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "two_junction/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 8,
+            "fixture/band1/g1/s2": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "alternate_cycle/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 8,
+            "fixture/band1/g1/s2": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "corridor/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "disconnected/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        }
+      },
+      "screen_pass": false,
+      "work": 9666256,
+      "nonlocal_reads": 0,
+      "max_array_bytes": 23003
+    },
+    "west_return_gate": {
+      "inputs": 320,
+      "strata": {
+        "fork/band0": {
+          "inputs": 32,
+          "valid": 10,
+          "optimal": 10,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 4,
+          "any_contexts": 2,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 2,
+            "fixture/band0/g1/s0": 2
+          },
+          "strict_pairs": 4,
+          "failures": {
+            "not_emitted": 22
+          }
+        },
+        "two_junction/band0": {
+          "inputs": 32,
+          "valid": 10,
+          "optimal": 10,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 4,
+          "any_contexts": 2,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 2,
+            "fixture/band0/g1/s0": 2
+          },
+          "strict_pairs": 4,
+          "failures": {
+            "not_emitted": 22
+          }
+        },
+        "alternate_cycle/band0": {
+          "inputs": 32,
+          "valid": 10,
+          "optimal": 10,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 4,
+          "any_contexts": 2,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 2,
+            "fixture/band0/g1/s0": 2
+          },
+          "strict_pairs": 4,
+          "failures": {
+            "not_emitted": 22
+          }
+        },
+        "corridor/band0": {
+          "inputs": 32,
+          "valid": 10,
+          "optimal": 10,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 22
+          }
+        },
+        "disconnected/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "fork/band1": {
+          "inputs": 32,
+          "valid": 4,
+          "optimal": 4,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 28
+          }
+        },
+        "two_junction/band1": {
+          "inputs": 32,
+          "valid": 4,
+          "optimal": 4,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 28
+          }
+        },
+        "alternate_cycle/band1": {
+          "inputs": 32,
+          "valid": 4,
+          "optimal": 4,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 28
+          }
+        },
+        "corridor/band1": {
+          "inputs": 32,
+          "valid": 4,
+          "optimal": 4,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 28
+          }
+        },
+        "disconnected/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        }
+      },
+      "screen_pass": false,
+      "work": 8180272,
+      "nonlocal_reads": 0,
+      "max_array_bytes": 23003
+    },
+    "parent_gate": {
+      "inputs": 320,
+      "strata": {
+        "fork/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "two_junction/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "alternate_cycle/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "corridor/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "disconnected/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "fork/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "two_junction/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "alternate_cycle/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "corridor/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "disconnected/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        }
+      },
+      "screen_pass": false,
+      "work": 7128988,
+      "nonlocal_reads": 0,
+      "max_array_bytes": 23003
+    },
+    "output_register": {
+      "inputs": 320,
+      "strata": {
+        "fork/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "two_junction/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "alternate_cycle/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "corridor/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "disconnected/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "fork/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "two_junction/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "alternate_cycle/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "corridor/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "disconnected/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        }
+      },
+      "screen_pass": false,
+      "work": 7073328,
+      "nonlocal_reads": 0,
+      "max_array_bytes": 23003
+    },
+    "two_return_gates": {
+      "inputs": 320,
+      "strata": {
+        "fork/band0": {
+          "inputs": 32,
+          "valid": 2,
+          "optimal": 2,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 30
+          }
+        },
+        "two_junction/band0": {
+          "inputs": 32,
+          "valid": 2,
+          "optimal": 2,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 30
+          }
+        },
+        "alternate_cycle/band0": {
+          "inputs": 32,
+          "valid": 2,
+          "optimal": 2,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 30
+          }
+        },
+        "corridor/band0": {
+          "inputs": 32,
+          "valid": 2,
+          "optimal": 2,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 30
+          }
+        },
+        "disconnected/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "fork/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "two_junction/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "alternate_cycle/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "corridor/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "not_emitted": 32
+          }
+        },
+        "disconnected/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        }
+      },
+      "screen_pass": false,
+      "work": 7592208,
+      "nonlocal_reads": 0,
+      "max_array_bytes": 23003
+    },
+    "two_dependencies": {
+      "inputs": 320,
+      "strata": {
+        "fork/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "two_junction/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "alternate_cycle/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 0,
+            "fixture/band0/g1/s0": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "corridor/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "disconnected/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "fork/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "two_junction/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "alternate_cycle/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 0,
+            "fixture/band1/g1/s2": 0
+          },
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "corridor/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 0,
+          "false_no_path": 32,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {
+            "empty_output": 32
+          }
+        },
+        "disconnected/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        }
+      },
+      "screen_pass": false,
+      "work": 7073328,
+      "nonlocal_reads": 0,
+      "max_array_bytes": 23003
+    },
+    "compiled_bfs": {
+      "inputs": 320,
+      "strata": {
+        "fork/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 8,
+            "fixture/band0/g1/s0": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "two_junction/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 8,
+            "fixture/band0/g1/s0": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "alternate_cycle/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band0/g0/s2": 8,
+            "fixture/band0/g1/s0": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "corridor/band0": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "disconnected/band0": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "fork/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 8,
+            "fixture/band1/g1/s2": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "two_junction/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 8,
+            "fixture/band1/g1/s2": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "alternate_cycle/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 16,
+          "any_contexts": 2,
+          "all_pose_contexts": 2,
+          "base_pair_counts": {
+            "fixture/band1/g0/s1": 8,
+            "fixture/band1/g1/s2": 8
+          },
+          "strict_pairs": 16,
+          "failures": {}
+        },
+        "corridor/band1": {
+          "inputs": 32,
+          "valid": 32,
+          "optimal": 32,
+          "no_path": 0,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        },
+        "disconnected/band1": {
+          "inputs": 32,
+          "valid": 0,
+          "optimal": 0,
+          "no_path": 32,
+          "false_no_path": 0,
+          "complete_pairs": 0,
+          "any_contexts": 0,
+          "all_pose_contexts": 0,
+          "base_pair_counts": {},
+          "strict_pairs": 0,
+          "failures": {}
+        }
+      },
+      "screen_pass": false,
+      "work": 0,
+      "nonlocal_reads": 0,
+      "max_array_bytes": 6326
+    }
+  },
+  "candidate_calls": 1920,
+  "candidate_work": 46714380,
+  "baseline_calls": 320,
+  "warmup": {
+    "seconds": 0.05544874997576699,
+    "candidate_calls": 3,
+    "baseline_calls": 3,
+    "fixture": "fixture/band0/g0/s2/fork/a/d4-0",
+    "production_readonly_grid": true
+  },
+  "wall_seconds": 0.26601920899702236,
+  "peak_rss_bytes": 120684544
+}
