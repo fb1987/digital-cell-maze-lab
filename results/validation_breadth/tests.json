@@ -1,0 +1,18 @@
+{
+  "focused_command": ".venv/bin/python -m pytest tests/test_validation_breadth.py tests/test_fork_pressure.py tests/test_routing_transfer.py -q",
+  "focused_passed": 31,
+  "new_tests": 10,
+  "runs": [
+    {
+      "seconds": 1.37,
+      "passed": 31
+    },
+    {
+      "seconds": 1.44,
+      "passed": 31,
+      "phase": "final pre-registration"
+    }
+  ],
+  "collection_result": "195 tests collected in 0.14s",
+  "fresh_full_suite_run": false
+}

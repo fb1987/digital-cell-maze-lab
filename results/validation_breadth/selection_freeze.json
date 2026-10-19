@@ -1,0 +1,55 @@
+{
+  "selections_sha256": "dd8e34a3a25f997319bc4f292f44bf2ee8ff1ed41a1df332a2104ac70054ee40",
+  "pool_sha256": "6b8a9736e7d04f880ba8d252e931554b1e1b4e19afd9452866170208ab23fa2b",
+  "scores_sha256": "e39643fad0bbafa14ee0c052cd372d973c690a2324e2de8b12fd52d7db5a0ebe",
+  "validation_sha256": {
+    "results/validation_breadth/validation/contexts.json.gz": "ba156fdf6d1c6d2bd19cbb604b49b46ea873530809e39cfb0fc53f1443924d68",
+    "results/validation_breadth/validation/scores.json.gz": "e39643fad0bbafa14ee0c052cd372d973c690a2324e2de8b12fd52d7db5a0ebe",
+    "results/validation_breadth/validation/metadata.json.gz": "40060c27dcddc570d5642d42718cc08623e2062bcfafe25fb665721590b74252",
+    "results/validation_breadth/validation/budget.json": "492833438143789064f06c5a130cf9945d0e4ae00a2c133e79a386f7c889cade",
+    "results/validation_breadth/validation/schedule.json": "817d86a9c4432b399cb91c20611a102e9a0c024c67b2a07c40046c421b5d3804",
+    "results/validation_breadth/validation/outputs.jsonl.gz": "1dd0a1dd64c22f2465d3799d979ff46975692eec24510f0c91dbbab877ca9abf",
+    "results/validation_breadth/validation/mazes.json.gz": "d479cbb30482a78a947781c0cde83971f5983ddc48c0ce7f7af991b820ee5b8c"
+  },
+  "preregistration_revision": "5a004891ac1b8f1f7b545e5a1a38134406d861cf",
+  "budget": {
+    "seconds": 390.9524085992016,
+    "calls": 480768,
+    "work": 229517293869,
+    "maximum": 0.01672312500886619,
+    "scopes": {
+      "validation/narrow": {
+        "seconds": 192.96624265849823,
+        "calls": 240384,
+        "work": 113328480556
+      },
+      "validation/broad": {
+        "seconds": 197.98616594070336,
+        "calls": 240384,
+        "work": 116188813313
+      }
+    },
+    "cap_seconds": 720.0,
+    "max_calls": 1200000
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.04936624999390915,
+    "case": "fixture/stratum0/g0/s1/fork/a/d4-0",
+    "readonly_uint8": true,
+    "work_metered": false
+  },
+  "physical_models_by_draw": {
+    "0": 586,
+    "1": 662,
+    "2": 630
+  },
+  "logical_input_calls_per_arm": 462336,
+  "inputs_per_model_per_arm": 128,
+  "model_setup_seconds": 0.47030855080811307,
+  "wall_seconds": 407.529142165964,
+  "peak_rss_bytes": 679215104,
+  "prior_layouts": 139096,
+  "resulting_layouts": 141496
+}
