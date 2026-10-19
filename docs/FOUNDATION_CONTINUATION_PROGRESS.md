@@ -5,7 +5,12 @@ The new study was preregistered and pushed in `7e30e60` before launch on
 October18,2026. It resumes all24 V12C states at generation442 under an unchanged
 75-minute wall-time budget. See `FOUNDATION_CONTINUATION_V12D.md`.
 
-Search is running locally with:
+Search completed 423 additional matched generations (442→865) in4519.379seconds
+(75.32minutes, including the final matched round and saves). It evaluated
+12,427,776 additional responses,517,824 per condition, with472.05MiB peak RSS.
+All curricula remain at level1. The final freeze/confirmation/audit are pending.
+
+The completed command was:
 
 ```bash
 caffeinate -i .venv/bin/python -u -m maze_evolution.foundation_continuation --out results/foundation_continuation

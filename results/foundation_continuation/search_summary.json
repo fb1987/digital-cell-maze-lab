@@ -1,0 +1,1531 @@
+{
+  "seed": 2026101816,
+  "ancestral_seed": 2026101815,
+  "start_generation": 442,
+  "source_sha256": {
+    "maze_evolution/__init__.py": "9bd30272bd151cc72e358ba90b756233fa559a67c7106fabf5d5ad3765d784e1",
+    "maze_evolution/balance_audit.py": "c2b39c232beff31306fdc45711eda1732a328c2a1cac499d35aaee15793c3bd2",
+    "maze_evolution/balance_data.py": "82bf48b116194ba68df5676dc953606a9de68120e01c32b6136380252a2804f4",
+    "maze_evolution/balance_diagnostics.py": "8b4bd851c2006565a847e90dddc99c0485c13b321f45f25e7c9a151c8b1e2975",
+    "maze_evolution/balance_fitness.py": "e92eee5940cb3b5151eb95105084a0901ee25863ca6dab76f030b6969b4ddfde",
+    "maze_evolution/balance_report.py": "3940293146b203054cd905af41f99549dd5e093e046b534439044bb27abbcb27",
+    "maze_evolution/balance_search.py": "4129d0ea01713d9d3777b4817bad5e4177114d52498f148fe5cf461646c914c4",
+    "maze_evolution/balance_study.py": "18e319a3b3ef724f25837ff1c2281ea6d9cbbd7ca559563fe9e54851d6bb190a",
+    "maze_evolution/baselines.py": "21858b34e9c9128c484cbeccf0290bde33477089f088a98e73d3a160a486b700",
+    "maze_evolution/beacon_audit.py": "7cfb745be302fe75d56317dca1eb393668392926747235f3897562a5a0240d3b",
+    "maze_evolution/beacon_data.py": "f8e5e796744e8bdb881d3bba88831cbd38b2763494e7ddb0cb3c6e05477a5cb4",
+    "maze_evolution/beacon_diagnostics.py": "4c324b374d9e68adab493c50c31fd7443231df2aa7ac9616b152440358dd10b8",
+    "maze_evolution/beacon_fitness.py": "3ed4aa5155f6bf8c879caf85320e4c9712923b63b96ffd302dcf58d1a842dee7",
+    "maze_evolution/beacon_probe.py": "6d9afa68869f9d29bd4921945b8a7631607f3147b4921230e77f1182940b45db",
+    "maze_evolution/beacon_report.py": "eed44bc463da040c6288c173acd30f3c1a5b2fb3520092aacf5befb57bcd8753",
+    "maze_evolution/beacon_runtime.py": "bf95142ffe0b869095e21518f85ac31934cff3329cd831405d4f191ab8f4d047",
+    "maze_evolution/beacon_search.py": "5a3555f850c3ffba40411293ea7a9b6cfc5eee568bfa8c991e3df0d33489da77",
+    "maze_evolution/beacon_study.py": "65d664ef3864f3c6d7922000c74a6a43688a580027560d22a4e0063897c9f057",
+    "maze_evolution/choice_audit.py": "d65acf23936c861916f18311364899ef85f658b2630e1f15766cfcca69f6e31d",
+    "maze_evolution/choice_data.py": "6c534101692bf670729e29aeccf4c4a2d485f1bace48efd491bb348b056a0bf3",
+    "maze_evolution/choice_diagnostics.py": "330d99cb8732de4fd367f905250d5321fa5aa838e931d23193b460f0af739a5b",
+    "maze_evolution/choice_fitness.py": "2217c4e516091a999adc89faf0c6eb2d945d5952f51ec86939b4527cf83e20d3",
+    "maze_evolution/choice_path_diagnostic.py": "ff90eba3833b525133e4bf0cf660bdbe69c856462dcbd81e3086c8fd32e15d5a",
+    "maze_evolution/choice_report.py": "d3df5c27f5486f09cc6bf70934a1cad82adb50f8100ed1cf5e48c05338ffc538",
+    "maze_evolution/choice_search.py": "432458c6c4b3ef1b1bc3b91efcc61bfa45628663ee3034c64098a569bd07ac2a",
+    "maze_evolution/choice_selection_diagnostic.py": "84c24f62e327990ca91c866e7cd6137f23da82673f201c210a0a0ed97e87f84a",
+    "maze_evolution/choice_study.py": "884fc09805f9518e2111e9edc3aa2c90b5804b8d71886f8f6dc807328347ff94",
+    "maze_evolution/datasets.py": "bdd27b13b2406119f1b3b7ca3a79599b23ca21272c02165a2da61849e5d6e131",
+    "maze_evolution/distance_audit.py": "1e4803674b13d7c81d88e634c8e59739cfb338312e928df2cc5c40c7a28425fc",
+    "maze_evolution/distance_confirmation.py": "cc4e03f0730df5e6420d9da1f726fe3997f189315621bd1a203daa83e83033f2",
+    "maze_evolution/distance_data.py": "68a4d4c4c3458d92eb2341348f6696fae00658139a8da64b53630b24c854db48",
+    "maze_evolution/distance_diagnostics.py": "7ebc4ce87ab2685107500b8146a74841c92d9918f5725c641d876fb3e1b445c3",
+    "maze_evolution/distance_fitness.py": "30709b3ac8eac18166724e1cc97bed8b02e75737920670b110227e720539f6ff",
+    "maze_evolution/distance_report.py": "5e6eb7b5431ae67be01d68bbdabdd002b756aeeed55e1363dff8297385e7c84f",
+    "maze_evolution/distance_search.py": "8b1208326748d472ea4b40586b0b0c8f4db55007fe2bd779ab9db4b245fa544f",
+    "maze_evolution/distance_study.py": "63fd22bb6c57e73da83444d023a65986ee5878046ee114959e2f4ead8f3782b9",
+    "maze_evolution/distance_training_diagnostic.py": "a0812956369e617e8fdbe35072436cbc8368cf825f2393748444d2b9712a096d",
+    "maze_evolution/distance_training_verify.py": "66420e9a61687e8a659080c64d1ab20eac8b7f3e19fb42a289b72793e9e98fe5",
+    "maze_evolution/evaluator.py": "dc180e7c53782f3996ef7b17fdba715105d7105fbbe18ca362780bdb116b4fd0",
+    "maze_evolution/experiment.py": "a0fdc85bcc7f28c5cbf114b8ed9ac0085bcde1ccd29af969a22337d5ee465b01",
+    "maze_evolution/factor_audit.py": "4bbcd5a2f227ee104c09f8c05aeea3b8ff7bf3d63c40b317c7f1f96715274fa6",
+    "maze_evolution/factor_data.py": "4df685fcb5bcbde37d0b9ffcd84fbf4d21a314448ee7e495b2902c47788d9c72",
+    "maze_evolution/factor_diagnostics.py": "b8e6c7c67466588a79303e43706af01a38e6e6d4e71075900a15cd3ce4b60976",
+    "maze_evolution/factor_fitness.py": "4394571e53296723b7149a8e4255da8ee1f61e60d3e2deffd1bed67626bf158f",
+    "maze_evolution/factor_lineage_diagnostic.py": "d6780246babf4a55001eb63205f489a3483568574c4cba823ab246dcacf5ae88",
+    "maze_evolution/factor_prefix_diagnostic.py": "7964de8319376ccef089a2ad83dcdc72880f10303ccc692f15d5a7d8b5d8370a",
+    "maze_evolution/factor_report.py": "67621d495ea130e9e1fd9c22e93521e39c04daf3192e4c6d0d6216090cefca81",
+    "maze_evolution/factor_search.py": "d046104baf4af4612ff6f58f4986dd18ce7a0f2664eafbe63c718d0f1df46015",
+    "maze_evolution/factor_study.py": "399501a0044217189390a918934f8379e518091993b049ca1c23fa252c18c00f",
+    "maze_evolution/factor_timecourse.py": "f3b9884fb368da95e5e405017c3f041a5738dc8277f38e04cc496b84936aaf56",
+    "maze_evolution/foundation_calibration.py": "c6e31c9d4642d299ef0dac2386935903a8cbe35a856d2dceacaa957a6c4c2b57",
+    "maze_evolution/foundation_calibration_audit.py": "76795e6f182dba2b4dfccafec105db47b785f965984f4d5a134cf9e269b68b15",
+    "maze_evolution/foundation_calibration_report.py": "907d5c42fea507f28126b1eee16b8775b946a7b1335d4fb9653c8bb41e8e9b26",
+    "maze_evolution/foundation_continuation.py": "ac6db59fd59d6119defc8de76c898cdcd0eadbf122815497205d37bd7dfdbb18",
+    "maze_evolution/foundation_continuation_data.py": "d9a86683eee3be244dcf2e9dd138edf4db87cb74f94d8e301cea464a63913e74",
+    "maze_evolution/foundation_continuation_screen.py": "32cf0771ec8a1eff6d5132b7eceafbdd5bace94838a327522e2b6c2231d015fa",
+    "maze_evolution/foundation_data.py": "f09eed05e0e52c16a9b64a931d680904b62d60d29e8509a2576f81ed3b5fd16a",
+    "maze_evolution/foundation_fitness.py": "ee3f67aac946234b9928952da833757c961cafb0884f5790b5aebcc50baa1be3",
+    "maze_evolution/foundation_repair.py": "2933d4e189f55faf46b926c464395b251a709fc07fe260bcb9754107349b3cb8",
+    "maze_evolution/foundation_repair_audit.py": "274dd80febc521eec5e0ec2b13a49e6c195aac2104b3f04bce9b29abd260fb38",
+    "maze_evolution/foundation_repair_report.py": "3a1746060d7069823e687310231dc5f3b7e0d1c6a51ce8f34e97e9fbfcde048f",
+    "maze_evolution/foundation_repair_search.py": "b8cd81104c214b3f7ec3d2ed5c1ca30cf42c16627390c2705a8b76ead1b493a7",
+    "maze_evolution/foundation_search.py": "2252ad54ea5dd217efad7c0376c27f7710c9966b372131f1f7b3dd1d559938f9",
+    "maze_evolution/foundation_study.py": "4112a4b1a42f1c61db4b7b725b0dc06fb2ba0da59af921f8e23be9f0e06e363a",
+    "maze_evolution/foundation_study_audit.py": "cb0ce5a1ebc5fc28a38ace1f2de8d0e38a0460a905ee52ecd026c9db290d596a",
+    "maze_evolution/foundation_study_confirm.py": "6647ebe6c0e8df471137153b6a45b136efda4456af7629837526837a6c216872",
+    "maze_evolution/foundation_study_data.py": "123e9961411e2d6b2268e6aa9cf566cf793e9250abebcfbb206e01b666f27d37",
+    "maze_evolution/foundation_study_interventions.py": "9b05d5b8addd68d589c20e01ce03e72d00591fc48a99719b82a87f0e24418b4e",
+    "maze_evolution/foundation_study_profile.py": "77757996eb047ba38d4438e5db7f4fdc330b161768f770f7db046226141fcb0e",
+    "maze_evolution/foundation_study_report.py": "d0c6c874dfeecb925f9179b3bdbe03860d20af35dfcd7920805a75789e2684e1",
+    "maze_evolution/foundation_study_search.py": "b5a85ef7bf6e6aaf861fdac0b7fee2494837bbac3af32c5503f1c370ad23571d",
+    "maze_evolution/foundation_study_timecourse.py": "fb5c11595525e9012755cdcc31a594081e690a5697b8b011dfb66fe12c5c9298",
+    "maze_evolution/foundation_study_verify_core.py": "daa32b3ece017ad4d78e01a68ee8168e6053a18ca995d94031ea5375e6f915d6",
+    "maze_evolution/genome.py": "ae37bd0a39d769c93cf711a8a12b71f191c962d1b38404229f8cac74e8a0836a",
+    "maze_evolution/goal_audit.py": "b3a37e92f5cf09e528bf8db78e7e924ae7f29f494823b22ff56511dcd5a987bc",
+    "maze_evolution/goal_data.py": "98694b72920a64d56361e596e5e26e9e6ebbb88533e7fc727f0de14620155c36",
+    "maze_evolution/goal_diagnostics.py": "4493afa90d379a7261cf00837423e409ef0177c9920601b59117c9cf39ac6eed",
+    "maze_evolution/goal_fitness.py": "63605434727eb4da4558ae8fa7a0d315878b9c242303f0111c493c076f6c5e93",
+    "maze_evolution/goal_recovery.py": "4269d1981eb4ddeba7f8b4d485f60b140bff9a7b8bb5bfccb93356f545aae6a7",
+    "maze_evolution/goal_report.py": "6212d21e0d852b6a939d78490ba44bc7894273bb421515976d2394a945dc32ab",
+    "maze_evolution/goal_search.py": "0254efc3a558e9f03c5a37ef1ff39ff1a8c9ce81ba714bbf56488e662932f0da",
+    "maze_evolution/goal_study.py": "5ad04cd99b84d602ab7db3dfa7676f709b784957a2a549b306439fa78fdf359b",
+    "maze_evolution/growth.py": "26abc8a63d23126b0bc972817864cd940881fb6d4dba43acadf052b4407d0ca4",
+    "maze_evolution/growth_audit.py": "8d9a4820276bb36df266a85f3894559e842e78f7cadc44e3ee27bb8e8a2f6ff2",
+    "maze_evolution/growth_context.py": "06fbef789af97b5a70d7141c0580856300b67f13c34418d5e93c6ab40add08ae",
+    "maze_evolution/growth_data.py": "63197938fabde65f38005e7c79503b5fc4601d128fbc29c384835bb77d1d0b31",
+    "maze_evolution/growth_diagnostics.py": "57ec51ce3f26c08c90641b6c3bafd0b26a22d265833fadc8b58b308be0e9a506",
+    "maze_evolution/growth_equivalence.py": "0d7230c53afe071291d872b9a5f223ddc0142eb64b3c937081ddd02231067de9",
+    "maze_evolution/growth_fitness.py": "7766335c29a0ecb28aca6e9cf5db37559223de2bfb32d6316e5dfae23981c487",
+    "maze_evolution/growth_report.py": "1c088ef864490e30703b351698c2010009e6326158f214be2cca162c6aa1b1ec",
+    "maze_evolution/growth_runtime.py": "24cc41b89a1cadf647c18bd3ec166dec3665deb1c6073cf84dfe6cea19969e79",
+    "maze_evolution/growth_search.py": "9bf0db6b0a76fb6fab20b8895475bb0a6f6c4b2d7c66bdff742e188dfa884409",
+    "maze_evolution/growth_study.py": "9623be2582e8f13c599835efda4f5ae2ed2f4e88c081d4c96155ac2ac8051c7f",
+    "maze_evolution/inspect_results.py": "9e744e79802325ae0edbe93c5128fe35f01b28eba209739d0dd6679922e00733",
+    "maze_evolution/junction_audit.py": "50e56f98fe464089f617f575e274ddc3636f71f9b46d7fbb5ac4d3330f480b34",
+    "maze_evolution/junction_confirmation.py": "8c9d280ad441c4ed0650a06486f4e7c5fbf2a64be09822d5656c83c635496464",
+    "maze_evolution/junction_data.py": "582c0df3a02d31d37395a53ab10bafcfce29a3c75ded9cad80c93ad15cd297f9",
+    "maze_evolution/junction_diagnostics.py": "46a24b058cd53ce020fb33741cfd730a0698077e9efff134a53e9e4fb5604170",
+    "maze_evolution/junction_fitness.py": "a6b894707f16b4dde441449e37f9644c7ad2431cd4de48594f501fb2d38fb75b",
+    "maze_evolution/junction_report.py": "8d0d9bbc4644bb3dc3a81239c46645c20cd01c4530033a40a4f6d828e5c4dc20",
+    "maze_evolution/junction_search.py": "d4b5078bf3f9cf740e30ecd0a650275b5da063aaafb648332532d966d1ace0dd",
+    "maze_evolution/junction_study.py": "7b49155a00262038c478e1fdfa016a9559d4eaea84df8f8712347f097960e7c1",
+    "maze_evolution/range_audit.py": "f7bdc4c6d8387c734badd38619bf902dbfcb5c09d59fdb1f427d3335faa21575",
+    "maze_evolution/range_report.py": "47ceb86ce1f1bd6049317089afb9f214ae6b97d15f022e3fea33eba6deba5bdc",
+    "maze_evolution/range_study.py": "5514a8d6f1bbc125b6b3984d65a4f5f98d03beca87d4979836cda50b7cb76a23",
+    "maze_evolution/regulatory.py": "d458e53866324e3ae236069b7b0ef3645d840eb0f82ab526d09f5d3df4158323",
+    "maze_evolution/regulatory_runtime.py": "94eac319c43f9b23b7770bc3b69cd20b6a3eee9986c994fcfc8eba873e16e89b",
+    "maze_evolution/regulatory_search.py": "e1e2d3722549be1fc2f7df8f58fc55e584994373f360ca94c19695953f7f1979",
+    "maze_evolution/runtime.py": "fbfb3d561ebe6dd118bf87e99047770e541b2f5cf2635b5ffb8dfa6786a5aa61",
+    "maze_evolution/signal_audit.py": "54d9af105bc8f52c7e8612c741428fc14d17ee54292940c6a0674e37d6116165",
+    "maze_evolution/signal_diagnostics.py": "a707af35a7793df5054813826d5127488dca3de7f90beca0cdfa74bc0d044a97",
+    "maze_evolution/signal_fitness.py": "9575d95f6b8a5e6bb292681b5e4a48f3a4b4d5d84d7c06cafb615bdea0c2e729",
+    "maze_evolution/signal_probe.py": "2b5b81b1ee3742f62f7622f7695d15372050159e2569f705ab2a0feec0ea9da2",
+    "maze_evolution/signal_report.py": "3b56f7165dc8cbf0b43b51f92e5cdfb53c3250a7a1308c1e40dc053c9c811411",
+    "maze_evolution/signal_search.py": "fad95930fef820528c1da4618c7afa70dace2bce65debe7bb879b9bbe3a4e7e0",
+    "maze_evolution/signal_study.py": "c3f0095fded176bb270ebd31b749464fe7e3bca1451bec3c00bfad591a9b7d7a",
+    "cellular_maze_lab.py": "8585ba536c228d100040e5d616de0d082317c3f3c07f28fbfa418f5f6ebf4972",
+    "docs/FOUNDATION_CONTINUATION_V12D.md": "b42fb22b78bc7156805c883649427e54b07131298bc709d262c96a20236e6f4e",
+    "tests/test_foundation_continuation.py": "17dfe591db1d747a3616abe15f8c25c587a7cc01c2c46a327ca799e761be074b"
+  },
+  "input_sha256": {
+    "results/first_evolution/mazes.json": "b61845b5161651c58019e7ad4a39c35f55a440d3c51badf9596713f726d7de1a",
+    "results/range_and_regulation/mazes.json.gz": "89792094760cfaac4a101ddf51ba22d3ea6ff9bb885cbc3014a68b0a428568c3",
+    "results/source_pressure/mazes.json.gz": "dcbc2fbbfaff9babb2c7706effb13485bd9db84b8a3bc2e9108ed5f3d8b7cf63",
+    "results/goal_conditioning/mazes.json.gz": "a4bb4999b1cb8c3bbb14074b72121af1ecc2e619eab9b5c135aa84b41bb800f6",
+    "results/factor_curriculum/mazes.json.gz": "655d8474580e98147e3d8d79e3c604e884d8e73b236611c705d28d06fb05b31e",
+    "results/goal_beacon/mazes.json.gz": "1e6305eba578b828f6a2a53ee982bc7d1f7d6578411f0cd2efbb842786772bb5",
+    "results/balanced_goal/mazes.json.gz": "5e041088427207b2bb4bad319572d00017c49e69140201cbe705259cca62a1f5",
+    "results/junction_choice/mazes.json.gz": "63975d71f32267630db34441b306a5ce7a15ca1dc9ae23bba7291e1f40454357",
+    "results/junction_confirmation/mazes.json.gz": "20e28e241cbcd28ea9cb5251e36786e913a5e21506ab0f161ddc64e9494c1e1a",
+    "results/choice_priority/mazes.json.gz": "e075f80cb116767972347f0117f1c576931250b8c75278e487581c88c0977cd4",
+    "results/distance_curriculum/mazes.json.gz": "4907b2f46504be018be4d26bdf943893b546ead461754b45acf56b26c99dbca8",
+    "results/distance_confirmation/mazes.json.gz": "c14f40c8e7b5422574b8a10c225813dda508ae812a5a77e062d4e3c52b68b567",
+    "results/capacity_growth/mazes.json.gz": "1793ae9400eb7897df1cdbcf16511e02c79cacbc0fb273ba1d92ccfa1bc4907e",
+    "results/foundation_calibration/mazes.json.gz": "d96f15ad282e1bdb4ed359f5d829678b59ce98aab867df4941f02d2001e6c905",
+    "results/foundation_calibration/fixtures.json.gz": "bc91a53ddf74723ee01d162d30355a6a4b778cbd3bc86d7c756689c461d9c96f",
+    "results/foundation_repair/mazes.json.gz": "377447dbe906cb0c85ef1cbff64d7fcf055dd7f9f0c84df5ebdb59fd0bd2a36f",
+    "results/foundation_repair/summary.json": "37cefbf69fee018e1afabd4990d82b0b4954cff3be350cf597086b3571ecf840",
+    "results/foundation_repair/verification.json": "48de4174469d425f2153ec9d9127ff2ec07477888cc59cd0d027f4e9076fd894",
+    "results/foundation_study_profile/unit_fixtures/mazes.json.gz": "d89ec59c94f17fa8003514575c614904377cefae6359edfa878b5e21c20aced5",
+    "results/foundation_study_profile/summary.json": "b8d414056b8a7a66994e874be3236defaf1a85adee40014186fe6778a2ac8f08",
+    "results/capacity_growth/checkpoints/growth_local_cap256_0.json": "4b51699549c20a8c89abc1f4f2a328db7c86a2a57c45778f998db47287b4540a",
+    "results/capacity_growth/checkpoints/growth_evolved_cap256_0.json": "578fe31a7f75f48e6a4276c2c54acc5c1124b7a7e6a18a70c5b6058fde9e0e47",
+    "results/capacity_growth/checkpoints/growth_local_cap256_1.json": "de4eca238cc678aa45363d1d5e12da2cf57074978f5a784888a9bb1f9785ddf5",
+    "results/capacity_growth/checkpoints/growth_evolved_cap256_1.json": "74c6345dae458b769ef1b8460dd2111a5ec8299a42b8dd3c1876d06d4086ce38",
+    "results/capacity_growth/checkpoints/growth_local_cap256_2.json": "4b0462e588b40e17f2f3e2595f660b60dbd8708a7b50fadb1fcae7d26ec591ba",
+    "results/capacity_growth/checkpoints/growth_evolved_cap256_2.json": "389b823d747eff414704e9a8f5d7a5865529888bdce5ef83ef117c26a7984235",
+    "results/foundation_study/checkpoint.latest.json.gz": "ba9ab803ba0475ccb8a6020501470b2ec6b5fd151e015f3a6e68eff1960617e0",
+    "results/foundation_study/frozen_selections.json.gz": "b6d470972f7d8c5840cd379cfbad67053906b95c74c8b0976b3bc0339fc81831",
+    "results/foundation_study/search_summary.json": "ec0f7b690fffbbc16f511fc7022f05b1994a0f010bd6b3263a01fd47d53ffdb3",
+    "results/foundation_study/verification.json": "ccb7c0aa3cb78be9295434edcf807119e06a495e6302a9cc108551c3c4a09a76",
+    "results/foundation_study/groups.json": "cf6de495b9d8168e59e24aead6c1f433882f9d9b3b32cfe8676a9886c2556fee",
+    "results/foundation_study/confirmation/summary.json": "aea72997e7601c7d6d781f073c44099ac0a5de88a91352b239afe6ad966144f4",
+    "results/foundation_study/mazes.json.gz": "518089e0fc379b74ed82996ed55dae03f974758a6d0f44b3f93ddf6970923b60",
+    "results/foundation_study/confirmation/mazes.json.gz": "eea20e2d2db7eec66fcc599518f863f064fb4e2418214d601b74a9beded683ba",
+    "results/foundation_study/confirmation/general_mazes.json.gz": "6437cbe23892f2fea5e48e655cac55b5fd6820bdfc3b3c410f3cb9bbbc3e517c",
+    "results/foundation_confirmation_fixtures/mazes.json.gz": "b65a7f70aca2bdbb517b6c133ae68d41bb3aed24540763544ca86be0fa1826e2"
+  },
+  "parent_revision": "7e30e603a7bf55e7c32f1bfd6a5abfc0a4ad8124",
+  "python": "3.13.15",
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.4",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "pytest": "9.1.1"
+  },
+  "seconds_budget": 4500,
+  "additional_generation_limit": 4096,
+  "baseline_counts": {
+    "foundation_study/local/native/evolution/0": {
+      "work": 100449874815,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/native/resample/0": {
+      "work": 94011996598,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/native/evolution/0": {
+      "work": 110021897532,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/native/resample/0": {
+      "work": 95280692746,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/fresh/evolution/0": {
+      "work": 93259530865,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/fresh/resample/0": {
+      "work": 81981572921,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/fresh/evolution/0": {
+      "work": 67602971622,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/fresh/resample/0": {
+      "work": 79990296142,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/native/evolution/1": {
+      "work": 104189385941,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/native/resample/1": {
+      "work": 92812722199,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/native/evolution/1": {
+      "work": 85960518459,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/native/resample/1": {
+      "work": 79626866594,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/fresh/evolution/1": {
+      "work": 140444893279,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/fresh/resample/1": {
+      "work": 76843212215,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/fresh/evolution/1": {
+      "work": 89099248610,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/fresh/resample/1": {
+      "work": 75289141523,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/native/evolution/2": {
+      "work": 75696980751,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/native/resample/2": {
+      "work": 94125602788,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/native/evolution/2": {
+      "work": 144576181877,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/native/resample/2": {
+      "work": 84864616883,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/fresh/evolution/2": {
+      "work": 95967951788,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/local/fresh/resample/2": {
+      "work": 86028285991,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/fresh/evolution/2": {
+      "work": 76325543060,
+      "responses": 555264,
+      "serial": 37224
+    },
+    "foundation_study/evolved/fresh/resample/2": {
+      "work": 86466897612,
+      "responses": 555264,
+      "serial": 37224
+    }
+  },
+  "borrowed_validation_responses": 432,
+  "parent_search_seconds": 4509.0928615420125,
+  "excluded_layouts": 52424,
+  "checkpoint_selections_sha256": "a7e963a278a5bd8d004b14141459b295f58d11260f8ec98f4bbb28473adfbb16",
+  "reason": "wall_limit",
+  "rounds": 865,
+  "additional_rounds": 423,
+  "levels": [
+    1,
+    1,
+    1
+  ],
+  "progress": [],
+  "segments": [
+    {
+      "files": [
+        "segments/0000.lineage.jsonl.gz",
+        "segments/0000.evaluations.jsonl.gz"
+      ],
+      "first_generation": 442,
+      "last_generation": 451
+    },
+    {
+      "files": [
+        "segments/0001.lineage.jsonl.gz",
+        "segments/0001.evaluations.jsonl.gz"
+      ],
+      "first_generation": 452,
+      "last_generation": 461
+    },
+    {
+      "files": [
+        "segments/0002.lineage.jsonl.gz",
+        "segments/0002.evaluations.jsonl.gz"
+      ],
+      "first_generation": 462,
+      "last_generation": 471
+    },
+    {
+      "files": [
+        "segments/0003.lineage.jsonl.gz",
+        "segments/0003.evaluations.jsonl.gz"
+      ],
+      "first_generation": 472,
+      "last_generation": 481
+    },
+    {
+      "files": [
+        "segments/0004.lineage.jsonl.gz",
+        "segments/0004.evaluations.jsonl.gz"
+      ],
+      "first_generation": 482,
+      "last_generation": 491
+    },
+    {
+      "files": [
+        "segments/0005.lineage.jsonl.gz",
+        "segments/0005.evaluations.jsonl.gz"
+      ],
+      "first_generation": 492,
+      "last_generation": 501
+    },
+    {
+      "files": [
+        "segments/0006.lineage.jsonl.gz",
+        "segments/0006.evaluations.jsonl.gz"
+      ],
+      "first_generation": 502,
+      "last_generation": 511
+    },
+    {
+      "files": [
+        "segments/0007.lineage.jsonl.gz",
+        "segments/0007.evaluations.jsonl.gz"
+      ],
+      "first_generation": 512,
+      "last_generation": 521
+    },
+    {
+      "files": [
+        "segments/0008.lineage.jsonl.gz",
+        "segments/0008.evaluations.jsonl.gz"
+      ],
+      "first_generation": 522,
+      "last_generation": 531
+    },
+    {
+      "files": [
+        "segments/0009.lineage.jsonl.gz",
+        "segments/0009.evaluations.jsonl.gz"
+      ],
+      "first_generation": 532,
+      "last_generation": 541
+    },
+    {
+      "files": [
+        "segments/0010.lineage.jsonl.gz",
+        "segments/0010.evaluations.jsonl.gz"
+      ],
+      "first_generation": 542,
+      "last_generation": 551
+    },
+    {
+      "files": [
+        "segments/0011.lineage.jsonl.gz",
+        "segments/0011.evaluations.jsonl.gz"
+      ],
+      "first_generation": 552,
+      "last_generation": 561
+    },
+    {
+      "files": [
+        "segments/0012.lineage.jsonl.gz",
+        "segments/0012.evaluations.jsonl.gz"
+      ],
+      "first_generation": 562,
+      "last_generation": 571
+    },
+    {
+      "files": [
+        "segments/0013.lineage.jsonl.gz",
+        "segments/0013.evaluations.jsonl.gz"
+      ],
+      "first_generation": 572,
+      "last_generation": 581
+    },
+    {
+      "files": [
+        "segments/0014.lineage.jsonl.gz",
+        "segments/0014.evaluations.jsonl.gz"
+      ],
+      "first_generation": 582,
+      "last_generation": 591
+    },
+    {
+      "files": [
+        "segments/0015.lineage.jsonl.gz",
+        "segments/0015.evaluations.jsonl.gz"
+      ],
+      "first_generation": 592,
+      "last_generation": 601
+    },
+    {
+      "files": [
+        "segments/0016.lineage.jsonl.gz",
+        "segments/0016.evaluations.jsonl.gz"
+      ],
+      "first_generation": 602,
+      "last_generation": 611
+    },
+    {
+      "files": [
+        "segments/0017.lineage.jsonl.gz",
+        "segments/0017.evaluations.jsonl.gz"
+      ],
+      "first_generation": 612,
+      "last_generation": 621
+    },
+    {
+      "files": [
+        "segments/0018.lineage.jsonl.gz",
+        "segments/0018.evaluations.jsonl.gz"
+      ],
+      "first_generation": 622,
+      "last_generation": 631
+    },
+    {
+      "files": [
+        "segments/0019.lineage.jsonl.gz",
+        "segments/0019.evaluations.jsonl.gz"
+      ],
+      "first_generation": 632,
+      "last_generation": 641
+    },
+    {
+      "files": [
+        "segments/0020.lineage.jsonl.gz",
+        "segments/0020.evaluations.jsonl.gz"
+      ],
+      "first_generation": 642,
+      "last_generation": 651
+    },
+    {
+      "files": [
+        "segments/0021.lineage.jsonl.gz",
+        "segments/0021.evaluations.jsonl.gz"
+      ],
+      "first_generation": 652,
+      "last_generation": 661
+    },
+    {
+      "files": [
+        "segments/0022.lineage.jsonl.gz",
+        "segments/0022.evaluations.jsonl.gz"
+      ],
+      "first_generation": 662,
+      "last_generation": 671
+    },
+    {
+      "files": [
+        "segments/0023.lineage.jsonl.gz",
+        "segments/0023.evaluations.jsonl.gz"
+      ],
+      "first_generation": 672,
+      "last_generation": 681
+    },
+    {
+      "files": [
+        "segments/0024.lineage.jsonl.gz",
+        "segments/0024.evaluations.jsonl.gz"
+      ],
+      "first_generation": 682,
+      "last_generation": 691
+    },
+    {
+      "files": [
+        "segments/0025.lineage.jsonl.gz",
+        "segments/0025.evaluations.jsonl.gz"
+      ],
+      "first_generation": 692,
+      "last_generation": 701
+    },
+    {
+      "files": [
+        "segments/0026.lineage.jsonl.gz",
+        "segments/0026.evaluations.jsonl.gz"
+      ],
+      "first_generation": 702,
+      "last_generation": 711
+    },
+    {
+      "files": [
+        "segments/0027.lineage.jsonl.gz",
+        "segments/0027.evaluations.jsonl.gz"
+      ],
+      "first_generation": 712,
+      "last_generation": 721
+    },
+    {
+      "files": [
+        "segments/0028.lineage.jsonl.gz",
+        "segments/0028.evaluations.jsonl.gz"
+      ],
+      "first_generation": 722,
+      "last_generation": 731
+    },
+    {
+      "files": [
+        "segments/0029.lineage.jsonl.gz",
+        "segments/0029.evaluations.jsonl.gz"
+      ],
+      "first_generation": 732,
+      "last_generation": 741
+    },
+    {
+      "files": [
+        "segments/0030.lineage.jsonl.gz",
+        "segments/0030.evaluations.jsonl.gz"
+      ],
+      "first_generation": 742,
+      "last_generation": 751
+    },
+    {
+      "files": [
+        "segments/0031.lineage.jsonl.gz",
+        "segments/0031.evaluations.jsonl.gz"
+      ],
+      "first_generation": 752,
+      "last_generation": 761
+    },
+    {
+      "files": [
+        "segments/0032.lineage.jsonl.gz",
+        "segments/0032.evaluations.jsonl.gz"
+      ],
+      "first_generation": 762,
+      "last_generation": 771
+    },
+    {
+      "files": [
+        "segments/0033.lineage.jsonl.gz",
+        "segments/0033.evaluations.jsonl.gz"
+      ],
+      "first_generation": 772,
+      "last_generation": 781
+    },
+    {
+      "files": [
+        "segments/0034.lineage.jsonl.gz",
+        "segments/0034.evaluations.jsonl.gz"
+      ],
+      "first_generation": 782,
+      "last_generation": 791
+    },
+    {
+      "files": [
+        "segments/0035.lineage.jsonl.gz",
+        "segments/0035.evaluations.jsonl.gz"
+      ],
+      "first_generation": 792,
+      "last_generation": 801
+    },
+    {
+      "files": [
+        "segments/0036.lineage.jsonl.gz",
+        "segments/0036.evaluations.jsonl.gz"
+      ],
+      "first_generation": 802,
+      "last_generation": 811
+    },
+    {
+      "files": [
+        "segments/0037.lineage.jsonl.gz",
+        "segments/0037.evaluations.jsonl.gz"
+      ],
+      "first_generation": 812,
+      "last_generation": 821
+    },
+    {
+      "files": [
+        "segments/0038.lineage.jsonl.gz",
+        "segments/0038.evaluations.jsonl.gz"
+      ],
+      "first_generation": 822,
+      "last_generation": 831
+    },
+    {
+      "files": [
+        "segments/0039.lineage.jsonl.gz",
+        "segments/0039.evaluations.jsonl.gz"
+      ],
+      "first_generation": 832,
+      "last_generation": 841
+    },
+    {
+      "files": [
+        "segments/0040.lineage.jsonl.gz",
+        "segments/0040.evaluations.jsonl.gz"
+      ],
+      "first_generation": 842,
+      "last_generation": 851
+    },
+    {
+      "files": [
+        "segments/0041.lineage.jsonl.gz",
+        "segments/0041.evaluations.jsonl.gz"
+      ],
+      "first_generation": 852,
+      "last_generation": 861
+    },
+    {
+      "files": [
+        "segments/0042.lineage.jsonl.gz",
+        "segments/0042.evaluations.jsonl.gz"
+      ],
+      "first_generation": 862,
+      "last_generation": 864
+    }
+  ],
+  "frozen_sha256": "b83a0ea237bd6e60108270598914fbf494dd8463141b9654f330fcd74753c3aa",
+  "elapsed_seconds": 4519.3793167920085,
+  "resulting_layouts": 82860,
+  "groups": 3834,
+  "responses": 12427776,
+  "work": 2196347479944,
+  "cumulative_responses": 25754112,
+  "cumulative_work": 4407264362755,
+  "max_rss_bytes": 494977024,
+  "conditions": {
+    "foundation_study/local/native/evolution/0": {
+      "responses": 517824,
+      "work": 91707549721,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 192157424536,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        52,
+        52,
+        0,
+        20,
+        94.56525253,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/native/evolution/0/i21",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/native/resample/0": {
+      "responses": 517824,
+      "work": 79644667991,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 173656664589,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/native/resample/0/i21",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/native/evolution/0": {
+      "responses": 517824,
+      "work": 101957582547,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 211979480079,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        45,
+        45,
+        0,
+        16,
+        88.81867106,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/native/evolution/0/i68",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/native/resample/0": {
+      "responses": 517824,
+      "work": 79953055430,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 175233748176,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/native/resample/0/i68",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/fresh/evolution/0": {
+      "responses": 517824,
+      "work": 101695486335,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 194955017200,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        44,
+        44,
+        0,
+        16,
+        94.884864,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/fresh/evolution/0/i3372",
+          "generation": 40,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/fresh/resample/0": {
+      "responses": 517824,
+      "work": 75591213168,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 157572786089,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/fresh/resample/0/i2833",
+          "generation": 40,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/fresh/evolution/0": {
+      "responses": 517824,
+      "work": 86064405584,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 153667377206,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        46,
+        46,
+        0,
+        16,
+        89.02565941,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/fresh/evolution/0/i12114",
+          "generation": 144,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/fresh/resample/0": {
+      "responses": 517824,
+      "work": 73023911120,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 153014207262,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/fresh/resample/0/i2833",
+          "generation": 40,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/native/evolution/1": {
+      "responses": 517824,
+      "work": 94859519200,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 199048905141,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        40,
+        40,
+        0,
+        16,
+        89.73333333,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/native/evolution/1/i11",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/native/resample/1": {
+      "responses": 517824,
+      "work": 77681004092,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 170493726291,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/native/resample/1/i11",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/native/evolution/1": {
+      "responses": 517824,
+      "work": 95937711192,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 181898229651,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        46,
+        46,
+        0,
+        18,
+        93.54933955,
+        0
+      ],
+      "frozen_rank": [
+        20,
+        20,
+        0,
+        6,
+        47.03829045,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/native/evolution/1/i1250",
+          "generation": 16,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/native/resample/1": {
+      "responses": 517824,
+      "work": 75573951446,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 155200818040,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        20,
+        20,
+        0,
+        6,
+        47.03829045,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/native/resample/1/i2492",
+          "generation": 32,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/fresh/evolution/1": {
+      "responses": 517824,
+      "work": 169010728527,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 309455621806,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        54,
+        54,
+        0,
+        20,
+        98.98376068,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/fresh/evolution/1/i468",
+          "generation": 8,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/fresh/resample/1": {
+      "responses": 517824,
+      "work": 71026019204,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 147869231419,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/fresh/resample/1/i332",
+          "generation": 8,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/fresh/evolution/1": {
+      "responses": 517824,
+      "work": 85679928595,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 174779177205,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        48,
+        48,
+        0,
+        18,
+        99.29202128,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/fresh/evolution/1/i392",
+          "generation": 8,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/fresh/resample/1": {
+      "responses": 517824,
+      "work": 72697013379,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 147986154902,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        13.2,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/fresh/resample/1/i332",
+          "generation": 8,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/native/evolution/2": {
+      "responses": 517824,
+      "work": 88120926369,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 163817907120,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        64,
+        64,
+        0,
+        28,
+        129.98764791,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/native/evolution/2/i15",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/native/resample/2": {
+      "responses": 517824,
+      "work": 82357194541,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 176482797329,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/native/resample/2/i15",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/native/evolution/2": {
+      "responses": 517824,
+      "work": 149448388193,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 294024570070,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        50,
+        50,
+        0,
+        17,
+        89.48785446,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/native/evolution/2/i4",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/native/resample/2": {
+      "responses": 517824,
+      "work": 74539590258,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 159404207141,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/native/resample/2/i4",
+          "generation": -1,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/fresh/evolution/2": {
+      "responses": 517824,
+      "work": 92606813597,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 188574765385,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        42,
+        42,
+        0,
+        16,
+        93.1169697,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        14.42750952,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/fresh/evolution/2/i4214",
+          "generation": 56,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/local/fresh/resample/2": {
+      "responses": 517824,
+      "work": 85708100883,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 171736386874,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        14.42750952,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/local/fresh/resample/2/i1701",
+          "generation": 24,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/fresh/evolution/2": {
+      "responses": 517824,
+      "work": 107166915487,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 183492458547,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        42,
+        42,
+        0,
+        16,
+        90.05961627,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        14.42750952,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/fresh/evolution/2/i18727",
+          "generation": 224,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    },
+    "foundation_study/evolved/fresh/resample/2": {
+      "responses": 517824,
+      "work": 84295803085,
+      "cumulative_responses": 1073088,
+      "cumulative_work": 170762700697,
+      "generations": 865,
+      "additional_generations": 423,
+      "champion_rank": [
+        32,
+        32,
+        0,
+        16,
+        77.6,
+        0
+      ],
+      "frozen_rank": [
+        0,
+        0,
+        0,
+        0,
+        14.42750952,
+        0
+      ],
+      "competence": {
+        "0": {
+          "id": "foundation_study/evolved/fresh/resample/2/i1701",
+          "generation": 24,
+          "rates": {
+            "0": 1.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          }
+        }
+      }
+    }
+  }
+}
