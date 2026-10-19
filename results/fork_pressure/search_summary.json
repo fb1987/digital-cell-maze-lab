@@ -1,0 +1,1094 @@
+{
+  "source_sha256": {
+    "maze_evolution/__init__.py": "9bd30272bd151cc72e358ba90b756233fa559a67c7106fabf5d5ad3765d784e1",
+    "maze_evolution/balance_audit.py": "c2b39c232beff31306fdc45711eda1732a328c2a1cac499d35aaee15793c3bd2",
+    "maze_evolution/balance_data.py": "82bf48b116194ba68df5676dc953606a9de68120e01c32b6136380252a2804f4",
+    "maze_evolution/balance_diagnostics.py": "8b4bd851c2006565a847e90dddc99c0485c13b321f45f25e7c9a151c8b1e2975",
+    "maze_evolution/balance_fitness.py": "e92eee5940cb3b5151eb95105084a0901ee25863ca6dab76f030b6969b4ddfde",
+    "maze_evolution/balance_report.py": "3940293146b203054cd905af41f99549dd5e093e046b534439044bb27abbcb27",
+    "maze_evolution/balance_search.py": "4129d0ea01713d9d3777b4817bad5e4177114d52498f148fe5cf461646c914c4",
+    "maze_evolution/balance_study.py": "18e319a3b3ef724f25837ff1c2281ea6d9cbbd7ca559563fe9e54851d6bb190a",
+    "maze_evolution/baselines.py": "21858b34e9c9128c484cbeccf0290bde33477089f088a98e73d3a160a486b700",
+    "maze_evolution/beacon_audit.py": "7cfb745be302fe75d56317dca1eb393668392926747235f3897562a5a0240d3b",
+    "maze_evolution/beacon_data.py": "f8e5e796744e8bdb881d3bba88831cbd38b2763494e7ddb0cb3c6e05477a5cb4",
+    "maze_evolution/beacon_diagnostics.py": "4c324b374d9e68adab493c50c31fd7443231df2aa7ac9616b152440358dd10b8",
+    "maze_evolution/beacon_fitness.py": "3ed4aa5155f6bf8c879caf85320e4c9712923b63b96ffd302dcf58d1a842dee7",
+    "maze_evolution/beacon_probe.py": "6d9afa68869f9d29bd4921945b8a7631607f3147b4921230e77f1182940b45db",
+    "maze_evolution/beacon_report.py": "eed44bc463da040c6288c173acd30f3c1a5b2fb3520092aacf5befb57bcd8753",
+    "maze_evolution/beacon_runtime.py": "bf95142ffe0b869095e21518f85ac31934cff3329cd831405d4f191ab8f4d047",
+    "maze_evolution/beacon_search.py": "5a3555f850c3ffba40411293ea7a9b6cfc5eee568bfa8c991e3df0d33489da77",
+    "maze_evolution/beacon_study.py": "65d664ef3864f3c6d7922000c74a6a43688a580027560d22a4e0063897c9f057",
+    "maze_evolution/choice_audit.py": "d65acf23936c861916f18311364899ef85f658b2630e1f15766cfcca69f6e31d",
+    "maze_evolution/choice_data.py": "6c534101692bf670729e29aeccf4c4a2d485f1bace48efd491bb348b056a0bf3",
+    "maze_evolution/choice_diagnostics.py": "330d99cb8732de4fd367f905250d5321fa5aa838e931d23193b460f0af739a5b",
+    "maze_evolution/choice_fitness.py": "2217c4e516091a999adc89faf0c6eb2d945d5952f51ec86939b4527cf83e20d3",
+    "maze_evolution/choice_path_diagnostic.py": "ff90eba3833b525133e4bf0cf660bdbe69c856462dcbd81e3086c8fd32e15d5a",
+    "maze_evolution/choice_report.py": "d3df5c27f5486f09cc6bf70934a1cad82adb50f8100ed1cf5e48c05338ffc538",
+    "maze_evolution/choice_search.py": "432458c6c4b3ef1b1bc3b91efcc61bfa45628663ee3034c64098a569bd07ac2a",
+    "maze_evolution/choice_selection_diagnostic.py": "84c24f62e327990ca91c866e7cd6137f23da82673f201c210a0a0ed97e87f84a",
+    "maze_evolution/choice_study.py": "884fc09805f9518e2111e9edc3aa2c90b5804b8d71886f8f6dc807328347ff94",
+    "maze_evolution/datasets.py": "bdd27b13b2406119f1b3b7ca3a79599b23ca21272c02165a2da61849e5d6e131",
+    "maze_evolution/distance_audit.py": "1e4803674b13d7c81d88e634c8e59739cfb338312e928df2cc5c40c7a28425fc",
+    "maze_evolution/distance_confirmation.py": "cc4e03f0730df5e6420d9da1f726fe3997f189315621bd1a203daa83e83033f2",
+    "maze_evolution/distance_data.py": "68a4d4c4c3458d92eb2341348f6696fae00658139a8da64b53630b24c854db48",
+    "maze_evolution/distance_diagnostics.py": "7ebc4ce87ab2685107500b8146a74841c92d9918f5725c641d876fb3e1b445c3",
+    "maze_evolution/distance_fitness.py": "30709b3ac8eac18166724e1cc97bed8b02e75737920670b110227e720539f6ff",
+    "maze_evolution/distance_report.py": "5e6eb7b5431ae67be01d68bbdabdd002b756aeeed55e1363dff8297385e7c84f",
+    "maze_evolution/distance_search.py": "8b1208326748d472ea4b40586b0b0c8f4db55007fe2bd779ab9db4b245fa544f",
+    "maze_evolution/distance_study.py": "63fd22bb6c57e73da83444d023a65986ee5878046ee114959e2f4ead8f3782b9",
+    "maze_evolution/distance_training_diagnostic.py": "a0812956369e617e8fdbe35072436cbc8368cf825f2393748444d2b9712a096d",
+    "maze_evolution/distance_training_verify.py": "66420e9a61687e8a659080c64d1ab20eac8b7f3e19fb42a289b72793e9e98fe5",
+    "maze_evolution/evaluator.py": "dc180e7c53782f3996ef7b17fdba715105d7105fbbe18ca362780bdb116b4fd0",
+    "maze_evolution/experiment.py": "a0fdc85bcc7f28c5cbf114b8ed9ac0085bcde1ccd29af969a22337d5ee465b01",
+    "maze_evolution/factor_audit.py": "4bbcd5a2f227ee104c09f8c05aeea3b8ff7bf3d63c40b317c7f1f96715274fa6",
+    "maze_evolution/factor_data.py": "4df685fcb5bcbde37d0b9ffcd84fbf4d21a314448ee7e495b2902c47788d9c72",
+    "maze_evolution/factor_diagnostics.py": "b8e6c7c67466588a79303e43706af01a38e6e6d4e71075900a15cd3ce4b60976",
+    "maze_evolution/factor_fitness.py": "4394571e53296723b7149a8e4255da8ee1f61e60d3e2deffd1bed67626bf158f",
+    "maze_evolution/factor_lineage_diagnostic.py": "d6780246babf4a55001eb63205f489a3483568574c4cba823ab246dcacf5ae88",
+    "maze_evolution/factor_prefix_diagnostic.py": "7964de8319376ccef089a2ad83dcdc72880f10303ccc692f15d5a7d8b5d8370a",
+    "maze_evolution/factor_report.py": "67621d495ea130e9e1fd9c22e93521e39c04daf3192e4c6d0d6216090cefca81",
+    "maze_evolution/factor_search.py": "d046104baf4af4612ff6f58f4986dd18ce7a0f2664eafbe63c718d0f1df46015",
+    "maze_evolution/factor_study.py": "399501a0044217189390a918934f8379e518091993b049ca1c23fa252c18c00f",
+    "maze_evolution/factor_timecourse.py": "f3b9884fb368da95e5e405017c3f041a5738dc8277f38e04cc496b84936aaf56",
+    "maze_evolution/fork_audit.py": "4a1366d9ec8f76a13ea315bf5e857f431dddb1b49f645503b6f5453f9941eaf5",
+    "maze_evolution/fork_calibration.py": "b279816c0e0993324b26d17ffecad25026012856ab78d1cd57896877219e7780",
+    "maze_evolution/fork_confirm.py": "854d5eceb0e493a7f119d17f6774c12bf017a63eaf3bf50f638ae729b48f1aa5",
+    "maze_evolution/fork_data.py": "32e257b3fb26aac9872f78fb17e68755dae18789d7165651c7188b89cad1e5ea",
+    "maze_evolution/fork_fitness.py": "4b07d3c6ca8bc0c77ae5ad4630c7ad2d2acfdea6f9221097116dbaa6312dec01",
+    "maze_evolution/fork_search.py": "713ba92c86697895cb758356e8e2a2e42e114749f7ef55035c302b3399f5d34a",
+    "maze_evolution/fork_study.py": "a4bb8425d8bb591894de06107ce63ed819c581afdcd16de5fc1f55df56058647",
+    "maze_evolution/foundation_calibration.py": "c6e31c9d4642d299ef0dac2386935903a8cbe35a856d2dceacaa957a6c4c2b57",
+    "maze_evolution/foundation_calibration_audit.py": "76795e6f182dba2b4dfccafec105db47b785f965984f4d5a134cf9e269b68b15",
+    "maze_evolution/foundation_calibration_report.py": "907d5c42fea507f28126b1eee16b8775b946a7b1335d4fb9653c8bb41e8e9b26",
+    "maze_evolution/foundation_continuation.py": "ac6db59fd59d6119defc8de76c898cdcd0eadbf122815497205d37bd7dfdbb18",
+    "maze_evolution/foundation_continuation_audit.py": "fca87e2290e3c05cbed2ba2767fe1e3027980d18e86aa1ef9d94228ab9710e11",
+    "maze_evolution/foundation_continuation_confirm.py": "b01f109a07f0c42e59ce03cef0a9fc1bb2476e4a6f4f748380462cfc95a06194",
+    "maze_evolution/foundation_continuation_data.py": "d9a86683eee3be244dcf2e9dd138edf4db87cb74f94d8e301cea464a63913e74",
+    "maze_evolution/foundation_continuation_interventions.py": "ddf1bdb8267e9a2856fc59146defbbb442a191e064bff5bf73804cd49b66c0f6",
+    "maze_evolution/foundation_continuation_report.py": "c6ff9c05cd3890e479f0130ad38baec019d4acf78ec719087c30df00d5cd4605",
+    "maze_evolution/foundation_continuation_screen.py": "32cf0771ec8a1eff6d5132b7eceafbdd5bace94838a327522e2b6c2231d015fa",
+    "maze_evolution/foundation_continuation_timecourse.py": "71c95007af0a3e8fd3e6ed1578c14dd655ee772dbc2e3c3b82463dbb183fcd4b",
+    "maze_evolution/foundation_data.py": "f09eed05e0e52c16a9b64a931d680904b62d60d29e8509a2576f81ed3b5fd16a",
+    "maze_evolution/foundation_fitness.py": "ee3f67aac946234b9928952da833757c961cafb0884f5790b5aebcc50baa1be3",
+    "maze_evolution/foundation_pair.py": "4016f6b2f4758705299493eaeba84cb3cf314ebcbd9605d03780ced7cc5a2551",
+    "maze_evolution/foundation_pair_audit.py": "30a1cc4699b867cf63afaa44d24d0ed63cb86a7c9272f57d245df681f4b87d88",
+    "maze_evolution/foundation_pair_confirm.py": "b0bb290c0fcb6b709bf25d4c61e02afce30cf274d14a231e647c485d04b44f8b",
+    "maze_evolution/foundation_pair_data.py": "ba49434947aab132e5b9a7e6cd75d933fa89385292982801f2f108a45b7525b8",
+    "maze_evolution/foundation_pair_interventions.py": "4dabedea460397b82d88275dc083b04c9df929968f213b0ed6f4a558fdb827f3",
+    "maze_evolution/foundation_pair_replay.py": "dea67d6576ca9925de74e7e090fb9ad1d9bb5819e875f0ef2f7eaa4e0ffb3d5c",
+    "maze_evolution/foundation_pair_report.py": "5c88f784ed7aceae2d6b357172fa4b8f6d57b3be3cd16a57bebcba6005c10830",
+    "maze_evolution/foundation_pair_screen.py": "bffc2513ebb9d7216a1a3cfe2765cff19102e0c21eee7284c79759ee16ba8903",
+    "maze_evolution/foundation_pair_search.py": "742e61798ab8b54cfc7df1e3f01b7007c147b9caa5a1c487ab51f5506d33aecc",
+    "maze_evolution/foundation_pair_timecourse.py": "5a292d2062d0321192ca99552c0e4c56e3d4ed1e80c3b0696509992e807da923",
+    "maze_evolution/foundation_repair.py": "2933d4e189f55faf46b926c464395b251a709fc07fe260bcb9754107349b3cb8",
+    "maze_evolution/foundation_repair_audit.py": "274dd80febc521eec5e0ec2b13a49e6c195aac2104b3f04bce9b29abd260fb38",
+    "maze_evolution/foundation_repair_report.py": "3a1746060d7069823e687310231dc5f3b7e0d1c6a51ce8f34e97e9fbfcde048f",
+    "maze_evolution/foundation_repair_search.py": "b8cd81104c214b3f7ec3d2ed5c1ca30cf42c16627390c2705a8b76ead1b493a7",
+    "maze_evolution/foundation_search.py": "2252ad54ea5dd217efad7c0376c27f7710c9966b372131f1f7b3dd1d559938f9",
+    "maze_evolution/foundation_study.py": "4112a4b1a42f1c61db4b7b725b0dc06fb2ba0da59af921f8e23be9f0e06e363a",
+    "maze_evolution/foundation_study_audit.py": "cb0ce5a1ebc5fc28a38ace1f2de8d0e38a0460a905ee52ecd026c9db290d596a",
+    "maze_evolution/foundation_study_confirm.py": "6647ebe6c0e8df471137153b6a45b136efda4456af7629837526837a6c216872",
+    "maze_evolution/foundation_study_data.py": "123e9961411e2d6b2268e6aa9cf566cf793e9250abebcfbb206e01b666f27d37",
+    "maze_evolution/foundation_study_interventions.py": "9b05d5b8addd68d589c20e01ce03e72d00591fc48a99719b82a87f0e24418b4e",
+    "maze_evolution/foundation_study_profile.py": "77757996eb047ba38d4438e5db7f4fdc330b161768f770f7db046226141fcb0e",
+    "maze_evolution/foundation_study_report.py": "d0c6c874dfeecb925f9179b3bdbe03860d20af35dfcd7920805a75789e2684e1",
+    "maze_evolution/foundation_study_search.py": "b5a85ef7bf6e6aaf861fdac0b7fee2494837bbac3af32c5503f1c370ad23571d",
+    "maze_evolution/foundation_study_timecourse.py": "fb5c11595525e9012755cdcc31a594081e690a5697b8b011dfb66fe12c5c9298",
+    "maze_evolution/foundation_study_verify_core.py": "daa32b3ece017ad4d78e01a68ee8168e6053a18ca995d94031ea5375e6f915d6",
+    "maze_evolution/genome.py": "ae37bd0a39d769c93cf711a8a12b71f191c962d1b38404229f8cac74e8a0836a",
+    "maze_evolution/goal_audit.py": "b3a37e92f5cf09e528bf8db78e7e924ae7f29f494823b22ff56511dcd5a987bc",
+    "maze_evolution/goal_data.py": "98694b72920a64d56361e596e5e26e9e6ebbb88533e7fc727f0de14620155c36",
+    "maze_evolution/goal_diagnostics.py": "4493afa90d379a7261cf00837423e409ef0177c9920601b59117c9cf39ac6eed",
+    "maze_evolution/goal_fitness.py": "63605434727eb4da4558ae8fa7a0d315878b9c242303f0111c493c076f6c5e93",
+    "maze_evolution/goal_recovery.py": "4269d1981eb4ddeba7f8b4d485f60b140bff9a7b8bb5bfccb93356f545aae6a7",
+    "maze_evolution/goal_report.py": "6212d21e0d852b6a939d78490ba44bc7894273bb421515976d2394a945dc32ab",
+    "maze_evolution/goal_search.py": "0254efc3a558e9f03c5a37ef1ff39ff1a8c9ce81ba714bbf56488e662932f0da",
+    "maze_evolution/goal_study.py": "5ad04cd99b84d602ab7db3dfa7676f709b784957a2a549b306439fa78fdf359b",
+    "maze_evolution/growth.py": "26abc8a63d23126b0bc972817864cd940881fb6d4dba43acadf052b4407d0ca4",
+    "maze_evolution/growth_audit.py": "8d9a4820276bb36df266a85f3894559e842e78f7cadc44e3ee27bb8e8a2f6ff2",
+    "maze_evolution/growth_context.py": "06fbef789af97b5a70d7141c0580856300b67f13c34418d5e93c6ab40add08ae",
+    "maze_evolution/growth_data.py": "63197938fabde65f38005e7c79503b5fc4601d128fbc29c384835bb77d1d0b31",
+    "maze_evolution/growth_diagnostics.py": "57ec51ce3f26c08c90641b6c3bafd0b26a22d265833fadc8b58b308be0e9a506",
+    "maze_evolution/growth_equivalence.py": "0d7230c53afe071291d872b9a5f223ddc0142eb64b3c937081ddd02231067de9",
+    "maze_evolution/growth_fitness.py": "7766335c29a0ecb28aca6e9cf5db37559223de2bfb32d6316e5dfae23981c487",
+    "maze_evolution/growth_report.py": "1c088ef864490e30703b351698c2010009e6326158f214be2cca162c6aa1b1ec",
+    "maze_evolution/growth_runtime.py": "24cc41b89a1cadf647c18bd3ec166dec3665deb1c6073cf84dfe6cea19969e79",
+    "maze_evolution/growth_search.py": "9bf0db6b0a76fb6fab20b8895475bb0a6f6c4b2d7c66bdff742e188dfa884409",
+    "maze_evolution/growth_study.py": "9623be2582e8f13c599835efda4f5ae2ed2f4e88c081d4c96155ac2ac8051c7f",
+    "maze_evolution/inspect_results.py": "9e744e79802325ae0edbe93c5128fe35f01b28eba209739d0dd6679922e00733",
+    "maze_evolution/junction_audit.py": "50e56f98fe464089f617f575e274ddc3636f71f9b46d7fbb5ac4d3330f480b34",
+    "maze_evolution/junction_confirmation.py": "8c9d280ad441c4ed0650a06486f4e7c5fbf2a64be09822d5656c83c635496464",
+    "maze_evolution/junction_data.py": "582c0df3a02d31d37395a53ab10bafcfce29a3c75ded9cad80c93ad15cd297f9",
+    "maze_evolution/junction_diagnostics.py": "46a24b058cd53ce020fb33741cfd730a0698077e9efff134a53e9e4fb5604170",
+    "maze_evolution/junction_fitness.py": "a6b894707f16b4dde441449e37f9644c7ad2431cd4de48594f501fb2d38fb75b",
+    "maze_evolution/junction_report.py": "8d0d9bbc4644bb3dc3a81239c46645c20cd01c4530033a40a4f6d828e5c4dc20",
+    "maze_evolution/junction_search.py": "d4b5078bf3f9cf740e30ecd0a650275b5da063aaafb648332532d966d1ace0dd",
+    "maze_evolution/junction_study.py": "7b49155a00262038c478e1fdfa016a9559d4eaea84df8f8712347f097960e7c1",
+    "maze_evolution/range_audit.py": "f7bdc4c6d8387c734badd38619bf902dbfcb5c09d59fdb1f427d3335faa21575",
+    "maze_evolution/range_report.py": "47ceb86ce1f1bd6049317089afb9f214ae6b97d15f022e3fea33eba6deba5bdc",
+    "maze_evolution/range_study.py": "5514a8d6f1bbc125b6b3984d65a4f5f98d03beca87d4979836cda50b7cb76a23",
+    "maze_evolution/regulatory.py": "d458e53866324e3ae236069b7b0ef3645d840eb0f82ab526d09f5d3df4158323",
+    "maze_evolution/regulatory_runtime.py": "94eac319c43f9b23b7770bc3b69cd20b6a3eee9986c994fcfc8eba873e16e89b",
+    "maze_evolution/regulatory_search.py": "e1e2d3722549be1fc2f7df8f58fc55e584994373f360ca94c19695953f7f1979",
+    "maze_evolution/route_confirmation.py": "6e658040f5ab8cf73338a6372861e669b6dc8df4727b41e7815d3d888d72fd3f",
+    "maze_evolution/route_confirmation_analysis.py": "8cf4beb00c56ecde1e1cc675386a8cbe8972692a5982be8c385f3f07cfbdcea3",
+    "maze_evolution/route_confirmation_audit.py": "ed14aae759f0ba90d3b5cb960fb928f861debc0825995adfbc241fdaf96607b3",
+    "maze_evolution/route_confirmation_data.py": "14a44b9c34b5bcfc2b7ff63b41ce53e88c145ae3e02e43c7decba8d63b4811c0",
+    "maze_evolution/route_confirmation_runtime.py": "7266f7c279fd4d38182a9376c53a3162a94c99e5588b74d6db074bee85ea6977",
+    "maze_evolution/runtime.py": "fbfb3d561ebe6dd118bf87e99047770e541b2f5cf2635b5ffb8dfa6786a5aa61",
+    "maze_evolution/signal_audit.py": "54d9af105bc8f52c7e8612c741428fc14d17ee54292940c6a0674e37d6116165",
+    "maze_evolution/signal_diagnostics.py": "a707af35a7793df5054813826d5127488dca3de7f90beca0cdfa74bc0d044a97",
+    "maze_evolution/signal_fitness.py": "9575d95f6b8a5e6bb292681b5e4a48f3a4b4d5d84d7c06cafb615bdea0c2e729",
+    "maze_evolution/signal_probe.py": "2b5b81b1ee3742f62f7622f7695d15372050159e2569f705ab2a0feec0ea9da2",
+    "maze_evolution/signal_report.py": "3b56f7165dc8cbf0b43b51f92e5cdfb53c3250a7a1308c1e40dc053c9c811411",
+    "maze_evolution/signal_search.py": "fad95930fef820528c1da4618c7afa70dace2bce65debe7bb879b9bbe3a4e7e0",
+    "maze_evolution/signal_study.py": "c3f0095fded176bb270ebd31b749464fe7e3bca1451bec3c00bfad591a9b7d7a",
+    "cellular_maze_lab.py": "8585ba536c228d100040e5d616de0d082317c3f3c07f28fbfa418f5f6ebf4972",
+    "docs/FORK_PRESSURE_V12G.md": "d7b4446a3e895c1a4ac4bdd458d2d4c188761f5c10939b20facf05ed4abb9de2",
+    "tests/test_fork_pressure.py": "c65c023ea1ccd4b5457d782614212c55eac7cdadd41bcb28544809ffb50e312b"
+  },
+  "input_sha256": {
+    "results/fork_pressure/initial_states.json.gz": "b7508e4cd222fb9774293edfdb0ea8ba718b28a7cd7db7d9374113000e0e6ac7",
+    "results/fork_pressure/parent_provenance.json.gz": "45a3731dd1392bba40d9b37a8585ad2c3bb833761fcd62a0d5b97bd66a5f7f70",
+    "results/foundation_pair/checkpoint.latest.json.gz": "6885204aecae1c119b2a119aef5125bff9b5812c5e23bca75e002a9cf283d2c0",
+    "results/foundation_pair/verification.json": "294742be2606c3754b205e7cc15dec9accb6bdec4bed3124fb4fe4006915ce5f",
+    "results/fork_pressure_fixtures/synthetic.json": "6ae5e9df2f2d7d7c0d39afc0dfe66aab37bfd241de01552d48aa83204b220d39",
+    "results/fork_pressure_fixtures/calibration.jsonl.gz": "6ba9f36c74a42159625206468508eebda3bcfb9980211e46fef23fd8d8dba329",
+    "results/fork_pressure_fixtures/groups.json": "c6946bad241d35ca01b3ab631749e56c0c58c175d88bcecc620abce06fb3ca22",
+    "results/fork_pressure_fixtures/bfs.json": "f8b9cf50a99b4ef16b960e467922f75a120c2df23db8667c585dfffac603b3c6",
+    "results/fork_pressure_fixtures/calibration_summary.json": "0cd458de3516b23cec7893640277fa948cca69fd07fe9092371d7ee446dbccda",
+    "results/fork_pressure_fixtures/preflight.json": "5f084adbaf4a116f9b1d234868eeac5ae1eed80da67da081473870759c2009f2",
+    "results/fork_pressure_fixtures/mazes.json.gz": "6ef74ce14da085a8e85690ad2165dc0fb93fff4ec47ca38b42617f4f830c25a7"
+  },
+  "revision": "83f78c66e8b6278227c8db6f028b51ce03a7e38f",
+  "python": "3.13.15",
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.4",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "pytest": "9.1.1"
+  },
+  "seconds_budget": 720,
+  "max_generations": 256,
+  "seed": 2026101902,
+  "rounds": 113,
+  "reason": "wall_reserve",
+  "initialization_seconds": 41.54182279203087,
+  "elapsed_seconds": 706.5078990000184,
+  "max_round_seconds": 11.256645249959547,
+  "responses": 2236032,
+  "work": 269773599386,
+  "max_rss_bytes": 972177408,
+  "prior_layouts": 127472,
+  "resulting_layouts": 135896,
+  "frozen_sha256": "a62b58e5434e57105ab10be6b2e38080ada14d564186af153092fd7a382077c1",
+  "segments": [
+    {
+      "generation": 0,
+      "files": [
+        "segments/0000.lineage.jsonl.gz",
+        "segments/0000.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 1,
+      "files": [
+        "segments/0001.lineage.jsonl.gz",
+        "segments/0001.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 2,
+      "files": [
+        "segments/0002.lineage.jsonl.gz",
+        "segments/0002.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 3,
+      "files": [
+        "segments/0003.lineage.jsonl.gz",
+        "segments/0003.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 4,
+      "files": [
+        "segments/0004.lineage.jsonl.gz",
+        "segments/0004.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 5,
+      "files": [
+        "segments/0005.lineage.jsonl.gz",
+        "segments/0005.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 6,
+      "files": [
+        "segments/0006.lineage.jsonl.gz",
+        "segments/0006.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 7,
+      "files": [
+        "segments/0007.lineage.jsonl.gz",
+        "segments/0007.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 8,
+      "files": [
+        "segments/0008.lineage.jsonl.gz",
+        "segments/0008.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 9,
+      "files": [
+        "segments/0009.lineage.jsonl.gz",
+        "segments/0009.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 10,
+      "files": [
+        "segments/0010.lineage.jsonl.gz",
+        "segments/0010.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 11,
+      "files": [
+        "segments/0011.lineage.jsonl.gz",
+        "segments/0011.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 12,
+      "files": [
+        "segments/0012.lineage.jsonl.gz",
+        "segments/0012.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 13,
+      "files": [
+        "segments/0013.lineage.jsonl.gz",
+        "segments/0013.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 14,
+      "files": [
+        "segments/0014.lineage.jsonl.gz",
+        "segments/0014.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 15,
+      "files": [
+        "segments/0015.lineage.jsonl.gz",
+        "segments/0015.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 16,
+      "files": [
+        "segments/0016.lineage.jsonl.gz",
+        "segments/0016.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 17,
+      "files": [
+        "segments/0017.lineage.jsonl.gz",
+        "segments/0017.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 18,
+      "files": [
+        "segments/0018.lineage.jsonl.gz",
+        "segments/0018.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 19,
+      "files": [
+        "segments/0019.lineage.jsonl.gz",
+        "segments/0019.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 20,
+      "files": [
+        "segments/0020.lineage.jsonl.gz",
+        "segments/0020.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 21,
+      "files": [
+        "segments/0021.lineage.jsonl.gz",
+        "segments/0021.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 22,
+      "files": [
+        "segments/0022.lineage.jsonl.gz",
+        "segments/0022.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 23,
+      "files": [
+        "segments/0023.lineage.jsonl.gz",
+        "segments/0023.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 24,
+      "files": [
+        "segments/0024.lineage.jsonl.gz",
+        "segments/0024.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 25,
+      "files": [
+        "segments/0025.lineage.jsonl.gz",
+        "segments/0025.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 26,
+      "files": [
+        "segments/0026.lineage.jsonl.gz",
+        "segments/0026.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 27,
+      "files": [
+        "segments/0027.lineage.jsonl.gz",
+        "segments/0027.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 28,
+      "files": [
+        "segments/0028.lineage.jsonl.gz",
+        "segments/0028.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 29,
+      "files": [
+        "segments/0029.lineage.jsonl.gz",
+        "segments/0029.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 30,
+      "files": [
+        "segments/0030.lineage.jsonl.gz",
+        "segments/0030.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 31,
+      "files": [
+        "segments/0031.lineage.jsonl.gz",
+        "segments/0031.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 32,
+      "files": [
+        "segments/0032.lineage.jsonl.gz",
+        "segments/0032.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 33,
+      "files": [
+        "segments/0033.lineage.jsonl.gz",
+        "segments/0033.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 34,
+      "files": [
+        "segments/0034.lineage.jsonl.gz",
+        "segments/0034.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 35,
+      "files": [
+        "segments/0035.lineage.jsonl.gz",
+        "segments/0035.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 36,
+      "files": [
+        "segments/0036.lineage.jsonl.gz",
+        "segments/0036.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 37,
+      "files": [
+        "segments/0037.lineage.jsonl.gz",
+        "segments/0037.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 38,
+      "files": [
+        "segments/0038.lineage.jsonl.gz",
+        "segments/0038.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 39,
+      "files": [
+        "segments/0039.lineage.jsonl.gz",
+        "segments/0039.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 40,
+      "files": [
+        "segments/0040.lineage.jsonl.gz",
+        "segments/0040.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 41,
+      "files": [
+        "segments/0041.lineage.jsonl.gz",
+        "segments/0041.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 42,
+      "files": [
+        "segments/0042.lineage.jsonl.gz",
+        "segments/0042.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 43,
+      "files": [
+        "segments/0043.lineage.jsonl.gz",
+        "segments/0043.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 44,
+      "files": [
+        "segments/0044.lineage.jsonl.gz",
+        "segments/0044.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 45,
+      "files": [
+        "segments/0045.lineage.jsonl.gz",
+        "segments/0045.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 46,
+      "files": [
+        "segments/0046.lineage.jsonl.gz",
+        "segments/0046.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 47,
+      "files": [
+        "segments/0047.lineage.jsonl.gz",
+        "segments/0047.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 48,
+      "files": [
+        "segments/0048.lineage.jsonl.gz",
+        "segments/0048.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 49,
+      "files": [
+        "segments/0049.lineage.jsonl.gz",
+        "segments/0049.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 50,
+      "files": [
+        "segments/0050.lineage.jsonl.gz",
+        "segments/0050.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 51,
+      "files": [
+        "segments/0051.lineage.jsonl.gz",
+        "segments/0051.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 52,
+      "files": [
+        "segments/0052.lineage.jsonl.gz",
+        "segments/0052.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 53,
+      "files": [
+        "segments/0053.lineage.jsonl.gz",
+        "segments/0053.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 54,
+      "files": [
+        "segments/0054.lineage.jsonl.gz",
+        "segments/0054.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 55,
+      "files": [
+        "segments/0055.lineage.jsonl.gz",
+        "segments/0055.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 56,
+      "files": [
+        "segments/0056.lineage.jsonl.gz",
+        "segments/0056.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 57,
+      "files": [
+        "segments/0057.lineage.jsonl.gz",
+        "segments/0057.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 58,
+      "files": [
+        "segments/0058.lineage.jsonl.gz",
+        "segments/0058.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 59,
+      "files": [
+        "segments/0059.lineage.jsonl.gz",
+        "segments/0059.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 60,
+      "files": [
+        "segments/0060.lineage.jsonl.gz",
+        "segments/0060.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 61,
+      "files": [
+        "segments/0061.lineage.jsonl.gz",
+        "segments/0061.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 62,
+      "files": [
+        "segments/0062.lineage.jsonl.gz",
+        "segments/0062.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 63,
+      "files": [
+        "segments/0063.lineage.jsonl.gz",
+        "segments/0063.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 64,
+      "files": [
+        "segments/0064.lineage.jsonl.gz",
+        "segments/0064.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 65,
+      "files": [
+        "segments/0065.lineage.jsonl.gz",
+        "segments/0065.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 66,
+      "files": [
+        "segments/0066.lineage.jsonl.gz",
+        "segments/0066.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 67,
+      "files": [
+        "segments/0067.lineage.jsonl.gz",
+        "segments/0067.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 68,
+      "files": [
+        "segments/0068.lineage.jsonl.gz",
+        "segments/0068.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 69,
+      "files": [
+        "segments/0069.lineage.jsonl.gz",
+        "segments/0069.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 70,
+      "files": [
+        "segments/0070.lineage.jsonl.gz",
+        "segments/0070.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 71,
+      "files": [
+        "segments/0071.lineage.jsonl.gz",
+        "segments/0071.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 72,
+      "files": [
+        "segments/0072.lineage.jsonl.gz",
+        "segments/0072.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 73,
+      "files": [
+        "segments/0073.lineage.jsonl.gz",
+        "segments/0073.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 74,
+      "files": [
+        "segments/0074.lineage.jsonl.gz",
+        "segments/0074.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 75,
+      "files": [
+        "segments/0075.lineage.jsonl.gz",
+        "segments/0075.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 76,
+      "files": [
+        "segments/0076.lineage.jsonl.gz",
+        "segments/0076.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 77,
+      "files": [
+        "segments/0077.lineage.jsonl.gz",
+        "segments/0077.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 78,
+      "files": [
+        "segments/0078.lineage.jsonl.gz",
+        "segments/0078.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 79,
+      "files": [
+        "segments/0079.lineage.jsonl.gz",
+        "segments/0079.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 80,
+      "files": [
+        "segments/0080.lineage.jsonl.gz",
+        "segments/0080.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 81,
+      "files": [
+        "segments/0081.lineage.jsonl.gz",
+        "segments/0081.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 82,
+      "files": [
+        "segments/0082.lineage.jsonl.gz",
+        "segments/0082.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 83,
+      "files": [
+        "segments/0083.lineage.jsonl.gz",
+        "segments/0083.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 84,
+      "files": [
+        "segments/0084.lineage.jsonl.gz",
+        "segments/0084.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 85,
+      "files": [
+        "segments/0085.lineage.jsonl.gz",
+        "segments/0085.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 86,
+      "files": [
+        "segments/0086.lineage.jsonl.gz",
+        "segments/0086.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 87,
+      "files": [
+        "segments/0087.lineage.jsonl.gz",
+        "segments/0087.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 88,
+      "files": [
+        "segments/0088.lineage.jsonl.gz",
+        "segments/0088.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 89,
+      "files": [
+        "segments/0089.lineage.jsonl.gz",
+        "segments/0089.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 90,
+      "files": [
+        "segments/0090.lineage.jsonl.gz",
+        "segments/0090.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 91,
+      "files": [
+        "segments/0091.lineage.jsonl.gz",
+        "segments/0091.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 92,
+      "files": [
+        "segments/0092.lineage.jsonl.gz",
+        "segments/0092.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 93,
+      "files": [
+        "segments/0093.lineage.jsonl.gz",
+        "segments/0093.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 94,
+      "files": [
+        "segments/0094.lineage.jsonl.gz",
+        "segments/0094.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 95,
+      "files": [
+        "segments/0095.lineage.jsonl.gz",
+        "segments/0095.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 96,
+      "files": [
+        "segments/0096.lineage.jsonl.gz",
+        "segments/0096.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 97,
+      "files": [
+        "segments/0097.lineage.jsonl.gz",
+        "segments/0097.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 98,
+      "files": [
+        "segments/0098.lineage.jsonl.gz",
+        "segments/0098.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 99,
+      "files": [
+        "segments/0099.lineage.jsonl.gz",
+        "segments/0099.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 100,
+      "files": [
+        "segments/0100.lineage.jsonl.gz",
+        "segments/0100.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 101,
+      "files": [
+        "segments/0101.lineage.jsonl.gz",
+        "segments/0101.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 102,
+      "files": [
+        "segments/0102.lineage.jsonl.gz",
+        "segments/0102.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 103,
+      "files": [
+        "segments/0103.lineage.jsonl.gz",
+        "segments/0103.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 104,
+      "files": [
+        "segments/0104.lineage.jsonl.gz",
+        "segments/0104.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 105,
+      "files": [
+        "segments/0105.lineage.jsonl.gz",
+        "segments/0105.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 106,
+      "files": [
+        "segments/0106.lineage.jsonl.gz",
+        "segments/0106.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 107,
+      "files": [
+        "segments/0107.lineage.jsonl.gz",
+        "segments/0107.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 108,
+      "files": [
+        "segments/0108.lineage.jsonl.gz",
+        "segments/0108.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 109,
+      "files": [
+        "segments/0109.lineage.jsonl.gz",
+        "segments/0109.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 110,
+      "files": [
+        "segments/0110.lineage.jsonl.gz",
+        "segments/0110.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 111,
+      "files": [
+        "segments/0111.lineage.jsonl.gz",
+        "segments/0111.evaluations.jsonl.gz"
+      ]
+    },
+    {
+      "generation": 112,
+      "files": [
+        "segments/0112.lineage.jsonl.gz",
+        "segments/0112.evaluations.jsonl.gz"
+      ]
+    }
+  ],
+  "round_seconds": [
+    8.96111012500478,
+    4.051698583993129,
+    4.427437375008594,
+    7.17159929202171,
+    4.030616374977399,
+    3.3900100419996306,
+    6.490207249997184,
+    8.110671417030971,
+    6.600447999953758,
+    3.4043422500253655,
+    5.7176680419943295,
+    8.587918374978472,
+    4.015265957976226,
+    4.2456366249825805,
+    4.586735291988589,
+    9.052910875005182,
+    6.555231541977264,
+    3.631772666994948,
+    5.927868416998535,
+    8.648575541970786,
+    3.7006546250195242,
+    4.249219083983917,
+    4.622337374952622,
+    7.296147124958225,
+    7.336669625015929,
+    4.717876332986634,
+    4.757135791005567,
+    8.013483917049598,
+    3.7356027080095373,
+    3.667274291976355,
+    4.412251459027175,
+    8.906342957983725,
+    6.377821708971169,
+    4.0506277499953285,
+    5.485499124974012,
+    8.659470874990802,
+    3.9682341250008903,
+    5.350846000015736,
+    5.29927158402279,
+    11.130789000017103,
+    5.670919083000626,
+    3.8135368330404162,
+    6.1700002499856055,
+    8.807901709049474,
+    4.587463249976281,
+    4.725678291986696,
+    4.76381712500006,
+    10.000187333032954,
+    6.731299749983009,
+    3.7059499580063857,
+    5.187387999962084,
+    8.622361625020858,
+    4.0439370420062914,
+    4.069865792000201,
+    5.623064583982341,
+    8.058594874979462,
+    6.552809250017162,
+    5.424046791973524,
+    4.572111957997549,
+    10.518402665969916,
+    4.10988741600886,
+    3.475854624994099,
+    5.032979459036142,
+    8.382858042023145,
+    5.942969208001159,
+    3.7833920419798233,
+    4.563434083014727,
+    7.5481719999806955,
+    3.9139579159673303,
+    3.7367542080464773,
+    4.635271416977048,
+    7.956011166970711,
+    6.014927499985788,
+    4.528712583007291,
+    5.1114856250351295,
+    8.506275666004512,
+    3.610018457984552,
+    3.6423640419961885,
+    6.034744916018099,
+    8.540023333043791,
+    6.5337489590165205,
+    3.5695776250213385,
+    5.069539042015094,
+    8.305413833004422,
+    4.411510707985144,
+    4.336525749997236,
+    5.6612890000105835,
+    8.100160083035007,
+    6.28829662501812,
+    4.0795094589702785,
+    5.186840707960073,
+    8.50690095796017,
+    4.0864501249743626,
+    3.8890050419722684,
+    4.99544045800576,
+    8.276218665996566,
+    6.349197500036098,
+    3.8739804590004496,
+    4.848963583004661,
+    10.715412249963265,
+    4.480838291987311,
+    4.204969749960583,
+    5.062116291956045,
+    11.256645249959547,
+    6.742450250021648,
+    4.950357833004091,
+    5.757030333974399,
+    7.41986895800801,
+    3.8394106249907054,
+    4.09119925001869,
+    5.337046957982238,
+    9.317512208013795,
+    6.584965333051514
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "timing": "Written during search, before final selections and before final case generation",
+  "reason": "The preregistered audit retained every historical decoded genome in RAM. The bounded variant releases already-verified genomes after a round unless they remain in a population, anchor set or selection archive.",
+  "implementation": "tools/audit_fork_pressure.py",
+  "original_preserved": "maze_evolution/fork_audit.py",
+  "scope": "Identical graph, raster, mutation, reproduction/RNG and final-replay coverage; no selection, candidate runtime, training data, budget or final-assessment changes. The variant asserts the frozen original source hash and reports its own hash.",
+  "additional_checks": "Fresh founders are reproduced from seed; carry anchors/RNG are checked against C/D/E; all 224 calibration BFS rasters and 480 synthetic scores receive independent checks."
+}
