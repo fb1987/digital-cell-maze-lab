@@ -34,7 +34,70 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 19, 2026): V12G is complete. Read
+Current checkpoint (October 19, 2026): **V12H is complete**. Read
+`results/routing_transfer.md` and `docs/ROUTING_TRANSFER_PROGRESS.md` first.
+Do not repeat H, extend its closed cap, resume G, or tune on inspected final
+cases. The validation-breadth follow-up is proposed, not launched.
+
+All 30 G primary + 30 frozen aliases (33 physical random-origin models), plus
+2 separate known controls, were frozen/pushed in e5e30e8 BEFORE final generation.
+No training or reselection. Seed 2026101903, fixtures 1224. There are 48 independent
+contexts, 24 per 5–9/10–18-edge band, each with 8 poses, 2 goals and matched
+fork/two-junction/real alternative-cycle graphs: 2,304 branched inputs/1,152 pairs,
+768 corridors and 128 no-path controls. Variants/poses are correlated. Prefixes
+4–8 versus G≤3, 25×25 boards and new geometry prevent a single-variable
+interpretation of G-to-H failure.
+
+G leader fork/carry/evolved/branch/evolution/0/i4549 gives 0/2,304 legal/shortest
+branched outputs, 0/1,152 pairs, 690/768 corridors. All 1,152 short branched masks
+have branch/cycle defects. G's 68-gene resampling winner gives zero branched
+outputs, 768/768 corridors. Only one physical random-origin model completes
+pairs: inherited V12E foundation_pair_paired/local/fresh/evolution/1/i109169,
+256 genes, birth 1299, G carry/local Current/frozen replicate1. Fork 17/384,
+two-junction 15/384, cycle 3/384 pairs; individual shortest 86/768, 69/768, 13/768.
+Contexts 6/5/1, none in all eight poses; all paired routes have 5–6 edges. Cycle
+pairs are three poses of ONE six/six-edge context with 18/18-edge alternatives.
+Every model completes zero long-band pairs; every Branch cohort fails 0/3.
+Do not claim a new G evolutionary gain. BFS/A*/bit-wavefront/intact VM solve
+3,072/3,072 reachable and 128/128 disconnected inputs. No false normal reachable
+no-path claims. General solving and multirange advantage remain unestablished.
+
+Four preselected random-origin mechanism targets plus two controls receive six
+interventions on all 2,304 branched inputs. G leader goal-switch source/junction/
+output-away responses are 48/36/48 of 48 probed pairs; pulse removal retains them,
+flag removal eliminates all three. Full flag-off states still differ at the goal
+pulse; both-off forced trajectories are identical. Endpoint-check removal keeps
+all 2,304 G-leader reactions identical; pulse removal keeps masks but changes work.
+Nonlocal zeroing changes 334 masks and still gives zero correct routes. These
+targets fail H normal pairs: the ablations do not establish necessity for G
+successes. The successful inherited local H variant was outside the mechanism
+subset and was not newly probed after H. All 1,536 forced traces reach 64 ticks,
+98,304 frames; no strict-both or two-goal shortest geometry occurs. Fresh local
+has 13 normal-input shortest frames after incorrect native emission, 36 pulse-off
+and two both-off frames. These are not normal solutions; no stopping retune.
+
+Inference 152.76s/600s cap, total 164.60s, 596.84 MiB RSS, 201,083 calls and
+89,746,284,052 work units. The 71 successful timing cases are median 112.91× slower
+than BFS (range 11.42–304.01); no speedup. Audit 166.61s, 612.88 MiB RSS verifies
+149 source/41 input hashes, 194,944 normal/intervention replays, 1,536 full traces,
+768 independent observer checks, 420 native parity checks, 9,600 final baselines,
+and all calibration/timing/graph checks. The first audit failed only serializing
+a NumPy count after all checks; original source remains. Active entry point
+`tools/audit_routing_transfer.py` casts that count to a Python int. Full rerun
+passes; failed log/partial packet and approximately 166.68s additional wall time
+are preserved. Nine new protocol tests + eight existing tests pass; one audit
+regression passes separately. 185 collected tests; NOT a fresh full-suite run.
+All previous populations/RNG/source/results remain intact.
+
+Exclude **all 138,712 whole layouts** through H (136,536 old + 192 fixtures + 1,984
+final), including every pose and matched control. Do not relabel H final data as
+validation. Next proposal: freeze the existing G validation-nominee pool, compare
+new equal-budget narrow/broad validation, freeze choices, then use another
+untouched final set. Preserve fresh/carry random origins, resampling, local/evolved
+controls and useful diversity. Do not automatically launch another unchanged
+60–90-minute evolution run.
+
+Historical checkpoint V12G (October 19, 2026): V12G is complete. Read
 `results/fork_pressure.md` and `docs/FORK_PRESSURE_PROGRESS.md` first. Do not
 repeat or extend its closed 720-second pilot. All 30 next populations/RNG,
 raw masks, concrete mutation events, anchors and primary/secondary archives

@@ -1,0 +1,45 @@
+{
+  "base": "final/band0/g4/s1",
+  "symmetry": 1,
+  "shortest_edges": [
+    6,
+    6
+  ],
+  "alternative_edges": [
+    18,
+    18
+  ],
+  "entries": [
+    {
+      "model": "evolved/2ba155ca959bcd9ff058",
+      "case": "final/band0/g4/s1/corridor_0/a/d4-1",
+      "optimal": true
+    },
+    {
+      "model": "evolved/2ba155ca959bcd9ff058",
+      "case": "final/band0/g4/s1/alternate_cycle/a/d4-1",
+      "optimal": false
+    },
+    {
+      "model": "local/ecb803bdd83a1f6717fe",
+      "case": "final/band0/g4/s1/alternate_cycle/a/d4-1",
+      "optimal": true
+    },
+    {
+      "model": "evolved/2ba155ca959bcd9ff058",
+      "case": "final/band0/g4/s1/corridor_1/b/d4-1",
+      "optimal": true
+    },
+    {
+      "model": "evolved/2ba155ca959bcd9ff058",
+      "case": "final/band0/g4/s1/alternate_cycle/b/d4-1",
+      "optimal": false
+    },
+    {
+      "model": "local/ecb803bdd83a1f6717fe",
+      "case": "final/band0/g4/s1/alternate_cycle/b/d4-1",
+      "optimal": true
+    }
+  ],
+  "selection": "First saved complete cycle pair of local/ecb803bdd83a1f6717fe in construction order; post-hoc illustration only; no new selection or inference"
+}

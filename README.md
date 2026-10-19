@@ -6,6 +6,38 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12H fixed-panel confirmation](results/routing_transfer.md) is complete.
+**The previous G leader fails all 2,304 new branched inputs, while retaining
+690/768 matched corridors.** All G primary and frozen selections were tested;
+no genome was trained or reselected. Models and protocol were pushed in
+`e5e30e8` before final generation.
+
+One older random-origin local variant completes **17/384 fork pairs, 15/384
+two-junction pairs and 3/384 genuine-cycle pairs**. It was already in the frozen
+controls. The cycle successes are three poses of one six/six-edge context with
+18/18-edge alternatives. No context works in all eight poses, no model completes
+a 10–18-edge pair, and every replicate fails the robust-transfer screen.
+
+The 48 independent contexts hold endpoints and shortest paths fixed across three
+graph complexities, with shared corridor controls. Between G and H, prefix length,
+board size and sampling also change; the transfer decline is not attributable to
+one variable. Goal-flag-dependent signalling is measurable in the G leader, but
+does not produce correct paired choices here. General solving, a causal
+multirange advantage and a speedup remain unestablished.
+
+![Matched branching transfer](results/routing_transfer/visuals/transfer.png)
+
+Inference took **152.76 seconds** under a fixed ten-minute cap; the complete audit
+passes after an audit-only NumPy-count serialization repair. All old populations,
+RNG and raw evidence are preserved. Ten new tests are covered, plus eight focused
+existing adapter tests; this was not a full 185-test run. Future independent
+studies must exclude **138,712 whole layouts**. The proposed next step is a
+[budget-matched validation-coverage comparison](results/routing_transfer/next_experiment.md)
+on a frozen existing genome pool, before more breeding. See the
+[completed handoff](docs/ROUTING_TRANSFER_PROGRESS.md).
+
+## Completed minimal-fork pilot V12G
+
 The [V12G minimal-fork pilot](results/fork_pressure.md) is complete: **113 matched
 generations in 11.78 minutes**, 30 populations of 96 organisms, 2.24 million
 responses. Preregistration was pushed in `83f78c6`; all selections were frozen

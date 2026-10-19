@@ -1,0 +1,18 @@
+{
+  "runs": [
+    {
+      "command": ".venv/bin/python -m pytest tests/test_routing_transfer.py tests/test_route_confirmation.py -q",
+      "passed": 17,
+      "seconds": 1.05
+    },
+    {
+      "command": ".venv/bin/python -m pytest tests/test_routing_transfer_audit_serialization.py -q",
+      "passed": 1,
+      "seconds": 0.17
+    }
+  ],
+  "new_tests": 10,
+  "existing_focused": 8,
+  "collected": 185,
+  "full_suite_rerun": false
+}

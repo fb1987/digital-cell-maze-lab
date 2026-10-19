@@ -1,0 +1,10 @@
+{
+  "reason": "The frozen trace_pair diagnostic summed NumPy booleans and produced a numpy.int64 count; json.dump failed only when writing trajectory_diagnostics after all replay/count checks.",
+  "action": "Keep frozen source unchanged; tools/audit_routing_transfer.py casts only strict_both_ticks to Python int, then reruns the full frozen audit.",
+  "scope": "Audit diagnostic serialization only. No graph, genome, runtime, grading, selection, or experimental output changes.",
+  "first_attempt_approx_wall_seconds": 166.6824986934662,
+  "measurement": "Log filesystem birth-to-last-modification interval, approximate wall time; not a precise call timer.",
+  "first_log_sha256": "d2fc86461ff1850c4b8c5b78d7a8141f6217131e501635d465131c452a3a0f87",
+  "partial_packet_sha256": "7c429d80c5aebb268678cb6b7c10af9c6e931f5f9ff33dc2f7f98354013d5e76",
+  "repaired_entrypoint_sha256": "3902f9426b14ffb2c79bd8f1382c2b5eea2ef244f103a7b04ce799ac1838a609"
+}

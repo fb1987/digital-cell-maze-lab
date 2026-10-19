@@ -1,0 +1,60 @@
+{
+  "completed": true,
+  "freeze_revision": "e5e30e8fa14c003144457f088883a4ae7bd20d61",
+  "wall_seconds": 164.59799108299194,
+  "phase_wall_seconds": {
+    "parity": 0.7648343750042841,
+    "construction": 2.1311373339849524,
+    "normal": 87.22460349998437,
+    "baselines": 0.4871151670231484,
+    "interventions": 69.42684212495806,
+    "probes": 3.7721005839994177,
+    "timing": 0.7002724169869907
+  },
+  "warmup": {
+    "seconds": 0.06558887503342703,
+    "candidate_calls": 3,
+    "baseline_calls": 3,
+    "fixture": "fixture/band0/g0/s2/fork/a/d4-0",
+    "production_readonly_grid": true
+  },
+  "candidate": {
+    "seconds": 152.75695630617096,
+    "calls": 201083,
+    "work": 89746284052,
+    "max_call_seconds": 0.010161624988541007,
+    "scopes": {
+      "parity_native": {
+        "seconds": 0.35031587904086336,
+        "calls": 420,
+        "work": 214768036
+      },
+      "parity_adapter": {
+        "seconds": 0.3556946535827592,
+        "calls": 420,
+        "work": 214768036
+      },
+      "normal": {
+        "seconds": 82.88742475159233,
+        "calls": 112000,
+        "work": 49178157606
+      },
+      "intervention": {
+        "seconds": 67.22454237344209,
+        "calls": 82944,
+        "work": 39027843029
+      },
+      "forced_probe": {
+        "seconds": 1.270577020244673,
+        "calls": 1536,
+        "work": 721451003
+      },
+      "timing": {
+        "seconds": 0.668401628268341,
+        "calls": 3763,
+        "work": 389296342
+      }
+    }
+  },
+  "peak_rss_bytes": 625836032
+}

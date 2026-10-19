@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "source_hashes": 149,
+  "input_hashes": 41,
+  "geometry": {
+    "final": {
+      "shortest_masks": 3072,
+      "decision_labels": 2304,
+      "reachable_cases": 3072,
+      "legal_longer_masks": 768,
+      "no_path_cases": 128,
+      "contexts": 48,
+      "whole_layouts": 1984,
+      "cases": 3200
+    },
+    "fixtures": {
+      "shortest_masks": 256,
+      "decision_labels": 192,
+      "reachable_cases": 256,
+      "legal_longer_masks": 64,
+      "no_path_cases": 64,
+      "contexts": 4,
+      "whole_layouts": 192,
+      "cases": 320
+    }
+  },
+  "counts": {
+    "calibration_candidate_replays": 1920,
+    "calibration_baseline_replays": 320,
+    "native_adapter_checks": 420,
+    "normal_candidate_replays": 112000,
+    "final_baseline_replays": 9600,
+    "intervention_replays": 82944,
+    "goal_blind_pair_checks": 6912,
+    "trace_replays": 1536,
+    "full_horizon_traces": 1536,
+    "normal_trace_matches": 1131,
+    "independent_observer_checks": 768,
+    "timing_candidate_replays": 71,
+    "timing_baseline_replays": 71
+  },
+  "graded_rasters": 208740,
+  "geometry_frames": 98304,
+  "raw_trace_bytes": 983040000,
+  "candidate_charged_calls": 201083,
+  "candidate_charged_work": 89746284052,
+  "audit_replay_work": 89774080108,
+  "future_exclusion_count": 138712,
+  "wall_seconds": 166.61107083398383,
+  "peak_rss_bytes": 642646016
+}
