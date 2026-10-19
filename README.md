@@ -7,7 +7,7 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 ## Current checkpoint — October 18, 2026
 
 The user-authorized [V12E controlled comparison](docs/FOUNDATION_PAIR_V12E.md)
-is prepared for its fixed 75-minute search. Eighteen conditions compare
+is running its fixed 75-minute search. Eighteen conditions compare
 completed-pair-first and Current evolution from identical generation-865
 fresh-origin populations/RNG, plus continued resampling controls. Primary models
 use the same validation archive rule in both arms; fresh tests separate

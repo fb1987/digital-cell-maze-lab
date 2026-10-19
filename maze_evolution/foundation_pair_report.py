@@ -132,6 +132,7 @@ def run(out):
     for record in records:
         key = '/'.join((record['key'],record['role'],record['scope']))
         value = metrics(record['cases'],lookup)
+        value['false_reachable_no_path'] = sum(r['reachable'] and r['status']=='no_path' for r in record['cases'])
         if record['scope'] == 'micro':
             value['bands'] = level_metrics(record['cases'])
             value['levels'] = {str(l):metrics([r for r in record['cases'] if f'/level{l}/' in r['case']],lookup)
@@ -215,7 +216,7 @@ def run(out):
             micro=summed(topology,policy,method,role,'micro'); general=summed(topology,policy,method,role,'general')
             pairs=[sum(v['bands'][str(l)]['pairs'] for v in micro) for l in range(5)]
             table.append(f"| {topology}/{label} | "+' | '.join(f'{v}/144' for v in pairs)+
-                f" | {sum(v['optimal'] for v in general)}/216 | {sum(v['long_optimal'] for v in general)}/{sum(v['long_outputs'] for v in general)} | {sum(v['no_path'] for v in general)}/48 |")
+                f" | {sum(v['valid'] for v in general)}/216; {sum(v['optimal'] for v in general)}/216 | {sum(v['long_optimal'] for v in general)}/{sum(v['long_outputs'] for v in general)} | {sum(v['no_path'] for v in general)}/48; {sum(v['false_reachable_no_path'] for v in general)}/216 false |")
     secondary=[]
     for topology in ('local','evolved'):
         for policy in ('current','paired'):
@@ -256,7 +257,7 @@ Current and Paired evolution start from identical saved populations/RNG within e
 
 Each elementary cell is **complete shortest pairs /144**, across three replicates (six base layouts × eight correlated poses per band/replicate). Both goals lie within the stated distance band. Individual counts, failures, families, independent groups and every replicate are retained in `analysis.json` and raw outputs. The poses are not independent layouts. These bands differ from V12D; use the checkpoint on THESE cases for comparison. Source-component cycle counts are independently characterized: {component_text}. A random-grid family label alone is not taken as proof of a cycle in the source component.
 
-| Topology/selection | D=1 | D=2 | D=3–4 | D=5–8 | D=9–16 | Ordinary shortest | Ordinary D≥8 | Correct no-path |
+| Topology/selection | D=1 | D=2 | D=3–4 | D=5–8 | D=9–16 | Ordinary legal; shortest | Ordinary D≥8 | Correct no-path; false claims |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 '''+ '\n'.join(table)+'''
 
