@@ -1,0 +1,260 @@
+[
+  {
+    "model": "local/22efb514f65c1c932002/7",
+    "row": {
+      "case": "confirmation/core/a6/turning/c14/s0/straight/full/p0/fork/paired/0/d4-0",
+      "status": "emitted",
+      "steps": 13,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 34846,
+      "range_reads": [
+        34846,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 46306,
+      "active": 37499,
+      "array_bytes": 16776,
+      "mask": "000000000000000000000000000000000000000000801f0004000000000000000000000000000000000000000000",
+      "exposure_checks": 3154,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "template": "confirmation/core/a6/turning/c14/s0",
+      "config": "confirmation/core/a6/turning/c14/s0/straight/full/p0/fork",
+      "index": 14,
+      "arm": 6,
+      "shape": "turning",
+      "stress": false,
+      "bend": "straight",
+      "control": "full",
+      "prefix": 0,
+      "graph": "fork",
+      "family": "paired",
+      "side": 0,
+      "pose": 0,
+      "junction": 180,
+      "path": [
+        180,
+        179,
+        178,
+        177,
+        176,
+        175,
+        194
+      ],
+      "alternative": [],
+      "source_degree": 3,
+      "clutter": [
+        50,
+        54,
+        101,
+        211,
+        214,
+        232,
+        241,
+        308
+      ]
+    }
+  },
+  {
+    "model": "local/22efb514f65c1c932002/7",
+    "row": {
+      "case": "confirmation/core/a6/turning/c14/s0/straight/full/p0/fork/paired/1/d4-0",
+      "status": "emitted",
+      "steps": 13,
+      "valid": true,
+      "optimal": true,
+      "no_path": false,
+      "reachable": true,
+      "failure": "",
+      "partial": 0.9,
+      "reads": 34790,
+      "range_reads": [
+        34790,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 46306,
+      "active": 37501,
+      "array_bytes": 16776,
+      "mask": "00000000000000000000000000000000000000000000f00300100000000000000000000000000000000000000000",
+      "exposure_checks": 3140,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "template": "confirmation/core/a6/turning/c14/s0",
+      "config": "confirmation/core/a6/turning/c14/s0/straight/full/p0/fork",
+      "index": 14,
+      "arm": 6,
+      "shape": "turning",
+      "stress": false,
+      "bend": "straight",
+      "control": "full",
+      "prefix": 0,
+      "graph": "fork",
+      "family": "paired",
+      "side": 1,
+      "pose": 0,
+      "junction": 180,
+      "path": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        204
+      ],
+      "alternative": [],
+      "source_degree": 3,
+      "clutter": [
+        50,
+        54,
+        101,
+        211,
+        214,
+        232,
+        241,
+        308
+      ]
+    }
+  },
+  {
+    "model": "local/22efb514f65c1c932002/7",
+    "row": {
+      "case": "confirmation/core/a6/turning/c14/s0/straight/full/p1/fork/paired/0/d4-0",
+      "status": "emitted",
+      "steps": 15,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "branch_or_cycle",
+      "partial": 0.3,
+      "reads": 40346,
+      "range_reads": [
+        40346,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 53430,
+      "active": 43354,
+      "array_bytes": 16776,
+      "mask": "000000000000000000000000000000000000000002803f0004000000000000000000000000000000000000000000",
+      "exposure_checks": 3652,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "template": "confirmation/core/a6/turning/c14/s0",
+      "config": "confirmation/core/a6/turning/c14/s0/straight/full/p1/fork",
+      "index": 14,
+      "arm": 6,
+      "shape": "turning",
+      "stress": false,
+      "bend": "straight",
+      "control": "full",
+      "prefix": 1,
+      "graph": "fork",
+      "family": "paired",
+      "side": 0,
+      "pose": 0,
+      "junction": 180,
+      "path": [
+        161,
+        180,
+        179,
+        178,
+        177,
+        176,
+        175,
+        194
+      ],
+      "alternative": [],
+      "source_degree": 2,
+      "clutter": [
+        50,
+        54,
+        101,
+        211,
+        214,
+        232,
+        241,
+        308
+      ]
+    }
+  },
+  {
+    "model": "local/22efb514f65c1c932002/7",
+    "row": {
+      "case": "confirmation/core/a6/turning/c14/s0/straight/full/p1/fork/paired/1/d4-0",
+      "status": "emitted",
+      "steps": 15,
+      "valid": false,
+      "optimal": false,
+      "no_path": false,
+      "reachable": true,
+      "failure": "branch_or_cycle",
+      "partial": 0.3,
+      "reads": 40274,
+      "range_reads": [
+        40274,
+        0,
+        0,
+        0
+      ],
+      "dispatches": 53430,
+      "active": 43356,
+      "array_bytes": 16776,
+      "mask": "00000000000000000000000000000000000000000200f80300100000000000000000000000000000000000000000",
+      "exposure_checks": 3634,
+      "suppressed_reads": 0
+    },
+    "metadata": {
+      "template": "confirmation/core/a6/turning/c14/s0",
+      "config": "confirmation/core/a6/turning/c14/s0/straight/full/p1/fork",
+      "index": 14,
+      "arm": 6,
+      "shape": "turning",
+      "stress": false,
+      "bend": "straight",
+      "control": "full",
+      "prefix": 1,
+      "graph": "fork",
+      "family": "paired",
+      "side": 1,
+      "pose": 0,
+      "junction": 180,
+      "path": [
+        161,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        204
+      ],
+      "alternative": [],
+      "source_degree": 2,
+      "clutter": [
+        50,
+        54,
+        101,
+        211,
+        214,
+        232,
+        241,
+        308
+      ]
+    }
+  }
+]

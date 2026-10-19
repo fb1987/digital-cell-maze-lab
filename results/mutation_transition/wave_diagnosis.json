@@ -1,0 +1,45 @@
+{
+  "post_registration": true,
+  "new_candidate_calls": 0,
+  "hypothesis": "Reachable mask equals all open sites at goal distance <= shortest source-goal distance. Disconnected mask equals goal component.",
+  "interpretation": "An output-equivalence diagnosis, not an observed internal algorithm, training label, or candidate-side BFS.",
+  "counts": {
+    "depth16/paired": {
+      "inputs": 4160,
+      "exact_goal_ball_masks": 4160,
+      "optimal": 1120,
+      "normal_emitted": 4160
+    },
+    "depth16/corridor": {
+      "inputs": 4160,
+      "exact_goal_ball_masks": 4160,
+      "optimal": 4160,
+      "normal_emitted": 4160
+    },
+    "depth16/disconnected": {
+      "inputs": 4160,
+      "exact_goal_ball_masks": 4160,
+      "optimal": 0,
+      "normal_emitted": 0
+    },
+    "depth9/paired": {
+      "inputs": 4160,
+      "exact_goal_ball_masks": 4160,
+      "optimal": 1120,
+      "normal_emitted": 4160
+    },
+    "depth9/corridor": {
+      "inputs": 4160,
+      "exact_goal_ball_masks": 4160,
+      "optimal": 4160,
+      "normal_emitted": 4160
+    },
+    "depth9/disconnected": {
+      "inputs": 4160,
+      "exact_goal_ball_masks": 4160,
+      "optimal": 0,
+      "normal_emitted": 0
+    }
+  },
+  "exceptions": []
+}

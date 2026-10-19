@@ -1,0 +1,164 @@
+{
+  "local": {
+    "transitions": [
+      {
+        "depth": 9,
+        "gained": 544,
+        "lost": 0,
+        "event": [
+          {
+            "requested_mode": 0,
+            "index": 112,
+            "before_length": 130,
+            "kind": "insert",
+            "row": [
+              3,
+              36,
+              49,
+              44,
+              0,
+              0,
+              64
+            ],
+            "after_length": 131
+          }
+        ],
+        "parent": "mutation_depth/r0/f71/walk0/d8",
+        "child": "mutation_depth/r0/f71/walk0/d9",
+        "genes": 131
+      }
+    ],
+    "target": {
+      "inputs": 12480,
+      "reachable": 8320,
+      "valid": 5280,
+      "optimal": 5280,
+      "no_path": 0,
+      "false_no_path": 0,
+      "corridors": 4160,
+      "failures": {
+        "not_emitted": 4160,
+        "branch_or_cycle": 3040
+      },
+      "pairs": 544,
+      "pair_opportunities": 2080,
+      "response_signature": "a62e2e7d81a6d673fdb52a58401ff2d67a725f397f44b3d7c2282a30faae00a1",
+      "work": 667128216,
+      "max_array_bytes": 16776
+    },
+    "mechanisms": {
+      "pulse_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 544,
+        "lost": 0,
+        "new": 0,
+        "pairs": 544,
+        "normal_input_subset": 1312,
+        "work": 187586232
+      },
+      "flag_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 0,
+        "lost": 544,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 774450856
+      },
+      "both_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 0,
+        "lost": 544,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 99980160
+      },
+      "endpoint_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 544,
+        "lost": 0,
+        "new": 0,
+        "pairs": 544,
+        "normal_input_subset": 1312,
+        "work": 187609848
+      },
+      "nonlocal_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 544,
+        "lost": 0,
+        "new": 0,
+        "pairs": 544,
+        "normal_input_subset": 1312,
+        "work": 187609848
+      }
+    }
+  },
+  "evolved": {
+    "transitions": [],
+    "target": {
+      "inputs": 12480,
+      "reachable": 8320,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "false_no_path": 0,
+      "corridors": 0,
+      "failures": {
+        "not_emitted": 12480
+      },
+      "pairs": 0,
+      "pair_opportunities": 2080,
+      "response_signature": "215e655be2ca16d48db2814548e5bbc6c5e7debd8461d355b7004d3d2a06af13",
+      "work": 485313008,
+      "max_array_bytes": 16776
+    },
+    "mechanisms": {
+      "pulse_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 128340512
+      },
+      "flag_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 1917964396
+      },
+      "both_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 99980160
+      },
+      "endpoint_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 128364128
+      },
+      "nonlocal_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 114354496
+      }
+    }
+  }
+}

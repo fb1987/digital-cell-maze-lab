@@ -34,11 +34,91 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12O is complete and independently audited**. Read
+Current checkpoint: **V12P is complete and independently audited**. Read
+`results/mutation_transition.md` and `docs/MUTATION_TRANSITION_PROGRESS.md` first.
+Do not repeat P, extend its closed cap, alter frozen source, resume closed searches
+or train/reselect on inspected final layouts. No mutation/evolution occurred in P.
+The shared-prefix curriculum pilot is a proposal only, NOT launched/preregistered.
+
+Protocol/source/panel/fixtures pushedaf823aa BEFORE any panel inference; passing
+profile/native parity pushedfa9945b BEFORE final generation. Seed2026101911,
+fixtures1304.62 fixed configurations:all17 O routing-walk states underboth
+local/nonlocal topologies,reachability founders/checkpoints/descendants,M anchors,
+unmutated resample,separateintact.48 actual mutation events reproduced; no edits.
+
+**First useful transition is edit9:** local O `mutation_depth/r0/f71/walk0/d9`,
+131genes, versus130-gene depth8. Founder through8 gives0/2080pairs,120/4160corridors;
+depths9–16 give544/2080pairs,4160/4160corridors,5280/8320 reachable shortest
+outputs,0/4160correctNP,0falseNP. Within0–8 andwithin9–16 all12480 masks/statuses/
+ticks match;internal states unrecorded,counters differ. Step9 insertion atzero-based
+index112 is `[3,36,49,44,0,0,64]`:R36=max(0,R49−R44). Causal in its actualdepth8
+background; original-founder transplant,necessity ofearlieredits,minimality unknown.
+
+Posthoc static certificate: R44 resets0 and has no writer; R49 at the insertion
+copies R55 from priorchannel2 cardinal remote-min read. Finalchannel1 storeuses
+R36. Thus complete-tickchannel1 receives minimumpositive neighboringchannel2
+(radius1 local,radius8 nonlocal),or0. New output feedback,not a knownsolverinjection.
+Depth9work624400792 versusdepth16work667128216 onwholecorpus;no latencybenchmark.
+
+**Posthoc emitted-wave diagnosis:** ALL8320 reachable rasters/state equal the
+open positions at goal distance≤shortest source-goal distance. ALL4160 disconnected
+rasters equal the isolated goal component but are not correct no-path reports.
+Independent deque traversal verifies24960savedrasters acrossdepths9/16,zero new
+inference. This is output equivalence,not proof ofinternal BFS or oracleaccess.
+Static/wave certificates are explicitly post-registration,saved-data diagnostics.
+
+Core fullstem prefix0:256/256pairs; prefixes1/2/4 each0/256. Nostem prefix0:
+256/256; sourcespurs at2/4 each0/256. Success atdegree2or3 atjunction; degree3
+remotesource doesnotrescue. Arms2/3/4/6,straight/turning,bothstemlabels,all8poses.
+Full layout/goals fixed acrosssourcepositions. Bendsdonotrescueprefix4. Fullprefix
+contrasts−1 inall16coretemplates;conditionalbootstrapintervalsdegenerate,not
+populationcertainty. Stressprefix0fork32/32,otherfork0/64,two-junction0/96,cycle0/96;
+truealternatives12edgeslonger.32 additional individualoutputs arenotcompletepairs.
+Raw544/2080 includesnostemduplicates:exactinputdedup416/1952.20seededtemplates,
+repeatedrouteforms;poses/goals/control variants correlated. No generalmazespeedclaim.
+
+Mechanism subset preselected:routefounder,depth4,depth15,depth16,intact ×2tops.
+Localtarget544normal eligible successes: pulseoff544retained,flagoff0,both0,
+endpointcheckoff544,nonlocalzero544;zero newlysuccessfulpairs. Staticflagnecessary
+for these successes;initialpulse/extraendpointcheck unnecessary underretainedsystem.
+Nonlocalzero inert locally. Ordinarynonlocaltarget0pairs/0corridors;nonlocalzero
+rescues0pairs. Radiusredirection≠zeroing. No beneficialmultirange evidence,forced
+traces or stoppingretune. Nonlocal normaldenominator0 precludesnecessityinference.
+
+O reachabilitydescendantsr1/f53/walk0/d16 andr2/f69/walk1/d16 each4160corridors+
+4160NP,0pairs,0falseNP underboth tops. r1founder/1/4:0corr/0NP. r2founder/1/4:
+1040corr/4160NP but4768falseNP. NPgoalsisolated. Oresample0pairs/0corr inP's
+no-adjacentcorpus;preserveitsoldskill. Intact/BFS/A*/bitwave8320reachable+4160NP.
+
+Fixtures10templates/6240inputs/1232layouts;final20templates/12480inputs/2464layouts,
+19×19,all8poses. Main904960calls=773760normal+131200probes,116.324837candidate
+seconds/720cap,67248915826work,143.02wall,846.08MiBRSS. Profile72680calls/
+12.73candidate seconds separately. Audit PASSES first attempt:175.99wall,1078MiBRSS,
+977640exactcandidate replays,1015080independentrasters,37440baseline replays,
+16120nativeparity,10800oldV6adapterparity,112summaries,48mutationevents,
+186source/11input/2140priorcompletion hashes. No frozen-sourcerepair/deviation.
+22focusedtests pass(11new+11O);263collected,NOTfullsuite. Initial preregistration
+unit-test expectation8→12 corrected before freeze,unchangedgeometry,0candidatecalls.
+
+Exclude ALL181928wholelayouts:178232throughO +1232fixtures +2464final.
+`mutation_transition_data.exclusions()` returns THROUGH O ONLY; append BOTH
+`results/mutation_transition_fixtures/mazes.json.gz` and
+`results/mutation_transition/confirmation/mazes.json.gz`. Preserveallprior
+populations/RNG/source/results. Never relabelfinalsasvalidation.
+
+Next proposal only:bounded12-minute shared-prefix curriculum pilot,exactinitial
+pool/RNG matchedacrosscurriculumarms,runtime/capacity/scoringfixed,protected
+routing/corridordiversity,separatefresh-random track,resampling/frozencontrols,
+3searchRNGreplicates. Conditionalcarried-lineageevolvability,not an O gatepass.
+Commonbroader validation,freezechoicesbeforefreshfinal,strictgain/retention gate;
+no automatic60–90-minute extension or human-codedtraceback. See
+`results/mutation_transition/next_experiment.md`.
+
+Historical checkpoint: **V12O is complete and independently audited**. Read
 `results/mutation_depth.md` and `docs/MUTATION_DEPTH_PROGRESS.md` first. Do not
 repeat O, extend its closed cap, alter frozen source, resume old runs or
 train/reselect on final cases. The broad discovery gate fails; no evolution
-pilot launched. A targeted lineage/transfer follow-up is a proposal only.
+pilot launched. The targeted lineage/transfer follow-up is now complete as V12P.
 
 Protocol/source/pools/fixtures pushed in f08484c BEFORE any candidate inference;
 all discovery/validation evidence and choices pushed in 21d5bfb BEFORE final

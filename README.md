@@ -6,6 +6,37 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12P mutation-transition study](results/mutation_transition.md) is complete
+and independently audited. **Edit9 creates a local feedback connection and the
+first paired-solving gain.** The founder through edit8 completes no pairs;
+edits9–16 complete544/2080 paired evaluations and all4160 corridors on the new
+matched corpus. Exact-input deduplication gives416/1952 paired tasks.
+
+The behavior is now clearer:every saved reachable raster at depths9 and16
+matches a goal-centered wave extending as far as the source. It solves tested
+source-at-junction choices with arms up to six edges, but moving the source one
+edge back on the same layout produces an extra branch. Degree controls and
+preselected interventions show that source degree alone does not explain the
+failure, and the static goal flag is necessary for the tested successes.
+
+![The same maze with the source moved one edge](results/mutation_transition/visuals/goal_wave_boundary.png)
+
+This is evidence for a useful random-origin propagation primitive. Path isolation
+across internal junctions remains missing; general solving, beneficial multirange
+use and speedup remain unestablished. The next proposal is a small controlled
+shared-prefix curriculum test with protected skills and a separate fresh-random
+track. No new evolution run has launched.
+
+Main inference: **116.32 seconds**,904960 calls. Audit passes first attempt:
+977640 exact candidate replays,1015080 independent raster grades and all2140 prior
+completion entries. A separate saved-data check verifies24960 goal-wave masks.
+Twenty-two focused tests pass;263 collected,not a fresh full suite. Exclude
+**181928 whole layouts** next. See the [report](results/mutation_transition.md),
+[handoff](docs/MUTATION_TRANSITION_PROGRESS.md) and
+[unlaunched curriculum proposal](results/mutation_transition/next_experiment.md).
+
+## Completed cumulative-mutation assay V12O
+
 The [V12O cumulative-mutation assay](results/mutation_depth.md) is complete and
 independently audited. **A new random-origin descendant acquires a short-route
 skill after a performance-blind 16-edit walk.** On untouched final layouts it
@@ -32,7 +63,7 @@ all 1,883 prior completion entries. Twenty-two focused tests covered;252 tests
 collected, not a fresh full suite. Exclude **178,232 whole layouts** next.
 Beneficial multirange use and speedup remain unestablished. See the
 [handoff](docs/MUTATION_DEPTH_PROGRESS.md) and
-[unlaunched lineage proposal](results/mutation_depth/next_experiment.md).
+[lineage proposal](results/mutation_depth/next_experiment.md), now completed as V12P above.
 
 ## Completed branch-pressure calibration V12N
 

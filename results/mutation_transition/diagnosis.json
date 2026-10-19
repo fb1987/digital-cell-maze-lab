@@ -1,0 +1,4076 @@
+{
+  "local": {
+    "transitions": [
+      {
+        "depth": 9,
+        "gained": 544,
+        "lost": 0,
+        "event": [
+          {
+            "requested_mode": 0,
+            "index": 112,
+            "before_length": 130,
+            "kind": "insert",
+            "row": [
+              3,
+              36,
+              49,
+              44,
+              0,
+              0,
+              64
+            ],
+            "after_length": 131
+          }
+        ],
+        "parent": "mutation_depth/r0/f71/walk0/d8",
+        "child": "mutation_depth/r0/f71/walk0/d9",
+        "genes": 131
+      }
+    ],
+    "target": {
+      "inputs": 12480,
+      "reachable": 8320,
+      "valid": 5280,
+      "optimal": 5280,
+      "no_path": 0,
+      "false_no_path": 0,
+      "corridors": 4160,
+      "failures": {
+        "not_emitted": 4160,
+        "branch_or_cycle": 3040
+      },
+      "pairs": 544,
+      "pair_opportunities": 2080,
+      "response_signature": "a62e2e7d81a6d673fdb52a58401ff2d67a725f397f44b3d7c2282a30faae00a1",
+      "work": 667128216,
+      "max_array_bytes": 16776
+    },
+    "strata": {
+      "core/2/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/0/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 48,
+        "optimal": 48,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 16,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/0/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/2/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/2/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/4/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/4/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 64,
+        "optimal": 64,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "not_emitted": 32
+        },
+        "pairs": 16,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/0/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 48,
+        "optimal": 48,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 16,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/0/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/2/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/2/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/4/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/4/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 32,
+        "optimal": 32,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 32,
+        "failures": {
+          "branch_or_cycle": 32,
+          "not_emitted": 32
+        },
+        "pairs": 0,
+        "opportunities": 16
+      }
+    },
+    "mechanisms": {
+      "pulse_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 544,
+        "lost": 0,
+        "new": 0,
+        "pairs": 544,
+        "normal_input_subset": 1312,
+        "work": 187586232
+      },
+      "flag_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 0,
+        "lost": 544,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 774450856
+      },
+      "both_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 0,
+        "lost": 544,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 99980160
+      },
+      "endpoint_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 544,
+        "lost": 0,
+        "new": 0,
+        "pairs": 544,
+        "normal_input_subset": 1312,
+        "work": 187609848
+      },
+      "nonlocal_off": {
+        "eligible_normal_pairs": 544,
+        "retained": 544,
+        "lost": 0,
+        "new": 0,
+        "pairs": 544,
+        "normal_input_subset": 1312,
+        "work": 187609848
+      }
+    }
+  },
+  "evolved": {
+    "transitions": [],
+    "target": {
+      "inputs": 12480,
+      "reachable": 8320,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "false_no_path": 0,
+      "corridors": 0,
+      "failures": {
+        "not_emitted": 12480
+      },
+      "pairs": 0,
+      "pair_opportunities": 2080,
+      "response_signature": "215e655be2ca16d48db2814548e5bbc6c5e7debd8461d355b7004d3d2a06af13",
+      "work": 485313008,
+      "max_array_bytes": 16776
+    },
+    "strata": {
+      "core/2/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/2/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/3/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/4/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/straight/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/straight/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/1/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/no_stem/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/spur/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "core/6/turning/bent/spur/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/0/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/0/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/2/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/2/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/4/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/4/straight/straight/full/4/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/0/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/0/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/0/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/2/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/2/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/2/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/4/fork": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/4/two_junction": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      },
+      "stress/6/straight/straight/full/4/cycle": {
+        "inputs": 96,
+        "reachable": 64,
+        "valid": 0,
+        "optimal": 0,
+        "no_path": 0,
+        "false_no_path": 0,
+        "corridors": 0,
+        "failures": {
+          "not_emitted": 96
+        },
+        "pairs": 0,
+        "opportunities": 16
+      }
+    },
+    "mechanisms": {
+      "pulse_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 128340512
+      },
+      "flag_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 1917964396
+      },
+      "both_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 99980160
+      },
+      "endpoint_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 128364128
+      },
+      "nonlocal_off": {
+        "eligible_normal_pairs": 0,
+        "retained": 0,
+        "lost": 0,
+        "new": 0,
+        "pairs": 0,
+        "normal_input_subset": 1312,
+        "work": 114354496
+      }
+    }
+  },
+  "controls": {
+    "local/reach1/d0": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/reach1/d1": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/reach1/d4": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/reach1/d16": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 4160,
+      "false_no_path": 0
+    },
+    "local/reach2/d0": {
+      "pairs": 0,
+      "corridors": 1040,
+      "no_path": 4160,
+      "false_no_path": 4768
+    },
+    "local/reach2/d1": {
+      "pairs": 0,
+      "corridors": 1040,
+      "no_path": 4160,
+      "false_no_path": 4768
+    },
+    "local/reach2/d4": {
+      "pairs": 0,
+      "corridors": 1040,
+      "no_path": 4160,
+      "false_no_path": 4768
+    },
+    "local/reach2/d16": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 4160,
+      "false_no_path": 0
+    },
+    "local/anchor0/0": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/anchor0/1": {
+      "pairs": 0,
+      "corridors": 96,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/anchor1/0": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/anchor2/0": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/resample": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "local/intact": {
+      "pairs": 2080,
+      "corridors": 4160,
+      "no_path": 4160,
+      "false_no_path": 0
+    },
+    "evolved/reach1/d0": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/reach1/d1": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/reach1/d4": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/reach1/d16": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 4160,
+      "false_no_path": 0
+    },
+    "evolved/reach2/d0": {
+      "pairs": 0,
+      "corridors": 1040,
+      "no_path": 4160,
+      "false_no_path": 4768
+    },
+    "evolved/reach2/d1": {
+      "pairs": 0,
+      "corridors": 1040,
+      "no_path": 4160,
+      "false_no_path": 4768
+    },
+    "evolved/reach2/d4": {
+      "pairs": 0,
+      "corridors": 1040,
+      "no_path": 4160,
+      "false_no_path": 4768
+    },
+    "evolved/reach2/d16": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 4160,
+      "false_no_path": 0
+    },
+    "evolved/anchor0/0": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/anchor0/1": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/anchor1/0": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/anchor2/0": {
+      "pairs": 0,
+      "corridors": 4160,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/resample": {
+      "pairs": 0,
+      "corridors": 0,
+      "no_path": 0,
+      "false_no_path": 0
+    },
+    "evolved/intact": {
+      "pairs": 2080,
+      "corridors": 4160,
+      "no_path": 4160,
+      "false_no_path": 0
+    }
+  },
+  "post_registration": true,
+  "new_inference_calls": 0
+}
