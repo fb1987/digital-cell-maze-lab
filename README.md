@@ -6,14 +6,48 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 18, 2026
 
-The user-authorized [V12E controlled comparison](docs/FOUNDATION_PAIR_V12E.md)
-is running its fixed 75-minute search. Eighteen conditions compare
-completed-pair-first and Current evolution from identical generation-865
-fresh-origin populations/RNG, plus continued resampling controls. Primary models
-use the same validation archive rule in both arms; fresh tests separate
-two-edge retention from 3–8-edge transfer. See the
-[progress record](docs/FOUNDATION_PAIR_PROGRESS.md). Preflight passes; no V12E
-confirmation result is available yet.
+The [V12E controlled comparison](results/foundation_pair.md) is complete:
+**500 additional matched generations, 865→1365, in 75.14 minutes**, across 18
+conditions of 96 organisms. It compares completed-pair-first and Current
+evolution from identical fresh-origin populations/RNG, plus resampling controls.
+Both breeding policies use the same final validation archive rule. All models
+and time-course selections were frozen and pushed in `c3106fb` before new test
+cases were generated; preregistration was `c8fe1cf`.
+
+**Local Paired selections improve fresh 3–4-edge pairs to 44/144**, versus
+16/144 Current, 9/144 at the V12D checkpoint on the same cases, and zero for
+resampling. They cover eight independent base layouts, three in all eight
+paired poses, and retain every adjacent pair. The stricter screen nevertheless
+passes only **1/3 local and 0/3 evolved-range replicates**, below the required
+two. Evolved-range Paired yields 10/144 versus Current's 12/144. No primary
+model completes a pair in the 5–8- or 9–16-edge bands.
+
+A separate preserved local genome, born at generation 858 and selected from
+validation in the Current arm, solves unseen **9-, 24- and 25-edge tree routes**
+with 2, 5 and 12 turns. Removing the goal pulse breaks all three. Both arms
+initially selected this genome; Paired later replaced it with a better short-pair
+validation model. These rare successes justify focused confirmation, not a
+general-solving claim. See the [long-route illustration](results/foundation_pair/visuals/longer_current_example.png).
+
+Primary ordinary accuracy is 11/216 under either local policy, 13/216 evolved
+Current and 11/216 evolved Paired. All primary cohorts solve 0/48 disconnected
+cases. Compiled BFS/A*/bit-wavefront solve all 216 reachable and 48 disconnected
+cases. Random-origin elementary outputs remain a median **54.28× slower than
+compiled BFS**. Nonlocal zeroing removes six of Current/evolved's 12 short-pair
+successes, but there is no net multirange advantage. Pulse removal preserves
+28/44 local Paired 3–4-edge pairs; static goal flags and endpoint halting remain.
+
+Search used 11.01 million responses and 631.80 MiB peak RSS. Independent audit
+passes 756,000 exact program reproductions, 450,000 mutations, 868,464 fitness
+records, 6,981,492 graded search rasters and every final output/replay. Ten new
+tests are covered alongside the previous 143; this was not a full 153-test run.
+All next populations/RNG, ancestry and raw masks are preserved. Future studies
+must exclude **124,392 whole layouts** through V12E.
+
+The [next recommendation](results/foundation_pair/next_experiment.md) is a bounded
+independent confirmation and mechanism study of the longer-route precursor,
+before another large search. It has **not been launched**. See the
+[protocol](docs/FOUNDATION_PAIR_V12E.md) and [completed progress record](docs/FOUNDATION_PAIR_PROGRESS.md).
 
 ## Completed continuation V12D
 
@@ -47,12 +81,12 @@ The independent audit passes 380,700 new mutations, 979,680 fitness records,
 tests pass, in addition to coverage of the previous 137 tests; the entire
 143-test suite was not rerun. Full populations/RNG and raw data are preserved.
 
-Future independent studies must exclude all **85,548 whole layouts** through
+V12E excluded all **85,548 whole layouts** through
 V12D, including unqueried symmetries and software fixtures. Do not retune against
-inspected final cases. The next recommendation is a matched test of
+inspected final cases. That checkpoint recommended a matched test of
 complete-pair-first selection versus the current ordering, at fixed capacity,
 runtime and compute, with new 3–8-edge transfer and retention criteria.
-**That next study has not been launched.** See the
+That proposal became the completed V12E study above. See the
 [V12D protocol](docs/FOUNDATION_CONTINUATION_V12D.md) and
 [completed progress record](docs/FOUNDATION_CONTINUATION_PROGRESS.md).
 

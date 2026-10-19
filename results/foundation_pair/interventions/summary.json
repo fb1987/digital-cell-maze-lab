@@ -1,0 +1,140 @@
+{
+  "scope": "Post-hoc success-conditioned interventions on reused final inputs; no new generalization estimate",
+  "interpretation": "No-goal-pulse still retains the static goal flag. Nonlocal ablation replaces radius>1 read values with zero, retaining read charges; it does not substitute local reads.",
+  "totals": {
+    "replay_retained_shortest": 1554,
+    "no_goal_pulse_retained_shortest": 470,
+    "zero_nonlocal_retained_shortest": 1541,
+    "both_retained_shortest": 454,
+    "successful_inputs": 1554,
+    "originals_reading_nonlocal": 748
+  },
+  "per_model": {
+    "d73f0ff715340b326ab8/local": {
+      "replay_retained_shortest": 41,
+      "no_goal_pulse_retained_shortest": 41,
+      "zero_nonlocal_retained_shortest": 41,
+      "both_retained_shortest": 41,
+      "successful_inputs": 41
+    },
+    "5bcd05313ad2cafe5037/local": {
+      "replay_retained_shortest": 148,
+      "no_goal_pulse_retained_shortest": 148,
+      "zero_nonlocal_retained_shortest": 148,
+      "both_retained_shortest": 148,
+      "successful_inputs": 148
+    },
+    "7b30c161f85db364caa5/local": {
+      "replay_retained_shortest": 12,
+      "no_goal_pulse_retained_shortest": 0,
+      "zero_nonlocal_retained_shortest": 12,
+      "both_retained_shortest": 0,
+      "successful_inputs": 12
+    },
+    "8b5daeee5ff1b2760fbe/evolved": {
+      "replay_retained_shortest": 83,
+      "no_goal_pulse_retained_shortest": 53,
+      "zero_nonlocal_retained_shortest": 83,
+      "both_retained_shortest": 53,
+      "successful_inputs": 83
+    },
+    "1ab39f4bd810cc39e6c7/evolved": {
+      "replay_retained_shortest": 93,
+      "no_goal_pulse_retained_shortest": 29,
+      "zero_nonlocal_retained_shortest": 93,
+      "both_retained_shortest": 29,
+      "successful_inputs": 93
+    },
+    "ac768edbb8af1187e697/evolved": {
+      "replay_retained_shortest": 104,
+      "no_goal_pulse_retained_shortest": 45,
+      "zero_nonlocal_retained_shortest": 104,
+      "both_retained_shortest": 45,
+      "successful_inputs": 104
+    },
+    "aff6fc1a635d3c279d26/local": {
+      "replay_retained_shortest": 119,
+      "no_goal_pulse_retained_shortest": 0,
+      "zero_nonlocal_retained_shortest": 119,
+      "both_retained_shortest": 0,
+      "successful_inputs": 119
+    },
+    "7f6cdfe5ffff58fe772b/local": {
+      "replay_retained_shortest": 117,
+      "no_goal_pulse_retained_shortest": 21,
+      "zero_nonlocal_retained_shortest": 117,
+      "both_retained_shortest": 21,
+      "successful_inputs": 117
+    },
+    "12ba8f02d0eb35279c57/local": {
+      "replay_retained_shortest": 126,
+      "no_goal_pulse_retained_shortest": 1,
+      "zero_nonlocal_retained_shortest": 126,
+      "both_retained_shortest": 1,
+      "successful_inputs": 126
+    },
+    "ecb803bdd83a1f6717fe/local": {
+      "replay_retained_shortest": 137,
+      "no_goal_pulse_retained_shortest": 0,
+      "zero_nonlocal_retained_shortest": 137,
+      "both_retained_shortest": 0,
+      "successful_inputs": 137
+    },
+    "b1ef0a69b64f118f5fcd/evolved": {
+      "replay_retained_shortest": 101,
+      "no_goal_pulse_retained_shortest": 16,
+      "zero_nonlocal_retained_shortest": 88,
+      "both_retained_shortest": 0,
+      "successful_inputs": 101
+    },
+    "9cfd6aa9a205f9e458c7/evolved": {
+      "replay_retained_shortest": 107,
+      "no_goal_pulse_retained_shortest": 0,
+      "zero_nonlocal_retained_shortest": 107,
+      "both_retained_shortest": 0,
+      "successful_inputs": 107
+    },
+    "6d6c869d49726a7f4140/evolved": {
+      "replay_retained_shortest": 109,
+      "no_goal_pulse_retained_shortest": 10,
+      "zero_nonlocal_retained_shortest": 109,
+      "both_retained_shortest": 10,
+      "successful_inputs": 109
+    },
+    "e50b1c4ee9b826e90549/local": {
+      "replay_retained_shortest": 45,
+      "no_goal_pulse_retained_shortest": 45,
+      "zero_nonlocal_retained_shortest": 45,
+      "both_retained_shortest": 45,
+      "successful_inputs": 45
+    },
+    "3b06bd596f677834f2aa/local": {
+      "replay_retained_shortest": 61,
+      "no_goal_pulse_retained_shortest": 61,
+      "zero_nonlocal_retained_shortest": 61,
+      "both_retained_shortest": 61,
+      "successful_inputs": 61
+    },
+    "210ef19234f50d2b9285/evolved": {
+      "replay_retained_shortest": 84,
+      "no_goal_pulse_retained_shortest": 0,
+      "zero_nonlocal_retained_shortest": 84,
+      "both_retained_shortest": 0,
+      "successful_inputs": 84
+    },
+    "2a25b5e647d7f27d1709/evolved": {
+      "replay_retained_shortest": 67,
+      "no_goal_pulse_retained_shortest": 0,
+      "zero_nonlocal_retained_shortest": 67,
+      "both_retained_shortest": 0,
+      "successful_inputs": 67
+    }
+  },
+  "responses": 6216,
+  "work": 1806924343,
+  "independently_graded_rasters": 6216,
+  "elapsed_seconds": 4.839530374971218,
+  "frozen_sha256": "5b841beab6a069ae66472735646de01ff922ffcb5024619f9a1f95b5a45e1424",
+  "confirmation_outputs_sha256": "13dde8fc958cd78ccd778abb3031e49391493afa0d9f24dcf9d0d55590a601c3",
+  "source_sha256": "4dabedea460397b82d88275dc083b04c9df929968f213b0ed6f4a558fdb827f3"
+}

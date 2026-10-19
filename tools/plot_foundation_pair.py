@@ -199,11 +199,44 @@ def run(out):
     fig.subplots_adjust(left=.025,right=.985,bottom=.08,top=.88,wspace=.14,hspace=.25)
     fig.savefig(visual/'ordinary_examples.png',dpi=170)
     plt.close(fig)
+    # A separate, explicitly retrospective illustration of a validation-selected
+    # Current local model; this does not change any primary model or score.
+    longer_model=max(sorted(k for k,v in frozen.items() if v['config']['selection_policy']=='current'
+        and v['config']['method']=='evolution' and v['config']['topology']=='local'),
+        key=lambda k:tuple(frozen[k]['common_archives']['paired']['rank']))
+    longer_record=indexed[longer_model,'champion','general']
+    longer=[r for r in longer_record['cases'] if r['optimal'] and lookup[r['case']]['oracle_length']>=9]
+    longer_example=None
+    if longer:
+        response=max(longer,key=lambda r:lookup[r['case']]['oracle_length'])
+        m=lookup[response['case']]
+        rep_=frozen[longer_model]['config']['replicate']
+        paired_record=indexed[key('local','paired','evolution',rep_),'champion','general']
+        paired_row=next(r for r in paired_record['cases'] if r['case']==response['case'])
+        # Intervention records identify the frozen individual rather than repeat its digest.
+        with gzip.open(out/'interventions/outputs.jsonl.gz','rt') as f:
+            intervention=next(r for r in map(json.loads,f) if r['id']==longer_record['id']
+                and r['topology']=='local' and r['case']==response['case'])
+        without=intervention['variants']['no_goal_pulse']
+        fig,axes=plt.subplots(1,4,figsize=(14,5))
+        grid(axes[0],m,shortest(m),True,'BFS · shortest')
+        for ax,label,row in ((axes[1],'Current primary',response),(axes[2],'Goal pulse removed',without),
+                             (axes[3],'Paired primary',paired_row)):
+            grid(ax,m,mask(row,m),row['optimal'],label+' · '+('shortest' if row['optimal'] else row['failure']))
+        fig.suptitle(f'Preserved local lineage · {m["oracle_length"]-1}-edge unseen route · replicate {rep_}',fontsize=14)
+        fig.text(.5,.035,'Longest observed success for the validation-ranked Current local model. Retrospective illustration; all primary scores remain unchanged.',ha='center',fontsize=8)
+        fig.text(.5,.008,'Pulse removal retains static goal flags and endpoint stopping. Blue: source; gold: goal; green: shortest-correct; orange: failed.',ha='center',fontsize=8)
+        fig.subplots_adjust(left=.02,right=.985,bottom=.11,top=.89,wspace=.13)
+        fig.savefig(visual/'longer_current_example.png',dpi=170)
+        plt.close(fig)
+        longer_example=dict(model=longer_model,id=longer_record['id'],case=response['case'],
+            case_rule='Longest successful ordinary route of the Current local model ranked highest by common paired validation.')
     for path in visual.glob('*.svg'):
         path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')
     (visual/'metadata.json').write_text(json.dumps(dict(matplotlib=matplotlib.__version__,
         scope='Models selected by common validation rank separately within each topology; displayed cases chosen after confirmation by the recorded rule, not a new assay.',
-        examples=examples,ordinary_model=selected,ordinary_cases=ordinary_cases),indent=2)+'\n')
+        examples=examples,ordinary_model=selected,ordinary_cases=ordinary_cases,
+        longer_current_example=longer_example),indent=2)+'\n')
     print(visual)
 
 

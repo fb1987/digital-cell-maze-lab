@@ -34,18 +34,72 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-The user has now authorized V12E, the controlled completed-pair-priority
-comparison. Read `docs/FOUNDATION_PAIR_V12E.md` and
-`docs/FOUNDATION_PAIR_PROGRESS.md`. New `foundation_pair*.py` modules and
-`results/foundation_pair/` preserve all completed V12 source/raw packets.
-Eighteen matched conditions fork generation-865 fresh-origin populations/RNG;
-fixed 4500-second search, common final archives, new 3–8-edge transfer and
-retention criteria. Finish confirmation/audit/report after search; do not
-repeat or extend V12D. All 85,548 older layouts plus 80 new construction fixtures
-are excluded from new training/final generation. Old validation is deliberately
-reused selection data.
+Current checkpoint (October 18, 2026): V12E is complete. Read
+`results/foundation_pair.md` and `docs/FOUNDATION_PAIR_PROGRESS.md` first.
+Do not rerun or extend it. Eighteen conditions of 96 organisms fork generation
+865 fresh-origin states into Current/Paired evolution plus Current resampling,
+local/evolved ranges, three replicates. Search completes 500 matched generations
+to 1365 in 75.14 minutes, 11,010,816 responses, 631.80 MiB peak RSS. Runtime,
+256-gene capacity, single-edit mutation and shared curriculum remain fixed;
+levels stay [1,1,1]. Both breeding policies use identical primary paired-first
+and secondary original-rank validation archives. No known solver enters a lineage.
 
-Current checkpoint (October 18, 2026): the authorized V12D continuation is
+Local Paired primaries complete 44/144 fresh 3–4-edge pairs versus Current16/144,
+D checkpoint9/144 and resampling0/144 on the SAME cases. Eight independent bases
+work at least once, three in all eight paired poses; eight successful poses have
+cyclic source components. Exact-two pairs70/144 vs46/144 Current and20/144 D;
+all144 adjacent pairs retained. Strict screen passes only1/3 local and0/3 evolved
+replicates (two required). Evolved Paired3–4 pairs10/144 vsCurrent12/144.
+All primary arms complete0 pairs in5–8- and9–16-edge bands. Local Paired frozen
+time-course3–8 pairs9/19/17/17/44 at+0/48/128/256/500 is correlated same-corpus
+evidence, not five independent tests. All12 evolutionary primary lineages root
+in V12C random immigrants at generations1–81.
+
+Preserve the separate longer-route precursor: Current/local/r1 primary
+`foundation_study/local/fresh/evolution/1/i72095`, born858, root
+`foundation_study/local/fresh/evolution/1/i939` (random immigrant born11).
+It was in BOTH initial populations and selected by both common paired archives
+at872. Current retains it; Paired's final replacement was selected1240.
+On new ordinary trees it solves9/24/25-edge shortest routes with2/5/12 turns.
+Removing the goal pulse breaks all3; nonlocal zeroing retains all3. These are
+rare correct outputs, not a new V12E-born discovery or a general solver. Another
+Current/evolved/r2 descendant born1012 solves an8-edge,2-turn tree route, also
+pulse-sensitive and nonlocal-ablation-insensitive. See saved geometry, rasters,
+interventions and the explicitly retrospective longer-route illustration.
+
+Do not overstate mechanisms: local Paired retains28/44 successful3–4 pairs
+without the goal pulse; static goal flags and endpoint stopping remain.
+Current/evolved retains6/12 such pairs when nonlocal values are zeroed and0/12
+without the pulse. Paired/evolved retains10/10 under nonlocal zeroing. Ablated
+reads retain charges. Some context-specific nonlocal dependence exists, but no
+net multirange advantage. These are success-conditioned diagnostics.
+
+Primary ordinary counts: local Current/Paired11/216 each; evolved Current13/216,
+Paired11/216. Distance≥8: Current local3/179 andevolved1/179, bothPaired0/179.
+Allprimary0/48 no-path, no false reachable no-path claims. Compiled BFS/A*/bitwave
+solve216/216 and48/48; intactVMwavefront207/216 (nine long trees hit1024ticks).
+Eligible random-origin elementary timings median54.28×BFS; no speedup. Longer
+random-origin successes were outside the fixed ordinary timing subset.
+
+Preregistration/training code`c8fe1cf`; all final/time-course models and search
+data frozen/pushed`c3106fb` BEFORE final generation. Audit passes756,000 exact
+new-program reproductions,450,000 mutations,868,464 fitness records,6,981,492
+graded search rasters,43,392 final aliases,21,584 distinct candidate replays,
+128source/46input hashes. All six matched population trajectories diverge;
+alternate same-pool/RNG ranking changes3,090/450,000 parent genotypes, not a
+second evolved trajectory. Ten new tests covered plus previous143 coverage;
+do not claim a fresh full153-test run. Preserve all next populations/RNG, raw
+outputs, ancestry, archives and prior study packets.
+
+All **124,392 whole layouts** through V12E must be excluded from any new
+independent study, including unqueried symmetries and fixtures. Old validation
+is reused selection data. No retuning against inspected final cases. The next
+recommendation, NOT launched, is a bounded independent confirmation and mechanism
+study of the preserved longer-route local genome and saved controls before
+another large search. See `results/foundation_pair/next_experiment.md`; it is a
+proposal, not an already completed preregistration.
+
+Historical V12D checkpoint (October 18, 2026): the authorized continuation is
 complete. Read `results/foundation_continuation.md` and
 `docs/FOUNDATION_CONTINUATION_PROGRESS.md` first. Do not repeat the completed
 experiment or extend its budget. All 24 states continue intact from generation
@@ -91,8 +145,8 @@ Preserve all next populations/RNG, raw masks, histories and old study packets.
 All **85,548 whole layouts** through V12D must be excluded in any new independent
 study, including unqueried ordinary symmetries and software fixtures. V12C
 validation was intentionally reused in V12D and is selection data, not holdout
-evidence. No retuning against inspected final cases. The next proposal (not
-launched) is complete-pair-first selection versus current ordering, forked
+evidence. No retuning against inspected final cases. That checkpoint proposed
+complete-pair-first selection versus current ordering (now completed as V12E), forked
 from the same fresh-origin populations/RNG with capacity/runtime/schedule and
 local/evolved controls fixed. Four of 56 primary validation replacements lost
 non-adjacent pairs while increasing individual route counts; this motivates a

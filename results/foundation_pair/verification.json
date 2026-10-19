@@ -1,0 +1,37 @@
+{
+  "all_checks_passed": true,
+  "source_hashes": 128,
+  "input_hashes": 46,
+  "reproduction": {
+    "registered": 756000,
+    "mutations": 450000,
+    "immigrants": 306000,
+    "description": "Every child, mutation event, random immigrant, parent selection, retained population and RNG hash replayed from the verified starting state; no candidate inference.",
+    "parent_counterfactual": "Same current population and identical RNG state immediately before each actual parent draw, alternate global/case priority; descriptive, not a second evolved trajectory."
+  },
+  "fitness_records": 868464,
+  "record_kinds": {
+    "train": 864000,
+    "validation": 4464
+  },
+  "graded_search_rasters": 6981492,
+  "training_success_records": 527603,
+  "sampled_other_training_records": 620,
+  "final_rasters": 43392,
+  "distinct_final_replays": 21584,
+  "reference_replays": 792,
+  "replay_work": 41950233764,
+  "search_layouts": 35932,
+  "borrowed_validation_layouts": 216,
+  "final_layouts": 2832,
+  "final_software_fixture_layouts": 0,
+  "elapsed_seconds": 513.7753354579909,
+  "max_rss_bytes": 1270661120,
+  "search_summary_sha256": "5c56c411018a53caf5eba3e541e808c93361801955201433459179a9159266a1",
+  "confirmation_summary_sha256": "ae6a2c44aa07f0ef7ba23642cf0769103ee75af105e7f30ef503c3e1918a6572",
+  "verifier_sources": {
+    "foundation_pair_audit.py": "30a1cc4699b867cf63afaa44d24d0ed63cb86a7c9272f57d245df681f4b87d88",
+    "foundation_pair_replay.py": "dea67d6576ca9925de74e7e090fb9ad1d9bb5819e875f0ef2f7eaa4e0ffb3d5c",
+    "foundation_study_verify_core.py": "daa32b3ece017ad4d78e01a68ee8168e6053a18ca995d94031ea5375e6f915d6"
+  }
+}

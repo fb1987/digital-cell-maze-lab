@@ -1,75 +1,114 @@
-# V12E controlled comparison
+# V12E controlled comparison — completed October 18, 2026
 
-The user authorized the matched completed-pair-priority comparison after V12D.
-Protocol: `docs/FOUNDATION_PAIR_V12E.md`. Implementation: separate
-`maze_evolution/foundation_pair*.py`; output: `results/foundation_pair/`.
-Do not modify completed V12A–D source/raw data or extend their budgets.
+The authorized completed-pair-priority comparison is complete. Read
+`results/foundation_pair.md` for interpretation, tables and figures, and
+`docs/FOUNDATION_PAIR_V12E.md` for the immutable protocol. Do not rerun, resume or
+extend this finished packet. All V12A–D source/raw evidence remains preserved.
 
-Preregistration and training code were committed/pushed in `c8fe1cf` before launch.
-Search started October 18 at approximately 21:47 Toronto time (October 19 01:47
-UTC), with the one fixed 4500-second budget. Execution log:
-`output/foundation_pair.log`; atomic full-state checkpoint:
-`results/foundation_pair/checkpoint.latest.json.gz`. Search is in progress;
-no final confirmation layouts have been generated. The appearance of
-`search_summary.json` marks completed search, not completed confirmation/audit.
+## Design and execution
+
+Eighteen conditions of 96 organisms fork the generation-865 fresh-origin states:
+local/evolved ranges × Current evolution/Paired evolution/Current resampling ×
+three replicates. Current and Paired evolution start with identical populations,
+identities, RNG and inherited histories. Both policies use the same common paired
+primary archive and common original-rank secondary archive. Old validation is
+reused selection data, not unseen confirmation. No solver is inserted into these
+random-origin lineages.
+
+Search completes **500 additional matched generations, 865→1365, in 4508.683
+seconds (75.14 minutes)**, terminating at the fixed wall limit after finishing
+its matched round. It adds 11,010,816 responses and 2,181,458,317,643 dispatch-plus-
+read units; peak search RSS is 631.80 MiB. All curriculum levels remain [1,1,1].
+The runtime, 256-gene capacity, single-edit mutation and curriculum rules stay
+fixed. This was 75 minutes across all conditions, not per population. No extra
+search budget was added.
+
+Preregistration/training code was committed and pushed in `c8fe1cf` before launch.
+The complete search packet and time-course selections were frozen and pushed in
+**`c3106fb` before any final-case generation**. Time-course boundaries are +0,
++48, +128, +256 and +500; +512 was not reached. All subsequent time points share
+the same new corpus and are correlated evidence.
+
+## Findings
+
+Local Paired primary selections complete 44/144 new 3–4-edge pairs versus
+Current 16/144, checkpoint 9/144 on these same cases, and resampling 0/144.
+They span eight independent bases, three with all eight paired poses correct;
+eight successful poses have cyclic source components. Exact-two counts are
+70/144 versus Current 46/144 and checkpoint 20/144. All adjacent pairs remain.
+The stricter screen passes **1/3 local and 0/3 evolved-range replicates**;
+two were required. Evolved Paired completes 10/144 3–4 pairs versus Current's
+12/144. No primary selection completes a 5–8- or 9–16-edge pair.
+
+A distinct longer-route precursor is preserved: Current/local replicate 1
+selects `foundation_study/local/fresh/evolution/1/i72095`, born generation 858,
+rooted in the V12C random immigrant `foundation_study/local/fresh/evolution/1/i939`
+(born 11). It was present in both initial populations and became both common
+paired validation leaders at generation 872. Current retains it; Paired's final
+replacement was selected at 1240. It solves 9/24/25-edge unseen tree routes with
+2/5/12 turns; pulse removal breaks all three, nonlocal zeroing retains them.
+These are rare completed outputs from a pre-existing variant, not a new
+V12E-born algorithm or evidence of general solving. Current/evolved replicate 2
+adds an eight-edge, two-turn tree success from a descendant born at 1012.
+
+Local Paired retains 28/44 successful 3–4 pairs without the pulse. Static goal
+flags and endpoint stopping remain. Current/evolved retains 6/12 such pairs
+under nonlocal zeroing and 0/12 without the pulse; Paired/evolved retains all
+10/10 under nonlocal zeroing. These success-conditioned interventions show some
+context-specific dependence, not a net multirange advantage. Read charges remain.
+
+Primary ordinary shortest counts: local Current/Paired 11/216 each; evolved
+Current 13/216, Paired 11/216. Distance ≥8: Current local 3/179 and evolved 1/179;
+both Paired cohorts 0/179. All primary cohorts solve 0/48 disconnected cases,
+with no false reachable no-path claims. Compiled BFS/A*/bit-wavefront solve all
+216 reachable and 48 disconnected inputs. The intact VM wavefront hits the
+1024-tick limit on nine longer trees. Eligible elementary random-origin timings
+are a median 54.28× BFS; no longer random-origin route fell in the fixed ordinary
+timing subset. No competitive speedup is established.
+
+## Verification and preserved evidence
+
+All six matched evolutionary population trajectories diverge. Independent exact
+reproduction verifies 756,000 new programs (450,000 mutations, 306,000 immigrants),
+including parent choices, events, elites, population hashes and final RNG states.
+Alternate-ranking draws on the same pool/RNG change 3,090/450,000 parent genotypes;
+that is a descriptive counterfactual, not a second evolutionary trajectory.
+
+The full audit passes 868,464 fitness records, 6,981,492 independently graded
+search rasters, all 43,392 final raster aliases and 21,584 distinct candidate
+replays, plus 792 compiled-reference replays. It checks all validation rasters,
+all training success claims and a fixed 1/512 sample of other training records;
+every saved fitness calculation is checked. All 128 source and 46 input hashes,
+layout isolation, archive transitions, shared schedules and bounds pass.
+
+Confirmation took 82.09 seconds; full audit 513.78 seconds (1211.8 MiB peak).
+The secondary time course adds 3840 responses and 3840 exact replays, independently
+graded, in 7.35 seconds. Interventions and their work/counts are separately
+recorded in `interventions/summary.json`. Saved-raster geometry, ancestry analysis,
+plots and Git operations are separate from search. Figures have been visually
+checked; retrospective example choices are explicit in `visuals/metadata.json`.
 
 Eight new preflight tests are covered. The first attempt passed six tests and
-found a test-reader field error (integer count versus event list); the corrected
-tradeoff test and new paired-resume test then both passed. Two additional audit/
-time-course regressions pass, including rejection of a corrupted RNG hash.
-No old source was changed. Full details: `results/foundation_pair_preflight.json`
-and `results/foundation_pair/software_checks.json`.
+found a test-reader field error; the corrected tradeoff test and a newly added
+paired-resume test then passed. Two audit/time-course regressions also pass.
+Previous 143-test coverage remains; **do not claim a new full 153-test run**.
+See `results/foundation_pair_preflight.json` and `software_checks.json`.
+The 38.47-second early integration audit during search adds no inference/layouts
+and is separately recorded in `early_integrity_check.json`.
 
-The read-only audit through generation 905 (40 new generations) passes 69,480
-fitness records, 559,872 independently graded rasters and exact reproduction of
-60,480 new programs (36,000 mutations and 24,480 immigrants), including population
-and RNG hashes. It took 38.47 seconds during search, added no candidate inference
-or new layouts, and found that global ordering changes some retained genotypes
-and parent choices. This is process verification, not unseen performance evidence.
-Auxiliary code and the early proof were pushed in `c30f3a1`; reporting and figures
-were added in `52cd492`. All final conclusions remain pending.
+Full next populations/RNG live in `checkpoints/` and `checkpoint.latest.json.gz`.
+Keep every raw segment, initial state, frozen archive, selected genome, history,
+mask, timing and old study packet. Primary report generation uses audited outputs;
+all analyses and illustrations leave primary models and scores unchanged.
 
-Eighteen conditions fork the generation-865 fresh-origin states: local/evolved
-× Current evolution/Paired evolution/Current resampling × three replicates.
-Current and Paired evolution inherit identical populations and RNG states.
-Primary selections use the same paired-first validation archive in both arms;
-common original-rank archives are retained as secondary selections. New training
-and final layouts exclude 85,548 earlier layouts plus 80 construction fixtures.
-Old validation remains explicit reused selection data. No known solvers enter
-these lineages.
+## Next step
 
-The fixed search budget is 4500 seconds across all conditions, finishing the
-current matched round. The final gate requires new 3–8-edge paired transfer,
-independent groups, all-pose success and adjacent/two-edge retention. Save full
-population/RNG state and lineage every ten rounds. Freeze/push all final and
-prespecified time-course selections before generating final layouts.
+All **124,392 whole layouts** through V12E must be excluded from new independent
+studies, including fixtures and unqueried ordinary symmetries. V12C validation
+remains selection data. Do not retune against these inspected final cases.
 
-The running search command is:
-
-```bash
-caffeinate -i .venv/bin/python -u -m maze_evolution.foundation_pair --out results/foundation_pair
-```
-
-Use `--resume` only for an interrupted unfinished packet. Confirmation, audit,
-time-course, report and visual artifacts must be completed before claiming the
-comparison finished. See the new packet's software checks for preflight results.
-
-After successful search completion, run these stages in order. Commit and push
-the complete search packet and frozen selection files before the confirmation
-command. Do not regenerate founders or overwrite completed output.
-
-```bash
-.venv/bin/python -m maze_evolution.foundation_pair_timecourse --out results/foundation_pair --freeze
-# Commit/push the training packet and selection freeze before final-case generation.
-.venv/bin/python -m maze_evolution.foundation_pair_confirm --out results/foundation_pair
-.venv/bin/python -m maze_evolution.foundation_pair_audit --out results/foundation_pair
-.venv/bin/python -m maze_evolution.foundation_pair_timecourse --out results/foundation_pair
-.venv/bin/python -m maze_evolution.foundation_pair_interventions --out results/foundation_pair
-.venv/bin/python -m maze_evolution.foundation_pair_report --out results/foundation_pair
-PYTHONPATH=output/plot-libs .venv/bin/python tools/plot_foundation_pair.py --out results/foundation_pair
-```
-
-Write the interpretation in `results/foundation_pair/discussion.md`, regenerate
-the derived report, inspect figures, update project checkpoint documentation and
-sync all evidence with GitHub. Independent audit and report overhead are separate
-from the fixed search time; no automatic search extension is authorized.
+`results/foundation_pair/next_experiment.md` recommends a bounded independent
+confirmation and mechanism study of the longer-route local precursor, its saved
+parent and checkpoint/replacement controls, with new goal-switched, rotated tree
+and cyclic cases. It has **not been launched** and needs its own preregistration.
+Do not automatically allocate another long evolution run.

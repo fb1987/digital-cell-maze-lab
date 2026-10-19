@@ -1,0 +1,35 @@
+{
+  "matplotlib": "3.11.2",
+  "scope": "Models selected by common validation rank separately within each topology; displayed cases chosen after confirmation by the recorded rule, not a new assay.",
+  "examples": [
+    {
+      "topology": "local",
+      "model": "foundation_pair_paired/local/fresh/evolution/1",
+      "cases": [
+        "pair_confirmation/level2/perfect/9/r1/g1/s0/a/d4-0",
+        "pair_confirmation/level2/perfect/9/r1/g1/s0/b/d4-0"
+      ],
+      "case_rule": "first complete 3\u20138-edge pair"
+    },
+    {
+      "topology": "evolved",
+      "model": "foundation_pair_paired/evolved/fresh/evolution/1",
+      "cases": [
+        "pair_confirmation/level2/perfect/9/r1/g1/s0/a/d4-1",
+        "pair_confirmation/level2/perfect/9/r1/g1/s0/b/d4-1"
+      ],
+      "case_rule": "first complete 3\u20138-edge pair"
+    }
+  ],
+  "ordinary_model": "foundation_pair_paired/evolved/fresh/evolution/1",
+  "ordinary_cases": [
+    "general/r1/c16/perfect/17/s0/d4-0",
+    "general/r1/c24/random/17/s0/d4-0"
+  ],
+  "longer_current_example": {
+    "model": "foundation_pair_current/local/fresh/evolution/1",
+    "id": "foundation_study/local/fresh/evolution/1/i72095",
+    "case": "general/r1/c38/perfect/33/s0/d4-0",
+    "case_rule": "Longest successful ordinary route of the Current local model ranked highest by common paired validation."
+  }
+}

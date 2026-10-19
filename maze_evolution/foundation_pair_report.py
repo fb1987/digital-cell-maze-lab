@@ -44,6 +44,73 @@ def source_component(m):
     return dict(vertices=len(reached), edges=edges, independent_cycles=edges-len(reached)+1)
 
 
+def route_geometry(row, m):
+    packed = bytes.fromhex(row['mask'])
+    occupied = {p for p in range(m['w'] * m['h']) if (packed[p // 8] >> (p % 8)) & 1}
+    p, previous, directions = m['start'], None, []
+    visited = {p}
+    while p != m['goal']:
+        y, x = divmod(p, m['w'])
+        following = [yy * m['w'] + xx for yy, xx in ((y,x-1),(y,x+1),(y-1,x),(y+1,x))
+            if 0 <= yy < m['h'] and 0 <= xx < m['w']
+            and yy * m['w'] + xx in occupied and yy * m['w'] + xx != previous]
+        assert len(following) == 1
+        q = following[0]
+        assert q not in visited
+        visited.add(q)
+        directions.append(q-p)
+        previous, p = p, q
+    assert visited == occupied and len(directions) == m['oracle_length'] - 1
+    return dict(distance=len(directions), turns=sum(a != b for a, b in zip(directions, directions[1:])))
+
+
+def completed_pair_geometry(records, lookup):
+    """Describe already audited primary successes; no new inference or selection."""
+    result = []
+    for record in records:
+        if record['role'] != 'champion' or record['scope'] != 'micro' or not record['key'].startswith('foundation_pair_'):
+            continue
+        rows = record['cases']
+        for a, b in zip(rows[::2], rows[1::2]):
+            if not a['pair_optimal'] or '/level0/' in a['case']:
+                continue
+            turns, distances_ = [], []
+            for row in (a, b):
+                m = lookup[row['case']]
+                geometry = route_geometry(row,m)
+                distances_.append(geometry['distance'])
+                turns.append(geometry['turns'])
+            m = lookup[a['case']]
+            result.append(dict(condition=record['key'], cases=[a['case'],b['case']],
+                base_group=a['case'].rsplit('/d4-',1)[0][:-2], family=m['family'],
+                distances=distances_, turns=turns, **source_component(m)))
+    return result
+
+
+def longer_ordinary_geometry(out, records, lookup):
+    interventions = {}
+    if (out/'interventions/outputs.jsonl.gz').exists():
+        for record in lines(out/'interventions/outputs.jsonl.gz'):
+            for alias in record['aliases']:
+                if alias['scope']=='general' and alias['role']=='champion':
+                    interventions[alias['condition'],record['case']] = record['variants']
+    observations = []
+    for record in records:
+        if record['role']!='champion' or record['scope']!='general' or not record['key'].startswith('foundation_pair_'):
+            continue
+        for row in record['cases']:
+            m = lookup[row['case']]
+            if not row['optimal'] or m['oracle_length']<9:
+                continue
+            variants = interventions.get((record['key'],row['case']),{})
+            if variants:
+                assert variants['replay']['mask']==row['mask']
+            observations.append(dict(condition=record['key'],id=record['id'],case=row['case'],
+                family=m['family'],steps=row['steps'],**route_geometry(row,m),**source_component(m),
+                intervention_shortest={name:r['optimal'] for name,r in variants.items()}))
+    return observations
+
+
 def selected_ancestry(out, summary, wanted):
     """Continuous C/D/E ancestry; forks retain parents in their old namespaces."""
     depths, roots, offsets, root_names, root_births, details = {}, {}, {}, [], [], {}
@@ -189,6 +256,8 @@ def run(out):
         matched_population_divergence=divergence,reproduction=reproduction,validation_archive_changes=changes,
         elementary_source_components=elementary_components,
         elementary_component_totals={k:dict(v) for k,v in component_totals.items()},
+        completed_primary_pair_geometry=completed_pair_geometry(records,lookup),
+        longer_primary_ordinary_geometry=longer_ordinary_geometry(out,records,lookup),
         selected_ancestry=ancestry,timing_comparison=timing_comparison,timing_matches=dict(matched),
         secondary_timecourse=timecourse,maximum_new_evaluated_genes=max(h['max_genes'] for hs in histories.values()
             for h in hs[summary['start_generation']:]),
@@ -291,7 +360,7 @@ Cells are **3–8-edge complete pairs /288; exact-two pairs /144**. Selections w
 
 Global rank changes `(V,O,N,P,S,W)`→`(P,V,O,N,S,W)` in the treatment; P counts BOTH shortest-correct emitted routes. The per-case pair field reordering is logically redundant on a fixed ordered pool because pair success implies individual correctness. Global ranking, elite/niche retention and nominee ordering can differ. `reproduction.json` reports actual exact replay and same-pool/same-RNG alternative parent choices; those counterfactuals are not another evolved trajectory. `matched_population_divergence` records differences between the actual two arms at every generation.
 
-Every new child, its mutation events or random origin, parent draw, retained population and RNG hash replay from the verified starting states. The audit passes **{proof['reproduction']['registered']:,} new programs**, **{proof['reproduction']['mutations']:,} mutations**, **{proof['fitness_records']:,} fitness records**, **{proof['graded_search_rasters']:,} independently graded search rasters**, all **{proof['final_rasters']:,} final raster aliases and **{proof['distinct_final_replays']:,} distinct candidate replays**. Every validation raster, training success and a fixed 1/512 sample of other training records is graded; every saved fitness calculation is checked. Layout isolation, transformed labels, archive maxima, shared schedules, full continuation state, source/input hashes and work/response bounds pass. Auxiliary tests and the early integrity check are documented in `software_checks.json`.
+Every new child, its mutation events or random origin, parent draw, retained population and RNG hash replay from the verified starting states. The audit passes **{proof['reproduction']['registered']:,} new programs**, **{proof['reproduction']['mutations']:,} mutations**, **{proof['fitness_records']:,} fitness records**, **{proof['graded_search_rasters']:,} independently graded search rasters**, all **{proof['final_rasters']:,} final raster aliases** and **{proof['distinct_final_replays']:,} distinct candidate replays**. Every validation raster, training success and a fixed 1/512 sample of other training records is graded; every saved fitness calculation is checked. Layout isolation, transformed labels, archive maxima, shared schedules, full continuation state, source/input hashes and work/response bounds pass. Auxiliary tests and the early integrity check are documented in `software_checks.json`.
 
 The runtime/grammar and 8-channel/256-gene limits remain unchanged; mutation is still one requested edit. Search uses 256 ticks /4096 reads /32768 dispatches per site. Each evolution condition retains 12 elites/niches, adds 9 random immigrants and 75 descendants; resampling retains 12 and adds 84 independent programs. The common 12-input batch, four validation nominations every eighth absolute generation, and competence-driven curriculum are unchanged. Final levels: `{summary['levels']}`. Shared curriculum transitions, if any, are reported in the raw summary. No known solver enters a random-origin lineage. Continuous C/D/E ancestry and syntactic dependency slices are saved; gene count and syntactic reachability are not proof of effective complexity.
 
@@ -320,6 +389,8 @@ Success-conditioned pulse/nonlocal interventions, if present, reuse successful f
 ![Evolved-range paired example](foundation_pair/visuals/paired_evolved.png)
 
 ![Ordinary unseen maze examples](foundation_pair/visuals/ordinary_examples.png)
+
+![Preserved longer-route precursor and pulse intervention](foundation_pair/visuals/longer_current_example.png)
 
 [Protocol](../docs/FOUNDATION_PAIR_V12E.md) · [search](foundation_pair/search_summary.json) · [confirmation](foundation_pair/confirmation/summary.json) · [audit](foundation_pair/verification.json) · [reproduction](foundation_pair/reproduction.json) · [analysis](foundation_pair/analysis.json). Full next populations/RNG and all raw lineage/evaluation data remain saved. A subsequent study needs a new protocol and all updated layout exclusions.
 '''

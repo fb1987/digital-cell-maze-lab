@@ -1,0 +1,1622 @@
+{
+  "search_summary_sha256": "5c56c411018a53caf5eba3e541e808c93361801955201433459179a9159266a1",
+  "checkpoint_sha256": "ef0d48b8f59859e2f03dede80091fe830d8034e5fb92c20752e66f6dcc2bda48",
+  "timecourse_selection_sha256": "77b0f02b6d1123a72ed8f189181fb3c72b558a42264f6f0769d9c909b091996d",
+  "frozen_sha256": "5b841beab6a069ae66472735646de01ff922ffcb5024619f9a1f95b5a45e1424",
+  "source_sha256": "b0bb290c0fcb6b709bf25d4c61e02afce30cf274d14a231e647c485d04b44f8b",
+  "software_fixture_sha256": "53f1f7d87ab84aa2c2eea35efaa9d9a8f40ea48ed01d6f032da6372bdfee8610",
+  "excluded_layouts": 121560,
+  "resulting_layouts": 124392,
+  "elementary_groups": 90,
+  "general_primary_inputs": 264,
+  "general_orbit_inputs": 2112,
+  "elementary_limits": {
+    "max_steps": 256,
+    "reads_per_site": 4096,
+    "instructions_per_site": 32768,
+    "max_cells": 65536
+  },
+  "general_limits": {
+    "max_steps": 1024,
+    "reads_per_site": 8192,
+    "instructions_per_site": 131072,
+    "max_cells": 65536
+  },
+  "distinct_inferences": 21584,
+  "inference_work": 41950233764,
+  "aliased_responses": 42600,
+  "elapsed_seconds": 82.09140625002328,
+  "max_rss_bytes": 700743680,
+  "results": {
+    "foundation_pair_current/local/fresh/evolution/0/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 137,
+      "optimal": 137,
+      "no_path": 0,
+      "paired_optimal": 53,
+      "budget_failures": 0,
+      "work": 154625909
+    },
+    "foundation_pair_current/local/fresh/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 485214071
+    },
+    "foundation_pair_current/local/fresh/evolution/0/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 137,
+      "optimal": 137,
+      "no_path": 0,
+      "paired_optimal": 53,
+      "budget_failures": 0,
+      "work": 154625909
+    },
+    "foundation_pair_current/local/fresh/evolution/0/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 485214071
+    },
+    "foundation_pair_current/local/fresh/evolution/0/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 134,
+      "optimal": 134,
+      "no_path": 0,
+      "paired_optimal": 55,
+      "budget_failures": 24,
+      "work": 216028598
+    },
+    "foundation_pair_current/local/fresh/evolution/0/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 8,
+      "work": 903339220
+    },
+    "foundation_pair_current/local/fresh/evolution/0/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 30796384
+    },
+    "foundation_pair_current/local/fresh/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68218654
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 242,
+      "optimal": 242,
+      "no_path": 0,
+      "paired_optimal": 99,
+      "budget_failures": 16,
+      "work": 299938924
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 39,
+      "work": 2638660297
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 242,
+      "optimal": 242,
+      "no_path": 0,
+      "paired_optimal": 99,
+      "budget_failures": 16,
+      "work": 299938924
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 39,
+      "work": 2638660297
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 134,
+      "optimal": 134,
+      "no_path": 0,
+      "paired_optimal": 55,
+      "budget_failures": 24,
+      "work": 216028598
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 8,
+      "work": 903339220
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 30796384
+    },
+    "foundation_pair_paired/local/fresh/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68218654
+    },
+    "foundation_pair_current/local/fresh/resample/0/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 108,
+      "optimal": 108,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 21,
+      "work": 174951350
+    },
+    "foundation_pair_current/local/fresh/resample/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 14,
+      "work": 1070235242
+    },
+    "foundation_pair_current/local/fresh/resample/0/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 108,
+      "optimal": 108,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 21,
+      "work": 174951350
+    },
+    "foundation_pair_current/local/fresh/resample/0/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 14,
+      "work": 1070235242
+    },
+    "foundation_pair_current/local/fresh/resample/0/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 35488560
+    },
+    "foundation_pair_current/local/fresh/resample/0/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 78570091
+    },
+    "foundation_pair_current/local/fresh/resample/0/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 30796384
+    },
+    "foundation_pair_current/local/fresh/resample/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68218654
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 178,
+      "optimal": 178,
+      "no_path": 0,
+      "paired_optimal": 72,
+      "budget_failures": 146,
+      "work": 336264623
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 74,
+      "work": 2046897315
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 188,
+      "optimal": 188,
+      "no_path": 0,
+      "paired_optimal": 80,
+      "budget_failures": 127,
+      "work": 321126286
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 69,
+      "work": 2036246683
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 184,
+      "optimal": 184,
+      "no_path": 0,
+      "paired_optimal": 80,
+      "budget_failures": 126,
+      "work": 319358799
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 66,
+      "work": 2051189680
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 30800288
+    },
+    "foundation_pair_current/evolved/fresh/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68218862
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 198,
+      "optimal": 198,
+      "no_path": 0,
+      "paired_optimal": 82,
+      "budget_failures": 134,
+      "work": 322033617
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 77,
+      "work": 1990666799
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 198,
+      "optimal": 198,
+      "no_path": 0,
+      "paired_optimal": 82,
+      "budget_failures": 134,
+      "work": 322033617
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 77,
+      "work": 1990666799
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 184,
+      "optimal": 184,
+      "no_path": 0,
+      "paired_optimal": 80,
+      "budget_failures": 126,
+      "work": 319358799
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 66,
+      "work": 2051189680
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 30800288
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68218862
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 35488560
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 78570091
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 35488560
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 78570091
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 35488560
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 78570091
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 30800288
+    },
+    "foundation_pair_current/evolved/fresh/resample/0/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 68218862
+    },
+    "foundation_pair_current/local/fresh/evolution/1/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 208,
+      "optimal": 208,
+      "no_path": 0,
+      "paired_optimal": 96,
+      "budget_failures": 0,
+      "work": 226866057
+    },
+    "foundation_pair_current/local/fresh/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 9,
+      "optimal": 9,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 38,
+      "work": 2068431690
+    },
+    "foundation_pair_current/local/fresh/evolution/1/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 207,
+      "optimal": 206,
+      "no_path": 0,
+      "paired_optimal": 80,
+      "budget_failures": 237,
+      "work": 494716761
+    },
+    "foundation_pair_current/local/fresh/evolution/1/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 9,
+      "optimal": 9,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 79,
+      "work": 2699391975
+    },
+    "foundation_pair_current/local/fresh/evolution/1/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 184,
+      "optimal": 184,
+      "no_path": 0,
+      "paired_optimal": 68,
+      "budget_failures": 238,
+      "work": 408071670
+    },
+    "foundation_pair_current/local/fresh/evolution/1/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 8,
+      "optimal": 8,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 79,
+      "work": 2201357761
+    },
+    "foundation_pair_current/local/fresh/evolution/1/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 44246584
+    },
+    "foundation_pair_current/local/fresh/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100130814
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 217,
+      "optimal": 217,
+      "no_path": 0,
+      "paired_optimal": 99,
+      "budget_failures": 0,
+      "work": 145637802
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 7,
+      "optimal": 7,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 1,
+      "work": 400654815
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 226,
+      "optimal": 226,
+      "no_path": 0,
+      "paired_optimal": 94,
+      "budget_failures": 32,
+      "work": 253360079
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 9,
+      "optimal": 9,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 43,
+      "work": 1896366289
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 184,
+      "optimal": 184,
+      "no_path": 0,
+      "paired_optimal": 68,
+      "budget_failures": 238,
+      "work": 408071670
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 8,
+      "optimal": 8,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 79,
+      "work": 2201357761
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 44246584
+    },
+    "foundation_pair_paired/local/fresh/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100130814
+    },
+    "foundation_pair_current/local/fresh/resample/1/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 60274696
+    },
+    "foundation_pair_current/local/fresh/resample/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 136480508
+    },
+    "foundation_pair_current/local/fresh/resample/1/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 60274696
+    },
+    "foundation_pair_current/local/fresh/resample/1/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 136480508
+    },
+    "foundation_pair_current/local/fresh/resample/1/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 60274696
+    },
+    "foundation_pair_current/local/fresh/resample/1/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 136480508
+    },
+    "foundation_pair_current/local/fresh/resample/1/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 44246584
+    },
+    "foundation_pair_current/local/fresh/resample/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100130814
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 192,
+      "optimal": 192,
+      "no_path": 0,
+      "paired_optimal": 74,
+      "budget_failures": 89,
+      "work": 202109935
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 7,
+      "optimal": 7,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 39,
+      "work": 1428152767
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 192,
+      "optimal": 192,
+      "no_path": 0,
+      "paired_optimal": 74,
+      "budget_failures": 89,
+      "work": 202109935
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 7,
+      "optimal": 7,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 39,
+      "work": 1428152767
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 195,
+      "optimal": 193,
+      "no_path": 0,
+      "paired_optimal": 82,
+      "budget_failures": 104,
+      "work": 196408728
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 4,
+      "optimal": 4,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 29,
+      "work": 896069137
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 44246492
+    },
+    "foundation_pair_current/evolved/fresh/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100130815
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 200,
+      "optimal": 200,
+      "no_path": 0,
+      "paired_optimal": 88,
+      "budget_failures": 4,
+      "work": 166790881
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 5,
+      "optimal": 5,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 22,
+      "work": 1657673434
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 202,
+      "optimal": 202,
+      "no_path": 0,
+      "paired_optimal": 80,
+      "budget_failures": 12,
+      "work": 149682559
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 5,
+      "optimal": 5,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 7,
+      "work": 551411399
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 195,
+      "optimal": 193,
+      "no_path": 0,
+      "paired_optimal": 82,
+      "budget_failures": 104,
+      "work": 196408728
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 4,
+      "optimal": 4,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 29,
+      "work": 896069137
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 44246492
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100130815
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 54764280
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 122337220
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 54764280
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 122337220
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 54764280
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 122337220
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 44246492
+    },
+    "foundation_pair_current/evolved/fresh/resample/1/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 100130815
+    },
+    "foundation_pair_current/local/fresh/evolution/2/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 140,
+      "optimal": 140,
+      "no_path": 0,
+      "paired_optimal": 57,
+      "budget_failures": 2,
+      "work": 79676876
+    },
+    "foundation_pair_current/local/fresh/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 10,
+      "work": 546741066
+    },
+    "foundation_pair_current/local/fresh/evolution/2/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 140,
+      "optimal": 140,
+      "no_path": 0,
+      "paired_optimal": 57,
+      "budget_failures": 2,
+      "work": 79676876
+    },
+    "foundation_pair_current/local/fresh/evolution/2/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 10,
+      "work": 546741066
+    },
+    "foundation_pair_current/local/fresh/evolution/2/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 126,
+      "optimal": 126,
+      "no_path": 0,
+      "paired_optimal": 50,
+      "budget_failures": 0,
+      "work": 80607928
+    },
+    "foundation_pair_current/local/fresh/evolution/2/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 200611650
+    },
+    "foundation_pair_current/local/fresh/evolution/2/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31067560
+    },
+    "foundation_pair_current/local/fresh/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 73073715
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 156,
+      "optimal": 156,
+      "no_path": 0,
+      "paired_optimal": 60,
+      "budget_failures": 92,
+      "work": 227817714
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 27,
+      "work": 896327289
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 156,
+      "optimal": 156,
+      "no_path": 0,
+      "paired_optimal": 60,
+      "budget_failures": 92,
+      "work": 227817714
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 27,
+      "work": 896327289
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 126,
+      "optimal": 126,
+      "no_path": 0,
+      "paired_optimal": 50,
+      "budget_failures": 0,
+      "work": 80607928
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 200611650
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31067560
+    },
+    "foundation_pair_paired/local/fresh/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 73073715
+    },
+    "foundation_pair_current/local/fresh/resample/2/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 13236000
+    },
+    "foundation_pair_current/local/fresh/resample/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29839076
+    },
+    "foundation_pair_current/local/fresh/resample/2/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 13236000
+    },
+    "foundation_pair_current/local/fresh/resample/2/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29839076
+    },
+    "foundation_pair_current/local/fresh/resample/2/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 13236000
+    },
+    "foundation_pair_current/local/fresh/resample/2/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29839076
+    },
+    "foundation_pair_current/local/fresh/resample/2/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31067560
+    },
+    "foundation_pair_current/local/fresh/resample/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 73073715
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 176,
+      "optimal": 176,
+      "no_path": 0,
+      "paired_optimal": 80,
+      "budget_failures": 0,
+      "work": 130252222
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 5,
+      "optimal": 5,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 29,
+      "work": 1731633284
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 176,
+      "optimal": 176,
+      "no_path": 0,
+      "paired_optimal": 80,
+      "budget_failures": 0,
+      "work": 130252222
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 5,
+      "optimal": 5,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 29,
+      "work": 1731633284
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 108,
+      "optimal": 108,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 11,
+      "work": 218730178
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 688188493
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31067560
+    },
+    "foundation_pair_current/evolved/fresh/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 73073715
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 160,
+      "optimal": 160,
+      "no_path": 0,
+      "paired_optimal": 64,
+      "budget_failures": 0,
+      "work": 127219654
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 4,
+      "optimal": 4,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 28,
+      "work": 1755332889
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 160,
+      "optimal": 160,
+      "no_path": 0,
+      "paired_optimal": 64,
+      "budget_failures": 0,
+      "work": 127219654
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 4,
+      "optimal": 4,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 28,
+      "work": 1755332889
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 108,
+      "optimal": 108,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 11,
+      "work": 218730178
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 2,
+      "optimal": 2,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 688188493
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31067560
+    },
+    "foundation_pair_paired/evolved/fresh/evolution/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 73073715
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/champion/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 13236000
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/champion/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29839076
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/original_rank/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 13236000
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/original_rank/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29839076
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/checkpoint/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 96,
+      "optimal": 96,
+      "no_path": 0,
+      "paired_optimal": 48,
+      "budget_failures": 0,
+      "work": 13236000
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/checkpoint/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 1,
+      "optimal": 1,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 29839076
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/frozen/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 31067560
+    },
+    "foundation_pair_current/evolved/fresh/resample/2/frozen/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 0,
+      "optimal": 0,
+      "no_path": 0,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 73073715
+    },
+    "control/r0/intact/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 480,
+      "optimal": 480,
+      "no_path": 0,
+      "paired_optimal": 240,
+      "budget_failures": 0,
+      "work": 24561792
+    },
+    "control/r0/intact/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 68,
+      "optimal": 68,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 4,
+      "work": 865144540
+    },
+    "control/r0/compiled_bfs/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r0/compiled_astar/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r0/wave_bit/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r1/intact/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 480,
+      "optimal": 480,
+      "no_path": 0,
+      "paired_optimal": 240,
+      "budget_failures": 0,
+      "work": 23766176
+    },
+    "control/r1/intact/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 69,
+      "optimal": 69,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 3,
+      "work": 758349836
+    },
+    "control/r1/compiled_bfs/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r1/compiled_astar/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r1/wave_bit/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r2/intact/micro": {
+      "outputs": 480,
+      "reachable": 480,
+      "valid": 480,
+      "optimal": 480,
+      "no_path": 0,
+      "paired_optimal": 240,
+      "budget_failures": 0,
+      "work": 24853248
+    },
+    "control/r2/intact/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 70,
+      "optimal": 70,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 2,
+      "work": 777292176
+    },
+    "control/r2/compiled_bfs/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r2/compiled_astar/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    },
+    "control/r2/wave_bit/general": {
+      "outputs": 88,
+      "reachable": 72,
+      "valid": 72,
+      "optimal": 72,
+      "no_path": 16,
+      "paired_optimal": 0,
+      "budget_failures": 0,
+      "work": 0
+    }
+  }
+}
