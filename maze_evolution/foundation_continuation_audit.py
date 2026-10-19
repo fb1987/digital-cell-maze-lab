@@ -129,6 +129,7 @@ def audit_search(evaluation_paths, states, parents, cases, schedule, summary, ch
             for archive, source in ((skills, 'skills'), (initial_skills, 'frozen_skills')):
                 entry = parent[source][str(level)]
                 archive[key, str(level)] = (tuple(entry['rank']), entry['item']['id'])
+    selection_changes = []
     best_rows = {key: parent['champion_rows'] for key, parent in parents.items()}
     skill_rows = {(key, level): entry for key, parent in parents.items() for level, entry in parent['skills'].items()}
     levels, entered = list(parent_checkpoint['levels']), list(parent_checkpoint['entered'])
@@ -208,6 +209,13 @@ def audit_search(evaluation_paths, states, parents, cases, schedule, summary, ch
         assert [r['case'] for r in rows] == [o.maze.case_id for pair in validation(schedule, cfg['replicate']) for o in pair.cases]
         entry = (rank, record['id'])
         if key not in best or rank > best[key][0]:
+            def paired_counts(values):
+                return [sum(r['pair_optimal'] for r in values if f'/level{level}/' in r['case']) // 2 for level in range(4)]
+            before, after = paired_counts(best_rows[key]), paired_counts(rows)
+            selection_changes.append(dict(condition=key, generation=generation,
+                old_id=best[key][1], new_id=record['id'], old_rank=best[key][0], new_rank=rank,
+                old_level_pairs=before, new_level_pairs=after,
+                lost_adjacent=after[0] < before[0], lost_nonadjacent=sum(after[1:]) < sum(before[1:])))
             best[key] = entry
             best_rows[key] = rows
         if record['split'] == 'validation_initial' and (key not in initial_best or rank > initial_best[key][0]):
@@ -258,7 +266,7 @@ def audit_search(evaluation_paths, states, parents, cases, schedule, summary, ch
     print('Training and validation verified', sum(counts.values()), 'records;', checker.rasters, 'independently graded rasters', flush=True)
     return dict(fitness_records=sum(counts.values()), record_kinds=dict(counts),
         graded_search_rasters=checker.rasters, training_success_records=verified_training,
-        sampled_other_training_records=sampled_training)
+        sampled_other_training_records=sampled_training, primary_selection_changes=selection_changes)
 
 
 def run(out):
@@ -353,6 +361,7 @@ def run(out):
     ancestry, known = audit_ancestry(lineage_paths, states, parents)
     print('Ancestry verified', ancestry['registered'], 'programs', flush=True)
     search_checks = audit_search(evaluation_paths, states, parents, cases, schedule, summary, checkpoint, parent_checkpoint)
+    selection_changes = search_checks.pop('primary_selection_changes')
     final_checker = Checker(new_cases)
     known[controls()['intact'].identity] = controls()['intact'].genome
     replayed, model_cache = set(), {}
@@ -402,6 +411,11 @@ def run(out):
         confirmation_summary_sha256=hashlib.sha256((final / 'summary.json').read_bytes()).hexdigest(),
         verifier_sources={p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in
             [Path(__file__), ROOT / 'maze_evolution/foundation_study_verify_core.py']})
+    write_json(out / 'primary_selection_changes.json', dict(
+        scope='Post-hoc descriptive analysis of logged validation selection; no new inference or tuning',
+        events=selection_changes, changes=len(selection_changes),
+        losing_adjacent_pairs=sum(v['lost_adjacent'] for v in selection_changes),
+        losing_nonadjacent_pairs=sum(v['lost_nonadjacent'] for v in selection_changes)))
     write_json(out / 'verification.json', result)
     print(json.dumps(result, indent=2), flush=True)
 
