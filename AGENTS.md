@@ -34,7 +34,40 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12R is complete and independently audited**. Read
+Active authorized goal: **three-step research reassessment and V12S composition study**.
+Read `results/research_reset/assessment.md` and `docs/COMPOSITION_V12S.md` first.
+User explicitly authorizes a fixed60–90minute controlled evolution comparison;
+chosen75minute search includes compatible complementary recombination versus
+mutation andresampling,carry/fresh×3replicates. This supersedes automatically
+launching R's execution-informed-mutation proposal. Goalremainsactive until
+search,untouchedconfirmation,audit,reportandcheckpointsarecomplete.
+
+Steps1–2 saved-data/staticauditcomplete:16preservedrandom-origin identities span
+oldjunction/cycle/longprefix,K2,P/Qwave/reachability,Rexception. All2913priorhashes
+verified. Only8/240directedpairings admit conservative structurallyaligned splice,
+allwithinrelatedlineages. No claimofcross-familyfunctionalmodulecompatibility.
+No knownsolvergenes inpopulations. Architecture/runtimeunchanged. Preserve all
+oldpopulations/RNG;nohistoricalfinal usedasnewvalidation.
+
+V12S seed2026101914,fixtures1334,schedulesoftware1335. Correctedfixtures3968inputs,
+schedulefixtures11520inputs;wholelayoutsthroughpreflight198328. OriginalsmallDFS9
+ordinarypreparation exhaustedoldlayoutpool (4000rejections),zero candidatecalls,
+BEFOREregistration. Partial3456inputs savedpreparation_rejected,all included in
+correctedfixtures. OrdinaryperfectcasesnowWilson. Noextraexcludedlayouts beyond
+correctedfixture; preserveoriginalissuepacket.
+
+Freeze protocol/source/pools/fixtures BEFOREprofile,thenfreezeprofileBEFOREnew
+validation/training. Freezeallchoices/nextstates/RNG BEFOREfinalgeneration. Use
+`python -m maze_evolution.composition_study` actions. Mainsearchfixed4500swall,
+matchedgenerations,initialvalidationincluded,stopswithroundreserve;5400candidate
+seconds globalwith600reservedforfinal,40Mcalls,40Twork,4GiBRSS,3GiBartifacts.
+Noearly-performancegate or extension. Mainaudit exactreplays allnontraining and
+predefined1/256training sample,independentlygradesallclaimedvalid/no-pathtraining
+plus sample,allfitness/event/RNGreproduced. Do notclaimfulltraininginference replay.
+Seeprotocol forsampling,contrast andprimaryconfirmationgate. 10newtests pass;
+scopedcollectionrecord inresults/composition_study. Historicalsourceimmutable.
+
+Historical checkpoint: **V12R is complete and independently audited**. Read
 `results/mutation_accessibility.md` and `docs/MUTATION_ACCESSIBILITY_PROGRESS.md`
 first. Do not repeat/extend R, query unused walks on inspected finals, resume Q,
 alter frozen source, or train/reselect on inspected final cases. Execution-informed
