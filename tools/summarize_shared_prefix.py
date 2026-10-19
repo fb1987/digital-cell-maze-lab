@@ -17,6 +17,9 @@ def main():
             if root in ('mutation_depth/r0/f71/walk0/d9','mutation_depth/r0/f71/walk0/d16'):s['route_descendant_births']+=1;s['max_route_depth']=max(s['max_route_depth'],depth+1)
             ancestry[i['id']]=dict(parent=i['parent'],birth=i['birth'],genes=len(i['genome']['genes']),initial=False,events=b['events']);s['births']+=1;s['mutations']+=b['events'] is not None;s['random_draws']+=b['events'] is None;s['max_genes']=max(s['max_genes'],len(i['genome']['genes']))
     tm=read_compressed(OUT/'train/metadata.json.gz');vm=read_compressed(OUT/'validation/metadata.json.gz')
+    targets={roots[state['archives']['primary']['item']['id']][0] for state in states.values()};first_observations={}
+    for e in lines(OUT/'initial.jsonl.gz'):
+        if e['id'] in targets and e['id']+'/initial' not in first_observations:first_observations[e['id']+'/initial']=dict(stage=e['stage'],key=e['key'],generation=e['generation'],metrics=summary(e['rows'],vm))
     batch={};batch_key=None
     def flush():
         if not batch:return
@@ -29,6 +32,7 @@ def main():
             out['parent_tick_changes']+=any(a['steps']!=b['steps'] for a,b in zip(rr,pp))
             out['parent_work_changes']+=any((a['reads'],a['dispatches'],a['exposure_checks'])!=(b['reads'],b['dispatches'],b['exposure_checks']) for a,b in zip(rr,pp))
     for e in lines(OUT/'search_responses.jsonl.gz'):
+        if e['id'] in targets and e['id']+'/'+e['stage'] not in first_observations:first_observations[e['id']+'/'+e['stage']]=dict(stage=e['stage'],key=e['key'],generation=e['generation'],metrics=summary(e['rows'],tm if e['stage']=='train' else vm))
         s=condition[e['key']];s[e['stage']+'_calls']+=len(e['rows']);s['seconds']+=e['seconds'];s['work']+=e['work']
         if e['stage']=='train':
             key=(e['key'],e['generation'])
@@ -47,6 +51,6 @@ def main():
             i=a['parent']
         selected[key]=dict(id=raw['id'],genes=len(raw['genome']['genes']),chain=chain,root=chain[-1]['id'],mutation_steps=sum(not a['initial'] and a['parent'] is not None for a in chain),selection_generation=state['archives']['primary']['generation'])
     per_archive={alias:metrics[pid] for alias,pid in choices['aliases'].items()}
-    write_json(OUT/'saved_data_diagnostics.json',dict(candidate_calls=0,conditions=dict(condition),selected=selected,archives=per_archive))
+    write_json(OUT/'saved_data_diagnostics.json',dict(candidate_calls=0,first_root_observations=first_observations,conditions=dict(condition),selected=selected,archives=per_archive))
     print(json.dumps({k:dict(id=v['id'],genes=v['genes'],root=v['root'],steps=v['mutation_steps']) for k,v in selected.items()},indent=2))
 if __name__=='__main__':main()

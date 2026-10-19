@@ -1,0 +1,693 @@
+{
+  "candidate_calls": 0,
+  "posthoc": true,
+  "scope": "Correlated parent/child co-presence subset; aggregate rank contrast is not lexicase parent probability or an alternative evolved trajectory. Partial-score gains are not solved routes.",
+  "totals": {
+    "carry/0/mixed": {
+      "comparisons": 478,
+      "prefix_improves": 1,
+      "overall_better": 0,
+      "overall_equal": 0,
+      "overall_worse": 1,
+      "loses_zero_pairs": 1,
+      "loses_corridors": 1
+    },
+    "carry/1/mixed": {
+      "comparisons": 341,
+      "prefix_improves": 0,
+      "overall_better": 0,
+      "overall_equal": 0,
+      "overall_worse": 0,
+      "loses_zero_pairs": 0,
+      "loses_corridors": 0
+    },
+    "carry/2/mixed": {
+      "comparisons": 406,
+      "prefix_improves": 1,
+      "overall_better": 1,
+      "overall_equal": 0,
+      "overall_worse": 0,
+      "loses_zero_pairs": 0,
+      "loses_corridors": 0
+    },
+    "fresh/0/mixed": {
+      "comparisons": 844,
+      "prefix_improves": 9,
+      "overall_better": 7,
+      "overall_equal": 0,
+      "overall_worse": 2,
+      "loses_zero_pairs": 0,
+      "loses_corridors": 1
+    },
+    "fresh/1/mixed": {
+      "comparisons": 337,
+      "prefix_improves": 1,
+      "overall_better": 1,
+      "overall_equal": 0,
+      "overall_worse": 0,
+      "loses_zero_pairs": 0,
+      "loses_corridors": 0
+    },
+    "fresh/2/mixed": {
+      "comparisons": 417,
+      "prefix_improves": 6,
+      "overall_better": 6,
+      "overall_equal": 0,
+      "overall_worse": 0,
+      "loses_zero_pairs": 0,
+      "loses_corridors": 0
+    }
+  },
+  "examples": [
+    {
+      "condition": "fresh/2/mixed",
+      "generation": 2,
+      "child": "fresh/2/mixed/i87",
+      "parent": "shared_prefix/fresh/2/founder28",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.59556787
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.19556787
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        3.12446907
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.5867036
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/2/mixed",
+      "generation": 2,
+      "child": "fresh/2/mixed/i136",
+      "parent": "shared_prefix/fresh/2/founder28",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.26227147
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.19556787
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        1.7468144
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.5867036
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/1/mixed",
+      "generation": 3,
+      "child": "fresh/1/mixed/i164",
+      "parent": "fresh/1/mixed/i75",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.70227147
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.0
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        4.9868144
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.65555556
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 4,
+      "child": "fresh/0/mixed/i227",
+      "parent": "fresh/0/mixed/i99",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        1.26666667
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "overall_child": [
+        0,
+        4,
+        4,
+        0,
+        6.06666667
+      ],
+      "overall_parent": [
+        0,
+        4,
+        4,
+        0,
+        5.04
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 7,
+      "child": "fresh/0/mixed/i448",
+      "parent": "fresh/0/mixed/i363",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        -2,
+        0.0
+      ],
+      "overall_child": [
+        0,
+        4,
+        4,
+        0,
+        5.04
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        -4,
+        0.0
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "carry/2/mixed",
+      "generation": 11,
+      "child": "carry/2/mixed/i787",
+      "parent": "carry/2/mixed/i359",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        1.2
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "overall_child": [
+        1,
+        6,
+        6,
+        0,
+        8.4
+      ],
+      "overall_parent": [
+        0,
+        4,
+        4,
+        0,
+        5.04
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 11,
+      "child": "fresh/0/mixed/i765",
+      "parent": "fresh/0/mixed/i692",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.0
+      ],
+      "overall_child": [
+        0,
+        4,
+        4,
+        0,
+        5.04
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        1.26666667
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/2/mixed",
+      "generation": 11,
+      "child": "fresh/2/mixed/i737",
+      "parent": "fresh/2/mixed/i628",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.70227147
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.1734072
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        4.9868144
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        1.38017852
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/2/mixed",
+      "generation": 11,
+      "child": "fresh/2/mixed/i746",
+      "parent": "fresh/2/mixed/i628",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.70227147
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.1734072
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        4.9868144
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        1.38017852
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 17,
+      "child": "fresh/0/mixed/i1190",
+      "parent": "fresh/0/mixed/i385",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.19113573
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        1.51556787
+      ],
+      "overall_parent": [
+        0,
+        4,
+        4,
+        0,
+        7.3867036
+      ],
+      "direction": "overall_worse"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 21,
+      "child": "fresh/0/mixed/i1471",
+      "parent": "fresh/0/mixed/i1418",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.19113573
+      ],
+      "overall_child": [
+        0,
+        4,
+        4,
+        0,
+        5.04
+      ],
+      "overall_parent": [
+        0,
+        4,
+        4,
+        0,
+        7.3867036
+      ],
+      "direction": "overall_worse"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 21,
+      "child": "fresh/0/mixed/i1473",
+      "parent": "fresh/0/mixed/i927",
+      "prefix_child": [
+        0,
+        1,
+        1,
+        0,
+        1.6
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "overall_child": [
+        0,
+        3,
+        3,
+        0,
+        4.79944598
+      ],
+      "overall_parent": [
+        0,
+        3,
+        3,
+        0,
+        3.92
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "carry/0/mixed",
+      "generation": 26,
+      "child": "carry/0/mixed/i1837",
+      "parent": "carry/0/mixed/i1691",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        1.39113573
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        1.2
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        4,
+        3.90674054
+      ],
+      "overall_parent": [
+        1,
+        6,
+        6,
+        4,
+        8.4
+      ],
+      "direction": "overall_worse"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 26,
+      "child": "fresh/0/mixed/i1865",
+      "parent": "fresh/0/mixed/i1779",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        1.19556787
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "overall_child": [
+        0,
+        4,
+        4,
+        0,
+        5.99113573
+      ],
+      "overall_parent": [
+        0,
+        4,
+        4,
+        0,
+        5.04
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 28,
+      "child": "fresh/0/mixed/i1906",
+      "parent": "fresh/0/mixed/i1151",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        1.26223453
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        1.2
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        4,
+        6.0578024
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        4,
+        2.0
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/0/mixed",
+      "generation": 29,
+      "child": "fresh/0/mixed/i2038",
+      "parent": "fresh/0/mixed/i1906",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        0.72
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.19113573
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        4,
+        5.04
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        4,
+        4.18448753
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/2/mixed",
+      "generation": 30,
+      "child": "fresh/2/mixed/i2129",
+      "parent": "fresh/2/mixed/i1862",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        1.3734072
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.59556787
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        3.85355494
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        3.12446907
+      ],
+      "direction": "overall_better"
+    },
+    {
+      "condition": "fresh/2/mixed",
+      "generation": 31,
+      "child": "fresh/2/mixed/i2129",
+      "parent": "fresh/2/mixed/i1862",
+      "prefix_child": [
+        0,
+        0,
+        0,
+        0,
+        1.3734072
+      ],
+      "prefix_parent": [
+        0,
+        0,
+        0,
+        0,
+        0.59556787
+      ],
+      "overall_child": [
+        0,
+        0,
+        0,
+        0,
+        3.85355494
+      ],
+      "overall_parent": [
+        0,
+        0,
+        0,
+        0,
+        3.12446907
+      ],
+      "direction": "overall_better"
+    }
+  ]
+}

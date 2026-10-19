@@ -34,7 +34,74 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12P is complete and independently audited**. Read
+Current checkpoint: **V12Q is complete and independently audited**. Read
+`results/shared_prefix.md` and `docs/SHARED_PREFIX_PROGRESS.md` first. Do not repeat
+or extend Q, alter frozen source, resume an unchanged search, or train/reselect on
+inspected final cases. V12R mutation-accessibility proposal is NOT launched.
+
+Q seed2026101912,fixtures1314. Registration4fafe1c; explicit timing-only amendment
+b1b9530 before any research calls (factor2→1.5,16→32generations to cover8poses,
+originalprofile retained, no fixture scores used,720s cap unchanged). No frozen
+source repair. All choices/populations/RNG/search pushed2ba193d before fresh final.
+
+32matched generations,18conditions×96:carry/fresh×3rep×current/mixed evolution or
+mixedresampling. Exactinitialpools/searchRNG matched. Only evolutionarycontrast is
+100%source-at-junction versus50/50prefix0/1 stimuli; same runtime/rank/one-edit
+mutation/archive/elite/immigration. NineexactO/P/founder/randomresampleanchors are
+protected ineachcarryarm; freshfounders288newrandom, never knownsolvers.
+41472births=24192mutated+17280random;40176enteredtraining,1296generation32offspring
+are SAVED BUT UNQUERIED. Preserveall18nextpopulations/RNG andeveryedit/archive.
+
+Everyprimary0/64validationprefix1pairs and0/128finalcoreprefix1pairs. All31physical
+random-origin finalmodels (secondaryarchives/anchorsincluded)0positive-prefixpairs
+and0two-junction/cyclepairs. Gate0/3carry,0/3fresh; noextension. Final20seededclutter
+contexts,4032inputs:1344branched/1344corridors/1344isolated-goalNP;prefix0/1/2,
+8poses,2goals,arms2/3/4/6. Routeformsrepeat;poses/goals/variantscorrelated.78aliases,
+32physicalmodelsincludingintactcontrol. No finalreselection or Qmechanismablation.
+
+Finalcoreprefix0pairs /128:allcarryprimaries/frozen128each; freshCurrent[0,96,0],
+Mixed[96,64,128],resampling[0,0,16],frozen[0,0,0]. Freshaggregate96/288/16/0 outof384
+is SECONDARY junction-onlyevidence,not a targetgatepass. Carryall1344corridors;
+freshmixed[1128,1344,1344],freshresample2=464;separatecorridorarchivespreserved.
+Allselectedrandom-originfalseNP0; successfulNPcontrols areisolatedgoals only.
+
+Freshmixed0 i1151,114genes,12edits fromfreshfounder95:initialsamevalidation0→32/64
+junctionpairs,final96/128 (arms3/4/6all8poses),butcorridorloss. FreshCurrent1 i1146,
+96genes,16edits fromfounder22:validation0→48/64,final96/128(sixposes/eacharmlength).
+FreshMixed1 i1694,93genes,13edits samefounder22:validation0butfinal64pairs arms4/6.
+FreshMixed2 i1480,121genes,13edits fromimmigrant i507:128corepairs+1344corridors+
+1344NP. RootALREADYsolvedfirstsampledtrainingjunctionpair; do notclaim13editswere
+necessary. CarryMixed0 i1638,94genes,5edits fromnewimmigrant i1152. Unmutated95gene
+CarryResample0 i63 matches its160totalpairs(allprefix0forks)/1344corridors/1344NP.
+
+Posthocindependentdequecheck:all2688reachablemasksofFreshMixed2,CarryMixed0 and
+95geneResample matchsource-stoppedgoal-distanceballs. Emitted-outputequivalence,
+notinternalBFS/causalmechanismidentity. No newcandidatecalls. 4952birthsdescendfrom
+Oroute9/16,maxdepth18–32(includinglastunqueriedoffspring);maxborn167genes<256cap.
+538/5472samebatchparent-childcomparisonschangemask/status. Mixedsubset18/2823
+prefix-scoreimprovements:15improveaggregaterank,3worsen;only2carried. Correlated
+co-presencesubset;partialcredit≠solving;aggregaterank≠lexicaseprobability. Neither
+selectionalone nor a bindingcapacitylimit is established. Randomtrackremainsopen.
+
+Main1345536physical/2415744logicalcalls,251.23candidate seconds/720cap,
+146149776961work;340.27swall,951.48MiBRSS. Profile27648calls/5.14candidate seconds
+separate. Audit firstattemptPASS:1373184exactreplays,1385280independentrasters,
+12096baselines,all41472births/24192mutations/18states/78aliases,190source/9input/
+2384priorhashentries;352.05swall,1047.92MiBRSS. Allbaselines/intact2688reachable+
+1344NPcorrect;no latencybenchmark/speedup. 10new+22relatedtestspass,273collected,
+NOTfreshfullsuite. Unscopedcollectionhitvendoredtestdeps;scopedcollectionpasses.
+
+ExcludeALL187416wholelayouts:181928throughP+1424uniquepreflight/softwarefixtures
++320validation+2560training(allposes)+1184final. `shared_prefix_data.exclusions()`
+returnsTHROUGH P ONLY; append shared_prefix/software_fixtures,shared_prefix_fixtures,
+shared_prefix/validation,shared_prefix/train,shared_prefix/confirmation mazes.json.gz.
+Nextproposalonly: bounded performance-blind mutation-accessibility assay around
+severalpreservedwavegenotypes plusfreshcontrols,newasymmetricmatchedgeometry,
+strictnormaloutputconfirmation;no knownsolverinjection/automaticlongsearch.
+See `results/shared_prefix/next_experiment.md`. Preserveallprevioussource/results.
+Q completion seals260hashentries; next prior audit total2644 (2384throughP+260Q).
+
+Historical checkpoint: **V12P is complete and independently audited**. Read
 `results/mutation_transition.md` and `docs/MUTATION_TRANSITION_PROGRESS.md` first.
 Do not repeat P, extend its closed cap, alter frozen source, resume closed searches
 or train/reselect on inspected final layouts. No mutation/evolution occurred in P.

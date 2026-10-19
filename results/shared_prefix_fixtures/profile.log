@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "generations": 16,
+  "planning_rate": 0.000458579846357073,
+  "pool_rates": [
+    0.0002292899231785365,
+    0.0001211616267053412,
+    0.00018026555500859508,
+    0.0001897760734361024,
+    0.0002290240922522773,
+    0.0001669829663089533
+  ],
+  "projected_calls": 1143936,
+  "projected_seconds": 524.5859951223247,
+  "budget": {
+    "cap_seconds": 120,
+    "seconds": 5.144833091588225,
+    "calls": 27648,
+    "work": 3111348548,
+    "maximum": 0.0021487079793587327
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.13800179195823148,
+    "case": "fixture/core/a2/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "wall_seconds": 5.868885833013337,
+  "fitness_used_for_schedule": false
+}
+

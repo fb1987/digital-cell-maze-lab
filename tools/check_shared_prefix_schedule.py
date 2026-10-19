@@ -27,5 +27,5 @@ def main():
         coverage[arm]=sorted({meta[c]['pose'] for c in ids});assert coverage[arm]==list(range(8))
     seconds=sum(e['seconds'] for e in lines(OUT/'initial.jsonl.gz'))+sum(e['seconds'] for e in lines(OUT/'search_responses.jsonl.gz'))+sum(e['seconds'] for e in lines(OUT/'confirmation/responses.jsonl.gz'))
     assert abs(seconds-f['budget']['seconds'])<1e-7
-    write_json(OUT/'schedule_audit.json',dict(passed=True,original_generation_plan=16,amended_generations=32,training_generation_revision=rev,coverage=coverage,logical_initial_calls=3*576*768,physical_initial_calls=576*768,main_physical_calls=f['budget']['calls'],main_logical_calls=f['budget']['calls']+2*576*768,seconds=seconds,source_runtime_unchanged=True))
+    write_json(OUT/'schedule_audit.json',dict(passed=True,original_generation_plan=16,amended_generations=32,training_generation_revision=rev,coverage=coverage,logical_initial_calls=3*576*768,physical_initial_calls=576*768,main_physical_calls=f['budget']['calls'],main_logical_calls=f['budget']['calls']+2*576*768+(len(read_compressed(OUT/'choices.json.gz')['aliases'])-len(models))*4032,final_alias_calls=len(read_compressed(OUT/'choices.json.gz')['aliases'])*4032,final_physical_calls=len(models)*4032,seconds=seconds,source_runtime_unchanged=True))
 if __name__=='__main__':main()

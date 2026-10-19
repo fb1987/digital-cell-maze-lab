@@ -6,6 +6,35 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12Q shared-prefix evolution pilot](results/shared_prefix.md) is complete
+and independently audited. **Useful goal-conditioned waves reappear in fresh
+random-origin lineages, but no selection solves a paired route through the first
+internal junction.** Both origin blocks fail the larger-run gate in all three
+replicates.
+
+On untouched source-at-junction tasks, fresh mixed evolution gives 288/384 core
+pairs, versus 96/384 for junction-only evolution, 16/384 for resampling and 0/384
+for frozen controls. These are secondary gains: every primary remains 0/128 on
+one-edge-prefix pairs. All 31 random-origin final models also fail positive-prefix,
+two-junction and alternative-cycle pairs. An unmutated 95-gene random draw matches
+the strongest wave phenotype; do not attribute all useful behavior to mutation.
+
+![Normal outputs as the source moves behind the junction](results/shared_prefix/normal_outputs.png)
+
+32 matched generations across 18 conditions of 96 organisms produce 24,192
+single-edit descendants and17,280 random draws. Main inference 251.23 seconds under
+a 12-minute ceiling; audit passes 1,373,184 exact candidate replays and all births,
+RNG, archived choices and prior completion hashes. 32 focused tests pass; 273
+collected, not a full-suite run. All populations and diversity remain preserved.
+No general solving, multirange advantage or speedup has been established.
+
+Exclude **187416 whole layouts** next. See the [report](results/shared_prefix.md),
+[handoff](docs/SHARED_PREFIX_PROGRESS.md), and [unlaunched mutation-accessibility
+proposal](results/shared_prefix/next_experiment.md). The proposal tests whether
+available edits yield a useful branch-isolation signal before another long search.
+
+## Completed mutation-transition study V12P
+
 The [V12P mutation-transition study](results/mutation_transition.md) is complete
 and independently audited. **Edit9 creates a local feedback connection and the
 first paired-solving gain.** The founder through edit8 completes no pairs;
@@ -25,7 +54,7 @@ This is evidence for a useful random-origin propagation primitive. Path isolatio
 across internal junctions remains missing; general solving, beneficial multirange
 use and speedup remain unestablished. The next proposal is a small controlled
 shared-prefix curriculum test with protected skills and a separate fresh-random
-track. No new evolution run has launched.
+track. That proposal is now complete as V12Q above.
 
 Main inference: **116.32 seconds**,904960 calls. Audit passes first attempt:
 977640 exact candidate replays,1015080 independent raster grades and all2140 prior
@@ -33,7 +62,7 @@ completion entries. A separate saved-data check verifies24960 goal-wave masks.
 Twenty-two focused tests pass;263 collected,not a fresh full suite. Exclude
 **181928 whole layouts** next. See the [report](results/mutation_transition.md),
 [handoff](docs/MUTATION_TRANSITION_PROGRESS.md) and
-[unlaunched curriculum proposal](results/mutation_transition/next_experiment.md).
+[historical curriculum proposal](results/mutation_transition/next_experiment.md).
 
 ## Completed cumulative-mutation assay V12O
 
