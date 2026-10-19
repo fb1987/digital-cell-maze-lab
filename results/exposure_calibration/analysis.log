@@ -1,0 +1,739 @@
+{
+  "carried_pilot_screen": false,
+  "fresh_passing_replicates": [
+    "fresh/0",
+    "fresh/1",
+    "fresh/2"
+  ],
+  "activation": {
+    "carry/branch_narrow": {
+      "parent_identity_changes": 55,
+      "parent_program_changes": 24,
+      "elite_changed": true,
+      "nominees_changed": true,
+      "behavioral_variant_count": 5
+    },
+    "carry/branch_broad": {
+      "parent_identity_changes": 47,
+      "parent_program_changes": 26,
+      "elite_changed": true,
+      "nominees_changed": true,
+      "behavioral_variant_count": 6
+    },
+    "carry/long_prefix": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/long_replacement": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/local_long": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/local_cycle": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/fresh_evolved": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/fresh_local": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/fresh_local_narrow": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/resampled": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/branch_narrow_parent": {
+      "parent_identity_changes": 57,
+      "parent_program_changes": 25,
+      "elite_changed": true,
+      "nominees_changed": true,
+      "behavioral_variant_count": 4
+    },
+    "carry/branch_broad_parent": {
+      "parent_identity_changes": 55,
+      "parent_program_changes": 30,
+      "elite_changed": true,
+      "nominees_changed": true,
+      "behavioral_variant_count": 6
+    },
+    "carry/shared_ancestor": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/k2_target": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/k2_parent": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "carry/k2_entry": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "fresh/0": {
+      "parent_identity_changes": 2,
+      "parent_program_changes": 2,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 3
+    },
+    "fresh/1": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    },
+    "fresh/2": {
+      "parent_identity_changes": 0,
+      "parent_program_changes": 0,
+      "elite_changed": false,
+      "nominees_changed": false,
+      "behavioral_variant_count": 0
+    }
+  },
+  "fresh": {
+    "fresh/0": {
+      "active": {
+        "above_endpoint_only": 15,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.048491351594650206,
+        "parent_partial": 0.1872022087191358,
+        "shaping_parent_changes": 45,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.05,
+        "final_partial_gain_vs_base_neutral": 0.25,
+        "final_two_edge_pairs": 0
+      },
+      "neutral": {
+        "above_endpoint_only": 16,
+        "best_two_edge_partial": 0.3494212962962963,
+        "uniform_partial": 0.051370402520576126,
+        "parent_partial": 0.18874662422839505,
+        "shaping_parent_changes": 46,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.05,
+        "final_partial_gain_vs_base_neutral": 0.25,
+        "final_two_edge_pairs": 0
+      },
+      "zero": {
+        "above_endpoint_only": 15,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.04831854423868312,
+        "parent_partial": 0.1872022087191358,
+        "shaping_parent_changes": 45,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.05,
+        "final_partial_gain_vs_base_neutral": 0.25,
+        "final_two_edge_pairs": 0
+      },
+      "local": {
+        "above_endpoint_only": 16,
+        "best_two_edge_partial": 0.38719135802469135,
+        "uniform_partial": 0.05004259902263374,
+        "parent_partial": 0.1997516396604938,
+        "shaping_parent_changes": 46,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 2,
+        "final_two_edge_partial": 0.3493827160493827,
+        "base_neutral_two_edge_partial": 0.05,
+        "final_partial_gain_vs_base_neutral": 0.2993827160493827,
+        "final_two_edge_pairs": 0
+      }
+    },
+    "fresh/1": {
+      "active": {
+        "above_endpoint_only": 14,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.04788532021604938,
+        "parent_partial": 0.2382908950617284,
+        "shaping_parent_changes": 47,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.05192901234567901,
+        "final_partial_gain_vs_base_neutral": 0.24807098765432098,
+        "final_two_edge_pairs": 0
+      },
+      "neutral": {
+        "above_endpoint_only": 14,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.04788532021604938,
+        "parent_partial": 0.2382908950617284,
+        "shaping_parent_changes": 47,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.05192901234567901,
+        "final_partial_gain_vs_base_neutral": 0.24807098765432098,
+        "final_two_edge_pairs": 0
+      },
+      "zero": {
+        "above_endpoint_only": 14,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.04788532021604938,
+        "parent_partial": 0.2382908950617284,
+        "shaping_parent_changes": 47,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.05192901234567901,
+        "final_partial_gain_vs_base_neutral": 0.24807098765432098,
+        "final_two_edge_pairs": 0
+      },
+      "local": {
+        "above_endpoint_only": 12,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.0429542824074074,
+        "parent_partial": 0.2414014274691358,
+        "shaping_parent_changes": 45,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.05192901234567901,
+        "final_partial_gain_vs_base_neutral": 0.24807098765432098,
+        "final_two_edge_pairs": 0
+      }
+    },
+    "fresh/2": {
+      "active": {
+        "above_endpoint_only": 14,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.0437403549382716,
+        "parent_partial": 0.20510585455246913,
+        "shaping_parent_changes": 27,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.0,
+        "final_partial_gain_vs_base_neutral": 0.3,
+        "final_two_edge_pairs": 0
+      },
+      "neutral": {
+        "above_endpoint_only": 14,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.0437403549382716,
+        "parent_partial": 0.20510585455246913,
+        "shaping_parent_changes": 27,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.0,
+        "final_partial_gain_vs_base_neutral": 0.3,
+        "final_two_edge_pairs": 0
+      },
+      "zero": {
+        "above_endpoint_only": 14,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.04291891718106996,
+        "parent_partial": 0.20465494791666666,
+        "shaping_parent_changes": 27,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.0,
+        "final_partial_gain_vs_base_neutral": 0.3,
+        "final_two_edge_pairs": 0
+      },
+      "local": {
+        "above_endpoint_only": 15,
+        "best_two_edge_partial": 0.3,
+        "uniform_partial": 0.045761799125514396,
+        "parent_partial": 0.19166666666666665,
+        "shaping_parent_changes": 40,
+        "shaping_elite_changed": true,
+        "gradient_screen": true,
+        "complete_calibration_pairs": 0,
+        "final_two_edge_partial": 0.3,
+        "base_neutral_two_edge_partial": 0.0,
+        "final_partial_gain_vs_base_neutral": 0.3,
+        "final_two_edge_pairs": 0
+      }
+    }
+  },
+  "selected": {
+    "carry/branch_narrow": {
+      "active": {
+        "mask": 2,
+        "id": "exposure/carry/branch_narrow/mask2",
+        "pairs": 48
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/branch_narrow/mutation4",
+        "pairs": 34
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/branch_narrow/mutation4",
+        "pairs": 48
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/branch_narrow/mutation4",
+        "pairs": 0
+      }
+    },
+    "carry/branch_broad": {
+      "active": {
+        "mask": 4,
+        "id": "exposure/carry/branch_broad/mask4",
+        "pairs": 48
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/branch_broad/mutation4",
+        "pairs": 32
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/branch_broad/mutation4",
+        "pairs": 48
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/branch_broad/mutation1",
+        "pairs": 0
+      }
+    },
+    "carry/long_prefix": {
+      "active": {
+        "mask": 7,
+        "id": "exposure/carry/long_prefix/mutation3",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/long_prefix/mutation3",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/long_prefix/mutation3",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/long_prefix/mutation3",
+        "pairs": 0
+      }
+    },
+    "carry/long_replacement": {
+      "active": {
+        "mask": 4,
+        "id": "exposure/carry/long_replacement/mask4",
+        "pairs": 12
+      },
+      "neutral": {
+        "mask": 4,
+        "id": "exposure/carry/long_replacement/mask4",
+        "pairs": 12
+      },
+      "zero": {
+        "mask": 4,
+        "id": "exposure/carry/long_replacement/mask4",
+        "pairs": 12
+      },
+      "local": {
+        "mask": 4,
+        "id": "exposure/carry/long_replacement/mask4",
+        "pairs": 12
+      }
+    },
+    "carry/local_long": {
+      "active": {
+        "mask": 1,
+        "id": "exposure/carry/local_long/mask1",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 1,
+        "id": "exposure/carry/local_long/mask1",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 1,
+        "id": "exposure/carry/local_long/mask1",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 1,
+        "id": "exposure/carry/local_long/mask1",
+        "pairs": 0
+      }
+    },
+    "carry/local_cycle": {
+      "active": {
+        "mask": 0,
+        "id": "exposure/carry/local_cycle/mask0",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 0,
+        "id": "exposure/carry/local_cycle/mask0",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 0,
+        "id": "exposure/carry/local_cycle/mask0",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 0,
+        "id": "exposure/carry/local_cycle/mask0",
+        "pairs": 0
+      }
+    },
+    "carry/fresh_evolved": {
+      "active": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "pairs": 0
+      }
+    },
+    "carry/fresh_local": {
+      "active": {
+        "mask": 0,
+        "id": "exposure/carry/fresh_local/mask0",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 0,
+        "id": "exposure/carry/fresh_local/mask0",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 0,
+        "id": "exposure/carry/fresh_local/mask0",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 0,
+        "id": "exposure/carry/fresh_local/mask0",
+        "pairs": 0
+      }
+    },
+    "carry/fresh_local_narrow": {
+      "active": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "pairs": 0
+      }
+    },
+    "carry/resampled": {
+      "active": {
+        "mask": 1,
+        "id": "exposure/carry/resampled/mask1",
+        "pairs": 12
+      },
+      "neutral": {
+        "mask": 1,
+        "id": "exposure/carry/resampled/mask1",
+        "pairs": 12
+      },
+      "zero": {
+        "mask": 1,
+        "id": "exposure/carry/resampled/mask1",
+        "pairs": 12
+      },
+      "local": {
+        "mask": 1,
+        "id": "exposure/carry/resampled/mask1",
+        "pairs": 12
+      }
+    },
+    "carry/branch_narrow_parent": {
+      "active": {
+        "mask": 0,
+        "id": "exposure/carry/branch_narrow_parent/mask0",
+        "pairs": 48
+      },
+      "neutral": {
+        "mask": 4,
+        "id": "exposure/carry/branch_narrow_parent/mask4",
+        "pairs": 34
+      },
+      "zero": {
+        "mask": 4,
+        "id": "exposure/carry/branch_narrow_parent/mask4",
+        "pairs": 48
+      },
+      "local": {
+        "mask": 4,
+        "id": "exposure/carry/branch_narrow_parent/mask4",
+        "pairs": 0
+      }
+    },
+    "carry/branch_broad_parent": {
+      "active": {
+        "mask": 1,
+        "id": "exposure/carry/branch_broad_parent/mask1",
+        "pairs": 48
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/branch_broad_parent/mutation2",
+        "pairs": 32
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/branch_broad_parent/mutation2",
+        "pairs": 48
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/branch_broad_parent/mutation2",
+        "pairs": 0
+      }
+    },
+    "carry/shared_ancestor": {
+      "active": {
+        "mask": 7,
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "pairs": 0
+      }
+    },
+    "carry/k2_target": {
+      "active": {
+        "mask": 5,
+        "id": "exposure/carry/k2_target/mask5",
+        "pairs": 24
+      },
+      "neutral": {
+        "mask": 5,
+        "id": "exposure/carry/k2_target/mask5",
+        "pairs": 24
+      },
+      "zero": {
+        "mask": 5,
+        "id": "exposure/carry/k2_target/mask5",
+        "pairs": 24
+      },
+      "local": {
+        "mask": 5,
+        "id": "exposure/carry/k2_target/mask5",
+        "pairs": 24
+      }
+    },
+    "carry/k2_parent": {
+      "active": {
+        "mask": 7,
+        "id": "exposure/carry/k2_parent/mutation3",
+        "pairs": 24
+      },
+      "neutral": {
+        "mask": 7,
+        "id": "exposure/carry/k2_parent/mutation3",
+        "pairs": 24
+      },
+      "zero": {
+        "mask": 7,
+        "id": "exposure/carry/k2_parent/mutation3",
+        "pairs": 24
+      },
+      "local": {
+        "mask": 7,
+        "id": "exposure/carry/k2_parent/mutation3",
+        "pairs": 24
+      }
+    },
+    "carry/k2_entry": {
+      "active": {
+        "mask": 5,
+        "id": "exposure/carry/k2_entry/mask5",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 5,
+        "id": "exposure/carry/k2_entry/mask5",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 5,
+        "id": "exposure/carry/k2_entry/mask5",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 5,
+        "id": "exposure/carry/k2_entry/mask5",
+        "pairs": 0
+      }
+    },
+    "fresh/0": {
+      "active": {
+        "mask": 6,
+        "id": "exposure/fresh/0/founder14",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 6,
+        "id": "exposure/fresh/0/founder14",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 6,
+        "id": "exposure/fresh/0/founder14",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 6,
+        "id": "exposure/fresh/0/founder81",
+        "pairs": 16
+      }
+    },
+    "fresh/1": {
+      "active": {
+        "mask": 2,
+        "id": "exposure/fresh/1/founder62",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 2,
+        "id": "exposure/fresh/1/founder62",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 2,
+        "id": "exposure/fresh/1/founder62",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 2,
+        "id": "exposure/fresh/1/founder62",
+        "pairs": 0
+      }
+    },
+    "fresh/2": {
+      "active": {
+        "mask": 1,
+        "id": "exposure/fresh/2/founder14",
+        "pairs": 0
+      },
+      "neutral": {
+        "mask": 1,
+        "id": "exposure/fresh/2/founder14",
+        "pairs": 0
+      },
+      "zero": {
+        "mask": 1,
+        "id": "exposure/fresh/2/founder14",
+        "pairs": 0
+      },
+      "local": {
+        "mask": 1,
+        "id": "exposure/fresh/2/founder14",
+        "pairs": 0
+      }
+    }
+  }
+}

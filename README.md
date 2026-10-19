@@ -6,6 +6,31 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12M inherited exposure calibration](results/exposure_calibration.md) is
+complete and audited. **Inherited suppression improves an older Branch model
+from 32 to 48 unseen paired solutions, but matches switching all nonlocal values
+off.** Gains cover only straight-goal forms, so its broader pilot gate fails.
+
+The fresh random-origin calibration exposes a more actionable issue: partial
+credit changes selection in all three founder groups, yet their selected organisms
+**fill the entire reachable component for either goal**. They solve every matched
+corridor but zero paired choices. A separate unmutated local founder completes
+16 adjacent pairs and is preserved. The next proposal tests pressure that rewards
+choosing the correct branch while suppressing the alternative, before a longer run.
+M is fixed-pool calibration, not a new evolutionary trajectory.
+
+![Component growth versus route choice](results/exposure_calibration/visuals/fresh_component_output.png)
+
+Main inference: **317.58 seconds**, 313,464 calls. Audit passes first attempt:
+390,900 exact candidate replays, 395,796 independent raster grades, all selection
+records and 1,390 prior completion entries. Ten new plus sixteen related focused
+tests pass; 230 collected, not a fresh full suite. Exclude **175,592 whole layouts**
+next. General solving, beneficial multirange use and speedup remain unestablished.
+See the [handoff](docs/EXPOSURE_CALIBRATION_PROGRESS.md) and
+[unlaunched pressure-calibration proposal](results/exposure_calibration/next_experiment.md).
+
+## Completed lineage confirmation V12L
+
 The [V12L lineage confirmation](results/lineage_confirmation.md) is complete and
 independently audited. **The new K2 random-origin descendant completes 192 unseen
 fork pairs versus zero for its actual entry ancestor**, across twelve independent
@@ -29,7 +54,7 @@ all ancestry/baselines and 1,187 prior completion entries. Twenty-five focused t
 pass; 220 collected, not a fresh full suite. Exclude **170,840 whole layouts** next.
 General solving, beneficial multirange use and speedup remain unestablished. See
 the [handoff](docs/LINEAGE_CONFIRMATION_PROGRESS.md) and
-[unlaunched calibration proposal](results/lineage_confirmation/next_experiment.md).
+[calibration proposal](results/lineage_confirmation/next_experiment.md), now completed as V12M above.
 
 ## Completed robustness-pressure study V12K
 

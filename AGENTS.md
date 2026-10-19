@@ -34,10 +34,62 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12L is complete and independently audited**. Read
+Current checkpoint: **V12M is complete and independently audited**. Read
+`results/exposure_calibration.md` and `docs/EXPOSURE_CALIBRATION_PROGRESS.md` first.
+Do not repeat/extend M, resume older closed runs, or train/reselect on M final cases.
+The goal-conditioned branch-pressure follow-up is a proposal only, not launched.
+
+Inherited radii2/4/8 bits are implemented with exact all-on/all-off parity and
+charged exposure checks. Static suppression, not dynamic regulation. Sixteen
+carried fixed neighborhoods (8 mask states +8 sampled one-edit siblings each),
+3×96 fresh random founders, active/neutral/zero/local controls; no evolution.
+All pools/protocol pushed b85c25e before generation; 76 choices/evidence pushed
+e5fdf70 before final. Seed2026101908, fixtures1274. Equal logical budgets and
+physical dedup aliases preserved. No known-solver injection.
+
+Carried readiness gate FAILS: broad SAME-program active32→48pairs/144 and
+64→96corridors; narrow34→48pairs,64→96corridors. No losses, but broad gains only
+on two straight-goal templates, failing required goal-form breadth. Both selected
+active programs match ALL480 all-zero masks. Nonzero retained bits do not prove
+useful nonlocal input. Broad/narrow parent draws change47/55 of64. K2 retains
+24pairs/96corridors;68gene draw12/96. Local exception0pairs/44corridors; its paired
+retention is vacuous. All selected prefix4/8pairs0. No carried scale-up.
+
+Fresh numerical partial-gradient screen PASSES3/3, with46/47/27 of64 parent draws
+changed. Preserve that preregistered result. But saved-output diagnosis shows all
+three neutral selections fill the entire source component on384/384paired inputs,
+with identical masks for both goals on192/192pairs. They score.30partial, solve
+384corridors and ZERO pairs. Active/zero match this behavior. These are unmutated
+random founders (89/123/84genes), not evolved discoveries. Local group0 founder81,
+96genes, gives16adjacent pairs on4templates×4poses,128corridors,0two-edge pairs.
+Preserve it. This diagnoses objective weakness; capacity/time hypotheses stay open.
+
+All selected random models fail explicit no-path, no false reachable no-path claims;
+all legal selected outputs shortest. IntactVM/BFS/A*/bitwave solve1152reachable+
+480disconnected final cases. Main317.580candidate seconds,313464calls,
+189375425715work; selection233.838/480s andfinal83.742/300s. PeakRSS1387.59MiB.
+Original timing preflight failed450.301>432s; BEFORE registration/main generation,
+carry calibration reduced4→2poses (no extra calls/score tuning); revised303.423passes.
+Original failed record retained. No postregistration deviation/frozen-source repair.
+
+Audit PASSES first attempt451.514s/1702.05MiB:390900candidate replays,
+395796independent raster grades,4896baselines,3276adapter comparisons,128mutations,
+288founders,9728parentdraws,152selectionrecords,76choices,8256graphcases;
+173source/16input hashes and1390prior completion entries. Ten new+16related focused
+tests covered;230collected, NOT a fresh full suite. All evidence/RNG preserved.
+
+Exclude175592whole layouts:170840throughL+1008fixtures+1008cal+1008val+1728final.
+`exposure_data.exclusions()` returns THROUGH L ONLY; also add `all_manifests()`
+for `results/exposure_calibration_fixtures` and M calibration/validation/confirmation.
+Next proposal: prospective goal-conditioned branch-exclusion pressure preflight,
+then only if ordinary choice progress/selection activate, bounded matched12min
+pilot with controls and preserved diversity. Exposure fixed between pressure arms.
+Require2/3 normal nonadjacent paired gains+retention before60–90min. See next proposal.
+
+Historical checkpoint: **V12L is complete and independently audited**. Read
 `results/lineage_confirmation.md` and `docs/LINEAGE_CONFIRMATION_PROGRESS.md` first.
 Do not repeat/extend L, resume G–K, or train/reselect on inspected L confirmation.
-Heritable-exposure calibration is a proposal only, not launched or preregistered.
+Its proposed heritable-exposure calibration is now completed as V12M above.
 
 Protocol/source/22fixed K-informed models/fixtures pushed09422ee BEFORE main
 case generation. Seed2026101907,fixtures1264. No evolution,genomeediting,reselection

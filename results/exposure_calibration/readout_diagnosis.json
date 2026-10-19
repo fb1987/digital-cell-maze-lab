@@ -1,0 +1,5134 @@
+{
+  "post_registration": true,
+  "new_candidate_calls": 0,
+  "results": {
+    "carry/branch_narrow": {
+      "selected_active": {
+        "id": "exposure/carry/branch_narrow/mask2",
+        "genes": 254,
+        "mask": 2,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/branch_narrow/mutation4",
+        "genes": 254,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 34,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 60,
+            "pairs": 24
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 32,
+            "pairs": 10
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 8,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              4
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/branch_narrow/mutation4",
+        "genes": 254,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/branch_narrow/mutation4",
+        "genes": 254,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/branch_broad": {
+      "selected_active": {
+        "id": "exposure/carry/branch_broad/mask4",
+        "genes": 256,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/branch_broad/mutation4",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 32,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 58,
+            "pairs": 24
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 28,
+            "pairs": 8
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 6,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/branch_broad/mutation4",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/branch_broad/mutation1",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/long_prefix": {
+      "selected_active": {
+        "id": "exposure/carry/long_prefix/mutation3",
+        "genes": 254,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/long_prefix/mutation3",
+        "genes": 254,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/long_prefix/mutation3",
+        "genes": 254,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/long_prefix/mutation3",
+        "genes": 254,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/long_replacement": {
+      "selected_active": {
+        "id": "exposure/carry/long_replacement/mask4",
+        "genes": 256,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 42
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 2,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/long_replacement/mask4",
+        "genes": 256,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 42
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 2,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/long_replacement/mask4",
+        "genes": 256,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 42
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 2,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/long_replacement/mask4",
+        "genes": 256,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 42
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 2,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/local_long": {
+      "selected_active": {
+        "id": "exposure/carry/local_long/mask1",
+        "genes": 256,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 41,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 6
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 22,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 4,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/local_long/mask1",
+        "genes": 256,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 41,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 6
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 22,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 4,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/local_long/mask1",
+        "genes": 256,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 41,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 6
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 22,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 4,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/local_long/mask1",
+        "genes": 256,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 41,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 6
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 22,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 4,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 7,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/local_cycle": {
+      "selected_active": {
+        "id": "exposure/carry/local_cycle/mask0",
+        "genes": 256,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/local_cycle/mask0",
+        "genes": 256,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/local_cycle/mask0",
+        "genes": 256,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/local_cycle/mask0",
+        "genes": 256,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/fresh_evolved": {
+      "selected_active": {
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "genes": 110,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 16,
+          "step_budget": 8,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "genes": 110,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 16,
+          "step_budget": 8,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "genes": 110,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 16,
+          "step_budget": 8,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/fresh_evolved/mutation6",
+        "genes": 110,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 16,
+          "step_budget": 8,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/fresh_local": {
+      "selected_active": {
+        "id": "exposure/carry/fresh_local/mask0",
+        "genes": 128,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/fresh_local/mask0",
+        "genes": 128,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/fresh_local/mask0",
+        "genes": 128,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/fresh_local/mask0",
+        "genes": 128,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/fresh_local_narrow": {
+      "selected_active": {
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "genes": 100,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 288
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "genes": 100,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 288
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "genes": 100,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 288
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/fresh_local_narrow/mutation5",
+        "genes": 100,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 144,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 288
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 24,
+          "emitted": 72
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/resampled": {
+      "selected_active": {
+        "id": "exposure/carry/resampled/mask1",
+        "genes": 68,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 48
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/resampled/mask1",
+        "genes": 68,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 48
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/resampled/mask1",
+        "genes": 68,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 48
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/resampled/mask1",
+        "genes": 68,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 12,
+        "identical_two_goal_masks": 12,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 48
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/branch_narrow_parent": {
+      "selected_active": {
+        "id": "exposure/carry/branch_narrow_parent/mask0",
+        "genes": 254,
+        "mask": 0,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/branch_narrow_parent/mask4",
+        "genes": 254,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 34,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 60,
+            "pairs": 24
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 32,
+            "pairs": 10
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 8,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              4
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/branch_narrow_parent/mask4",
+        "genes": 254,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/branch_narrow_parent/mask4",
+        "genes": 254,
+        "mask": 4,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/branch_broad_parent": {
+      "selected_active": {
+        "id": "exposure/carry/branch_broad_parent/mask1",
+        "genes": 255,
+        "mask": 1,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/branch_broad_parent/mutation2",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 32,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 58,
+            "pairs": 24
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 28,
+            "pairs": 8
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 6,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/branch_broad_parent/mutation2",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 48,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 72,
+            "pairs": 36
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "two_junction",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "cycle",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/branch_broad_parent/mutation2",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/shared_ancestor": {
+      "selected_active": {
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/shared_ancestor/mutation7",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/k2_target": {
+      "selected_active": {
+        "id": "exposure/carry/k2_target/mask5",
+        "genes": 256,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/k2_target/mask5",
+        "genes": 256,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/k2_target/mask5",
+        "genes": 256,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/k2_target/mask5",
+        "genes": 256,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/k2_parent": {
+      "selected_active": {
+        "id": "exposure/carry/k2_parent/mutation3",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/k2_parent/mutation3",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/k2_parent/mutation3",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/k2_parent/mutation3",
+        "genes": 256,
+        "mask": 7,
+        "pairs": 144,
+        "complete_pairs": 24,
+        "identical_two_goal_masks": 0,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 24
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 36,
+            "pairs": 12
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/carry/straight/p1/straight/long1/t0/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/straight/p2/straight/long1/t1/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p1/straight/long1/t4/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/turning/p2/straight/long1/t5/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p1/straight/long1/t8/s0/position0",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/carry/asymmetric/p2/straight/long1/t9/s0/position1",
+            "family": "fork",
+            "poses": [
+              0,
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 96
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "carry/k2_entry": {
+      "selected_active": {
+        "id": "exposure/carry/k2_entry/mask5",
+        "genes": 255,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 126,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 60,
+          "emitted": 36
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/carry/k2_entry/mask5",
+        "genes": 255,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 126,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 60,
+          "emitted": 36
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/carry/k2_entry/mask5",
+        "genes": 255,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 126,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 60,
+          "emitted": 36
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/carry/k2_entry/mask5",
+        "genes": 255,
+        "mask": 5,
+        "pairs": 144,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 126,
+        "full_component": {
+          "inputs": 288,
+          "entire_source_component": 0
+        },
+        "by_kind": {
+          "prefix1": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix2": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix4": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "prefix8": {
+            "inputs": 72,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "step_budget": 60,
+          "emitted": 36
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "fresh/0": {
+      "selected_active": {
+        "id": "exposure/fresh/0/founder14",
+        "genes": 89,
+        "mask": 6,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/fresh/0/founder14",
+        "genes": 89,
+        "mask": 6,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/fresh/0/founder14",
+        "genes": 89,
+        "mask": 6,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/fresh/0/founder81",
+        "genes": 96,
+        "mask": 6,
+        "pairs": 192,
+        "complete_pairs": 16,
+        "identical_two_goal_masks": 112,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 48
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 32,
+            "pairs": 16
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 32,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [
+          {
+            "base": "confirmation/fresh/adjacent/turning/c4/s0",
+            "family": "paired",
+            "poses": [
+              0,
+              1,
+              5,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/fresh/adjacent/turning/c5/s0",
+            "family": "paired",
+            "poses": [
+              0,
+              1,
+              5,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/fresh/adjacent/turning/c6/s0",
+            "family": "paired",
+            "poses": [
+              0,
+              1,
+              5,
+              6
+            ]
+          },
+          {
+            "base": "confirmation/fresh/adjacent/turning/c7/s0",
+            "family": "paired",
+            "poses": [
+              0,
+              1,
+              5,
+              6
+            ]
+          }
+        ],
+        "no_path_statuses": {
+          "quiescent": 192,
+          "step_budget": 192
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "fresh/1": {
+      "selected_active": {
+        "id": "exposure/fresh/1/founder62",
+        "genes": 123,
+        "mask": 2,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/fresh/1/founder62",
+        "genes": 123,
+        "mask": 2,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/fresh/1/founder62",
+        "genes": 123,
+        "mask": 2,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/fresh/1/founder62",
+        "genes": 123,
+        "mask": 2,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    },
+    "fresh/2": {
+      "selected_active": {
+        "id": "exposure/fresh/2/founder14",
+        "genes": 84,
+        "mask": 1,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_neutral": {
+        "id": "exposure/fresh/2/founder14",
+        "genes": 84,
+        "mask": 1,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_zero": {
+        "id": "exposure/fresh/2/founder14",
+        "genes": 84,
+        "mask": 1,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      },
+      "selected_local": {
+        "id": "exposure/fresh/2/founder14",
+        "genes": 84,
+        "mask": 1,
+        "pairs": 192,
+        "complete_pairs": 0,
+        "identical_two_goal_masks": 192,
+        "full_component": {
+          "inputs": 384,
+          "entire_source_component": 384
+        },
+        "by_kind": {
+          "adjacent": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "two_edge": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          },
+          "fork": {
+            "inputs": 128,
+            "optimal": 0,
+            "pairs": 0
+          }
+        },
+        "successful_groups": [],
+        "no_path_statuses": {
+          "quiescent": 384
+        },
+        "false_no_path": 0,
+        "legal_nonshortest": 0
+      }
+    }
+  }
+}
