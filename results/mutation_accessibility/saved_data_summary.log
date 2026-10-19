@@ -1,0 +1,96 @@
+{
+  "supply": {
+    "depth1": {
+      "candidates": 120,
+      "changed": 7,
+      "counters_changed": 87,
+      "retained": 113,
+      "correct": 0,
+      "partial": 0,
+      "score_increased": 0,
+      "score_decreased": 7,
+      "score_increased_retained": 0,
+      "max_positive": 0,
+      "max_score_delta": 0.0
+    },
+    "depth4": {
+      "candidates": 120,
+      "changed": 26,
+      "counters_changed": 116,
+      "retained": 94,
+      "correct": 0,
+      "partial": 0,
+      "score_increased": 0,
+      "score_decreased": 26,
+      "score_increased_retained": 0,
+      "max_positive": 0,
+      "max_score_delta": 0.0
+    },
+    "depth16": {
+      "candidates": 120,
+      "changed": 75,
+      "counters_changed": 120,
+      "retained": 46,
+      "correct": 0,
+      "partial": 0,
+      "score_increased": 0,
+      "score_decreased": 74,
+      "score_increased_retained": 0,
+      "max_positive": 0,
+      "max_score_delta": 0.0
+    },
+    "resample": {
+      "candidates": 120,
+      "changed": 120,
+      "counters_changed": 120,
+      "retained": 0,
+      "correct": 0,
+      "partial": 0,
+      "score_increased": 0,
+      "score_decreased": 120,
+      "score_increased_retained": 0,
+      "max_positive": 0,
+      "max_score_delta": -0.13110269360269358
+    }
+  },
+  "stage_counts": {
+    "discovery": {
+      "identities": 486,
+      "physical_models": 483,
+      "logical_calls": 373248,
+      "physical_calls": 370944
+    },
+    "validation": {
+      "identities": 126,
+      "physical_models": 124,
+      "logical_calls": 96768,
+      "physical_calls": 95232
+    },
+    "confirmation": {
+      "identities": 66,
+      "physical_models": 64,
+      "logical_calls": 342144,
+      "physical_calls": 331776
+    }
+  },
+  "passing_blocks": {
+    "depth4": {
+      "correct": [],
+      "partial": []
+    },
+    "depth16": {
+      "correct": [],
+      "partial": []
+    }
+  },
+  "readiness": {
+    "depth4": {
+      "correct": false,
+      "partial": false
+    },
+    "depth16": {
+      "correct": false,
+      "partial": false
+    }
+  }
+}

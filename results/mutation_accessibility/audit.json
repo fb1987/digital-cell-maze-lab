@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "wall_seconds": 206.78944791603135,
+  "peak_rss_bytes": 1246953472,
+  "prior_hashes": 2644,
+  "source_hashes": 194,
+  "input_hashes": 11,
+  "candidate_replays": 889728,
+  "independent_rasters": 905280,
+  "baseline_replays": 15552,
+  "walks": 240,
+  "mutation_events": 3840,
+  "random_draws": 240,
+  "whole_layouts": 191784,
+  "stages": {
+    "fixture": {
+      "calls": 91776,
+      "work": 7367604280,
+      "models": 956
+    },
+    "discovery": {
+      "calls": 370944,
+      "work": 31699872865,
+      "models": 483
+    },
+    "validation": {
+      "calls": 95232,
+      "work": 9800880834,
+      "models": 124
+    },
+    "confirmation": {
+      "calls": 331776,
+      "work": 36570753844,
+      "models": 64
+    }
+  },
+  "geometry": {
+    "fixture": {
+      "inputs": 1632,
+      "pairs": 272,
+      "whole_layouts": 464,
+      "contexts": 10
+    },
+    "software": {
+      "inputs": 5184,
+      "pairs": 864,
+      "whole_layouts": 1632,
+      "contexts": 28
+    },
+    "discovery": {
+      "inputs": 768,
+      "pairs": 128,
+      "whole_layouts": 320,
+      "contexts": 8
+    },
+    "validation": {
+      "inputs": 768,
+      "pairs": 128,
+      "whole_layouts": 320,
+      "contexts": 8
+    },
+    "confirmation": {
+      "inputs": 5184,
+      "pairs": 864,
+      "whole_layouts": 1632,
+      "contexts": 28
+    }
+  }
+}

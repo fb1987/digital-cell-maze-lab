@@ -34,7 +34,73 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12Q is complete and independently audited**. Read
+Current checkpoint: **V12R is complete and independently audited**. Read
+`results/mutation_accessibility.md` and `docs/MUTATION_ACCESSIBILITY_PROGRESS.md`
+first. Do not repeat/extend R, query unused walks on inspected finals, resume Q,
+alter frozen source, or train/reselect on inspected final cases. Execution-informed
+mutation follow-up is a proposal only, NOT launched.
+
+Seed2026101913;fixtures1324;software1325. Registrationdea1f0f. Originalpreflight
+failed before scientificcalls; originalprofile/auditor retained. Timing-only
+amendmentabff7b9 beforediscovery keeps2x safety,600s projection,720s hardcap,all8poses
+andfrozenpool,usesindividual discovery costs/groupworstnominee costs. n16projects
+648.06s/fails;n8projects458.44s/passes. No fixture scores used for schedule.
+Selections/ancestry/data pushed74d6d17 BEFORE final generation. No source repair.
+
+FiveP/Q-informedroots:Proute/d9,Qfresh/mixed0,Qfresh/current1,Qfresh/mixed2,Qunmutated
+95gene resample. Intactcontrolseparate,neverancestor. All240walks×16edits=3840events,
+240freshdraws,intermediates/RNGsaved. Scientificsubsetfirst8/block×5roots×3blocks:
+120walks,360depth1/4/16memberships,120draws,1920accumulatedmutationsteps. No feedback
+betweenedits. SameMlocal/all-on runtime,input/stopping/256ceiling/operator. Queried
+mutants91–151genes;capacityceilingnotreached. Staticchannels≠dynamiccausality.
+
+Discoveryandvalidationeach8newcluttercontexts/768inputs,asymmetricstraight/turning
+arms,prefix0/1,8poses,2goals,branches/corridors/isolatedgoalNP. Final28contexts/5184
+inputs,1728eachfamily,adds4/6and6/4arms,prefix2,secondjunctionsandrealcycles. Route
+formsrepeat,poses/depthscorrelated. Fixedtop2discoverynominees,validationchooses1.
+Final66identities/64physicalinclintact. No final-basedreselection.
+
+Per120discoverymemberships,counter/outputchanges:depth1=87/7,depth4=116/26,
+depth16=120/75,resampling120/120. Rootskillretention113/94/46/0. Everycandidate0
+positiveprefixpairs;no mutant increasesregisteredmeanscore. Depth16:45outputneutral,
+74scoredecreases,oneoutputchange withunchangedscore. Behavioralvariationincreases,
+usefuldirectionnotdemonstrated;doesnotclose random-origin/greatercapacityhypothesis.
+
+All63physicalrandomfinalmodels0positiveprefixpairsand0twojunction/cyclepairs.
+All15blocks failcorrect/partialgatesatdepth4and16. Strongroots192/192corejunction
+pairs+32stressforkjunctionpairs,224/864total;0/192coreprefix1 andprefix2. Allselected
+falseNP0;NPsuccess onlytestedisolatedgoals. No general solver/multirange/speedup.
+
+Preservefinal-onlyexception accessibility/Qfresh0/1/walk2/d16,descendantofQ
+fresh/0/mixed/i1151. Validationoutputs/statusidenticaltoroot,score0.262205,
+countersdiffer. Finalcoreprefix1score0.302841→0.400445;32improvingpairs/8contexts,
+new4/6and6/4arms only. Corridors1448→1600,96corejunctionpairs/1728NPretained,
+zero new pairedbranches. Passesfinalrelativepartialcriterion only,notvalidation
+ortwo-stagegate. OtherQfresh0depth16 selectionsloseoldskills. Preserveallvariants.
+Posthocindependentdeque saveddata:304changedrastersall source-stoppedgoal-distance
+balls,80budgetexhausted→emitted,224emitted→emitted;152newcorrect,allcorridors.
+Wholewave matches2936→3200/3456,notallcases. Zero newinference;no causaleditclaim.
+
+Main797952physical/812160logicalcalls,133.24candidate seconds/720cap,
+78071507543work,164.22swall,1141.39MiBRSS. Profile91776calls/12.35candidate seconds
+separate. BFS/A*/bitwave/intact3456reachable+1728NPcorrect. No latencybenchmark.
+AuditFIRSTPASS889728exactreplays/905280independentrasters/15552baselines,all240walks/
+3840events/240draws/RNG,choices,194source/11input/amendmenthashesand2644priorentries;
+206.79swall,1189.19MiBRSS. Use tools/audit_mutation_accessibility.py ifneeded;
+original study audit intentionallyretains superseded costrule.20focusedtestspass,
+283scopedcollected,NOTfreshfullsuite. Alloldsource/populations/RNGintact.
+
+ExcludeALL191784wholelayouts:187416throughQ+464fixtures+1632softwarefixtures
++320discovery+320validation+1632final. Rhelperexclusions()returnsTHROUGH QONLY;
+appendmutation_accessibility_fixtures/mazes.json.gz andmutation_accessibility/
+{software_fixtures,discovery,validation,confirmation}/mazes.json.gz. No relabeling
+finaldataasvalidation. Nextproposalonly:uniformversusexecution-informedmutation
+withnativeobserverparity,sameeditvocabulary/roots/runtime/capacity,freshcontrols,
+broadernewvalidationanduntouchedfinal. Do notautomaticallylaunchlongsearch.
+See results/mutation_accessibility/next_experiment.md andcompletion.json.
+Rcompletionseals269entries;nextprioraudit2913entries(2644throughQ+269R).
+
+Historical checkpoint: **V12Q is complete and independently audited**. Read
 `results/shared_prefix.md` and `docs/SHARED_PREFIX_PROGRESS.md` first. Do not repeat
 or extend Q, alter frozen source, resume an unchanged search, or train/reselect on
 inspected final cases. V12R mutation-accessibility proposal is NOT launched.

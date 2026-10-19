@@ -60,8 +60,16 @@ def main():
     for stage,identities,inputs in [('discovery',eligible(p,n),768),('validation',ids,768),('confirmation',final['ids'],5184)]:
         stage_counts[stage]=dict(identities=len(identities),physical_models=len(identities_for_models(p,identities)),
             logical_calls=len(identities)*inputs,physical_calls=len(identities_for_models(p,identities))*inputs)
+    structure={}
+    for arm in ARMS:
+        ids=[i for g in p['groups'].values() for i in g[arm][:n]]
+        lengths=[len(p['entries'][i]['item']['genome']['genes']) for i in ids]
+        structure[arm]=dict(min_genes=min(lengths),max_genes=max(lengths),
+            same_root_genotype=sum(p['entries'][i]['digest']==p['entries'][p['entries'][i]['root']]['digest'] for i in ids))
+    event_kinds=Counter(e['kind'] for x in p['events'] if p['entries'][x['item']]['index']<n for e in x['event'])
     out=dict(post_registration=True,candidate_calls=0,roots={label:dict(id=r['id'],final=compact(fm[p['aliases'][r['id']]])) for label,r in p['roots'].items()},
         supply=supply,supply_by_root=byroot,selections=selections,final_physical=physical,
+        structure=structure,queried_walk_event_kinds=dict(event_kinds),
         stage_counts=stage_counts,passing_blocks=a['passing_blocks'],readiness=a['readiness'])
     write_json(OUT/'saved_data_summary.json',out)
     print(json.dumps({k:out[k] for k in ('supply','stage_counts','passing_blocks','readiness')},indent=2))

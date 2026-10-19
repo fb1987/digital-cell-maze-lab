@@ -1,0 +1,362 @@
+{
+  "post_hoc": true,
+  "selection_reason": "Final-only partial gain; no new selection or candidate evaluation",
+  "candidate_calls": 0,
+  "root": "fresh/0/mixed/i1151",
+  "mutant": "accessibility/Qfresh0/1/walk2/d16",
+  "reachable_per_model": 3456,
+  "goal_ball_matches": {
+    "fresh/0/mixed/i1151": 2936,
+    "accessibility/Qfresh0/1/walk2/d16": 3200
+  },
+  "changed_responses": 304,
+  "changed_mutant_goal_ball_matches": 304,
+  "changed_status_pairs": {
+    "emitted->emitted": 224,
+    "step_budget->emitted": 80
+  },
+  "changed_optimal_pairs": {
+    "False->False": 152,
+    "False->True": 152
+  },
+  "gains_by_family": {
+    "corridor": 152
+  },
+  "statuses": {
+    "fresh/0/mixed/i1151": {
+      "emitted": 3376,
+      "no_path": 1728,
+      "step_budget": 80
+    },
+    "accessibility/Qfresh0/1/walk2/d16": {
+      "emitted": 3456,
+      "no_path": 1728
+    }
+  },
+  "mutation_events": [
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d1",
+      "event": [
+        {
+          "requested_mode": 0,
+          "index": 113,
+          "before_length": 114,
+          "kind": "insert",
+          "row": [
+            11,
+            19,
+            46,
+            0,
+            0,
+            0,
+            64
+          ],
+          "after_length": 115
+        }
+      ],
+      "rng_before": "15e2cf474b90e024fdf4ec44a847b0866f9f1ddd1f0677e11a544e054489af9b",
+      "rng_after": "cc7a1c74fd26d09674a92cda561c3b68e9da5465045dfe38793271df23c841c0"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d2",
+      "event": [
+        {
+          "requested_mode": 4,
+          "index": 98,
+          "before_length": 115,
+          "kind": "duplicate",
+          "count": 3,
+          "after_length": 118
+        }
+      ],
+      "rng_before": "cc7a1c74fd26d09674a92cda561c3b68e9da5465045dfe38793271df23c841c0",
+      "rng_after": "1416d18b344d90dba44cfe4e8ef32d771e7c578abc3609c8438d6e7cc973bff1"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d3",
+      "event": [
+        {
+          "requested_mode": 3,
+          "index": 67,
+          "before_length": 118,
+          "kind": "swap",
+          "other": 78,
+          "after_length": 118
+        }
+      ],
+      "rng_before": "1416d18b344d90dba44cfe4e8ef32d771e7c578abc3609c8438d6e7cc973bff1",
+      "rng_after": "b601ba61608bcaa0f301e9f7e4e0ad609edbcbb4693a6925b0cd93a7eef58730"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d4",
+      "event": [
+        {
+          "requested_mode": 6,
+          "index": 86,
+          "before_length": 118,
+          "kind": "operand",
+          "field": 6,
+          "row": [
+            4,
+            26,
+            5,
+            0,
+            0,
+            0,
+            15
+          ],
+          "after_length": 118
+        }
+      ],
+      "rng_before": "b601ba61608bcaa0f301e9f7e4e0ad609edbcbb4693a6925b0cd93a7eef58730",
+      "rng_after": "922d1395487c01713451b242c67142dc8869ae1b150170eb191b9dff7722fb4b"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d5",
+      "event": [
+        {
+          "requested_mode": 5,
+          "index": 64,
+          "before_length": 118,
+          "kind": "operand",
+          "field": 2,
+          "row": [
+            12,
+            57,
+            17,
+            34,
+            56,
+            0,
+            64
+          ],
+          "after_length": 118
+        }
+      ],
+      "rng_before": "922d1395487c01713451b242c67142dc8869ae1b150170eb191b9dff7722fb4b",
+      "rng_after": "f9f3d1783a0e3d0367b4ea5d0dbe5c18ea3ad5eda2fac79459d6b774e762e97f"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d6",
+      "event": [
+        {
+          "requested_mode": 1,
+          "index": 94,
+          "before_length": 118,
+          "kind": "delete",
+          "after_length": 117
+        }
+      ],
+      "rng_before": "f9f3d1783a0e3d0367b4ea5d0dbe5c18ea3ad5eda2fac79459d6b774e762e97f",
+      "rng_after": "cd14215ad59fea6510c046586d67e83915136fe88fbf159a8d179382b4d5f277"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d7",
+      "event": [
+        {
+          "requested_mode": 5,
+          "index": 26,
+          "before_length": 117,
+          "kind": "operand",
+          "field": 1,
+          "row": [
+            11,
+            23,
+            47,
+            0,
+            0,
+            0,
+            64
+          ],
+          "after_length": 117
+        }
+      ],
+      "rng_before": "cd14215ad59fea6510c046586d67e83915136fe88fbf159a8d179382b4d5f277",
+      "rng_after": "35d9702750654c14bf37bbafb25c82c33bc5d584623a77d92f6822c552bbd5e5"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d8",
+      "event": [
+        {
+          "requested_mode": 2,
+          "index": 68,
+          "before_length": 117,
+          "kind": "replace",
+          "row": [
+            17,
+            53,
+            7,
+            0,
+            0,
+            0,
+            64
+          ],
+          "after_length": 117
+        }
+      ],
+      "rng_before": "35d9702750654c14bf37bbafb25c82c33bc5d584623a77d92f6822c552bbd5e5",
+      "rng_after": "d80b47b764d42dc209a8518a9abb9f9d7da2249ee42ac531ceffdfd6fe20ebc8"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d9",
+      "event": [
+        {
+          "requested_mode": 2,
+          "index": 15,
+          "before_length": 117,
+          "kind": "replace",
+          "row": [
+            15,
+            36,
+            1,
+            0,
+            0,
+            3,
+            64
+          ],
+          "after_length": 117
+        }
+      ],
+      "rng_before": "d80b47b764d42dc209a8518a9abb9f9d7da2249ee42ac531ceffdfd6fe20ebc8",
+      "rng_after": "88117036f46c7b806acb0b2a16acd814efb55c9b5cc2108c45c217a5ff442d7a"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d10",
+      "event": [
+        {
+          "requested_mode": 1,
+          "index": 4,
+          "before_length": 117,
+          "kind": "delete",
+          "after_length": 116
+        }
+      ],
+      "rng_before": "88117036f46c7b806acb0b2a16acd814efb55c9b5cc2108c45c217a5ff442d7a",
+      "rng_after": "213da78f9250242b03ff0fee46d1e1ffbe98382e055867efaee946489b84d728"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d11",
+      "event": [
+        {
+          "requested_mode": 5,
+          "index": 107,
+          "before_length": 116,
+          "kind": "operand",
+          "field": 1,
+          "row": [
+            14,
+            41,
+            6,
+            1,
+            0,
+            1,
+            64
+          ],
+          "after_length": 116
+        }
+      ],
+      "rng_before": "213da78f9250242b03ff0fee46d1e1ffbe98382e055867efaee946489b84d728",
+      "rng_after": "aaf7d266b82cf8aec6c128c21a2b0eea7e8cef3ba1458be17b007d6e7123f99f"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d12",
+      "event": [
+        {
+          "requested_mode": 5,
+          "index": 8,
+          "before_length": 116,
+          "kind": "operand",
+          "field": 2,
+          "row": [
+            5,
+            17,
+            6,
+            0,
+            0,
+            0,
+            31
+          ],
+          "after_length": 116
+        }
+      ],
+      "rng_before": "aaf7d266b82cf8aec6c128c21a2b0eea7e8cef3ba1458be17b007d6e7123f99f",
+      "rng_after": "fa46a0c72ea8603e8bf8e0787bd93d636ef718dc781b30367b0dc27a0a611025"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d13",
+      "event": [
+        {
+          "requested_mode": 6,
+          "index": 112,
+          "before_length": 116,
+          "kind": "operand",
+          "field": 6,
+          "row": [
+            13,
+            4,
+            14,
+            0,
+            0,
+            0,
+            5
+          ],
+          "after_length": 116
+        }
+      ],
+      "rng_before": "fa46a0c72ea8603e8bf8e0787bd93d636ef718dc781b30367b0dc27a0a611025",
+      "rng_after": "4b1f81fb7dbeed552f9b4b7310c1e1a3be190d8208caf177f0d5fbbc2aebfb2a"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d14",
+      "event": [
+        {
+          "requested_mode": 1,
+          "index": 54,
+          "before_length": 116,
+          "kind": "delete",
+          "after_length": 115
+        }
+      ],
+      "rng_before": "4b1f81fb7dbeed552f9b4b7310c1e1a3be190d8208caf177f0d5fbbc2aebfb2a",
+      "rng_after": "b69599ad81a3f3800efa3602d2822ba4929a4dba219586e14d3621a18b53bb8e"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d15",
+      "event": [
+        {
+          "requested_mode": 2,
+          "index": 2,
+          "before_length": 115,
+          "kind": "replace",
+          "row": [
+            2,
+            40,
+            16,
+            9,
+            0,
+            0,
+            19
+          ],
+          "after_length": 115
+        }
+      ],
+      "rng_before": "b69599ad81a3f3800efa3602d2822ba4929a4dba219586e14d3621a18b53bb8e",
+      "rng_after": "8ddff8c2d1aca3e41eab77187e97760782fce1ace5804fe67bbea29b084fedca"
+    },
+    {
+      "item": "accessibility/Qfresh0/1/walk2/d16",
+      "event": [
+        {
+          "requested_mode": 3,
+          "index": 72,
+          "before_length": 115,
+          "kind": "swap",
+          "other": 53,
+          "after_length": 115
+        }
+      ],
+      "rng_before": "8ddff8c2d1aca3e41eab77187e97760782fce1ace5804fe67bbea29b084fedca",
+      "rng_after": "d8be7cfbe9bba0d95b360d12ee0e691eb552d500d1b72b9791af85b0ac062a3b"
+    }
+  ],
+  "interpretation": "Exact saved-output comparison only; not proof of identical hidden dynamics or causal attribution to a particular edit."
+}

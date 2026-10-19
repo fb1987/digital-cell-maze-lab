@@ -6,6 +6,35 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12R mutation-accessibility assay](results/mutation_accessibility.md) is
+complete and independently audited. **Longer random mutation walks change more
+outputs, but no tested mutant improves the discovery routing score, and no final
+model solves a paired route through an internal junction.**
+
+Five preserved random-origin lineages, three RNG blocks and eight walks per block
+produce 360 queried checkpoints at one/four/sixteen edits, with 120 fresh random
+controls. Output changes rise from 7/120 to 26/120 to 75/120, while old-skill
+retention falls. Both correctness and partial-progress gates fail. A final-only
+exception improves 152 corridors and partial wave geometry, but no paired branches;
+it remains preserved with its full ancestry.
+
+![Mutation supply and final partial scores](results/mutation_accessibility/mutation_supply.png)
+
+The assay uses 133.24 candidate seconds under a 12-minute cap. Its disclosed
+pre-data timing amendment preserves all orientations and the frozen pool. The
+independent audit passes 889,728 exact candidate replays, 905,280 graded rasters,
+all mutation/RNG records and all prior completion hashes. Twenty focused tests
+passed; 283 collected, not a full-suite run. General solving and speedup remain
+unestablished. Random-origin discovery remains central.
+
+Exclude **191,784 whole layouts** next. See the [report](results/mutation_accessibility.md),
+[handoff](docs/MUTATION_ACCESSIBILITY_PROGRESS.md), and [unlaunched mutation-targeting
+proposal](results/mutation_accessibility/next_experiment.md). The proposed contrast
+tests whether execution-informed targeting produces useful variation before
+another long search, with the same random edit vocabulary and no known-solver injection.
+
+## Completed shared-prefix study V12Q
+
 The [V12Q shared-prefix evolution pilot](results/shared_prefix.md) is complete
 and independently audited. **Useful goal-conditioned waves reappear in fresh
 random-origin lineages, but no selection solves a paired route through the first
