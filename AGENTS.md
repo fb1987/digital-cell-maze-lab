@@ -34,7 +34,72 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12K is complete and independently audited**. Read
+Current checkpoint: **V12L is complete and independently audited**. Read
+`results/lineage_confirmation.md` and `docs/LINEAGE_CONFIRMATION_PROGRESS.md` first.
+Do not repeat/extend L, resume G–K, or train/reselect on inspected L confirmation.
+Heritable-exposure calibration is a proposal only, not launched or preregistered.
+
+Protocol/source/22fixed K-informed models/fixtures pushed09422ee BEFORE main
+case generation. Seed2026101907,fixtures1264. No evolution,genomeediting,reselection
+orforcedtraces. Old14panel retained plus K1/K2target,parent,Gentry,frozencontrol;
+identical Context genome aliases and full5/16edit ancestry preserved.
+
+36independent25×25templates,3goalshapes(straight/symmetric/asymmetric)×6prefix/
+sourceforms×2tailbands. Each has exact centered/offcenter graph+cluttertranslations,
+8poses,2goals,fork/two-junction/realalternativecycle,corridors,disconnectedcontrols.
+5760inputs/model:1728branchpairs,1152corridors,1152no-path. Translations/poses/graphs
+are correlated. All22models have exacttranslatednormalmasks on2880comparisons;
+this limited translation invariance is not arbitrary geometry generalization.
+
+K2i1089,256genes,birth16,16edits fromentryGBranchr2i8103:192pairs vsentry0,frozen24;
+all12short-prefixforktemplates work inall8poses/bothlocations,all3goalshapes,max11
+edges;1152/1152corridors. Parenti1040 same5760masks/statuses/steps buttarget saves
+4,404,576localreads;no last-editcorrectnessgain or hidden-stateequivalence claim.
+K2zero prefix4/8,extra-junction/cyclepairs. K1i458,5edits fromentryi2826:12pairs
+vsparent0,entry16;entrycomparison gains8,loses12,retains4;corridors52vs60. One
+shortstraightgoaltemplate,two poses,bothlocations,all3graphs,max6edges;noallpose.
+K1successfulpairs outside fixedmechanismsubset,so necessity is untested there.
+
+Mechanisms:all22models,9fixedlong-tailtemplates (3goalshapes×prefix1straight,
+2straight,8bent),1440inputs/432pairs pervariant;normalfirst thenpulseoff,flagoff,
+endpointcheckoff,nonlocalzero,chargedreadsretained. K2normal96pairs/288corridors;
+flagoff0/0,all1440maskschanged. Other3removals retainall1440masks/96pairs/288corridors,
+thoughpulse/nonlocal changework. No beneficialmultirangedependence. Localexception's
+12probepairs needpulse+endpointcheck,notflag. BroadBranch112→192nonlocalzeropairs,
+204→288corridors,4netpositivetemplates/all3goalshapes,no pair/corridorloss;parent
+repeats butrelated. Narrow128→192pairs,200→288corridors,only2straighttemplates,
+failsscreen. Normalfarprobesuccesses0forboth:retentionvacuous. BothprimaryLgate
+conditions pass (K2normal+oldbroadrescue);onlyseparatecalibrationrecommended.
+
+Oldnarrow324pairs(164fork/80two/80cycle),broad288(128/80/80). Narrow+parent4prefix4
+pairs,replacement4,local_long8(maxpaired12edges). ALLrandom0prefix8pairs.68gene
+unmutateddraw96forkpairs/6templates(allprefix1),1152corridors;fresh_evolved16fork
+pairs/1allpose-template;otherfreshcontrols0. Allrandom0/1152no-path,nofalsereachable
+no-pathclaims,alllegalnormaloutputsshortest. BFS/A*/bitwave/intact4608/4608reachable
++1152/1152disconnected. No latencybenchmark/general-solver/multirangeclaim.
+
+Main448.482candidate seconds/720cap,253440calls,267047037936work,457.149swall,
+662.16MiBRSS. Actual25×25profile452.62s;calibrationseparate61.254s/34848calls.
+AuditPASSEDfirstattempt532.999s/1044.23MiBRSS:288288candidate replays,303984rasters,
+17280baselines,1584adapterparity,21mutations,11520regeneratedgraphcases,166source/
+9input/19panel-source hashes,1187priorG/H/I/J/Kcompletionentries unchanged.8new+
+17relatedtestspass;220collected,NOTfullsuite. No frozen-sourcerepair/deviation.
+
+Exclude **170,840 whole layouts** next:163928throughK+3456Lfixtures+3456Lmain.
+`lineage_confirmation_data.exclusions()` returns throughK ONLY: append BOTH
+`lineage_confirmation_fixtures/mazes.json.gz` and
+`lineage_confirmation/confirmation/mazes.json.gz` underresults toreach170840.
+Tests reusedsavedfixtures;noadditionalunitgeometry. Keep alloldpopulation/RNG.
+
+Nextproposalonly:`results/lineage_confirmation/next_experiment.md`:minimal3bit
+heritableexposure(radii2/4/8),all-on/old andall-off/zero parity,neutralmetadataand
+matchedmutationopportunities,fixedzero/localcontrols. Staticinheritedsuppression
+isnotdynamicregulation orbeneficialmultirange. Calibrate performanceblind
+neighborhoods/actualreproductiveselection onNEWcases beforeboundedpilot. Fresh
+origin needsnewadjacent/twoedgepairedtasks andmeasurablepressure;2/3replicate
+holdoutgates+exactskillretentionbefore60–90min. No additional experiment launched.
+
+Historical checkpoint: **V12K is complete and independently audited**. Read
 `results/robustness_pressure.md` and `docs/ROBUSTNESS_PRESSURE_PROGRESS.md` first.
 Do not repeat/extend K, resume G–J, or train/reselect on inspected K final data.
 The new-lineage confirmation/heritable-exposure follow-up is a proposal only.

@@ -6,6 +6,33 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12L lineage confirmation](results/lineage_confirmation.md) is complete and
+independently audited. **The new K2 random-origin descendant completes 192 unseen
+fork pairs versus zero for its actual entry ancestor**, across twelve independent
+templates, all poses, centred/off-centre junctions and asymmetric goal bends.
+Its immediate parent has the same correctness; the latest edit reduces local reads.
+It still fails paired extra-junction/cycle and four/eight-edge-prefix tasks.
+
+On fixed mechanism probes, its successes require the static goal flag and survive
+pulse removal, endpoint-check removal and nonlocal zeroing. Separately, zeroing
+nonlocal values rescues the older broad Branch model **112→192 pairs**, with no
+lost successful pairs/corridors across four independent templates and all three
+goal forms. This supports a small **heritable exposure calibration**, not a claim
+of useful multirange computation or a general solver. The secondary K1 lineage
+regresses against its entry ancestor; the unmutated 68-gene draw remains useful.
+
+![Lineage confirmation and mechanism comparisons](results/lineage_confirmation/visuals/lineage_and_mechanisms.png)
+
+Main inference: **448.48 seconds / 720-second cap**, 253,440 calls. Audit passes
+first attempt: 288,288 exact candidate replays, 303,984 independent raster checks,
+all ancestry/baselines and 1,187 prior completion entries. Twenty-five focused tests
+pass; 220 collected, not a fresh full suite. Exclude **170,840 whole layouts** next.
+General solving, beneficial multirange use and speedup remain unestablished. See
+the [handoff](docs/LINEAGE_CONFIRMATION_PROGRESS.md) and
+[unlaunched calibration proposal](results/lineage_confirmation/next_experiment.md).
+
+## Completed robustness-pressure study V12K
+
 The [V12K robustness-pressure study](results/robustness_pressure.md) is complete
 and audited. **A new random-origin descendant solves 64 unseen fork pairs across
 eight contexts in every pose**, versus ten for its frozen initial selection. It
@@ -31,7 +58,7 @@ candidate replays, 1,786,496 raster checks and all thirty final states/RNG.
 Twenty-nine focused tests pass; 212 collected, not a fresh full suite. Exclude
 **163,928 whole layouts** next. General solving and speedup remain unestablished.
 See the [handoff](docs/ROBUSTNESS_PRESSURE_PROGRESS.md) and
-[unlaunched confirmation/regulation proposal](results/robustness_pressure/next_experiment.md).
+[confirmation/regulation proposal](results/robustness_pressure/next_experiment.md), whose lineage confirmation is now completed as V12L above.
 
 ## Completed matched junction-distance study V12J
 

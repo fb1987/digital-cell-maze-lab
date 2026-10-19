@@ -1,0 +1,204 @@
+{
+  "models": {
+    "branch_narrow": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "branch_broad": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "long_prefix": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "long_replacement": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "local_long": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "local_cycle": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "fresh_evolved": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "fresh_local": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "fresh_local_narrow": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "resampled": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "branch_narrow_parent": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "branch_broad_parent": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "shared_ancestor": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "intact": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k1_target": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k1_parent": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k1_entry": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k1_frozen": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k2_target": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k2_parent": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k2_entry": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    },
+    "k2_frozen": {
+      "translation_identical_masks": 2880,
+      "translation_comparisons": 2880,
+      "legal_nonshortest": 0
+    }
+  },
+  "lineages": {
+    "1": {
+      "entry": {
+        "gained_pairs": 8,
+        "lost_pairs": 12,
+        "retained_pairs": 4,
+        "gained_corridors": 12,
+        "lost_corridors": 20,
+        "identical_masks": 1416,
+        "identical_status_steps": 3072,
+        "fewer_reads": 2704,
+        "fewer_active": 3154,
+        "total_read_difference": -13882790,
+        "total_dispatch_difference": -18515968,
+        "identical_status_steps_work": 0
+      },
+      "parent": {
+        "gained_pairs": 12,
+        "lost_pairs": 0,
+        "retained_pairs": 0,
+        "gained_corridors": 44,
+        "lost_corridors": 0,
+        "identical_masks": 1408,
+        "identical_status_steps": 2880,
+        "fewer_reads": 2992,
+        "fewer_active": 3000,
+        "total_read_difference": -4468736572,
+        "total_dispatch_difference": -4880095058,
+        "identical_status_steps_work": 0
+      },
+      "frozen": {
+        "gained_pairs": 12,
+        "lost_pairs": 0,
+        "retained_pairs": 0,
+        "gained_corridors": 40,
+        "lost_corridors": 4,
+        "identical_masks": 356,
+        "identical_status_steps": 0,
+        "fewer_reads": 5568,
+        "fewer_active": 5568,
+        "total_read_difference": 192394622,
+        "total_dispatch_difference": 202452224,
+        "identical_status_steps_work": 0
+      }
+    },
+    "2": {
+      "entry": {
+        "gained_pairs": 192,
+        "lost_pairs": 0,
+        "retained_pairs": 0,
+        "gained_corridors": 1152,
+        "lost_corridors": 0,
+        "identical_masks": 0,
+        "identical_status_steps": 0,
+        "fewer_reads": 4236,
+        "fewer_active": 4236,
+        "total_read_difference": -6154294594,
+        "total_dispatch_difference": -6299797720,
+        "identical_status_steps_work": 0
+      },
+      "parent": {
+        "gained_pairs": 0,
+        "lost_pairs": 0,
+        "retained_pairs": 192,
+        "gained_corridors": 0,
+        "lost_corridors": 0,
+        "identical_masks": 5760,
+        "identical_status_steps": 5760,
+        "fewer_reads": 5760,
+        "fewer_active": 5760,
+        "total_read_difference": -4404576,
+        "total_dispatch_difference": 0,
+        "identical_status_steps_work": 0
+      },
+      "frozen": {
+        "gained_pairs": 168,
+        "lost_pairs": 0,
+        "retained_pairs": 24,
+        "gained_corridors": 88,
+        "lost_corridors": 0,
+        "identical_masks": 3224,
+        "identical_status_steps": 136,
+        "fewer_reads": 1068,
+        "fewer_active": 1374,
+        "total_read_difference": -597199222,
+        "total_dispatch_difference": -845591568,
+        "identical_status_steps_work": 0
+      }
+    }
+  }
+}
