@@ -1,0 +1,138 @@
+{
+  "audit_variant": "bounded parent-object retention; identical grading and replay coverage",
+  "audit_source_sha256": "0f4e0e989d31f84b4c7b90a78b7821e671c7d6f3b7dfe8bbde4ab8a387a09fbb",
+  "all_checks_passed": true,
+  "counts": {
+    "source_sha256": 146,
+    "input_sha256": 11,
+    "graph_cases": 15424,
+    "decision_labels": 3816,
+    "carry_populations_verified": 12,
+    "fresh_founders_reproduced": 1728,
+    "fitness_records": 328392,
+    "mutations": 170856,
+    "births_replayed": 244080,
+    "final_states_replayed": 30,
+    "graded_search_rasters": 2236032,
+    "final_candidate_replays": 43080,
+    "baseline_rasters": 2688,
+    "calibration_rasters": 1344,
+    "calibration_bfs_rasters": 224,
+    "synthetic_scores": 480
+  },
+  "layout_total": 136536,
+  "pressure_differences": [
+    {
+      "origin": "carry",
+      "topology": "local",
+      "replicate": 0,
+      "different_generations": 111,
+      "first_difference": 1,
+      "current_top_sets_differ": 0,
+      "branch_top_sets_differ": 2
+    },
+    {
+      "origin": "carry",
+      "topology": "local",
+      "replicate": 1,
+      "different_generations": 113,
+      "first_difference": 0,
+      "current_top_sets_differ": 3,
+      "branch_top_sets_differ": 2
+    },
+    {
+      "origin": "carry",
+      "topology": "local",
+      "replicate": 2,
+      "different_generations": 112,
+      "first_difference": 1,
+      "current_top_sets_differ": 5,
+      "branch_top_sets_differ": 2
+    },
+    {
+      "origin": "carry",
+      "topology": "evolved",
+      "replicate": 0,
+      "different_generations": 112,
+      "first_difference": 1,
+      "current_top_sets_differ": 2,
+      "branch_top_sets_differ": 4
+    },
+    {
+      "origin": "carry",
+      "topology": "evolved",
+      "replicate": 1,
+      "different_generations": 112,
+      "first_difference": 0,
+      "current_top_sets_differ": 0,
+      "branch_top_sets_differ": 3
+    },
+    {
+      "origin": "carry",
+      "topology": "evolved",
+      "replicate": 2,
+      "different_generations": 112,
+      "first_difference": 1,
+      "current_top_sets_differ": 0,
+      "branch_top_sets_differ": 0
+    },
+    {
+      "origin": "fresh",
+      "topology": "local",
+      "replicate": 0,
+      "different_generations": 113,
+      "first_difference": 0,
+      "current_top_sets_differ": 4,
+      "branch_top_sets_differ": 0
+    },
+    {
+      "origin": "fresh",
+      "topology": "local",
+      "replicate": 1,
+      "different_generations": 111,
+      "first_difference": 2,
+      "current_top_sets_differ": 6,
+      "branch_top_sets_differ": 8
+    },
+    {
+      "origin": "fresh",
+      "topology": "local",
+      "replicate": 2,
+      "different_generations": 111,
+      "first_difference": 2,
+      "current_top_sets_differ": 9,
+      "branch_top_sets_differ": 1
+    },
+    {
+      "origin": "fresh",
+      "topology": "evolved",
+      "replicate": 0,
+      "different_generations": 113,
+      "first_difference": 0,
+      "current_top_sets_differ": 0,
+      "branch_top_sets_differ": 1
+    },
+    {
+      "origin": "fresh",
+      "topology": "evolved",
+      "replicate": 1,
+      "different_generations": 111,
+      "first_difference": 2,
+      "current_top_sets_differ": 7,
+      "branch_top_sets_differ": 1
+    },
+    {
+      "origin": "fresh",
+      "topology": "evolved",
+      "replicate": 2,
+      "different_generations": 111,
+      "first_difference": 2,
+      "current_top_sets_differ": 7,
+      "branch_top_sets_differ": 3
+    }
+  ],
+  "search_summary_sha256": "577722060b5f6a07f4c5e2e6f2475d19d367a128847e17cf19014f470e09d0a9",
+  "confirmation_summary_sha256": "1b19a62a43137a237f66df6ffebd2b8a9739fc96273929d6dd3fdf8a645064d9",
+  "seconds": 224.214848292002,
+  "max_rss_bytes": 1367719936
+}

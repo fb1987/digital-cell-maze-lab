@@ -1,0 +1,11 @@
+{
+  "reason": "Replay compared native tuples with JSON lists in range_reads",
+  "different_fields": [
+    "range_reads"
+  ],
+  "model": "local/68e4844fc938b58a9dd2",
+  "diagnostic_replay_responses": 896,
+  "canonical_equality_passed": true,
+  "seconds": 0.318334249954205,
+  "search_checks_completed_before_failure": "All 113 generations and all 30 final state/RNG comparisons; no completion certificate was issued"
+}

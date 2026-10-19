@@ -21,17 +21,17 @@ def save(fig,name):
 
 def run():
     VIS.mkdir(exist_ok=True);a=json.loads((OUT/'analysis.json').read_text());s=json.loads((OUT/'confirmation/summary.json').read_text())
-    fig,axes=plt.subplots(1,2,figsize=(12,4.5));x=np.arange(4);groups=[('carry','local'),('carry','evolved'),('fresh','local'),('fresh','evolved')]
-    for offset,(label,color) in enumerate([('frozen','#8c949f'),('current/evolution','#4477aa'),('branch/evolution','#e17c32')]):
-        vals=[a['primary']['/'.join([o,t,label])] for o,t in groups]
+    fig,axes=plt.subplots(1,2,figsize=(14,5));x=np.arange(4);groups=[('carry','local'),('carry','evolved'),('fresh','local'),('fresh','evolved')]
+    for offset,(label,color,legend) in enumerate([('frozen','#8c949f','Frozen'),('current/evolution','#4477aa','Current'),('branch/evolution','#e17c32','Branch'),('current/resample','#9165a7','Resample')]):
+        vals=[a['primary'].get('/'.join([o,t,label])) for o,t in groups]
         for ax,field,denom in ((axes[0],'complete_pairs',576),(axes[1],'corridor_optimal',1152)):
-            ys=[r[field] for r in vals];bars=ax.bar(x+(offset-1)*.24,ys,width=.23,color=color,label=label.split('/')[0].capitalize())
-            ax.bar_label(bars,padding=3,fontsize=8)
+            ys=[r[field] if r else float('nan') for r in vals];bars=ax.bar(x+(offset-1.5)*.20,ys,width=.19,color=color,label=legend)
+            ax.bar_label(bars,labels=[str(r[field]) if r else '' for r in vals],padding=3,fontsize=8)
             ax.set_ylabel(f'Successes / {denom} across three replicates')
     for ax in axes:ax.set_xticks(x,['Carry\nlocal','Carry\nmultirange','Fresh\nlocal','Fresh\nmultirange']);ax.grid(axis='y',alpha=.15);ax.set_axisbelow(True);ax.margins(y=.2)
     axes[0].set_title('Complete goal-switched fork pairs');axes[1].set_title('Shortest matched corridor outputs');axes[0].legend(frameon=False,fontsize=9)
     fig.suptitle('V12G · fresh tests after the fixed 12-minute pilot',fontsize=15,y=1.02)
-    fig.text(.5,-.035,'24 independent fork bases × 8 poses; poses and repeated genotype selections are correlated. Resampling is tabulated in the report.',ha='center',fontsize=9)
+    fig.text(.5,-.035,'24 independent fork bases × 8 poses; poses and repeated selections are correlated. Resampling was run only for fresh populations.',ha='center',fontsize=9)
     fig.tight_layout();save(fig,'confirmation')
     with gzip.open(OUT/'checkpoint.latest.json.gz','rt') as f:states=json.load(f)['states']
     fig,axes=plt.subplots(2,2,figsize=(10,6),sharex=True,sharey=True)

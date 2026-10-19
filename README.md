@@ -6,6 +6,40 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12G minimal-fork pilot](results/fork_pressure.md) is complete: **113 matched
+generations in 11.78 minutes**, 30 populations of 96 organisms, 2.24 million
+responses. Preregistration was pushed in `83f78c6`; all selections were frozen
+and pushed in `f1b6bf9` before fresh final generation.
+
+One continued random-origin Branch selection completes **128/192 fresh goal
+pairs**, spanning 16 bases in all eight poses, including four longer pairs up to
+9/9 edges. Continued multirange Branch totals **216/576** across replicates,
+versus Current **146/576** and frozen **124/576**. Continued local Branch is
+worse: **128/576 versus 150/576 Current**. Gains are uneven, and no cohort passes
+the preregistered larger-run gate. The search budget is closed.
+
+Fresh evolution yields six local and eight multirange complete pairs; random
+resampling yields two and **32**, respectively. All these counts are out of 576
+paired tests across three replicates, on a deliberately small fork grammar.
+The 68-gene resampling winner is an unmutated random draw. The strongest carried
+variant retains all 128 successes with either goal-pulse removal or nonlocal
+zeroing; public goal flags and endpoint halting remain. **No causal multirange
+advantage, general solver, or speedup is established.** Measured successful fork
+outputs are a median 48.05× slower than compiled BFS.
+
+The final tests include matched pruned corridors and disconnected inputs. Cycles
+are dangling loops, so this does not test shortest-path competition among
+alternative cyclic routes. All selections, populations/RNG, raw masks and
+lineages are preserved. The audit checks every search raster and reproduction
+transition and replays all 43,080 final candidate responses. Twelve new tests
+pass; the full 175-test suite was not rerun. Future studies must exclude
+**136,536 whole layouts**. See the [completed handoff](docs/FORK_PRESSURE_PROGRESS.md)
+and [next proposal](results/fork_pressure/next_experiment.md), which is not launched.
+
+![Nine-edge paired fork example](results/fork_pressure/visuals/longer_pair.png)
+
+## Completed independent confirmation V12F
+
 The [V12F independent confirmation](results/route_confirmation.md) is complete.
 **The preserved longer-route genome fails transfer: 0/768 fresh reachable
 routes and 0/384 complete goal pairs.** Its parent also scores zero; the original

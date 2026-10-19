@@ -180,7 +180,7 @@ def run():
             rows=rec['rows'];verify_rows(checker,rows)
             pairs=[case_to_pair[rows[i]['case']] for i in range(0,len(rows),2)]
             model=models[rec['model']];ev=evaluate_model(Individual.load(model['item']),pairs,model['topology'],rec.get('mode','normal'))
-            assert ev.rows==rows;counts['final_candidate_replays']+=len(rows)
+            assert json.loads(json.dumps(ev.rows))==rows;counts['final_candidate_replays']+=len(rows)
     for rec in lines(OUT/'confirmation/baselines.jsonl.gz'):
         for r in rec['rows']:checker.row(r);counts['baseline_rasters']+=1
     for rec in lines(FIXTURES/'calibration.jsonl.gz'):

@@ -34,7 +34,79 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint (October 19, 2026): V12F is complete. Read
+Current checkpoint (October 19, 2026): V12G is complete. Read
+`results/fork_pressure.md` and `docs/FORK_PRESSURE_PROGRESS.md` first. Do not
+repeat or extend its closed 720-second pilot. All 30 next populations/RNG,
+raw masks, concrete mutation events, anchors and primary/secondary archives
+are preserved under `results/fork_pressure/`.
+
+V12G compares carry/fresh × local/evolved × Current/Branch × 3 replicates,
+plus fresh resampling controls, 96 organisms each. Carry uses V12E Current
+populations/RNG at generation 1365, with 9–15 C/D/E validation-selected anchors
+protected equally. Fresh founders are random, never known solvers. Capacity,
+V6 pulse runtime, single-edit mutation and common archive/elite rules are fixed.
+113 matched generations finish in 706.51 seconds (11.78 minutes), including
+initial validation; 2,236,032 responses, 269,773,599,386 work, 927.14 MiB peak RSS.
+Preregistration is 83f78c6. All selections were frozen/pushed in f1b6bf9 BEFORE
+fresh final generation. Seed 2026101902, construction seed 1214.
+
+Final corpus: 24 base forks × 8 poses × 2 goals = 384 inputs/192 pairs, 384
+matched pruned corridor inputs and 128 disconnected inputs. Stage lengths
+2–4/3–7/5–10 edges; stage 2 and 21×21 boards are untrained. Cycles are dangling
+loops, NOT alternative source-to-goal paths. Eight shared isolated clutter
+cells diversify layouts but need not be computationally neutral. Route shapes
+can recur. Corridors on different layouts are NOT goal-switch pairs.
+
+Primary complete-pair totals /576 across three replicates:
+carry/local Current150 Branch128 frozen146;
+carry/evolved Current146 Branch216 frozen124;
+fresh/local Current2 Branch6 resampling2 frozen0;
+fresh/evolved Current0 Branch8 resampling32 frozen0.
+Carry/evolved Branch replicates [128,24,64] versus Current [28,72,46]. Best
+`fork/carry/evolved/branch/evolution/0/i4549` (255 genes, birth/selection64)
+descends through24 single-edit steps from protected V12E Paired ancestor
+`foundation_pair_paired/evolved/fresh/evolution/0/i108890`, always random-origin.
+It completes16 independent bases in all eight poses (12 trees,4 cyclic), including
+four longer pairs with6/8,8/7,8/9,9/9-edge routes. Both goal-pulse removal and
+nonlocal zeroing retain all128 pairs; flags/endpoint-aware halt remain. Every
+eligible primary retains all its successful pairs under nonlocal zeroing. No
+causal multirange advantage is established. Do not infer flag/halt necessity
+without separate interventions.
+
+Fresh Branch successes concentrate in replicate1: local133-gene descendant
+of a random immigrant after3 mutation steps gives6 paired poses of3 bases,
+no base in all8; evolved111-gene descendant after12 steps gives8 poses ofone
+5/4-edge tree base. The resampling multirange winner is an unmutated68-gene
+random draw,32 paired poses of4 tree bases, all8 poses each, including6/8edges.
+Preserve this control; do not claim consistent evolutionary discovery advantage
+or necessity of larger genomes. Choice archives are secondary, not replacements.
+
+Only1/3 continued-local and1/3 continued-evolved validation replicates pass the
+larger-run gate; fresh0/3. No cohort qualifies; no budget extension. A local
+Branch validation gain12→24 becomes a fresh loss40→8, motivating broader
+validation as a hypothesis. Four validation bases/replicate are selection data.
+No general/ordinary maze benchmark was added. BFS/A*/bit-wavefront/intact VM
+solve all768 reachable and128 disconnected inputs. Primary false no-path claims:
+8 fresh/local resampling and8 fresh/evolved Current; other cohorts0. Median
+successful fork timing is48.05× compiled BFS (corridors21.71×); no speedup.
+
+Confirmation23.06s:45 physical models behind121 aliases,40,320 normal+2,760
+ablation responses; timing adds48,177 candidate+48,177 BFS calls separately.
+Audit224.21s verifies146 source/11 input hashes,328,392 fitness records,
+all2,236,032 search rasters,170,856 mutations,244,080 reproduced births/RNG,
+all30 next states and43,080 final candidate replays. A first audit was aborted
+on tuple/list serialization equality in range_reads; diagnostic confirms values
+identical, canonical comparison fixes it and the complete audit passes. Original
+frozen auditor remains; active bounded-memory variant is tools/audit_fork_pressure.py.
+12 new tests pass; previous163 are preserved, not a fresh full175-test run.
+
+Exclude **all136,536 whole layouts** through V12G, including fixtures, unqueried
+poses and final controls. No retuning against inspected finals. The unlaunched
+proposal is a bounded fixed-variant mechanism/transfer test and a separate test
+of wider validation, with more independent bases, two junctions, and genuine
+alternative-route cycles. Do not start another unchanged60–90-minute search.
+
+Historical checkpoint V12F (October 19, 2026): V12F is complete. Read
 `results/route_confirmation.md` and `docs/ROUTE_CONFIRMATION_PROGRESS.md` first.
 Do not rerun/extend it or resume V12E. No evolution occurred. Protocol, source,
 fixtures and exact target/parent/checkpoint/replacement models were frozen and
