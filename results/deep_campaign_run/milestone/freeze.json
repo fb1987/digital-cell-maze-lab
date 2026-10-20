@@ -1,0 +1,47 @@
+{
+  "recorded_utc": "2026-10-20T19:23:59.258266+00:00",
+  "generation": 10000,
+  "latest_stage": 10020,
+  "chain": "b9bc7249286592dd53760b7b097322ef0d12437cebe3e028f9e72793950cdb99",
+  "state_sha256": "5a0a454616e4d71831b88f32820121cd6bcb24ef8a2b2b18e679a1eb30900fdf",
+  "choices_sha256": "8389f69c99318d03a81b427dc59a223f6a7110ebd292edb735e7b529fac9fb93",
+  "amendment": "2a7fb6283ac2db74f11a70759140fcc9acd30cb57ce41e8d010b12dbfa4498f4",
+  "usage": {
+    "calls": 37259538,
+    "candidate_seconds": 46401.44721775601,
+    "cpu_seconds": 48656.22578400104,
+    "receipts": 309375,
+    "uncertain_attempts": 0,
+    "work": 15996484480483
+  },
+  "session_002": {
+    "ended_epoch": 1792524012.863184,
+    "generation": 10000,
+    "pending": null,
+    "reason": "milestone",
+    "sampled_peak_tree_rss_bytes": 2241871872,
+    "session_process_tree_cpu_seconds": 9292.827751,
+    "started_epoch": 1792521387.8914099,
+    "usage": {
+      "calls": 37259538,
+      "candidate_seconds": 46401.44721775601,
+      "cpu_seconds": 48656.22578400104,
+      "receipts": 309375,
+      "uncertain_attempts": 0,
+      "work": 15996484480483
+    },
+    "wall_seconds": 2624.9499197920086
+  },
+  "layout_count": 952219,
+  "confirmation_not_generated": true,
+  "selection_rule_verified": true,
+  "full_reproduction_audit": "pending",
+  "original_and_a1_seals_verified": true,
+  "run_bytes": 13995563835,
+  "journal_bytes": 7641473024,
+  "new_uncompressed_backup_total": 21637036859,
+  "storage_cap": 21474836480,
+  "new_backup_deferred": true,
+  "backup_note": "Existing round8268 backup preserved. A second full SQLite backup would exceed the registered run-storage cap; no bound bypassed.",
+  "disk_free_bytes": 54636683264
+}
