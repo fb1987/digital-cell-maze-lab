@@ -6,6 +6,31 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 20, 2026
 
+The [V12Z family-reserve evolution comparison](results/family_evolution.md) is
+complete and independently audited: **128 matched generations in 69.57 minutes**,
+with 6.51 million search responses. The family reserve preserves more variation
+within retained relatives but does not improve final primary solving.
+
+Fresh ordinary mutation and random resampling each solve 160/1,120 complete pairs
+in all three replicates; family reserve solves 160/0/160 and frozen references
+0/0/4. These successes all start directly at a fork junction. None of the fresh
+primaries completes a positive-prefix pair. Carried primary correctness stays
+at its frozen baseline. Mutation reaches the elementary validation phenotype
+earlier; resampling catches up on the final test. The registered stronger gate
+fails in every cohort.
+
+![Actual emitted fork outputs and their boundary](results/family_evolution/routing_boundary.png)
+
+The one-cell-prefix failure is precise: in all six ordinary-mutation/resampling
+primaries, the correct fork route is illuminated along with one extra cell.
+These are invalid native outputs, with no cleanup applied. The saved populations
+support a bounded mechanism/activation follow-up; another long sexual run still
+requires its new actual-transfer gate. See [the handoff](docs/FAMILY_EVOLUTION_PROGRESS.md)
+and [longer-run status](docs/LONG_SEARCH_SETUP.md). Exclude **272,464 whole layouts**
+from future independent data. All raw histories and RNG checkpoints are preserved.
+
+## Completed opportunity assay V12Y
+
 The [V12Y fixed-parent opportunity assay](results/mating_opportunity.md) is
 complete and independently audited. **Lighter regulatory linkage helps, but
 related variation is still too sparse for the proposed long crossover test.**
@@ -20,12 +45,9 @@ with zero organism calls and zero new mazes. Main work took 109.33 seconds;
 independent audit 190.69 seconds. The exclusion set remains **255,356 layouts**.
 Thirty-one opportunity/related tests and six separate retention-prototype tests pass.
 
-The [longer-run setup](docs/LONG_SEARCH_SETUP.md) prepares two 75-minute designs:
-first mutation with versus without a reserve of related variants; then a sexual
-comparison conditional on a fresh activation pass. The reserve selector is
-implemented and tested. Runner integration, registration, calibration and exact
-replay preflight remain; these specifications are not yet launch-ready jobs.
-See the [handoff](docs/MATING_OPPORTUNITY_PROGRESS.md) before continuing.
+The two longer-run designs prepared after Y are tracked in
+[the setup document](docs/LONG_SEARCH_SETUP.md). The first is now complete as Z
+above. The sexual comparison remains conditional and unlaunched.
 
 ## Completed activation pilot V12X-R1
 

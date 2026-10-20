@@ -11,13 +11,13 @@ arms=('current_mutation','family_mutation','resample','frozen');labels=('Mutatio
 colors=('#127c80','#8754ad','#d79424','#828b92')
 fig,axes=plt.subplots(2,4,figsize=(16,8),layout='constrained')
 for row,origin in enumerate(('carry','fresh')):
- for col,(metric,title) in enumerate((('prefix4','Prefix 4 complete pairs'),('positive','All positive prefix pairs'),('ordinary','Ordinary shortest paths'))):
+ for col,(metric,title) in enumerate((('prefix4','Prefix 4 pairs /224'),('pairs','All complete pairs /1120'),('ordinary','Ordinary paths /384'))):
   ax=axes[row,col]
   for rep in range(3):
    vals=[s['primaries'][f'{origin}/{rep}/{a}']['metrics'][metric] for a in arms]
-   ax.plot(range(4),vals,color='#bac2c7',lw=.8,zorder=1)
-   for x,(value,color) in enumerate(zip(vals,colors)):ax.scatter(x,value,color=color,marker=('o','s','^')[rep],s=45,zorder=2)
-  ax.set_xticks(range(4),labels,rotation=22,ha='right');ax.set_title(f'{origin.capitalize()} — {title}');ax.set_ylim(bottom=-1);ax.grid(axis='y',alpha=.2)
+   ax.plot(np.arange(4)+(rep-1)*.07,vals,color='#bac2c7',lw=.8,zorder=1)
+   for x,(value,color) in enumerate(zip(vals,colors)):ax.scatter(x+(rep-1)*.07,value,color=color,marker=('o','s','^')[rep],s=45,zorder=2)
+  ax.set_xticks(range(4),labels,rotation=22,ha='right');ax.set_title(f'{origin.capitalize()} — {title}');denom={'prefix4':224,'pairs':1120,'ordinary':384}[metric];ax.set_ylim(-denom*.015,denom);ax.set_yticks(np.linspace(0,denom,5));ax.grid(axis='y',alpha=.2)
  ax=axes[row,3]
  for arm,label,color in zip(arms,labels,colors):
   for rep in range(3):

@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse
 import hashlib
+import gzip
 import json
 import sys
 
@@ -85,10 +86,26 @@ def validate(plan):
     assert plan['search_wall_seconds']==4500 and plan['local_only'] and not plan['known_solver_injection']
     for name,h in plan['evidence'].items():
         assert sha(ROOT/name)==h,name
-    assert plan['status']=='prepared_specification_not_registered_or_launched'
-    return dict(name=plan['name'],conditions=plan['conditions'],
-        minutes=plan['search_wall_seconds']/60,prepared=True,launch_ready=all(plan['readiness'].values()),
-        outstanding=[name for name,ready in plan['readiness'].items() if not ready])
+    with gzip.open(ROOT/plan['whole_layout_exclusion_file'],'rt') as source:excluded=json.load(source)
+    assert excluded['count']==len(set(excluded['hashes']))==plan['known_excluded_layouts']
+    status=plan['status']
+    allowed=('prepared_specification_not_registered_or_launched','integrated_preflight_passed_pending_registration','search_complete_final_pending','complete_and_audited')
+    assert status in allowed
+    executed=status in ('search_complete_final_pending','complete_and_audited')
+    if status!='prepared_specification_not_registered_or_launched':
+        assert plan['name']=='mutation_diversity_75m'
+        run=ROOT/'results/family_evolution'
+        assert json.loads((run/'preflight.json').read_text())['passed']
+        assert json.loads((ROOT/'results/family_evolution_fixtures/profile.json').read_text())['passed']
+        if plan['readiness']['protocol_registered']:assert (run/'preregistration.json').exists()
+        if executed:assert json.loads((run/'search_execution.json').read_text())['complete']
+        if status=='complete_and_audited':assert json.loads((run/'completion.json').read_text())['audit_passed']
+    outstanding=[name for name,ready in plan['readiness'].items() if not ready]
+    if plan['sexual_crossover'] and 'new_actual_transfer_activation_gate' not in outstanding:outstanding.append('new_actual_transfer_activation_gate')
+    return dict(name=plan['name'],status=status,conditions=plan['conditions'],
+        minutes=plan['search_wall_seconds']/60,prepared=True,already_executed=executed,
+        launch_ready=not executed and not outstanding,outstanding=outstanding)
+
 
 
 def main():

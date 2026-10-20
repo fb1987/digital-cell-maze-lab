@@ -59,6 +59,11 @@ def main():
         for arm in ARMS:
             mm=[counts[f'{origin}/{r}/{arm}']['metrics'] for r in range(3)]
             print(origin,arm,{n:[m[n] for m in mm] for n in ('prefix4','prefix8','cycle','positive','pairs','ordinary','corridors','no_path','false_no_path')})
+    course={}
+    for generation in (0,32,64,96,128):
+        path=OUT/('initial_states.json.gz' if generation==0 else f'checkpoints/g{generation}.json.gz')
+        snapshot=read_compressed(path);course[generation]={k:v['archives']['primary']['metrics']['pairs'] for k,v in snapshot.items()}
+    (OUT/'validation_time_course.json').write_text(json.dumps(dict(selection_data_only=True,independent_tests=False,primary_complete_pairs=course),indent=2)+'\n')
     print('search',ex['generations'],ex['wall_seconds'],'births',births,'mutations',mutations)
 
 if __name__=='__main__':main()

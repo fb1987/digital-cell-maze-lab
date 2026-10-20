@@ -1,34 +1,32 @@
-# V12Z progress
+# V12Z completed and audited
 
-Authorized continuation of the longer-run plan. Implementation, timing and
-three-generation discarded rehearsal passed. This file is mutable progress;
-`docs/FAMILY_EVOLUTION_V12Z.md` is the immutable protocol after registration.
+The mutation versus family-reserve comparison is complete. The fixed 75-minute
+allowance closed after 128 matched generations in 69.57 minutes, with 6,512,640 search
+responses. Registration 8c01929; selections/search records ef1dca6 before final.
 
-24conditions ×96organisms, carry/fresh ×3replicates × currentmutation,
-familymutation,resampling,frozen. 4500-second hard search wall and independent
-600candidate-second final allowance. No crossover in this experiment.
+Read [the report](../results/family_evolution.md) and
+[the next proposal](../results/family_evolution/next_experiment.md). No gate passes.
+Family reserve increases structural variation but gives no final routing benefit.
+Fresh ordinary mutation and resampling each reach 160/1,120 pairs in all three replicates,
+all prefix-zero forks; family 160/0/160, frozen 0/0/4. No fresh positive-prefix pairs. Carried
+primary correctness stays at its frozen baseline. Mutation reaches elementary
+validation success earlier; final resampling catches up. Saved masks expose
+one-cell branch stubs on prefix-one forks; outputs remain invalid and unmodified.
 
-All6923prior completion entries verified. Exclude262052whole layouts through
-preparation (255356old +6696new fixtures, including all unqueried variants).
-14focused tests passed (eight integration cases plus six selector cases).
-Calibration17696calls/3.39candidate seconds; rehearsal165888calls including
-82944exactreplays/60.44candidate seconds,79.93wall. Combinedcalibration63.83s
-under180s. 96generation conservative projection3537.92s. No scientific
-validation or search performed yet. Rehearsal populations are discarded.
+Audit passes on first attempt: 2465.55s wall,
+3,294,531 exact main/profile/final replays plus 82,944 rehearsal,
+6,819,616 independent grades plus 82,944 rehearsal,
+all ancestry/RNG/checkpoints and 21,696 conventional baseline replays.
+43 focused/related tests plus four archive/replay integrity tests pass; not a full-suite run.
+No frozen source repair or protocol deviation.
 
-Next: freeze/push, launch75minute allowance; preserve common matched rounds;
-freeze/push choices before untouched final generation; independent audit,
-report, seal, and update this handoff. No automatic extension or sexual run.
+All 24 next populations, RNG, raw masks, nominees, ancestry and locus IDs preserved.
+Restore the large log using tools/archive_family_evolution_births.py restore.
+For future audits use tools/replay_family_evolution_audit.py, which writes a
+separate packet under output/ and leaves sealed artifacts unchanged.
 
-Search completed at128matchedgenerations,4174.06seconds(69.57minutes), stopping
-at the registered wall reserve. Candidate3485.28seconds,6512640calls,
-2017046991212work;487407616bytespeakRSS. All24nextpopulations/RNG preserved.
-Validation positive-prefix andprefix4 primary counts remain at initial values.
-Fresh elementary prefix0forks:mutation80/80/80,family80/0/80,resample80/80/80
-versusfrozen0/0/2(allpaired totals; nonepositiveprefix). This is selection data,
-not final confirmation. The early mutation advantage was caught by resampling.
-
-93aliases/40physical models frozen in choices.json.gz. Ancestry131653270bytes
-packaged losslessly into4ordered32MiB-or-smaller chunks;2archive integrity tests
-pass in addition to43earlier tests. No scientific source changes after8c01929.
-Next: commit/push choices and raw records, generate untouched final, audit.
+Exclude **272,464 whole layouts** through Z using
+results/family_evolution/whole_layout_exclusions.json.gz plus later fixtures.
+Completion adds 957 sealed entries; future prior total 7880.
+Do not repeat or extend Z, silently resume its states, or tune on inspected finals.
+The next mechanism/activation work is a proposal only; no sexual long run launched.

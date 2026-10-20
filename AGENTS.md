@@ -34,7 +34,97 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12Y is complete and audited; neither cap passes the
+Current checkpoint: **V12Z is complete and independently audited**. Read
+`results/family_evolution.md` and `docs/FAMILY_EVOLUTION_PROGRESS.md` first.
+Do not rerun/extend its closed allowance, silently resume its states, or train
+or reselect on its inspected final cases. The longer sexual comparison remains
+unregistered and unlaunched; its actual-transfer gate is still required.
+
+Z registration8c01929 pushed before scientific validation/training; all choices,
+next populations and search records frozen/pushed ef1dca6 BEFORE final generation.
+Seed2026102004; fixtures1434/1435; software23456789.24conditions of96:carry/fresh
+×3replicates×currentmutation/familyreserve/resample/frozen. Carry20exact historical
+random-origin anchors, fresh wholly random64–128gene founders. Native local
+runtime/exposure7,256gene/256tick cap; no known-solver injection or crossover.
+44survivors/52births common; mutation7immigrants+45singleedit children. Family
+only changes retention:4additionalmerit, upto5families×4distinct variants,
+farthest-first inherited-locus mismatch; common behavior/rank fill. Archives
+stay external. Historical labels separate except documented d07/d12 homology.
+
+128matchedgenerations finish in4174.06s(69.57min), wall_reserve stop. Candidate
+3485.28s,6512640calls,2017046991212work,464.83MiBRSS.119808births:69120mutation
+and50688newrandom.550144logicalresponses/condition; initial shared screening
+physically reused. Of candidate time,779.09s initial,1911.72s training,794.47s
+later validation. Only8laternominationevents/condition; useful unnominated
+variants remain preserved. Final newborn populations have unevaluated offspring.
+
+Final7232inputs/model:20structured contexts,8poses,2goals,prefix0/1/2/4/8,
+matched forks/secondjunctions/realalternativecycles;1120pairs,2240corridors,
+384ordinaryreachable,2368disconnected inputs. Contexts independent seeded
+clutter draws within a small fixed grammar; variants/poses correlated and route
+shapes recur.93aliases/40physicalmodels,289280candidatecalls,281.29candidate
+seconds,293.15wall,21696separate conventional baseline calls.
+
+ALL carried primaries share frozen successful-case membership:526/1120pairs,
+326/896positiveprefix,66/224prefix4,36/224prefix8,8/128positivecycle,
+2064/2240corridors,56/384ordinary.11/12keep exact historical carry1i18358;
+currentmutation/0 selects256gene i1319 through3Zmutationbirths, no new correct
+case membership. These are preserved abilities, not a Z improvement.
+
+Fresh complete pairs across3replicates:current[160,160,160],family[160,0,160],
+resample[160,160,160],frozen[0,0,4]. All160successes are20prefix0forkcontexts
+inall8poses. Every fresh primary0positiveprefix and0secondjunction/cyclepairs.
+Ordinary current[8,8,8],family[8,0,16],resample[16,8,16],frozen[0,0,2]/384;
+all these ordinary successes1–2edges,atmost2bases. Mutation finds elementary
+validation80pairs in2/3by32,3/3by64;resampling3/3onlyat128. Correlated selection
+timecourse; final resampling matches. Current winners122/136/91genes,
+29/7/11Zmutationbirths; resampling124/106/120genes,unmutatedrandomdraws.
+No registered gate passes:0/3bothorigins,bothmutation policies. No general
+solver, causal multirange benefit or speedup established; no latency benchmark.
+
+Retrospective saved masks:all six fresh current/resample primaries contain the
+oracle path PLUS exactly1extra cell onall320prefix1forkinputs/model. Prefix2/4/8
+also contain the path withmultipleextras. These remain INVALID native outputs;
+no pruning/repair or extra inference. No new forced traces or mechanism ablations.
+See routing_boundary.png and raster_diagnostics.json. This narrows a visible
+output-selectivity failure but does not prove stopping versus rule causation.
+
+Final retained-relative mean inherited-locus distance higher inall6matched
+comparisons:carry current4.7/6.9/4.4%→family9.8/14.5/18.4%;fresh22.2/22.7/24.4%
+→27.1/31.9/42.3%. Structural variation, not functional modules or transfer proof.
+Effective mutable-family count increases inonly3/6finalcomparisons. Preserve
+all24states/RNG, full genomes, archived ancestry, locus IDs, raw masks and losses.
+
+Evolved/resampled primaries0/2368correctno-path and0false reachable claims.
+Frozenfreshrep2gets1752no-path but3542/4864false reachable claims; not competence.
+BFS/A*/bitwave/intactVMsolve4864/4864reachable and2368/2368disconnected.
+
+First audit PASSES: 2465.55s wall,985.58MiBRSS.
+3294531main/profile/final exact replays (ALLnontraining +fixed1/256
+training), 6819616independent raster grades; rehearsal separately
+82944exactreplays/grades. All parent/selection/mutation/RNG/checkpoint/archive/
+choice events reproduced; shared production selection functions, independent
+grader.21696baseline replays;240source/21inputhashes,6923priorentries verify.
+No frozen-source repair/deviation.43focused/related+4archive/replayintegritytests
+pass, NOTfullsuite. Calibration+rehearsal63.83candidate seconds; audit additional.
+
+The131653270byte ancestrylog is preserved in4verified32MiB-or-smaller remote
+byte chunks. Restore with tools/archive_family_evolution_births.py restore.
+After sealing, use tools/replay_family_evolution_audit.py; it verifies seals and
+writes new audit packets under output/, preserving sealed originals. Do NOT
+rerun the raw audit action over the sealed audit.json. Completion seals
+957entries;futureprior total7880(6923+new;notunique files).
+Exclude ALL **272464 whole layouts** throughZ via
+results/family_evolution/whole_layout_exclusions.json.gz, pluslaterfixtures.
+
+Next proposal ONLY: freeze Z-informed fresh models/roots/randomcontrols and
+historical complements; new matched cases distinguish native stopping from
+persistent branch overgrowth, normal successes before forced-trace interpretation.
+Assess actual recombination opportunity separately. Sexual75min still requires
+NEW10%actualretainedmultichange activation,8generations,2/3allsexualpolicies
+BOTHorigins. See results/family_evolution/next_experiment.md. No new study launched.
+
+Historical V12Y checkpoint: **V12Y is complete and audited; neither cap passes the
 static opportunity screen**. Read `results/mating_opportunity.md`,
 `docs/MATING_OPPORTUNITY_PROGRESS.md` and `docs/LONG_SEARCH_SETUP.md`.
 Do not repeat Y, resume closed X, or treat static probabilities as solver gains.

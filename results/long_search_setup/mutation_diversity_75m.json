@@ -1,5 +1,5 @@
 {
-  "status": "integrated_preflight_passed_pending_registration",
+  "status": "complete_and_audited",
   "evidence": {
     "results/mating_opportunity/analysis.json": "27ec196f09ff54832e329247988e3cc1f7afebca8c275b56b26ed402ccec6d9c",
     "results/mating_opportunity/audit.json": "120b4351bed6a11051339f839908a958ab28d1d6dd3ef01b2a95fc4e69d3f2f3",
@@ -80,7 +80,7 @@
     "retention_policy_implemented": true,
     "retention_unit_tests_passed": true,
     "full_experiment_runner_integrated": true,
-    "protocol_registered": false,
+    "protocol_registered": true,
     "fixture_calibration_passed": true,
     "short_end_to_end_replay_passed": true
   },
@@ -108,5 +108,6 @@
   "organisms_per_matched_generation": 2304,
   "training_calls_per_generation": 27648,
   "implementation": "maze_evolution/family_evolution_study.py",
-  "protocol": "docs/FAMILY_EVOLUTION_V12Z.md"
+  "protocol": "docs/FAMILY_EVOLUTION_V12Z.md",
+  "completion": "results/family_evolution/completion.json"
 }
