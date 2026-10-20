@@ -1,0 +1,15 @@
+...F..........................                                           [100%]
+=================================== FAILURES ===================================
+______________ test_full_geometry_and_unqueried_layouts_excluded _______________
+
+data = ({'fixture/straight/v0/c0/s0/p0-straight/fork0/goal0/d4-0': Oracle(maze=Maze(cells=b'\x00\x00\x00\x00\x00\x00\x00\x00\...straight/v0/c0/s0', 'base': 'fixture/straight/v0/c0/s0/p0-straight/fork0', 'index': 0, 'shape': 'straight', ...}, ...})
+
+    def test_full_geometry_and_unqueried_layouts_excluded(data):
+        c,ctx,meta=data;g=geometry(c,ctx,meta)
+>       assert g['contexts']==4 and g['inputs']==4480 and g['whole_layouts']==2784
+E       assert (4 == 4 and 4480 == 4480 and 2780 == 2784)
+
+tests/test_causal_dissection.py:38: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_causal_dissection.py::test_full_geometry_and_unqueried_layouts_excluded
+1 failed, 29 passed in 3.90s
