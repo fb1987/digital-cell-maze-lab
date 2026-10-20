@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "generations": 128,
+  "stop": "wall_reserve",
+  "initial_budget": {
+    "cap_seconds": 4500,
+    "seconds": 779.0934233524604,
+    "calls": 2230272,
+    "work": 446911894751,
+    "maximum": 0.011122375028207898
+  },
+  "budget": {
+    "cap_seconds": 4500,
+    "seconds": 3485.2765902324463,
+    "calls": 6512640,
+    "work": 2017046991212,
+    "maximum": 0.04673825000645593
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.10225470800651237,
+    "case": "validation/core/a(2, 2)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "wall_seconds": 4174.055902375025,
+  "largest_round_wall": 267.06406320800306,
+  "peak_rss_bytes": 487407616,
+  "whole_layouts": 270132
+}

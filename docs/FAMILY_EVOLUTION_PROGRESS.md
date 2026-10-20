@@ -19,3 +19,16 @@ validation or search performed yet. Rehearsal populations are discarded.
 Next: freeze/push, launch75minute allowance; preserve common matched rounds;
 freeze/push choices before untouched final generation; independent audit,
 report, seal, and update this handoff. No automatic extension or sexual run.
+
+Search completed at128matchedgenerations,4174.06seconds(69.57minutes), stopping
+at the registered wall reserve. Candidate3485.28seconds,6512640calls,
+2017046991212work;487407616bytespeakRSS. All24nextpopulations/RNG preserved.
+Validation positive-prefix andprefix4 primary counts remain at initial values.
+Fresh elementary prefix0forks:mutation80/80/80,family80/0/80,resample80/80/80
+versusfrozen0/0/2(allpaired totals; nonepositiveprefix). This is selection data,
+not final confirmation. The early mutation advantage was caught by resampling.
+
+93aliases/40physical models frozen in choices.json.gz. Ancestry131653270bytes
+packaged losslessly into4ordered32MiB-or-smaller chunks;2archive integrity tests
+pass in addition to43earlier tests. No scientific source changes after8c01929.
+Next: commit/push choices and raw records, generate untouched final, audit.
