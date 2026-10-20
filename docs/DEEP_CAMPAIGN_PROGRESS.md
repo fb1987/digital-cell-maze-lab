@@ -1,10 +1,20 @@
 # Deep campaign progress
 
-**Current status, October 20 at 19:09 UTC: RUNNING under approved amendment A1.**
-Resumed from the exact 8,268-round checkpoint at 18:36:27 UTC. Round **9,582**
-was observed at this check, with zero uncertain attempts and all frontiers two.
-The existing journal, population/RNG state, cumulative counters and 10,000-round
-milestone continue. The heartbeat is ACTIVE again, with quiet routine monitoring.
+**Current status, October 20 at 19:25 UTC: 10,000 rounds COMPLETE; full audit RUNNING.**
+All three populations reached the registered milestone and stopped normally at
+19:20:12 UTC, with no pending stage or uncertain attempt. Do not resume evolution
+or extend the milestone. Frozen primary/complementary choices, final states and
+completion counters were committed and pushed in `af77416` before any independent
+confirmation generation. No confirmation cases have been generated.
+
+The registered selection/mutation/RNG audit is running durably through
+`tools/audit_deep_campaign_milestone.py`, wrapper PID 64068 / audit PID 64077 at launch.
+It invokes the sealed A1 audit command, preserves stdout/stderr and enforces the
+original resource guards. Inspect `results/deep_campaign_run/milestone/` for
+`audit_start.json`, logs, and eventual `audit.json` plus `audit_execution.json`.
+A live process or partial output does not establish a passing audit. Do not launch
+a duplicate auditor or writer. The heartbeat remains active until audit/report
+completion or an actionable failure.
 
 The user approved the documented repair after the 9×9 ordinary-perfect generator
 exhausted its finite novel topology pool. Only future ordinary-perfect training
@@ -745,3 +755,59 @@ candidates and references, with correlated poses and structured variants.
 Saved `assessment_09000.json`, `assessment_09500.json`, corresponding retention
 packets and `checkin_09500.json` under `results/deep_campaign_run/`.
 No extra organism inference or independent confirmation cases were generated.
+
+
+## Round 10,000 milestone and frozen choices
+
+The final assessment and normal session closure completed at 19:20:12 UTC. The
+runner froze one primary plus three complementary coverage selections per island,
+using the registered archive indices. The exact choice packet and final states
+are preserved remotely in commit `af77416`. The scientific journal stays local.
+The choice packet SHA-256 is
+`8389f69c99318d03a81b427dc59a223f6a7110ebd292edb735e7b529fac9fb93`;
+final chain is `b9bc7249286592dd53760b7b097322ef0d12437cebe3e028f9e72793950cdb99`.
+All original/A1 seals and exact choice-rule correspondence verify.
+
+All primaries are unchanged inherited B genomes, with 104/200 structured pairs,
+100/100 corridors, 4/48 perfect 11×11 and 6/48 random 9×9 ordinary successes. Their
+successful-case membership matches the frozen aggregate reference. Each has
+zero correct disconnected decisions and zero false reachable no-path claims.
+The best ordinary count anywhere on this panel is14/96, also achieved by a
+historical reference; the different panel does not establish regression.
+
+The frozen complements retain distinct abilities and substantial weaknesses.
+Island two's `i363906` solves 96/200 pairs, all eight prefix-two second-junction
+pairs, two perfect inputs on an eight-edge ordinary route, 100 corridors and 32/52
+disconnected cases without false reachable no-path claims. Its two perfect poses
+are outside the 20-reference union. `i363556` retains 102 pairs and 14 prefix-four
+fork pairs; `i337993` retains 86 pairs with six prefix-eight fork pairs. These are
+specialist results on development data, not general solving or causal evidence
+for a particular evolutionary policy.
+
+Island one's frozen `i363950` correctly labels 52/52 disconnected cases but falsely
+labels **534 reachable inputs** disconnected. It solves no complete pairs,
+corridors or ordinary reachable inputs. This degenerate selection exposes a
+limitation of positive coverage rewards; retain it in the frozen panel rather
+than silently replacing it after seeing the result. Other complements' complete
+case counts and same-panel reference comparisons are in `candidate_assessment.json`.
+
+Total charged work is 37,259,538 physical calls, 15,996,484,480,483 work units,
+46,401.45 summed candidate seconds and 48,656.23 summed worker CPU seconds, with
+309,375 completed task receipts and zero uncertain attempts. A1 accounts for
+6,551,568 calls, 6,681.10 candidate seconds and 7,024.27 worker CPU seconds. These
+parallel-time measures are distinct. Session 002 closed after 2,624.95 wall seconds
+(43m44.95s), with 9,292.83 process-tree CPU seconds and 2.09 GiB sampled peak RSS.
+The failed original session lacks complete closure metrics; preserve its recorded
+last-completed-stage wall time rather than inventing total process CPU or peak RSS.
+Audit/preflight/diagnostic work is additional and reported separately.
+
+The journal contains 952,219 excluded whole-layout hashes, including historical,
+software/diagnostic and all generated scientific poses. The run plus preserved
+round 8268 backup uses 13.03 GiB. Another full SQLite backup would bring it to 20.15 GiB,
+about 154.69 MiB over the registered 20 GiB cap. It is deferred despite sufficient
+free disk; neither the guard nor existing backup is bypassed. The live journal,
+prior backup, remote frozen choices and all scientific records remain preserved.
+
+The full selection/mutation/RNG replay is pending; no passing audit is claimed.
+A separate read-only ancestry extraction scans recorded birth events and does not
+replace that replay. Independent confirmation remains a separate protocol.
