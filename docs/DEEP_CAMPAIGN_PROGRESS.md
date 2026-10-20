@@ -338,3 +338,37 @@ confirmation, general-solving and speed claims remain unestablished.
 Saved `assessment_03500.json`, `assessment_04000.json`, `retention_03500.json`,
 `retention_04000.json` and `checkin_04000.json` under
 `results/deep_campaign_run/`.
+
+## Round 4,500 development assessment
+
+Checked at 16:33 UTC with the active writer at round 4,603. All frontiers remain
+two and no uncertain/retried batches are recorded. Observed process-tree RSS
+1.54 GiB, run storage 3.30 GiB, free disk 60.6 GiB. Frozen setup and assessment
+hashes verified; the monitor performed zero additional candidate inference.
+
+All primary choices solve 104/200 pairs and 14/96 ordinary inputs, exactly
+matching the protected aggregate reference's successful-case membership.
+Islands zero and two select that reference itself. Best ordinary scores are
+19, 20 and 20/96 versus 19/96 for the strongest protected ordinary reference;
+the two 20-success specialists solve only 34 and 26/200 pairs respectively.
+This is complementary coverage, not broad primary progress.
+
+The round-4,000 specialist `deep_v1/island2/i207989` remains archived and again
+solves all eight prefix-two second-junction pairs, plus six prefix-four fork
+pairs. It retains 94/200 pairs overall and 100/100 corridors. On this new panel
+it solves 8/96 ordinary inputs (four bases, longest route five edges), correctly
+identifies 22/52 disconnected inputs and makes zero false reachable no-path
+claims. Its earlier long ordinary paths remain valid observations on their
+original cases; changing-panel counts are not direct gains or losses.
+
+Several island-two descendants now reach 96/200 pairs while retaining the eight
+second-junction pairs. They remain below the protected primary's 104/200 and
+do not advance the frontier. Archived ordinary/no-path specialist
+`deep_v1/island2/i51989` solves 20/96 ordinary inputs, 26/200 pairs, 100/100
+corridors and 52/52 disconnected inputs, with no false reachable no-path claims.
+
+No new broad capability change or required intervention. Continue unchanged;
+all results remain development/selection data, without independent confirmation
+or exact-ancestor capability comparisons. Saved
+`results/deep_campaign_run/assessment_04500.json`, `retention_04500.json` and
+`checkin_04500.json`.
