@@ -1,7 +1,7 @@
 # Deep campaign progress
 
-**Current status, October 20 at 18:53 UTC: RUNNING under approved amendment A1.**
-Resumed from the exact 8,268-round checkpoint at 18:36:27 UTC. Round **8,994**
+**Current status, October 20 at 19:09 UTC: RUNNING under approved amendment A1.**
+Resumed from the exact 8,268-round checkpoint at 18:36:27 UTC. Round **9,582**
 was observed at this check, with zero uncertain attempts and all frontiers two.
 The existing journal, population/RNG state, cumulative counters and 10,000-round
 milestone continue. The heartbeat is ACTIVE again, with quiet routine monitoring.
@@ -694,3 +694,54 @@ Continue unchanged. No meaningful broad capability change or required user actio
 Saved `assessment_08500.json`, `retention_08500.json` and `checkin_08500.json` under
 `results/deep_campaign_run/`. All comparisons use identical assessment cases for
 candidates and frozen references; no confirmation cases were generated.
+
+
+## Rounds 9,000 and 9,500 development assessments
+
+Both registrations and the new assessment receipt/input/checkpoint hashes verify.
+The single existing writer remains active, all frontiers stay two, and uncertain
+attempts remain zero. At round 9,582 the process tree used 1.55 GiB RSS, total run
+storage including the preserved backup was 12.75 GiB, and 51.16 GiB remained free.
+No source, search configuration, state history or resource bound changed.
+
+At **9,000**, all primaries are inherited B genomes and solve 104/200 structured
+pairs. Each solves 8/48 ordinary perfect 11×11 inputs; their ordinary random 9×9
+scores are 11, 12 and 11/48. Island one's extra success over the aggregate reference
+is inherited and is also covered by the frozen-reference union. The best ordinary
+scores are 22/96 on every island, matching the best historical reference's count.
+Island one's specialist achieves this with 8 perfect + 14 random successes,
+whereas the strongest historical reference has 13 perfect + 9 random successes.
+Equal totals do not mean the same successful cases or the same other abilities.
+
+At **9,500**, all inherited B primaries again solve 104/200 pairs and exactly match
+the aggregate reference's successful-case membership: 8/48 perfect and 8/48 random
+ordinary inputs. The best ordinary scores are 20, 26 and 20/96 across islands,
+versus the strongest historical reference's 20/96 (13 perfect + 7 random).
+Island-one `i103968`, born at round 2,000 and still archived, gives 14/48 perfect
+and 12/48 random successes, including two perfect and four random inputs outside
+the frozen-reference union. Its ordinary successful paths are at most four edges;
+it solves only 34/200 structured pairs and no disconnected inputs. This is a
+limited retained specialist, not evidence of broad solver acquisition or of an
+amendment benefit. Cross-panel and cross-phase totals are not paired gains.
+
+Tracked island-two specialists remain archived on both panels:
+
+| Genome | Pairs at both rounds | Perfect / random at 9,000 | Perfect / random at 9,500 | Correct disconnected at 9,000 / 9,500 |
+|---|---:|---:|---:|---:|
+| `i51989` | 26/200 | 4/48 / 6/48 | 12/48 / 6/48 | 50/52 / 52/52 |
+| `i207989` | 94/200 | 2/48 / 8/48 | 2/48 / 4/48 | 20/52 / 20/52 |
+| `i363556` | 102/200 | 2/48 / 2/48 | 1/48 / 3/48 | 37/52 / 43/52 |
+
+All three retain 100/100 corridors. `i207989` retains all eight prefix-two
+second-junction pairs; `i363556` retains 14/24 prefix-four fork pairs. At 9,500,
+`i363556` makes **one false no-path claim on a reachable input**, alongside its
+43 correct disconnected decisions. Its round-9,000 false count is zero; the
+other two specialists make zero false claims on both panels. Preserve this
+failure rather than interpreting disconnection successes alone as competence.
+
+Continue unchanged to the registered milestone. No new broad capability change
+or required action. These are development/selection data on identical panels for
+candidates and references, with correlated poses and structured variants.
+Saved `assessment_09000.json`, `assessment_09500.json`, corresponding retention
+packets and `checkin_09500.json` under `results/deep_campaign_run/`.
+No extra organism inference or independent confirmation cases were generated.

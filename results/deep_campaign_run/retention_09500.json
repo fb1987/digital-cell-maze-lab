@@ -1,0 +1,131 @@
+{
+  "generation": 9500,
+  "development_data": true,
+  "amendment": "2a7fb6283ac2db74f11a70759140fcc9acd30cb57ce41e8d010b12dbfa4498f4",
+  "new_inference_calls": 0,
+  "models": [
+    {
+      "identity": "deep_v1/island2/i51989",
+      "birth": 1000,
+      "parent": "deep_v1/island2/i51916",
+      "genome_digest": "0bf53873d898b6552843",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_disconnected": 32,
+          "ordinary_perfect": 12,
+          "ordinary_random": 6,
+          "paired/fork/prefix0": 24,
+          "paired/two_junction/prefix0": 2
+        },
+        "false_no_path": 0,
+        "legal": 176,
+        "shortest": 176
+      },
+      "paired": 26,
+      "ordinary_perfect": 12,
+      "ordinary_random": 6,
+      "correct_disconnected": 52,
+      "ordinary_novel_vs_reference_union": [],
+      "longest_ordinary_edges": 5
+    },
+    {
+      "identity": "deep_v1/island2/i207989",
+      "birth": 4000,
+      "parent": "deep_v1/island2/i207946",
+      "genome_digest": "979214bb21aba6efb4f8",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_perfect": 2,
+          "ordinary_random": 4,
+          "paired/cycle/prefix0": 8,
+          "paired/fork/prefix0": 16,
+          "paired/fork/prefix1": 24,
+          "paired/fork/prefix2": 24,
+          "paired/fork/prefix4": 6,
+          "paired/two_junction/prefix0": 8,
+          "paired/two_junction/prefix2": 8
+        },
+        "false_no_path": 0,
+        "legal": 322,
+        "shortest": 322
+      },
+      "paired": 94,
+      "ordinary_perfect": 2,
+      "ordinary_random": 4,
+      "correct_disconnected": 20,
+      "ordinary_novel_vs_reference_union": [],
+      "longest_ordinary_edges": 3
+    },
+    {
+      "identity": "deep_v1/island2/i363556",
+      "birth": 6992,
+      "parent": "deep_v1/island2/i363507",
+      "genome_digest": "0020f003ecd839918e79",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_disconnected": 23,
+          "ordinary_perfect": 1,
+          "ordinary_random": 3,
+          "paired/cycle/prefix0": 8,
+          "paired/fork/prefix0": 24,
+          "paired/fork/prefix1": 24,
+          "paired/fork/prefix2": 24,
+          "paired/fork/prefix4": 14,
+          "paired/two_junction/prefix0": 8
+        },
+        "false_no_path": 1,
+        "legal": 338,
+        "shortest": 338
+      },
+      "paired": 102,
+      "ordinary_perfect": 1,
+      "ordinary_random": 3,
+      "correct_disconnected": 43,
+      "ordinary_novel_vs_reference_union": [],
+      "longest_ordinary_edges": 3
+    },
+    {
+      "identity": "deep_v1/island1/i103968",
+      "birth": 2000,
+      "parent": "fork/carry/evolved/branch/evolution/0/i7406",
+      "genome_digest": "7c14c895ab068a6d892d",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 27,
+          "ordinary_perfect": 14,
+          "ordinary_random": 12,
+          "paired/fork/prefix0": 14,
+          "paired/fork/prefix1": 12,
+          "paired/fork/prefix2": 2,
+          "paired/fork/prefix8": 6
+        },
+        "false_no_path": 0,
+        "legal": 169,
+        "shortest": 169
+      },
+      "paired": 34,
+      "ordinary_perfect": 14,
+      "ordinary_random": 12,
+      "correct_disconnected": 0,
+      "ordinary_novel_vs_reference_union": [
+        "assessment/9500/ordinary/perfect/r0/32000/perfect/11x11/wilson-a1/d4-0",
+        "assessment/9500/ordinary/perfect/r0/32000/perfect/11x11/wilson-a1/d4-4",
+        "assessment/9500/ordinary/random/r0/44000/random/9x9/d4-0",
+        "assessment/9500/ordinary/random/r0/44000/random/9x9/d4-4",
+        "assessment/9500/ordinary/random/r0/52000/random/9x9/d4-0",
+        "assessment/9500/ordinary/random/r0/52000/random/9x9/d4-4"
+      ],
+      "longest_ordinary_edges": 4
+    }
+  ]
+}

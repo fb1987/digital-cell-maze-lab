@@ -1,0 +1,2287 @@
+{
+  "amendment": "2a7fb6283ac2db74f11a70759140fcc9acd30cb57ce41e8d010b12dbfa4498f4",
+  "chain": "30177ccde9026599308f10a2ec77be43499838b495da9b23843d784762301395",
+  "cross_phase_raw_counts_are_not_acquisition": true,
+  "development_data": true,
+  "generation": 9000,
+  "independent_confirmation": false,
+  "input_hash": "033f62b132de727ceebfecc62240261765821de161b63595a96e07894f282a9c",
+  "islands": [
+    {
+      "aggregate_reference": {
+        "archived": true,
+        "birth": 53,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 100,
+            "ordinary_perfect": 8,
+            "ordinary_random": 11,
+            "paired/cycle/prefix0": 8,
+            "paired/cycle/prefix1": 8,
+            "paired/fork/prefix0": 24,
+            "paired/fork/prefix1": 24,
+            "paired/fork/prefix2": 24,
+            "paired/two_junction/prefix0": 8,
+            "paired/two_junction/prefix1": 8
+          },
+          "false_no_path": 0,
+          "legal": 335,
+          "shortest": 335
+        },
+        "fitness": [
+          104,
+          335,
+          335,
+          0,
+          590.81971834
+        ],
+        "gains_vs_aggregate_reference": 0,
+        "genes": 255,
+        "genome_digest": "00077ad4555830bfd62d",
+        "identity": "carry/0/mutation/i3776",
+        "longest_ordinary_edges": 5,
+        "losses_vs_aggregate_reference": 0,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 10,
+        "ordinary_shortest": 19,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 8,
+          "ordinary_random": 11
+        },
+        "parent": "carry/0/mutation/i3115"
+      },
+      "assessed_identities": 127,
+      "best_ordinary": {
+        "archived": false,
+        "birth": 1365,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 89,
+            "ordinary_perfect": 13,
+            "ordinary_random": 9,
+            "paired/fork/prefix0": 11,
+            "paired/fork/prefix1": 1
+          },
+          "false_no_path": 0,
+          "legal": 228,
+          "shortest": 228
+        },
+        "fitness": [
+          12,
+          228,
+          228,
+          0,
+          360.70065463
+        ],
+        "gains_vs_aggregate_reference": 6,
+        "genes": 256,
+        "genome_digest": "e0c8fc02e098852eccb6",
+        "identity": "foundation_pair_current/local/fresh/evolution/1/i114696",
+        "longest_ordinary_edges": 9,
+        "losses_vs_aggregate_reference": 106,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 14,
+        "ordinary_shortest": 22,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 13,
+          "ordinary_random": 9
+        },
+        "parent": "foundation_pair_current/local/fresh/evolution/1/i114626"
+      },
+      "candidates_with_novel_success": 68,
+      "frontier": 2,
+      "island": 0,
+      "novel_candidates": [
+        {
+          "archived": true,
+          "birth": 443,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 96,
+              "ordinary_perfect": 2,
+              "ordinary_random": 6,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/fork/prefix8": 4,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 304,
+            "shortest": 304
+          },
+          "fitness": [
+            92,
+            304,
+            304,
+            0,
+            557.18656754
+          ],
+          "gains_vs_aggregate_reference": 4,
+          "genes": 255,
+          "genome_digest": "00ffd86fec48b3714757",
+          "identity": "deep_v1/island0/i23031",
+          "longest_ordinary_edges": 1,
+          "losses_vs_aggregate_reference": 31,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p8:6"
+          ],
+          "novel_vs_reference_union": {
+            "paired/fork/prefix8": 1
+          },
+          "ordinary_bases": 4,
+          "ordinary_shortest": 8,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 6
+          },
+          "parent": "deep_v1/island0/i22805"
+        },
+        {
+          "archived": true,
+          "birth": 8426,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 76,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 8,
+              "paired/fork/prefix1": 20,
+              "paired/fork/prefix2": 24,
+              "paired/fork/prefix4": 4,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 262,
+            "shortest": 262
+          },
+          "fitness": [
+            72,
+            262,
+            262,
+            20,
+            500.58146563
+          ],
+          "gains_vs_aggregate_reference": 27,
+          "genes": 254,
+          "genome_digest": "001bea90e028b4fbb701",
+          "identity": "deep_v1/island0/i438141",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 78,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p4:0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_perfect": 1,
+            "paired/fork/prefix4": 1
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island0/i437239"
+        },
+        {
+          "archived": false,
+          "birth": 8404,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 88,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 8,
+              "paired/fork/prefix1": 20,
+              "paired/fork/prefix2": 22,
+              "paired/fork/prefix4": 4,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 270,
+            "shortest": 270
+          },
+          "fitness": [
+            70,
+            270,
+            270,
+            20,
+            496.27159225
+          ],
+          "gains_vs_aggregate_reference": 27,
+          "genes": 255,
+          "genome_digest": "00053065318720fc2b85",
+          "identity": "deep_v1/island0/i437001",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 68,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p4:0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_perfect": 1,
+            "paired/fork/prefix4": 1
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island0/i436916"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 88,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 8,
+              "paired/fork/prefix1": 20,
+              "paired/fork/prefix2": 22,
+              "paired/fork/prefix4": 4,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 270,
+            "shortest": 270
+          },
+          "fitness": [
+            70,
+            270,
+            270,
+            20,
+            496.27159225
+          ],
+          "gains_vs_aggregate_reference": 27,
+          "genes": 256,
+          "genome_digest": "1f02544f057798f175c7",
+          "identity": "deep_v1/island0/i467975",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 68,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p4:0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_perfect": 1,
+            "paired/fork/prefix4": 1
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island0/i467905"
+        },
+        {
+          "archived": false,
+          "birth": 8990,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 8,
+              "paired/fork/prefix1": 20,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 268,
+            "shortest": 268
+          },
+          "fitness": [
+            68,
+            268,
+            268,
+            20,
+            493.84528196
+          ],
+          "gains_vs_aggregate_reference": 23,
+          "genes": 256,
+          "genome_digest": "0159149e5e3558bba2dd",
+          "identity": "deep_v1/island0/i467437",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 54,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_perfect": 1
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island0/i467282"
+        },
+        {
+          "archived": false,
+          "birth": 8581,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 8,
+              "paired/fork/prefix1": 20,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 268,
+            "shortest": 268
+          },
+          "fitness": [
+            68,
+            268,
+            268,
+            0,
+            497.0993116
+          ],
+          "gains_vs_aggregate_reference": 3,
+          "genes": 255,
+          "genome_digest": "0033f0832fc894edad29",
+          "identity": "deep_v1/island0/i446181",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 54,
+          "novel_feature_keys": [
+            "single:assessment/9000/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "ordinary_perfect": 1
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island0/i439313"
+        },
+        {
+          "archived": false,
+          "birth": 8999,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 85,
+              "disconnected": 20,
+              "ordinary_disconnected": 2,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 8,
+              "paired/fork/prefix1": 20,
+              "paired/fork/prefix2": 22,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 257,
+            "shortest": 257
+          },
+          "fitness": [
+            66,
+            257,
+            257,
+            22,
+            477.63754403
+          ],
+          "gains_vs_aggregate_reference": 25,
+          "genes": 256,
+          "genome_digest": "7d66c4197075cc571185",
+          "identity": "deep_v1/island0/i467908",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 71,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/0/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/0/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_disconnected": 2,
+            "ordinary_perfect": 1
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island0/i467855"
+        },
+        {
+          "archived": true,
+          "birth": 8499,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 50,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 4,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 16,
+              "paired/fork/prefix1": 16,
+              "paired/fork/prefix2": 16,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 216,
+            "shortest": 216
+          },
+          "fitness": [
+            64,
+            216,
+            216,
+            20,
+            431.23564713
+          ],
+          "gains_vs_aggregate_reference": 25,
+          "genes": 256,
+          "genome_digest": "521794275fee5d28f453",
+          "identity": "deep_v1/island0/i441938",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 108,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-0",
+            "single:assessment/9000/ordinary/random/r0/68000/random/9x9/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_perfect": 1,
+            "ordinary_random": 1
+          },
+          "ordinary_bases": 3,
+          "ordinary_shortest": 6,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 4
+          },
+          "parent": "deep_v1/island0/i441873"
+        }
+      ],
+      "opportunities": {
+        "corridor": 100,
+        "disconnected": 20,
+        "ordinary_disconnected": 32,
+        "ordinary_perfect": 48,
+        "ordinary_random": 48,
+        "paired/cycle/prefix0": 8,
+        "paired/cycle/prefix1": 8,
+        "paired/cycle/prefix2": 8,
+        "paired/cycle/prefix4": 8,
+        "paired/cycle/prefix8": 8,
+        "paired/fork/prefix0": 24,
+        "paired/fork/prefix1": 24,
+        "paired/fork/prefix2": 24,
+        "paired/fork/prefix4": 24,
+        "paired/fork/prefix8": 24,
+        "paired/two_junction/prefix0": 8,
+        "paired/two_junction/prefix1": 8,
+        "paired/two_junction/prefix2": 8,
+        "paired/two_junction/prefix4": 8,
+        "paired/two_junction/prefix8": 8
+      },
+      "ordinary_reference": {
+        "archived": false,
+        "birth": 1365,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 89,
+            "ordinary_perfect": 13,
+            "ordinary_random": 9,
+            "paired/fork/prefix0": 11,
+            "paired/fork/prefix1": 1
+          },
+          "false_no_path": 0,
+          "legal": 228,
+          "shortest": 228
+        },
+        "fitness": [
+          12,
+          228,
+          228,
+          0,
+          360.70065463
+        ],
+        "gains_vs_aggregate_reference": 6,
+        "genes": 256,
+        "genome_digest": "e0c8fc02e098852eccb6",
+        "identity": "foundation_pair_current/local/fresh/evolution/1/i114696",
+        "longest_ordinary_edges": 9,
+        "losses_vs_aggregate_reference": 106,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 14,
+        "ordinary_shortest": 22,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 13,
+          "ordinary_random": 9
+        },
+        "parent": "foundation_pair_current/local/fresh/evolution/1/i114626"
+      },
+      "primary": {
+        "archived": true,
+        "birth": 30,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 100,
+            "ordinary_perfect": 8,
+            "ordinary_random": 11,
+            "paired/cycle/prefix0": 8,
+            "paired/cycle/prefix1": 8,
+            "paired/fork/prefix0": 24,
+            "paired/fork/prefix1": 24,
+            "paired/fork/prefix2": 24,
+            "paired/two_junction/prefix0": 8,
+            "paired/two_junction/prefix1": 8
+          },
+          "false_no_path": 0,
+          "legal": 335,
+          "shortest": 335
+        },
+        "fitness": [
+          104,
+          335,
+          335,
+          0,
+          591.32740753
+        ],
+        "gains_vs_aggregate_reference": 0,
+        "genes": 256,
+        "genome_digest": "44634001b5c7ddb36e02",
+        "identity": "selectivity_v13b/carry/0/current/i1521",
+        "longest_ordinary_edges": 5,
+        "losses_vs_aggregate_reference": 0,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 10,
+        "ordinary_shortest": 19,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 8,
+          "ordinary_random": 11
+        },
+        "parent": "selectivity_v13b/carry/0/current/i1494"
+      },
+      "promotion_streak": 0,
+      "total_novel_success_union": {
+        "disconnected": 20,
+        "ordinary_disconnected": 32,
+        "ordinary_perfect": 1,
+        "ordinary_random": 2,
+        "paired/fork/prefix4": 4,
+        "paired/fork/prefix8": 7
+      }
+    },
+    {
+      "aggregate_reference": {
+        "archived": true,
+        "birth": 53,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 100,
+            "ordinary_perfect": 8,
+            "ordinary_random": 11,
+            "paired/cycle/prefix0": 8,
+            "paired/cycle/prefix1": 8,
+            "paired/fork/prefix0": 24,
+            "paired/fork/prefix1": 24,
+            "paired/fork/prefix2": 24,
+            "paired/two_junction/prefix0": 8,
+            "paired/two_junction/prefix1": 8
+          },
+          "false_no_path": 0,
+          "legal": 335,
+          "shortest": 335
+        },
+        "fitness": [
+          104,
+          335,
+          335,
+          0,
+          590.81971834
+        ],
+        "gains_vs_aggregate_reference": 0,
+        "genes": 255,
+        "genome_digest": "00077ad4555830bfd62d",
+        "identity": "carry/0/mutation/i3776",
+        "longest_ordinary_edges": 5,
+        "losses_vs_aggregate_reference": 0,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 10,
+        "ordinary_shortest": 19,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 8,
+          "ordinary_random": 11
+        },
+        "parent": "carry/0/mutation/i3115"
+      },
+      "assessed_identities": 125,
+      "best_ordinary": {
+        "archived": true,
+        "birth": 2000,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 27,
+            "ordinary_perfect": 8,
+            "ordinary_random": 14,
+            "paired/fork/prefix0": 14,
+            "paired/fork/prefix1": 12,
+            "paired/fork/prefix2": 2,
+            "paired/fork/prefix8": 6
+          },
+          "false_no_path": 0,
+          "legal": 165,
+          "shortest": 165
+        },
+        "fitness": [
+          34,
+          165,
+          165,
+          0,
+          342.74018001
+        ],
+        "gains_vs_aggregate_reference": 10,
+        "genes": 256,
+        "genome_digest": "7c14c895ab068a6d892d",
+        "identity": "deep_v1/island1/i103968",
+        "longest_ordinary_edges": 4,
+        "losses_vs_aggregate_reference": 150,
+        "novel_feature_keys": [
+          "pair:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p8:2",
+          "pair:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p8:6",
+          "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p8:2",
+          "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p8:6",
+          "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p8:2",
+          "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p8:6",
+          "single:assessment/9000/ordinary/random/r0/0/random/9x9/d4-0",
+          "single:assessment/9000/ordinary/random/r0/0/random/9x9/d4-4",
+          "single:assessment/9000/ordinary/random/r0/68000/random/9x9/d4-0"
+        ],
+        "novel_vs_reference_union": {
+          "ordinary_random": 3,
+          "paired/fork/prefix8": 6
+        },
+        "ordinary_bases": 11,
+        "ordinary_shortest": 22,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 8,
+          "ordinary_random": 14
+        },
+        "parent": "fork/carry/evolved/branch/evolution/0/i7406"
+      },
+      "candidates_with_novel_success": 69,
+      "frontier": 2,
+      "island": 1,
+      "novel_candidates": [
+        {
+          "archived": true,
+          "birth": 6499,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 4,
+              "ordinary_random": 8,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 20,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/fork/prefix8": 9,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 325,
+            "shortest": 325
+          },
+          "fitness": [
+            93,
+            325,
+            325,
+            20,
+            606.77299445
+          ],
+          "gains_vs_aggregate_reference": 30,
+          "genes": 255,
+          "genome_digest": "00c031392dba2b7f8367",
+          "identity": "deep_v1/island1/i337924",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 28,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p8:0",
+            "pair:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p8:4",
+            "pair:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p8:4",
+            "pair:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p8:4",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p8:0",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p8:4",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p8:0",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p8:4",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "paired/fork/prefix8": 8
+          },
+          "ordinary_bases": 7,
+          "ordinary_shortest": 12,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 4,
+            "ordinary_random": 8
+          },
+          "parent": "deep_v1/island1/i337873"
+        },
+        {
+          "archived": true,
+          "birth": 6983,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 296,
+            "shortest": 296
+          },
+          "fitness": [
+            88,
+            296,
+            296,
+            20,
+            549.29749279
+          ],
+          "gains_vs_aggregate_reference": 21,
+          "genes": 256,
+          "genome_digest": "000bff4a579387ff3f69",
+          "identity": "deep_v1/island1/i363080",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island1/i363035"
+        },
+        {
+          "archived": false,
+          "birth": 8982,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 296,
+            "shortest": 296
+          },
+          "fitness": [
+            88,
+            296,
+            296,
+            20,
+            548.45441586
+          ],
+          "gains_vs_aggregate_reference": 21,
+          "genes": 256,
+          "genome_digest": "00213cc24ca4326d7ea5",
+          "identity": "deep_v1/island1/i467023",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island1/i467008"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 296,
+            "shortest": 296
+          },
+          "fitness": [
+            88,
+            296,
+            296,
+            20,
+            548.45441586
+          ],
+          "gains_vs_aggregate_reference": 21,
+          "genes": 256,
+          "genome_digest": "0508fedc0b7de0e37d1f",
+          "identity": "deep_v1/island1/i467963",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island1/i467023"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 296,
+            "shortest": 296
+          },
+          "fitness": [
+            88,
+            296,
+            296,
+            20,
+            548.45441586
+          ],
+          "gains_vs_aggregate_reference": 21,
+          "genes": 256,
+          "genome_digest": "52fc3c788b475647992b",
+          "identity": "deep_v1/island1/i467971",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island1/i467023"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 296,
+            "shortest": 296
+          },
+          "fitness": [
+            88,
+            296,
+            296,
+            20,
+            548.11573885
+          ],
+          "gains_vs_aggregate_reference": 21,
+          "genes": 256,
+          "genome_digest": "d969bc136522df0ccd5a",
+          "identity": "deep_v1/island1/i467968",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island1/i467910"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 296,
+            "shortest": 296
+          },
+          "fitness": [
+            88,
+            296,
+            296,
+            20,
+            548.11573885
+          ],
+          "gains_vs_aggregate_reference": 21,
+          "genes": 256,
+          "genome_digest": "f8ff20e9217535a68c4f",
+          "identity": "deep_v1/island1/i467969",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island1/i467910"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 296,
+            "shortest": 296
+          },
+          "fitness": [
+            88,
+            296,
+            296,
+            20,
+            548.09012487
+          ],
+          "gains_vs_aggregate_reference": 21,
+          "genes": 255,
+          "genome_digest": "b152274c81467edc6e3f",
+          "identity": "deep_v1/island1/i467990",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island1/i467944"
+        }
+      ],
+      "opportunities": {
+        "corridor": 100,
+        "disconnected": 20,
+        "ordinary_disconnected": 32,
+        "ordinary_perfect": 48,
+        "ordinary_random": 48,
+        "paired/cycle/prefix0": 8,
+        "paired/cycle/prefix1": 8,
+        "paired/cycle/prefix2": 8,
+        "paired/cycle/prefix4": 8,
+        "paired/cycle/prefix8": 8,
+        "paired/fork/prefix0": 24,
+        "paired/fork/prefix1": 24,
+        "paired/fork/prefix2": 24,
+        "paired/fork/prefix4": 24,
+        "paired/fork/prefix8": 24,
+        "paired/two_junction/prefix0": 8,
+        "paired/two_junction/prefix1": 8,
+        "paired/two_junction/prefix2": 8,
+        "paired/two_junction/prefix4": 8,
+        "paired/two_junction/prefix8": 8
+      },
+      "ordinary_reference": {
+        "archived": false,
+        "birth": 1365,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 89,
+            "ordinary_perfect": 13,
+            "ordinary_random": 9,
+            "paired/fork/prefix0": 11,
+            "paired/fork/prefix1": 1
+          },
+          "false_no_path": 0,
+          "legal": 228,
+          "shortest": 228
+        },
+        "fitness": [
+          12,
+          228,
+          228,
+          0,
+          360.70065463
+        ],
+        "gains_vs_aggregate_reference": 6,
+        "genes": 256,
+        "genome_digest": "e0c8fc02e098852eccb6",
+        "identity": "foundation_pair_current/local/fresh/evolution/1/i114696",
+        "longest_ordinary_edges": 9,
+        "losses_vs_aggregate_reference": 106,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 14,
+        "ordinary_shortest": 22,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 13,
+          "ordinary_random": 9
+        },
+        "parent": "foundation_pair_current/local/fresh/evolution/1/i114626"
+      },
+      "primary": {
+        "archived": true,
+        "birth": 30,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 100,
+            "ordinary_perfect": 8,
+            "ordinary_random": 12,
+            "paired/cycle/prefix0": 8,
+            "paired/cycle/prefix1": 8,
+            "paired/fork/prefix0": 24,
+            "paired/fork/prefix1": 24,
+            "paired/fork/prefix2": 24,
+            "paired/two_junction/prefix0": 8,
+            "paired/two_junction/prefix1": 8
+          },
+          "false_no_path": 0,
+          "legal": 336,
+          "shortest": 336
+        },
+        "fitness": [
+          104,
+          336,
+          336,
+          0,
+          591.49151472
+        ],
+        "gains_vs_aggregate_reference": 1,
+        "genes": 255,
+        "genome_digest": "59a71f72b79687c865ed",
+        "identity": "selectivity_v13b/carry/1/current/i1527",
+        "longest_ordinary_edges": 5,
+        "losses_vs_aggregate_reference": 0,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 10,
+        "ordinary_shortest": 20,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 8,
+          "ordinary_random": 12
+        },
+        "parent": "carry/0/mutation/i3776"
+      },
+      "promotion_streak": 0,
+      "total_novel_success_union": {
+        "disconnected": 20,
+        "ordinary_disconnected": 32,
+        "ordinary_random": 3,
+        "paired/fork/prefix4": 6,
+        "paired/fork/prefix8": 18,
+        "paired/two_junction/prefix2": 6
+      }
+    },
+    {
+      "aggregate_reference": {
+        "archived": true,
+        "birth": 53,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 100,
+            "ordinary_perfect": 8,
+            "ordinary_random": 11,
+            "paired/cycle/prefix0": 8,
+            "paired/cycle/prefix1": 8,
+            "paired/fork/prefix0": 24,
+            "paired/fork/prefix1": 24,
+            "paired/fork/prefix2": 24,
+            "paired/two_junction/prefix0": 8,
+            "paired/two_junction/prefix1": 8
+          },
+          "false_no_path": 0,
+          "legal": 335,
+          "shortest": 335
+        },
+        "fitness": [
+          104,
+          335,
+          335,
+          0,
+          590.81971834
+        ],
+        "gains_vs_aggregate_reference": 0,
+        "genes": 255,
+        "genome_digest": "00077ad4555830bfd62d",
+        "identity": "carry/0/mutation/i3776",
+        "longest_ordinary_edges": 5,
+        "losses_vs_aggregate_reference": 0,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 10,
+        "ordinary_shortest": 19,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 8,
+          "ordinary_random": 11
+        },
+        "parent": "carry/0/mutation/i3115"
+      },
+      "assessed_identities": 125,
+      "best_ordinary": {
+        "archived": true,
+        "birth": 7493,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 89,
+            "ordinary_perfect": 13,
+            "ordinary_random": 9,
+            "paired/fork/prefix0": 11,
+            "paired/fork/prefix1": 1
+          },
+          "false_no_path": 0,
+          "legal": 228,
+          "shortest": 228
+        },
+        "fitness": [
+          12,
+          228,
+          228,
+          0,
+          360.70065463
+        ],
+        "gains_vs_aggregate_reference": 6,
+        "genes": 256,
+        "genome_digest": "01ea368ba2e4e19470d0",
+        "identity": "deep_v1/island2/i389598",
+        "longest_ordinary_edges": 9,
+        "losses_vs_aggregate_reference": 106,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 14,
+        "ordinary_shortest": 22,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 13,
+          "ordinary_random": 9
+        },
+        "parent": "deep_v1/island2/i389544"
+      },
+      "candidates_with_novel_success": 71,
+      "frontier": 2,
+      "island": 2,
+      "novel_candidates": [
+        {
+          "archived": true,
+          "birth": 6992,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_disconnected": 17,
+              "ordinary_perfect": 2,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/fork/prefix4": 14,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 338,
+            "shortest": 338
+          },
+          "fitness": [
+            102,
+            338,
+            338,
+            37,
+            609.5898918
+          ],
+          "gains_vs_aggregate_reference": 52,
+          "genes": 255,
+          "genome_digest": "0020f003ecd839918e79",
+          "identity": "deep_v1/island2/i363556",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 32,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p4:2",
+            "pair:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p4:2",
+            "pair:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p4:6",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p4:2",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p4:6",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p4:2",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p4:6",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/16000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/16000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/28000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/36000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/36000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/40001/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/48001/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/48001/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/52000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-4",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_disconnected": 17,
+            "paired/fork/prefix4": 7
+          },
+          "ordinary_bases": 2,
+          "ordinary_shortest": 4,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island2/i363507"
+        },
+        {
+          "archived": true,
+          "birth": 6999,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_disconnected": 16,
+              "ordinary_random": 8,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8,
+              "paired/two_junction/prefix2": 8
+            },
+            "false_no_path": 0,
+            "legal": 316,
+            "shortest": 316
+          },
+          "fitness": [
+            96,
+            316,
+            316,
+            36,
+            575.7735647
+          ],
+          "gains_vs_aggregate_reference": 45,
+          "genes": 256,
+          "genome_digest": "06133b383ba05fc08dab",
+          "identity": "deep_v1/island2/i363906",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 28,
+          "novel_feature_keys": [
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:0",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:2",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:4",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:6",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:0",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:2",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:4",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:6",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/16000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/16000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/36000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/36000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/48001/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/48001/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/52000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/52000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/8000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/8000/disconnected/9x9/d4-4",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_disconnected": 16,
+            "paired/two_junction/prefix2": 8
+          },
+          "ordinary_bases": 4,
+          "ordinary_shortest": 8,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 0,
+            "ordinary_random": 8
+          },
+          "parent": "deep_v1/island2/i363880"
+        },
+        {
+          "archived": true,
+          "birth": 4000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_perfect": 2,
+              "ordinary_random": 8,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 16,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/fork/prefix4": 6,
+              "paired/two_junction/prefix0": 8,
+              "paired/two_junction/prefix2": 8
+            },
+            "false_no_path": 0,
+            "legal": 326,
+            "shortest": 326
+          },
+          "fitness": [
+            94,
+            326,
+            326,
+            20,
+            619.99084333
+          ],
+          "gains_vs_aggregate_reference": 35,
+          "genes": 254,
+          "genome_digest": "979214bb21aba6efb4f8",
+          "identity": "deep_v1/island2/i207989",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 34,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p4:2",
+            "pair:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p4:6",
+            "pair:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p4:0",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:0",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:2",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:4",
+            "pair:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p2:6",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:0",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:2",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:4",
+            "pair:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p2:6",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "paired/fork/prefix4": 3,
+            "paired/two_junction/prefix2": 8
+          },
+          "ordinary_bases": 5,
+          "ordinary_shortest": 10,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 8
+          },
+          "parent": "deep_v1/island2/i207946"
+        },
+        {
+          "archived": true,
+          "birth": 1586,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 96,
+              "ordinary_perfect": 2,
+              "ordinary_random": 7,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/fork/prefix8": 4,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 305,
+            "shortest": 305
+          },
+          "fitness": [
+            92,
+            305,
+            305,
+            0,
+            558.06260534
+          ],
+          "gains_vs_aggregate_reference": 5,
+          "genes": 256,
+          "genome_digest": "0035f883ee95c8a4742a",
+          "identity": "deep_v1/island2/i82445",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 31,
+          "novel_feature_keys": [
+            "pair:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p8:6"
+          ],
+          "novel_vs_reference_union": {
+            "paired/fork/prefix8": 1
+          },
+          "ordinary_bases": 5,
+          "ordinary_shortest": 9,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 2,
+            "ordinary_random": 7
+          },
+          "parent": "deep_v1/island2/i29671"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_disconnected": 8,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 300,
+            "shortest": 300
+          },
+          "fitness": [
+            88,
+            300,
+            300,
+            28,
+            648.56668701
+          ],
+          "gains_vs_aggregate_reference": 29,
+          "genes": 256,
+          "genome_digest": "502c2cf4a2a4bf2fcbf2",
+          "identity": "deep_v1/island2/i467988",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 34,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-4",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_disconnected": 8
+          },
+          "ordinary_bases": 1,
+          "ordinary_shortest": 2,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 0,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island2/i467912"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_disconnected": 8,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 300,
+            "shortest": 300
+          },
+          "fitness": [
+            88,
+            300,
+            300,
+            28,
+            648.56668701
+          ],
+          "gains_vs_aggregate_reference": 29,
+          "genes": 254,
+          "genome_digest": "7fb696180e2132666417",
+          "identity": "deep_v1/island2/i467973",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 34,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-4",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_disconnected": 8
+          },
+          "ordinary_bases": 1,
+          "ordinary_shortest": 2,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 0,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island2/i467947"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_disconnected": 8,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 300,
+            "shortest": 300
+          },
+          "fitness": [
+            88,
+            300,
+            300,
+            28,
+            648.56668701
+          ],
+          "gains_vs_aggregate_reference": 29,
+          "genes": 255,
+          "genome_digest": "d778f392c9858f3a09d9",
+          "identity": "deep_v1/island2/i467977",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 34,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-4",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_disconnected": 8
+          },
+          "ordinary_bases": 1,
+          "ordinary_shortest": 2,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 0,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island2/i467936"
+        },
+        {
+          "archived": false,
+          "birth": 9000,
+          "capabilities": {
+            "by_stratum": {
+              "corridor": 100,
+              "disconnected": 20,
+              "ordinary_disconnected": 8,
+              "ordinary_random": 2,
+              "paired/cycle/prefix0": 8,
+              "paired/fork/prefix0": 24,
+              "paired/fork/prefix1": 24,
+              "paired/fork/prefix2": 24,
+              "paired/two_junction/prefix0": 8
+            },
+            "false_no_path": 0,
+            "legal": 300,
+            "shortest": 300
+          },
+          "fitness": [
+            88,
+            300,
+            300,
+            28,
+            648.56668701
+          ],
+          "gains_vs_aggregate_reference": 29,
+          "genes": 255,
+          "genome_digest": "da954fe49278c5e0cdab",
+          "identity": "deep_v1/island2/i467998",
+          "longest_ordinary_edges": 5,
+          "losses_vs_aggregate_reference": 34,
+          "novel_feature_keys": [
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/12000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/24000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/32000/disconnected/9x9/d4-4",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-0",
+            "single:assessment/9000/ordinary/disconnected/r0/56000/disconnected/9x9/d4-4",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(4, 6)/straight/c4/s0/two_junction/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/cycle/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/fork/p0/disconnected/1/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/0/d4-0",
+            "single:assessment/9000/stress/a(6, 4)/straight/c5/s0/two_junction/p0/disconnected/1/d4-0"
+          ],
+          "novel_vs_reference_union": {
+            "disconnected": 20,
+            "ordinary_disconnected": 8
+          },
+          "ordinary_bases": 1,
+          "ordinary_shortest": 2,
+          "ordinary_shortest_by_family": {
+            "ordinary_perfect": 0,
+            "ordinary_random": 2
+          },
+          "parent": "deep_v1/island2/i467914"
+        }
+      ],
+      "opportunities": {
+        "corridor": 100,
+        "disconnected": 20,
+        "ordinary_disconnected": 32,
+        "ordinary_perfect": 48,
+        "ordinary_random": 48,
+        "paired/cycle/prefix0": 8,
+        "paired/cycle/prefix1": 8,
+        "paired/cycle/prefix2": 8,
+        "paired/cycle/prefix4": 8,
+        "paired/cycle/prefix8": 8,
+        "paired/fork/prefix0": 24,
+        "paired/fork/prefix1": 24,
+        "paired/fork/prefix2": 24,
+        "paired/fork/prefix4": 24,
+        "paired/fork/prefix8": 24,
+        "paired/two_junction/prefix0": 8,
+        "paired/two_junction/prefix1": 8,
+        "paired/two_junction/prefix2": 8,
+        "paired/two_junction/prefix4": 8,
+        "paired/two_junction/prefix8": 8
+      },
+      "ordinary_reference": {
+        "archived": false,
+        "birth": 1365,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 89,
+            "ordinary_perfect": 13,
+            "ordinary_random": 9,
+            "paired/fork/prefix0": 11,
+            "paired/fork/prefix1": 1
+          },
+          "false_no_path": 0,
+          "legal": 228,
+          "shortest": 228
+        },
+        "fitness": [
+          12,
+          228,
+          228,
+          0,
+          360.70065463
+        ],
+        "gains_vs_aggregate_reference": 6,
+        "genes": 256,
+        "genome_digest": "e0c8fc02e098852eccb6",
+        "identity": "foundation_pair_current/local/fresh/evolution/1/i114696",
+        "longest_ordinary_edges": 9,
+        "losses_vs_aggregate_reference": 106,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 14,
+        "ordinary_shortest": 22,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 13,
+          "ordinary_random": 9
+        },
+        "parent": "foundation_pair_current/local/fresh/evolution/1/i114626"
+      },
+      "primary": {
+        "archived": true,
+        "birth": 30,
+        "capabilities": {
+          "by_stratum": {
+            "corridor": 100,
+            "ordinary_perfect": 8,
+            "ordinary_random": 11,
+            "paired/cycle/prefix0": 8,
+            "paired/cycle/prefix1": 8,
+            "paired/fork/prefix0": 24,
+            "paired/fork/prefix1": 24,
+            "paired/fork/prefix2": 24,
+            "paired/two_junction/prefix0": 8,
+            "paired/two_junction/prefix1": 8
+          },
+          "false_no_path": 0,
+          "legal": 335,
+          "shortest": 335
+        },
+        "fitness": [
+          104,
+          335,
+          335,
+          0,
+          591.30990873
+        ],
+        "gains_vs_aggregate_reference": 0,
+        "genes": 255,
+        "genome_digest": "0ea5d90a36d7e32657a5",
+        "identity": "selectivity_v13b/carry/2/current/i1543",
+        "longest_ordinary_edges": 5,
+        "losses_vs_aggregate_reference": 0,
+        "novel_feature_keys": [],
+        "novel_vs_reference_union": {},
+        "ordinary_bases": 10,
+        "ordinary_shortest": 19,
+        "ordinary_shortest_by_family": {
+          "ordinary_perfect": 8,
+          "ordinary_random": 11
+        },
+        "parent": "selectivity_v13b/carry/2/current/i1477"
+      },
+      "promotion_streak": 0,
+      "total_novel_success_union": {
+        "disconnected": 20,
+        "ordinary_disconnected": 32,
+        "paired/fork/prefix4": 10,
+        "paired/fork/prefix8": 10,
+        "paired/two_junction/prefix2": 8
+      }
+    }
+  ],
+  "new_inference_calls": 0,
+  "ordinary_dimensions": {
+    "perfect": [
+      11,
+      11
+    ],
+    "random": [
+      9,
+      9
+    ]
+  },
+  "physical_calls": 215136,
+  "stage": 9018,
+  "stimulus_phase": "perfect11_a1"
+}
