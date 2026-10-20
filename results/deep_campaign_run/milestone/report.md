@@ -1,8 +1,9 @@
 # Deep campaign: 10,000-round milestone
 
-**Search complete; full selection/mutation/RNG audit running.** This report uses
-saved development observations and recorded ancestry. It does not claim an audit
-pass or independent confirmation. No confirmation cases have been generated.
+**Search complete; full registered selection/mutation/RNG audit PASSED.** The
+first audit finished at 21:05:23 UTC on October 20, 2026. All 10,021 transitions
+and 1,560,000 births replayed exactly. Capability results remain development data,
+not independent confirmation. No confirmation cases have been generated.
 
 The campaign found and retained complementary specialists, but its three final
 aggregate primaries are unchanged inherited B genomes. Each solves 104/200
@@ -37,8 +38,9 @@ The denominators are 200 complete structured pairs, 48 perfect reachable inputs,
 no-path counts are incorrect disconnection claims on reachable queries, a separate
 failure metric. Poses and structured variants are correlated. All candidate
 rasters were independently graded at evaluation time; this is not an untouched
-holdout. Ancestral mutation counts below come from recorded-event tracing while
-the full registered replay is still running.
+holdout. Ancestral mutation counts below come from recorded-event tracing; the
+full registered replay has now verified every underlying campaign birth and
+population/RNG transition.
 
 | Island / role | Identity suffix | Pairs | Perfect 11×11 | Random 9×9 | Corridors | Correct disconnected | False no-path | Campaign mutation births in lineage |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -87,12 +89,12 @@ remain preserved. They do not change the frozen final nominations.
 
 A read-only scan counted **1,560,000 births**: 1,350,000 single-edit mutation births
 and 210,000 random immigrants. Of these, 1,289,808 occurred before A1 and 270,192
-after it. These counts agree with the fixed reproduction schedule; the separate
-full replay is checking every concrete event and population/RNG transition.
+after it. These counts agree with the fixed reproduction schedule, and the
+completed full replay verified every concrete event and population/RNG transition.
 
 The three primaries have zero campaign births in their ancestry because they
-were already present at launch. Selected complements range from one or two
-mutation births to **1,858**. The three island-two complements trace to the
+were already present at launch. Mutated complements range from one or two
+mutation births to **1,858**; the random-immigrant complement has zero. The three island-two complements trace to the
 preserved B root `selectivity_v13b/carry/2/current/i238` through 1,858, 1,789 and
 1,774 mutation births. Other deep selected lineages include 1,034 and 1,058
 mutation births from historical `carry/1/mutation/i18358`, and 977 from B
@@ -136,14 +138,40 @@ by about 154.69 MiB, so it is deferred despite sufficient free disk. No storage
 bound or preservation requirement was bypassed. Remote choices/final states are
 not a replacement for the complete local journal.
 
-The durable audit invokes the sealed A1 command to verify both registrations,
-the amendment boundary and journal chain, then replay every selection, mutation,
-checkpoint, archive and RNG transition. It does not replay all organism inference
-or provide a second VM implementation. Check `audit.json` and
-`audit_execution.json` for the eventual outcome; a live process or partial file
-is not success. Audit cost will be reported separately after completion.
+The first durable audit **passed** using the sealed A1 command. Both registrations,
+the amendment boundary and the full journal chain verified. It replayed all
+**10,021 transitions** (10,000 replacement rounds plus 21 broad assessments),
+all **1,560,000 births**, selection decisions, archived choices, saved population
+states and RNG transitions. Final usage and the chain match the pre-audit freeze.
+The post-audit check also confirms the original founder states, final population
+packet and frozen choices exactly match the journal. The existing round-8,268
+backup SHA-256 remains unchanged. `preservation_after_audit.json` records the
+final journal hash; all 952,219 exclusions are exported in
+`whole_layout_exclusions.json.gz` for subsequent protocol registration.
+
+Audit wall time was **6,019.55 seconds (100m19.55s)**, child CPU time 5,988.29
+seconds, and sampled peak process-tree RSS **512.63 MiB**. Exit code was zero,
+with no stderr output, resource stop or result-validation failure. These costs
+are additional to the scientific run. See `audit.json` and `audit_execution.json`.
+
+This audit reuses the registered selection/reproduction implementation; it is
+not an independently implemented selector or VM. It did not replay all organism
+inference or regrade all 37.26 million responses after the run. Independent raster
+grading occurred during evaluation. A passing replay establishes recorded-history
+consistency, not broad capability or causal superiority of the search design.
 
 Independent confirmation requires a separate registered protocol with these
 frozen choices, common untouched cases and appropriate historical references and
 ancestral controls. Until then, no generalization, causal search-policy advantage,
 multirange benefit or competitive speedup is established.
+
+
+## Handoff
+
+The campaign, frozen selections, ancestry summary and registered audit are complete.
+The follow-up is paused. The frozen panel and exported exclusions are ready for
+**a separate confirmation protocol to be designed and registered**. That protocol
+has not yet been registered or run. It should distinguish retained historical
+abilities, acquired specialist abilities and broad correctness on common untouched
+cases, including appropriate ancestral controls. This phase authorizes neither
+an unchanged search extension nor silent reselection of the frozen panel.

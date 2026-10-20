@@ -1,20 +1,19 @@
 # Deep campaign progress
 
-**Current status, October 20 at 19:25 UTC: 10,000 rounds COMPLETE; full audit RUNNING.**
-All three populations reached the registered milestone and stopped normally at
-19:20:12 UTC, with no pending stage or uncertain attempt. Do not resume evolution
-or extend the milestone. Frozen primary/complementary choices, final states and
-completion counters were committed and pushed in `af77416` before any independent
-confirmation generation. No confirmation cases have been generated.
+**Current status, October 20 at 21:10 UTC: 10,000 rounds COMPLETE; audit PASSED.**
+All three populations stopped normally at the registered milestone. The first
+full registered replay finished successfully at 21:05:23 UTC: all 10,021 transitions
+and 1,560,000 births match, including selection, concrete mutation, final population
+and RNG states. Both registrations, the A1 boundary and journal chain verified.
+The heartbeat is PAUSED. No confirmation cases have been generated.
 
-The registered selection/mutation/RNG audit is running durably through
-`tools/audit_deep_campaign_milestone.py`, wrapper PID 64068 / audit PID 64077 at launch.
-It invokes the sealed A1 audit command, preserves stdout/stderr and enforces the
-original resource guards. Inspect `results/deep_campaign_run/milestone/` for
-`audit_start.json`, logs, and eventual `audit.json` plus `audit_execution.json`.
-A live process or partial output does not establish a passing audit. Do not launch
-a duplicate auditor or writer. The heartbeat remains active until audit/report
-completion or an actionable failure.
+Frozen choices and final states were pushed in `af77416` before confirmation.
+Read the finalized `results/deep_campaign_run/milestone/report.md`, `audit.json`,
+`audit_execution.json`, `completion.json` and `confirmation_readiness.json`.
+The report, audit logs and milestone records are sealed. Do not overwrite these
+packets, resume evolution or silently reselect candidates. Future re-audits must
+write separate output packets. A separate confirmation protocol is ready to be
+designed and registered; it has not been registered or run.
 
 The user approved the documented repair after the 9×9 ordinary-perfect generator
 exhausted its finite novel topology pool. Only future ordinary-perfect training
@@ -811,3 +810,40 @@ prior backup, remote frozen choices and all scientific records remain preserved.
 The full selection/mutation/RNG replay is pending; no passing audit is claimed.
 A separate read-only ancestry extraction scans recorded birth events and does not
 replace that replay. Independent confirmation remains a separate protocol.
+
+
+## Full audit passed and campaign closed
+
+The first registered A1 audit exited 0 at 21:05:23 UTC on October 20, 2026. It replayed
+all 10,021 recorded transitions (10,000 replacement rounds and 21 assessments) and
+all1,560,000 births, preserving exact decisions, mutation events, population states,
+archives and RNG states. The final chain and cumulative usage match the frozen
+milestone packet. No inference was replayed; every candidate raster was independently
+graded during evaluation. The replay uses the production selection/reproduction
+implementation, so this is not independent algorithm or VM verification.
+
+Audit cost: 6,019.55 wall seconds (100m19.55s), 5,988.29 child CPU seconds and 512.63 MiB
+sampled peak process-tree RSS. No stderr output, resource stop or result-validation
+failure occurred. All original/A1 seals still verify; no frozen source repair
+was needed. Post-audit checks found the exact original founders, final states,
+frozen choices and usage unchanged, with no pending stage and no active writer.
+
+Final journal SHA-256:
+`7e89d223fb9439e91434a7a24bd504dc37464bce977f7e6c908e87577d314e23`.
+The preserved round 8,268 backup retains its original verified hash. A second full
+backup remains deferred under the unchanged storage cap, not for lack of free
+disk. The complete 952,219-hash layout exclusion set is exported for future
+protocols. Raw journal records and all old scientific/failure packets remain.
+
+The ancestry scan agrees with the audited 1,560,000 births: 1,350,000 mutations and
+210,000 immigrants; 1,289,808 births before A1 and 270,192 after. The final selected
+ancestral subgraph contains 3,977 unique events. Three primary winners were already
+present at launch; selected mutation lineages reach 1,858 births. This does not
+turn mutation counts into useful-adaptation counts or specialists into a general
+solver. The final report preserves the unchanged primary results, complementary
+skills, false disconnection failures, shared ancestry and development-data limits.
+
+The report and audit are complete. Monitoring is paused as requested. The frozen
+panel, ancestral records and exclusions are ready for a separate bounded,
+preregistered confirmation protocol. No confirmation input generation, extra
+organism inference, reselection, or search extension occurred during this closeout.
