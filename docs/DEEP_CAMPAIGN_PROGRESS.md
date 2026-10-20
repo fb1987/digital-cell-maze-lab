@@ -116,3 +116,57 @@ their exact ancestors or the complete founder pool has not been tested.
 
 Saved summary: `results/deep_campaign_run/assessment_01000.json`. Current evidence
 does not warrant a user alert or protocol change. Continue the registered run.
+
+## Round 1,500 development assessment
+
+Checked at 15:17–15:22 UTC; the active run reached round 1,942 during inspection.
+The writer remains active with zero uncertain/retried batches. Observed
+process-tree RSS was 1.49 GiB, run storage 1.40 GiB and free disk 62.5 GiB.
+Frozen setup hashes verified. All islands remain at frontier two. No source,
+selection, budget or inference changes were made.
+
+The three primaries still complete 104/200 pairs and 14/96 ordinary inputs,
+with the same correct-case membership as the best protected aggregate reference.
+However, island two preserves an interesting ordinary/no-path specialist:
+`deep_v1/island2/i51989`, born at round 1,000 and retained in the behavioral archive.
+
+| Same round-1,500 development panel | Specialist | Best individual protected reference |
+|---|---:|---:|
+| Ordinary reachable inputs | 20/96 | 14/96 |
+| Complete structured pairs | 26/200 | 104/200 |
+
+The specialist's ordinary successes span ten base mazes in two poses each.
+Seven successful ordinary inputs are missed by the union of all 20 protected
+references. It also correctly reports all 52 disconnected inputs, makes zero
+false no-path claims on reachable inputs, and solves all 100 corridors.
+Its paired successes are 24 source-at-junction fork pairs and two
+source-at-junction second-junction pairs; it solves no positive-prefix pair.
+This is a substantial tradeoff, not an aggregate winner.
+
+One successful ordinary base has a **14-edge shortest route with an internal
+degree-three branch junction**, ten edges from the source and four from the
+goal. Both poses succeed. The output contains exactly the 15 route cells in
+a 31-cell connected component. The eight- and nine-edge successes on two
+other bases have no internal branch junction. The 14-edge case therefore
+demonstrates more than a long corridor on this panel, but remains one base
+in two correlated poses, without a matched goal-switch test.
+
+All 648 saved outputs for this specialist were independently regraded;
+successful ordinary masks and geometry were checked against the oracle paths.
+Its campaign ancestry contains 789 mutation births, replayed exactly back to
+initial B founder `selectivity_v13b/carry/2/current/i238`. Its genotype does not
+match any of the 288 initial genomes. These facts establish a changed descendant,
+**not functional acquisition attributable to those mutations**: exact ancestors
+and all initial genomes have not been compared on this panel. No additional
+candidate inference was performed.
+
+This is promising retained specialist coverage worth reporting, with unchanged
+limitations: assessment cases are development/selection data, protected-reference
+novelty is not full-founder novelty, and no general solver or speed advantage
+has been demonstrated. Continue the registered campaign unchanged.
+
+Saved packets: `results/deep_campaign_run/assessment_01500.json`,
+`checkin_01500.json` and `specialist_01500.json.gz`. The specialist packet includes
+saved successful ordinary rasters/geometry and the exact campaign ancestral
+events; lossless gzip round-trip verified. The authoritative journal remains
+preserved locally.
