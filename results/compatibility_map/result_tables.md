@@ -1,0 +1,72 @@
+# V12W: compatibility of four historical edits
+
+Eight independent structured contexts, four fixed poses per context, two goals per pair. The 32 factorial conditions are constructed probes, not evolved discoveries. All use the same unchanged local native runtime.
+
+Positive-prefix denominator: **480 pairs per condition**. Corridor denominator: 384 outputs. Ordinary reachable denominator: 384 outputs. All-pair denominator: 576, including prefix zero.
+
+| Later edits present | Self-COPY pairs | STORE pairs | STORE effect | Self-COPY corridors | STORE corridors | Self-COPY ordinary | STORE ordinary |
+|---|---|---|---|---|---|---|---|
+| None | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 9 | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 10 | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 9, 10 | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 11 | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 9, 11 | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 10, 11 | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 9, 10, 11 | 124 | 125 | 1 | 378 | 384 | 50 | 50 |
+| 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+| 9, 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+| 10, 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+| 9, 10, 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+| 11, 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+| 9, 11, 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+| 10, 11, 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+| 9, 10, 11, 12 | 124 | 0 | -124 | 378 | 12 | 50 | 44 |
+
+## Historical and preserved controls
+
+| Alias | All pairs /576 | Positive /480 | Prefix4/8 pairs /288 | Corridors /384 | Ordinary /384 | No-path /448 |
+|---|---|---|---|---|---|---|
+| d07 | 219 | 125 | 0 | 384 | 50 | 0 |
+| d08 | 217 | 124 | 0 | 378 | 50 | 0 |
+| d12 | 217 | 124 | 0 | 378 | 50 | 0 |
+| fresh2_root | 0 | 0 | 0 | 0 | 0 | 0 |
+| fresh2 | 64 | 32 | 0 | 384 | 32 | 0 |
+| broad_root | 12 | 0 | 0 | 30 | 48 | 0 |
+| carry1 | 142 | 84 | 60 | 318 | 32 | 0 |
+| random68 | 64 | 32 | 0 | 384 | 8 | 0 |
+| intact | 576 | 480 | 288 | 384 | 384 | 448 |
+
+## Exact EQ controls
+
+- no_store/0000->d08: 2368/2368 exact full-record matches, including work and memory.
+- no_store/1111->d12: 2368/2368 exact full-record matches, including work and memory.
+
+These tests concern only the empty and full historical backgrounds. They do not establish universal EQ neutrality.
+
+## Context-specific STORE effects
+
+| Independent context | Empty subset | Edit12 only | All four edits |
+|---|---|---|---|
+| straight/v0/c0/s0 | 0 | -16 | -16 |
+| straight/v1/c1/s0 | 0 | -16 | -16 |
+| bend_both/v0/c2/s0 | 0 | -16 | -16 |
+| bend_both/v1/c3/s0 | 0 | -16 | -16 |
+| bend_one/v0/c4/s0 | 0 | -16 | -16 |
+| bend_one/v1/c5/s0 | 0 | -16 | -16 |
+| hook/v0/c6/s0 | 1 | -12 | -12 |
+| hook/v1/c7/s0 | 0 | -16 | -16 |
+
+All 16 contrasts, 64 individual-edit contrasts, 32 conditional STORE×edit interactions, exact higher-order finite differences and paired gain/loss identities are saved in `analysis.json.gz`. Each effect is conditional on this lineage and corpus. Poses, goals and matched variants are correlated. Four poses are not evidence of full eight-pose robustness.
+
+## Execution and audit
+
+Main: 94,720 candidate calls, 215.94/720 candidate seconds, 124,919,097,664 charged work units; 220.34s wall and 484.09 MiB peak RSS.
+
+Calibration separately: 11,840 calls, 28.38/180 candidate seconds. Production-signature warmups are separately recorded; these totals are not a latency benchmark. The timing-only ladder rejected 12 contexts at 659.98s projected (650s planning threshold), selecting eight at 454.06s. No cap was extended.
+
+Audit passed: 106,560 exact candidate replays; 7,992 baseline replays; 114,552 independently graded rasters; 32 independently reconstructed factorial programs; 128 independent context-effect checks; 219 source/12 input hashes and 5,447 prior completion entries. Audit wall 261.67s; peak RSS 925.20 MiB. Exact replay uses the original native interpreter; it is not a separately implemented second VM.
+
+Nine new tests and 19 related tests pass (28); this is not a fresh full-suite run. Registration `e99f922` was pushed before final generation. No post-registration source repair or protocol deviation.
+
+All 8,448 generated final inputs and 4,480 fixture inputs remain saved, including unqueried variants and orientations. Exclude all **251,380 whole layouts through W**, using the sealed `whole_layout_exclusions.json.gz`; W data.exclusions() itself includes only the 243,540 through V. All earlier models, populations, RNG states and raw results remain preserved. No evolution or final-based selection occurred.

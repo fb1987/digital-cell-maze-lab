@@ -6,6 +6,31 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12W compatibility factorial](results/compatibility_map.md) is complete and
+independently audited. **Edit 12 identifies a concrete genetic interaction:**
+with the old output STORE present, positive-prefix solving falls from 125/480
+pairs to zero; without that STORE it remains 124/480. The same pattern holds in
+all eight combinations of the other three edits, with harmful effects in all
+eight independent contexts. These 32 constructed conditions are diagnostic
+probes, not new evolved discoveries.
+
+![Complete compatibility map](results/compatibility_map/compatibility.png)
+
+All factorial variants still fail paired prefix-4/8 tasks. The separate preserved
+specialist solves 60/288 of those pairs and remains important. General solving,
+reliable disconnected-case handling and speedup remain unestablished.
+Main compute: 215.94 seconds under a 720-second cap. Audit passes 106,560 exact
+candidate replays and 114,552 independent raster grades; 28 focused/related tests
+pass. Exclude **251,380 whole layouts** from future independent data.
+
+See the [report](results/compatibility_map.md), [handoff](docs/COMPATIBILITY_MAP_PROGRESS.md)
+and [unlaunched crossover proposal](results/compatibility_map/next_experiment.md).
+The next controlled choice is whether preserving parent-derived instruction
+dependencies during crossover helps acquire new routing abilities, with equal
+budgets, fresh random-origin populations and mutation/resampling controls.
+
+## Completed causal dissection V12V
+
 The [V12V causal dissection](results/causal_dissection.md) is complete and
 independently audited. **The channel-4 mechanism is confirmed on new inputs,
 and a simple genetic reversion proves harmful in the later background.**

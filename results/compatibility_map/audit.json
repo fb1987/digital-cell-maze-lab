@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "counts": {
+    "prior_hashes": 5447,
+    "factorial_programs_independently_rebuilt": 32,
+    "whole_layouts": 251380,
+    "candidate_replays": 106560,
+    "baseline_replays": 7992,
+    "independent_factorial_context_checks": 128,
+    "independently_graded_rasters": 114552
+  },
+  "source_hashes": 219,
+  "input_hashes": 12,
+  "wall_seconds": 261.67161925003165,
+  "peak_rss_bytes": 970145792,
+  "limitations": "Full exact native replay and independent raster/graph grading; historical event indices independently mapped to original loci for all32 probes. Per-context factorial effects separately tallied from raw paired responses. No independent second VM interpreter, no lineage replication, no speed benchmark."
+}
