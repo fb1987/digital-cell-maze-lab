@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "planning_rate": 0.004704450436444556,
+  "pool_rates": {
+    "carry/0": 0.0008507356014130588,
+    "carry/1": 0.0007699998974304537,
+    "carry/2": 0.0009164375121599733,
+    "fresh/0": 0.00023726901882683806,
+    "fresh/1": 0.00016744082045584542,
+    "fresh/2": 0.00019441744067686764
+  },
+  "reproduction_seconds": 1.7437228339840658,
+  "validation_inputs": 340,
+  "estimated_initial_seconds": 153.5532622455503,
+  "estimated_round_seconds": 25.96530985330022,
+  "estimated_16_round_seconds": 568.9982198983538,
+  "budget": {
+    "cap_seconds": 180,
+    "seconds": 7.3289715275750495,
+    "calls": 16464,
+    "work": 4390462633,
+    "maximum": 0.005748833005782217
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.1608630419941619,
+    "case": "fixture/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "wall_seconds": 12.592994790989906,
+  "scores_used_for_schedule": false,
+  "calibration_births_discarded": true,
+  "timing_refinement": {
+    "original": "results/selectivity_pressure/preflight_attempt0/profile.json",
+    "reason": "Use measured pooled per-condition rates with1.5x safety instead of2x slowest rate; four validation poses retain all contexts; all final poses preserved; no performance used",
+    "candidate_calls": 0
+  }
+}
