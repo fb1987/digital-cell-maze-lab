@@ -432,3 +432,31 @@ Continue the frozen campaign unchanged; these remain development data, not
 independent confirmation or exact ancestral acquisition evidence.
 Saved `results/deep_campaign_run/assessment_05500.json`,
 `retention_05500.json` and `checkin_05500.json`.
+
+## Round 6,000 development assessment
+
+Checked at 17:18 UTC with the active writer at round 6,302. All frontiers remain
+two, with zero uncertain/retried batches. Observed process-tree RSS 1.41 GiB,
+run storage 4.53 GiB and free disk 59.4 GiB. Frozen setup and assessment hashes
+verified. Monitoring performed zero candidate inference or search intervention.
+
+All primaries solve 104/200 pairs and 12/96 ordinary inputs, with exactly the
+protected aggregate reference's correct-case membership. Best ordinary scores
+are 16, 16 and 18/96 versus 16/96 for the strongest protected ordinary reference.
+The first two match the historical reference's successes. Island two's best
+is the retained `deep_v1/island2/i51989`: 18/96 across nine ordinary bases,
+longest route six edges, three ordinary successes missed by the protected
+reference union, 26/200 pairs, 100/100 corridors and 52/52 disconnected cases,
+with no false reachable no-path claims.
+
+Archived `deep_v1/island2/i207989` retains all eight prefix-two second-junction
+pairs, six prefix-four fork pairs and 94/200 pairs overall. It solves four
+ordinary inputs (two one-edge bases), all corridors and 22/52 disconnected
+inputs, with no false reachable no-path claims. Long-prefix specialist coverage
+continues elsewhere; unions of different genomes do not count as one solver.
+
+No new broad capability change or frontier promotion. Continue the frozen
+campaign unchanged. These are development/selection data; ancestor comparisons
+and independent confirmation remain outstanding.
+Saved `results/deep_campaign_run/assessment_06000.json`,
+`retention_06000.json` and `checkin_06000.json`.
