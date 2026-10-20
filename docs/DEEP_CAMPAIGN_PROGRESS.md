@@ -372,3 +372,36 @@ all results remain development/selection data, without independent confirmation
 or exact-ancestor capability comparisons. Saved
 `results/deep_campaign_run/assessment_04500.json`, `retention_04500.json` and
 `checkin_04500.json`.
+
+## Round 5,000 development assessment
+
+Checked at 16:48 UTC with the active writer at round 5,173. All frontiers remain
+two; no uncertain/retried batches. Observed process-tree RSS 1.54 GiB, run storage
+3.71 GiB and free disk 60.2 GiB. Frozen setup and assessment hashes verified.
+The run has passed halfway through the registered milestone within its bounds;
+no source, configuration or selection changes were made.
+
+All three primary pair counts remain 104/200. Ordinary primary scores are
+11, 11 and 12/96 versus 11/96 for the protected aggregate reference. All three
+primaries are inherited B individuals; island two's extra ordinary success is
+not campaign acquisition. Best ordinary scores are 15/96 throughout, with the
+same successful-case membership as historical protected reference
+`foundation_pair_current/local/fresh/evolution/1/i114696`.
+
+Archived specialist `deep_v1/island2/i207989` again solves all eight prefix-two
+second-junction pairs and six prefix-four fork pairs, retaining 94/200 pairs
+overall and 100/100 corridors. It solves 2/96 ordinary inputs on this new panel
+and 20/52 disconnected inputs, with zero false reachable no-path claims.
+The strong structured niche persists across changing development panels, while
+ordinary transfer remains sparse. Some related specialists retain 96/200 pairs;
+none replaces the 104-pair primary.
+
+Ordinary/no-path specialist `deep_v1/island2/i51989` remains archived with
+14/96 ordinary successes (seven bases, longest correct route nine edges),
+26/200 pairs, 100/100 corridors and 52/52 disconnected successes, with zero
+false reachable no-path claims. Protected-reference novelty and changed-panel
+counts still do not establish exact ancestral acquisition or broad generality.
+
+Continue unchanged. No new capability change requiring notification.
+Saved `results/deep_campaign_run/assessment_05000.json`,
+`retention_05000.json` and `checkin_05000.json`; monitoring added zero inference.
