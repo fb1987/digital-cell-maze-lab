@@ -243,3 +243,36 @@ without exact-ancestor/full-founder comparisons or independent confirmation.
 Continue unchanged. No broad capability change or required user action.
 Saved `results/deep_campaign_run/assessment_02500.json`,
 `retention_02500.json` and `checkin_02500.json`.
+
+## Round 3,000 development assessment
+
+Checked at 16:03 UTC; the active writer reached round 3,474. All frontiers remain
+two, with zero uncertain/retried batches. Observed process-tree RSS 1.67 GiB,
+run storage 2.49 GiB and free disk 61.5 GiB. Frozen setup and assessment hashes
+verified. This read-only monitoring performed zero candidate inference.
+
+All three primaries solve 104/200 pairs and 8/96 ordinary inputs, with exactly
+the protected aggregate reference's correct-case membership. Best ordinary
+counts are 17, 15 and 15/96 versus 15/96 for the strongest individual protected
+ordinary reference. Island zero's 17-success specialist also makes 62 false
+reachable no-path claims (two correct disconnected responses yield its net
+no-path fitness of -60). Its ordinary advantage is not reliable broad solving.
+Island one's best ordinary descendant matches the historical reference's
+successful-case membership.
+
+The retained ordinary/no-path specialist `deep_v1/island2/i51989` gives 14/96
+ordinary successes on seven bases, longest route ten edges, alongside its
+unchanged 26/200 pairs, 100/100 corridors and 52/52 disconnected successes with
+zero false reachable no-path claims on this panel.
+
+Both tracked second-junction specialists remain archived, retaining their two
+prefix-two second-junction pairs apiece and aggregate totals 70 and 62/200.
+However, `deep_v1/island1/i127951` makes 44 false reachable no-path claims on
+this panel; `deep_v1/island1/i129988` makes none. Retained paired successes
+therefore must not be presented as reliable disconnection handling. Prefix-eight
+fork coverage also persists, without broader primary progress.
+
+Continue the frozen campaign unchanged. These are development comparisons,
+not independent confirmation or proof of acquisition relative to exact ancestors.
+Saved `results/deep_campaign_run/assessment_03000.json`,
+`retention_03000.json` and `checkin_03000.json`.
