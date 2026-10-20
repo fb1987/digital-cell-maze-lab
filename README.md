@@ -6,6 +6,29 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 20, 2026
 
+The [V12Y fixed-parent opportunity assay](results/mating_opportunity.md) is
+complete and independently audited. **Lighter regulatory linkage helps, but
+related variation is still too sparse for the proposed long crossover test.**
+With larger segments and extra donors, expected pre-mutation multigene transfer
+is 3.89% for carried histories and 6.41% for fresh histories. Neither clears the
+frozen design screen. These are static probabilities, not new solver gains.
+
+![Fixed-parent linkage and donor comparison](results/mating_opportunity/opportunities.png)
+
+The assay covers all 18,432 historical mating attempts plus 2,880 snapshot probes,
+with zero organism calls and zero new mazes. Main work took 109.33 seconds;
+independent audit 190.69 seconds. The exclusion set remains **255,356 layouts**.
+Thirty-one opportunity/related tests and six separate retention-prototype tests pass.
+
+The [longer-run setup](docs/LONG_SEARCH_SETUP.md) prepares two 75-minute designs:
+first mutation with versus without a reserve of related variants; then a sexual
+comparison conditional on a fresh activation pass. The reserve selector is
+implemented and tested. Runner integration, registration, calibration and exact
+replay preflight remain; these specifications are not yet launch-ready jobs.
+See the [handoff](docs/MATING_OPPORTUNITY_PROGRESS.md) before continuing.
+
+## Completed activation pilot V12X-R1
+
 The [V12X-R1 crossover activation pilot](results/linkage_restart.md) is complete
 and audited. **The activation gate fails, so the longer efficacy run is not
 launched.** All 36 conditions finish 32 matched generations with equal evaluation

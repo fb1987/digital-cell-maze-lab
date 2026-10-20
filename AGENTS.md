@@ -34,7 +34,66 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12X-R1 is complete and audited; activation gate FAILS**.
+Current checkpoint: **V12Y is complete and audited; neither cap passes the
+static opportunity screen**. Read `results/mating_opportunity.md`,
+`docs/MATING_OPPORTUNITY_PROGRESS.md` and `docs/LONG_SEARCH_SETUP.md`.
+Do not repeat Y, resume closed X, or treat static probabilities as solver gains.
+User explicitly wants longer evolution work after this assay. Two75-minute
+specifications and a tested family-reserve selector are prepared; they are NOT
+registered or launch-ready. Next authorized work: integrate/preflight the
+mutation-versus-family-diversity experiment, then use its frozen budget.
+No repeated permission request is needed for routine implementation/preflight.
+
+Y registrationf7b1244 pushed before assay;seed2026102003. All18432X-R1scheduled
+mating attempts, including rejected ones, reconstructed. Fourdonorviews:actual,
+recordedshortlist,8uniformotherdonors,union. Alternativeviews selectuniformly
+amongstructurallyeligible donors, not oldfitness-complementarity ranking.
+Comparefulltransitive closure,immediate STOREgate-writer linkage,unlinked and
+matchedshamforeachprotectedrule, commonsegmentcaps16/32. Samepairlength/tickets;
+exact PRE-MUTATION expectedmultichange probabilities, notpostmutationactivation.
+
+Unionview expected%, pooled9216attempts/origin across3priorarms×3replicates:
+carry16 full.247 gate2.469 gateSham2.681 unlinked3.007;
+carry32 full.197 gate3.893 gateSham4.536 unlinked5.487;
+fresh16 full1.268 gate4.235 gateSham4.289 unlinked4.814;
+fresh32 full1.087 gate6.406 gateSham6.474 unlinked7.467.
+Neitherpasses12%designscreen in2/3reps ofBOTHorigins forgate/sham/unlinked.
+That screen does NOT replacefuture10%actualretained-transfer gate. No longer
+sexualstudy launched. Shortlist→union32gate carry3.50→3.89,fresh5.29→6.41.
+Boundeddonorsampling doesnotproveglobaldonorabsence orfunctionalbenefit.
+
+Also2880uniformparentprobes acrossALL36oldconditions atg0/8/16/24/32,
+180familysnapshots. Effective mutablefamilies amongpriorsexualhistories
+carry76→2.202,fresh96→3.733; finaluniquegenotypes94.22/95.11per96. Fractional
+ancestryconcentration, notfunctionaldiversity orcausalpoor-solvingdiagnosis.
+Finalsnapshot newbornsunevaluated. ActualmultigeneinheritancefromXpreserved.
+NoYgenomesedited/promoted, ZEROorganisminference, ZEROnewmazes.
+
+Ymain109.33s,1185.28MiBRSS;305436directedpairoccurrences,
+253967uniquegenotype+homologypairs,21312probes. FirstauditPASS190.69s,
+1092.06MiBRSS:independentbackwards/setsegments+groups, exactvirtualchoice/
+family/aggregate/finalpopulationreplay. Virtualselection/aggregation common
+functionsreplayed, not independentlyimplemented. All6667priorentries,
+233source/7inputhashesverify.12new+19relatedtests pass(31);6separateprototype
+tests pass, NOTfullsuite. No sourcerepair orprotocoldeviation.
+Completion256entries; futureprior total6923(6667+256). Layout exclusion remains
+255356using results/linkage_restart/whole_layout_exclusions.json.gz; noYcorpus.
+
+Longsetup configs results/long_search_setup/*_75m.json, seed2026102004/5 reserved.
+First:24conditions,carry/fresh×3×currentmutation/familymutation/resample/frozen,
+96genomes,44survivors/52births common,7immigrants/45singleedit,20protectedcarry.
+Familyreserve upto5families×4distinctvariants, farthest-first inherited-locus
+distance, fixedfitnessfamilyrank, commonbehavior/rankfallback. Shared44/52
+changesold24/72; compareWITHINnewstudy. No knownsolverinjection. Asexualstudy
+needssoftware/timingpreflight, NOTsexualactivation. Second:36conditions gate/
+unlinked/gatesham/mutation/resample/frozen; needsNEWactivation10%/8generations/
+2of3allsexualpoliciesBOTHorigins. Do notclaimplansregistered/running/ready.
+`tools/prepare_long_search.py check` listsoutstandingrunnerintegration,protocol,
+fixturecalibration,endreplay. family_reservoir.py pureselector implemented/tested.
+Longsetup/prototypefilesremainmutableoutsideYseal. Preservealloldpopulations/RNG,
+anchors,archives; isolatevalidation/final; correctnessbeforecompute/speedclaims.
+
+Historical checkpoint: **V12X-R1 is complete and audited; activation gate FAILS**.
 Read `results/linkage_restart.md`, `docs/LINKAGE_RESTART_PROGRESS.md` and
 `results/linkage_restart/next_experiment.md`. No longer efficacy run is launched.
 Do not extend X-R1, resume invalid X, rerun W, or treat training as holdout.

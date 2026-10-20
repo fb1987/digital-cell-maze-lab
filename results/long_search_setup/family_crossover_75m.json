@@ -1,0 +1,121 @@
+{
+  "status": "prepared_specification_not_registered_or_launched",
+  "evidence": {
+    "results/mating_opportunity/analysis.json": "27ec196f09ff54832e329247988e3cc1f7afebca8c275b56b26ed402ccec6d9c",
+    "results/mating_opportunity/audit.json": "120b4351bed6a11051339f839908a958ab28d1d6dd3ef01b2a95fc4e69d3f2f3",
+    "results/linkage_restart/completion.json": "b75919ea7d426e7936f8918e3e43a3f6e6b5397f14bea40aa4b3ad1a617e8dd6",
+    "maze_evolution/family_reservoir.py": "a61fbba61415b4147fc74806640c712196c69d2e502d9641f27a7308b1b40e4d"
+  },
+  "local_only": true,
+  "paid_services": false,
+  "origins": [
+    "carry",
+    "fresh"
+  ],
+  "replicates": 3,
+  "population": 96,
+  "max_genes": 256,
+  "topology": "local",
+  "exposure": 7,
+  "known_solver_injection": false,
+  "seed_policy": "Fresh random founders and fresh disjoint training/validation/final seeds; never resume a closed study.",
+  "protected_carry": 20,
+  "protected_fresh": 0,
+  "retained": 44,
+  "births": 52,
+  "immigrants": 7,
+  "edits_per_mutant": 1,
+  "mutation_births": 45,
+  "merit_slots": 4,
+  "family_policy": {
+    "max_families": 5,
+    "reserved_variants_per_family": 4,
+    "distance": "Normalized mismatch on inherited gene loci; identical program genotypes never count as diversity.",
+    "family_ranking": "Best current training rank; deterministic ties.",
+    "variant_choice": "Farthest first from already selected family members; training rank breaks ties.",
+    "fallback": "Common behavior-diverse then fitness-ranked fill to exactly44."
+  },
+  "archive_policy": "Validation archives are preserved externally and never silently reinserted. Historical20 anchors remain protected in every carried arm.",
+  "search_wall_seconds": 4500,
+  "candidate_seconds_cap": 4500,
+  "final_candidate_seconds_cap": 600,
+  "calibration_candidate_seconds_cap": 180,
+  "audit_accounting": "Separate measured wall/calls; never hidden in search budget.",
+  "max_generations": 4096,
+  "min_complete_generations": 96,
+  "peak_rss_bytes": 4294967296,
+  "artifact_bytes_cap": 3221225472,
+  "max_candidate_calls": 40000000,
+  "max_charged_work": 40000000000000,
+  "checkpoint_interval": 32,
+  "validation_interval": 32,
+  "validation_nominees_per_condition": 2,
+  "whole_layout_exclusion_file": "results/linkage_restart/whole_layout_exclusions.json.gz",
+  "known_excluded_layouts": 255356,
+  "additional_exclusions": "Every later fixture/preflight and prior run layout, including all unqueried variants/poses.",
+  "data": {
+    "training": "Two matched contexts per generation: easy/short plus rotating prefix1/2/4 and genuine second-junction/alternative-cycle tasks,12inputs. Fixed common96-generation pose schedule.",
+    "validation": "New broad independent contexts, all8poses, prefix0/1/2/4/8 with bends, real cycles, corridor and ordinary/nonisolated-disconnected retention controls.",
+    "final": "A separate untouched corpus from the same registered strata; freeze/push all selections before generation.",
+    "planning": "Exact context counts, grammar, schedule and timing-only sizing rule must be fixed during preflight before any validation calls."
+  },
+  "fitness": "Use only current training rows for reproduction; common paired-first lexicase/10%uniform parent mixture. No reward for genome length or family count.",
+  "primary_selection": "Validation archive rank begins with complete prefix>=4pairs, then true-cycle pairs, all positive-prefix pairs and retention metrics; deterministic digest/identity ties.",
+  "efficacy_gate": {
+    "replicates_per_origin": 2,
+    "min_new_prefix4_pairs": 16,
+    "min_advantage_over_each_control": 16,
+    "independent_contexts": 2,
+    "true_cycle_gain_pairs": 8,
+    "minimum_retention_fraction": 0.95,
+    "retain": [
+      "paired",
+      "corridor",
+      "ordinary"
+    ],
+    "no_increase_false_no_path": true,
+    "must_pass_validation_and_untouched_final": true
+  },
+  "readiness": {
+    "retention_policy_implemented": true,
+    "retention_unit_tests_passed": true,
+    "full_experiment_runner_integrated": false,
+    "protocol_registered": false,
+    "fixture_calibration_passed": false,
+    "short_end_to_end_replay_passed": false
+  },
+  "before_launch": [
+    "Integrate the prepared selector with a separately namespaced runner and complete mutation/RNG audit.",
+    "Freeze exact data grammar, validation ranking, controls and gates; calibrate unchanged production signatures.",
+    "Run a short end-to-end software preflight with discarded births; test protected identities, equal budgets, checkpoints and exact replay.",
+    "Freeze/push protocol, source and inputs before validation/training generation."
+  ],
+  "name": "family_crossover_75m",
+  "seed": 2026102005,
+  "question": "Once real multigene activation is demonstrated, does immediate-gate linkage improve new solving abilities?",
+  "arms": [
+    "gate_linked",
+    "unlinked",
+    "gate_sham",
+    "mutation",
+    "resample",
+    "frozen"
+  ],
+  "target": "gate_linked",
+  "sexual_crossover": true,
+  "prerequisite": "A NEW separately preregistered activation pilot must pass>=10%retained multi-change births in>=8generations,2/3replicates persexual policy inBOTHorigins. Y static probabilities cannot satisfy this.",
+  "segment_lengths": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "mating_attempts_per_generation": 23,
+  "donor_rule": "Freeze a common bounded donor rule across all sexual arms before activation. Never choose linkage-eligible donors only for the linked policy.",
+  "selector": "The same previously specified related-variation policy applies to every evolving arm; the mutation reference is essential.",
+  "ancestry_requirement": "Preserve both parents, exact transplanted rows and post-mutation retained changes. A useful child with sexual ancestry is not alone causal proof of composition.",
+  "conditions": 36,
+  "organisms_per_matched_generation": 3456,
+  "training_calls_per_generation": 41472
+}
