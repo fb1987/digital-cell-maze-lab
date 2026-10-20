@@ -1,0 +1,46 @@
+{"generation": 1, "calls": 20736, "seconds": 3.92, "wall": 8.77, "reproduction_seconds": 2.27}
+{"generation": 2, "calls": 41472, "seconds": 11.02, "wall": 22.01, "reproduction_seconds": 5.26}
+{"generation": 3, "calls": 62208, "seconds": 24.26, "wall": 42.13, "reproduction_seconds": 8.85}
+{"generation": 4, "calls": 82944, "seconds": 32.35, "wall": 57.1, "reproduction_seconds": 12.39}
+{"generation": 5, "calls": 103680, "seconds": 43.23, "wall": 75.69, "reproduction_seconds": 16.64}
+{"generation": 6, "calls": 124416, "seconds": 55.15, "wall": 95.43, "reproduction_seconds": 20.9}
+{"generation": 7, "calls": 145152, "seconds": 64.09, "wall": 112.12, "reproduction_seconds": 25.29}
+{"generation": 8, "calls": 165888, "seconds": 75.04, "wall": 130.87, "reproduction_seconds": 29.56}
+{"generation": 9, "calls": 186624, "seconds": 87.7, "wall": 151.27, "reproduction_seconds": 33.66}
+{"generation": 10, "calls": 207360, "seconds": 93.65, "wall": 164.73, "reproduction_seconds": 37.63}
+{"generation": 11, "calls": 228096, "seconds": 102.05, "wall": 180.32, "reproduction_seconds": 41.39}
+{"generation": 12, "calls": 248832, "seconds": 115.12, "wall": 201.09, "reproduction_seconds": 45.48}
+{"generation": 13, "calls": 269568, "seconds": 125.52, "wall": 218.81, "reproduction_seconds": 49.09}
+{"generation": 14, "calls": 290304, "seconds": 137.33, "wall": 238.11, "reproduction_seconds": 53.01}
+{"generation": 15, "calls": 311040, "seconds": 151.19, "wall": 259.64, "reproduction_seconds": 56.63}
+{"generation": 16, "calls": 331776, "seconds": 167.53, "wall": 284.9, "reproduction_seconds": 60.5}
+{"generation": 17, "calls": 352512, "seconds": 177.68, "wall": 302.78, "reproduction_seconds": 64.56}
+{"generation": 18, "calls": 373248, "seconds": 189.95, "wall": 323.66, "reproduction_seconds": 69.11}
+{"generation": 19, "calls": 393984, "seconds": 195.38, "wall": 337.17, "reproduction_seconds": 73.71}
+{"generation": 20, "calls": 414720, "seconds": 205.93, "wall": 355.21, "reproduction_seconds": 77.6}
+{"generation": 21, "calls": 435456, "seconds": 220.32, "wall": 377.5, "reproduction_seconds": 81.75}
+{"generation": 22, "calls": 456192, "seconds": 229.47, "wall": 394.15, "reproduction_seconds": 85.79}
+{"generation": 23, "calls": 476928, "seconds": 240.72, "wall": 413.38, "reproduction_seconds": 90.0}
+{"generation": 24, "calls": 497664, "seconds": 253.28, "wall": 434.03, "reproduction_seconds": 94.3}
+{"generation": 25, "calls": 518400, "seconds": 263.91, "wall": 452.53, "reproduction_seconds": 98.6}
+{"generation": 26, "calls": 539136, "seconds": 276.1, "wall": 472.59, "reproduction_seconds": 102.88}
+{"generation": 27, "calls": 559872, "seconds": 289.96, "wall": 494.7, "reproduction_seconds": 107.25}
+{"generation": 28, "calls": 580608, "seconds": 296.52, "wall": 509.03, "reproduction_seconds": 111.35}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/linkage_study.py", line 148, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/linkage_study.py", line 147, in main
+    else:globals()[a]()
+         ~~~~~~~~~~~~^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/linkage_study.py", line 124, in run
+    stamp=time.perf_counter();new,event=reproduce(state,rank);opseconds+=time.perf_counter()-stamp;logrow(births,event);states[key]=new
+                                        ~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/linkage_search.py", line 62, in reproduce
+    geneids=mutate_ids(geneids,events,name);genome=Genome(program,7)
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/linkage_operator.py", line 22, in mutate_ids
+    assert len(ids)==e['after_length'] and len(set(ids))==len(ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
