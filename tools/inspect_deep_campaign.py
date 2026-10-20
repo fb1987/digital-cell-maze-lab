@@ -43,6 +43,13 @@ def summarize(generation):
     output = dict(generation=generation, stage=n, chain=chain, input_hash=ih,
                   physical_calls=physical_calls, development_data=True, new_inference_calls=0,
                   independent_confirmation=False, islands=[])
+    if data.get('amendment'):
+        from maze_evolution.deep_campaign_amendment import check_amendment
+        registration = check_amendment()
+        assert data['amendment'] == registration['registration_sha256']
+        output.update(amendment=data['amendment'], stimulus_phase='perfect11_a1',
+                      ordinary_dimensions={'perfect':[11, 11], 'random':[9, 9]},
+                      cross_phase_raw_counts_are_not_acquisition=True)
     for island, (state, decision, rr) in enumerate(zip(states, decisions, rows)):
         reference_ids = [r['id'] for r in state['frozen_references']]
         success = {}
@@ -76,6 +83,10 @@ def summarize(generation):
                         genes=len(registry[identity]['genome']['genes']),
                         fitness=decision['fitness'][identity], capabilities=cap,
                         ordinary_shortest=ordinary_count(identity),
+                        **({'ordinary_shortest_by_family':{
+                            f:cap['by_stratum'].get(f, 0)
+                            for f in ('ordinary_perfect', 'ordinary_random')}}
+                           if data.get('amendment') else {}),
                         ordinary_bases=len({data['metadata'][r['case']]['base'] for r in good}),
                         longest_ordinary_edges=max((len(data['metadata'][r['case']]['path'])-1
                                                     for r in good), default=0),
