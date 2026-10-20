@@ -24,39 +24,39 @@ Current runner: `.venv/bin/python -m maze_evolution.deep_campaign_a1 run`.
 Use its `status` command for read-only monitoring and its `audit` command for the
 whole-history milestone replay. **Do not resume with the original runner.**
 The durable journal remains `runs/deep_campaign_v1/campaign.sqlite`; the current
-log is `session_002.log`. Launch PID25644 is recorded, but verify the live process
-and writer lock. Preserve the original round8,268 backup and session001 log.
+log is `session_002.log`. Launch PID 25644 is recorded, but verify the live process
+and writer lock. Preserve the original round 8,268 backup and session 001 log.
 
 ## A1 preflight and verified resumption
 
 The discarded capacity fixture accepted all **962** required perfect bases in
-962 draws, yielding7,692 oriented layout hashes. A separate copied-checkpoint
-rehearsal ran16 replacement rounds and one648-query broad assessment. Every one
-of267,858 candidate rasters was independently graded. All2,496 births and all17
+962 draws, yielding 7,692 oriented layout hashes. A separate copied-checkpoint
+rehearsal ran 16 replacement rounds and one 648-query broad assessment. Every one
+of 267,858 candidate rasters was independently graded. All 2,496 births and all 17
 selection/mutation/RNG transitions replayed exactly, including an interruption
 and reopening after two completed task batches. No rehearsal descendant became
-a campaign founder or scientific continuation state. All24 focused campaign/A1
+a campaign founder or scientific continuation state. All 24 focused campaign/A1
 tests passed; this was not a fresh full historical test suite.
 
-Preflight cost358.11 summed candidate seconds,366.85 summed workerCPU seconds,
-76.07 wall seconds,133,701,184,354 work units and zero uncertain attempts.
-It stayed within the predeclared600-candidate-second/15-minute allowance.
+Preflight cost 358.11 summed candidate seconds, 366.85 summed worker CPU seconds,
+76.07 wall seconds, 133,701,184,354 work units and zero uncertain attempts.
+It stayed within the predeclared 600-candidate-second/15-minute allowance.
 The replay timer in the raw packet includes packaging and final seal checks.
-15,851 additional diagnostic/fixture hashes were bound, making838,459 exclusions
+15,851 additional diagnostic/fixture hashes were bound, making 838,459 exclusions
 at the amendment boundary. The portable discarded journal and fixtures are saved
 with the registration. They are software evidence, not research discoveries.
 
 Before launch, original and A1 seals, the exact checkpoint/chain/layouts/usage,
 remote publication, resources and absence of a writer were verified. The first
-amended stage8285 completed with16 perfect poses at11×11; its phase binding and
-input hash verified. At round8289 the active process tree used1.44GiB RSS, run
-storage including the preserved backup was11.85GiB, and52.01GiB remained free.
+amended stage 8285 completed with 16 perfect poses at 11×11; its phase binding and
+input hash verified. At round 8289 the active process tree used 1.44 GiB RSS, run
+storage including the preserved backup was 11.85 GiB, and 52.01 GiB remained free.
 A1 conservatively fixes storage accounting to include nested backup files while
-retaining the original20GiB limit. All other resource bounds remain unchanged.
+retaining the original 20 GiB limit. All other resource bounds remain unchanged.
 
 Launch/check records: `results/deep_campaign_run/launch_a1.json` and
 `checkin_a1_launch.json`. The first amended broad assessment remains scheduled
-for8,500. There is no new capability claim from this software repair; the full
+for 8,500. There is no new capability claim from this software repair; the full
 scientific selection/mutation/RNG audit remains due at the unchanged milestone.
 No independent confirmation cases have been generated.
 

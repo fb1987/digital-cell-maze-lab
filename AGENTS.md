@@ -42,21 +42,21 @@ Read `docs/DEEP_CAMPAIGN_AMENDMENT_A1.md`,
 its finite novel topology pool; the preserved failure packet documents this.
 A1 changes only future ordinary-perfect inputs to 11×11, with unchanged counts,
 selection, population/RNG history, cumulative bounds and 10,000-round milestone.
-Registration/source commit5be354e and sealed validation transcript commit0463dc6
+Registration/source commit 5be354e and sealed validation transcript commit 0463dc6
 were pushed BEFORE resumption. All original sealed sources remain unchanged.
 
 Use `.venv/bin/python -m maze_evolution.deep_campaign_a1 run` to resume ONLY after
 checking resources and absence of an active writer. NEVER use the original runner
 to resume A1. The same `runs/deep_campaign_v1/campaign.sqlite` journal is active;
-current log `session_002.log`, launch PID25644 (verify, don't assume), 10 workers.
+current log `session_002.log`, launch PID 25644 (verify, don't assume), 10 workers.
 A1 `status` is read-only; A1 `audit` verifies the phase binding and replays the
 whole original/amended selection/mutation/RNG history. The full audit is pending.
-The heartbeat is ACTIVE again. The first amended round completed; round8289
-was observed at18:37UTC with zero uncertain attempts and all frontiers two.
+The heartbeat is ACTIVE again. The first amended round completed; round 8289
+was observed at 18:37 UTC with zero uncertain attempts and all frontiers two.
 Report 11×11 perfect and 9×9 random ordinary development results separately;
 old/new raw counts are not acquisition. No confirmation cases have been generated.
 Preserve `runs/deep_campaign_v1/backups/failure_08268.sqlite` and the original
-failure packet. A1 counts nested backups toward the original20GiB storage bound.
+failure packet. A1 counts nested backups toward the original 20 GiB storage bound.
 
 Launch history (October 20, 2026): the user authorized launch from frozen
 commit7854ada. Read `docs/DEEP_CAMPAIGN_PROGRESS.md`
