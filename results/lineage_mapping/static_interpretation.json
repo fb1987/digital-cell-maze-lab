@@ -1,0 +1,446 @@
+{
+  "candidate_calls": 0,
+  "post_hoc": true,
+  "program": "d02",
+  "static_checks_passed": true,
+  "facts": [
+    "Scratch registers reset to zero per site/tick in the frozen runtime.",
+    "No write to scratch44 precedes unconditional STORE channel4 from scratch44 at index108 after edit2.",
+    "Index108 is the final channel4 store. Channel4 therefore stays zero after complete d02 ticks.",
+    "The new scratch32 value has only one later reader: STORE channel3 at246, overwritten unconditionally from old output channel2 at249.",
+    "Between103 and the next write to44 at140, the only reader of44 is STORE channel4 at108."
+  ],
+  "prediction": "Edit2 removes the old channel3-neighbor signal from channel4. A future intervention restoring that channel4 signal can test the behavioral explanation. This is static inspection, not a new causal ablation or complete algorithm derivation.",
+  "summaries": {
+    "d00": {
+      "positive_pairs": 0,
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_eight_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d01": {
+      "positive_pairs": 0,
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_eight_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d02": {
+      "positive_pairs": 238,
+      "positive_by_graph": {
+        "fork": 120,
+        "two_junction": 62,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 182,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 28,
+        "confirmation/bend_both/v1/c3/s0": 26,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 28,
+        "confirmation/hook/v1/c7/s0": 28
+      },
+      "positive_full_eight_pose_groups": 23,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d03": {
+      "positive_pairs": 238,
+      "positive_by_graph": {
+        "fork": 120,
+        "two_junction": 62,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 182,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 28,
+        "confirmation/bend_both/v1/c3/s0": 26,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 28,
+        "confirmation/hook/v1/c7/s0": 28
+      },
+      "positive_full_eight_pose_groups": 23,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d04": {
+      "positive_pairs": 238,
+      "positive_by_graph": {
+        "fork": 120,
+        "two_junction": 62,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 182,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 28,
+        "confirmation/bend_both/v1/c3/s0": 26,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 28,
+        "confirmation/hook/v1/c7/s0": 28
+      },
+      "positive_full_eight_pose_groups": 23,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d05": {
+      "positive_pairs": 238,
+      "positive_by_graph": {
+        "fork": 120,
+        "two_junction": 62,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 182,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 28,
+        "confirmation/bend_both/v1/c3/s0": 26,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 28,
+        "confirmation/hook/v1/c7/s0": 28
+      },
+      "positive_full_eight_pose_groups": 23,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d06": {
+      "positive_pairs": 238,
+      "positive_by_graph": {
+        "fork": 120,
+        "two_junction": 62,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 182,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 28,
+        "confirmation/bend_both/v1/c3/s0": 26,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 28,
+        "confirmation/hook/v1/c7/s0": 28
+      },
+      "positive_full_eight_pose_groups": 23,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d07": {
+      "positive_pairs": 238,
+      "positive_by_graph": {
+        "fork": 120,
+        "two_junction": 62,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 182,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 28,
+        "confirmation/bend_both/v1/c3/s0": 26,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 28,
+        "confirmation/hook/v1/c7/s0": 28
+      },
+      "positive_full_eight_pose_groups": 23,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d08": {
+      "positive_pairs": 224,
+      "positive_by_graph": {
+        "fork": 112,
+        "two_junction": 56,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 168,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 24,
+        "confirmation/bend_both/v1/c3/s0": 24,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 24,
+        "confirmation/hook/v1/c7/s0": 24
+      },
+      "positive_full_eight_pose_groups": 16,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d09": {
+      "positive_pairs": 224,
+      "positive_by_graph": {
+        "fork": 112,
+        "two_junction": 56,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 168,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 24,
+        "confirmation/bend_both/v1/c3/s0": 24,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 24,
+        "confirmation/hook/v1/c7/s0": 24
+      },
+      "positive_full_eight_pose_groups": 16,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d10": {
+      "positive_pairs": 224,
+      "positive_by_graph": {
+        "fork": 112,
+        "two_junction": 56,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 168,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 24,
+        "confirmation/bend_both/v1/c3/s0": 24,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 24,
+        "confirmation/hook/v1/c7/s0": 24
+      },
+      "positive_full_eight_pose_groups": 16,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d11": {
+      "positive_pairs": 224,
+      "positive_by_graph": {
+        "fork": 112,
+        "two_junction": 56,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 168,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 24,
+        "confirmation/bend_both/v1/c3/s0": 24,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 24,
+        "confirmation/hook/v1/c7/s0": 24
+      },
+      "positive_full_eight_pose_groups": 16,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "d12": {
+      "positive_pairs": 224,
+      "positive_by_graph": {
+        "fork": 112,
+        "two_junction": 56,
+        "cycle": 56
+      },
+      "positive_by_prefix": {
+        "1/straight": 168,
+        "2/straight": 56
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/bend_both/v0/c2/s0": 24,
+        "confirmation/bend_both/v1/c3/s0": 24,
+        "confirmation/bend_one/v0/c4/s0": 32,
+        "confirmation/bend_one/v1/c5/s0": 32,
+        "confirmation/hook/v0/c6/s0": 24,
+        "confirmation/hook/v1/c7/s0": 24
+      },
+      "positive_full_eight_pose_groups": 16,
+      "max_paired_route_edges": 14,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "fresh2": {
+      "positive_pairs": 64,
+      "positive_by_graph": {
+        "fork": 64
+      },
+      "positive_by_prefix": {
+        "1/straight": 64
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 8,
+        "confirmation/straight/v1/c1/s0": 8,
+        "confirmation/bend_both/v0/c2/s0": 8,
+        "confirmation/bend_both/v1/c3/s0": 8,
+        "confirmation/bend_one/v0/c4/s0": 8,
+        "confirmation/bend_one/v1/c5/s0": 8,
+        "confirmation/hook/v0/c6/s0": 8,
+        "confirmation/hook/v1/c7/s0": 8
+      },
+      "positive_full_eight_pose_groups": 8,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "fresh2_root": {
+      "positive_pairs": 0,
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_eight_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "carry1": {
+      "positive_pairs": 126,
+      "positive_by_graph": {
+        "fork": 106,
+        "two_junction": 16,
+        "cycle": 4
+      },
+      "positive_by_prefix": {
+        "1/straight": 48,
+        "2/straight": 20,
+        "4/straight": 30,
+        "4/bent": 2,
+        "8/straight": 26
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 21,
+        "confirmation/straight/v1/c1/s0": 21,
+        "confirmation/bend_both/v0/c2/s0": 14,
+        "confirmation/bend_both/v1/c3/s0": 14,
+        "confirmation/bend_one/v0/c4/s0": 14,
+        "confirmation/bend_one/v1/c5/s0": 14,
+        "confirmation/hook/v0/c6/s0": 14,
+        "confirmation/hook/v1/c7/s0": 14
+      },
+      "positive_full_eight_pose_groups": 0,
+      "max_paired_route_edges": 20,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "broad_root": {
+      "positive_pairs": 0,
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_eight_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "random68": {
+      "positive_pairs": 64,
+      "positive_by_graph": {
+        "fork": 64
+      },
+      "positive_by_prefix": {
+        "1/straight": 64
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 8,
+        "confirmation/straight/v1/c1/s0": 8,
+        "confirmation/bend_both/v0/c2/s0": 8,
+        "confirmation/bend_both/v1/c3/s0": 8,
+        "confirmation/bend_one/v0/c4/s0": 8,
+        "confirmation/bend_one/v1/c5/s0": 8,
+        "confirmation/hook/v0/c6/s0": 8,
+        "confirmation/hook/v1/c7/s0": 8
+      },
+      "positive_full_eight_pose_groups": 8,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    },
+    "intact": {
+      "positive_pairs": 960,
+      "positive_by_graph": {
+        "fork": 320,
+        "two_junction": 320,
+        "cycle": 320
+      },
+      "positive_by_prefix": {
+        "1/straight": 192,
+        "2/straight": 192,
+        "4/straight": 192,
+        "4/bent": 192,
+        "8/straight": 192
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 120,
+        "confirmation/straight/v1/c1/s0": 120,
+        "confirmation/bend_both/v0/c2/s0": 120,
+        "confirmation/bend_both/v1/c3/s0": 120,
+        "confirmation/bend_one/v0/c4/s0": 120,
+        "confirmation/bend_one/v1/c5/s0": 120,
+        "confirmation/hook/v0/c6/s0": 120,
+        "confirmation/hook/v1/c7/s0": 120
+      },
+      "positive_full_eight_pose_groups": 120,
+      "max_paired_route_edges": 20,
+      "legal_nonshortest": 0,
+      "false_reachable_no_path": 0
+    }
+  }
+}

@@ -6,6 +6,33 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12U historical mutation map](results/lineage_mapping.md) is complete and
+independently audited. **One saved operand mutation accounts for the carried
+lineage's large solving gain on eight new structural contexts.** No new evolution
+or final-based model replacement occurred.
+
+Positive-prefix complete pairs jump from **0/960 to 238/960** at edit 2, corridors
+from 38/768 to 768/768, and ordinary shortest outputs from 21/384 to 56/384. Later
+edits add no successful pairs here; edit 8 loses 14 positive pairs and 48 corridors.
+Static inspection suggests the useful change suppresses an existing channel 4
+signal. That mechanism still needs its own controlled intervention.
+
+![Exact historical mutation effects](results/lineage_mapping/lineage_map.png)
+
+This is an identified transition in one selected random-origin lineage, not a
+general solver: all 13 intermediates fail the prefix 4/8 paired tasks, all 18 random-origin
+models fail disconnected controls, and no speedup is established. Preserve the
+separate long-prefix specialist and the 68-gene random control. Native inference
+uses 239.22 seconds of a 720-second cap. Audit passes 105,328 exact candidate replays
+and 118,888 independent raster grades;40 focused/related tests pass.
+
+See the [report](results/lineage_mapping.md), [handoff](docs/LINEAGE_MAPPING_PROGRESS.md)
+and [unlaunched causal-dissection proposal](results/lineage_mapping/next_experiment.md).
+Exclude **233,432 whole layouts** from future independent data, including all
+unqueried fixture/final variants. Preserve all old populations and RNG states.
+
+## Completed mechanism and transfer assay V12T
+
 The [V12T mechanism and transfer assay](results/routing_mechanism.md) is complete
 and independently audited. **Exact ancestor comparisons confirm acquired branch
 routing in selected random-origin lineages, but reliable general solving remains

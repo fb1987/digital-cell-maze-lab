@@ -1,0 +1,546 @@
+{
+  "candidate_calls": 0,
+  "edits": [
+    {
+      "before": "d00",
+      "after": "d01",
+      "mutation": {
+        "requested_mode": 1,
+        "index": 251,
+        "before_length": 254,
+        "kind": "delete",
+        "after_length": 253
+      },
+      "old_gene": [
+        10,
+        34,
+        38,
+        49,
+        0,
+        0,
+        64
+      ],
+      "new_gene": null,
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 0,
+        "status": 0,
+        "steps": 0,
+        "reads": 0,
+        "dispatches": 4224,
+        "exposure_checks": 0
+      },
+      "birth": 21
+    },
+    {
+      "before": "d01",
+      "after": "d02",
+      "mutation": {
+        "requested_mode": 5,
+        "index": 103,
+        "before_length": 253,
+        "kind": "operand",
+        "field": 1,
+        "row": [
+          15,
+          32,
+          3,
+          0,
+          0,
+          3,
+          64
+        ],
+        "after_length": 253
+      },
+      "old_gene": [
+        15,
+        44,
+        3,
+        0,
+        0,
+        3,
+        64
+      ],
+      "new_gene": [
+        15,
+        32,
+        3,
+        0,
+        0,
+        3,
+        64
+      ],
+      "positive_gained": 238,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 4044,
+        "status": 2464,
+        "steps": 3277,
+        "reads": 4144,
+        "dispatches": 3476,
+        "exposure_checks": 4142
+      },
+      "birth": 22
+    },
+    {
+      "before": "d02",
+      "after": "d03",
+      "mutation": {
+        "requested_mode": 4,
+        "index": 140,
+        "before_length": 253,
+        "kind": "duplicate",
+        "count": 3,
+        "after_length": 256
+      },
+      "old_gene": [
+        1,
+        44,
+        4,
+        0,
+        0,
+        0,
+        64
+      ],
+      "new_gene": null,
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 82,
+        "status": 8,
+        "steps": 162,
+        "reads": 4129,
+        "dispatches": 4224,
+        "exposure_checks": 338
+      },
+      "birth": 23
+    },
+    {
+      "before": "d03",
+      "after": "d04",
+      "mutation": {
+        "requested_mode": 6,
+        "index": 229,
+        "before_length": 256,
+        "kind": "operand",
+        "field": 2,
+        "row": [
+          10,
+          63,
+          7,
+          15,
+          0,
+          0,
+          64
+        ],
+        "after_length": 256
+      },
+      "old_gene": [
+        10,
+        63,
+        13,
+        15,
+        0,
+        0,
+        64
+      ],
+      "new_gene": [
+        10,
+        63,
+        7,
+        15,
+        0,
+        0,
+        64
+      ],
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 0,
+        "status": 0,
+        "steps": 0,
+        "reads": 0,
+        "dispatches": 0,
+        "exposure_checks": 0
+      },
+      "birth": 24
+    },
+    {
+      "before": "d04",
+      "after": "d05",
+      "mutation": {
+        "requested_mode": 2,
+        "index": 88,
+        "before_length": 256,
+        "kind": "replace",
+        "row": [
+          0,
+          38,
+          58,
+          0,
+          0,
+          0,
+          64
+        ],
+        "after_length": 256
+      },
+      "old_gene": [
+        2,
+        13,
+        30,
+        45,
+        0,
+        0,
+        64
+      ],
+      "new_gene": [
+        0,
+        38,
+        58,
+        0,
+        0,
+        0,
+        64
+      ],
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 0,
+        "status": 0,
+        "steps": 0,
+        "reads": 0,
+        "dispatches": 0,
+        "exposure_checks": 0
+      },
+      "birth": 25
+    },
+    {
+      "before": "d05",
+      "after": "d06",
+      "mutation": {
+        "requested_mode": 2,
+        "index": 132,
+        "before_length": 256,
+        "kind": "replace",
+        "row": [
+          11,
+          56,
+          36,
+          0,
+          0,
+          0,
+          24
+        ],
+        "after_length": 256
+      },
+      "old_gene": [
+        2,
+        36,
+        63,
+        34,
+        0,
+        0,
+        64
+      ],
+      "new_gene": [
+        11,
+        56,
+        36,
+        0,
+        0,
+        0,
+        24
+      ],
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 0,
+        "status": 0,
+        "steps": 0,
+        "reads": 0,
+        "dispatches": 0,
+        "exposure_checks": 0
+      },
+      "birth": 26
+    },
+    {
+      "before": "d06",
+      "after": "d07",
+      "mutation": {
+        "requested_mode": 5,
+        "index": 161,
+        "before_length": 256,
+        "kind": "operand",
+        "field": 6,
+        "row": [
+          3,
+          41,
+          39,
+          27,
+          0,
+          0,
+          64
+        ],
+        "after_length": 256
+      },
+      "old_gene": [
+        3,
+        41,
+        39,
+        27,
+        0,
+        0,
+        46
+      ],
+      "new_gene": [
+        3,
+        41,
+        39,
+        27,
+        0,
+        0,
+        64
+      ],
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 0,
+        "status": 0,
+        "steps": 0,
+        "reads": 0,
+        "dispatches": 0,
+        "exposure_checks": 0
+      },
+      "birth": 27
+    },
+    {
+      "before": "d07",
+      "after": "d08",
+      "mutation": {
+        "requested_mode": 2,
+        "index": 222,
+        "before_length": 256,
+        "kind": "replace",
+        "row": [
+          8,
+          34,
+          40,
+          39,
+          0,
+          0,
+          64
+        ],
+        "after_length": 256
+      },
+      "old_gene": [
+        13,
+        2,
+        58,
+        0,
+        0,
+        0,
+        18
+      ],
+      "new_gene": [
+        8,
+        34,
+        40,
+        39,
+        0,
+        0,
+        64
+      ],
+      "positive_gained": 0,
+      "positive_lost": 14,
+      "changed_responses": {
+        "mask": 1000,
+        "status": 322,
+        "steps": 322,
+        "reads": 4119,
+        "dispatches": 660,
+        "exposure_checks": 698
+      },
+      "birth": 28
+    },
+    {
+      "before": "d08",
+      "after": "d09",
+      "mutation": {
+        "requested_mode": 2,
+        "index": 132,
+        "before_length": 256,
+        "kind": "replace",
+        "row": [
+          17,
+          45,
+          6,
+          0,
+          0,
+          0,
+          64
+        ],
+        "after_length": 256
+      },
+      "old_gene": [
+        11,
+        56,
+        36,
+        0,
+        0,
+        0,
+        24
+      ],
+      "new_gene": [
+        17,
+        45,
+        6,
+        0,
+        0,
+        0,
+        64
+      ],
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 224,
+        "status": 8,
+        "steps": 224,
+        "reads": 4131,
+        "dispatches": 348,
+        "exposure_checks": 348
+      },
+      "birth": 33
+    },
+    {
+      "before": "d09",
+      "after": "d10",
+      "mutation": {
+        "requested_mode": 1,
+        "index": 106,
+        "before_length": 256,
+        "kind": "delete",
+        "after_length": 255
+      },
+      "old_gene": [
+        15,
+        62,
+        5,
+        0,
+        0,
+        2,
+        64
+      ],
+      "new_gene": null,
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 224,
+        "status": 8,
+        "steps": 224,
+        "reads": 4134,
+        "dispatches": 4224,
+        "exposure_checks": 4224
+      },
+      "birth": 35
+    },
+    {
+      "before": "d10",
+      "after": "d11",
+      "mutation": {
+        "requested_mode": 2,
+        "index": 233,
+        "before_length": 255,
+        "kind": "replace",
+        "row": [
+          9,
+          35,
+          28,
+          4,
+          0,
+          0,
+          64
+        ],
+        "after_length": 255
+      },
+      "old_gene": [
+        13,
+        2,
+        26,
+        0,
+        0,
+        0,
+        59
+      ],
+      "new_gene": [
+        9,
+        35,
+        28,
+        4,
+        0,
+        0,
+        64
+      ],
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 0,
+        "status": 0,
+        "steps": 0,
+        "reads": 0,
+        "dispatches": 0,
+        "exposure_checks": 0
+      },
+      "birth": 44
+    },
+    {
+      "before": "d11",
+      "after": "d12",
+      "mutation": {
+        "requested_mode": 2,
+        "index": 206,
+        "before_length": 255,
+        "kind": "replace",
+        "row": [
+          10,
+          51,
+          63,
+          54,
+          0,
+          0,
+          39
+        ],
+        "after_length": 255
+      },
+      "old_gene": [
+        0,
+        18,
+        25,
+        0,
+        0,
+        0,
+        12
+      ],
+      "new_gene": [
+        10,
+        51,
+        63,
+        54,
+        0,
+        0,
+        39
+      ],
+      "positive_gained": 0,
+      "positive_lost": 0,
+      "changed_responses": {
+        "mask": 0,
+        "status": 0,
+        "steps": 0,
+        "reads": 0,
+        "dispatches": 0,
+        "exposure_checks": 0
+      },
+      "birth": 53
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{"scope": "confirmation", "replays": 20000, "wall": 109.17}
+{"scope": "confirmation", "replays": 40000, "wall": 163.01}
+{"scope": "confirmation", "replays": 60000, "wall": 205.95}
+{"scope": "confirmation", "replays": 80000, "wall": 235.12}
+{
+  "passed": true,
+  "counts": {
+    "prior_hashes": 4937,
+    "exact_lineage_edits": 12,
+    "whole_layouts": 233432,
+    "candidate_replays": 105328,
+    "native_adapter_parity": 5624,
+    "baseline_replays": 13560,
+    "independently_graded_rasters": 118888
+  },
+  "source_hashes": 210,
+  "input_hashes": 10,
+  "wall_seconds": 284.38950704201125,
+  "peak_rss_bytes": 1087602688,
+  "limitations": "Exact candidate and baseline replay, independently graded rasters and graph oracles. Uses previously tested diagnostic runtime; no independent second interpreter for feedback/halt interventions. Analysis deterministically recomputed."
+}
+

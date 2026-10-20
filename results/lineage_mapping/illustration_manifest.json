@@ -1,0 +1,50 @@
+{
+  "candidate_calls": 0,
+  "post_hoc": true,
+  "selection_rule": "Largest positive-pair gain adjacent transition; first gained positive cycle else first positive pair",
+  "examples": [
+    {
+      "alias": "d01",
+      "case": "confirmation/bend_both/v0/c2/s0/p1-straight/cycle2/goal0/d4-0",
+      "optimal": false,
+      "steps": 34,
+      "normal_emission": true
+    },
+    {
+      "alias": "d01",
+      "case": "confirmation/bend_both/v0/c2/s0/p1-straight/cycle2/goal1/d4-0",
+      "optimal": false,
+      "steps": 256,
+      "normal_emission": true
+    },
+    {
+      "alias": "d02",
+      "case": "confirmation/bend_both/v0/c2/s0/p1-straight/cycle2/goal0/d4-0",
+      "optimal": true,
+      "steps": 74,
+      "normal_emission": true
+    },
+    {
+      "alias": "d02",
+      "case": "confirmation/bend_both/v0/c2/s0/p1-straight/cycle2/goal1/d4-0",
+      "optimal": true,
+      "steps": 64,
+      "normal_emission": true
+    },
+    {
+      "alias": "d12",
+      "case": "confirmation/bend_both/v0/c2/s0/p1-straight/cycle2/goal0/d4-0",
+      "optimal": true,
+      "steps": 74,
+      "normal_emission": true
+    },
+    {
+      "alias": "d12",
+      "case": "confirmation/bend_both/v0/c2/s0/p1-straight/cycle2/goal1/d4-0",
+      "optimal": true,
+      "steps": 64,
+      "normal_emission": true
+    }
+  ],
+  "matplotlib": "3.11.2"
+}
