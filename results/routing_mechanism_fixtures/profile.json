@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "contexts_per_shape": 1,
+  "projected_seconds": 394.2891441360116,
+  "projections": {
+    "2": 621.2469468805939,
+    "1": 394.2891441360116
+  },
+  "safety_factor": 2,
+  "scores_used_for_schedule": false,
+  "initial_profile_failed": true,
+  "intervention_models": [
+    "fresh0",
+    "fresh2",
+    "carry0",
+    "carry1",
+    "spliced",
+    "intact"
+  ],
+  "rule": "First of 2 then 1 contexts per shape fitting600s, using measured native costs; all12normal models preserved. No final generated."
+}
