@@ -34,6 +34,42 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+Current preparation (October 20, 2026): **the persistent deep discovery campaign
+is prepared, NOT launched**. Read `docs/DEEP_CAMPAIGN.md` and
+`results/deep_campaign_setup/readiness.json` first. The user explicitly requested
+a 10,000-round discovery campaign and authorized full local laptop resources.
+This new strategy supersedes the earlier proposal to do the mutation-accessibility
+assay next; it does not reopen or extend B's closed controlled study.
+
+The new phase explicitly forks exact B carry/0,1,2/current round-30 populations,
+RNG, loci/family records and protected anchors: 3×96 organisms. Local runtime,
+256 genes/ticks, 44 survivors/52 births (7 immigrants+45 one-edit mutants), no
+sexual recombination. Behavioral coverage archives32/island; all live/archive
+members assessed every500 rounds; checkpoint100 plus transactional task receipts.
+Ten CPU workers won the actual 1/4/10-worker calibration with identical outputs
+and reproduction. User dedicates this M4/16GiB laptop to research. Session ceiling
+12h; process-tree RSS guard12GiB; storage20GiB and16GiB free floor;100M charged
+physical calls and10^15 work. Preserve all records; checkpoint/resume at a bound.
+
+Preparation includes one broad assessment plus17 DISCARDED rehearsal rounds,
+including interrupted-stage recovery and replay of all2,496 births in the16-round
+continuation. These are software checks, NOT new scientific discoveries.
+All279,824 historical layouts plus2,288 setup/rehearsal layouts are excluded:
+**282,112 total**, in `results/deep_campaign_setup/exclusions.json.gz`.
+The exact source/configuration/inputs are sealed in `registration.json`.
+Do not silently change them or reuse setup states as campaign founders.
+
+Entry point: `.venv/bin/python -m maze_evolution.deep_campaign run`.
+It starts or resumes `runs/deep_campaign_v1/campaign.sqlite`; `status` reads live
+progress and `audit` replays selection/mutation/RNG, NOT all inference. Every
+candidate raster is independently graded at evaluation. Local SQLite FULL/WAL
+provides crash recovery, not backup against disk loss. Keep the journal; it is
+Git-ignored scientific data, not a cache. At10,000 rounds the runner freezes
+primary/complementary choices and stops BEFORE independent confirmation generation.
+Commit/push choices before registering/generating fresh confirmation. No new
+general-solver, nonlocal-benefit, speedup or policy-causality claim is established.
+
+Completed scientific checkpoint:
 Current checkpoint: **V13B is complete and audited**. Read
 `results/selectivity_pressure.md` and `docs/SELECTIVITY_PRESSURE_PROGRESS.md` first.
 Do not repeat/extend B, silently resume its populations, or train/reselect on
