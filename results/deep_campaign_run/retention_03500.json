@@ -1,0 +1,68 @@
+{
+  "generation": 3500,
+  "development_data": true,
+  "new_inference_calls": 0,
+  "tracked_specialists": [
+    {
+      "island": 2,
+      "identity": "deep_v1/island2/i51989",
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_disconnected": 32,
+          "ordinary_perfect": 4,
+          "ordinary_random": 2,
+          "paired/fork/prefix0": 24,
+          "paired/two_junction/prefix0": 2
+        },
+        "false_no_path": 0,
+        "legal": 164,
+        "shortest": 164
+      },
+      "fitness": [
+        26,
+        164,
+        164,
+        52,
+        385.69048825
+      ],
+      "archived": true,
+      "ordinary_shortest": 6,
+      "ordinary_bases": 3,
+      "longest_ordinary_edges": 5
+    },
+    {
+      "island": 2,
+      "identity": "deep_v1/island2/i180541",
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_disconnected": 2,
+          "paired/cycle/prefix0": 8,
+          "paired/fork/prefix0": 24,
+          "paired/fork/prefix1": 24,
+          "paired/fork/prefix2": 24,
+          "paired/fork/prefix8": 2,
+          "paired/two_junction/prefix0": 8,
+          "paired/two_junction/prefix2": 4
+        },
+        "false_no_path": 0,
+        "legal": 318,
+        "shortest": 318
+      },
+      "fitness": [
+        94,
+        318,
+        318,
+        22,
+        623.85852832
+      ],
+      "archived": true,
+      "ordinary_shortest": 0,
+      "ordinary_bases": 0,
+      "longest_ordinary_edges": 0
+    }
+  ]
+}

@@ -276,3 +276,65 @@ Continue the frozen campaign unchanged. These are development comparisons,
 not independent confirmation or proof of acquisition relative to exact ancestors.
 Saved `results/deep_campaign_run/assessment_03000.json`,
 `retention_03000.json` and `checkin_03000.json`.
+
+## Rounds 3,500 and 4,000 development assessments
+
+Checked at 16:18 UTC with the active writer at round 4,021. All islands remain
+at frontier two, with zero uncertain/retried batches. Observed process-tree
+RSS 1.56 GiB, run storage 2.89 GiB and free disk 61.1 GiB. Frozen setup,
+assessment inputs, receipts and checkpoint hashes verified. No search
+intervention or additional candidate inference occurred.
+
+At 3,500, all primaries complete 104/200 pairs and 8/96 ordinary inputs,
+versus 104 and 7 for the best protected aggregate reference. The single extra
+ordinary case is also solved by unchanged inherited B primaries; it is not
+evidence of new campaign acquisition. Best ordinary scores are 8/96 throughout,
+matching the strongest protected ordinary reference.
+
+At 4,000, all primaries complete 104/200 pairs and 12/96 ordinary inputs, exactly
+matching the protected aggregate reference's correct-case membership. The
+best ordinary performer in each island is historical protected genome
+`foundation_pair_paired/evolved/fresh/evolution/0/i108890`, with 19/96.
+No broad primary advantage has appeared.
+
+There is a meaningful specialist observation. Archived island-two descendant
+`deep_v1/island2/i207989` (born 4,000, parent `deep_v1/island2/i207946`, 254 genes)
+solves **8/8 prefix-two second-junction goal-switch pairs**, all missed by the
+union of 20 protected references. These are only **two structured contexts in
+four poses each**, within the existing grammar, not eight independent contexts.
+It also solves six prefix-four fork pairs, three missed by the references.
+
+The same genome solves ordinary shortest paths of **11 and 14 edges**, each
+in two poses, missed by every protected reference on this panel. The 11-edge
+route passes two internal degree-three junctions (at distances one and seven
+from the source). The 14-edge route passes one degree-four and two degree-three
+junctions (distances two, six and eight). These are two base mazes and four
+correlated outputs. They demonstrate normal emitted paths through multiple
+branches, beyond a long corridor or a single internal junction.
+
+All 648 saved outputs for this specialist were independently regraded with
+`foundation_study_verify_core.Checker`; no new candidate inference was run.
+Its genome, saved rows, input hash and successful ordinary geometry are preserved
+in `results/deep_campaign_run/specialist_04000.json.gz`. The original journal
+retains the complete input manifests and ancestry.
+
+The tradeoffs remain substantial: **94/200 pairs overall**, below the reference's
+104; **10/96 ordinary inputs**, below the strongest reference's 19; 100/100
+corridors; only 20/52 correct disconnected responses, with zero false reachable
+no-path claims on this panel. It fails all positive-prefix cycle pairs and
+prefix-one second-junction pairs, despite the prefix-two successes. This
+nonmonotonic pattern is not evidence of a general algorithm. Exact ancestor
+and full-founder capability comparisons remain outstanding; changed lineage
+identity alone does not establish acquired functionality.
+
+Earlier specialist `deep_v1/island2/i51989` remains archived, with 6/96 ordinary
+successes at 3,500 and 18/96 at 4,000; both panels retain 26/200 pairs, 100/100
+corridors and 52/52 disconnected successes, with zero false reachable no-path
+claims. The ordinary counts vary with the assessment cases.
+
+Continue unchanged. This new specialist coverage warrants a concise user
+notification, while all results remain development/selection data. Independent
+confirmation, general-solving and speed claims remain unestablished.
+Saved `assessment_03500.json`, `assessment_04000.json`, `retention_03500.json`,
+`retention_04000.json` and `checkin_04000.json` under
+`results/deep_campaign_run/`.
