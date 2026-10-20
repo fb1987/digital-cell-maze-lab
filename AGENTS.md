@@ -34,7 +34,20 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current preparation (October 20, 2026): **the persistent deep discovery campaign
+Live update (October 20, 2026): **the user authorized launch and the deep campaign
+is RUNNING** from frozen commit7854ada. Read `docs/DEEP_CAMPAIGN_PROGRESS.md`
+and inspect the existing journal/process before taking any action. Started
+2026-10-20 14:30:25 UTC, 10 workers, same registered10,000-round milestone.
+Never create a duplicate writer, restart founders, or change sealed sources.
+The initial scientific assessment completed; evolution and transactional
+checkpoints are progressing. The thread heartbeat
+`deep-maze-search-follow-through` checks every15min, stays quiet on routine
+progress, and handles milestone auditing/reporting. Launch metadata and the
+initial assessment summary are under `results/deep_campaign_run/`.
+Do not confuse the frozen readiness packet's historical "not launched" status
+with the current live state. Use the runner's read-only status command.
+
+Historical preparation (October 20, 2026): **the persistent deep discovery campaign
 is prepared, NOT launched**. Read `docs/DEEP_CAMPAIGN.md` and
 `results/deep_campaign_setup/readiness.json` first. The user explicitly requested
 a 10,000-round discovery campaign and authorized full local laptop resources.
