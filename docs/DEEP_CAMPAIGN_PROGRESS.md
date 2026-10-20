@@ -405,3 +405,30 @@ counts still do not establish exact ancestral acquisition or broad generality.
 Continue unchanged. No new capability change requiring notification.
 Saved `results/deep_campaign_run/assessment_05000.json`,
 `retention_05000.json` and `checkin_05000.json`; monitoring added zero inference.
+
+## Round 5,500 development assessment
+
+Checked at 17:03 UTC with the active writer at round 5,743, all frontiers two
+and zero uncertain/retried batches. Observed process-tree RSS 1.57 GiB, run
+storage 4.13 GiB, free disk 59.8 GiB. Frozen setup and assessment hashes verified;
+monitoring performed zero additional candidate inference.
+
+All primaries solve 104/200 pairs and 10/96 ordinary inputs, exactly matching
+the protected aggregate reference's correct-case membership. Best ordinary
+scores are 13, 13 and 14/96 versus 13/96 for the strongest individual protected
+reference. Island two's 14-success specialist completes only 19/200 pairs;
+this modest ordinary advantage is not broad improvement.
+
+Archived `deep_v1/island2/i207989` retains 8/8 prefix-two second-junction pairs,
+six prefix-four fork pairs, 94/200 total pairs and 100/100 corridors. On the
+new panel it solves four ordinary inputs (two bases, all one-edge routes),
+20/52 disconnected inputs and makes no false reachable no-path claims.
+Archived `deep_v1/island2/i51989` solves 10/96 ordinary inputs (five bases,
+longest route eight edges), 26/200 pairs, all corridors and all 52 disconnected
+inputs, again with zero false reachable no-path claims.
+
+Complementary coverage persists without primary progress or frontier promotion.
+Continue the frozen campaign unchanged; these remain development data, not
+independent confirmation or exact ancestral acquisition evidence.
+Saved `results/deep_campaign_run/assessment_05500.json`,
+`retention_05500.json` and `checkin_05500.json`.
