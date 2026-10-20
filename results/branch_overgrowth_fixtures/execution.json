@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "planned_calls": 27560,
+  "budget": {
+    "cap": 180,
+    "seconds": 12.326969030080363,
+    "calls": 27560,
+    "work": 5895627753,
+    "maximum": 0.004946333006955683
+  },
+  "warmup": {
+    "candidate_calls": 3,
+    "baseline_calls": 3,
+    "seconds": 0.06395470799179748,
+    "case": "fixture/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "rates": {
+    "normal|structured": {
+      "calls": 7500,
+      "seconds": 2.488899220013991
+    },
+    "parity|structured": {
+      "calls": 7500,
+      "seconds": 3.5473145682481118
+    },
+    "normal|ordinary": {
+      "calls": 1600,
+      "seconds": 0.6724382322281599
+    },
+    "parity|ordinary": {
+      "calls": 1600,
+      "seconds": 0.9042460093623959
+    },
+    "intervention|structured": {
+      "calls": 7800,
+      "seconds": 2.8070517645101063
+    },
+    "trace|structured": {
+      "calls": 1560,
+      "seconds": 1.9070192357175983
+    }
+  },
+  "baseline_calls": 1092,
+  "wall_seconds": 14.246279250015505,
+  "peak_rss_bytes": 154255360
+}
