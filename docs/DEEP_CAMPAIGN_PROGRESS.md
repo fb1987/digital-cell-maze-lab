@@ -500,3 +500,43 @@ These remain development/selection observations, with ancestor comparisons
 and independent confirmation outstanding. Saved `assessment_06500.json`,
 `retention_06500.json` and `checkin_06500.json` under
 `results/deep_campaign_run/`.
+
+## Round 7,000 development assessment
+
+Checked at 17:48 UTC with the active writer at round 7,436. All frontiers remain
+two; zero uncertain/retried batches. Observed process-tree RSS 1.40 GiB, run
+storage 5.34 GiB and free disk 58.6 GiB. Frozen setup and assessment hashes
+verified. No additional candidate inference or search intervention occurred.
+
+All primary pair counts remain 104/200. Ordinary primary counts are 7, 7 and
+8/96 versus 7/96 for the protected aggregate reference. Island two's extra case
+belongs to an inherited B individual. Best ordinary scores are 12/96 throughout,
+matching the strongest protected ordinary reference's correct-case membership.
+No broad primary improvement or frontier promotion is established.
+
+Archived island-two descendant `deep_v1/island2/i363556` (born 6,992) reaches
+102/200 pairs, including 14/24 prefix-four fork pairs, seven missed by the
+protected-reference union. It solves all corridors, six ordinary inputs and
+41/52 disconnected inputs, but makes one false reachable no-path claim.
+It gains 57 correct feature keys and loses 19 relative to the aggregate reference;
+this remains a tradeoff, below the reference's 104 total pairs.
+
+Both this descendant and unchanged archived `deep_v1/island2/i207989` solve
+the same 26-edge ordinary shortest route in two poses, missed by all protected
+references. The route has only one internal degree-three junction, two edges
+from the source; the extra length is not evidence of more complex branching.
+All 1,296 saved outputs across these two specialists were independently regraded.
+Their genomes, rows and geometry are preserved in `specialists_07000.json.gz`.
+
+The unchanged round-4,000 specialist retains 94/200 pairs, all eight prefix-two
+second-junction pairs, six prefix-four fork pairs, all corridors and 20/52
+disconnected successes, with no false reachable no-path claims. It solves six
+ordinary inputs on three bases. Earlier `deep_v1/island2/i51989` remains archived,
+with four ordinary successes, 26/200 pairs and all 52 disconnected successes,
+without false reachable no-path claims. `i180541` was not assessed after leaving
+the archive; its earlier records remain preserved.
+
+Continue unchanged. These are development/selection observations, not exact
+ancestral acquisition evidence or independent confirmation. Saved
+`assessment_07000.json`, `retention_07000.json`, `checkin_07000.json` and
+`specialists_07000.json.gz` under `results/deep_campaign_run/`.

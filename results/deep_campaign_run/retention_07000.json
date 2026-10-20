@@ -1,0 +1,73 @@
+{
+  "generation": 7000,
+  "development_data": true,
+  "new_inference_calls": 0,
+  "tracked_specialists": [
+    {
+      "island": 2,
+      "identity": "deep_v1/island2/i51989",
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_disconnected": 32,
+          "ordinary_perfect": 4,
+          "paired/fork/prefix0": 24,
+          "paired/two_junction/prefix0": 2
+        },
+        "false_no_path": 0,
+        "legal": 162,
+        "shortest": 162
+      },
+      "fitness": [
+        26,
+        162,
+        162,
+        52,
+        384.37847355
+      ],
+      "archived": true,
+      "ordinary_shortest": 4,
+      "ordinary_bases": 2,
+      "longest_ordinary_edges": 3
+    },
+    {
+      "island": 2,
+      "identity": "deep_v1/island2/i207989",
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_perfect": 6,
+          "paired/cycle/prefix0": 8,
+          "paired/fork/prefix0": 16,
+          "paired/fork/prefix1": 24,
+          "paired/fork/prefix2": 24,
+          "paired/fork/prefix4": 6,
+          "paired/two_junction/prefix0": 8,
+          "paired/two_junction/prefix2": 8
+        },
+        "false_no_path": 0,
+        "legal": 322,
+        "shortest": 322
+      },
+      "fitness": [
+        94,
+        322,
+        322,
+        20,
+        617.09058598
+      ],
+      "archived": true,
+      "ordinary_shortest": 6,
+      "ordinary_bases": 3,
+      "longest_ordinary_edges": 26
+    }
+  ],
+  "not_assessed": [
+    [
+      2,
+      "deep_v1/island2/i180541"
+    ]
+  ]
+}
