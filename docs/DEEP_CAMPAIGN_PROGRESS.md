@@ -170,3 +170,40 @@ Saved packets: `results/deep_campaign_run/assessment_01500.json`,
 saved successful ordinary rasters/geometry and the exact campaign ancestral
 events; lossless gzip round-trip verified. The authoritative journal remains
 preserved locally.
+
+## Round 2,000 development assessment
+
+Checked at 15:33 UTC with the active run at round 2,348, all frontiers two and
+zero uncertain/retried batches. Observed process-tree RSS 1.65 GiB, run storage
+1.69 GiB and free disk 62.3 GiB. Frozen setup and assessment hashes verified;
+the monitor performed zero candidate inference.
+
+Primary pair counts remain 104/200 on all islands. Ordinary primary counts
+are 13, 13 and 14/96 versus 13/96 for the best protected aggregate reference.
+Island two's extra correct case belongs to unchanged initial B individual
+`selectivity_v13b/carry/2/current/i1543`, so it is not campaign acquisition.
+The strongest ordinary score is 25/96 in every island, matching historical
+protected reference `foundation_pair_current/local/fresh/evolution/1/i114696`;
+island zero selects a descendant with identical successful-case membership.
+
+The previously reported specialist `deep_v1/island2/i51989` remains archived.
+On this different panel it solves 12/96 ordinary inputs (six bases), including
+four inputs missed by all protected references, with a longest correct route
+of seven edges. It again gives 26/200 pairs, 100/100 corridors and 52/52 correct
+disconnected responses with zero false reachable no-path claims. The different
+ordinary count is not evidence of regression: the genome is unchanged and the
+panel changed. Its earlier 20/96 advantage does not persist against the best
+protected ordinary reference on this panel.
+
+Complementary long-prefix coverage persists. Island-one archived descendant
+`deep_v1/island1/i100769` completes six prefix-eight fork pairs missed by the
+protected-reference union, but only 76/200 pairs overall, two ordinary inputs,
+and 20/52 disconnected inputs. Across island-one candidates there are thirteen
+distinct prefix-eight pairs missed by the protected references; that union is
+not a single organism's ability. These remain correlated development cases,
+without exact-ancestor comparisons or independent confirmation.
+
+No new broad capability change or protocol intervention is warranted.
+Continue the frozen campaign. Same-panel comparisons and retention details are
+saved in `results/deep_campaign_run/assessment_02000.json`,
+`retention_02000.json` and `checkin_02000.json`.
