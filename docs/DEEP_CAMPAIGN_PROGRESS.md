@@ -1,18 +1,64 @@
 # Deep campaign progress
 
-**Current status, October 20 at 18:17 UTC: STOPPED after 8,268 complete rounds.**
-The ordinary-perfect input generator exhausted its 4,000 attempts before the
-next batch was committed. No tasks are pending; all 255,744 task receipts are
-complete. The heartbeat is paused pending a documented generator amendment.
-The journal, traceback, checkpoints and verified SQLite backup are preserved.
-See `results/deep_campaign_run/failure_08268/report.md`.
+**Current status, October 20 at 18:37 UTC: RUNNING under approved amendment A1.**
+Resumed from the exact 8,268-round checkpoint at 18:36:27 UTC. Round **8,289**
+was verified after launch, with zero uncertain attempts and all frontiers two.
+The existing journal, population/RNG state, cumulative counters and 10,000-round
+milestone continue. The heartbeat is ACTIVE again, with quiet routine monitoring.
 
-Exact topology inventory found only 11 eligible 9×9 perfect-maze symmetry
-orbits left, versus 962 further perfect bases required to reach round 10,000.
-This cannot be repaired just by raising the retry limit. Recommended next step:
-preflight and register an explicit continuation using an 11×11 ordinary-perfect
-generator, retaining the exact checkpoint, cumulative bounds and milestone.
-No amendment has been implemented or launched; no confirmation cases generated.
+The user approved the documented repair after the 9×9 ordinary-perfect generator
+exhausted its finite novel topology pool. Only future ordinary-perfect training
+and assessment inputs change to 11×11 / 5×5 rooms. Random/disconnected families,
+structured contexts, counts, selection and runtime caps remain unchanged.
+Additional diagnostic/software exclusions are now bound into the journal.
+Cross-phase ordinary counts cannot establish acquisition; new development
+reports distinguish 48 perfect 11×11 queries from 48 random 9×9 queries.
+
+Read `docs/DEEP_CAMPAIGN_AMENDMENT_A1.md` and the sealed registration under
+`results/deep_campaign_amendment_a1/`. Registration/source commit `5be354e` and
+validation-transcript commit `0463dc6` were pushed before resumption. All original
+sealed files and the failure packet remain unchanged. The amendment registration
+SHA-256 is `2a7fb6283ac2db74f11a70759140fcc9acd30cb57ce41e8d010b12dbfa4498f4`.
+
+Current runner: `.venv/bin/python -m maze_evolution.deep_campaign_a1 run`.
+Use its `status` command for read-only monitoring and its `audit` command for the
+whole-history milestone replay. **Do not resume with the original runner.**
+The durable journal remains `runs/deep_campaign_v1/campaign.sqlite`; the current
+log is `session_002.log`. Launch PID25644 is recorded, but verify the live process
+and writer lock. Preserve the original round8,268 backup and session001 log.
+
+## A1 preflight and verified resumption
+
+The discarded capacity fixture accepted all **962** required perfect bases in
+962 draws, yielding7,692 oriented layout hashes. A separate copied-checkpoint
+rehearsal ran16 replacement rounds and one648-query broad assessment. Every one
+of267,858 candidate rasters was independently graded. All2,496 births and all17
+selection/mutation/RNG transitions replayed exactly, including an interruption
+and reopening after two completed task batches. No rehearsal descendant became
+a campaign founder or scientific continuation state. All24 focused campaign/A1
+tests passed; this was not a fresh full historical test suite.
+
+Preflight cost358.11 summed candidate seconds,366.85 summed workerCPU seconds,
+76.07 wall seconds,133,701,184,354 work units and zero uncertain attempts.
+It stayed within the predeclared600-candidate-second/15-minute allowance.
+The replay timer in the raw packet includes packaging and final seal checks.
+15,851 additional diagnostic/fixture hashes were bound, making838,459 exclusions
+at the amendment boundary. The portable discarded journal and fixtures are saved
+with the registration. They are software evidence, not research discoveries.
+
+Before launch, original and A1 seals, the exact checkpoint/chain/layouts/usage,
+remote publication, resources and absence of a writer were verified. The first
+amended stage8285 completed with16 perfect poses at11×11; its phase binding and
+input hash verified. At round8289 the active process tree used1.44GiB RSS, run
+storage including the preserved backup was11.85GiB, and52.01GiB remained free.
+A1 conservatively fixes storage accounting to include nested backup files while
+retaining the original20GiB limit. All other resource bounds remain unchanged.
+
+Launch/check records: `results/deep_campaign_run/launch_a1.json` and
+`checkin_a1_launch.json`. The first amended broad assessment remains scheduled
+for8,500. There is no new capability claim from this software repair; the full
+scientific selection/mutation/RNG audit remains due at the unchanged milestone.
+No independent confirmation cases have been generated.
 
 ## Launch history
 

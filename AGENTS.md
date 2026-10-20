@@ -34,17 +34,29 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Live update (October 20, 2026): **the deep campaign STOPPED after 8,268 complete
-rounds**, while constructing the next ordinary training batch:
-`RuntimeError: Ordinary training construction exhausted`. No pending stage or
-unfinished task receipts remain; all 255,744 batches are committed. Do not
-blindly restart or alter frozen sources/configuration. Read
-`docs/DEEP_CAMPAIGN_PROGRESS.md` and
-`results/deep_campaign_run/failure_08268/` for diagnosis and the required
-documented protocol repair. The heartbeat is PAUSED pending that decision.
-The journal and all populations/RNG remain preserved; a verified SQLite backup
-is at `runs/deep_campaign_v1/backups/failure_08268.sqlite`. The 10,000-round
-milestone has NOT been reached, and no confirmation cases have been generated.
+Live update (October 20, 2026): **the deep campaign is RUNNING under approved
+amendment A1**, resumed from the exact round-8,268 checkpoint at 18:36:27 UTC.
+Read `docs/DEEP_CAMPAIGN_AMENDMENT_A1.md`,
+`results/deep_campaign_amendment_a1/registration.json` and
+`docs/DEEP_CAMPAIGN_PROGRESS.md`. The 9×9 ordinary-perfect generator exhausted
+its finite novel topology pool; the preserved failure packet documents this.
+A1 changes only future ordinary-perfect inputs to 11×11, with unchanged counts,
+selection, population/RNG history, cumulative bounds and 10,000-round milestone.
+Registration/source commit5be354e and sealed validation transcript commit0463dc6
+were pushed BEFORE resumption. All original sealed sources remain unchanged.
+
+Use `.venv/bin/python -m maze_evolution.deep_campaign_a1 run` to resume ONLY after
+checking resources and absence of an active writer. NEVER use the original runner
+to resume A1. The same `runs/deep_campaign_v1/campaign.sqlite` journal is active;
+current log `session_002.log`, launch PID25644 (verify, don't assume), 10 workers.
+A1 `status` is read-only; A1 `audit` verifies the phase binding and replays the
+whole original/amended selection/mutation/RNG history. The full audit is pending.
+The heartbeat is ACTIVE again. The first amended round completed; round8289
+was observed at18:37UTC with zero uncertain attempts and all frontiers two.
+Report 11×11 perfect and 9×9 random ordinary development results separately;
+old/new raw counts are not acquisition. No confirmation cases have been generated.
+Preserve `runs/deep_campaign_v1/backups/failure_08268.sqlite` and the original
+failure packet. A1 counts nested backups toward the original20GiB storage bound.
 
 Launch history (October 20, 2026): the user authorized launch from frozen
 commit7854ada. Read `docs/DEEP_CAMPAIGN_PROGRESS.md`
