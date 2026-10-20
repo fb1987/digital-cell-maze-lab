@@ -1,9 +1,11 @@
 # Longer evolution run status
 
-V13A is now complete: [report](../results/branch_overgrowth.md). Waiting does not
-rescue the Z failures. The proposed next controlled pilot targets output
-selectivity; no further long or sexual run is launched. Exclude 275,168 layouts
-through V13A using results/branch_overgrowth/whole_layout_exclusions.json.gz.
+V13B is complete and audited: [report](../results/selectivity_pressure.md).
+The selective-output pilot closes after 30 matched generations with no new
+primary upstream pair. No cohort passes the longer-run gate. The next proposal
+is a bounded mutation-accessibility assay, not an unchanged longer search.
+No further long or sexual run is launched. Exclude 279,824 whole layouts through
+B using results/selectivity_pressure/whole_layout_exclusions.json.gz.
 
 The first 75-minute design is complete as V12Z: 128 matched generations in 69.57 minutes,
 followed by untouched confirmation and an independent audit. Read
@@ -30,6 +32,6 @@ recombination opportunity separately. It is a proposal, not a launched job.
 
 Use `.venv/bin/python tools/prepare_long_search.py check` to inspect status.
 The command never launches a run and marks completed designs as nonlaunchable.
-Future independent work must exclude all 272,464 whole layouts through Z via
-results/family_evolution/whole_layout_exclusions.json.gz plus later fixtures.
+Future independent work must use the latest B exclusion file above, which
+includes Z and A, plus every later fixture.
 No cloud resources or recurring automation are configured.

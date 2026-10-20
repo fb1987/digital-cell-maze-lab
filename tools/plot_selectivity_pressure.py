@@ -19,5 +19,5 @@ for row,origin in enumerate(('carry','fresh')):
    for x,(value,color) in enumerate(zip(vals,colors)):ax.scatter(x+(rep-1)*.09,value,color=color,marker=('o','s','^')[rep],s=48,zorder=2)
   ax.set_xticks(range(4),labels,rotation=18,ha='right');ax.set_title(f'{origin.capitalize()} — {title} /{denom}')
   ax.set_ylim(-denom*.025,denom);ax.set_yticks(np.linspace(0,denom,5));ax.grid(axis='y',alpha=.2)
-fig.suptitle('Selective-output pressure: untouched final mazes\nThree search replicates per arm; linked dots share founders. Poses and structural variants are correlated.',fontsize=13)
+fig.suptitle('Selective-output pressure: untouched final mazes\nThree search replicates per arm; linked dots share founders. Poses and variants are correlated.\nAll carried dots refer to the same preserved specialist, not independent discoveries.',fontsize=13)
 fig.savefig(OUT/'comparison.png',dpi=170);fig.savefig(OUT/'comparison.pdf')

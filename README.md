@@ -6,6 +6,32 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 20, 2026
 
+The [V13B selective-output pressure pilot](results/selectivity_pressure.md) is
+complete and audited. **The changed pressure does not produce a new primary
+branch-solving gain.** Thirty matched generations use 10.28 minutes of candidate
+compute across 24 conditions, with 1.04 million search responses.
+
+All carried arms select the same unchanged protected specialist: 416/800 pairs,
+256/320 prefix-one/two pairs and 44/384 ordinary paths. Every fresh primary has
+zero branch pairs. A selective-arm corridor advantage comes from an unmutated
+random immigrant. Neither mutation arm passes the longer-run gate.
+
+![Saved normal paired outputs](results/selectivity_pressure/routing_boundary.png)
+
+Fresh selective outputs still contain the route plus unwanted cells. The older
+longer-prefix specialist remains preserved separately, solving 46/160 prefix-four
+and 30/160 prefix-eight pairs. No general solver or speedup is established.
+The audit verifies 1,310,992 candidate replays and independent raster grades,
+including rehearsal. All populations, diversity and RNG states remain saved.
+
+Exclude **279,824 whole layouts** from future independent work. The
+[next proposal](results/selectivity_pressure/next_experiment.md) measures whether
+ordinary mutations can reach selective emission while retaining the route.
+It is not launched; longer and sexual runs remain gated. See the
+[current handoff](docs/SELECTIVITY_PRESSURE_PROGRESS.md).
+
+## Completed branch-overgrowth assay V13A
+
 The [V13A branch-overgrowth assay](results/branch_overgrowth.md) is complete and
 independently audited. **Waiting does not rescue the new Z lineages:** 428 failed
 traced tasks never show a correct path across 96 ticks, and removing the halt

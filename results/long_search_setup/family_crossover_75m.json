@@ -6,7 +6,8 @@
     "results/linkage_restart/completion.json": "b75919ea7d426e7936f8918e3e43a3f6e6b5397f14bea40aa4b3ad1a617e8dd6",
     "maze_evolution/family_reservoir.py": "a61fbba61415b4147fc74806640c712196c69d2e502d9641f27a7308b1b40e4d",
     "results/family_evolution/completion.json": "66cef585ecf517623ca13be702dc90781cf3f017ce23c8eb400a3708cb3eaa39",
-    "results/branch_overgrowth/completion.json": "12a1171c9f3768be9bfbdfa4609db90f8bb99a11d03a8363602cc39523647cd9"
+    "results/branch_overgrowth/completion.json": "12a1171c9f3768be9bfbdfa4609db90f8bb99a11d03a8363602cc39523647cd9",
+    "results/selectivity_pressure/completion.json": "d2e16882796291b32a8656f03b53f73fa816a13e194f081d68bbd09d1fdc4477"
   },
   "local_only": true,
   "paid_services": false,
@@ -52,8 +53,8 @@
   "checkpoint_interval": 32,
   "validation_interval": 32,
   "validation_nominees_per_condition": 2,
-  "whole_layout_exclusion_file": "results/branch_overgrowth/whole_layout_exclusions.json.gz",
-  "known_excluded_layouts": 275168,
+  "whole_layout_exclusion_file": "results/selectivity_pressure/whole_layout_exclusions.json.gz",
+  "known_excluded_layouts": 279824,
   "additional_exclusions": "Every later fixture/preflight and prior run layout, including all unqueried variants/poses.",
   "data": {
     "training": "Two matched contexts per generation: easy/short plus rotating prefix1/2/4 and genuine second-junction/alternative-cycle tasks,12inputs. Fixed common96-generation pose schedule.",

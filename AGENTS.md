@@ -34,7 +34,83 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V13A is complete and independently audited**. Read
+Current checkpoint: **V13B is complete and audited**. Read
+`results/selectivity_pressure.md` and `docs/SELECTIVITY_PRESSURE_PROGRESS.md` first.
+Do not repeat/extend B, silently resume its populations, or train/reselect on
+inspected final cases. No longer search or sexual study is launched.
+
+B tests ONLY selective partial fitness versus current pressure, with resampling
+and frozen controls: carry/fresh × 3 replicates × 4 arms, 96 organisms each.
+Carry explicitly forks exact Z current-mutation generation-128 populations/RNG,
+locus IDs/families and 20 protected historical random-origin anchors. Fresh random
+founders protect at most 3 own common initial-validation selections. No known
+solver enters a lineage. Local exposure7, 256-gene cap, one-edit mutation,
+44 survivors/52 births and original-partial validation archive ranks stay common.
+
+30 matched generations finish at the closed candidate reserve: 616.98/720 candidate
+seconds, 772.65/900 wall seconds, 1,041,600 physical calls, 360,221,234,231 work units,
+385.27 MiB RSS. 28,080 births/16,200 mutations and all population/RNG states remain.
+Only generation16 nomination fits: two nominees per condition. Generations17–30
+are saved but are NOT post-cap nominees. Shared initial screening195,840 calls;
+training829,440; nomination16,320. Equal logical evaluations per condition67,880.
+
+Registration2f7a379 and selection freeze15fe975 were pushed before downstream
+scientific generation. Seeds2026102007, fixtures1454/1455. Original timing estimate
+failed; BEFORE registration, validation660→340 and a pooled timing estimate
+reduced projected first16 rounds1621.46→569.00s. Preserve original source/profile.
+No performance-based refinement. Calibration/rehearsal99.28/180 candidate seconds;
+three discarded generations replay82,944 responses/1,620 mutations exactly.
+
+Final12 contexts,8 poses, prefixes0/1/2/4/8, forks/second junctions/real alternative
+cycles plus ordinary inputs:5,312/model,800 pairs,1,600 corridors,384 ordinary
+reachable,1,728 disconnected.32 physical models/93 aliases. Existing grammar/new
+layouts, NOT novel-topology transfer; contexts independent, variants/poses correlate.
+Final169,984 calls,163.78 candidate seconds,171.72 wall,293.70 MiB RSS;95,888,158,888 work.
+
+ALL12 carried primary aliases select the SAME unchanged protected255-gene
+carry/0/mutation/i3776. It gives416/800 pairs,256/320 prefix1/2,96/160 prefix2,
+32 upstream cycle pairs,0 prefix4/8 pairs,44/384 ordinary,1584/1600 corridors.
+Ordinary successes have1–6 edges. These are preserved abilities, NOT B evolution
+or independent discoveries. All fresh primaries0 pairs/ordinary. Fresh corridors:
+current[1600,1200,0],selective[1600,1600,0],resampling[1600,0,584],frozen[1600,0,0].
+Selective r1 i731,103 genes,birth15 is an UNMUTATED RANDOM IMMIGRANT. Its corridor
+advantage is not evolved suppression. All primary no-path0/1728 and false reachable
+no-path0. BFS/A*/bitwave/intact solveall5312. Every cohort fails0/3 passing gates.
+
+Retained secondary anchor carry/1/mutation/i18358 still gives344/800 pairs,
+46/160 prefix4,30/160 prefix8,38/384 ordinary,1476 corridors. Older E i114696 gives
+four prefix4 pairs. These unchanged historical variants remain protected; do not
+confuse zero PRIMARY longer-prefix counts with absence of retained long skills.
+
+Post-hoc saved-raster diagnosis: all3 fresh selective primaries contain the full
+route PLUS extras on every640 prefix1/2 inputs. Current r0/r2 likewise; r1 does so
+on320 and fails to emit on320. Carried primary's96 failed prefix2 outputs each
+contain exactlyone extra cell. Illustrations are retrospective, zero new calls.
+No general solver, multirange benefit or speedup is established; no latency assay.
+
+First audit PASS994.85s,759.42 MiB RSS:1,228,048 exact candidate replays/independent
+grades plus82,944 rehearsal =1,310,992 total;15,936 baseline replays; all births,
+mutations, populations/RNG, final aliases and metrics.249 source/23 input hashes
+and8,164 prior completion entries pass. Same native/reproduction implementation
+replayed, independent raster/selectivity grading; no second VM implementation.
+9 new+6 related tests and2 replay-isolation tests pass, NOT fresh full suite.
+No frozen-source repair or post-registration protocol deviation.
+
+Exclude ALL **279,824 whole layouts** through B using
+`results/selectivity_pressure/whole_layout_exclusions.json.gz`, plus later fixtures.
+Completion seals475 entries; future prior total8,639. Re-audit with
+`tools/replay_selectivity_pressure_audit.py`, never overwrite sealed audit.json.
+
+Next proposal ONLY: bounded mutation-accessibility assay on a frozen explicitly
+B-informed random-origin panel; common mutation neighborhoods, retained normal
+paired success and route coverage versus excess cells, both rankings on the SAME
+pool, unchanged/random controls, frozen choices before untouched confirmation.
+Register exact budgets/gates before screening. Sparse nomination and30 generations
+limit this negative pilot; random-origin discovery remains open. No unchanged
+75-minute extension. Sexual actual-transfer gate remains unmet. See
+`results/selectivity_pressure/next_experiment.md`.
+
+Historical V13A checkpoint: **V13A is complete and independently audited**. Read
 `results/branch_overgrowth.md` and `docs/BRANCH_OVERGROWTH_PROGRESS.md` first.
 Do not repeat/extend A or Z, silently resume populations, or train/reselect on
 inspected final data. No new evolutionary or sexual study is launched.

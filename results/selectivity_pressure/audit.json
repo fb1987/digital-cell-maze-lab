@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "wall_seconds": 994.8536762080039,
+  "peak_rss_bytes": 796311552,
+  "preflight_replay": {
+    "exact_candidate_replays": 82944,
+    "independent_grades": 82944,
+    "states": 24
+  },
+  "prior_hashes": 8164,
+  "source_hashes": 249,
+  "input_hashes": 23,
+  "logged_candidate_calls": 1228048,
+  "exact_candidate_replays": 1228048,
+  "independently_graded_candidate_rasters": 1228048,
+  "baseline_replays": 15936,
+  "training_sampling": "All rasters independently graded; all candidate inference exactly replayed, including training",
+  "generations": 30,
+  "populations": 24,
+  "reproduction": {
+    "carry/0/current": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/0/selective": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/0/resample": {
+      "births": 1560,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/0/frozen": {
+      "births": 0,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/1/current": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/1/selective": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/1/resample": {
+      "births": 1560,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/1/frozen": {
+      "births": 0,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/2/current": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/2/selective": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/2/resample": {
+      "births": 1560,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "carry/2/frozen": {
+      "births": 0,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/0/current": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/0/selective": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/0/resample": {
+      "births": 1560,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/0/frozen": {
+      "births": 0,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/1/current": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/1/selective": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/1/resample": {
+      "births": 1560,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/1/frozen": {
+      "births": 0,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/2/current": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/2/selective": {
+      "births": 1560,
+      "mutations": 1350,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/2/resample": {
+      "births": 1560,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    },
+    "fresh/2/frozen": {
+      "births": 0,
+      "mutations": 0,
+      "attempts": 0,
+      "splices": 0,
+      "complementary_splices": 0
+    }
+  },
+  "whole_layouts": 279824,
+  "geometry": {
+    "fixture": {
+      "inputs": 1440,
+      "pairs": 240,
+      "whole_layouts": 368,
+      "contexts": 6,
+      "ordinary_inputs": 0
+    },
+    "validation": {
+      "inputs": 1440,
+      "pairs": 240,
+      "whole_layouts": 368,
+      "contexts": 6,
+      "ordinary_inputs": 0
+    },
+    "confirmation": {
+      "inputs": 4800,
+      "pairs": 800,
+      "whole_layouts": 1120,
+      "contexts": 12,
+      "ordinary_inputs": 512
+    }
+  }
+}
