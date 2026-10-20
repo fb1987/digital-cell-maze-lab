@@ -1,3 +1,7 @@
+V12Z implementation and preflight now pass; see `docs/FAMILY_EVOLUTION_PROGRESS.md`
+and `docs/FAMILY_EVOLUTION_V12Z.md` for current status. The original preparation
+description below records the plan. Sexual75minute comparison remains gated.
+
 # Longer evolution setup after V12Y
 
 Two local 75-minute comparison specifications are prepared. They are not

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "generations": 3,
+  "conditions": 24,
+  "exact_candidate_replays": 82944,
+  "independent_raster_grades": 82944,
+  "mutation_replays": 1620,
+  "budget": {
+    "cap_seconds": 176.6128036804148,
+    "seconds": 60.44104833446909,
+    "calls": 165888,
+    "work": 35374371144,
+    "maximum": 0.009431167040020227
+  },
+  "warmup": {
+    "candidate_calls": 1,
+    "baseline_calls": 3,
+    "seconds": 0.12786033301381394,
+    "case": "train/core/a(2, 2)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "wall_seconds": 79.93150241603144,
+  "discarded": true,
+  "peak_rss_bytes": 497975296
+}

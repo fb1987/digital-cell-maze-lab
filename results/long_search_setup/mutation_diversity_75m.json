@@ -1,5 +1,5 @@
 {
-  "status": "prepared_specification_not_registered_or_launched",
+  "status": "integrated_preflight_passed_pending_registration",
   "evidence": {
     "results/mating_opportunity/analysis.json": "27ec196f09ff54832e329247988e3cc1f7afebca8c275b56b26ed402ccec6d9c",
     "results/mating_opportunity/audit.json": "120b4351bed6a11051339f839908a958ab28d1d6dd3ef01b2a95fc4e69d3f2f3",
@@ -79,10 +79,10 @@
   "readiness": {
     "retention_policy_implemented": true,
     "retention_unit_tests_passed": true,
-    "full_experiment_runner_integrated": false,
+    "full_experiment_runner_integrated": true,
     "protocol_registered": false,
-    "fixture_calibration_passed": false,
-    "short_end_to_end_replay_passed": false
+    "fixture_calibration_passed": true,
+    "short_end_to_end_replay_passed": true
   },
   "before_launch": [
     "Integrate the prepared selector with a separately namespaced runner and complete mutation/RNG audit.",
@@ -106,5 +106,7 @@
   "changes_from_X": "Retained count44 and52births are common to both mutation arms, replacing old24/72. Only family-reserved selection differs between them. Compare within this new study.",
   "conditions": 24,
   "organisms_per_matched_generation": 2304,
-  "training_calls_per_generation": 27648
+  "training_calls_per_generation": 27648,
+  "implementation": "maze_evolution/family_evolution_study.py",
+  "protocol": "docs/FAMILY_EVOLUTION_V12Z.md"
 }
