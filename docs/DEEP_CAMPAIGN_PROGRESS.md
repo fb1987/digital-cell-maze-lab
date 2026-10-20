@@ -207,3 +207,39 @@ No new broad capability change or protocol intervention is warranted.
 Continue the frozen campaign. Same-panel comparisons and retention details are
 saved in `results/deep_campaign_run/assessment_02000.json`,
 `retention_02000.json` and `checkin_02000.json`.
+
+## Round 2,500 development assessment
+
+Checked at 15:48 UTC with the active writer at round 2,905. All frontiers remain
+two, with no uncertain/retried batches. Observed process-tree RSS was 1.64 GiB,
+run storage 2.09 GiB and free disk 61.9 GiB. Frozen setup and completed assessment
+hashes verified. No additional candidate inference or intervention occurred.
+
+All primaries still solve 104/200 pairs. Ordinary primary counts are 21, 21 and
+24/96 versus 21/96 for the protected aggregate reference. All three primaries
+are inherited B genomes; island two's three additional ordinary successes are
+not campaign acquisition. Best ordinary scores are 28, 26 and 24/96 versus
+24/96 for the best protected ordinary reference on this same panel. Island zero's
+28-success descendant has a longest correct route of only three edges; island
+one's 26-success descendant solves only 34/200 structured pairs. The higher
+ordinary counts do not demonstrate broad solving.
+
+Archived specialist `deep_v1/island2/i51989` retains 26/200 pairs, 100/100 corridors
+and 52/52 disconnected responses with zero false reachable no-path claims.
+It solves 22/96 ordinary inputs (eleven bases), five missed by all protected
+references, with a longest correct route of nine edges. Counts across panels
+are not direct gains or losses because the cases change.
+
+Small complementary second-junction successes now appear in island one:
+archived `deep_v1/island1/i127951` completes two prefix-two second-junction pairs
+missed by the reference union, one pose in each of two structured contexts,
+while completing 70/200 pairs overall. Archived `deep_v1/island1/i129988`
+completes two other such poses in one context, with 62/200 pairs overall.
+Together these cover four distinct pairs, not four successes by one organism.
+Long-prefix fork specialists also persist. These observations warrant retention
+and follow-up at later assessments, but remain narrow development coverage
+without exact-ancestor/full-founder comparisons or independent confirmation.
+
+Continue unchanged. No broad capability change or required user action.
+Saved `results/deep_campaign_run/assessment_02500.json`,
+`retention_02500.json` and `checkin_02500.json`.
