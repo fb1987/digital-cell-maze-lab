@@ -460,3 +460,43 @@ campaign unchanged. These are development/selection data; ancestor comparisons
 and independent confirmation remain outstanding.
 Saved `results/deep_campaign_run/assessment_06000.json`,
 `retention_06000.json` and `checkin_06000.json`.
+
+## Round 6,500 development assessment
+
+Checked at 17:33 UTC with the active writer at round 6,867, all frontiers two
+and zero uncertain/retried batches. Observed process-tree RSS 1.40 GiB, run
+storage 4.93 GiB, free disk 59.0 GiB. Frozen setup and assessment hashes verified;
+monitoring performed zero candidate inference or search intervention.
+
+Primary pair counts remain 104/200 throughout. Ordinary counts are 12, 12 and
+11/96 versus 11/96 for the protected aggregate reference. Island one's extra
+ordinary success belongs to an unchanged initial B genome; protected-reference
+novelty alone is not campaign acquisition. Best ordinary scores are 15/96
+throughout and match the strongest historical protected ordinary reference's
+successful-case membership.
+
+Unchanged archived specialist `deep_v1/island2/i207989` retains 94/200 pairs,
+all eight prefix-two second-junction pairs, six prefix-four fork pairs and all
+corridors. It solves 12/96 ordinary inputs (six bases), 20/52 disconnected inputs
+and makes zero false reachable no-path claims.
+
+One ordinary success is a **20-edge shortest path through three internal
+degree-three junctions**, at distances four, six and sixteen from the source,
+in both poses of a single perfect-maze base. No protected reference solves
+either pose. All 648 saved specialist rasters were independently regraded,
+and the successful ordinary path geometry is saved in
+`results/deep_campaign_run/specialist_06500.json.gz`. This extends the observed
+case repertoire of the unchanged round-4,000 genome; it is not a mutation gain
+since that round, nor evidence of reliable ordinary-maze generality.
+
+The earlier ordinary/no-path specialist `deep_v1/island2/i51989` remains archived
+with 14/96 ordinary successes, 26/200 pairs and all 52 disconnected successes,
+without false reachable no-path claims. The older 94-pair specialist
+`deep_v1/island2/i180541` was assessed but is no longer selected into the current
+coverage archive; its genome, history and earlier checkpoints remain preserved.
+
+Continue unchanged. No broader primary improvement or frontier promotion.
+These remain development/selection observations, with ancestor comparisons
+and independent confirmation outstanding. Saved `assessment_06500.json`,
+`retention_06500.json` and `checkin_06500.json` under
+`results/deep_campaign_run/`.
