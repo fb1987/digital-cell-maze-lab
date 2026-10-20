@@ -1,0 +1,55 @@
+{
+  "candidate_calls": 0,
+  "post_hoc": true,
+  "examples": [
+    {
+      "alias": "fresh2",
+      "case": "confirmation/straight/v0/c0/s0/p1-straight/fork0/goal0/d4-0",
+      "optimal": true,
+      "normal_emission": true
+    },
+    {
+      "alias": "fresh2",
+      "case": "confirmation/straight/v0/c0/s0/p1-straight/fork0/goal1/d4-0",
+      "optimal": true,
+      "normal_emission": true
+    },
+    {
+      "alias": "fresh2",
+      "case": "confirmation/straight/v0/c0/s0/p2-straight/fork0/goal0/d4-0",
+      "optimal": false,
+      "normal_emission": true
+    },
+    {
+      "alias": "fresh2",
+      "case": "confirmation/straight/v0/c0/s0/p2-straight/fork0/goal1/d4-0",
+      "optimal": false,
+      "normal_emission": true
+    },
+    {
+      "alias": "carry0",
+      "case": "confirmation/straight/v0/c0/s0/p1-straight/cycle2/goal0/d4-0",
+      "optimal": true,
+      "normal_emission": true
+    },
+    {
+      "alias": "carry0",
+      "case": "confirmation/straight/v0/c0/s0/p1-straight/cycle2/goal1/d4-0",
+      "optimal": true,
+      "normal_emission": true
+    },
+    {
+      "alias": "carry0",
+      "case": "confirmation/straight/v0/c0/s0/p4-straight/cycle2/goal0/d4-0",
+      "optimal": false,
+      "normal_emission": true
+    },
+    {
+      "alias": "carry0",
+      "case": "confirmation/straight/v0/c0/s0/p4-straight/cycle2/goal1/d4-0",
+      "optimal": false,
+      "normal_emission": true
+    }
+  ],
+  "matplotlib": "3.11.2"
+}

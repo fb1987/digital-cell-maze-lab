@@ -6,6 +6,43 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12T mechanism and transfer assay](results/routing_mechanism.md) is complete
+and independently audited. **Exact ancestor comparisons confirm acquired branch
+routing in selected random-origin lineages, but reliable general solving remains
+unestablished.** No new evolution occurred in this assay.
+
+Two fresh descendants complete 8 and 32 of 1,280 positive-prefix goal-switch
+pairs; their exact random immigrant roots complete zero. Carried descendants
+complete 168 and 116, and the spliced descendant 96. A preserved specialist
+completes paired 20-edge routes in particular orientations of one hook context.
+The 68-gene random control matches the stronger fresh descendant's paired score.
+None passes the all-orientation long-prefix transfer screen.
+
+The simple finite-pruning predictor explains only 54–61% of branched outputs
+prospectively. Goal-input and output-feedback dependencies differ by lineage;
+all five descendants lose the tested successes when their halt request is disabled.
+All random-origin models fail the 640 non-isolated disconnected inputs. The best
+ordinary result is a preserved ancestor, illustrating why diversity matters.
+
+![Exact roots and prospective mechanism predictions](results/routing_mechanism/comparison.png)
+
+Four sampled structural contexts and 64 ordinary bases are small, explicit
+limits; poses and variants are correlated. Main inference uses 194.93 seconds
+under a 720-second cap. Audit passes 134,112 exact candidate replays, 149,232
+graded response rasters, all ancestry events and prior completion hashes.
+40 focused/related tests pass; not a fresh full-suite run. Preserve all original
+populations/RNG and exclude **225,592 whole layouts** from future independent data.
+
+See the [report](results/routing_mechanism.md),
+[handoff](docs/ROUTING_MECHANISM_PROGRESS.md), and
+[unlaunched proposal](results/routing_mechanism/next_experiment.md) to map the
+preserved 12-edit carried lineage on new data before another evolutionary change.
+After a fresh clone, restore S's losslessly chunked ancestry log with
+`.venv/bin/python tools/archive_composition_births.py restore` before prior-hash
+checks or audits.
+
+## Completed recombination comparison V12S
+
 The [V12S recombination comparison](results/composition_study.md) and three-step
 research reassessment are complete and independently audited. **Sustained search
 finds stronger random-origin routing, but compatible recombination does not show
@@ -25,7 +62,7 @@ Preserve the rarer prefix-four/cycle specialist and the fresh descendants. The b
 ordinary result is 74/384; all random-origin models fail 128 partition-disconnected
 inputs. General solving, multirange advantage and speedup remain unestablished.
 The [report](results/composition_study.md) distinguishes structural transfer,
-ancestry, lost skills and proposed mechanism tests. No next experiment launched.
+ancestry, lost skills and proposed mechanism tests. The follow-up is now completed as V12T above.
 
 Audit passes 3,456,354 exact candidate replays and all
 birth/RNG/selection reconstruction. Training replay is sampled as preregistered;

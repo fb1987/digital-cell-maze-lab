@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "counts": {
+    "prior_hashes": 4677,
+    "ancestry_events": 787,
+    "whole_layouts": 225592,
+    "candidate_replays": 134112,
+    "independent_adapter_parity": 14400,
+    "trace_frames": 165888,
+    "baseline_replays": 15120,
+    "native_cost_replays": 6720,
+    "predictor_masks": 26880,
+    "independently_graded_rasters": 149232
+  },
+  "source_hashes": 206,
+  "input_hashes": 23,
+  "wall_seconds": 357.0936294590356,
+  "peak_rss_bytes": 1442136064,
+  "limitations": "All normal/intervention/forced responses exactly replayed and independently graded. All trace states replayed; frame summaries deterministically recomputed. No independent second interpreter for feedback/halting interventions beyond synthetic tests."
+}

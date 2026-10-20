@@ -1,0 +1,33 @@
+"""Seal audited V12T data and whole-layout exclusions; no candidate inference."""
+from pathlib import Path
+import sys,json,subprocess
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from maze_evolution.routing_mechanism_study import check_freeze,prior_check,sha
+from maze_evolution.routing_mechanism_data import OUT,FIXTURES,ROOT,exclusions,load,layout_hash,compressed_json
+from maze_evolution.foundation_calibration import write_json
+
+def main():
+    reg=check_freeze();assert prior_check()==4677 and not (OUT/'completion.json').exists()
+    audit=json.loads((OUT/'audit.json').read_text());assert audit['passed']
+    assert (ROOT/'results/routing_mechanism.md').exists() and (OUT/'normal_outputs.png').exists()
+    hashes=exclusions();sources={}
+    for folder in (OUT/'preparation_rejected',FIXTURES,OUT/'confirmation'):
+        c,_,_=load(folder);hashes.update(layout_hash(o.maze) for o in c.values())
+        path=folder/'mazes.json.gz';sources[str(path.relative_to(ROOT))]=sha(path)
+    assert len(hashes)==audit['counts']['whole_layouts']==225592
+    compressed_json(OUT/'whole_layout_exclusions.json.gz',dict(scope='All whole layouts through V12T including rejected preflight, corrected fixtures and all final poses',count=len(hashes),hashes=sorted(hashes),algorithm='maze_evolution.goal_data.layout_hash; endpoints excluded'))
+    write_json(OUT/'exclusion_sources.json',dict(through_S_count=217240,through_S_hashset_sha256=sha(ROOT/'results/composition_study/whole_layout_exclusions.json.gz'),added_manifests=sources,through_T_count=len(hashes)))
+    paths={ROOT/name for group in ('sources','inputs') for name in reg[group]}
+    paths.update(p for base in (OUT,FIXTURES) for p in base.rglob('*') if p.is_file() and p.suffix!='.log')
+    paths.update((ROOT/'tools').glob('*routing_mechanism*.py'));paths.add(ROOT/'results/routing_mechanism.md')
+    revision=json.loads((OUT/'confirmation/generation.json').read_text())['revision']
+    for name in ('panel.json.gz','preregistration.json'):
+        assert subprocess.check_output(['git','show',f'{revision}:results/routing_mechanism/{name}'])==(OUT/name).read_bytes()
+    write_json(OUT/'completion.json',dict(status='complete_and_audited',preregistration_revision=revision,
+        source_and_artifact_sha256={str(p.relative_to(ROOT)):sha(p) for p in sorted(paths)},prior_hash_entries=4677,
+        audit_passed=True,main_candidate_calls=102144,whole_layouts_through_T=len(hashes),next_experiment_launched=False,
+        mutable_handoffs_excluded=['AGENTS.md','README.md','docs/ROUTING_MECHANISM_PROGRESS.md'],
+        scientific_source_repair_after_registration=False))
+    print(dict(hash_entries=len(paths),future_prior_entries=4677+len(paths),layouts=len(hashes)))
+
+if __name__=='__main__':main()
