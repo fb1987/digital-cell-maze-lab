@@ -6,6 +6,32 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 19, 2026
 
+The [V12V causal dissection](results/causal_dissection.md) is complete and
+independently audited. **The channel-4 mechanism is confirmed on new inputs,
+and a simple genetic reversion proves harmful in the later background.**
+
+Mutation 2 works without the preceding deletion: positive-prefix solving goes
+from 0 to 344/1,440 pairs. Suppressing/restoring channel 4 exactly matches the
+predicted native counterpart in all 18,944 diagnostic responses, including work
+counters. But restoring the old output store in the final descendant collapses
+solving from 320 to 8/1,440 pairs. The same store helps in the earlier background.
+
+![Controlled genetic and signal tests](results/causal_dissection/causal_tests.png)
+
+These are fixed historical models and four labeled mechanistic probes, not new
+evolved discoveries. Long-prefix generalization and general maze solving remain
+unestablished; there is no speedup claim. The failed repair remains separate from
+all original populations. Main compute is 300.48 seconds under a 720-second cap;
+audit passes 128,064 exact candidate replays and 147,192 independent raster grades.
+Thirty focused/related tests pass. Exclude **243,540 whole layouts** in future data.
+
+See the [report](results/causal_dissection.md), [handoff](docs/CAUSAL_DISSECTION_PROGRESS.md)
+and [unlaunched interaction-map proposal](results/causal_dissection/next_experiment.md).
+The next proposed test identifies which of four later edits changes the store's
+effect before defining a module for mutation or recombination to preserve.
+
+## Completed historical mutation map V12U
+
 The [V12U historical mutation map](results/lineage_mapping.md) is complete and
 independently audited. **One saved operand mutation accounts for the carried
 lineage's large solving gain on eight new structural contexts.** No new evolution

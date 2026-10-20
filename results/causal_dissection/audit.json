@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "counts": {
+    "prior_hashes": 5189,
+    "historical_edits": 12,
+    "synthetic_edits": 4,
+    "whole_layouts": 243540,
+    "candidate_replays": 128064,
+    "native_adapter_parity": 4736,
+    "baseline_replays": 19128,
+    "signal_equivalence_cases": 18944,
+    "independently_graded_rasters": 147192
+  },
+  "source_hashes": 215,
+  "input_hashes": 11,
+  "wall_seconds": 348.27550820901524,
+  "peak_rss_bytes": 1468776448,
+  "limitations": "Exact candidate and baseline replay, independently graded rasters and graph oracles. New channel4 diagnostic adapter is checked against native fixture inference. Prespecified intervention-to-native equivalence predictions are independently tallied below; no second diagnostic interpreter. Analysis deterministically recomputed."
+}

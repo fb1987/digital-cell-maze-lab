@@ -1,0 +1,56 @@
+{
+  "candidate_calls": 0,
+  "post_hoc": true,
+  "selection_rule": "First gained positive cycle in fixed diagnostic subset, otherwise first gained positive pair",
+  "examples": [
+    {
+      "alias": "d01",
+      "mode": "normal",
+      "case": "confirmation/bend_both/v0/c3/s0/p1-straight/cycle2/goal0/d4-0",
+      "optimal": false,
+      "steps": 256,
+      "normal_stopping": true
+    },
+    {
+      "alias": "d01",
+      "mode": "normal",
+      "case": "confirmation/bend_both/v0/c3/s0/p1-straight/cycle2/goal1/d4-0",
+      "optimal": false,
+      "steps": 26,
+      "normal_stopping": true
+    },
+    {
+      "alias": "d02",
+      "mode": "normal",
+      "case": "confirmation/bend_both/v0/c3/s0/p1-straight/cycle2/goal0/d4-0",
+      "optimal": true,
+      "steps": 74,
+      "normal_stopping": true
+    },
+    {
+      "alias": "d02",
+      "mode": "normal",
+      "case": "confirmation/bend_both/v0/c3/s0/p1-straight/cycle2/goal1/d4-0",
+      "optimal": true,
+      "steps": 54,
+      "normal_stopping": true
+    },
+    {
+      "alias": "d02",
+      "mode": "channel4_restore",
+      "case": "confirmation/bend_both/v0/c3/s0/p1-straight/cycle2/goal0/d4-0",
+      "optimal": false,
+      "steps": 256,
+      "normal_stopping": true
+    },
+    {
+      "alias": "d02",
+      "mode": "channel4_restore",
+      "case": "confirmation/bend_both/v0/c3/s0/p1-straight/cycle2/goal1/d4-0",
+      "optimal": false,
+      "steps": 26,
+      "normal_stopping": true
+    }
+  ],
+  "matplotlib": "3.11.2"
+}

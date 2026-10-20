@@ -1,0 +1,376 @@
+{
+  "candidate_calls": 0,
+  "post_hoc": true,
+  "models": {
+    "d00": {
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d01": {
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d02": {
+      "positive_by_graph": {
+        "fork": 176,
+        "two_junction": 88,
+        "cycle": 80
+      },
+      "positive_by_prefix": {
+        "1/straight": 264,
+        "2/straight": 80
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/straight/v2/c2/s0": 32,
+        "confirmation/bend_both/v0/c3/s0": 28,
+        "confirmation/bend_both/v1/c4/s0": 28,
+        "confirmation/bend_both/v2/c5/s0": 32,
+        "confirmation/bend_one/v0/c6/s0": 26,
+        "confirmation/bend_one/v1/c7/s0": 32,
+        "confirmation/bend_one/v2/c8/s0": 32,
+        "confirmation/hook/v0/c9/s0": 26,
+        "confirmation/hook/v1/c10/s0": 22,
+        "confirmation/hook/v2/c11/s0": 22
+      },
+      "positive_full_pose_groups": 32,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d07": {
+      "positive_by_graph": {
+        "fork": 176,
+        "two_junction": 88,
+        "cycle": 80
+      },
+      "positive_by_prefix": {
+        "1/straight": 264,
+        "2/straight": 80
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/straight/v2/c2/s0": 32,
+        "confirmation/bend_both/v0/c3/s0": 28,
+        "confirmation/bend_both/v1/c4/s0": 28,
+        "confirmation/bend_both/v2/c5/s0": 32,
+        "confirmation/bend_one/v0/c6/s0": 26,
+        "confirmation/bend_one/v1/c7/s0": 32,
+        "confirmation/bend_one/v2/c8/s0": 32,
+        "confirmation/hook/v0/c9/s0": 26,
+        "confirmation/hook/v1/c10/s0": 22,
+        "confirmation/hook/v2/c11/s0": 22
+      },
+      "positive_full_pose_groups": 32,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d08": {
+      "positive_by_graph": {
+        "fork": 160,
+        "two_junction": 80,
+        "cycle": 80
+      },
+      "positive_by_prefix": {
+        "1/straight": 240,
+        "2/straight": 80
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/straight/v2/c2/s0": 32,
+        "confirmation/bend_both/v0/c3/s0": 24,
+        "confirmation/bend_both/v1/c4/s0": 24,
+        "confirmation/bend_both/v2/c5/s0": 32,
+        "confirmation/bend_one/v0/c6/s0": 24,
+        "confirmation/bend_one/v1/c7/s0": 32,
+        "confirmation/bend_one/v2/c8/s0": 32,
+        "confirmation/hook/v0/c9/s0": 24,
+        "confirmation/hook/v1/c10/s0": 16,
+        "confirmation/hook/v2/c11/s0": 16
+      },
+      "positive_full_pose_groups": 24,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d12": {
+      "positive_by_graph": {
+        "fork": 160,
+        "two_junction": 80,
+        "cycle": 80
+      },
+      "positive_by_prefix": {
+        "1/straight": 240,
+        "2/straight": 80
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/straight/v2/c2/s0": 32,
+        "confirmation/bend_both/v0/c3/s0": 24,
+        "confirmation/bend_both/v1/c4/s0": 24,
+        "confirmation/bend_both/v2/c5/s0": 32,
+        "confirmation/bend_one/v0/c6/s0": 24,
+        "confirmation/bend_one/v1/c7/s0": 32,
+        "confirmation/bend_one/v2/c8/s0": 32,
+        "confirmation/hook/v0/c9/s0": 24,
+        "confirmation/hook/v1/c10/s0": 16,
+        "confirmation/hook/v2/c11/s0": 16
+      },
+      "positive_full_pose_groups": 24,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "fresh2": {
+      "positive_by_graph": {
+        "fork": 96
+      },
+      "positive_by_prefix": {
+        "1/straight": 96
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 8,
+        "confirmation/straight/v1/c1/s0": 8,
+        "confirmation/straight/v2/c2/s0": 8,
+        "confirmation/bend_both/v0/c3/s0": 8,
+        "confirmation/bend_both/v1/c4/s0": 8,
+        "confirmation/bend_both/v2/c5/s0": 8,
+        "confirmation/bend_one/v0/c6/s0": 8,
+        "confirmation/bend_one/v1/c7/s0": 8,
+        "confirmation/bend_one/v2/c8/s0": 8,
+        "confirmation/hook/v0/c9/s0": 8,
+        "confirmation/hook/v1/c10/s0": 8,
+        "confirmation/hook/v2/c11/s0": 8
+      },
+      "positive_full_pose_groups": 12,
+      "max_paired_route_edges": 12,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "fresh2_root": {
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "carry1": {
+      "positive_by_graph": {
+        "fork": 164,
+        "two_junction": 26,
+        "cycle": 8
+      },
+      "positive_by_prefix": {
+        "1/straight": 72,
+        "2/straight": 32,
+        "4/straight": 49,
+        "4/bent": 4,
+        "8/straight": 41
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 21,
+        "confirmation/straight/v1/c1/s0": 21,
+        "confirmation/straight/v2/c2/s0": 25,
+        "confirmation/bend_both/v0/c3/s0": 14,
+        "confirmation/bend_both/v1/c4/s0": 14,
+        "confirmation/bend_both/v2/c5/s0": 14,
+        "confirmation/bend_one/v0/c6/s0": 19,
+        "confirmation/bend_one/v1/c7/s0": 14,
+        "confirmation/bend_one/v2/c8/s0": 14,
+        "confirmation/hook/v0/c9/s0": 14,
+        "confirmation/hook/v1/c10/s0": 14,
+        "confirmation/hook/v2/c11/s0": 14
+      },
+      "positive_full_pose_groups": 0,
+      "max_paired_route_edges": 19,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "broad_root": {
+      "positive_by_graph": {},
+      "positive_by_prefix": {},
+      "positive_by_context": {},
+      "positive_full_pose_groups": 0,
+      "max_paired_route_edges": 0,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "random68": {
+      "positive_by_graph": {
+        "fork": 96
+      },
+      "positive_by_prefix": {
+        "1/straight": 96
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 8,
+        "confirmation/straight/v1/c1/s0": 8,
+        "confirmation/straight/v2/c2/s0": 8,
+        "confirmation/bend_both/v0/c3/s0": 8,
+        "confirmation/bend_both/v1/c4/s0": 8,
+        "confirmation/bend_both/v2/c5/s0": 8,
+        "confirmation/bend_one/v0/c6/s0": 8,
+        "confirmation/bend_one/v1/c7/s0": 8,
+        "confirmation/bend_one/v2/c8/s0": 8,
+        "confirmation/hook/v0/c9/s0": 8,
+        "confirmation/hook/v1/c10/s0": 8,
+        "confirmation/hook/v2/c11/s0": 8
+      },
+      "positive_full_pose_groups": 12,
+      "max_paired_route_edges": 12,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "intact": {
+      "positive_by_graph": {
+        "fork": 480,
+        "two_junction": 480,
+        "cycle": 480
+      },
+      "positive_by_prefix": {
+        "1/straight": 288,
+        "2/straight": 288,
+        "4/straight": 288,
+        "4/bent": 288,
+        "8/straight": 288
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 120,
+        "confirmation/straight/v1/c1/s0": 120,
+        "confirmation/straight/v2/c2/s0": 120,
+        "confirmation/bend_both/v0/c3/s0": 120,
+        "confirmation/bend_both/v1/c4/s0": 120,
+        "confirmation/bend_both/v2/c5/s0": 120,
+        "confirmation/bend_one/v0/c6/s0": 120,
+        "confirmation/bend_one/v1/c7/s0": 120,
+        "confirmation/bend_one/v2/c8/s0": 120,
+        "confirmation/hook/v0/c9/s0": 120,
+        "confirmation/hook/v1/c10/s0": 120,
+        "confirmation/hook/v2/c11/s0": 120
+      },
+      "positive_full_pose_groups": 180,
+      "max_paired_route_edges": 19,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "dest_only": {
+      "positive_by_graph": {
+        "fork": 176,
+        "two_junction": 88,
+        "cycle": 80
+      },
+      "positive_by_prefix": {
+        "1/straight": 264,
+        "2/straight": 80
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/straight/v2/c2/s0": 32,
+        "confirmation/bend_both/v0/c3/s0": 28,
+        "confirmation/bend_both/v1/c4/s0": 28,
+        "confirmation/bend_both/v2/c5/s0": 32,
+        "confirmation/bend_one/v0/c6/s0": 26,
+        "confirmation/bend_one/v1/c7/s0": 32,
+        "confirmation/bend_one/v2/c8/s0": 32,
+        "confirmation/hook/v0/c9/s0": 26,
+        "confirmation/hook/v1/c10/s0": 22,
+        "confirmation/hook/v2/c11/s0": 22
+      },
+      "positive_full_pose_groups": 32,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d07_no_store": {
+      "positive_by_graph": {
+        "fork": 160,
+        "two_junction": 80,
+        "cycle": 80
+      },
+      "positive_by_prefix": {
+        "1/straight": 240,
+        "2/straight": 80
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/straight/v2/c2/s0": 32,
+        "confirmation/bend_both/v0/c3/s0": 24,
+        "confirmation/bend_both/v1/c4/s0": 24,
+        "confirmation/bend_both/v2/c5/s0": 32,
+        "confirmation/bend_one/v0/c6/s0": 24,
+        "confirmation/bend_one/v1/c7/s0": 32,
+        "confirmation/bend_one/v2/c8/s0": 32,
+        "confirmation/hook/v0/c9/s0": 24,
+        "confirmation/hook/v1/c10/s0": 16,
+        "confirmation/hook/v2/c11/s0": 16
+      },
+      "positive_full_pose_groups": 24,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d12_restore_store": {
+      "positive_by_graph": {
+        "fork": 8
+      },
+      "positive_by_prefix": {
+        "1/straight": 8
+      },
+      "positive_by_context": {
+        "confirmation/straight/v2/c2/s0": 8
+      },
+      "positive_full_pose_groups": 1,
+      "max_paired_route_edges": 5,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    },
+    "d12_no_store": {
+      "positive_by_graph": {
+        "fork": 160,
+        "two_junction": 80,
+        "cycle": 80
+      },
+      "positive_by_prefix": {
+        "1/straight": 240,
+        "2/straight": 80
+      },
+      "positive_by_context": {
+        "confirmation/straight/v0/c0/s0": 32,
+        "confirmation/straight/v1/c1/s0": 32,
+        "confirmation/straight/v2/c2/s0": 32,
+        "confirmation/bend_both/v0/c3/s0": 24,
+        "confirmation/bend_both/v1/c4/s0": 24,
+        "confirmation/bend_both/v2/c5/s0": 32,
+        "confirmation/bend_one/v0/c6/s0": 24,
+        "confirmation/bend_one/v1/c7/s0": 32,
+        "confirmation/bend_one/v2/c8/s0": 32,
+        "confirmation/hook/v0/c9/s0": 24,
+        "confirmation/hook/v1/c10/s0": 16,
+        "confirmation/hook/v2/c11/s0": 16
+      },
+      "positive_full_pose_groups": 24,
+      "max_paired_route_edges": 13,
+      "legal_nonshortest": 0,
+      "false_no_path": 0
+    }
+  }
+}
