@@ -95,7 +95,7 @@ def profile():
 
 def freeze():
     assert not (OUT/'preregistration.json').exists()
-    paths=[ROOT/'cellular_maze_lab.py',ROOT/'docs/LINKAGE_V12X-R1.md',ROOT/'tests/test_linkage_restart.py',*sorted((ROOT/'maze_evolution').glob('*.py'))]
+    paths=[ROOT/'cellular_maze_lab.py',ROOT/'docs/LINKAGE_RESTART_V12X.md',ROOT/'tests/test_linkage_restart.py',*sorted((ROOT/'maze_evolution').glob('*.py'))]
     inputs=[p for folder in (OUT,FIXTURES) for p in folder.rglob('*') if p.is_file() and p.suffix!='.log']
     write_json(OUT/'preregistration.json',dict(seed=SEED,fixture_seed=FIXTURE_SEED,pilot_generated=False,wall_cap=CAP,candidate_cap=CANDIDATE_CAP,combined_original_and_restart_candidate_cap=720,original_failed_candidate_seconds=297.712951528898,
         sources={str(p.relative_to(ROOT)):sha(p) for p in paths},inputs={str(p.relative_to(ROOT)):sha(p) for p in inputs},
