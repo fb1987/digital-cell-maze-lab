@@ -6,6 +6,27 @@ The central distinction: **one organism solves one entire maze.** The many grid 
 
 ## Current checkpoint — October 20, 2026
 
+The [V13A branch-overgrowth assay](results/branch_overgrowth.md) is complete and
+independently audited. **Waiting does not rescue the new Z lineages:** 428 failed
+traced tasks never show a correct path across 96 ticks, and removing the halt
+request destroys their paired successes. Continued updates usually spread output
+across the entire connected component.
+
+There is real, limited acquisition: all three ordinary-mutation descendants
+solve 96/800 goal pairs absent from their exact random roots. Resampling matches
+this elementary skill; none of the nine Z selections solves an upstream pair.
+The preserved specialist still solves 208/640 upstream pairs, including cycles.
+
+![Recorded spreading after native stopping](results/branch_overgrowth/trajectories.png)
+
+Main inference takes 94.55 candidate seconds; the full audit passes. All data and
+old populations remain preserved. Exclude **275,168 whole layouts** in future
+independent work. The [next proposal](results/branch_overgrowth/next_experiment.md)
+is a controlled output-selectivity acquisition pilot, with existing pressure as
+the control. No further experiment has launched; sexual work remains gated.
+
+## Completed family-reserve comparison V12Z
+
 The [V12Z family-reserve evolution comparison](results/family_evolution.md) is
 complete and independently audited: **128 matched generations in 69.57 minutes**,
 with 6.51 million search responses. The family reserve preserves more variation

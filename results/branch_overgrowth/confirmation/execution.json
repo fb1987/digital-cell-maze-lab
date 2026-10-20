@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "planned_calls": 260720,
+  "budget": {
+    "cap": 720,
+    "seconds": 94.55030156543944,
+    "calls": 260720,
+    "work": 45767464419,
+    "maximum": 0.008775125024840236
+  },
+  "warmup": {
+    "candidate_calls": 3,
+    "baseline_calls": 3,
+    "seconds": 0.05437133397208527,
+    "case": "confirmation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "readonly_bytes": true
+  },
+  "rates": {
+    "normal|structured": {
+      "calls": 120000,
+      "seconds": 40.15641545172548
+    },
+    "normal|ordinary": {
+      "calls": 12800,
+      "seconds": 5.633303121023346
+    },
+    "intervention|structured": {
+      "calls": 124800,
+      "seconds": 44.919983341998886
+    },
+    "trace|structured": {
+      "calls": 3120,
+      "seconds": 3.840599650691729
+    }
+  },
+  "baseline_calls": 15936,
+  "wall_seconds": 105.6491509579937,
+  "peak_rss_bytes": 251199488
+}

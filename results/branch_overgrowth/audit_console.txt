@@ -1,0 +1,51 @@
+{"split": "fixture", "replays": 20000, "wall": 27.79}
+{"split": "confirmation", "replays": 20000, "wall": 36.97}
+{"split": "confirmation", "replays": 40000, "wall": 52.38}
+{"split": "confirmation", "replays": 60000, "wall": 57.99}
+{"split": "confirmation", "replays": 80000, "wall": 60.8}
+{"split": "confirmation", "replays": 100000, "wall": 63.06}
+{"split": "confirmation", "replays": 120000, "wall": 70.6}
+{"split": "confirmation", "replays": 140000, "wall": 87.22}
+{"split": "confirmation", "replays": 160000, "wall": 93.39}
+{"split": "confirmation", "replays": 180000, "wall": 99.48}
+{"split": "confirmation", "replays": 200000, "wall": 103.88}
+{"split": "confirmation", "replays": 220000, "wall": 109.13}
+{"split": "confirmation", "replays": 240000, "wall": 119.31}
+{"split": "confirmation", "replays": 260000, "wall": 138.06}
+{
+  "passed": true,
+  "counts": {
+    "prior_hashes": 7880,
+    "ancestry_events": 95,
+    "legacy_adapter_parity": 15340,
+    "trace_frames": 449280,
+    "candidate_replays": 288280,
+    "baseline_replays": 17028,
+    "independently_graded_rasters": 305308
+  },
+  "whole_layouts": 275168,
+  "geometry": {
+    "fixture": {
+      "inputs": 2400,
+      "pairs": 400,
+      "whole_layouts": 560,
+      "contexts": 6,
+      "ordinary_inputs": 512,
+      "total_inputs": 2912
+    },
+    "confirmation": {
+      "inputs": 4800,
+      "pairs": 800,
+      "whole_layouts": 1120,
+      "contexts": 12,
+      "ordinary_inputs": 512,
+      "total_inputs": 5312
+    }
+  },
+  "source_hashes": 243,
+  "input_hashes": 9,
+  "wall_seconds": 143.4868229579879,
+  "peak_rss_bytes": 1274314752,
+  "limitations": "Every response and full trajectory exactly replayed; response rasters independently graded. All frame summaries recomputed using separate grader. Halt-off uses tested adapter, not a second full interpreter. No inference tuning or generalization beyond the registered grammar."
+}
+

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "counts": {
+    "prior_hashes": 7880,
+    "ancestry_events": 95,
+    "legacy_adapter_parity": 15340,
+    "trace_frames": 449280,
+    "candidate_replays": 288280,
+    "baseline_replays": 17028,
+    "independently_graded_rasters": 305308
+  },
+  "whole_layouts": 275168,
+  "geometry": {
+    "fixture": {
+      "inputs": 2400,
+      "pairs": 400,
+      "whole_layouts": 560,
+      "contexts": 6,
+      "ordinary_inputs": 512,
+      "total_inputs": 2912
+    },
+    "confirmation": {
+      "inputs": 4800,
+      "pairs": 800,
+      "whole_layouts": 1120,
+      "contexts": 12,
+      "ordinary_inputs": 512,
+      "total_inputs": 5312
+    }
+  },
+  "source_hashes": 243,
+  "input_hashes": 9,
+  "wall_seconds": 143.4868229579879,
+  "peak_rss_bytes": 1274314752,
+  "limitations": "Every response and full trajectory exactly replayed; response rasters independently graded. All frame summaries recomputed using separate grader. Halt-off uses tested adapter, not a second full interpreter. No inference tuning or generalization beyond the registered grammar."
+}

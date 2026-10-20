@@ -1,5 +1,10 @@
 # Longer evolution run status
 
+V13A is now complete: [report](../results/branch_overgrowth.md). Waiting does not
+rescue the Z failures. The proposed next controlled pilot targets output
+selectivity; no further long or sexual run is launched. Exclude 275,168 layouts
+through V13A using results/branch_overgrowth/whole_layout_exclusions.json.gz.
+
 The first 75-minute design is complete as V12Z: 128 matched generations in 69.57 minutes,
 followed by untouched confirmation and an independent audit. Read
 [the report](../results/family_evolution.md) and

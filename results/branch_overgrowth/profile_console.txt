@@ -1,0 +1,23 @@
+{"scope": "normal", "mode": "normal", "calls": 1, "seconds": 0.0}
+{"scope": "intervention", "mode": "pulse_off", "calls": 18201, "seconds": 7.61}
+{"scope": "intervention", "mode": "flag_off", "calls": 19761, "seconds": 8.02}
+{"scope": "intervention", "mode": "both_off", "calls": 21321, "seconds": 8.41}
+{"scope": "intervention", "mode": "endpoint_off", "calls": 22881, "seconds": 8.74}
+{"scope": "intervention", "mode": "halt_off", "calls": 24441, "seconds": 9.15}
+{"scope": "trace", "mode": "normal", "calls": 26001, "seconds": 10.42}
+{"scope": "trace", "mode": "pulse_off", "calls": 26391, "seconds": 10.9}
+{"scope": "trace", "mode": "flag_off", "calls": 26781, "seconds": 11.38}
+{"scope": "trace", "mode": "both_off", "calls": 27171, "seconds": 11.86}
+{"complete": true, "planned_calls": 27560, "budget": {"cap": 180, "seconds": 12.326969030080363, "calls": 27560, "work": 5895627753, "maximum": 0.004946333006955683}, "warmup": {"candidate_calls": 3, "baseline_calls": 3, "seconds": 0.06395470799179748, "case": "fixture/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0", "readonly_bytes": true}, "rates": {"normal|structured": {"calls": 7500, "seconds": 2.488899220013991}, "parity|structured": {"calls": 7500, "seconds": 3.5473145682481118}, "normal|ordinary": {"calls": 1600, "seconds": 0.6724382322281599}, "parity|ordinary": {"calls": 1600, "seconds": 0.9042460093623959}, "intervention|structured": {"calls": 7800, "seconds": 2.8070517645101063}, "trace|structured": {"calls": 1560, "seconds": 1.9070192357175983}}, "baseline_calls": 1092, "wall_seconds": 14.246279250015505, "peak_rss_bytes": 154255360}
+{
+  "passed": true,
+  "repeats": 2,
+  "projections": {
+    "2": 187.85752016329207,
+    "1": 103.12230441090651
+  },
+  "safety_factor": 2,
+  "scores_used_for_schedule": false,
+  "rule": "First of 2 then 1 repetitions fitting600s with2x measured inference cost; no final generated."
+}
+
