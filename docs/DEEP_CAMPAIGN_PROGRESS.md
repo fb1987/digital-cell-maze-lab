@@ -86,3 +86,33 @@ Full same-panel metrics and successful-case differences are saved in
 checkpoint hashes, recomputes capability counts from saved outputs, and performs
 zero inference. The complete journal remains authoritative. Continue the frozen
 campaign; no intervention or new confirmation is justified by this routine check.
+
+## Round 1,000 development assessment
+
+Checked at 15:03 UTC with the active run at round 1,231. No uncertain/retried
+batches; observed process-tree RSS 1.53 GiB, storage 0.90 GiB, free disk 63.1 GiB.
+All islands remain at frontier two. The frozen source/configuration and completed
+assessment input, receipt and checkpoint hashes verified. No new inference or
+search intervention was performed by the monitor.
+
+All three primaries complete **104/200 pairs and 14/96 ordinary inputs**, exactly
+matching the successful-case membership of the best protected aggregate reference
+on this panel. Island two now selects descendant `deep_v1/island2/i51960`, but its
+selection is supported by partial-score differences, not additional correct
+outputs. The other primary identities remain inherited B variants.
+
+The strongest ordinary specialists in islands zero and one reach 18/96 versus
+14/96 for the best individual protected reference. However, all those successes
+are covered by the union of protected references, and island one's selected
+ordinary specialist is inherited B individual `selectivity_v13b/carry/1/current/i610`.
+This does not establish a new campaign capability. Island two's best ordinary
+score remains 14/96.
+
+Complementary prefix-four/eight fork cases persist among archived descendants.
+Some other descendants combine paired routing with correct disconnected-case
+responses and no false reachable no-path claims on this panel. They remain
+specialists with substantial reachable-case failures; acquisition relative to
+their exact ancestors or the complete founder pool has not been tested.
+
+Saved summary: `results/deep_campaign_run/assessment_01000.json`. Current evidence
+does not warrant a user alert or protocol change. Continue the registered run.
