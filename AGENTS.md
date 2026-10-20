@@ -34,15 +34,27 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Live update (October 20, 2026): **the user authorized launch and the deep campaign
-is RUNNING** from frozen commit7854ada. Read `docs/DEEP_CAMPAIGN_PROGRESS.md`
+Live update (October 20, 2026): **the deep campaign STOPPED after 8,268 complete
+rounds**, while constructing the next ordinary training batch:
+`RuntimeError: Ordinary training construction exhausted`. No pending stage or
+unfinished task receipts remain; all 255,744 batches are committed. Do not
+blindly restart or alter frozen sources/configuration. Read
+`docs/DEEP_CAMPAIGN_PROGRESS.md` and
+`results/deep_campaign_run/failure_08268/` for diagnosis and the required
+documented protocol repair. The heartbeat is PAUSED pending that decision.
+The journal and all populations/RNG remain preserved; a verified SQLite backup
+is at `runs/deep_campaign_v1/backups/failure_08268.sqlite`. The 10,000-round
+milestone has NOT been reached, and no confirmation cases have been generated.
+
+Launch history (October 20, 2026): the user authorized launch from frozen
+commit7854ada. Read `docs/DEEP_CAMPAIGN_PROGRESS.md`
 and inspect the existing journal/process before taking any action. Started
 2026-10-20 14:30:25 UTC, 10 workers, same registered10,000-round milestone.
 Never create a duplicate writer, restart founders, or change sealed sources.
 The initial scientific assessment completed; evolution and transactional
 checkpoints are progressing. The thread heartbeat
-`deep-maze-search-follow-through` checks every15min, stays quiet on routine
-progress, and handles milestone auditing/reporting. Launch metadata and the
+`deep-maze-search-follow-through` was checking every15min, staying quiet on routine
+progress, and handling milestone auditing/reporting. Launch metadata and the
 initial assessment summary are under `results/deep_campaign_run/`.
 Do not confuse the frozen readiness packet's historical "not launched" status
 with the current live state. Use the runner's read-only status command.

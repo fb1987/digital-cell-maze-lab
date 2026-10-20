@@ -1,11 +1,27 @@
 # Deep campaign progress
 
+**Current status, October 20 at 18:17 UTC: STOPPED after 8,268 complete rounds.**
+The ordinary-perfect input generator exhausted its 4,000 attempts before the
+next batch was committed. No tasks are pending; all 255,744 task receipts are
+complete. The heartbeat is paused pending a documented generator amendment.
+The journal, traceback, checkpoints and verified SQLite backup are preserved.
+See `results/deep_campaign_run/failure_08268/report.md`.
+
+Exact topology inventory found only 11 eligible 9×9 perfect-maze symmetry
+orbits left, versus 962 further perfect bases required to reach round 10,000.
+This cannot be repaired just by raising the retry limit. Recommended next step:
+preflight and register an explicit continuation using an 11×11 ordinary-perfect
+generator, retaining the exact checkpoint, cumulative bounds and milestone.
+No amendment has been implemented or launched; no confirmation cases generated.
+
+## Launch history
+
 The user authorized the scientific launch after reviewing the prepared protocol.
 The campaign started **2026-10-20 at 14:30:25 UTC** from frozen commit
 `7854ada78b70b445e52816ed1e0869265bb5c6f2`. The registered source and configuration
 passed verification before launch. No protocol changes were made.
 
-The detached process runs under `caffeinate -i -s` with 10 worker processes.
+The detached process ran under `caffeinate -i -s` with 10 worker processes.
 The initial process ID was 33545; verify the current process and writer lock
 rather than assuming an old PID remains valid.
 

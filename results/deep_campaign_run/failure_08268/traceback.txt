@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/deep_campaign.py", line 329, in <module>
+    main()
+    ~~~~^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/deep_campaign.py", line 301, in main
+    run(args.directory, args.through_round)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/deep_campaign.py", line 229, in run
+    data = batch(config['seed'], kind, g, previous, [s['frontier'] for s in states])
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/deep_campaign_data.py", line 89, in batch
+    extra = ordinary_training(d, generation) if generation % 4 == 0 else []
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/deep_campaign_data.py", line 56, in ordinary_training
+    raise RuntimeError('Ordinary training construction exhausted')
+RuntimeError: Ordinary training construction exhausted

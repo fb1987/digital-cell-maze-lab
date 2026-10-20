@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-10-20T18:19:00.950215+00:00",
+  "active_writer_processes": [],
+  "writer_lock_available": true,
+  "latest_stage": 8284,
+  "checkpoint_hash": "a91b916899351935a5927c5d2c6f4c8830ccef03b949d060d463d89d31fb82a0",
+  "generations": [
+    8268,
+    8268,
+    8268
+  ],
+  "frontiers": [
+    2,
+    2,
+    2
+  ],
+  "usage": {
+    "calls": 30707970,
+    "candidate_seconds": 39720.34551174502,
+    "cpu_seconds": 41631.95455600027,
+    "receipts": 255744,
+    "uncertain_attempts": 0,
+    "work": 13645276223118
+  },
+  "pending_stages": [],
+  "task_status_counts": {
+    "done": 255744
+  },
+  "layout_count": 822608,
+  "last_session": null,
+  "session_log_sha256": "5ce79449b21c6a714eb65590b437fc3b6e3fbeb2e4702afcdee7485e70da6bd5",
+  "session_log_bytes": 2985980,
+  "disk_free_before_backup": 62229737472,
+  "frozen_setup_verified": true,
+  "backup": {
+    "path": "runs/deep_campaign_v1/backups/failure_08268.sqlite",
+    "bytes": 6348865536,
+    "sha256": "62f197a970d62a030db89347733160a719a07479a027b6b71c1d501663c18bfc",
+    "quick_check": "ok"
+  },
+  "disk_free_after_backup": 55885164544
+}
