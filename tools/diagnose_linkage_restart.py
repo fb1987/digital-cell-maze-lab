@@ -24,8 +24,11 @@ def main():
                 if g.gate==64:break
         direct[str(reg)]=dict(writers=writers,store_inclusive_span=223-min(v['index'] for v in writers))
     packet['immediate_possible_writers']=direct;write_json(OUT/'static_diagnostic.json',packet)
-    by={};ancestry={};counts=Counter()
+    by={};ancestry={}
+    initial=read_compressed(OUT/'initial_states.json.gz')
+    populations={key:{r['id']:(Individual.load(r),s['gene_ids'][r['id']]) for r in s['population']} for key,s in initial.items()}
     for e in lines(OUT/'reproduction.jsonl.gz'):
+        population=populations[e['key']]
         for birth in e.get('births',[]):
             multi=birth['retained_donor_changes']>=2
             ancestry[birth['item']['id']]=multi or any(ancestry.get(parent,False) for parent in birth['parents'])
@@ -34,10 +37,19 @@ def main():
             s=by.setdefault(e['key'],Counter());s['scheduled']+=1
             if x is None:s['no_homologous_variant']+=1;continue
             s['donor_found']+=1;s['zero_closed_at_length']+=x['linked']==0;s['common_segments_total']+=x['common'];s['closed_segments_total']+=x['linked']
+            recipient,ri=population[birth['parents'][0]];donor,di=population[birth['proposed_donor']]
+            pool=[v for v in candidates(rows(recipient.genome.program),rows(donor.genome.program),tuple(ri),tuple(di)) if v[1]-v[0]==x['length']]
+            assert len(pool)==x['common'] and sum(v[5] for v in pool)==x['linked']
+            common_multi=sum(v[4]>=2 for v in pool);closed_multi=sum(v[4]>=2 and v[5] for v in pool)
+            s['common_multi_segments_total']+=common_multi;s['closed_multi_segments_total']+=closed_multi
+            s['proposals_with_common_multi_option']+=common_multi>0;s['proposals_with_closed_multi_option']+=closed_multi>0
             if x['accepted']:
                 s['accepted']+=1;s['multi_retained']+=multi;s['dependency_cut']+=not x['dependency_closed']
                 s['multi_dependency_cut']+=multi and not x['dependency_closed']
                 s['multi_erased_to_single_or_zero']+=x['changed_instructions']>=2 and not multi
+        if not e.get('frozen'):
+            populations[e['key']]={**{identity:population[identity] for identity in e['elite']},**{b['item']['id']:(Individual.load(b['item']),b['gene_ids']) for b in e['births']}}
+            assert len(populations[e['key']])==96
     states=read_compressed(OUT/'next_states.json.gz')
     final={key:sum(ancestry.get(i['id'],False) for i in s['population']) for key,s in states.items()}
     costs={}

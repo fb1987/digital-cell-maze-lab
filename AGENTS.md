@@ -34,7 +34,85 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current checkpoint: **V12W is complete and independently audited**. Read
+Current checkpoint: **V12X-R1 is complete and audited; activation gate FAILS**.
+Read `results/linkage_restart.md`, `docs/LINKAGE_RESTART_PROGRESS.md` and
+`results/linkage_restart/next_experiment.md`. No longer efficacy run is launched.
+Do not extend X-R1, resume invalid X, rerun W, or treat training as holdout.
+The next fixed-parent operator-opportunity assay is a proposal only, not registered.
+
+IMPORTANT software failure: original X preregistrationaedb017 used offspring IDs
+that collided with historical protected identities at g0 andg26. An assertion
+stopped partialg28 after28complete rounds. Identity-keyed records could refer to
+wrong genotypes; NONE of that attempt is usable scientific evidence. Preserve
+all original linkage_*.py source, results/linkage_pilot raw/partial states and
+its explicitly invalidated completion. It used582912calls,297.712951529candidate
+seconds,512.706876416wall. Failure seal460entries; preparationpusha7613ec.
+A copied protocol-path typo was fixed BEFORE the restart registration, no calls
+or RNG changes; see registration_note.txt. Do not hide either correction.
+
+Actual restart freeze7bee1a6 pushed BEFORE training generation. Newseed2026102002,
+fixture1394,software12345679; excludeall253316layouts throughinvalidX. Unique
+linkage_x2/offspring IDs and assertions for96unique population IDs, protected
+identity integrity and exact gene-map length/uniqueness. Same operator/gate asX.
+32matchedgenerations,36conditions of96: carry/fresh ×3reps ×linked/unlinked/sham/
+mutation/resample/frozen. Carry20protected exact historical random-origin anchors;
+fresh entirely random64–128gene founders. No W synthetic or known solver enters
+any lineage. Native local/exposure7,256gene cap, single-edit after mating.
+Every condition18432evaluations; no validation/final corpus or champion selection.
+
+Common homologous segments2/4/8/16, immutable inherited gene IDs, no register
+renaming; only d07/d12 historical shared gene ancestry reconstructed, otherfounders
+conservatively unrelated. Full backwards transitive STORE value/gate dependency
+closure unions BOTH parents; groups exceeding segment bound rejected. Unlinked
+shares common pool; sham matches linked eligibility count at proposedlength on
+SAME parents/RNG snapshot. Actual population/marginal distributions diverge.
+Activation requires TWO changed donor rows retained after mutation and child
+changed from recipient, not merely multi-instruction blocks or transferred tags.
+
+Multi-retained perrep, denominator1024each:
+carry linked[3,2,3],unlinked[26,18,21],sham[5,3,1];
+fresh linked[4,20,6],unlinked[26,41,59],sham[6,21,6].
+All18sexualconditions fail10%threshold; eightactivegenerations and2/3replicates
+perpolicy/origin criteria unchanged. Bothorigins required forlongerjointstudy.
+Pooled linked carry8/3072=.26%,fresh30/3072=.98%;unlinked65/3072=2.12%,126/3072=4.10%.
+Finalfreshlinked0/42/64members haveXmultigeneancestry; lastnewbornsunevaluated.
+Real inheritance exists, but no functional skill composition/efficacy demonstrated.
+
+Posthoc static logs, ZERO extra inference: linkedcarry/fresh noeligible donor in
+1353/1891 of3072 shortlists. Somecommonmulti option atproposedlength439/333;
+afterclosure22/61; actualretained8/30. Conditional onobservedpairs/lengths, not
+counterfactualfutureevolution orproof no otherdonor exists. Unlinked63/65carry,
+114/126freshmultitransfers cutfullclosure; doesnotprovefunctionalharm. Only3multi
+transfers erasedbymutation (274before→271after). d07 STORE222closure18genes spans
+220positions, no closed d07/d12segments under16; possible gatewriters192/207 plus
+STORE222span31. Static potential dependencies, NOT provenfunctionalmodule sizes.
+
+Validmain663552calls,341.607229793/422.287048471candidate seconds,
+200233097994work,590.410510041wall,515.25MiBRSS. Combinedoriginal+restart main
+639.320181322/720candidate seconds,1246464calls,1103.117386457wall. Extra wall is
+disclosed software restart; calibration and audit additional. Twofixtureprofiles
+5504calls each,0.815/0.910candidate seconds. Audit firstattemptPASSED521.27wall,
+987.41MiBRSS:669056logicalcandidate responses+independentgrades,549272exactnative
+replays withwithin-generation/calibrationdedup,576baseline replays,20736random
+births,48384mutations/maps,5089splices,allselection/RNG/checkpoints.231source/
+22inputhashes,6166priorentries.38focused/relatedtests pass, NOTfullsuite. No restart
+source repair or gate change afterregistration. All old source/results untouched.
+
+Completion501hashentries; futureprior count6667(6166+501), notuniquephysicalpaths.
+Exclude **255356whole layouts** using results/linkage_restart/whole_layout_exclusions.json.gz.
+Restartdata.exclusions() returns only253316throughinvalidX; addallrestartfixture,
+software andtraincorpora ifrebuilding. Allunqueriedvariants/poses preserved/excluded.
+
+Nextproposal: bounded static same-parent opportunity comparison, fullclosure vs
+immediategate-writer linkage, unlinked andmatchedrandom, commonlength16/32factor.
+Alsofitness-blinddonor samples toseparate shortlist failure fromvariation shortage.
+Genericparent-derivedrules, nohardcodedWcircuit. Ifrelatedvariationstillscarce,
+designmatched boundedfamilydiversity before anotherfresh activationpilot. Do not
+loweroldgate retrospectively or launch unchanged75min search. Random-origin
+track remainscentral; no conclusion thatmoretime cannothelp. General solver,
+causal multirangeadvantage andspeedup remainunestablished.
+
+Historical checkpoint: **V12W is complete and independently audited**. Read
 `results/compatibility_map.md` and `results/compatibility_map/next_experiment.md`.
 The dependency-preserving crossover proposal is NOT launched or registered.
 Do not rerun W, extend its closed cap, resume S/T/U/V, or reselect on W finals.

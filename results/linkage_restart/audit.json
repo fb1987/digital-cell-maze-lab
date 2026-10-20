@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "counts": {
+    "prior_hashes": 6166,
+    "random_births": 20736,
+    "mutations": 48384,
+    "independent_gene_maps": 48384,
+    "independent_splices": 5089
+  },
+  "logical_candidate_responses": 669056,
+  "exact_distinct_native_replays": 549272,
+  "independently_graded_candidate_rasters": 669056,
+  "baseline_replays": 576,
+  "source_hashes": 231,
+  "input_hashes": 22,
+  "whole_layouts": 255356,
+  "wall_seconds": 521.2730997079634,
+  "peak_rss_bytes": 1035370496,
+  "limitations": "Every candidate record compared with a new native replay, exact genotypes deduplicated within each generation. Every logical raster independently graded. Full selection, mutation, crossover, gene identity and RNG replay. Accepted crossover dependencies independently scanned backwards. Training data only; no efficacy holdout."
+}

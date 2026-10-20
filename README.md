@@ -4,7 +4,33 @@ An experimental, **offline-first**, biologically inspired computing project. The
 
 The central distinction: **one organism solves one entire maze.** The many grid sites are the organism's internal computing medium, *not* independent intelligent agents. Dozens or thousands of organisms, each possessing a different genome, can be evaluated in a population and selectively reproduced/mutated.
 
-## Current checkpoint — October 19, 2026
+## Current checkpoint — October 20, 2026
+
+The [V12X-R1 crossover activation pilot](results/linkage_restart.md) is complete
+and audited. **The activation gate fails, so the longer efficacy run is not
+launched.** All 36 conditions finish 32 matched generations with equal evaluation
+counts. Dependency-preserving mating retains multiple changed donor instructions
+in 0.26% of carried and 0.98% of fresh-origin attempts; unrestricted crossover
+reaches 2.12% and 4.10%. No replicate reaches the preregistered 10% threshold.
+
+![Crossover activation in every registered arm](results/linkage_restart/activation.png)
+
+The diagnostics identify limited related variation and an overly restrictive
+transitive dependency rule. This is not evidence that random-origin evolution
+or recombination is impossible, and no new generalization gain is claimed.
+The [next proposal](results/linkage_restart/next_experiment.md) tests immediate
+gate-writer linkage and donor opportunities on saved populations before more
+maze-evolution compute. All lineages and RNG states are preserved.
+
+An earlier attempt was invalidated by an offspring-ID collision, preserved, and
+restarted with new seeds and unique IDs. Combined main candidate compute is
+639.32/720 seconds; combined main wall time is 1,103.12 seconds, with calibration
+and audit additional. The clean restart's audit passes 669,056 independent raster
+grades and 549,272 exact native replays; 38 focused/related tests pass. Exclude
+**255,356 whole layouts** from future independent data. See the
+[handoff](docs/LINKAGE_RESTART_PROGRESS.md) for provenance and complete costs.
+
+## Completed compatibility study V12W
 
 The [V12W compatibility factorial](results/compatibility_map.md) is complete and
 independently audited. **Edit 12 identifies a concrete genetic interaction:**
