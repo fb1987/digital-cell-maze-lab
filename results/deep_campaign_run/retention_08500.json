@@ -1,0 +1,124 @@
+{
+  "generation": 8500,
+  "development_data": true,
+  "amendment": "2a7fb6283ac2db74f11a70759140fcc9acd30cb57ce41e8d010b12dbfa4498f4",
+  "new_inference_calls": 0,
+  "models": [
+    {
+      "identity": "deep_v1/island2/i51989",
+      "birth": 1000,
+      "parent": "deep_v1/island2/i51916",
+      "genome_digest": "0bf53873d898b6552843",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_disconnected": 32,
+          "ordinary_perfect": 6,
+          "ordinary_random": 4,
+          "paired/fork/prefix0": 24,
+          "paired/two_junction/prefix0": 2
+        },
+        "false_no_path": 0,
+        "legal": 168,
+        "shortest": 168
+      },
+      "paired": 26,
+      "ordinary_perfect": 6,
+      "ordinary_random": 4,
+      "correct_disconnected": 52,
+      "ordinary_novel_vs_reference_union": [
+        "assessment/8500/ordinary/perfect/r0/60000/perfect/11x11/wilson-a1/d4-4"
+      ],
+      "longest_ordinary_edges": 5
+    },
+    {
+      "identity": "deep_v1/island2/i207989",
+      "birth": 4000,
+      "parent": "deep_v1/island2/i207946",
+      "genome_digest": "979214bb21aba6efb4f8",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_perfect": 2,
+          "ordinary_random": 6,
+          "paired/cycle/prefix0": 8,
+          "paired/fork/prefix0": 16,
+          "paired/fork/prefix1": 24,
+          "paired/fork/prefix2": 24,
+          "paired/fork/prefix4": 6,
+          "paired/two_junction/prefix0": 8,
+          "paired/two_junction/prefix2": 8
+        },
+        "false_no_path": 0,
+        "legal": 324,
+        "shortest": 324
+      },
+      "paired": 94,
+      "ordinary_perfect": 2,
+      "ordinary_random": 6,
+      "correct_disconnected": 20,
+      "ordinary_novel_vs_reference_union": [],
+      "longest_ordinary_edges": 3
+    },
+    {
+      "identity": "deep_v1/island2/i363556",
+      "birth": 6992,
+      "parent": "deep_v1/island2/i363507",
+      "genome_digest": "0020f003ecd839918e79",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 100,
+          "disconnected": 20,
+          "ordinary_disconnected": 25,
+          "ordinary_random": 3,
+          "paired/cycle/prefix0": 8,
+          "paired/fork/prefix0": 24,
+          "paired/fork/prefix1": 24,
+          "paired/fork/prefix2": 24,
+          "paired/fork/prefix4": 14,
+          "paired/two_junction/prefix0": 8
+        },
+        "false_no_path": 0,
+        "legal": 337,
+        "shortest": 337
+      },
+      "paired": 102,
+      "ordinary_perfect": 0,
+      "ordinary_random": 3,
+      "correct_disconnected": 45,
+      "ordinary_novel_vs_reference_union": [],
+      "longest_ordinary_edges": 3
+    },
+    {
+      "identity": "deep_v1/island0/i363965",
+      "birth": 7000,
+      "parent": "foundation_pair_current/local/fresh/evolution/1/i114696",
+      "genome_digest": "ec8826f2cbf77adde962",
+      "archived": true,
+      "capabilities": {
+        "by_stratum": {
+          "corridor": 58,
+          "ordinary_perfect": 6,
+          "ordinary_random": 8,
+          "paired/fork/prefix0": 11
+        },
+        "false_no_path": 0,
+        "legal": 189,
+        "shortest": 189
+      },
+      "paired": 11,
+      "ordinary_perfect": 6,
+      "ordinary_random": 8,
+      "correct_disconnected": 0,
+      "ordinary_novel_vs_reference_union": [
+        "assessment/8500/ordinary/random/r0/16000/random/9x9/d4-4"
+      ],
+      "longest_ordinary_edges": 13
+    }
+  ]
+}
