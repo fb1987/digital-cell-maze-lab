@@ -34,6 +34,26 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+Current update (October20 local / October21 UTC,2026): **C1 confirmation is
+COMPLETE and audited; M1 modular random-origin pilot is RUNNING.** User authorized
+completion of the three-step reboot goal. Read `docs/GENERAL_SOLVER_REBOOT_PROGRESS.md`
+and `docs/MODULAR_PILOT.md`. C1 registration1114ea6/completiond664007 are pushed;
+its source/results are sealed. It confirms narrow acquired abilities in three
+related descendants, but no broad ordinary transfer; see
+`results/deep_confirmation/report.md`. Do not overwrite or rerun its sealed audit.
+
+M1 registrationf18edcd was pushed BEFORE search.24 populations of96, flat/modular
+×familiar/broad curriculum×mutation/resampling×3 independent founder replicates,
+128 rounds. No known solver in a random lineage.10 workers; durable journal
+`runs/modular_pilot_m1/campaign.sqlite`, log`session_001.log`, launch metadata
+`results/modular_pilot/launch.json`. Never start a second writer or edit sealed
+source/configuration/fixtures. Read-only status: `.venv/bin/python
+tools/inspect_modular_pilot.py`. Search stops with frozen choices before final
+case generation; audit and push choices before the registered untouched final.
+No second deep campaign or sexual study is authorized by this pilot's launch.
+Preserve all old journals/lineages and all M1 states/RNG/births. The old deep-search
+heartbeat remains paused. Older checkpoint descriptions below are historical.
+
 Live update (October 20, 2026): **the 10,000-round deep campaign is COMPLETE
 and its registered full selection/mutation/RNG audit PASSED.** Search stopped
 normally at 19:20:12 UTC; audit passed at 21:05:23 UTC. The heartbeat is PAUSED.
