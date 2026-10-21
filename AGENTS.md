@@ -34,6 +34,25 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M11-STATUS-START -->
+Current October21,2026: **M11 retention-bank calibration PREPARED, authorized.**
+User approved M10 recommendation. Read docs/RETENTION_BANK.md and
+ docs/RETENTION_BANK_PROGRESS.md plus results/retention_bank registration/launch.
+No evolution; exact M10 frozen pool,30physicalmodels incl2intactcontrols. Three
+paired392-input current/bank panels;bank24ordinarysuccessbases chosenONLYbyfixed
+quota_parent,4each6declaredstrata;1024rawdraws/stratum,noextensiononshortfall.
+Allbanks/predictions/pool mustcommit/push BEFOREfresh1680confirmation. Fullnative
+calibrationaudit BEFOREconfirmation;ALLnativefinalaudit+conventionalcontrols.
+Fixeddiagnosticpool,explicitbiasedbank,nonvacuousfalseaccept/rejectcriteria;
+no newalgorithm/acquisition/general-solver/speedclaim. No candidate reselection.
+10workers,1200scalibration+1200sfinal,2Mcalls/1e13work CUMULATIVE,8GiBRSS,
+4GiBtotalphase storage inclbackups,16GiBfree;1800speraudit. DurableM11workflow
+status/logs under runs/retention_bank_m11. Neverduplicatewriter,modifyseals,
+resume failedworkflow orchange quotas. Preserve allpriorhistories unchanged.
+Afteraudits: actualreport,guardedverifiedSQLitebackup,alllayouts(chunks+manifest),
+completionseals,commit/push/updatehandoff. Oldmonitorspaused;nonewsearchauthorized.
+<!-- M11-STATUS-END -->
+
 <!-- M10-STATUS-START -->
 Current October21,2026: **M10 retention-exposure comparison COMPLETE and AUDITED.**
 Read results/retention_pressure/report.md, summary.json, saved_diagnostics.json,
