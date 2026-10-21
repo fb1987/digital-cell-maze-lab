@@ -100,3 +100,19 @@ three candidates has ZERO successful inputs beyond the seven protected-reference
 union. Exact same-panel comparisons saved in monitor_00600.json.
 These are narrow development recoveries, not fresh confirmation, new targeted
 routing, policy-primary support or general solving. No protocol changes/action.
+
+## Fourth monitor: October21,15:29UTC
+
+Search continues without error:825 matched rounds completed at snapshot,
+22,535,488 committed physical calls,20,904.50 candidate seconds,2.96GiB peak RSS;
+~1.82GiB stored and31.35GiB free. No uncertain attempts or guard. All301 registered
+hashes and351 prior M6 completion hashes verify. Assessments700/800 saved.
+
+All nominee roles still show zero target nonforkprefix2+ pairs and zero ordinary
+both-pose successes on the fixed development panel. Shared0 remains100corridors;
+quota0/quota1 remain78. Shared2 now nominates g697/b47 (three M7 mutation births),
+with40pairs/78corridors/44correctno-path/0false, compared with its same-panel
+frozen reference40pairs/60corridors/44correctno-path/0false. These counts do not
+establish new skills beyond the protected union or a positive policy primary.
+No independent confirmation yet; registered workflow will stop search and publish
+exact choices before proceeding to audits/confirmation. No intervention needed.
