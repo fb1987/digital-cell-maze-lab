@@ -84,3 +84,22 @@ appeared. Nominee identities and retained paired skills vary, with protected cop
 still present. These remain development observations, not independent confirmation
 or a mixed-mutation advantage. No new capability notification warranted; continue
 unchanged through the registered search/freeze/audit/final workflow.
+
+## Third monitor — round500 (October21,10:25UTC)
+
+Original workflow/writer still active; all286 registration hashes/versions verify.
+At582 completed rounds:16,252,352 calls,16,703.86 summed candidate seconds,
+2,745.25s elapsed,4,930,762,546,340 charged work,zero uncertain attempts; sampled
+peak RSS2.547GiB. Phase storage1.193GiB, disk free41GiB. No guards or failures.
+Saved round500 same-panel nominee/frozen/protected comparison plus ordinary-base
+identities and exact-root retention check under `development/`.
+
+One useful retention improvement: mixed replicate0 nominee g461/b38 (52 mutation
+births from exact protected root m2/a1/d2/00410) solves the SAME15-edge ordinary
+base while retaining22/24 root paired successes and100/100 corridors, with zero
+false no-path. Earlier long-route nominees retained12/24 pairs. This now clears
+90% paired retention on development data but remains ONLY one ordinary base,
+zero hard/multiple-junction pairs, and does not pass the registered breadth gates.
+All nominees' ordinary both-pose successes still refer to that same perfect11 base;
+no random-maze or additional ordinary-base coverage demonstrated. No independent
+confirmation or policy advantage claim. Search continues unchanged.
