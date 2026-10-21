@@ -34,6 +34,29 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M8-STATUS-START -->
+Current October21,2026: **M8 repair-mechanism assay PREPARED, not launched.**
+User authorized “Okay, proceed” after M7. Read docs/REPAIR_MECHANISM.md,
+docs/REPAIR_MECHANISM_PROGRESS.md andresults/repair_mechanism/readiness.json.
+Targets exactM7shared0g500/b47 andquota0g900/b16 withownroots/parents andall7protected.
+Fixedownroot/child256block combinations each,child+parentwriterzeros,existingC6
+node readouts,parentchild-writertransfer,sharedC6inputisolation,random8/intact2.
+Diagnosticperturbations,not evolvedoffspring/mating/newpopulation. SameM1runtime.
+Static sharedC6next=C3ORC4 vsparentC3ORgoal, C4next=C6ORgoal;testfeedbacknecessity,
+notassumegeneralpathmemory. QuotaC6 copiesdirection2 C3neighbor. No newtraces.
+Fresh1680casepanel seed2026102119;excludeALL2,508,159M7layouts. Nomodel/caseselection.
+Primaryrepairrequirespositivecorridorgain,zero parent-complete-skillloss/false,
+parentwithchildwriter matcheschildmask/status/steps. Diagnosticupstreamgatesstrict;
+positiveinterventionneedsseparateconfirmation,nopromotion.8focusedtestsPASS;
+all358M7completionhashesunchanged;actualM8panelnotgeneratedbefore registration.
+Tenworkers;1.5Mcalls/2e12work/900smainwall/1800saudit/8GiBRSS/6GiBtotalinclbackups/
+16GiBfree. Freeze/pushregistrationTHENexactpanelBEFOREfreshcases. Durableworkflow
+ tools/run_m8_workflow.py;neverduplicate/resume failedworkflow orchange seals.
+AfterALL-nativeauditPASS:reportactualmechanism/limits,guardedverifiedSQLitebackup,
+ALLlayoutexclusions,completionseal/handoff,commit/pushcompactevidence,rawjournallocal.
+No phasebeyondM8authorized. Oldscientificrecordsprotected;alloldmonitorspaused.
+<!-- M8-STATUS-END -->
+
 <!-- M7-STATUS-START -->
 Current October21,2026: **M7 COMPLETE, fresh-confirmed and AUDITED.**
 Read results/breeding_allocation/report.md,summary.json,saved_diagnostics.json,
