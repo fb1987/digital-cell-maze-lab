@@ -46,3 +46,22 @@ criteria, all specialist losses, allocation/ancestry and actual costs. Preserve
 original journals, guarded verified SQLite backups, cumulative ALL-layout
 exclusions and completion seals; commit/push compact evidence and update handoff,
 then pause monitor. No next phase or generalized-solving claim is authorized.
+
+## First monitor: October21,14:44UTC
+
+Workflow remains in search, with224 matched rounds completed at the initial
+snapshot. Rounds100 and200 assessments saved under development/. Registered301
+hashes and all351 prior M6 completion hashes verify. About5.98M committed calls,
+5224.54 summed candidate seconds,2.80GiB sampled peak RSS;32.40GiB disk free,
+~0.76GiB M7 storage at the snapshot; zero uncertain attempts and no guard/error.
+
+On the SAME392-input development panel, all18 nominee roles at rounds100/200
+have zero targeted nonforkprefix2+ pairs and zero ordinary both-pose successes.
+Quota replicate0 integrated/upstream nominee g100/b34 (four M7 mutation births
+from exact M6 child) restores corridor outputs:78/100 versus60/100 exactroot/
+frozen reference, with all60 root corridors retained. It retains40/100 paired
+successes and44/44 correct-disconnection cases, zero false no-path, with no new
+paired or ordinary skills. Other protected references already solve100 corridors;
+this is narrow within-lineage recovery, not novel ability beyond protected union
+or evidence for the policy primary. Saved root comparison in monitor_00200.json.
+No independent confirmation yet; no source/selection/budget changes or user action.
