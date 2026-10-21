@@ -1,0 +1,168 @@
+"""M6 bounded-search audit and frozen longer-route confirmation."""
+import argparse,json,time,sqlite3,hashlib,multiprocessing
+from concurrent.futures import ProcessPoolExecutor
+from collections import Counter,defaultdict
+from .upstream_continuation import OUT,RUN,ROOT,check,pushed,writej,readz,writez,organism,evaluate_task,resource_reason,controls,task_specs
+from .upstream_continuation_search import transition,founders
+from . import upstream_continuation_data as data_builder
+from .deep_campaign_store import Journal,unpacked,packed,hashed,writer_lock
+from . import deep_campaign as shared
+from .deep_campaign_data import cases_from_manifest
+from .foundation_study_verify_core import Checker
+from .exposure_selection import record
+from .foundation_pair_confirm import normal_row
+from .routing_transfer import canonical,sha
+from .upstream_continuation_data import confirmation
+from .deep_confirmation_analysis import capabilities,compare
+from .baselines import baseline
+
+
+def selected_replay(key,cid,divisor):return int(hashlib.sha256((key+'/'+cid).encode()).hexdigest(),16)%divisor==0
+
+
+def audit_search():
+    config=check();t=time.monotonic();j=Journal(RUN);chain=j.verify_chain()
+    assert j.get('finished') and not j.pending() and j.state()[0]['generation']==j.get('nomination_stop')['generation'] and j.state()[0]['assessment_generation']==j.state()[0]['generation']
+    assert not (OUT/'search_audit.json').exists()
+    assert j.state()[0]['generation']<=config['max_rounds']
+    states=readz(OUT/'founders.json.gz');assert states==founders(config['seed'])
+    previous=set(readz(OUT/'exclusions.json.gz')['hashes']);validation=None;grades=replays=births=stages=0
+    for n,blob,decision,expected_state_hash in j.db.execute('select n,input,decision,state_hash from stages where complete=1 order by n'):
+        data=unpacked(blob)
+        if data['kind']=='assessment':
+            if validation is None:validation=data_builder.validation(config['validation_seed'],previous)
+            regenerated=canonical(validation.copy());regenerated['generation']=data['generation']
+            if data['generation']:regenerated['new_layouts']=[]
+        else:regenerated=data_builder.training(config['seed'],data['generation'],previous)
+        assert canonical(regenerated)==data,(n,'corpus')
+        previous.update(data['new_layouts']);ids={c for q in data['queries'].values() for c in q}
+        cases=cases_from_manifest([m for m in data['mazes'] if m['case_id'] in ids]);checker=Checker(cases)
+        assert [unpacked(r[0]) for r in j.db.execute('select spec from tasks where stage=? order by n',(n,))]==task_specs(states,data),(n,'task_specs')
+        results=[]
+        for spec,result,h in j.db.execute('select spec,result,result_hash from tasks where stage=? order by n',(n,)):
+            assert hashed(result)==h;result=unpacked(result);spec=unpacked(spec);results.append(result)
+            assert len(spec)==len(result['entries'])
+            for e,r in zip(spec,result['entries']):
+                assert e['aliases']==r['aliases'] and e['queries']==[x['case'] for x in r['rows']]
+                org=organism(e['model']);key=hashed(packed(e['model']))
+                for row in r['rows']:
+                    checker.row(row);grades+=1
+                    if selected_replay(key,row['case'],32 if data['kind']=='assessment' else 256):
+                        o=cases[row['case']];m=o.maze;actual=record(org.react(m.cells,m.w,m.h,m.start,m.goal),o)
+                        assert actual==row,(n,e['aliases'],row['case']);replays+=1
+        states,events=transition(states,data,results)
+        assert events==unpacked(decision) and hashed(packed(states))==expected_state_hash,(n,'selection/RNG')
+        births+=sum(len(e['births']) for e in events);stages+=1
+        if n%16==0:print('AUDIT',n,grades,replays,flush=True)
+    assert states==j.state() and previous==j.layouts()
+    from . import upstream_continuation as runner
+    frozen={};original_writez=runner.writez
+    try:
+        runner.writez=lambda path,value:frozen.__setitem__(path,canonical(value))
+        runner.freeze(j)
+    finally:runner.writez=original_writez
+    for path,value in frozen.items():assert readz(path)==value,(str(path),'frozen artifacts')
+    usage=j.get('usage');assert grades<=usage['calls']
+    assert usage['uncertain_attempts'] or grades==usage['calls']
+    result=dict(status='PASS',chain=chain,stages=stages,independent_grades=grades,native_replays=replays,births_replayed=births,
+        charged_calls=usage['calls'],uncertain_attempts=usage['uncertain_attempts'],deterministic_corpora=True,all_selection_mutation_rng=True,frozen_artifacts_verified=True,source_hashes=True,wall_seconds=time.monotonic()-t,
+        limitation='Shared production reproduction and native runtime replay; independent raster grader, not a second full VM.')
+    writej(OUT/'search_audit.json',result);j.close();print(json.dumps(result,indent=2))
+
+
+def final_specs(choices,ids):
+    models={}
+    for identity,i in choices['items'].items():
+        m=dict(representation=choices['representations'][identity],genome=i['genome']);k=hashed(packed(m))
+        models.setdefault(k,dict(model=m,queries=ids,aliases=[]))['aliases'].append(identity)
+    for c in choices['controls']:
+        m=dict(representation=c['representation'],genome=c['genome']);k=hashed(packed(m));assert k not in models
+        models[k]=dict(model=m,queries=ids,aliases=[c['id']])
+    return [[models[k]] for k in sorted(models)]
+
+
+def final():
+    config=check();pushed(OUT/'choices.json.gz');choices=readz(OUT/'choices.json.gz')
+    assert json.loads((OUT/'search_audit.json').read_text())['status']=='PASS'
+    directory=RUN/'final';directory.mkdir(exist_ok=True);previous=set(readz(OUT/'search_exclusions.json.gz')['hashes']);started=time.monotonic()
+    shared.evaluate_task=evaluate_task;shared.resource_reason=lambda directory,c,t:resource_reason(RUN,c,t)
+    # This separate allowance is declared in the protocol; it does not restart training.
+    final_config=dict(config,phase='M6-final',call_cap=1000000,work_cap=10**14)
+    with writer_lock(directory):
+        j=Journal(directory);j.initialize(final_config,dict(choices_sha256=sha(OUT/'choices.json.gz')),previous);j.verify_chain()
+        if j.get('latest')>=0:j.close();print('Already complete');return
+        pending=j.pending()
+        if pending:n,data=pending
+        else:
+            data=confirmation(config['confirmation_seed'],previous);writez(OUT/'confirmation.json.gz',data)
+            tasks=final_specs(choices,data['queries']['all']);assert sum(len(e['queries']) for t in tasks for e in t)<=final_config['call_cap']
+            n=j.prepare(data,tasks)
+        assert [s for _,s,_ in j.tasks(n)]==final_specs(choices,data['queries']['all'])
+        with ProcessPoolExecutor(config['workers'],mp_context=multiprocessing.get_context('spawn'),initializer=shared.worker_init) as pool:
+            reason=shared.run_stage(j,n,data,pool,final_config,started,[False])
+        if not reason:j.commit(n,j.state(),dict(no_reselection=True))
+        writej(OUT/'final_session.json',dict(status='checkpoint' if reason else 'complete',reason=reason,usage=j.get('usage'),wall_seconds=time.monotonic()-started,rss_peak_bytes=shared._peak_rss));j.close()
+        print('FINAL',reason or 'complete',flush=True)
+
+
+def final_load():
+    j=Journal(RUN/'final');chain=j.verify_chain();assert j.get('latest')==0
+    data=unpacked(j.db.execute('select input from stages where n=0').fetchone()[0]);rows={};models=[]
+    for spec,result in j.db.execute('select spec,result from tasks where stage=0 order by n'):
+        e=unpacked(spec)[0];r=unpacked(result)['entries'][0];assert e['aliases']==r['aliases']
+        for identity in e['aliases']:rows[identity]=r['rows']
+        models.append((e,r['rows']))
+    usage=j.get('usage');j.close();return data,rows,models,usage,chain
+
+
+def complex_sets(cap,meta):
+    pair_meta={(m['base'],m['pose']):m for m in meta.values() if m['family']=='paired'}
+    ordinary_meta={m['base']:m for m in meta.values() if m['family'].startswith('ordinary_')}
+    return dict(hard_pairs={p for p in cap['pairs'] if pair_meta[p]['prefix']>=2 or pair_meta[p]['graph']!='fork'},
+        multi_pairs={p for p in cap['pairs'] if pair_meta[p]['graph']!='fork'},
+        long_bases={b for b in cap['ordinary_bases'] if len(ordinary_meta[b]['path'])-1>=8})
+
+
+def compute_summary(data,rows,usage,chain):
+    from .upstream_continuation_metrics import build_summary
+    return build_summary(readz(OUT/'choices.json.gz'),data,rows,usage,chain)
+
+
+def analyze():
+    assert not (OUT/'summary.json').exists()
+    check();data,rows,models,usage,chain=final_load();result=compute_summary(data,rows,usage,chain)
+    writej(OUT/'summary.json',result);writez(OUT/'final_responses.json.gz',dict(rows=rows,models=models))
+    print(json.dumps(dict(models=len(models),queries=result['queries'],passing_nominees=sum(c['upstream_acquisition'] for c in result['conditions'])),indent=2))
+
+
+def audit_final():
+    assert not (OUT/'final_audit.json').exists()
+    config=check();t=time.monotonic();data,rows,models,usage,chain=final_load()
+    assert [e for e,rs in models]==[t[0] for t in final_specs(readz(OUT/'choices.json.gz'),data['queries']['all'])]
+    for identity,rs in rows.items():
+        if identity.startswith('control/'):assert all(r['optimal'] or r['no_path'] for r in rs)
+    expected=confirmation(config['confirmation_seed'],set(readz(OUT/'search_exclusions.json.gz')['hashes']))
+    assert canonical(expected)==data
+    cases=cases_from_manifest([m for m in data['mazes'] if m['case_id'] in data['queries']['all']]);checker=Checker(cases);replays=0
+    for e,rs in models:
+        org=organism(e['model']);key=hashed(packed(e['model']))
+        for row in rs:
+            checker.row(row)
+            o=cases[row['case']];m=o.maze;assert record(org.react(m.cells,m.w,m.h,m.start,m.goal),o)==row;replays+=1
+    baseline_rows={}
+    for name in ('compiled_bfs','compiled_astar','wave_bit'):
+        rs=[]
+        for o in cases.values():
+            m=o.maze;r=canonical(normal_row(baseline(name,m.cells,m.w,m.h,m.start,m.goal),o));checker.row(r);assert r['optimal'] or r['no_path'];rs.append(r)
+        baseline_rows[name]=rs
+    writez(OUT/'baselines.json.gz',baseline_rows)
+    assert canonical(compute_summary(data,rows,usage,chain))==json.loads((OUT/'summary.json').read_text())
+    result=dict(status='PASS',source_and_corpus_hashes=True,independent_candidate_grades=usage['calls'],native_replays=replays,conventional_calls=3*len(cases),wall_seconds=time.monotonic()-t,metrics_recomputed=True)
+    writej(OUT/'final_audit.json',result);print(json.dumps(result,indent=2))
+
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['audit_search','final','analyze','audit_final']);a=p.parse_args()
+    if a.action in ('audit_search','audit_final'):
+        with writer_lock(RUN if a.action=='audit_search' else RUN/'final'):globals()[a.action]()
+    else:globals()[a.action]()

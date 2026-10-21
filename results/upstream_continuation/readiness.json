@@ -1,0 +1,17 @@
+{
+  "disk_free_bytes": 40700964864,
+  "excluded_whole_layouts": 1382795,
+  "new_fixture_layouts": 8712,
+  "note": "Preflight uses discarded fixtures; 624 birth/RNG replay, two intact controls. Exact M1 body continuation; no known solver injected.",
+  "prior_M5_completion_hashes_verified": 316,
+  "scientific_calls": 0,
+  "scientific_cases_generated": 0,
+  "status": "prepared_not_launched",
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q tests/test_upstream_continuation.py tests/test_modular_prototype.py",
+    "full_suite": false,
+    "includes_saved_fixture_search_audit_final_all_native_and_summary_pipeline": true,
+    "passed": 10,
+    "wall_seconds": 6.67
+  }
+}
