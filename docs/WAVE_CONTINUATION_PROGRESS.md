@@ -103,3 +103,25 @@ zero hard/multiple-junction pairs, and does not pass the registered breadth gate
 All nominees' ordinary both-pose successes still refer to that same perfect11 base;
 no random-maze or additional ordinary-base coverage demonstrated. No independent
 confirmation or policy advantage claim. Search continues unchanged.
+
+## Fourth monitor — rounds600 and700 (October21,10:40UTC)
+
+Same workflow/writer running; all286 registration hashes/versions verify. At755
+completed rounds:21,195,736 calls,22,216.41 summed candidate seconds,3,641.66s
+elapsed,6,403,377,570,364 charged work,zero uncertain attempts; sample peak RSS
+2.645GiB. Phase storage1.503GiB, disk free41GiB. No guard/failure or source change.
+
+Both new assessment packets saved. Mixed replicate0 nominees g590/b34 at600
+and g669/b31 at700 solve the same15-edge ordinary base while retaining ALL24/24
+exact-root paired successes and100/100 corridors, with zero false no-path.
+Their common exact M3 root is protected m2/a1/d2/00410; respective mutation depths
+66 and64 refer to separate selected descendants, not a claim of direct succession.
+Saved-raster same-case comparison verifies membership, not merely equal totals.
+
+This removes the observed root paired-skill loss for this one ordinary development
+success. Across all nominees at600/700, successful ordinary-base union remains
+exactly that SAME perfect11 case; zero nominated hard/multiple-junction pairs.
+Neither breadth gate passes. These are development observations selected on the
+fixed panel, with no fresh confirmation or replicated policy advantage established.
+Continue unchanged; soft training cutoff is near10:50UTC, then final assessment,
+frozen-choice publication, search audit and registered independent confirmation.
