@@ -81,3 +81,22 @@ same development panel. Quota0's earlier g100/b34 corridor recovery persists
 all other roles select the initial frozen M6-child clones. This is development
 monitoring, not confirmation or evidence that quotas improve the primary endpoint.
 Workflow, registered bounds and selection remain unchanged; no user action needed.
+
+## Third monitor: October21,15:14UTC
+
+Search remains healthy:628 matched rounds completed at snapshot,17,092,224
+committed calls,15,677.34 candidate seconds,2.96GiB peak RSS;~1.47GiB stored and
+31.70GiB disk free. No uncertain attempts or guard/error. All301 registration
+and351 prior M6 completion hashes verify. Assessments500/600 are preserved.
+
+All18 nominee roles still have zero targeted nonforkprefix2+ pairs and zero
+ordinary both-pose successes on the unchanged development panel. Shared0 now
+nominates g500/b47, one M7 mutation from the exact M6 child:100/100 corridors,
+40/100pairs,44/44correctno-path,0false. Against its exact root it gains40corridors,
+loses0corridors/pairs/correctno-path and has no new pairs/ordinary bases. Quota1
+now has g500/b40 (five mutations),78corridors; quota0 retains g100/b34 at78.
+Both quota variants gain18corridors with no such root-skill losses. Each of these
+three candidates has ZERO successful inputs beyond the seven protected-reference
+union. Exact same-panel comparisons saved in monitor_00600.json.
+These are narrow development recoveries, not fresh confirmation, new targeted
+routing, policy-primary support or general solving. No protocol changes/action.
