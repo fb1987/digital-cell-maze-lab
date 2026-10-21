@@ -1,0 +1,92 @@
+# M8: a replicated regulatory repair, with the deeper-routing barrier intact
+
+The registered primary repair test **PASSes**. The exact M7 shared0 descendant reproduces its corridor repair on fresh layouts without losing any of its parent’s complete tested skills. Replacing the parent’s final channel-6 writer with the child’s writer reproduces every child terminal raster, status and step count. The benefit comes from the changed computation; an extra instruction is not required for these outcomes.
+
+However, **none of the fixed lineage interventions solves even one of the 96 targeted nonfork prefix-2/4/8 pairs**. No diagnostic variant passes the upstream, long-ordinary or combined capability screen. M8 strengthens our evidence for heritable regulatory repair, but supplies no general route-extraction mechanism or reason to expect that more generations alone will remove this barrier.
+
+## What was fixed before evaluation
+
+Registration `ee3bcfa` was pushed before panel generation; concrete panel `9ef21b7` was pushed before fresh cases. The panel contains 627 aliases representing 362 physical models, with no invalid restorations. Each receives the same 1,680 inputs: 400 paired routing tests, 200 corridors, 256 ordinary reachable mazes in two poses, and 168 disconnected inputs. All 2,508,159 prior whole layouts were excluded. The new layouts use familiar maze grammars; correlated poses and grammar variants are not independent demonstrations of generalization.
+
+M8 contains no evolution, mating, adaptive nomination or second fresh corpus. It tests exact M7 children, parents and roots, all 256 own-root/child block combinations per lineage, matched parent/child writer ablations, exhaustive readouts of existing block-6 nodes, fixed writer transfers and two feedback-input isolations. Seven protected references, eight random sanity genomes and two intact engineering controls receive identical cases. Intervention genomes remain diagnostic artifacts, not evolved offspring or selected founders.
+
+## Exact descendants and references on the same panel
+
+Ordinary counts require both poses to succeed. Pair counts require both members. False no-path is measured on 1,512 reachable inputs.
+
+| Genome | Pairs /400 | Corridors /200 | Ordinary /256 | Correct no-path /168 | False no-path |
+|---|---:|---:|---:|---:|---:|
+| Shared0 exact parent/root | 116 | 120 | 9 | 168 | 0 |
+| Shared0 child | 128 | 200 | 12 | 168 | 0 |
+| Quota0 exact A0 root | 96 | 200 | 19 | 168 | 0 |
+| Quota0 immediate parent | 96 | 200 | 19 | 168 | 0 |
+| Quota0 child | 124 | 154 | 12 | 168 | 0 |
+
+**Shared0:** +12 fork-prefix-0/1 pairs, +80 corridors and +3 ordinary bases against its exact parent/root; zero losses in these complete-skill sets or correct disconnections. The three new ordinary routes have 3, 6 and 6 edges, all perfect mazes. One six-edge perfect-15 route is absent from the seven-reference union. The pair and corridor gains are already covered by that union. Thus there is a small additional ordinary capability, not a new general routing repertoire. All 12 ordinary successes have 2–6 edges.
+
+**Quota0:** +32 prefix-0/1 cycle/second-junction pairs, but −4 old fork pairs, −46 corridors, +1 ordinary base and −8 old ordinary bases versus both immediate parent and exact root. The new ordinary success is a six-edge perfect-15 route, also absent from the protected union. Correct disconnection remains 168/168, with no false no-path. The child retains 95.83% of root pairs, 77% of corridors and 57.89% of ordinary complete cases; the retention gate fails. Its 12 ordinary successes have 1–6 edges. The parent/root’s eight- and ten-edge perfect-11 successes are lost.
+
+These gains and losses compare models on M8’s identical cases. Changes in raw counts between M7 and M8 are not acquisitions: the ordinary panels differ. The one beyond-union ordinary success is shared by both children, not two independent discoveries.
+
+## What channel 6 is doing
+
+The shared0 edit changes the local recurrence from `C6(next) = Boolean(C3 OR goal)` to `C6(next) = Boolean(C3 OR C4)`. In both parent and child, `C4(next) = Boolean(C6 OR goal)`. This couples C4 and C6 through feedback. It can preserve or alternate signal activity depending on its inputs; M8 did not record trajectories, so “stable latch” or “path memory” would go beyond the evidence.
+
+The fixed interventions isolate a real contribution from that coupled computation:
+
+| Shared0 intervention | Pairs | Corridors | Ordinary | Correct no-path |
+|---|---:|---:|---:|---:|
+| Unchanged child | 128 | 200 | 12 | 168 |
+| Parent length, child writer | 128 | 200 | 12 | 168 |
+| C6 reads only C3 | 116 | 120 | 9 | 52 |
+| C6 reads only C4 | 0 | 0 | 2 | 168 |
+| Child C4 writer zero | 96 | 64 | 3 | 168 |
+| Parent C4 writer zero | 112 | 80 | 10 | 168 |
+| Child C6 writer zero | 0 | 0 | 2 | 0 |
+
+Neither isolated input reproduces the repair. C3 alone retains the parent’s complete paired/corridor/ordinary success sets but correct disconnection falls to 52/168; C4 alone loses all paired/corridor success. Silencing C4 harms both parent and child, so that ablation by itself is not a unique explanation of the new feedback benefit. Silencing C6 loses all paired/corridor successes and correct disconnections. All these listed variants have zero false no-path.
+
+All 128 exact-child-behavior ancestral restorations retain child block 6. The other seven blocks are identical to this exact parent/root, so these 128 aliases do not establish robustness across 128 distinct backgrounds. Re-exposing the existing node copied by the M7 mutation also reproduces its successful repertoire. The evidence is consistent with evolution making an already-present computation externally active.
+
+The quota0 child instead makes C6 read the direction-2 neighbor of C3. Silencing its C6 writer restores the immediate parent’s **entire terminal raster/status/step behavior on all 1,680 inputs**, including the old skills and loss of the child’s specialist gains. Silencing C6 in the parent also leaves those terminal outcomes unchanged. This strongly locates the observed tradeoff at activation of this writer in this background; it does not prove identical internal trajectories.
+
+Transferring the quota0 child writer into the shorter parent matches all 1,680 terminal rasters and statuses, and 1,678 step counts. The remaining two inputs terminate at the read budget after 122 versus 123 steps. Thus the strict registered terminal-equivalence comparison is **false** for quota0, despite identical successful-case sets. The appended neighbor computation incurs extra reads; even apparently inactive genetic material can affect bounded execution cost.
+
+Only 16/256 quota0 ancestral restorations match exact child terminal behavior; all retain child blocks 2, 6 and 7. That is a condition observed within this fixed restoration panel, not universal necessity. No restoration or existing-node readout produces a targeted deeper pair.
+
+## Limits of the capability result
+
+Each child solves 0/96 nonfork prefix-2/4/8 pairs and 0/144 fork-prefix-2/4/8 pairs. Every fixed intervention in either lineage also has zero targeted nonfork deeper pairs. Neither child solves any of the 133 queried 8–15-edge ordinary bases or 85 queried 16+-edge bases; all its ordinary successes lie among 38 short bases. Denominators use queried cases only, excluding rejected/unqueried generator draws.
+
+Both intact engineering controls and BFS, A* and bit-wave controls correctly solve all 1,680 inputs. Random sanity genomes are references, not an equal-compute search arm. There is no speed, multirange, mating, policy-causality or general-solver claim. The many diagnostic comparisons are exploratory beyond the prospective primary; promotion of any intervention would require separate untouched confirmation.
+
+## Ancestry and cost
+
+The shared0 child is `m7/modular/0/shared/g500/b47`: one M7 mutation after exact `m7/reference/m6_child`, appending block-6 node 8. Its inherited M6/M3/M2 history remains intact and is not reclassified as M8 discovery. The quota0 child is `m7/modular/0/quota/g900/b16`: 35 M7 mutation births after exact A0, immediate parent `g897/b17`, last edit appending block-6 node 4. These are related preserved random-origin histories, not independent origins. M8 creates no evolutionary births.
+
+The shared0 child contains 111 instructions and 11 potential output/halt-cone nodes; quota0 contains 106 instructions and 14 potential nodes. Static cones can overestimate causally active computations. Every dispatched node still contributes to execution cost.
+
+| Same 1,680 inputs | Recorded work units |
+|---|---:|
+| Shared0 parent | 483,838,922 |
+| Shared0 child | 488,878,670 |
+| Shared0 writer transfer | 486,171,594 |
+| Quota0 parent | 465,739,310 |
+| Quota0 child | 481,180,815 |
+| Quota0 writer transfer | 477,644,558 |
+
+Equal query sets are not equal CPU/work; the transfer comparisons illustrate this directly. These are recorded assay costs, not warmed latency benchmarks.
+
+Main evaluation: **608,160 physical calls**, 1,053,360 nominal alias queries, 75.76 wall seconds, 595.45 summed candidate seconds, 626.43 worker CPU seconds, 195,301,171,599 work units and 3.010 GiB sampled process-tree RSS. Zero uncertain attempts or guard bypasses. Panel publication and analysis are separate workflow phases, not included in this evaluation-wall figure.
+
+The first scientific audit **PASSed** in 343.58 wall seconds: all 608,160 independent grades and all 608,160 native responses replayed, plus 5,040 conventional-control evaluations. Panel, corpus, tasks, summary, journal chain and frozen artifacts were regenerated/verified. It uses the same native VM with an independent raster grader, not a second interpreter. Eight focused/related software tests passed before registration; no claim of a fresh full-suite run. No scientific repair or failed scientific audit occurred.
+
+All 294 registration hashes and all 358 prior M7 completion hashes verify. Original journal and SQLite-API backup have matching table contents and integrity checks. Total preserved M8 storage at backup was 0.925 GiB, with 27.11 GiB disk free, within 6/16 GiB bounds. All 2,513,967 cumulative layouts are exported, including 5,808 new generated/rejected/unqueried layouts. Raw SQLite records remain local; compact evidence and reports are published. Future audits must write new packets.
+
+## Recommended next step — proposal only
+
+M8 identifies a more concrete search target: **evolve when to use a useful signal**, while preserving the already-working behavior. Quota0 gives an unusually clean comparison: the directional C6 writer adds a narrow ability, while silencing it restores the older complete behavior. Shared0 demonstrates that a local regulatory change can also improve several domains without paying that cost. Neither tells us that an appropriate context-sensitive switch is accessible or sufficient.
+
+I recommend a small, prospectively matched evolution experiment on conditional C6 regulation using the existing M1 operators, alongside ordinary whole-genome mutation at equal nominal evaluation allocation. Keep the exact random-origin parents/children and protected references; any mutation restriction or intervention-derived founder must be explicit. Allow selection to discover conditions from ordinary local state, never oracle distances or a manually supplied routing decision. Preserve neutral alternatives rather than requiring every intermediate mutation to improve.
+
+The first milestone would be one evolved genome retaining the parent’s skills and the specialist’s new pairs, with correct disconnection and zero false no-path on fresh confirmation. That would demonstrate integration, not general solving. A separately declared deeper-prefix endpoint must remain visible: success confined to prefix 0/1 would still leave the central barrier unresolved. A much longer run should depend on a new mechanism or deeper-route evidence, rather than this repair alone. No new experiment, recombination study or longer run is launched by this report.

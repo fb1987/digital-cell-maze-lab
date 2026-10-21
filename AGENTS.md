@@ -35,26 +35,53 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M8-STATUS-START -->
-Current October21,2026: **M8 repair-mechanism assay PREPARED, not launched.**
-User authorized “Okay, proceed” after M7. Read docs/REPAIR_MECHANISM.md,
-docs/REPAIR_MECHANISM_PROGRESS.md andresults/repair_mechanism/readiness.json.
-Targets exactM7shared0g500/b47 andquota0g900/b16 withownroots/parents andall7protected.
-Fixedownroot/child256block combinations each,child+parentwriterzeros,existingC6
-node readouts,parentchild-writertransfer,sharedC6inputisolation,random8/intact2.
-Diagnosticperturbations,not evolvedoffspring/mating/newpopulation. SameM1runtime.
-Static sharedC6next=C3ORC4 vsparentC3ORgoal, C4next=C6ORgoal;testfeedbacknecessity,
-notassumegeneralpathmemory. QuotaC6 copiesdirection2 C3neighbor. No newtraces.
-Fresh1680casepanel seed2026102119;excludeALL2,508,159M7layouts. Nomodel/caseselection.
-Primaryrepairrequirespositivecorridorgain,zero parent-complete-skillloss/false,
-parentwithchildwriter matcheschildmask/status/steps. Diagnosticupstreamgatesstrict;
-positiveinterventionneedsseparateconfirmation,nopromotion.8focusedtestsPASS;
-all358M7completionhashesunchanged;actualM8panelnotgeneratedbefore registration.
-Tenworkers;1.5Mcalls/2e12work/900smainwall/1800saudit/8GiBRSS/6GiBtotalinclbackups/
-16GiBfree. Freeze/pushregistrationTHENexactpanelBEFOREfreshcases. Durableworkflow
- tools/run_m8_workflow.py;neverduplicate/resume failedworkflow orchange seals.
-AfterALL-nativeauditPASS:reportactualmechanism/limits,guardedverifiedSQLitebackup,
-ALLlayoutexclusions,completionseal/handoff,commit/pushcompactevidence,rawjournallocal.
-No phasebeyondM8authorized. Oldscientificrecordsprotected;alloldmonitorspaused.
+Current October21,2026: **M8 repair-mechanism assay COMPLETE and AUDITED.**
+Read results/repair_mechanism/report.md,summary.json,saved_diagnostics.json,
+audit.json,preservation.json,completion.json and docs/REPAIR_MECHANISM_PROGRESS.md.
+No scientific process or next experiment running. Old monitors paused; no M8
+heartbeat created. Preserve all sources/outputs/seals/journals; new audits need
+separate packets. No raw rerun, case reselection, promotion or history reset.
+
+Registrationee3bcfa and fixedpanel9ef21b7 pushed BEFORE downstream generation.
+627aliases/362physical models,1680samefreshinputs,all256ownroot/childrestorations
+perlineage,matchedparent/childwriterzeros,C6readouts/writertransfers/inputisolation,
+7protected+8random+2intact controls. No evolution/mating/traces/newVM.
+PRIMARYrepairPASS: shared0g500/b47 vs exactM6parent/root128vs116pairs,
+200vs120corridors,12vs9ordinarybothposes,168correctno-path/0false both.
++12forkprefix0/1pairs,+80corridors,+3ordinary(3,6,6edges),zero complete-skillloss.
+One6edgeperfect15basebeyondprotectedunion; allpair/corridorgainsalreadycovered.
+Parentwithchildwriter exactlymatchesall1680child terminalmasks/status/steps.
+C6next=C3ORC4 vsparentC3ORgoal;C4next=C6ORgoal. Bothisolatedinputs failrepair.
+C3only116pairs/120corridors/9ordinary but52correctno-path;C4only0/0/2/168.
+C4zeroharmsbothbackgrounds;no unique-latch/temporal/backtrace proof.
+128restorationaliasesexactchild allkeepC6;other7blocksidentical,not128backgrounds.
+
+Quota0g900/b16:124pairs/154corridors/12ordinary/168correctno-path/0false;
+parentandA0root96/200/19/168/0. +32prefix0/1cycle/twojunctionpairs,-4forkpairs,
+-46corridors,+1ordinary6edgeP15,-8ordinary;retentionFAIL. The beyondunion6edge
+caseisSHAREDwithshared0. C6zero exactlyrestoresparentterminalbehaviorall1680.
+Childwritertransfermatchesallmasks/status but2readbudgetstepcounts122vs123;
+strictterminalequivalenceFALSE,do not hide cost effect.16/256restorationsexactchild,
+allkeepchildblocks2/6/7. ALLfixedlineagevariants0/96nonforkprefix2+pairs andno
+upstream/long/combinedscreenhits. Bothchildren0/133ordinary8-15,0/85length16+;
+allordinarysuccesses1-6edges. No general-solver/speed/multirange/sexualclaim.
+Relatedrandom-originlineages:1/35M7mutationbirths,0M8births;inheritanceexplicit.
+
+Main608160physicalcalls/1053360nominalaliasqueries,75.76wallsec,595.45candidate
+seconds,626.43workerCPU,195301171599work,3.010GiBsampledRSS. FirstauditPASS343.58s:
+ALL608160nativeoutputs+independentgrades,5040BFS/A*/bitwavecontrols,allsource/
+panel/corpus/summary/chain. SharedVM notsecondinterpreter. Intactcontrolsall1680.
+8focusedtestsPASS(notfullsuite),294registered+358priorM7hashesunchanged;
+zero uncertainattempts/guardbypasses/scientificrepairs. OriginalSQLite+verified
+APIbackupunder runs/repair_mechanism_m8;~0.925GiBpreserved,27.11GiBfreeatbackup.
+ExcludeALL2,513,967wholelayouts via results/repair_mechanism/whole_layout_exclusions.json.gz
+including5808newgenerated/rejected/unqueried. Compactevidence/reportsealed/published.
+
+NextproposalONLY: boundedmatched conditional-C6-regulation evolution usingexisting
+M1operators vswhole-genomemutation,equalnominalevaluations,exactpreservedfounders,
+neutralalternatives/frozenreferences;nooracle/hardcodedrouting. Testintegrationof
+parent+specialistskillswithnopathretention/zerofalse;keepdeeperprefixendpointexplicit.
+No newphasebeyondM8authorized,none launched. Random-originresearchremainscentral.
 <!-- M8-STATUS-END -->
 
 <!-- M7-STATUS-START -->
