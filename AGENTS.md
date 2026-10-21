@@ -34,6 +34,36 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M13-STATUS-START -->
+Current October21,2026: **M13 registered, launch authorized and imminent.**
+User Proceed after M12 authorizes the new mutation-policy comparison. Read
+ docs/MUTATION_SCOPE.md, docs/MUTATION_SCOPE_PROGRESS.md and results/mutation_scope/
+registration.json/config.json/software_verification.json/storage_plan.json.
+Six96 populations,three focused/broad pairs,exact M10 founders and paired RNG;
+both use exact M11 BANK development panels,48fresh+48fixed ordinary training.
+Focused50/50C6gate/generic vs unchanged M1 all-block generic operator; policy
+package comparison,not isolated causal block-location test. Selection unchanged,
+imperfect intermediates eligible,7immigrants+45mutants/round,12protected/archive16.
+64round cap/assessment16/1200soft/1800hard seconds/10workers/8GiBRSS/6Mcalls/1e13work.
+Storage600MiB INCLUDING backups;16GiB disk floor. New reference+delta exclusion
+ledger and lossless compact specs/receipts avoid old-ledger duplication. Old records
+MUST NOT be changed/compacted/deleted. Backups depend on checksummed immutable bases.
+Admission reserves600MiB abovefloor. Prediction551MiB inclbackup/margin,notguarantee.
+15focusedtests pass(notfullsuite),1248discardedbirths/RNGreplayed;first test setup
+failed onlymissingbasetemp parent,logpreserved;fixedsetupand4affectedtestsPASS.
+
+Durable tools/run_m13_workflow.py will search, publish exactchoices BEFOREfresh
+1680case confirmation, fullsearchgrade/selection/mutation/RNG/native-sample audit,
+final/analysis/ALL-native audit. Inspect existingworkflow/process/journal BEFORE any
+launch;neverduplicatewriter,extendbounds,reselect,orchange sealedfiles. Stop/preserve
+onerror/guard/auditfailure;noautomaticfailedresume. Sources+founders+config+protocol
+must be pushed BEFORE scientificgeneration. Strictintegrationprimary/deeper/long
+gates frozen;no general/speedclaim. Afteraudits: actualreport/ancestry/costs/reference
+comparisons,guardedbackups,ALLlayoutreference+deltaexport,completionseals andpush.
+No phase beyondM13 authorized. Historicalstatusblocksbelow are completed studies.
+<!-- M13-STATUS-END -->
+
+
 <!-- M12-STATUS-START -->
 Current October21,2026: **M12 COMPLETE, fresh-confirmed and AUDITED.** Read
 results/retention_memory/report.md,summary.json,saved_diagnostics.json,

@@ -1,0 +1,32 @@
+{
+  "admission_reserve_satisfied": true,
+  "caveat": "Prior M12 receipts are a planning extrapolation; broader genomes may increase diversity/bytes. Runtime guards remain mandatory. No old file modified; no new inference or cases.",
+  "configured_storage_cap": 629145600,
+  "free_bytes": 18007683072,
+  "headroom_above_floor": 827813888,
+  "other_allowance_bytes": 83886080,
+  "projected_including_backups_and_other_bytes": 578126941,
+  "projected_search_bytes": 247120431,
+  "projection_fits_cap": true,
+  "sample": {
+    "assessment": {
+      "old_bytes": 37710904,
+      "old_tasks": 301,
+      "projected_M13_task_bytes": 23949418.21744135,
+      "sample_new": 4028167,
+      "sample_old": 6342777,
+      "sample_tasks": 51
+    },
+    "train": {
+      "old_bytes": 368145733,
+      "old_tasks": 8688,
+      "projected_M13_task_bytes": 119826015.58891538,
+      "sample_new": 1339230,
+      "sample_old": 2057282,
+      "sample_tasks": 48
+    }
+  },
+  "source_journal": "runs/retention_memory_m12/campaign.sqlite",
+  "source_sha256": "ddb3fdb38212ce817571c629d6019272fd677813355dcaaa12e561f2deba537c",
+  "wall_seconds": 2.792488042032346
+}
