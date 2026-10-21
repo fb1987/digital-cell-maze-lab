@@ -1,0 +1,5399 @@
+{
+  "calibration_not_evolution": true,
+  "comparisons": [
+    {
+      "bank_ready": true,
+      "difference": 0,
+      "methods": {
+        "bank": {
+          "accepted_genotypes": [
+            "5ef1517fb36724f34f1397790fb156477f135b52c4a0f5c35d73b6f431364850",
+            "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63",
+            "fffddc755dd89ec04583b13ebc21a9f05f3b9a33fbe32d160be3b80f50caa4c9"
+          ],
+          "false_accept_genotypes": [],
+          "false_accepts": 0,
+          "false_reject_genotypes": [],
+          "false_rejections": 0,
+          "positive_controls_pass": true,
+          "top_rank_confirmation": {
+            "aliases": [
+              "m10/modular/1/rotating/g15/b17"
+            ],
+            "metrics": {
+              "by_domain": {
+                "corridor": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 200,
+                  "optimal": 200,
+                  "valid": 200
+                },
+                "disconnected": {
+                  "correct_no_path": 40,
+                  "false_no_path": 0,
+                  "inputs": 40,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/15": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/9": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_perfect/11": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "ordinary_perfect/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 8,
+                  "valid": 8
+                },
+                "ordinary_random/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 4,
+                  "valid": 4
+                },
+                "ordinary_random/9": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "paired": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 800,
+                  "optimal": 224,
+                  "valid": 224
+                }
+              },
+              "by_pair_stratum": {
+                "cycle/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "fork/0": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/1": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/2": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/4": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/8": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "two_junction/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                }
+              },
+              "correct_no_path": 168,
+              "disconnected_inputs": 168,
+              "false_no_path": 0,
+              "inputs": 1680,
+              "ordinary_bases_both_poses": 18,
+              "pair_opportunities": 400,
+              "paired": 96,
+              "work": 490740604
+            },
+            "ordinary_retention": 1.0,
+            "parent_retained": 18,
+            "parent_total": 18,
+            "severe_loss": false
+          },
+          "top_rank_genotype": "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63"
+        },
+        "current": {
+          "accepted_genotypes": [
+            "5ef1517fb36724f34f1397790fb156477f135b52c4a0f5c35d73b6f431364850",
+            "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63",
+            "fffddc755dd89ec04583b13ebc21a9f05f3b9a33fbe32d160be3b80f50caa4c9"
+          ],
+          "false_accept_genotypes": [],
+          "false_accepts": 0,
+          "false_reject_genotypes": [],
+          "false_rejections": 0,
+          "positive_controls_pass": true,
+          "top_rank_confirmation": {
+            "aliases": [
+              "m10/modular/1/rotating/g15/b17"
+            ],
+            "metrics": {
+              "by_domain": {
+                "corridor": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 200,
+                  "optimal": 200,
+                  "valid": 200
+                },
+                "disconnected": {
+                  "correct_no_path": 40,
+                  "false_no_path": 0,
+                  "inputs": 40,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/15": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/9": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_perfect/11": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "ordinary_perfect/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 8,
+                  "valid": 8
+                },
+                "ordinary_random/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 4,
+                  "valid": 4
+                },
+                "ordinary_random/9": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "paired": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 800,
+                  "optimal": 224,
+                  "valid": 224
+                }
+              },
+              "by_pair_stratum": {
+                "cycle/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "fork/0": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/1": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/2": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/4": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/8": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "two_junction/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                }
+              },
+              "correct_no_path": 168,
+              "disconnected_inputs": 168,
+              "false_no_path": 0,
+              "inputs": 1680,
+              "ordinary_bases_both_poses": 18,
+              "pair_opportunities": 400,
+              "paired": 96,
+              "work": 490740604
+            },
+            "ordinary_retention": 1.0,
+            "parent_retained": 18,
+            "parent_total": 18,
+            "severe_loss": false
+          },
+          "top_rank_genotype": "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63"
+        }
+      },
+      "nonvacuous": true,
+      "rep": 0
+    },
+    {
+      "bank_ready": true,
+      "difference": 11,
+      "methods": {
+        "bank": {
+          "accepted_genotypes": [
+            "5ef1517fb36724f34f1397790fb156477f135b52c4a0f5c35d73b6f431364850",
+            "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63",
+            "fffddc755dd89ec04583b13ebc21a9f05f3b9a33fbe32d160be3b80f50caa4c9"
+          ],
+          "false_accept_genotypes": [],
+          "false_accepts": 0,
+          "false_reject_genotypes": [],
+          "false_rejections": 0,
+          "positive_controls_pass": true,
+          "top_rank_confirmation": {
+            "aliases": [
+              "m10/modular/1/rotating/g15/b17"
+            ],
+            "metrics": {
+              "by_domain": {
+                "corridor": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 200,
+                  "optimal": 200,
+                  "valid": 200
+                },
+                "disconnected": {
+                  "correct_no_path": 40,
+                  "false_no_path": 0,
+                  "inputs": 40,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/15": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/9": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_perfect/11": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "ordinary_perfect/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 8,
+                  "valid": 8
+                },
+                "ordinary_random/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 4,
+                  "valid": 4
+                },
+                "ordinary_random/9": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "paired": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 800,
+                  "optimal": 224,
+                  "valid": 224
+                }
+              },
+              "by_pair_stratum": {
+                "cycle/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "fork/0": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/1": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/2": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/4": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/8": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "two_junction/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                }
+              },
+              "correct_no_path": 168,
+              "disconnected_inputs": 168,
+              "false_no_path": 0,
+              "inputs": 1680,
+              "ordinary_bases_both_poses": 18,
+              "pair_opportunities": 400,
+              "paired": 96,
+              "work": 490740604
+            },
+            "ordinary_retention": 1.0,
+            "parent_retained": 18,
+            "parent_total": 18,
+            "severe_loss": false
+          },
+          "top_rank_genotype": "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63"
+        },
+        "current": {
+          "accepted_genotypes": [
+            "2ad97f17b84a7f74054e446f72beb9ee754d2531040f30b01519526cc40a3475",
+            "2bb239222b7f79c165f0981f6ee66289fd17d287deaaea151cc92393d6ce54d5",
+            "2c2322d9a78962ccc070ace61341b30359aae1553793c9d9f5e3ab88b9f0a427",
+            "3013b900a38d59177474be988956c897f421d70a9fddb3df3d3a6032b3a07236",
+            "3f403d5a70466b80a802aad61b734e24b9a921b9212ff67240ab7e10b357eb38",
+            "5ef1517fb36724f34f1397790fb156477f135b52c4a0f5c35d73b6f431364850",
+            "6d82356e50ea09fbe5c0d9168a070cc3b1fa2bf13174004bf6d2932f19bb03fa",
+            "b117bf88952123d3400b85f3ea04ae9534cd07dc6f97e5e1ac65c412799cc824",
+            "b8c87654fefb277e9784d5abdcc8b7fd336946f8ff22a4a4c758c61a0c3f5162",
+            "bc8d25a251eb184fda19eb674c51c8e258c616d7208426f684a8d1e9bb4db409",
+            "d08c21f0245387fa67f2134adba21da957d75747ffef0f2afd1f7ffa5fae66ea",
+            "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63",
+            "fee5066d0e6ecb62e5a8705aeb25aaa054a1fb56b58175f70671b65d5b467777",
+            "fffddc755dd89ec04583b13ebc21a9f05f3b9a33fbe32d160be3b80f50caa4c9"
+          ],
+          "false_accept_genotypes": [
+            "2ad97f17b84a7f74054e446f72beb9ee754d2531040f30b01519526cc40a3475",
+            "2bb239222b7f79c165f0981f6ee66289fd17d287deaaea151cc92393d6ce54d5",
+            "2c2322d9a78962ccc070ace61341b30359aae1553793c9d9f5e3ab88b9f0a427",
+            "3013b900a38d59177474be988956c897f421d70a9fddb3df3d3a6032b3a07236",
+            "3f403d5a70466b80a802aad61b734e24b9a921b9212ff67240ab7e10b357eb38",
+            "6d82356e50ea09fbe5c0d9168a070cc3b1fa2bf13174004bf6d2932f19bb03fa",
+            "b117bf88952123d3400b85f3ea04ae9534cd07dc6f97e5e1ac65c412799cc824",
+            "b8c87654fefb277e9784d5abdcc8b7fd336946f8ff22a4a4c758c61a0c3f5162",
+            "bc8d25a251eb184fda19eb674c51c8e258c616d7208426f684a8d1e9bb4db409",
+            "d08c21f0245387fa67f2134adba21da957d75747ffef0f2afd1f7ffa5fae66ea",
+            "fee5066d0e6ecb62e5a8705aeb25aaa054a1fb56b58175f70671b65d5b467777"
+          ],
+          "false_accepts": 11,
+          "false_reject_genotypes": [],
+          "false_rejections": 0,
+          "positive_controls_pass": true,
+          "top_rank_confirmation": {
+            "aliases": [
+              "m10/modular/1/control/g127/b17"
+            ],
+            "metrics": {
+              "by_domain": {
+                "corridor": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 200,
+                  "optimal": 200,
+                  "valid": 200
+                },
+                "disconnected": {
+                  "correct_no_path": 40,
+                  "false_no_path": 0,
+                  "inputs": 40,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/15": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/9": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_perfect/11": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 2,
+                  "valid": 2
+                },
+                "ordinary_perfect/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 4,
+                  "valid": 4
+                },
+                "ordinary_random/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 2,
+                  "valid": 2
+                },
+                "ordinary_random/9": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 8,
+                  "valid": 8
+                },
+                "paired": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 800,
+                  "optimal": 272,
+                  "valid": 272
+                }
+              },
+              "by_pair_stratum": {
+                "cycle/0": {
+                  "correct": 8,
+                  "opportunities": 16
+                },
+                "cycle/1": {
+                  "correct": 8,
+                  "opportunities": 16
+                },
+                "cycle/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "fork/0": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/1": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/2": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/4": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/8": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "two_junction/0": {
+                  "correct": 8,
+                  "opportunities": 16
+                },
+                "two_junction/1": {
+                  "correct": 8,
+                  "opportunities": 16
+                },
+                "two_junction/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                }
+              },
+              "correct_no_path": 168,
+              "disconnected_inputs": 168,
+              "false_no_path": 0,
+              "inputs": 1680,
+              "ordinary_bases_both_poses": 8,
+              "pair_opportunities": 400,
+              "paired": 128,
+              "work": 484864624
+            },
+            "ordinary_retention": 0.4444444444444444,
+            "parent_retained": 8,
+            "parent_total": 18,
+            "severe_loss": true
+          },
+          "top_rank_genotype": "b8c87654fefb277e9784d5abdcc8b7fd336946f8ff22a4a4c758c61a0c3f5162"
+        }
+      },
+      "nonvacuous": true,
+      "rep": 1
+    },
+    {
+      "bank_ready": true,
+      "difference": 1,
+      "methods": {
+        "bank": {
+          "accepted_genotypes": [
+            "5ef1517fb36724f34f1397790fb156477f135b52c4a0f5c35d73b6f431364850",
+            "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63",
+            "fffddc755dd89ec04583b13ebc21a9f05f3b9a33fbe32d160be3b80f50caa4c9"
+          ],
+          "false_accept_genotypes": [],
+          "false_accepts": 0,
+          "false_reject_genotypes": [],
+          "false_rejections": 0,
+          "positive_controls_pass": true,
+          "top_rank_confirmation": {
+            "aliases": [
+              "m10/modular/1/rotating/g15/b17"
+            ],
+            "metrics": {
+              "by_domain": {
+                "corridor": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 200,
+                  "optimal": 200,
+                  "valid": 200
+                },
+                "disconnected": {
+                  "correct_no_path": 40,
+                  "false_no_path": 0,
+                  "inputs": 40,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/15": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/9": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_perfect/11": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "ordinary_perfect/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 8,
+                  "valid": 8
+                },
+                "ordinary_random/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 4,
+                  "valid": 4
+                },
+                "ordinary_random/9": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 12,
+                  "valid": 12
+                },
+                "paired": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 800,
+                  "optimal": 224,
+                  "valid": 224
+                }
+              },
+              "by_pair_stratum": {
+                "cycle/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "fork/0": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/1": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/2": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/4": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/8": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "two_junction/0": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                }
+              },
+              "correct_no_path": 168,
+              "disconnected_inputs": 168,
+              "false_no_path": 0,
+              "inputs": 1680,
+              "ordinary_bases_both_poses": 18,
+              "pair_opportunities": 400,
+              "paired": 96,
+              "work": 490740604
+            },
+            "ordinary_retention": 1.0,
+            "parent_retained": 18,
+            "parent_total": 18,
+            "severe_loss": false
+          },
+          "top_rank_genotype": "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63"
+        },
+        "current": {
+          "accepted_genotypes": [
+            "5ef1517fb36724f34f1397790fb156477f135b52c4a0f5c35d73b6f431364850",
+            "b117bf88952123d3400b85f3ea04ae9534cd07dc6f97e5e1ac65c412799cc824",
+            "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63",
+            "fffddc755dd89ec04583b13ebc21a9f05f3b9a33fbe32d160be3b80f50caa4c9"
+          ],
+          "false_accept_genotypes": [
+            "b117bf88952123d3400b85f3ea04ae9534cd07dc6f97e5e1ac65c412799cc824"
+          ],
+          "false_accepts": 1,
+          "false_reject_genotypes": [],
+          "false_rejections": 0,
+          "positive_controls_pass": true,
+          "top_rank_confirmation": {
+            "aliases": [
+              "m10/reference/gated_partial"
+            ],
+            "metrics": {
+              "by_domain": {
+                "corridor": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 200,
+                  "optimal": 200,
+                  "valid": 200
+                },
+                "disconnected": {
+                  "correct_no_path": 40,
+                  "false_no_path": 0,
+                  "inputs": 40,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/15": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_disconnected/9": {
+                  "correct_no_path": 64,
+                  "false_no_path": 0,
+                  "inputs": 64,
+                  "optimal": 0,
+                  "valid": 0
+                },
+                "ordinary_perfect/11": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 8,
+                  "valid": 8
+                },
+                "ordinary_perfect/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 6,
+                  "valid": 6
+                },
+                "ordinary_random/15": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 4,
+                  "valid": 4
+                },
+                "ordinary_random/9": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 128,
+                  "optimal": 14,
+                  "valid": 14
+                },
+                "paired": {
+                  "correct_no_path": 0,
+                  "false_no_path": 0,
+                  "inputs": 800,
+                  "optimal": 248,
+                  "valid": 248
+                }
+              },
+              "by_pair_stratum": {
+                "cycle/0": {
+                  "correct": 8,
+                  "opportunities": 16
+                },
+                "cycle/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "cycle/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "fork/0": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/1": {
+                  "correct": 48,
+                  "opportunities": 48
+                },
+                "fork/2": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/4": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "fork/8": {
+                  "correct": 0,
+                  "opportunities": 48
+                },
+                "two_junction/0": {
+                  "correct": 8,
+                  "opportunities": 16
+                },
+                "two_junction/1": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/2": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/4": {
+                  "correct": 0,
+                  "opportunities": 16
+                },
+                "two_junction/8": {
+                  "correct": 0,
+                  "opportunities": 16
+                }
+              },
+              "correct_no_path": 168,
+              "disconnected_inputs": 168,
+              "false_no_path": 0,
+              "inputs": 1680,
+              "ordinary_bases_both_poses": 16,
+              "pair_opportunities": 400,
+              "paired": 112,
+              "work": 464252270
+            },
+            "ordinary_retention": 0.8333333333333334,
+            "parent_retained": 15,
+            "parent_total": 18,
+            "severe_loss": true
+          },
+          "top_rank_genotype": "b117bf88952123d3400b85f3ea04ae9534cd07dc6f97e5e1ac65c412799cc824"
+        }
+      },
+      "nonvacuous": true,
+      "rep": 2
+    }
+  ],
+  "descriptive_bank_support": true,
+  "diagnostic_genotypes": 28,
+  "limitation": "Related fixed genomes; three banks are not independent evolutionary origins. Reference-conditioned bank is biased fitness design. No universal sensitivity, general solving, speed or new acquisition claim.",
+  "ready_for_new_protocol": true,
+  "severe_loss_genotypes": 25,
+  "status": "evaluated",
+  "truth": {
+    "1b33c26309d98107d7335cff77f1903eee8a7462add137a7998557e3458c5aaa": {
+      "aliases": [
+        "control/intact_flat"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 800,
+            "valid": 800
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 16,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 256,
+        "pair_opportunities": 400,
+        "paired": 400,
+        "work": 99244448
+      },
+      "ordinary_retention": 1.0,
+      "parent_retained": 18,
+      "parent_total": 18,
+      "severe_loss": false
+    },
+    "2ad97f17b84a7f74054e446f72beb9ee754d2531040f30b01519526cc40a3475": {
+      "aliases": [
+        "m10/modular/1/rotating/g128/b35"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 498724890
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "2b3fdc9b55a5766b577d630870f74082e73819c811173cdd548dc9a29a867cbb": {
+      "aliases": [
+        "m10/modular/2/control/g31/b23"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 6,
+            "valid": 6
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 11,
+            "valid": 11
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 28,
+            "valid": 28
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 4,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 4,
+        "work": 1070548601
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "2bb239222b7f79c165f0981f6ee66289fd17d287deaaea151cc92393d6ce54d5": {
+      "aliases": [
+        "m10/modular/2/control/g128/b36"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 482589246
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "2c2322d9a78962ccc070ace61341b30359aae1553793c9d9f5e3ab88b9f0a427": {
+      "aliases": [
+        "m10/reference/quota_child"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 154,
+            "valid": 154
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 268,
+            "valid": 268
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 44,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 12,
+        "pair_opportunities": 400,
+        "paired": 124,
+        "work": 478458423
+      },
+      "ordinary_retention": 0.6111111111111112,
+      "parent_retained": 11,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "3013b900a38d59177474be988956c897f421d70a9fddb3df3d3a6032b3a07236": {
+      "aliases": [
+        "m10/modular/0/rotating/g128/b41"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 485278520
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "3f403d5a70466b80a802aad61b734e24b9a921b9212ff67240ab7e10b357eb38": {
+      "aliases": [
+        "m10/modular/0/control/g127/b21"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 482589246
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "4f7af5c5bf82cb1216c98e9c2a7a56a0d59dd1e0c49a5672a7da9ac7e550b919": {
+      "aliases": [
+        "m10/modular/0/control/g95/b11"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 46,
+            "valid": 46
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 9,
+            "valid": 9
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 104,
+            "valid": 104
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 8,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 11,
+        "pair_opportunities": 400,
+        "paired": 8,
+        "work": 491544972
+      },
+      "ordinary_retention": 0.6111111111111112,
+      "parent_retained": 11,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "50b85f3f6f6be2131f0e5cd88e8f7eac24e5aa2da450619b8efda99212ff5a0e": {
+      "aliases": [
+        "m10/reference/anchor/1"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 4,
+            "inputs": 200,
+            "optimal": 52,
+            "valid": 52
+          },
+          "disconnected": {
+            "correct_no_path": 20,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 2,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 2,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 3,
+            "valid": 3
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 224,
+            "valid": 224
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 32,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 24,
+        "disconnected_inputs": 168,
+        "false_no_path": 4,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 5,
+        "pair_opportunities": 400,
+        "paired": 64,
+        "work": 451699645
+      },
+      "ordinary_retention": 0.2777777777777778,
+      "parent_retained": 5,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "5ef1517fb36724f34f1397790fb156477f135b52c4a0f5c35d73b6f431364850": {
+      "aliases": [
+        "m10/reference/quota_parent"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 224,
+            "valid": 224
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 18,
+        "pair_opportunities": 400,
+        "paired": 96,
+        "work": 462548268
+      },
+      "ordinary_retention": 1.0,
+      "parent_retained": 18,
+      "parent_total": 18,
+      "severe_loss": false
+    },
+    "6b9f49fa402414cefff6b5fa3a8935412ad0afe1a6ef8fc2b7d3639cdffbadaa": {
+      "aliases": [
+        "m10/reference/root/1"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 224,
+            "valid": 224
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 0,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 1,
+        "pair_opportunities": 400,
+        "paired": 96,
+        "work": 520814627
+      },
+      "ordinary_retention": 0.05555555555555555,
+      "parent_retained": 1,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "6c9b488fe60e364d442ed80e58d7045bd33956edc8fa820c329f00a48fd4c7c8": {
+      "aliases": [
+        "m10/modular/1/rotating/g64/b33"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 64,
+            "valid": 64
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 132,
+            "valid": 132
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 24,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 8,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 12,
+        "pair_opportunities": 400,
+        "paired": 32,
+        "work": 491516384
+      },
+      "ordinary_retention": 0.6666666666666666,
+      "parent_retained": 12,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "6d82356e50ea09fbe5c0d9168a070cc3b1fa2bf13174004bf6d2932f19bb03fa": {
+      "aliases": [
+        "m10/reference/gated_specialist"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 166,
+            "valid": 166
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 3,
+            "valid": 3
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 14,
+            "valid": 14
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 13,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 464373704
+      },
+      "ordinary_retention": 0.7222222222222222,
+      "parent_retained": 13,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "8ae9338d9c899a31ab639632ec49ffa86fbbf7d50b0fac7ac35d0755bb2449af": {
+      "aliases": [
+        "m10/modular/2/rotating/g31/b24"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 32,
+            "valid": 32
+          },
+          "disconnected": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 3,
+            "valid": 3
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 5,
+            "valid": 5
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 128,
+            "valid": 128
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 0,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 2,
+        "pair_opportunities": 400,
+        "paired": 0,
+        "work": 482175144
+      },
+      "ordinary_retention": 0.1111111111111111,
+      "parent_retained": 2,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "a6d4dc73da61f56e4062171288cd3b02feb985ceac7ed5cd594e6b4946051781": {
+      "aliases": [
+        "m10/reference/a1/standard/0191"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 52,
+            "valid": 52
+          },
+          "disconnected": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 288,
+            "valid": 288
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 32,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 32,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 0,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 5,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 1212166919
+      },
+      "ordinary_retention": 0.2777777777777778,
+      "parent_retained": 5,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "ad51ff702bc3d753d5e67eacb7c570c344190a207f2c522d6586ee7fa627de62": {
+      "aliases": [
+        "m10/reference/m6_child"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 120,
+            "valid": 120
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 256,
+            "valid": 256
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 44,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 40,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 6,
+        "pair_opportunities": 400,
+        "paired": 116,
+        "work": 480356198
+      },
+      "ordinary_retention": 0.3333333333333333,
+      "parent_retained": 6,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "af00b1e5fc48f0ec421884570af142bf234443258eff99a36127b4c54a1946a7": {
+      "aliases": [
+        "m10/modular/2/control/g29/b25"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 64,
+            "valid": 64
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 3,
+            "valid": 3
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 11,
+            "valid": 11
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 132,
+            "valid": 132
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 24,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 8,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 32,
+        "work": 465134604
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "b117bf88952123d3400b85f3ea04ae9534cd07dc6f97e5e1ac65c412799cc824": {
+      "aliases": [
+        "m10/reference/gated_partial"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 14,
+            "valid": 14
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 248,
+            "valid": 248
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 16,
+        "pair_opportunities": 400,
+        "paired": 112,
+        "work": 464252270
+      },
+      "ordinary_retention": 0.8333333333333334,
+      "parent_retained": 15,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "b57baabe8734eb9013727ef14fffe9a32941bab468d71daa001b884ea03a507a": {
+      "aliases": [
+        "m10/modular/0/control/g91/b10"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 46,
+            "valid": 46
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 9,
+            "valid": 9
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 104,
+            "valid": 104
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 8,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 11,
+        "pair_opportunities": 400,
+        "paired": 8,
+        "work": 491542514
+      },
+      "ordinary_retention": 0.6111111111111112,
+      "parent_retained": 11,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "b8c87654fefb277e9784d5abdcc8b7fd336946f8ff22a4a4c758c61a0c3f5162": {
+      "aliases": [
+        "m10/modular/1/control/g127/b17"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 484864624
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "bc8d25a251eb184fda19eb674c51c8e258c616d7208426f684a8d1e9bb4db409": {
+      "aliases": [
+        "m10/modular/1/control/g128/b35",
+        "m10/modular/2/rotating/g32/b7"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 44,
+            "valid": 44
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 176,
+            "valid": 176
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 32,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 16,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 13,
+        "pair_opportunities": 400,
+        "paired": 48,
+        "work": 466999780
+      },
+      "ordinary_retention": 0.6666666666666666,
+      "parent_retained": 12,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "c64323dfedaf1000830b13a851f3f3a99a64b066eabe41b648de9157d172672d": {
+      "aliases": [
+        "m10/modular/0/rotating/g64/b22"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 2,
+            "valid": 2
+          },
+          "disconnected": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 3,
+            "valid": 3
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 4,
+            "valid": 4
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 0,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 2,
+        "pair_opportunities": 400,
+        "paired": 0,
+        "work": 479343844
+      },
+      "ordinary_retention": 0.1111111111111111,
+      "parent_retained": 2,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "ca598e2bec81519e7c48c24eddf119c5ba1bfcac77e973e296bf6f9d095e9ccd": {
+      "aliases": [
+        "m10/modular/0/rotating/g62/b11"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 2,
+            "valid": 2
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 4,
+            "valid": 4
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 1,
+        "pair_opportunities": 400,
+        "paired": 0,
+        "work": 491122224
+      },
+      "ordinary_retention": 0.05555555555555555,
+      "parent_retained": 1,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "d08c21f0245387fa67f2134adba21da957d75747ffef0f2afd1f7ffa5fae66ea": {
+      "aliases": [
+        "m10/modular/2/rotating/g32/b19"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 485447736
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "d092567ad7f5d75c7c6c58dc34d30e7ab3ba7c7ca35970d819e096656f2a20ad": {
+      "aliases": [
+        "m10/reference/a0/standard/0434"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 384,
+            "valid": 384
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 0,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 10,
+        "pair_opportunities": 400,
+        "paired": 176,
+        "work": 561986615
+      },
+      "ordinary_retention": 0.5555555555555556,
+      "parent_retained": 10,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "e62ba4df1a6c5eded4920490c72d17959b3f1a0b5e71062d4962ff4acc063f63": {
+      "aliases": [
+        "m10/modular/1/rotating/g15/b17"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 224,
+            "valid": 224
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 18,
+        "pair_opportunities": 400,
+        "paired": 96,
+        "work": 490740604
+      },
+      "ordinary_retention": 1.0,
+      "parent_retained": 18,
+      "parent_total": 18,
+      "severe_loss": false
+    },
+    "f2dea4279bd6434401888e536da95374af2c9f8c2640a1b967eca1c87b3d7ec0": {
+      "aliases": [
+        "m10/reference/root/0"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 6,
+            "valid": 6
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 224,
+            "valid": 224
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 0,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 6,
+        "pair_opportunities": 400,
+        "paired": 96,
+        "work": 523501444
+      },
+      "ordinary_retention": 0.3333333333333333,
+      "parent_retained": 6,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "f3882379c614cc1033d3b056c2e440da8fbeef661dd4ad8d61972a481f2457da": {
+      "aliases": [
+        "control/intact_modular"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 128,
+            "valid": 128
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 800,
+            "valid": 800
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 16,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 16,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 256,
+        "pair_opportunities": 400,
+        "paired": 400,
+        "work": 189858944
+      },
+      "ordinary_retention": 1.0,
+      "parent_retained": 18,
+      "parent_total": 18,
+      "severe_loss": false
+    },
+    "fee5066d0e6ecb62e5a8705aeb25aaa054a1fb56b58175f70671b65d5b467777": {
+      "aliases": [
+        "m10/reference/shared_child"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 2,
+            "valid": 2
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 272,
+            "valid": 272
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 8,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 8,
+        "pair_opportunities": 400,
+        "paired": 128,
+        "work": 485278520
+      },
+      "ordinary_retention": 0.4444444444444444,
+      "parent_retained": 8,
+      "parent_total": 18,
+      "severe_loss": true
+    },
+    "fffddc755dd89ec04583b13ebc21a9f05f3b9a33fbe32d160be3b80f50caa4c9": {
+      "aliases": [
+        "m10/reference/anchor/0"
+      ],
+      "metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 200,
+            "valid": 200
+          },
+          "disconnected": {
+            "correct_no_path": 40,
+            "false_no_path": 0,
+            "inputs": 40,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/15": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 64,
+            "false_no_path": 0,
+            "inputs": 64,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 128,
+            "optimal": 12,
+            "valid": 12
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 800,
+            "optimal": 224,
+            "valid": 224
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "fork/0": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/1": {
+            "correct": 48,
+            "opportunities": 48
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 48
+          },
+          "two_junction/0": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/1": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 16
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 16
+          }
+        },
+        "correct_no_path": 168,
+        "disconnected_inputs": 168,
+        "false_no_path": 0,
+        "inputs": 1680,
+        "ordinary_bases_both_poses": 18,
+        "pair_opportunities": 400,
+        "paired": 96,
+        "work": 469409292
+      },
+      "ordinary_retention": 1.0,
+      "parent_retained": 18,
+      "parent_total": 18,
+      "severe_loss": false
+    }
+  },
+  "truth_parent_ordinary_denominator": 18
+}

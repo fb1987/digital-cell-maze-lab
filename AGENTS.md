@@ -35,22 +35,47 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M11-STATUS-START -->
-Current October21,2026: **M11 retention-bank calibration PREPARED, authorized.**
-User approved M10 recommendation. Read docs/RETENTION_BANK.md and
- docs/RETENTION_BANK_PROGRESS.md plus results/retention_bank registration/launch.
-No evolution; exact M10 frozen pool,30physicalmodels incl2intactcontrols. Three
-paired392-input current/bank panels;bank24ordinarysuccessbases chosenONLYbyfixed
-quota_parent,4each6declaredstrata;1024rawdraws/stratum,noextensiononshortfall.
-Allbanks/predictions/pool mustcommit/push BEFOREfresh1680confirmation. Fullnative
-calibrationaudit BEFOREconfirmation;ALLnativefinalaudit+conventionalcontrols.
-Fixeddiagnosticpool,explicitbiasedbank,nonvacuousfalseaccept/rejectcriteria;
-no newalgorithm/acquisition/general-solver/speedclaim. No candidate reselection.
-10workers,1200scalibration+1200sfinal,2Mcalls/1e13work CUMULATIVE,8GiBRSS,
-4GiBtotalphase storage inclbackups,16GiBfree;1800speraudit. DurableM11workflow
-status/logs under runs/retention_bank_m11. Neverduplicatewriter,modifyseals,
-resume failedworkflow orchange quotas. Preserve allpriorhistories unchanged.
-Afteraudits: actualreport,guardedverifiedSQLitebackup,alllayouts(chunks+manifest),
-completionseals,commit/push/updatehandoff. Oldmonitorspaused;nonewsearchauthorized.
+Current October21,2026: **M11 retention-bank calibration COMPLETE and AUDITED.**
+Read results/retention_bank/report.md, summary.json, diagnostics.json, bothaudits,
+preservation/completion.json and docs/RETENTION_BANK_PROGRESS.md. No process,
+heartbeat ornextsearch running. Oldmonitorspaused. Preserveallold/currentseals;
+neverraw-rerunsealedactions,reselectonfinaldata,extendhistoryoromitlayoutparts.
+
+Registration13d94e2 BEFOREnewcases; frozenbanks/predictions5bb5937 BEFOREfresh
+confirmation. NOEVOLUTION: exactM10pool30physicalmodels(28diagnostic+2intact).
+Threepaired392-inputcurrent/bankpanels,344inputsshared;bank24ordinarybases,
+4eachP11/P15/R9/R15short,P11/P15medium,solvedbyfixedquota_parentbothposes.
+1024uniquebasedraws/stratum/rep,ONLYparentoutputschoosefirst4;allquotasfilled.
+Currentordinaryparentdenoms3/1/7,bank24each. Gatedpartialbank19/19/17successes,
+gatedspecialist11/15/16,allcoveragegatesnonvacuous. Freshparent18/256ordinary;
+25of28diagnosticgenotypeshave<90%retention. Currentfalseaccepts0/11/1 versus
+bank0/0/0;falsereject0bothmethodsall3. RegistereddescriptivesupportTRUE/readiness
+forNEWprotocolTRUE. Currenttopretention100%/44%/83%,bank100%all3. Banktopalready
+existingM10g15/b17,96pairs/200corridors/18ordinary/168nopath/0false:oldcapability,
+notnewsolver,modelpromotion oracquisition. Relatedpool/finalcases,notindependent
+origins orsignificanceproof. Biasedreference-conditionedbank;no16+quota.
+
+Equal35280nominalscoringqueries/method(70560combined);union39600physicalplus
+12742constructioncalls. Calibration52342calls/36.82wall/19.96candidate seconds;
+final50400calls/9.54wall/40.88candidate. Cumulative102742calls/60.84candidate/
+78.84workerCPUseconds,23325661298work. Peak3.037GiBRSS. FirstauditsPASS:
+calibrationALL52342native+grades/corpora/selection/metrics/freeze35.91s;
+finalALL50400native+grades/summary+5040BFS/A*/bitwave30.57s. Allcontrols correct.
+SharedVM/selector,independentgrader.6focusedtestspass(notfullsuite);oneinitial
+testROOTfailurepreserved/test-onlyfix. ExcludedfixtureusesintactparentCONTROL
+onlyforsoftwarewiring;scientificpoolunchanged.312registration+356priorM10hashes
+unchanged. No uncertainattempt/guardbypass/scientificrepair. Originaljournal+
+verifiedSQLiteAPIbackup~1.136GiB,20.50GiBfree. All2840891layouts preserved.
+IMPORTANTledgerformat: results/retention_bank/whole_layout_exclusions.json is
+CHUNKmanifest,notoldgziphashlist;loadALLwithretention_bank.load_layouts,verify
+partsunderwhole_layout_exclusions_parts/. Sealedcompactevidencepushed;rawDBlocal.
+
+NextproposalONLY: boundedmatched evolutionbankmeasurementvsoldmeasurement,common
+founders/runtime/operator/budgets,persistentretentionforscoring/nomination while
+keepingneutral/specialistintermediates. Independentfinalafterchoicefreeze;separate
+newdeeper-prefixbeyondroot/unionendpoint. No newphaseauthorized/launched. M11
+validatesmeasurementonfixedpool,notfutureevolution/general-solving. Random-origin
+lineagespreserved;donotinjectknownsolverorforceeverynewborntopassfullretention.
 <!-- M11-STATUS-END -->
 
 <!-- M10-STATUS-START -->
