@@ -1,0 +1,248 @@
+AUDIT 0 4704 150
+AUDIT 16 327024 1305
+AUDIT 32 688464 2727
+AUDIT 48 1211024 9814
+AUDIT 64 1576928 11221
+AUDIT 80 2110032 18677
+AUDIT 96 2477856 20095
+AUDIT 112 3024360 27729
+AUDIT 128 3390648 29175
+{
+  "status": "PASS",
+  "chain": "822aa232fe4c66211a0bb7c26d6525a80686c402c6118312882f26719c687e15",
+  "stages": 133,
+  "independent_grades": 3669960,
+  "native_replays": 36057,
+  "births_replayed": 39936,
+  "logical_query_counts": {
+    "modular/0/control": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/0/rotating": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/1/control": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/1/rotating": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/2/control": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/2/rotating": {
+      "assessment": 225400,
+      "train": 589824
+    }
+  },
+  "training_retention_opportunities": {
+    "modular/0/control": {
+      "parent_successful_ordinary_bases": 350,
+      "parent_complete_pairs": 100,
+      "exposed/ordinary_perfect/11/short": 384,
+      "parent_success/ordinary_perfect/11/short": 244,
+      "exposed/ordinary_random/9/short": 384,
+      "parent_success/ordinary_random/9/short": 99,
+      "exposed/ordinary_perfect/11/long": 384,
+      "exposed/ordinary_random/9/medium": 384,
+      "parent_success/ordinary_perfect/11/long": 7
+    },
+    "modular/0/rotating": {
+      "parent_successful_ordinary_bases": 342,
+      "parent_complete_pairs": 100,
+      "exposed/ordinary_perfect/11/short": 192,
+      "parent_success/ordinary_perfect/11/short": 122,
+      "exposed/ordinary_random/9/short": 192,
+      "parent_success/ordinary_random/9/short": 46,
+      "exposed/ordinary_perfect/11/long": 192,
+      "exposed/ordinary_random/9/medium": 192,
+      "exposed/ordinary_perfect/15/short": 192,
+      "parent_success/ordinary_perfect/15/short": 121,
+      "exposed/ordinary_perfect/15/medium": 192,
+      "exposed/ordinary_random/15/short": 192,
+      "exposed/ordinary_random/15/long": 192,
+      "parent_success/ordinary_random/15/short": 41,
+      "parent_success/ordinary_perfect/15/medium": 8,
+      "parent_success/ordinary_perfect/11/long": 3,
+      "parent_success/ordinary_random/9/medium": 1
+    },
+    "modular/1/control": {
+      "parent_successful_ordinary_bases": 350,
+      "parent_complete_pairs": 100,
+      "exposed/ordinary_perfect/11/short": 384,
+      "parent_success/ordinary_perfect/11/short": 244,
+      "exposed/ordinary_random/9/short": 384,
+      "parent_success/ordinary_random/9/short": 99,
+      "exposed/ordinary_perfect/11/long": 384,
+      "exposed/ordinary_random/9/medium": 384,
+      "parent_success/ordinary_perfect/11/long": 7
+    },
+    "modular/1/rotating": {
+      "parent_successful_ordinary_bases": 342,
+      "parent_complete_pairs": 100,
+      "exposed/ordinary_perfect/11/short": 192,
+      "parent_success/ordinary_perfect/11/short": 122,
+      "exposed/ordinary_random/9/short": 192,
+      "parent_success/ordinary_random/9/short": 46,
+      "exposed/ordinary_perfect/11/long": 192,
+      "exposed/ordinary_random/9/medium": 192,
+      "exposed/ordinary_perfect/15/short": 192,
+      "parent_success/ordinary_perfect/15/short": 121,
+      "exposed/ordinary_perfect/15/medium": 192,
+      "exposed/ordinary_random/15/short": 192,
+      "exposed/ordinary_random/15/long": 192,
+      "parent_success/ordinary_random/15/short": 41,
+      "parent_success/ordinary_perfect/15/medium": 8,
+      "parent_success/ordinary_perfect/11/long": 3,
+      "parent_success/ordinary_random/9/medium": 1
+    },
+    "modular/2/control": {
+      "parent_successful_ordinary_bases": 350,
+      "parent_complete_pairs": 100,
+      "exposed/ordinary_perfect/11/short": 384,
+      "parent_success/ordinary_perfect/11/short": 244,
+      "exposed/ordinary_random/9/short": 384,
+      "parent_success/ordinary_random/9/short": 99,
+      "exposed/ordinary_perfect/11/long": 384,
+      "exposed/ordinary_random/9/medium": 384,
+      "parent_success/ordinary_perfect/11/long": 7
+    },
+    "modular/2/rotating": {
+      "parent_successful_ordinary_bases": 342,
+      "parent_complete_pairs": 100,
+      "exposed/ordinary_perfect/11/short": 192,
+      "parent_success/ordinary_perfect/11/short": 122,
+      "exposed/ordinary_random/9/short": 192,
+      "parent_success/ordinary_random/9/short": 46,
+      "exposed/ordinary_perfect/11/long": 192,
+      "exposed/ordinary_random/9/medium": 192,
+      "exposed/ordinary_perfect/15/short": 192,
+      "parent_success/ordinary_perfect/15/short": 121,
+      "exposed/ordinary_perfect/15/medium": 192,
+      "exposed/ordinary_random/15/short": 192,
+      "exposed/ordinary_random/15/long": 192,
+      "parent_success/ordinary_random/15/short": 41,
+      "parent_success/ordinary_perfect/15/medium": 8,
+      "parent_success/ordinary_perfect/11/long": 3,
+      "parent_success/ordinary_random/9/medium": 1
+    }
+  },
+  "mutation_births_per_root": {
+    "modular/0/control": {
+      "m10/reference/a0/standard/0434": 242,
+      "m10/reference/shared_child": 813,
+      "m10/reference/anchor/0": 408,
+      "m10/reference/gated_partial": 371,
+      "m10/reference/quota_parent": 375,
+      "m10/reference/quota_child": 300,
+      "m10/reference/m6_child": 1225,
+      "m10/reference/anchor/1": 80,
+      "m10/reference/a1/standard/0191": 50,
+      "m10/reference/gated_specialist": 1894,
+      "new_random_origin": 2
+    },
+    "modular/0/rotating": {
+      "m10/reference/a0/standard/0434": 222,
+      "m10/reference/shared_child": 618,
+      "m10/reference/anchor/0": 810,
+      "m10/reference/gated_partial": 459,
+      "m10/reference/quota_parent": 901,
+      "m10/reference/quota_child": 339,
+      "m10/reference/m6_child": 1497,
+      "m10/reference/anchor/1": 114,
+      "m10/reference/a1/standard/0191": 59,
+      "m10/reference/gated_specialist": 741
+    },
+    "modular/1/control": {
+      "m10/reference/quota_parent": 394,
+      "m10/reference/gated_partial": 1030,
+      "m10/reference/m6_child": 1276,
+      "m10/reference/quota_child": 318,
+      "m10/reference/anchor/0": 1015,
+      "m10/reference/a1/standard/0191": 50,
+      "m10/reference/anchor/1": 88,
+      "m10/reference/a0/standard/0434": 226,
+      "m10/reference/shared_child": 747,
+      "m10/reference/gated_specialist": 616
+    },
+    "modular/1/rotating": {
+      "m10/reference/quota_parent": 92,
+      "m10/reference/gated_partial": 2202,
+      "m10/reference/m6_child": 1266,
+      "m10/reference/quota_child": 230,
+      "m10/reference/anchor/0": 207,
+      "m10/reference/a1/standard/0191": 62,
+      "m10/reference/anchor/1": 92,
+      "m10/reference/a0/standard/0434": 191,
+      "m10/reference/shared_child": 802,
+      "m10/reference/gated_specialist": 611,
+      "new_random_origin": 5
+    },
+    "modular/2/control": {
+      "m10/reference/gated_partial": 297,
+      "m10/reference/shared_child": 663,
+      "m10/reference/anchor/0": 148,
+      "m10/reference/anchor/1": 77,
+      "m10/reference/quota_parent": 1789,
+      "m10/reference/m6_child": 1685,
+      "m10/reference/a0/standard/0434": 211,
+      "m10/reference/quota_child": 186,
+      "m10/reference/a1/standard/0191": 36,
+      "m10/reference/gated_specialist": 662,
+      "new_random_origin": 6
+    },
+    "modular/2/rotating": {
+      "m10/reference/gated_partial": 725,
+      "m10/reference/shared_child": 734,
+      "m10/reference/anchor/0": 436,
+      "m10/reference/anchor/1": 124,
+      "m10/reference/quota_parent": 270,
+      "m10/reference/m6_child": 1502,
+      "m10/reference/a0/standard/0434": 208,
+      "m10/reference/quota_child": 975,
+      "m10/reference/a1/standard/0191": 32,
+      "m10/reference/gated_specialist": 750,
+      "new_random_origin": 4
+    }
+  },
+  "reserved_birth_counts": {
+    "modular/0/control": {
+      "C6_generic": 2917,
+      "C6_writer_gate": 2843
+    },
+    "modular/0/rotating": {
+      "C6_generic": 2887,
+      "C6_writer_gate": 2873
+    },
+    "modular/1/control": {
+      "C6_generic": 2874,
+      "C6_writer_gate": 2886
+    },
+    "modular/1/rotating": {
+      "C6_generic": 2876,
+      "C6_writer_gate": 2884
+    },
+    "modular/2/control": {
+      "C6_writer_gate": 2887,
+      "C6_generic": 2873
+    },
+    "modular/2/rotating": {
+      "C6_writer_gate": 2923,
+      "C6_generic": 2837
+    }
+  },
+  "equal_nominal_allocations": true,
+  "charged_calls": 3669960,
+  "uncertain_attempts": 0,
+  "deterministic_corpora": true,
+  "all_selection_mutation_rng": true,
+  "frozen_artifacts_verified": true,
+  "source_hashes": true,
+  "wall_seconds": 181.44641854200745,
+  "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM."
+}

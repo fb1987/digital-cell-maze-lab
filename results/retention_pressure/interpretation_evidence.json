@@ -1,0 +1,115 @@
+{
+  "focal_births": [
+    {
+      "mutation_births": {
+        "gated_partial": 371,
+        "gated_specialist": 1894,
+        "shared_child": 813
+      },
+      "population": "modular/0/control"
+    },
+    {
+      "mutation_births": {
+        "gated_partial": 459,
+        "gated_specialist": 741,
+        "shared_child": 618
+      },
+      "population": "modular/0/rotating"
+    },
+    {
+      "mutation_births": {
+        "gated_partial": 1030,
+        "gated_specialist": 616,
+        "shared_child": 747
+      },
+      "population": "modular/1/control"
+    },
+    {
+      "mutation_births": {
+        "gated_partial": 2202,
+        "gated_specialist": 611,
+        "shared_child": 802
+      },
+      "population": "modular/1/rotating"
+    },
+    {
+      "mutation_births": {
+        "gated_partial": 297,
+        "gated_specialist": 662,
+        "shared_child": 663
+      },
+      "population": "modular/2/control"
+    },
+    {
+      "mutation_births": {
+        "gated_partial": 725,
+        "gated_specialist": 750,
+        "shared_child": 734
+      },
+      "population": "modular/2/rotating"
+    }
+  ],
+  "integrated_versus_shared_reference": {
+    "m10/modular/0/control/g127/b21": {
+      "compared_fields": [
+        "mask",
+        "status",
+        "steps"
+      ],
+      "compared_inputs": 1680,
+      "identical_saved_terminal_response_count": 1680,
+      "root": "m10/reference/shared_child"
+    },
+    "m10/modular/0/rotating/g128/b41": {
+      "compared_fields": [
+        "mask",
+        "status",
+        "steps"
+      ],
+      "compared_inputs": 1680,
+      "identical_saved_terminal_response_count": 1680,
+      "root": "m10/reference/shared_child"
+    },
+    "m10/modular/1/control/g127/b17": {
+      "compared_fields": [
+        "mask",
+        "status",
+        "steps"
+      ],
+      "compared_inputs": 1680,
+      "identical_saved_terminal_response_count": 1294,
+      "root": "m10/reference/shared_child"
+    },
+    "m10/modular/1/rotating/g128/b35": {
+      "compared_fields": [
+        "mask",
+        "status",
+        "steps"
+      ],
+      "compared_inputs": 1680,
+      "identical_saved_terminal_response_count": 1680,
+      "root": "m10/reference/shared_child"
+    },
+    "m10/modular/2/control/g128/b36": {
+      "compared_fields": [
+        "mask",
+        "status",
+        "steps"
+      ],
+      "compared_inputs": 1680,
+      "identical_saved_terminal_response_count": 1680,
+      "root": "m10/reference/shared_child"
+    },
+    "m10/modular/2/rotating/g32/b19": {
+      "compared_fields": [
+        "mask",
+        "status",
+        "steps"
+      ],
+      "compared_inputs": 1680,
+      "identical_saved_terminal_response_count": 1680,
+      "root": "m10/reference/shared_child"
+    }
+  },
+  "scope": "Saved responses and audited ancestry only; no new inference or cases"
+}

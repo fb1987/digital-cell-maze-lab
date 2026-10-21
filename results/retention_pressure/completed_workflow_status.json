@@ -1,0 +1,39 @@
+{
+  "ended_epoch": 1792605460.7476249,
+  "phase": "report_backup_seal",
+  "pid": 1738,
+  "started_epoch": 1792604687.353508,
+  "state": "audited_ready_for_report",
+  "steps": [
+    {
+      "ended_epoch": 1792605222.7234979,
+      "log": "runs/retention_pressure_m10/search_001.log",
+      "phase": "search_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792605414.8645592,
+      "log": "runs/retention_pressure_m10/search_audit_001.log",
+      "phase": "search_audit_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792605429.1059132,
+      "log": "runs/retention_pressure_m10/confirmation_001.log",
+      "phase": "confirmation_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792605430.945308,
+      "log": "runs/retention_pressure_m10/analysis_001.log",
+      "phase": "analysis_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792605460.747224,
+      "log": "runs/retention_pressure_m10/final_audit_001.log",
+      "phase": "final_audit_001",
+      "returncode": 0
+    }
+  ]
+}

@@ -35,25 +35,52 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M10-STATUS-START -->
-Current October21,2026: **M10 retention-exposure comparison PREPARED, authorized.**
-Read docs/RETENTION_PRESSURE.md and docs/RETENTION_PRESSURE_PROGRESS.md plus
-results/retention_pressure registration/launch when present. User said Proceed
-following M9's recommendation. New study, preserves all prior histories/seals.
-Six96-slot populations: three paired control/rotating exposures;42 exact clones
-of M9 g62/b51 and42 of g63/b27 plus12protected references. Same M1 runtime,
-C6mutation mixture/selection in both. Control M9 ordinary distribution, rotating
-P11/P15/R9/R15 and length strata;48queries/round each. Same fixed392nomination
-panel; actual parental-success opportunities recorded. Three related histories,
-not independent origins; no significance/general-solving claim.
-128round/1200ssoft/1800shard search;10workers,10Mcalls/1e13work,8GiBRSS,
-6GiBtotalphase storage INCLUDING backups,16GiBfree. Follow durable M10workflow
-status/logs; NEVER launch duplicate, altersealed sources, extendbounds or resume
-failedworkflow automatically. Exactchoices MUSTcommit/push before fresh1680
-confirmation (authorized), fullsearchgrade/selection/mutation/RNGaudit plusnative
-samples, ALLnativefinalaudit. No extra cases/reselection on finaldata.
-After audits: reportactual outcomes/inherited vsacquired/retentionlosses/lengths/
-ancestry/exposure/cost, guardedverifiedSQLitebackups,alllayoutexclusions,seals,
-commit/push andupdatehandoff. Old monitors paused; no new phase beyondM10.
+Current October21,2026: **M10 retention-exposure comparison COMPLETE and AUDITED.**
+Read results/retention_pressure/report.md, summary.json, saved_diagnostics.json,
+interpretation_evidence.json, bothaudits, preservation/completion.json and
+ docs/RETENTION_PRESSURE_PROGRESS.md. No process/nextphase runs. No M10heartbeat;
+oldmonitorspaused. Neveroverwriteoldseals/rawrerunsealedactions/resumehistory/
+reselectonfinalcases. Alloldjournalsandfoundersintact.
+
+Registration38fc811 BEFOREsearch; choices8802343 BEFOREfreshconfirmation. Six96
+populations,3pairedcontrol/rotatingordinaryexposure,128rounds,42cloneseachM9g62/g63
++12protected. SameM1VM/C6operator/selection/fixed392nominationpanel. Onlyordinary
+trainingexposurechanges. Relatedorigins,equalnominalbudgetsnotCPU.
+PRIMARY0–0all3pairs/noarm support. All18rolesFAILintegration/deeper/long/combined.
+All0/96nonforkprefix2+pairs;0/79queried16+ordinary. All6primarynomineesdescendfrom
+shared_child:128pairs/200corridors/7ordinarybothposes/168correctno-path/0false,
+SAMEsuccesssetsasexactroot. Five1M10birth,one4;fivealsoidenticalmask/status/steps
+all1680inputs. Nonzerodepth/distinctgenotypeisnotcapabilitygain. Retainsall96fixed-
+parentpairs+32specialistpairs BUTonly4/22parentordinary(18loss,3gain). Nomination
+panelhadonly1parentordinarysuccessamong24;retainedthere. Rotationtrainingdidnot
+repairweakpersistentretentionmeasurement.350controlvs342rotatingparentsuccesses
+per1536trainbases;samecasesacross3populations/arm. Focalgatedlineagesreceived
+959–2813mutationbirths/population,notsimplyexcludedfrombreeding.
+
+One distinct secondary genotype hash103134af609b10c444fb,control1g128/b35 AND
+rotating2g32/b7,same singleC6duplication fromgated_specialist. New4edgeR9bothpose
+casebeyond12protected;ownrootordinary+3−6→15,pairs128→48,corridors166→44,
+168correctno-path/0false. GateFAIL/not2algorithms/armadvantage. Nonew8+ordinary
+beyondunionanynominee. No general-solving/speed/multirange/causalclaim.
+
+Search3669960calls/534.83wall/2698.09candidate/2906.15CPU seconds,881539304458work,
+3.021GiBRSS;39936births=34560mutants+5376immigrants,1120genotypenoopscharged.
+Equal589824train+225400assessmentnominal/pop. Final30modelsx1680=50400calls,
+13.12wall/45.04candidate seconds.12nomineeidentities/11genotypes/18roles.
+FirstsearchauditPASS181.45s:ALLgrades,36057native samples,133transitions/39936
+births/RNG/selection/freeze. FirstfinalauditPASS29.43s:ALL50400nativeoutputs+
+5040BFS/A*/bitwave;allintact/conventionalcontrolscorrect. SharedVM/reproduction,
+independentgrader.10focusedtestspass(notfullsuite);onepre-registrationtestfilter
+failurepreserved/corrected.315registration+352priorM9hashesunchanged. No uncertain
+receipts/guardbypass/scientificrepair. Originals+verifiedSQLiteAPIbackups~2.297GiB,
+21.98GiBfree;all2680343layouts(initial2589943/search84504/final5896)exported.
+Reports/compactevidence/logssealed/pushed;rawjournalslocal scientificrecords.
+
+NextproposalONLY: bounded fresh retention-bank calibration onfrozendiagnosticpool,
+explicitreference-successful coverage andabilitytorejectknownskilltradeoffs,
+beforeanothersearch. No inspectedconfirmationreuse/knownsolverinjection. Current
+rotation isnotpersistentretentionmemory. Generalroute-selectionstillunresolved;
+random-origindiscoveryopen;do notscaleunchangedsetup. No newphaseauthorized/launched.
 <!-- M10-STATUS-END -->
 
 <!-- M9-STATUS-START -->
