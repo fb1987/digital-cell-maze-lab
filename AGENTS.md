@@ -34,6 +34,45 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M4-COMPLETE-START -->
+Current October21,2026: **M4 mechanism/retention assay COMPLETE and AUDITED.**
+Read `results/mechanism_retention/report.md`, `summary.json`, `audit.json`,
+`completion.json`, and `docs/MECHANISM_RETENTION_PROGRESS.md`. No process or next
+experiment is running. Preserve all old histories/seals; old heartbeats paused.
+Registration305c068 and fixedpanelc4608da pushed BEFOREfresh generation.
+542physicalgenomes/546aliases,1680sameinputs each; all256 ownroot/childblock
+combinations perlineage,8writerzeros each, exactroots/parents/lastbirth variants,
+random8/intact2controls. NOevolution,mating,adaptive selection,newtracesorsecondcorpus.
+A0mixed0:96pairs/200corridors/21ordinarybothposes vsroot96/200/4;17new0lostordinary.
+Five8+edge perfectroutes(8,9,10,11,16),1/85length16+,0/93random8+,0hardpairs.
+Lastportswap suppresseschannel6interference; firstedit==parent, secondedit==child,
+zero6==child onallterminalmasks/status/steps. Versusparent+48pairs/+24corridors/
++9ordinary withoutcomplete-skillloss, but17individual-inputsuccesseslost.
+Only4/256restorations retain90%ownskills/nofalse,allkeepchildblocks0/2/3/4/5/6.
+A1single2:64pairs/52corridors/3one-edgeordinary,32newhardprefix0pairs vsroot,
+4falseno-path;retains32/96rootpairs. LastSELECTduplicationactivateslatch(parent0pairs).
+Restoreonlyrootblock0:200corridors,48pairs,0hard,0false. All64restorations keeping
+hardpairs retainchildblocks0/4,52corridorsand4false. No positiveprefixhardgains.
+BothreferenceeligibilitychecksPASS;ZEROdiagnosticcombined-retentionhits.
+No general-solver/speed/sexualcompatibility claim; cross-lineage transfer untested.
+Main910560calls,126.43wallsec,1051.54candidate sec,319210689697work,2.633GiBRSS.
+FirstauditPASS105.50sec:all910560independentgrades,110419native replays; exact
+panel/corpus/tasks/summary/chain. SharedVM, allnonfactorialreplayed/factorialfixed1/16.
+Eightfocusedtestspass,notfullsuite. All280registration/334M3hashes unchanged.
+Retrospectivelengthdenominatorhelperfixedbeforepublication;initialartifactspreserved;
+no scientificsource/output/registeredsummary/auditrepair. See reporting_note.json.
+Journal+verifiedSQLitebackuppreservedlocallyin runs/mechanism_retention_m4;
+sealedcompactresponses/reportsexported. ExcludeALL1,367,931wholelayouts via
+results/mechanism_retention/whole_layout_exclusions.json.gz. Neveroverwrite seals
+or rawrerunaudit/report actions; futureaudit needsseparateoutputpacket.
+NextproposalONLY: bounded matched accessibilitypilot of genericconditionalwrites
+withstateholding; currentVMalreadyexpressesholdviaSELECT, so testevolvability,
+notassumedmissingexpressivity. Oldgenomesmustembedbehavior-preservingly; nooracle
+orhardcodedrouting. Requireupstreamnewskills+retention/zerofalsebeforelongsearch
+orsexualstudy. No newpilot launched; random-origindiscoveryremainscentral.
+<!-- M4-COMPLETE-END -->
+
+
 <!-- M3-COMPLETE-START -->
 Current October21,2026 update: **M3 is COMPLETE, independently confirmed and
 AUDITED.** Read `results/wave_continuation/report.md`, `summary.json`,
