@@ -69,3 +69,27 @@ development panel. All164 emitted reachable cases with distance>=2 match a
 lagged wave: goal-distance ball radius d-1 plus source, halt2d+1. Four distance1
 cases are explicitly outside this formula;32 disconnected inputs separate.
 This explains the limited improvement without claiming a general backtrace.
+
+## Completed and audited
+
+The search audit PASS took345.46s:133 transitions/corpora,159,744 births,all
+9,009,064 independent raster grades and91,942 fixed native samples. Choices
+commit34fc111 was pushed before final generation. Final92 models×1,424 inputs
+used131,008 calls/90.20 summed candidate seconds/14.41 wall seconds. Final audit
+PASS:all candidate grades,6,908 native replays,4,272 conventional calls,4.62s.
+Bookkeeping check confirms48 nominee aliases/90 identities/467 ancestry records.
+
+Best paired nominee modular/broad replicate1 confirms96/400 pairs against root0
+and matched resampling48; all gains are fork prefixes0/1. It has200/200 corridors,
+but only2/256 ordinary reachable inputs (one random9 one-edge base, both poses),
+0/168 correct no-path and0 false reachable no-path. Root pair/corridor retention
+N/A; immediate parent already has the same pairs. All four long-run screens
+fail0/3;0 broad-acquisition flags. No general solver, speedup or isolated causal
+modularity advantage. See full stratified results and limitations in report.md.
+
+C1 plus M1 fulfill the authorized research reboot goal. Preserve the discovered
+wave mechanics and complementary specialists. Next proposal: targeted, bounded
+accessibility/retention test for selective output before another longer campaign.
+No further experiment is launched. Safe SQLite backups of C1, M1 search and M1
+final pass integrity checks within their registered storage bounds.991,291 whole
+layouts through this phase excluded. Sealed audits/reports must not be overwritten.

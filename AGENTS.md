@@ -34,26 +34,56 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current update (October20 local / October21 UTC,2026): **C1 confirmation is
-COMPLETE and audited; M1 search is COMPLETE, with its audit RUNNING.** User authorized
-completion of the three-step reboot goal. Read `docs/GENERAL_SOLVER_REBOOT_PROGRESS.md`
-and `docs/MODULAR_PILOT.md`. C1 registration1114ea6/completiond664007 are pushed;
-its source/results are sealed. It confirms narrow acquired abilities in three
-related descendants, but no broad ordinary transfer; see
-`results/deep_confirmation/report.md`. Do not overwrite or rerun its sealed audit.
+Current update (October20 local / October21 UTC,2026): **the three-step reboot
+is COMPLETE. C1 confirmation and M1 modular pilot are complete and audited.**
+Read `results/modular_pilot/report.md`, `completion.json`, `summary.json`,
+`search_audit.json`, `final_audit.json`, and `docs/GENERAL_SOLVER_REBOOT_PROGRESS.md`.
+No scientific search is running. Do not extend M1, train/reselect on its final
+cases, overwrite sealed reports/audits, or reset preserved lineages.
 
-M1 registrationf18edcd was pushed BEFORE search.24 populations of96, flat/modular
-×familiar/broad curriculum×mutation/resampling×3 independent founder replicates,
-128 rounds completed normally;9,009,064 physical calls,1,255.38 wall seconds,
-159,744 births. No known solver in a random lineage.10 workers; durable journal
-`runs/modular_pilot_m1/campaign.sqlite`, log`session_001.log`, launch metadata
-`results/modular_pilot/launch.json`. Never start a second writer or edit sealed
-source/configuration/fixtures. Read-only status: `.venv/bin/python
-tools/inspect_modular_pilot.py`. Search stops with frozen choices before final
-case generation; audit and push choices before the registered untouched final.
-No second deep campaign or sexual study is authorized by this pilot's launch.
-Preserve all old journals/lineages and all M1 states/RNG/births. The old deep-search
-heartbeat remains paused. Older checkpoint descriptions below are historical.
+C1 registration1114ea6/completiond664007 are pushed. It confirms narrow acquired
+abilities in three related deep-campaign descendants, with no broad transfer.
+M1 registrationf18edcd was pushed BEFORE search; choices34fc111 pushed BEFORE
+final generation.24 populations of96,128 rounds, flat/modular × familiar/broad
+×mutation/resampling ×3 fresh founder replicates. No known solver in a random
+lineage.9,009,064 physical calls;405,312 equal nominal slots/condition;1,255.38
+search wall seconds;6,187.35 summed candidate seconds;2.547GiB peak tree RSS.
+All159,744 births and133 transitions/RNG/corpora replayed; all9,009,064 outputs
+independently regraded;91,942 native samples match. Search audit345.46s PASS.
+Frozen final92 physical models×1,424 inputs=131,008 calls; final audit6,908 native
+replays and4,272 baseline calls PASS. Separate intact flat/M1 and BFS/A*/bitwave
+all solve1,424. No scientific-source repair or post-registration deviation.
+
+Best paired nominee M1 modular/broad replicate1:96/400 complete pairs,48/48 each
+fork prefix0/1;0 longer-prefix and0 second-junction/cycle pairs;200/200 corridors;
+ordinary2/256 (both poses of one random9 one-edge base);0/168 correct no-path,
+0 false reachable no-path. Exact random-immigrant root0pairs/corridors, so those
+retentions are N/A; immediate parent already has same successful pairs.38 mutation
+births. Matched resampling primary48pairs.7 nominee aliases (not independent
+replicates) pass narrow acquisition;0 broad-acquisition flags and0/3 replicates
+pass the longer-run screen in every representation/curriculum combination.
+
+Useful mechanism evidence: one preserved116-instruction random-origin descendant
+has four live primitive nodes implementing an accumulating goal wave. Exact
+predicted distance-ball rasters and2d+1 ticks match168 saved reachable development
+outputs. An accumulator was copied between blocks7→6→2 with generic port
+rebinding: actual within-genome computational reuse, not sexual transfer. A later
+105-instruction/six-node lineage emits a delayed ball(radius d−1)+source; all164
+saved reachable d>=2 cases match. These are exploration/limited output-selectivity
+mechanics, not a general route backtrace. Raw gene count overstates effective
+complexity. Diagrams and full diagnosis packets are retained.
+
+Preserve local `runs/modular_pilot_m1/campaign.sqlite`, its final subjournal and
+verified SQLite backups; these are scientific records. Existing10,000-round
+history and C1 backup remain untouched. Exclude ALL991,291 whole layouts via
+`results/modular_pilot/whole_layout_exclusions.json.gz` plus future fixtures.
+Read-only status helper `tools/inspect_modular_pilot.py`; never rerun raw sealed
+audit/report actions over existing packets. Re-audits need separate output paths.
+Next proposal ONLY: bounded mutation-accessibility/retention comparison around
+frozen wave and delayed-wave lineages, unchanged/random controls, no oracle
+cleanup/known-solver injection; freeze choices before fresh confirmation. A new
+60–90min continuation or sexual study is NOT launched. The old heartbeat remains
+paused. Older checkpoint descriptions below are historical.
 
 Live update (October 20, 2026): **the 10,000-round deep campaign is COMPLETE
 and its registered full selection/mutation/RNG audit PASSED.** Search stopped
