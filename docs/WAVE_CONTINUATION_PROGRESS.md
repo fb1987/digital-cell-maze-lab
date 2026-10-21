@@ -67,3 +67,20 @@ It is ONE ordinary base shared by allthree, not three independent maze successes
 shared ancestry and validation selection preclude a confirmation or policy claim.
 It fails the registered retention/breadth gates at this checkpoint. Search rules,
 nomination, duration and final protocol remain unchanged; continue the same writer.
+
+## Second monitor — rounds300 and400 (October21,10:10UTC)
+
+Search remains active with the original single writer and frozen286 hashes/versions
+verified. Round400 assessment completed at1,843.66s elapsed:11,312,640 calls,
+11,138.71 summed candidate seconds,3,395,571,034,708 charged work,zero uncertain
+attempts; peak sampled tree RSS2.460GiB. Phase storage0.884GiB, disk free42GiB.
+No failure, guard or protocol change.
+
+Saved rounds300/400 same-panel comparisons and ordinary successful-base identities.
+At400, five conditions' ordinary nominees solve one base in both poses, but every
+such success is the SAME15-edge perfect11 base already reported at200. No nominee
+has a hard/multiple-junction pair success; no broader ordinary case coverage has
+appeared. Nominee identities and retained paired skills vary, with protected copies
+still present. These remain development observations, not independent confirmation
+or a mixed-mutation advantage. No new capability notification warranted; continue
+unchanged through the registered search/freeze/audit/final workflow.
