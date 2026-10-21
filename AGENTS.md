@@ -34,7 +34,46 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current October21,2026 update: **M2 wave-accessibility assay is COMPLETE and
+<!-- M3-LIVE-START -->
+Current October21,2026 update: **M3 wave-lineage evolution is RUNNING**. Read
+`docs/WAVE_CONTINUATION.md`, `docs/WAVE_CONTINUATION_PROGRESS.md`, and
+`results/wave_continuation/launch.json`. Registration **302cab5** was pushed
+before scientific generation. Workflow PID14955 (initial), search PID14964,
+10 local workers; durable journal `runs/wave_continuation_m3/campaign.sqlite`.
+Inspect `workflow_status.json`, `search_001.log` and the read-only command
+`.venv/bin/python tools/inspect_wave_continuation.py`. Never duplicate the writer.
+
+Six populations96: three paired single/mixed mutation histories, exact M2-informed
+founders, six protected wave/reference identities and neutral reserve. New M3 RNG;
+old M1/M2/deep histories remain sealed. Both arms share selection and cases;
+mixed has23 single +22 two-opportunity births, single45 single; both7 immigrants.
+70min soft admission target,90min cumulative hard ceiling,8192round maximum,
+100M calls,10^15work,12GiB RSS/storage and16GiB free floor. Guards stop; no extension.
+392 fixed development queries,48 training queries/round, assessments every100
+rounds and final. Success gates require new longer-route/multiple-junction skills
+beyond BOTH exact founder and protected union; earlier trivial-route gains do not
+satisfy them. Shared historical origins limit causal interpretation.
+
+The sealed workflow automatically freezes/commits/pushes exact nominees/ancestry
+BEFORE fresh1,680-query confirmation, then search audit, final, analysis and full
+final-native audit. Search audit must PASS before final generation. All scientific
+sources/config/founders stay frozen. Any failure/guard stops workflow; preserve
+traceback and receipts, diagnose before any protocol repair. Background heartbeat
+`m3-wave-evolution-follow-through` checks every15min, stays quiet on routine
+progress and completes reviewed reporting, guarded backups, exclusions, sealing
+and commit/push after audits. Old deep heartbeat remains paused. This M3 protocol
+explicitly authorizes its own confirmation; old campaign restrictions remain scoped
+to old studies. No further evolutionary extension or architecture change authorized.
+
+All11 focused/related tests pass; real-journal boundary test reuses saved fixture
+receipts with zero extra inference. Four discarded rehearsal rounds replayall1248
+births/RNG; both engineering controls correct on392 and1680 fixtures. No known
+solver enters reproduction. Initial scientific assessment and six matched rounds
+completed normally at launch; no new capability claim yet.
+<!-- M3-LIVE-END -->
+
+
+Historical October21,2026 update: **M2 wave-accessibility assay is COMPLETE and
 AUDITED.** Read `results/wave_accessibility/report.md`, `completion.json`,
 `final_summary.json`, `candidate_mechanism.json`, and `docs/WAVE_ACCESSIBILITY.md`.
 No scientific process is running. Do not extend M2 or select/train on its inspected
