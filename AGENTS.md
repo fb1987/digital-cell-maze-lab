@@ -34,6 +34,23 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M5-STATUS-START -->
+Current October21,2026: **M5 conditional-state holding accessibility assay RUNNING.**
+Read docs/HOLDING_ASSAY.md and results/holding_assay/registration.json.
+Registration2bf9cc4 and fixedpool63e367b pushed before fresh development generation.
+Runner maze_evolution.holding_assay; journals runs/holding_assay_m5/screen and final.
+Do not launch duplicate writers, change sealed source/config, resume oldstudies or
+reselect on finalcases. Exact M3 A0/A1 anchors,1024proposals per hold/zero/standard
+arm peranchor,1024sharedrandomrefs; hold/zero sharebody+gate, differ onlyfallback.
+7168proposalaliases,5519physicalmodels includingreferences;392screeninputs.
+Combinedscreen+final <=4Mcalls/3e12work/900wallsec;10workers/8GiBRSS/6GiBstorage/
+16GiBfree. Preserveallrecords and guards. Freeze13nomineealiases and selected
+oppositefallbacktwins, audit development, COMMIT/PUSH choices before fresh1680case
+confirmation. Final ALL-native audit required. No newlongsearch/recombination.
+Mainlog runs/holding_assay_m5/screen.log; no M5 heartbeat was created.
+<!-- M5-STATUS-END -->
+
+
 <!-- M4-COMPLETE-START -->
 Current October21,2026: **M4 mechanism/retention assay COMPLETE and AUDITED.**
 Read `results/mechanism_retention/report.md`, `summary.json`, `audit.json`,
