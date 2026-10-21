@@ -41,3 +41,29 @@ costs. Produce a report, guarded SQLite backups and whole-layout exclusion union
 seal evidence and commit/push. Do not claim general solving or policy causality
 from training changes or shared ancestral replicates. No new search phase follows
 automatically. Pause the heartbeat once reporting/audits/preservation are complete.
+
+## First monitor — rounds100 and200 (October21,09:55–09:57UTC)
+
+Workflow and ten-worker search remain active; all286 registered source/input
+hashes and dependency versions verify. At216 completed matched rounds the log
+records6,097,520 calls,5,636.11 summed candidate seconds,945.93s elapsed,
+2.401GiB sampled process-tree RSS,zero uncertain attempts. Phase storage about
+0.551GiB and disk free about42GiB; no guard or failure. Live reservations may
+make read-only status usage exceed the preceding completed-stage log.
+
+Saved identical-panel comparisons for rounds100/200 under
+`results/wave_continuation/development/`. These are DEVELOPMENT data, not fresh
+confirmation. Three selected descendants (single replicates0/1, mixed replicate2)
+now solve the SAME15-edge perfect11 ordinary maze in BOTH queried poses. Exact
+M3 founders and allsix protected references fail that base on the same panel.
+The candidates have20,20,23 M3 mutation births respectively. Saved-raster inspection
+only, zero new inference/cases; exact IDs/root comparisons are in
+`long_route_checkpoint_00200.json`.
+
+This is a narrow acquired development capability with a tradeoff: each goes from
+its founder's24 complete routing pairs to12, retaining100/100 corridor outputs
+and zero false no-path. All nominated hard/multiple-junction pair counts remain0.
+It is ONE ordinary base shared by allthree, not three independent maze successes;
+shared ancestry and validation selection preclude a confirmation or policy claim.
+It fails the registered retention/breadth gates at this checkpoint. Search rules,
+nomination, duration and final protocol remain unchanged; continue the same writer.
