@@ -1,0 +1,47 @@
+...........F....                                                         [100%]
+=================================== FAILURES ===================================
+___________ test_full_zero_round_freeze_audit_confirmation_pipeline ____________
+
+tmp_path = PosixPath('/Users/frankie/Documents/ChatGPT/digital cell/runs/exploration_allocation_m14/software_tests_001/test_full_zero_round_freeze_au0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x102536060>
+
+    def test_full_zero_round_freeze_audit_confirmation_pipeline(tmp_path,monkeypatch):
+        from contextlib import nullcontext
+        from maze_evolution import exploration_allocation as m,exploration_allocation_analysis as a
+        fixture=readz(OUT/'rehearsal.json.gz')[0];ss=readz(OUT/'fixture_founders.json.gz')
+        finalfixture=readz(OUT/'final_fixture.json.gz')
+        out=tmp_path/'results';out.mkdir();run=tmp_path/'run'
+        m.writez(out/'founders.json.gz',ss)
+        def export_layouts(name,hashes):
+            path=out/(name+'.part.json.gz');m.writez(path,dict(hashes=sorted(hashes)))
+            m.writej(out/(name+'.json'),dict(count=len(hashes),parts=[dict(path=str(path),count=len(hashes),sha256=m.sha(path))]))
+        export_layouts('exclusions',set())
+        monkeypatch.setattr(m,'OUT',out);monkeypatch.setattr(m,'RUN',run)
+        monkeypatch.setattr(m,'write_layouts',export_layouts)
+        monkeypatch.setattr(m,'check',lambda:dict(m.CONFIG,max_rounds=0,layout_base_manifest=str(out/'exclusions.json')))
+        monkeypatch.setattr(m,'pushed',lambda _:None)
+        monkeypatch.setattr(m.data_builder,'validation',lambda *args:deepcopy(fixture['data']))
+        monkeypatch.setattr(m,'ProcessPoolExecutor',lambda *args,**kwargs:nullcontext(None))
+        def saved_search(j,n,data,*args):
+            for (k,spec,status),receipt in zip(j.tasks(n),fixture['receipts']):
+                assert spec==m.task_specs(ss,data)[k]
+                j.reserve(n,k,receipt['calls'],receipt['work']);j.receipt(n,k,receipt,receipt['work'])
+            return None
+        monkeypatch.setattr(m.shared,'run_stage',saved_search)
+>       m.run();assert json.loads((out/'session.json').read_text())['status']=='complete'
+        ^^^^^^^
+
+tests/test_exploration_allocation.py:228: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def run():
+        config=check();pushed(OUT/'registration.json');RUN.mkdir(parents=True,exist_ok=True)
+        if not (RUN/'campaign.sqlite').exists():
+>           assert shutil.disk_usage(RUN).free>=config['disk_free_floor_bytes']+config['storage_bytes'],'Insufficient admission reserve'
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AssertionError: Insufficient admission reserve
+
+maze_evolution/exploration_allocation.py:195: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_exploration_allocation.py::test_full_zero_round_freeze_audit_confirmation_pipeline
+1 failed, 15 passed in 26.88s

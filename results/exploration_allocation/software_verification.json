@@ -1,0 +1,35 @@
+{
+  "all_controls_correct": true,
+  "baseline_selector_survivor_order_and_rng_exact": true,
+  "common_operator_all8blocks": true,
+  "control_calls": 5712,
+  "focused_tests": 16,
+  "full_fixture_pipeline_both_audits": "PASS",
+  "full_suite": false,
+  "initial_failure": "Zero-round fixture test inherited the full 600MiB scientific admission reserve and correctly hit insufficient-space guard. 15 other tests passed. Test-only zero-round fixture allocation set to 32MiB; one affected pipeline test passes. Scientific 600MiB reserve and16GiBfloor unchanged; failed log preserved.",
+  "new_scientific_calls": 0,
+  "new_scientific_cases": 0,
+  "old_M13_files_verified": 378,
+  "old_M13_local_records_verified": 21,
+  "old_records_unchanged": true,
+  "rehearsal_allocations": {
+    "explore/exploration_cycle": 108,
+    "explore/explorer_presentations": 89,
+    "explore/random_immigrant": 84,
+    "explore/shared_lexicase": 432,
+    "explore/stages_with_explorers": 9,
+    "retention/explorer_presentations": 0,
+    "retention/random_immigrant": 84,
+    "retention/shared_lexicase": 540,
+    "retention/stages_with_explorers": 0
+  },
+  "rehearsal_calls": 122976,
+  "rehearsal_candidate_seconds": 109.43851378932595,
+  "replayed_births": 1248,
+  "status": "PASS",
+  "tests": [
+    "tests_001.log",
+    "tests_002.log"
+  ],
+  "verification_wall_seconds": 0.4147951250197366
+}
