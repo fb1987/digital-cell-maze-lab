@@ -34,6 +34,20 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+Current October21,2026 update: **M2 wave-accessibility assay is RUNNING** after
+user approval. Registration9608c28 pushed BEFORE scientific generation. Read
+`docs/WAVE_ACCESSIBILITY.md`, `results/wave_accessibility/registration.json`,
+`launch.json`, and latest `docs/GENERAL_SOLVER_REBOOT_PROGRESS.md` entries.
+Two exact M1 wave anchors,4,096 one-/two-opportunity variants each plus4,096
+random references;same pool for original and retention/selectivity rankings.
+392-query development screen;freeze/push choices before1,424 fresh confirmation.
+Do not modify registered source or restart/resample. Single writer PID in launch
+metadata;durable runs/wave_accessibility_m2/campaign.sqlite,screen_001.log.
+Read-only helper tools/inspect_wave_accessibility.py. No long campaign launched.
+Complete registered audits, preserve journals/backups and seal report. Earlier
+C1/M1 completion descriptions remain historical and valid.
+
+
 Current update (October20 local / October21 UTC,2026): **the three-step reboot
 is COMPLETE. C1 confirmation and M1 modular pilot are complete and audited.**
 Read `results/modular_pilot/report.md`, `completion.json`, `summary.json`,

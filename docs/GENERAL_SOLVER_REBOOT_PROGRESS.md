@@ -93,3 +93,21 @@ accessibility/retention test for selective output before another longer campaign
 No further experiment is launched. Safe SQLite backups of C1, M1 search and M1
 final pass integrity checks within their registered storage bounds.991,291 whole
 layouts through this phase excluded. Sealed audits/reports must not be overwritten.
+
+## M2 launch — October21,2026
+
+User approved the proposed fixed-parent mutation-accessibility/retention study.
+New phase M2 registered and pushed as9608c28 before scientific generation.
+Protocol:docs/WAVE_ACCESSIBILITY.md. Two explicitly M1-informed exact wave
+anchors;4,096 one- and4,096 two-opportunity draws each,4,096 shared random
+references;unchanged M1 runtime/operator. Original versus retention/selectivity
+rankings use the same candidate pool.392 development queries, then frozen choices
+pushed before independent1,424-query confirmation. No M1 extension or long
+campaign; all old source/results/lineages remain preserved.
+
+Preflight32,144 discarded calls,10.35 candidate seconds; both intact controls
+correct on392 fixture inputs. Eight focused tests pass, not the full suite.
+Launched08:52:21UTC with10 workers;durable journal
+runs/wave_accessibility_m2/campaign.sqlite,screen_001.log. Single writer;
+read-only status tools/inspect_wave_accessibility.py. No scientific outcomes
+claimed at launch. Actual bounds and audit plan are in the registered protocol.
