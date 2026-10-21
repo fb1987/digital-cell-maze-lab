@@ -34,6 +34,34 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M7-STATUS-START -->
+Current October21,2026: **M7 breeding-allocation comparison PREPARED, not launched.**
+User authorized “Please proceed” after M6 report. Read docs/BREEDING_ALLOCATION.md,
+docs/BREEDING_ALLOCATION_PROGRESS.md and results/breeding_allocation/readiness.json.
+Three paired shared/quota populations per condition (six total),96 each, identical
+ordered genomes/initial RNG within pair; independent RNG across pairs, not origins.
+Seven protected M6-informed references; four focal roots standard0191/A0/standard0434/
+exact M6 g900/b17.89clones(23/22/22/22)+7protected. Same44survivors,7immigrants,
+45single-edit children. Shared45global parents; quota9per focal+9global. No survival
+quota, runtime/operator/curriculum change, mating or known-solver injection.
+Exactly96x48 train and115x392 assessment nominal queries perpopulation; unused
+assessment slots carry nonselectable A0 aliases, physical genotypes deduplicated.
+Primary fixed integrated-role new nonforkprefix2+ pairs, zero if retention/no-path
+gate fails; quota support requires2/3positive paired differences andpositive sum.
+Keep M6 strict individual gates,7-reference union; report specialist losses and
+secondary roles honestly. Three paired histories provide limited policy evidence.
+Tenworkers,70min soft/90min hardsearch,4096rounds/100Mcalls/1e15work;12GiBRSS/
+12GiBtotalstorage includingbackups/16GiBfree. All2,118,127 prior+fixturelayouts
+excluded.12focusedtestsPASS,1248discardedbirths/RNG replay, fullfixtureaudit/final
+pipelinePASS; all351M6completionhashesunchanged. No scientific cases generated.
+Register/push before launch. Durable tools/run_m7_workflow.py automatically freezes/
+pushes choices BEFORE registered fresh1680-inputconfirmation, fullsearchaudit then
+ALL-nativefinalaudit. On failure preserve and report; no automatic repair/resume.
+After audits: actualpaired report/allocation/ancestry/costs, guardedSQLitebackups,
+wholelayout exclusions, completionseal, commit/pushcompactevidence andpause monitor.
+No phase beyondM7 authorized. M6andolderrecords sealed, alloldheartbeatspaused.
+<!-- M7-STATUS-END -->
+
 <!-- M6-STATUS-START -->
 Current October21,2026: **M6 COMPLETE, fresh-confirmed and AUDITED.**
 Read results/upstream_continuation/report.md,summary.json,saved_diagnostics.json,
