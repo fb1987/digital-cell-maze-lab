@@ -1,0 +1,46 @@
+{
+  "status": "ready_for_verified_upload",
+  "scope": [
+    "runs/breeding_allocation_m7",
+    "runs/conditional_regulation_m9",
+    "runs/deep_campaign_v1",
+    "runs/deep_confirmation_c1",
+    "runs/holding_assay_m5",
+    "runs/mechanism_retention_m4",
+    "runs/modular_pilot_m1",
+    "runs/repair_mechanism_m8",
+    "runs/retention_bank_m11",
+    "runs/retention_memory_m12",
+    "runs/retention_pressure_m10",
+    "runs/upstream_continuation_m6",
+    "runs/wave_accessibility_m2",
+    "runs/wave_continuation_m3"
+  ],
+  "logical_bytes": 41232472035,
+  "unique_blob_bytes": 29023835891,
+  "unique_chunks": 540,
+  "eviction": "Only .sqlite files from the exact manifest, after every chunk download-verifies, a full SQLite restore test succeeds, catalog is committed/pushed, and original byte hashes are rechecked. Logs/lock/status files remain local.",
+  "retained_local": [
+    "all source/results/Git and historical dependency manifests",
+    "runs/mutation_scope_m13",
+    "runs/exploration_allocation_m14"
+  ],
+  "experiment_status": "M14 remains explicitly paused; cloud archive authorization is not authorization to launch experiments.",
+  "pricing": {
+    "region": "us-east-2",
+    "class": "S3 Standard",
+    "USD_per_GB_month": 0.023,
+    "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-east-2/index.json",
+    "unique_storage_estimate_USD_month": 0.6217027320461348,
+    "additional_costs": "PUT/GET requests, retained future versions, any chargeable data transfer. Existing account usage and free allowances not assumed."
+  },
+  "security": {
+    "private": true,
+    "versioning": true,
+    "encryption": "SSE-S3 AES256; HTTPS required",
+    "authentication": "existing personal-os short-lived login; credentials never copied into project",
+    "deletion_lifecycle": null,
+    "least_privilege_recommendation": "For routine future use, scope an archival role to this bucket/prefix with upload/read/version-read; do not grant DeleteObjectVersion. Existing full-access role used for authorized setup.",
+    "observability_recommendation": "Enable server access logging, scoped CloudTrail S3 data events and CloudWatch request metrics if ongoing access auditing is wanted; these may add cost. Current migration maintains SHA-256 manifests and version-pinned transfer receipts."
+  }
+}

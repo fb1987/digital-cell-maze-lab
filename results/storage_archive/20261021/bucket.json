@@ -1,0 +1,69 @@
+{
+  "bucket": "digital-cell-maze-lab-research-384268139212-use2",
+  "account": "384268139212",
+  "region": "us-east-2",
+  "profile": "personal-os",
+  "created": {
+    "Location": "http://digital-cell-maze-lab-research-384268139212-use2.s3.amazonaws.com/",
+    "BucketArn": "arn:aws:s3:::digital-cell-maze-lab-research-384268139212-use2"
+  },
+  "public_access": {
+    "PublicAccessBlockConfiguration": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    }
+  },
+  "encryption": {
+    "ServerSideEncryptionConfiguration": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "versioning": {
+    "Status": "Enabled"
+  },
+  "ownership": {
+    "OwnershipControls": {
+      "Rules": [
+        {
+          "ObjectOwnership": "BucketOwnerEnforced"
+        }
+      ]
+    }
+  },
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "DenyInsecureTransport",
+        "Effect": "Deny",
+        "Principal": "*",
+        "Action": "s3:*",
+        "Resource": [
+          "arn:aws:s3:::digital-cell-maze-lab-research-384268139212-use2",
+          "arn:aws:s3:::digital-cell-maze-lab-research-384268139212-use2/*"
+        ],
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "false"
+          }
+        }
+      }
+    ]
+  },
+  "storage_class": "STANDARD",
+  "expiration": null
+}
