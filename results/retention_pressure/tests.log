@@ -1,0 +1,22 @@
+.........F                                                               [100%]
+=================================== FAILURES ===================================
+__________ test_rotating_exposure_matched_queries_and_common_operator __________
+
+    def test_rotating_exposure_matched_queries_and_common_operator():
+        steps=readz(OUT/'rehearsal.json.gz')[1:]
+        assert len(steps)==4
+        for g,step in enumerate(steps):
+            d=step['data'];a=d['queries']['control'];b=d['queries']['rotating']
+            assert len(a)==len(b)==48
+            if g==0:assert a==b
+            else:assert a!=b
+            for q in (a,b):
+                m=[d['metadata'][c] for c in q]
+>               assert sum(x['family'].startswith('ordinary_') for x in m)==24
+E               assert 30 == 24
+E                +  where 30 = sum(<generator object test_rotating_exposure_matched_queries_and_common_operator.<locals>.<genexpr> at 0x114df81e0>)
+
+tests/test_retention_pressure.py:222: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_retention_pressure.py::test_rotating_exposure_matched_queries_and_common_operator
+1 failed, 9 passed in 10.97s

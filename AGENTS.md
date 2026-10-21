@@ -34,6 +34,28 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M10-STATUS-START -->
+Current October21,2026: **M10 retention-exposure comparison PREPARED, authorized.**
+Read docs/RETENTION_PRESSURE.md and docs/RETENTION_PRESSURE_PROGRESS.md plus
+results/retention_pressure registration/launch when present. User said Proceed
+following M9's recommendation. New study, preserves all prior histories/seals.
+Six96-slot populations: three paired control/rotating exposures;42 exact clones
+of M9 g62/b51 and42 of g63/b27 plus12protected references. Same M1 runtime,
+C6mutation mixture/selection in both. Control M9 ordinary distribution, rotating
+P11/P15/R9/R15 and length strata;48queries/round each. Same fixed392nomination
+panel; actual parental-success opportunities recorded. Three related histories,
+not independent origins; no significance/general-solving claim.
+128round/1200ssoft/1800shard search;10workers,10Mcalls/1e13work,8GiBRSS,
+6GiBtotalphase storage INCLUDING backups,16GiBfree. Follow durable M10workflow
+status/logs; NEVER launch duplicate, altersealed sources, extendbounds or resume
+failedworkflow automatically. Exactchoices MUSTcommit/push before fresh1680
+confirmation (authorized), fullsearchgrade/selection/mutation/RNGaudit plusnative
+samples, ALLnativefinalaudit. No extra cases/reselection on finaldata.
+After audits: reportactual outcomes/inherited vsacquired/retentionlosses/lengths/
+ancestry/exposure/cost, guardedverifiedSQLitebackups,alllayoutexclusions,seals,
+commit/push andupdatehandoff. Old monitors paused; no new phase beyondM10.
+<!-- M10-STATUS-END -->
+
 <!-- M9-STATUS-START -->
 Current October 21, 2026: **M9 conditional-regulation evolution COMPLETE and AUDITED.**
 Read results/conditional_regulation/report.md, summary.json, saved_diagnostics.json,
