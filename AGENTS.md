@@ -35,9 +35,14 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M7-STATUS-START -->
-Current October21,2026: **M7 breeding-allocation comparison PREPARED, not launched.**
+Current October21,2026: **M7 breeding-allocation comparison RUNNING.**
 User authorized “Please proceed” after M6 report. Read docs/BREEDING_ALLOCATION.md,
-docs/BREEDING_ALLOCATION_PROGRESS.md and results/breeding_allocation/readiness.json.
+docs/BREEDING_ALLOCATION_PROGRESS.md, results/breeding_allocation/registration.json
+and launch.json. Registration10f75f6 pushed BEFORE scientific generation.
+Workflow tools/run_m7_workflow.py launched14:28:29UTC, PID33929/child33939.
+Journal runs/breeding_allocation_m7/campaign.sqlite; workflow_status.json and
+phase logs there. Readonly tools/inspect_breeding_allocation.py. NEVER duplicate
+workflow/writer or change sealed files. Initial assessment and training active.
 Three paired shared/quota populations per condition (six total),96 each, identical
 ordered genomes/initial RNG within pair; independent RNG across pairs, not origins.
 Seven protected M6-informed references; four focal roots standard0191/A0/standard0434/
@@ -53,8 +58,9 @@ secondary roles honestly. Three paired histories provide limited policy evidence
 Tenworkers,70min soft/90min hardsearch,4096rounds/100Mcalls/1e15work;12GiBRSS/
 12GiBtotalstorage includingbackups/16GiBfree. All2,118,127 prior+fixturelayouts
 excluded.12focusedtestsPASS,1248discardedbirths/RNG replay, fullfixtureaudit/final
-pipelinePASS; all351M6completionhashesunchanged. No scientific cases generated.
-Register/push before launch. Durable tools/run_m7_workflow.py automatically freezes/
+pipelinePASS; all351M6completionhashesunchanged.301registeredhashes verified.
+Heartbeat m7-breeding-allocation-follow-through ACTIVE every15min,quiet onroutine.
+Durable tools/run_m7_workflow.py automatically freezes/
 pushes choices BEFORE registered fresh1680-inputconfirmation, fullsearchaudit then
 ALL-nativefinalaudit. On failure preserve and report; no automatic repair/resume.
 After audits: actualpaired report/allocation/ancestry/costs, guardedSQLitebackups,
