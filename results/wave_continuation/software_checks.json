@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "command": ".venv/bin/python -m pytest tests/test_wave_continuation.py tests/test_modular_prototype.py -q",
+  "tests": 11,
+  "wall_seconds": 8.27,
+  "fresh_full_suite": false,
+  "runner_boundary": "Real SQLite journal, saved fixture receipts, initial assessment, zero-round stop, ancestry/choice freeze, completed-run no-restart; zero additional inference in this test",
+  "fix_before_registration": "Added missing deepcopy import in new runner before scientific launch",
+  "fixture_rehearsal": "Four discarded six-population rounds; all 1,248 births and RNG transitions replayed",
+  "controls": "392-query validation and 1,680-query final fixtures all correct for both controls",
+  "prototype_tests": "Related native/interpreter checks run separately from timed profile; repeated during development, not scientific evidence",
+  "scientific_calls": 0
+}
