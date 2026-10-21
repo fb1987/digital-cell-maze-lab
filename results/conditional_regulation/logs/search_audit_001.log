@@ -1,0 +1,143 @@
+AUDIT 0 3920 119
+AUDIT 16 312368 1368
+AUDIT 32 665264 2719
+AUDIT 48 1177304 9538
+AUDIT 64 1534952 10847
+AUDIT 80 2060904 18101
+AUDIT 96 2417256 19459
+AUDIT 112 2939064 26643
+AUDIT 128 3295704 28067
+{
+  "status": "PASS",
+  "chain": "68f0b821ea1f055b527335dcd3a1e432c51971799b2e9925b5d2c16a93fca7c7",
+  "stages": 133,
+  "independent_grades": 3549712,
+  "native_replays": 34196,
+  "births_replayed": 39936,
+  "logical_query_counts": {
+    "modular/0/global": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/0/regulation": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/1/global": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/1/regulation": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/2/global": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/2/regulation": {
+      "assessment": 225400,
+      "train": 589824
+    }
+  },
+  "mutation_births_per_root": {
+    "modular/0/global": {
+      "m9/reference/quota_parent": 1655,
+      "m9/reference/a0/standard/0434": 296,
+      "m9/reference/m6_child": 2016,
+      "m9/reference/quota_child": 897,
+      "m9/reference/shared_child": 508,
+      "m9/reference/anchor/0": 117,
+      "m9/reference/a1/standard/0191": 86,
+      "m9/reference/anchor/1": 176,
+      "new_random_origin": 9
+    },
+    "modular/0/regulation": {
+      "m9/reference/quota_parent": 1975,
+      "m9/reference/m6_child": 1275,
+      "m9/reference/a0/standard/0434": 222,
+      "m9/reference/quota_child": 1200,
+      "m9/reference/shared_child": 775,
+      "m9/reference/anchor/0": 118,
+      "m9/reference/anchor/1": 108,
+      "m9/reference/a1/standard/0191": 53,
+      "new_random_origin": 34
+    },
+    "modular/1/global": {
+      "m9/reference/quota_parent": 1580,
+      "m9/reference/m6_child": 1974,
+      "m9/reference/quota_child": 990,
+      "m9/reference/anchor/0": 147,
+      "m9/reference/shared_child": 549,
+      "m9/reference/a0/standard/0434": 280,
+      "new_random_origin": 9,
+      "m9/reference/anchor/1": 142,
+      "m9/reference/a1/standard/0191": 89
+    },
+    "modular/1/regulation": {
+      "m9/reference/quota_parent": 2146,
+      "m9/reference/shared_child": 871,
+      "m9/reference/quota_child": 965,
+      "m9/reference/m6_child": 1324,
+      "m9/reference/a0/standard/0434": 192,
+      "m9/reference/anchor/0": 91,
+      "m9/reference/anchor/1": 99,
+      "m9/reference/a1/standard/0191": 70,
+      "new_random_origin": 2
+    },
+    "modular/2/global": {
+      "m9/reference/quota_child": 868,
+      "m9/reference/m6_child": 2050,
+      "m9/reference/quota_parent": 1596,
+      "m9/reference/shared_child": 590,
+      "m9/reference/a0/standard/0434": 264,
+      "m9/reference/anchor/0": 200,
+      "m9/reference/anchor/1": 117,
+      "m9/reference/a1/standard/0191": 74,
+      "new_random_origin": 1
+    },
+    "modular/2/regulation": {
+      "m9/reference/quota_child": 991,
+      "m9/reference/m6_child": 1340,
+      "m9/reference/quota_parent": 2078,
+      "m9/reference/a0/standard/0434": 280,
+      "m9/reference/shared_child": 804,
+      "m9/reference/anchor/0": 124,
+      "m9/reference/a1/standard/0191": 38,
+      "m9/reference/anchor/1": 104,
+      "new_random_origin": 1
+    }
+  },
+  "reserved_birth_counts": {
+    "modular/0/global": {
+      "global": 5760
+    },
+    "modular/0/regulation": {
+      "C6_generic": 2869,
+      "C6_writer_gate": 2891
+    },
+    "modular/1/global": {
+      "global": 5760
+    },
+    "modular/1/regulation": {
+      "C6_generic": 2907,
+      "C6_writer_gate": 2853
+    },
+    "modular/2/global": {
+      "global": 5760
+    },
+    "modular/2/regulation": {
+      "C6_generic": 2834,
+      "C6_writer_gate": 2926
+    }
+  },
+  "equal_nominal_allocations": true,
+  "charged_calls": 3549712,
+  "uncertain_attempts": 0,
+  "deterministic_corpora": true,
+  "all_selection_mutation_rng": true,
+  "frozen_artifacts_verified": true,
+  "source_hashes": true,
+  "wall_seconds": 169.00835458398797,
+  "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM."
+}

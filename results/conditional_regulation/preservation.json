@@ -1,0 +1,43 @@
+{
+  "disk_free_bytes": 26418233344,
+  "final_new_layouts": 5808,
+  "initial_layouts": 2522271,
+  "search_new_layouts": 52208,
+  "stages": {
+    "final": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 409804800,
+        "integrity_check": "ok",
+        "path": "runs/conditional_regulation_m9/final/backups/completed.sqlite",
+        "sha256": "a7e23b20e5349021d0f6790a655b1f52c999b3d3c434ea60d5ed713b7379d3ef"
+      },
+      "chain": "2182cae23899a26efa00c92412dcd0c4c5cd15ec6682ee785e03ff206a5e028c",
+      "journal": {
+        "bytes": 409804800,
+        "path": "runs/conditional_regulation_m9/final/campaign.sqlite",
+        "sha256": "dd9a17a61a4473cdb815dff747ed33790c7af7c24cd8fc2dc27f805e780d8483"
+      },
+      "layouts": 2580287
+    },
+    "search": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 617013248,
+        "integrity_check": "ok",
+        "path": "runs/conditional_regulation_m9/backups/completed.sqlite",
+        "sha256": "8df71cef48b048f7733ae2cdf69930346307cfaa53b147d34494c7739aae37c2"
+      },
+      "chain": "68f0b821ea1f055b527335dcd3a1e432c51971799b2e9925b5d2c16a93fca7c7",
+      "journal": {
+        "bytes": 617013248,
+        "path": "runs/conditional_regulation_m9/campaign.sqlite",
+        "sha256": "855dd8a1b4d59c07f3db8d9c7db65e37e027c29d5f34dca85971a1d966449f71"
+      },
+      "layouts": 2574479
+    }
+  },
+  "status": "verified",
+  "storage_bytes": 2356928744,
+  "whole_layouts": 2580287
+}

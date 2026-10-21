@@ -1,0 +1,22 @@
+{
+  "label": "Post-audit static analysis of fixed nominated genome; no new inference, cases, tracing or ablations",
+  "identity": "m9/modular/0/regulation/g62/b51",
+  "exact_root": "m9/reference/quota_child",
+  "immediate_parent": "m9/modular/0/regulation/g61/b9",
+  "events": [
+    "final C6 gate ALWAYS to scratch18",
+    "C6 input ports1 and7 exchanged"
+  ],
+  "first_gate": "C1 > 4 and C5 > 0",
+  "final_gate": "C1 > 0 and C5 > 4",
+  "writer": "direction2 neighbor C3 when gate true, otherwise zero",
+  "derivation": "C6 scratch13=4; scratch15 is gated MUX using input ports7/1 and scratch12 (Boolean match); scratch18=max(0,scratch15-4). With final ports and completed updates, scratch18>0 iff C1>0 and C5>4. No geometric/oracle interpretation assigned to channel values.",
+  "instructions": 106,
+  "static_potential_cone_before": 14,
+  "static_potential_cone_after": 18,
+  "limits": [
+    "Other dispatched nodes still affect compute budgets.",
+    "Static expression and fresh terminal comparisons do not establish universal routing or internal temporal trajectories.",
+    "Nine-edge novelty already present in immediate one-edit parent."
+  ]
+}

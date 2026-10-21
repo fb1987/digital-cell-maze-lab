@@ -35,29 +35,67 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M9-STATUS-START -->
-Current October21,2026: **M9 conditional-regulation experiment PREPARED.**
-User authorized “Proceed as you outlined” after M8. Read docs/CONDITIONAL_REGULATION.md,
-docs/CONDITIONAL_REGULATION_PROGRESS.md and results/conditional_regulation/readiness.json.
-Six96-slot populations,three paired global/regulation histories; exactM7quota0
-parent/child43cloneseach+10protectedreferences(includingM7shared0). ExistingM1VM.
-Globalunchangedmutate;regulationhalfC6finalgate,halfC6forcedgenericmutate. No known
-solver/oracleinference/newVM/mating. Common integration-oriented selection,neutral
-alternatives;7immigrants+45mutationbirths/round,44survivors,16archive. Equalnominal
-96x48train/115x392assessment perpopulation;physicaldedup andunequalCPU explicit.
-128roundmax,assessment32,1200soft/1800hardsearchsec;10workers,10Mcalls/1e13work,
-8GiBRSS/6GiBtotalstorageinclbackups/16GiBfree. Separate900sfinal/1800saudits.
-PrimaryfixedINTEGRATEDrole requiresALLfixedparentpair/corridor/ordinary/no-path
-skills plusALLspecialist-onlypairs,0false,nonvacuousdenominators,positiveM9mutation.
-Descriptiveoperatorsupportpositive2/3pairsANDpositivesum;no secondaryrolesubstitution.
-Deeperprefix2+criterion separate;integrationprefix0/1notgeneral-solvingprogress.
-Ninefocusedtestspass(notfullsuite),1248discardedbirths/RNGreplayed,allfixturecontrols
-correct;326priorM8hashesunchanged. ExcludeALL2,522,271layouts incl8304newfixtures.
-Register/push beforelaunch;workflow tools/run_m9_workflow.py freezes/pusheschoices
-BEFOREfreshconfirmation,fullsearchgrade/selection/mutation/RNGaudit+nativesamples,
-thenregistered1680confirmation/analysis/ALL-nativefinalaudit. No automaticfailed
-resume,duplicatewriter,guardbypass,extension,sealedfileeditsorfinalreselection.
-AfterbothPASS:actualreport/ancestry/births/costs/limits,verifiedguardedSQLitebackups,
-ALLlayoutexclusions,seals,handoff,commit/pushcompactevidence. No phasebeyondM9authorized.
+Current October 21, 2026: **M9 conditional-regulation evolution COMPLETE and AUDITED.**
+Read results/conditional_regulation/report.md, summary.json, saved_diagnostics.json,
+mechanism_note.json, both audits, preservation.json, completion.json, and
+ docs/CONDITIONAL_REGULATION_PROGRESS.md. No scientific process or next phase running.
+No M9 heartbeat was created; all earlier monitors remain paused. Preserve all
+sources, outcomes, failed records, seals and journals. Future audits need new packets.
+Never raw-rerun sealed actions, resume populations or reselect on inspected final cases.
+
+Registration7d1199a pushed BEFORE search; choices/ancestry/final states d7e2862 pushed
+BEFORE fresh confirmation. Three paired global/regulation populations each, six x96,
+128 matched rounds, 43 clones each exact M7 quota parent/child +10 protected references.
+Existing M1 VM. Regulation half final-C6-gate mutation, half forced-C6 generic mutation;
+global unchanged M1 mutate. Same new integration ranking/neutrality/curriculum in both.
+No oracle inference, known-solver injection, new VM, mating or intervention founders.
+
+PRIMARY 0 versus0 in all3 pairs; no operator support. All18 roles FAIL full integration,
+upstream/long/combined gates. All0/96 target nonforkprefix2+ pairs. Five integrated
+nominees remain exact initial parents. Regulation0 g62/b51 is a useful PARTIAL result:
+112pairs/200corridors/17ordinarybothposes/168correctno-path/0false vs fixed parent
+96/200/17/168/0. Retains all parent pairs/corridors/no-path and adds16/32 specialist
+pairs (prefix0 cycle/second-junction), BUT loses3 parent ordinary and gains3 others:
+14/17 retention. Development had retained all4 parental ordinary successes, which
+did not transfer. New9-edge perfect11 success beyond all10 protected references.
+Own root is QUOTA CHILD124/154/11/168/0, not fixed parent; root comparison gains46
+corridors/6ordinary/4forkpairs, loses16prefix1specialistpairs. Two M9 mutations:
+g61 gate ALWAYS→scratch18, g62 C6 ports1↔7. Static output condition becomes
+C6next=neighbor_direction2(C3) IF C1>0 AND C5>4, else0; first gate C1>4 AND C5>0.
+Existing threshold/arithmetic, no manually supplied condition.106instructions unchanged;
+conservative potential output/halt cone14→18. No new traces or universal mechanism claim.
+
+G63/b27 third gate edit restores all32 specialist pairs but166corridors/14ordinary;
+vs g62 loses34corridors/3ordinary. Reg2 ordinary g127/b40 has5 novel ordinary bases
+(lengths6,8,8,4,4), but88corridors/15ordinary,10/17 fixed-parent ordinary retained,
+0/32 target specialist pairs. First edit rotates C6 neighbor direction; second gates
+on constant1, so not evidence of conditional activation.19-edge perfect success in
+g62/g63 is INHERITED from exact quota-child founder on SAME panel; no new16+ beyond
+protected union. Queried16+ denominator86. Raw cross-panel totals are not acquisition.
+No general-solver/speed/multirange/policy-causality claim.14 nominee identities/7genotypes
+across18 roles, related random-origin histories. Preserve all frozen choices, no promotion.
+
+Search3,549,712 physical calls,497.53wall/2391.28candidate/2580.97workerCPU seconds,
+784100265844work,2.953GiB RSS;39,936births=34,560mutants+5,376immigrants.
+Equal589824train+225400assessment nominal queries perpopulation. Focused parent lineages
+reach42 M9 mutation births; depth is not capability.1033 genotypic no-op births counted.
+Final18physicalmodels x1680=30,240calls,10.77wall/26.30candidate seconds. Both intact
+controls and BFS/A*/bitwave solve all1680. Search first auditPASS169.01s: ALL3,549,712
+independent grades,34,196native samples,all133transitions/39,936births/RNG/frozen artifacts.
+Final first auditPASS18.97s: ALL30,240native outputs +5040 conventional evaluations.
+Shared VM/reproduction, independent grader, not second interpreter.9focused tests pass,
+not fullsuite;310registered+326priorM8 hashes unchanged. No scientific repairs,
+uncertain attempts or guard bypasses. Full original search/final journals and verified
+SQLite-API backups preserved under runs/conditional_regulation_m9;~2.195GiB total,
+24.60GiB free at preservation. Exclude ALL2,580,287 layouts via whole_layout_exclusions.json.gz
+(initial2,522,271 inclfixtures8304; search52,208; final5808). Compact evidence sealed/pushed.
+
+Next proposal ONLY: bounded comparison of broader rotating retention pressure vs
+unchanged-pressure control from exact preserved gated lineages, same VM, new cases,
+separate deeper-prefix endpoint and untouched final confirmation. Test whether richer
+retention sampling prevents substitutions missed by the small development panel.
+Do not extend M9 unchanged or claim the bottleneck solved. No new phase authorized
+or launched. Random-origin regulation research remains central.
 <!-- M9-STATUS-END -->
 
 <!-- M8-STATUS-START -->
