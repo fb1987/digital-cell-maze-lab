@@ -75,3 +75,18 @@ Live status can include conservative reservations for in-flight tasks, so its
 charged work can temporarily exceed the completed-stage log. All296registration
 files and316M5completion files verify unchanged. No guard/failure or protocol
 change; no actionable capability update. Search continues under existing bounds.
+
+## Monitor checkpoint — 12:57 UTC
+
+Original workflow/search writer remains active,819rounds complete at sampling.
+Saved assessments500/600/700/800 compare identical development cases with frozen
+and protected references. All nine nominationroles remain unchanged A0clones:
+24pairs/100corridors/1ordinarybothposes/44correctno-path/0false and0targetupstream.
+No new nominated capability or actionable change; these are development data.
+Search continues without intervention, reselection or changed pressure/bounds.
+
+Completed-stage snapshot:11,149,640calls;9700.37candidate seconds;10389.10workerCPU
+seconds;3,040,040,635,491work;0uncertain attempts;about31minutes elapsed.
+Sampled peakRSS remains2.445GiB,phase storageabout0.99GiB,36.92GiBdiskfree.
+All296registered files and316priorM5completion hashes remain unchanged. No guard
+or failure. Live reservations are excluded from these completed-stage usage figures.
