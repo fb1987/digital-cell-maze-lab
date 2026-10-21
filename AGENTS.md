@@ -34,6 +34,32 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M9-STATUS-START -->
+Current October21,2026: **M9 conditional-regulation experiment PREPARED.**
+User authorized “Proceed as you outlined” after M8. Read docs/CONDITIONAL_REGULATION.md,
+docs/CONDITIONAL_REGULATION_PROGRESS.md and results/conditional_regulation/readiness.json.
+Six96-slot populations,three paired global/regulation histories; exactM7quota0
+parent/child43cloneseach+10protectedreferences(includingM7shared0). ExistingM1VM.
+Globalunchangedmutate;regulationhalfC6finalgate,halfC6forcedgenericmutate. No known
+solver/oracleinference/newVM/mating. Common integration-oriented selection,neutral
+alternatives;7immigrants+45mutationbirths/round,44survivors,16archive. Equalnominal
+96x48train/115x392assessment perpopulation;physicaldedup andunequalCPU explicit.
+128roundmax,assessment32,1200soft/1800hardsearchsec;10workers,10Mcalls/1e13work,
+8GiBRSS/6GiBtotalstorageinclbackups/16GiBfree. Separate900sfinal/1800saudits.
+PrimaryfixedINTEGRATEDrole requiresALLfixedparentpair/corridor/ordinary/no-path
+skills plusALLspecialist-onlypairs,0false,nonvacuousdenominators,positiveM9mutation.
+Descriptiveoperatorsupportpositive2/3pairsANDpositivesum;no secondaryrolesubstitution.
+Deeperprefix2+criterion separate;integrationprefix0/1notgeneral-solvingprogress.
+Ninefocusedtestspass(notfullsuite),1248discardedbirths/RNGreplayed,allfixturecontrols
+correct;326priorM8hashesunchanged. ExcludeALL2,522,271layouts incl8304newfixtures.
+Register/push beforelaunch;workflow tools/run_m9_workflow.py freezes/pusheschoices
+BEFOREfreshconfirmation,fullsearchgrade/selection/mutation/RNGaudit+nativesamples,
+thenregistered1680confirmation/analysis/ALL-nativefinalaudit. No automaticfailed
+resume,duplicatewriter,guardbypass,extension,sealedfileeditsorfinalreselection.
+AfterbothPASS:actualreport/ancestry/births/costs/limits,verifiedguardedSQLitebackups,
+ALLlayoutexclusions,seals,handoff,commit/pushcompactevidence. No phasebeyondM9authorized.
+<!-- M9-STATUS-END -->
+
 <!-- M8-STATUS-START -->
 Current October21,2026: **M8 repair-mechanism assay COMPLETE and AUDITED.**
 Read results/repair_mechanism/report.md,summary.json,saved_diagnostics.json,
