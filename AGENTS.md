@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M6-STATUS-START -->
-Current October21,2026: **M6 upstream continuation is RUNNING.** User authorized
+Current October21,2026: **M6 SEARCH COMPLETE; registered audit is RUNNING.** User authorized
 "Excellent. Proceed" after M5. Read docs/UPSTREAM_CONTINUATION.md,
 docs/UPSTREAM_CONTINUATION_PROGRESS.md, results/upstream_continuation/registration.json
 and launch.json. Registration **929150f** pushed BEFORE scientific generation.
@@ -75,6 +75,17 @@ compute report, all-layout exclusions, guardedverifiedSQLitebackups, completion
 seals, commit/pushcompactevidence, updatehandoff andpausefollow-up. No general-
 solver/speed/policy-causalityclaim without evidence. No newphase beyondM6 authorized.
 Historical status blocks below describe completed studies, not the current process.
+Search stopped normally after1796rounds at70.46min,24,911,840calls,
+22157.65candidate seconds,23738.51workerCPU seconds,6,742,246,347,001work,
+0uncertain attempts; sampledpeakRSS2.445GiB. Exactchoices/ancestry/states pushed
+**e50da65** BEFOREconfirmation; choices_freeze.json records publication.
+Searchaudit running initialPID32584 under existingworkflow81858; NEVER restart.
+Finaldevelopmentnominees: population0 g900/b17(115M6birthdepth,A0root) has40pairs,
+60corridors,0ordinarybothposes,44correctno-path,0false; gains16prefix0/1nonforkpairs
+vsroot butloses40corridors/1ordinary. Otherroles unchangedA0. Allnominees0target
+nonforkprefix2+,retentiongatefails fornewdescendant. Developmentonly; confirmation
+hasnotyetstarted at13:42UTC. Workflow will advance onlyafterPASSaudit. Do not
+publish finaloutcomes or overwrite scientificpackets while audit/confirmationpending.
 <!-- M6-STATUS-END -->
 
 

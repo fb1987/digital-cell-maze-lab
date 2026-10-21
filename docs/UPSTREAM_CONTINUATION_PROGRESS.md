@@ -128,3 +128,27 @@ Completed-stage snapshot:21,685,104calls,19248.50candidate seconds,
 20622.47workerCPU seconds,5,885,508,595,645work;0uncertain attempts;61minelapsed.
 SampledpeakRSS2.445GiB,phase storageabout1.68GiB,36.23GiBdiskfree. All296registration
 and316M5completion hashes verify unchanged. No guard/failure or required action.
+
+## Search completion and published choice freeze — 13:42 UTC monitor
+
+Search ended normally at1796matched rounds after the70-minute target, with final
+assessment complete and all records frozen. Session wall4227.36sec (70.46min);
+24,911,840physical calls;22157.65summedcandidate seconds;23738.51workerCPU seconds;
+6,742,246,347,001work;0uncertain attempts;2.445GiBsampledpeakRSS.1796rounds imply
+280,176births (242,460single-edit children and37,716randomimmigrants), pending full
+audit verification. No bound was extended and no resource guard was bypassed.
+
+Frozen choices/ancestry/finalstates published as **e50da65** before independent
+confirmation; choices_freeze.json preserves the publication receipt. Nine role
+aliases select four identities (three unchanged A0clones plusg900/b17); exact
+roots/parent/protected/frozen references give11panelidentities before controls.
+Assessment1600/1700/1796 packets saved. Same development outcomes as1500; the
+newdescendant's gainedprefix0/1cases and corridor/ordinarylosses remain. Zero
+newtargetnonforkprefix2+ pairs. These are developmentdata, not final conclusions.
+
+Workflow81858 is executing search_audit_001 (child32584), observed progressing
+throughstage560:7,410,568independent regrades and42,888native samples. Audit is
+NOTyetcomplete/PASS. No second audit or writer started. Freshconfirmation remains
+automatically contingent onPASS. All296registered and316priorM5completion hashes
+verify unchanged. Phase storageabout1.96GiB,35.87GiBfree; no failure or guard.
+Wait for the durable workflow; no final report, backup or completionseal yet.
