@@ -1,0 +1,27 @@
+........F                                                                [100%]
+=================================== FAILURES ===================================
+__________ test_frozen_bank_exact_m11_provenance_and_parent_successes __________
+
+    def test_frozen_bank_exact_m11_provenance_and_parent_successes():
+        from maze_evolution import retention_memory as m
+        from maze_evolution.retention_bank import load_layouts
+        source=m.readz(m.OUT/'source_panels.json.gz')
+        old=m.ROOT/'results/retention_bank'
+        assert source['source_freeze_sha256']==m.sha(old/'calibration_freeze.json.gz')
+        fixture=m.readz(m.OUT/'rehearsal.json.gz')[0]
+        caps={}
+        from maze_evolution.retention_memory_metrics import capabilities_plus
+        for result in fixture['receipts']:
+            for e in result['entries']:
+                for k,i in e['aliases']:
+                    if i==PARENT:caps[k]=capabilities_plus(e['rows'],fixture['data']['metadata'])
+>       assert [len(caps[k]['ordinary_bases']) for k in range(6)]==[3,24,1,24,7,24]
+E       assert [4, 24, 4, 24, 7, 24] == [3, 24, 1, 24, 7, 24]
+E         
+E         At index 0 diff: 4 != 3
+E         Use -v to get more diff
+
+tests/test_retention_memory.py:170: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_retention_memory.py::test_frozen_bank_exact_m11_provenance_and_parent_successes
+1 failed, 8 passed in 5.32s

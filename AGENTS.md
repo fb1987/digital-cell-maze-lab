@@ -34,6 +34,27 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M12-STATUS-START -->
+Current October21,2026: **M12 persistent-retention evolution PREPARING.** User
+explicitly authorized “Proceed” afterM11. Read docs/RETENTION_MEMORY.md and
+RETENTION_MEMORY_PROGRESS.md. No scientific generation yet; preserve ALL old
+sources/seals/journals. Six96populations,three paired current/bank histories,
+exactM10founders+12protected,unchangedM1VM/C6operator/selection. Only fixedordinary
+measurement differs. Reuse exactthreeM11DEVELOPMENTpanels,never confirmation.
+NamespacedIDs prevent cross-panel collision;cells/endpoints/layoutshashes unchanged.
+Common48fresh rotating+48assignedpersistent ordinary=96trainqueries/organism;
+115x392nominalassessment/pop;no hard full-retention gate on everynewborn.
+128roundmax/20minsoft/30minhard,10workers,10Mcalls/1e13work,8GiBRSS,
+6GiBtotalstorageinclbackups/16GiBdiskfloor. Final900s/1Mcalls;audits1800seach.
+Freeze/pushchoices BEFOREfresh1680confirmation;fullsearchgrades+selection/mutation/
+RNG/corpora audits withfixednative samples;ALL-nativefinalaudit. Confirmation
+explicitlyauthorized. No secondwriter,failedautomaticresume,sealedit/guardbypass/
+selectiononfinal ornextphase. Primaryintegration+separatedeeper/longgatesfixed.
+Firstdiscardedpreflight foundcross-panelcase-IDcollision;newnamespacefixbefore
+registration,failedrecords/alllayouts preserved. M11/oldscientificdataunchanged.
+<!-- M12-STATUS-END -->
+
+
 <!-- M11-STATUS-START -->
 Current October21,2026: **M11 retention-bank calibration COMPLETE and AUDITED.**
 Read results/retention_bank/report.md, summary.json, diagnostics.json, bothaudits,
