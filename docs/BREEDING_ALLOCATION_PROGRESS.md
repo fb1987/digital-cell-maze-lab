@@ -65,3 +65,19 @@ paired or ordinary skills. Other protected references already solve100 corridors
 this is narrow within-lineage recovery, not novel ability beyond protected union
 or evidence for the policy primary. Saved root comparison in monitor_00200.json.
 No independent confirmation yet; no source/selection/budget changes or user action.
+
+## Second monitor: October21,14:59UTC
+
+Search continues normally:429 matched rounds completed at initial snapshot,
+11,607,496 committed physical calls,10,461.62 candidate seconds,2.90GiB peak RSS;
+~1.11GiB M7 storage and32.05GiB disk free. No uncertain attempts, guard or error.
+All301 registered and351 prior M6 hashes remain unchanged. Newly completed
+round300/400 assessments are preserved in development/.
+
+No new targeted capability change: all nominee roles on both assessments still
+have zero nonforkprefix2+ pairs and zero ordinary both-pose successes on this
+same development panel. Quota0's earlier g100/b34 corridor recovery persists
+(78/100 vs60/100 root/frozen), with40pairs/44correctno-path/0false. At round400
+all other roles select the initial frozen M6-child clones. This is development
+monitoring, not confirmation or evidence that quotas improve the primary endpoint.
+Workflow, registered bounds and selection remain unchanged; no user action needed.
