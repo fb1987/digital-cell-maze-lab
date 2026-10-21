@@ -1,0 +1,219 @@
+{
+  "equations": [
+    "C1(next)=positive-neighbor minimum of C6",
+    "C6(next)=C1 OR C6",
+    "C7(next)=C1 OR C7",
+    "C3(next)=source flag (COPY plus MUX)",
+    "C2(next)=C7 XOR C3"
+  ],
+  "identity": "m2/a0/d2/02786",
+  "interpretation": "A delayed exploration ball with explicit source inclusion, not a parent-chain backtrace. This independently reaches the narrow prefix1 repertoire already present in the other M1 lineage.",
+  "label": "Post-hoc source-derived prediction checked on already saved rasters; zero new inference",
+  "limitations": [
+    "No second-edit-only counterfactual was run; two sampled mutations do not prove that two are necessary.",
+    "Source-derived prediction and saved native-output agreement do not constitute a new general-solver claim."
+  ],
+  "mutations": [
+    "swap output-block input ports3 and7",
+    "copy existing XOR node1 to the final output position"
+  ],
+  "panels": {
+    "confirmation": {
+      "checked_emitted_reachable": 1256,
+      "matched": 1256,
+      "mismatches": [],
+      "ordinary_successes": [
+        {
+          "base": "confirmation/ordinary/perfect/15/4000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/4000/perfect/15x15/d4-0",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 0,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/4000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/4000/perfect/15x15/d4-4",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 4,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/8000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/8000/perfect/15x15/d4-0",
+          "edges": 3,
+          "family": "ordinary_perfect",
+          "pose": 0,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/8000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/8000/perfect/15x15/d4-4",
+          "edges": 3,
+          "family": "ordinary_perfect",
+          "pose": 4,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/60000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/60000/perfect/15x15/d4-0",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 0,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/60000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/60000/perfect/15x15/d4-4",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 4,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/72000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/72000/perfect/15x15/d4-0",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 0,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/72000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/72000/perfect/15x15/d4-4",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 4,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/104000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/104000/perfect/15x15/d4-0",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 0,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/perfect/15/104000/perfect/15x15",
+          "case": "confirmation/ordinary/perfect/15/104000/perfect/15x15/d4-4",
+          "edges": 1,
+          "family": "ordinary_perfect",
+          "pose": 4,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/random/9/r0/40000/random/9x9",
+          "case": "confirmation/ordinary/random/9/r0/40000/random/9x9/d4-0",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 0,
+          "size": 9
+        },
+        {
+          "base": "confirmation/ordinary/random/9/r0/40000/random/9x9",
+          "case": "confirmation/ordinary/random/9/r0/40000/random/9x9/d4-4",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 4,
+          "size": 9
+        },
+        {
+          "base": "confirmation/ordinary/random/9/r0/68000/random/9x9",
+          "case": "confirmation/ordinary/random/9/r0/68000/random/9x9/d4-0",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 0,
+          "size": 9
+        },
+        {
+          "base": "confirmation/ordinary/random/9/r0/68000/random/9x9",
+          "case": "confirmation/ordinary/random/9/r0/68000/random/9x9/d4-4",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 4,
+          "size": 9
+        },
+        {
+          "base": "confirmation/ordinary/random/9/r0/100000/random/9x9",
+          "case": "confirmation/ordinary/random/9/r0/100000/random/9x9/d4-0",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 0,
+          "size": 9
+        },
+        {
+          "base": "confirmation/ordinary/random/9/r0/100000/random/9x9",
+          "case": "confirmation/ordinary/random/9/r0/100000/random/9x9/d4-4",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 4,
+          "size": 9
+        },
+        {
+          "base": "confirmation/ordinary/random/15/r0/116000/random/15x15",
+          "case": "confirmation/ordinary/random/15/r0/116000/random/15x15/d4-0",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 0,
+          "size": 15
+        },
+        {
+          "base": "confirmation/ordinary/random/15/r0/116000/random/15x15",
+          "case": "confirmation/ordinary/random/15/r0/116000/random/15x15/d4-4",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 4,
+          "size": 15
+        }
+      ],
+      "other_statuses": {
+        "emitted": 168
+      }
+    },
+    "development": {
+      "checked_emitted_reachable": 348,
+      "matched": 348,
+      "mismatches": [],
+      "ordinary_successes": [
+        {
+          "base": "m2_screen/ordinary/random/9/r0/36000/random/9x9",
+          "case": "m2_screen/ordinary/random/9/r0/36000/random/9x9/d4-0",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 0,
+          "size": 9
+        },
+        {
+          "base": "m2_screen/ordinary/random/9/r0/36000/random/9x9",
+          "case": "m2_screen/ordinary/random/9/r0/36000/random/9x9/d4-4",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 4,
+          "size": 9
+        },
+        {
+          "base": "m2_screen/ordinary/random/9/r0/40000/random/9x9",
+          "case": "m2_screen/ordinary/random/9/r0/40000/random/9x9/d4-0",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 0,
+          "size": 9
+        },
+        {
+          "base": "m2_screen/ordinary/random/9/r0/40000/random/9x9",
+          "case": "m2_screen/ordinary/random/9/r0/40000/random/9x9/d4-4",
+          "edges": 1,
+          "family": "ordinary_random",
+          "pose": 4,
+          "size": 9
+        }
+      ],
+      "other_statuses": {
+        "emitted": 44
+      }
+    }
+  },
+  "prediction": "At native halt2d+1, emit goal-distance ball radius d-1 plus source, for reachable distance d>=1."
+}

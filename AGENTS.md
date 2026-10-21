@@ -34,19 +34,61 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-Current October21,2026 update: **M2 wave-accessibility assay is RUNNING** after
-user approval. Registration9608c28 pushed BEFORE scientific generation. Read
-`docs/WAVE_ACCESSIBILITY.md`, `results/wave_accessibility/registration.json`,
-`launch.json`, and latest `docs/GENERAL_SOLVER_REBOOT_PROGRESS.md` entries.
-Two exact M1 wave anchors,4,096 one-/two-opportunity variants each plus4,096
-random references;same pool for original and retention/selectivity rankings.
-392-query development screen;freeze/push choices before1,424 fresh confirmation.
-Do not modify registered source or restart/resample. Single writer PID in launch
-metadata;durable runs/wave_accessibility_m2/campaign.sqlite,screen_001.log.
-Read-only helper tools/inspect_wave_accessibility.py. No long campaign launched.
-Complete registered audits, preserve journals/backups and seal report. Earlier
-C1/M1 completion descriptions remain historical and valid.
+Current October21,2026 update: **M2 wave-accessibility assay is COMPLETE and
+AUDITED.** Read `results/wave_accessibility/report.md`, `completion.json`,
+`final_summary.json`, `candidate_mechanism.json`, and `docs/WAVE_ACCESSIBILITY.md`.
+No scientific process is running. Do not extend M2 or select/train on its inspected
+confirmation cases. Preserve its exact random-origin lineages and full records.
 
+Registration9608c28 pushed before scientific generation; choices80d35f7 pushed
+before confirmation. Two exact M1 wave anchors;4,096 one-/two-opportunity variants
+each plus4,096 shared random references. Generic unchanged M1 mutation/runtime;
+no solver injection. Same pool for original versus retention/selectivity ranking.
+392 development queries;6,318,256 physical calls,20,484 nominal model slots,
+16,118 distinct physical genotypes,465.23s screen wall,3,573.75 summed candidate
+seconds.14 final physical models ×1,424 inputs=19,936 calls,9.88s wall.
+Screen sample peak3.510GiB tree RSS;10 configured workers;no uncertain receipts.
+
+ONE distinct acquired mutant m2/a0/d2/02786 (two nominee aliases) confirms96/400
+pairs vs48/400 accumulating-wave anchor;48 gains across12 contexts,0 losses,
+200/200 corridors retained.9/128 ordinary bases correct in both poses vs0 anchor:
+P15=5,R9=3,R15=1,P11=0. EIGHT routes are1edge,ONE is3edges. Registered broad flag
+PASSES; do not retroactively relabel failure, but this is NOT general solving.
+0 prefix2/4/8,0 second-junction/cycle pairs,0/168 correct no-path,0 false reachable
+no-path. Other delayed-wave retained nominees96pairs/9ordinary vs96/1 anchor;
+no new paired skills. Original aggregate nominees from delayed anchor loseall
+paired/corridor skill. Random original40pairs/0ordinary. No policy-causality claim.
+
+Mechanism: generic output-block port swap then duplication of existing XOR node,
+117instructions/six potential live primitive nodes. Activates old source-flag
+computation: C2(next)=C7 XOR C3. Emits goal-distance ball(radius d-1)+source at
+2d+1ticks; all348 reachable development and1,256 reachable final saved rasters/
+ticks match. Reaches previously known narrow delayed-wave repertoire through a
+second lineage, not a general backtrace.61–87% of sampled variants have identical
+terminal output/status to their anchor on screen; not global semantic equivalence.
+
+Screen audit PASS113.44s:all20,480 draws/24,576 mutation events/RNG/corpora/tasks/
+nominations replayed;all6,318,256 independent grades;98,539 fixed native replays.
+Final first audit reproducedall19,936 candidate responses but failed tuple/list
+summary equality (96 pair-key representations, all values identical). Failure
+packet preserved. Audit-only canonical JSON adapter registered/pusheddf6ddaf;
+original scientific source and outputs UNCHANGED. Final replay PASS24.61s:
+all19,936 native responses and4,272 baseline replays. Failed attempt adds19,936
+replays/grades;separate wall uninstrumented. See audit note, never hide repair.
+Eight focused tests pass, not full suite. Shared VM/operator in replay, independent
+raster grader. BFS/A*/bitwave/intact flat/M1 controls solveall1,424.
+
+Keep runs/wave_accessibility_m2/campaign.sqlite,final/campaign.sqlite,logs and
+verified SQLite backups;Git-ignored scientific data,not cache.317 completion
+hashes sealed. ExcludeALL995,643 layouts via whole_layout_exclusions.json.gz.
+Never rerun raw audit/report/freeze over sealed packets;future re-audits require
+fresh output paths and equivalent JSON normalization. Historical M1/C1/deep
+journals and backups remain untouched;old heartbeat paused.
+Next proposal ONLY: separately register60–90min continuation from preserved
+random-origin wave lineages, protected skills/neutral diversity, mixed one/two
+mutation opportunities vsunchanged operator at equal evaluation allocations.
+Require longer-route/multiple-junction gains beyond trivial endpoint cases.
+No new campaign or sexual study is launched. Earlier descriptions are historical.
 
 Current update (October20 local / October21 UTC,2026): **the three-step reboot
 is COMPLETE. C1 confirmation and M1 modular pilot are complete and audited.**

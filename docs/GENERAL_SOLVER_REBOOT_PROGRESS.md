@@ -111,3 +111,35 @@ Launched08:52:21UTC with10 workers;durable journal
 runs/wave_accessibility_m2/campaign.sqlite,screen_001.log. Single writer;
 read-only status tools/inspect_wave_accessibility.py. No scientific outcomes
 claimed at launch. Actual bounds and audit plan are in the registered protocol.
+
+## M2 completed — October21,2026
+
+Screen completed normally:6,318,256 physical calls,3,573.75 summed candidate
+seconds,465.23s session wall. One two-opportunity accumulating-wave variant gained
+paired skills in development. Choices/pool/RNG/events frozen and pushed80d35f7
+before confirmation. Screen audit PASS113.44s:all draws/events/corpora/tasks/
+selection replay,all6,318,256 independent grades,98,539 native samples.
+
+Final14 physical models×1,424 inputs:19,936 calls,12.13 candidate seconds,9.88s
+wall. Candidate m2/a0/d2/02786 confirms96/400pairs vs48anchor,0losses,200/200
+corridors,9/128 ordinary bases bothposes. Registered broad flag PASSES, buteight
+ordinary routes are1edge andone3edges;still0longer-prefix/second-junction/cycle
+pairs. No general solver. Bothrankings selectedsamechild;no newrankingcausality.
+Delayed-lineage retained nominees preserve96pairs andgain8ordinarybases;original
+aggregate nominees loseall paired/corridor skills. This motivates skill protection.
+
+First finalaudit stopsAFTERall19,936 exactnative replays at tuple/listreport
+representation mismatch;96nestedkeys differ only byJSONserialization. All values
+agree. Failurepacket preserved;scientificsource/results unchanged. Audit-only
+adapterdf6ddaf pushed before rerunning fullfinalaudit. PASS24.61s,all19,936native
+and4,272baseline replays. Failed audit adds19,936replays/grades;separatewallnot
+instrumented. Also preserved premature read-onlyfreeze guard refusal;no choices
+or data were written by thatattempt. No scientificprotocol/source modification.
+
+Post-hocsource/savedraster analysis:port swap thenXORcopy activates oldsourceflag;
+child emitsgoal-distance ball radiusd−1 plussource at2d+1ticks,exact348development
+and1,256final reachableoutputs.61–87%sampledvariants same terminalbehavior asanchor.
+No additionalinference. raster_comparison.png visuallychecked. Report complete.
+All995,643layouts excluded;originaljournals and verifiedSQLitebackups retained;
+completion317hashentries. Follow-on60–90min evolutionproposal documented, NOT
+launched. Random-origin discovery remains central and open.
