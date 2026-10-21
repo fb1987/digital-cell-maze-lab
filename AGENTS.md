@@ -34,6 +34,25 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- S3-ARCHIVE-LAUNCH-START -->
+October21,2026 storage migration authorization: user explicitly requested AWS S3
+archival and clearing verified local research files. Auth refreshed using existing
+personal-os profile/account384268139212/us-east-2. Archive launched to private,
+encrypted, versioned bucket digital-cell-maze-lab-research-384268139212-use2.
+Read results/storage_archive/20261021/{plan,manifest,upload_launch,finish_launch}.json,
+then upload_001.log/finish_001.log and completion/failure files for ACTUAL state.
+Initial uploadPID33734, guarded finisherPID34713. Never start a duplicate uploader,
+finisher or old research writer while migration is active. Transfer is resumable;
+failed workflow needs diagnosis before manual retry. All chunks must download-verify;
+full SQLite restore/hash/quick_check and published catalog precede local eviction.
+Only46 exact closed-run .sqlite files (38.39GiB) may be evicted by this plan. Source,
+results, logs, lock/status files and ALL M13/M14 records remain local. Never delete
+S3 object versions or manifests. Use tools/s3_research_archive.py restore for exact
+old bytes; do not rerun old studies. Restore instructions/catalog are in same packet.
+No scientific source/selection/history bytes changed. M14 remains USER-PAUSED;
+cloud migration is NOT authorization to launch it. Do not auto-resume experiments.
+<!-- S3-ARCHIVE-LAUNCH-END -->
+
 <!-- M14-STATUS-START -->
 Current October21,2026: **M14 PREPARED, PAUSED BY USER; NOT REGISTERED/LAUNCHED.**
 User explicitly said pause afterprep while they migrate files to an externaldrive;
