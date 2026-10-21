@@ -198,7 +198,10 @@ def evict(packet):
     c=readj(packet/'catalog.json');done=readj(packet/'upload_complete.json');m=c['manifest']
     assert sha_file(packet/'catalog.json')==done['catalog_sha256']
     # Catalog and receipt must be published in Git before local removal.
-    for p in (packet/'catalog.json',packet/'upload_complete.json'):
+    test=readj(packet/'restore_test.json')
+    assert test['status']=='PASS' and test['catalog_sha256']==done['catalog_sha256']
+    assert test['restored_sha256']==test['original_sha256'] and test['sqlite_quick_check']=='ok'
+    for p in (packet/'catalog.json',packet/'upload_complete.json',packet/'restore_test.json'):
         subprocess.run(['git','ls-files','--error-unmatch',str(p.relative_to(ROOT))],cwd=ROOT,check=True,stdout=subprocess.DEVNULL)
         assert not subprocess.check_output(['git','status','--porcelain','--',str(p)],cwd=ROOT)
     assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT)==subprocess.check_output(['git','rev-parse','@{u}'],cwd=ROOT)

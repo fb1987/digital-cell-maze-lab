@@ -56,3 +56,16 @@ def test_s3_put_refuses_unverified_existing_object(tmp_path):
     class Fake(a.S3):
         def head(self,key):return {'ContentLength':3,'ChecksumSHA256':'wrong','ServerSideEncryption':'AES256','VersionId':'1'}
     with pytest.raises(AssertionError):Fake({}).put('key',p,a.digest(b'abc'))
+
+def test_eviction_requires_successful_restore_before_any_cloud_or_delete(tmp_path):
+    a.write_new(tmp_path/'catalog.json',{'manifest':{},'chunks':{}})
+    h=a.sha_file(tmp_path/'catalog.json')
+    a.write_new(tmp_path/'upload_complete.json',{'catalog_sha256':h})
+    with pytest.raises(FileNotFoundError):a.evict(tmp_path)
+    a.write_new(tmp_path/'restore_test.json',{'status':'FAIL','catalog_sha256':h})
+    with pytest.raises(AssertionError):a.evict(tmp_path)
+
+def test_tampered_catalog_blocks_restore(tmp_path):
+    a.write_new(tmp_path/'catalog.json',{'manifest':{'files':[]}})
+    a.write_new(tmp_path/'upload_complete.json',{'catalog_sha256':'not-the-actual-hash'})
+    with pytest.raises(AssertionError):a.restore(tmp_path,'runs/x',tmp_path/'restore')

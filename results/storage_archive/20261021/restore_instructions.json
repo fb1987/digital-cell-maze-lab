@@ -1,0 +1,15 @@
+{
+  "purpose": "Restore exact archived files; never recreate old science by rerunning campaigns.",
+  "bucket": "digital-cell-maze-lab-research-384268139212-use2",
+  "region": "us-east-2",
+  "profile": "personal-os",
+  "catalog": "results/storage_archive/20261021/catalog.json",
+  "authentication": "Use existing valid personal-os profile. If expired, refresh with aws login --profile personal-os with user authorization. No stored project credentials.",
+  "example_restore_command": "python3 tools/s3_research_archive.py restore --packet results/storage_archive/20261021 --file runs/deep_campaign_v1/campaign.sqlite --destination 'runs/deep_campaign_v1/campaign.sqlite'",
+  "restore_behavior": "Downloads pinned versions, verifies each chunk and full original SHA256, refuses overwrites, preserves mode and mtime, keeps 16GiB free plus temporary chunk allowance. Requires enough disk for the restored file. Failed partial restores remain for diagnosis.",
+  "original_git_commit": "34c623529448f1430f7189e005bf8ec2f6630732",
+  "dependencies": "Keep the full Git checkout and results manifests/parts. Newer SQLite journals depend on immutable exclusion-base files, not only the database. All remain local. M13/M14 journals retained.",
+  "what_is_removed": "Only manifest-listed .sqlite originals/backups from completed runs, after upload/readback/restore verification and Git publication. Local logs, locks, status files and source/results stay.",
+  "future_runs": "Keep active SQLite journals local. Archive closed audited runs with a new dated catalog; never reuse this manifest or overwrite seals. M14 stays paused until explicitly resumed.",
+  "costs": "S3 Standard storage plus requests and any chargeable download traffic; versions incur storage. No automatic expiration configured."
+}
