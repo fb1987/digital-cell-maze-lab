@@ -1,0 +1,7 @@
+{
+  "context": "All but the final receipts were completed; writer was still active and later committing stage0.",
+  "effect": "Read-only connection rejected analysis before any choices/features/report writes. No changed source, receipts, pool, RNG, selection or scientific protocol.",
+  "error": "connect(): assert j.get(\"latest\")==0",
+  "event": "Premature freeze action refused by completed-stage assertion",
+  "repair": "None; wait for stage0 transaction completion before retrying freeze."
+}
