@@ -147,3 +147,41 @@ Shared0's g500/b47 retains100corridors/40pairs/44correctno-path; quota1 g500/b40
 andshared2 g697/b47 have78corridors/40pairs/44correctno-path. Frozen controls and
 all roots remain in the published final panel. No reselection, scientific edits
 or additional cases by monitor; wait for automatic audit/confirmation workflow.
+
+## Completion: October21,2026
+
+Workflow reached audited_ready_for_report at15:58:06UTC. Search audit first PASS:
+1095.87s, all26,149,320grades,160,341native samples,961stages and296,400births,
+allselection/mutation/RNG/corpora/tasks/frozenchoices/equalnominalallocations.
+Final first PASS17.80s: ALL30,240native outputs/grades,5040baseline evaluations
+and canonical summary including policy primary. No scientific repair or deviation.
+All301registered/351M6completionhashes and allsix publishedfreeze files verified.
+
+Fresh primary:0–0 allthree pairs; quotasupportFALSE. All18nominee roles FAIL
+upstream/long/combinedgates.0/96targetnonforkprefix2+pairs,0/81queriedlength16+bases.
+Shared0one-editrepair confirms128pairs/200corridors/8ordinary/168correctno-path/0false,
+vsM6root116/120/7/168/0:12newforkpairs,80corridors,one3edgeperfectbase,zero complete-
+skillloss;allcoveredbyprotectedunion. Quota0A0descendant confirms124/154/14/168/0,
+but loses46corridors/10ordinary/4pairs while gaining32prefix0/1pairs+5ordinary;
+two novelshortbasesbeyondunion(4edgeR9/5edgeR15). Quota1ordinaryadds3edgeR9 butloses
+skills. Details, parent/root comparisons, lengthstrata and controls in report.md.
+
+Allocationverified:standard0191 gets26,302quota mutations vs441shared, but19,308
+quota births usezero-M7depthparents;rootprotection/extraoffspringdidnotguarantee
+sustainedprogress. standard0434quota historiesreach finalmaxdepth81/113/96 without
+targetgain. Allpreserved populations and alternate genomes retained;no postfinal
+selection. Sixdistinctnomineegenotypes,nineidentities,18roles;not18discoveries.
+
+Both original journals and SQLite-API backups verified under writer locks:
+integrity and alltable contents match. Totalpreserved~4.93GiB and28.14GiBfree after
+backup,within12GiB/16GiB bounds. ALL2,508,159layouts exported, including rejected/
+unqueried draws. Post-audit reporting helper initially overcounted length16+
+denominator usingmetadata (141 vs81queried);originalhelper/output/log preserved
+in reporting_attempt_001 and corrected in a separate logged run. Scientific
+results, registered summary andbothauditsunchanged. See note.json/report.md.
+
+Completion report, saveddiagnostics, logs,source/record hashes and compactevidence
+sealed and published; rawjournals/backups remain local. M7 follow-up PAUSED after
+report/audits/preservation. No active scientific process or newexperiment. Next
+proposal only:bounded mechanism/retention assay ofshared0repair andquota0duplication
+beforeanotherlongcampaign;preserve random-originresearch,nohardcodedsolverinjection.

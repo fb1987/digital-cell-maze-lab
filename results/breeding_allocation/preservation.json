@@ -1,0 +1,43 @@
+{
+  "disk_free_bytes": 30218838016,
+  "final_new_layouts": 5736,
+  "initial_layouts": 2118127,
+  "search_new_layouts": 384296,
+  "stages": {
+    "final": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 398368768,
+        "integrity_check": "ok",
+        "path": "runs/breeding_allocation_m7/final/backups/completed.sqlite",
+        "sha256": "7c907f30871b1a91e8e1b0a02e95ff9c16754c39d0d9c58007e6853e7dc3ffd0"
+      },
+      "chain": "46940c118f20986a617ffa050ca548c14ac61c2e0e855c041d54914e76c3eba8",
+      "journal": {
+        "bytes": 398368768,
+        "path": "runs/breeding_allocation_m7/final/campaign.sqlite",
+        "sha256": "0ff75d9ba5795d7fc6cd7ef96fdfca31219b1df8c35a39fbe3b5c456402893c9"
+      },
+      "layouts": 2508159
+    },
+    "search": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 2105511936,
+        "integrity_check": "ok",
+        "path": "runs/breeding_allocation_m7/backups/completed.sqlite",
+        "sha256": "7bd9baf60895cf77c07fbc6e4b63bca5546c50742807f12495208356c27aa48e"
+      },
+      "chain": "64c02f23c5db476ced5409a005e9ba77be543adcc6612eb7aef91ccd503603b2",
+      "journal": {
+        "bytes": 2105511936,
+        "path": "runs/breeding_allocation_m7/campaign.sqlite",
+        "sha256": "e3467b0f9619c27793ff60a753b3175fe2860b28c5fc1e23c63cdac9f26ab5e5"
+      },
+      "layouts": 2502423
+    }
+  },
+  "status": "verified",
+  "storage_bytes": 5289602663,
+  "whole_layouts": 2508159
+}

@@ -1,0 +1,6 @@
+{
+  "issue": "Length16+ denominator included rejected/unqueried ordinary layouts in confirmation metadata:141 instead of81 queried bases. Success counts, acquisition gates and registered summary/audits unchanged.",
+  "original_sha256": "04598906045c1da799819da5af794f1194fed330f7aa5d82c7319ac0b20b9b1e",
+  "repair": "Restrict diagnostic ordinary/paired metadata maps to the registered query IDs, then regenerate in a new logged attempt. Original helper/output/log preserved.",
+  "scope": "Post-audit unregistered reporting helper only; no scientific/source/audit change."
+}

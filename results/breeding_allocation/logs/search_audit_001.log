@@ -1,0 +1,187 @@
+AUDIT 0 2744 79
+AUDIT 16 330920 1387
+AUDIT 32 720440 2884
+AUDIT 48 1112504 4436
+AUDIT 64 1511000 5989
+AUDIT 80 1912376 7524
+AUDIT 96 2315768 9029
+AUDIT 112 2902216 17093
+AUDIT 128 3307000 18643
+AUDIT 144 3712696 20262
+AUDIT 160 4118824 21849
+AUDIT 176 4526536 23422
+AUDIT 192 4934488 25006
+AUDIT 208 5522464 32918
+AUDIT 224 5928640 34459
+AUDIT 240 6335200 36020
+AUDIT 256 6742672 37571
+AUDIT 272 7150384 39198
+AUDIT 288 7555600 40765
+AUDIT 304 8149320 48937
+AUDIT 320 8555832 50505
+AUDIT 336 8962776 52075
+AUDIT 352 9367896 53673
+AUDIT 368 9773448 55333
+AUDIT 384 10180920 57015
+AUDIT 400 10587384 58580
+AUDIT 416 11175448 66504
+AUDIT 432 11582104 68107
+AUDIT 448 11989528 69748
+AUDIT 464 12395080 71325
+AUDIT 480 12797800 72899
+AUDIT 496 13202392 74490
+AUDIT 512 13796784 82559
+AUDIT 528 14204016 84163
+AUDIT 544 14610816 85773
+AUDIT 560 15018576 87325
+AUDIT 576 15425616 88957
+AUDIT 592 15833664 90566
+AUDIT 608 16431216 98880
+AUDIT 624 16837440 100483
+AUDIT 640 17245104 102061
+AUDIT 656 17652000 103667
+AUDIT 672 18057888 105272
+AUDIT 688 18465216 106887
+AUDIT 704 18872784 108448
+AUDIT 720 19469176 116706
+AUDIT 736 19877176 118249
+AUDIT 752 20282872 119873
+AUDIT 768 20690008 121465
+AUDIT 784 21096952 123034
+AUDIT 800 21503944 124630
+AUDIT 816 22103008 132775
+AUDIT 832 22510144 134371
+AUDIT 848 22917616 135990
+AUDIT 864 23323600 137475
+AUDIT 880 23730688 139099
+AUDIT 896 24137728 140679
+AUDIT 912 24738704 148956
+AUDIT 928 25146464 150590
+AUDIT 944 25553600 152231
+AUDIT 960 26149320 160341
+{
+  "status": "PASS",
+  "chain": "64c02f23c5db476ced5409a005e9ba77be543adcc6612eb7aef91ccd503603b2",
+  "stages": 961,
+  "independent_grades": 26149320,
+  "native_replays": 160341,
+  "births_replayed": 296400,
+  "logical_query_counts": {
+    "modular/0/shared": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/0/quota": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/1/shared": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/1/quota": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/2/shared": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/2/quota": {
+      "assessment": 495880,
+      "train": 4377600
+    }
+  },
+  "mutation_births_per_root": {
+    "modular/0/shared": {
+      "m7/reference/m6_child": 27360,
+      "m7/reference/anchor/0": 11910,
+      "m7/reference/a0/standard/0434": 2093,
+      "m7/reference/anchor/1": 1178,
+      "m7/reference/a1/standard/0191": 137,
+      "new_random_origin": 72
+    },
+    "modular/0/quota": {
+      "m7/reference/a1/standard/0191": 8759,
+      "m7/reference/anchor/0": 10631,
+      "m7/reference/a0/standard/0434": 9829,
+      "m7/reference/m6_child": 13316,
+      "m7/reference/anchor/1": 202,
+      "new_random_origin": 13
+    },
+    "modular/1/shared": {
+      "m7/reference/anchor/0": 10753,
+      "m7/reference/m6_child": 28858,
+      "m7/reference/a1/standard/0191": 130,
+      "m7/reference/a0/standard/0434": 1934,
+      "m7/reference/anchor/1": 1030,
+      "new_random_origin": 45
+    },
+    "modular/1/quota": {
+      "m7/reference/a1/standard/0191": 8776,
+      "m7/reference/anchor/0": 10045,
+      "m7/reference/a0/standard/0434": 10172,
+      "m7/reference/m6_child": 13578,
+      "m7/reference/anchor/1": 176,
+      "new_random_origin": 3
+    },
+    "modular/2/shared": {
+      "m7/reference/m6_child": 28602,
+      "m7/reference/anchor/0": 10754,
+      "m7/reference/a1/standard/0191": 174,
+      "m7/reference/anchor/1": 1028,
+      "m7/reference/a0/standard/0434": 2136,
+      "new_random_origin": 56
+    },
+    "modular/2/quota": {
+      "m7/reference/a1/standard/0191": 8767,
+      "m7/reference/anchor/0": 10166,
+      "m7/reference/a0/standard/0434": 10042,
+      "m7/reference/m6_child": 13552,
+      "m7/reference/anchor/1": 199,
+      "new_random_origin": 23,
+      "m7/reference/root/0": 1
+    }
+  },
+  "reserved_birth_counts": {
+    "modular/0/shared": {
+      "unrestricted": 42750
+    },
+    "modular/0/quota": {
+      "m7/reference/a1/standard/0191": 8550,
+      "m7/reference/anchor/0": 8550,
+      "m7/reference/a0/standard/0434": 8550,
+      "m7/reference/m6_child": 8550,
+      "unrestricted": 8550
+    },
+    "modular/1/shared": {
+      "unrestricted": 42750
+    },
+    "modular/1/quota": {
+      "m7/reference/a1/standard/0191": 8550,
+      "m7/reference/anchor/0": 8550,
+      "m7/reference/a0/standard/0434": 8550,
+      "m7/reference/m6_child": 8550,
+      "unrestricted": 8550
+    },
+    "modular/2/shared": {
+      "unrestricted": 42750
+    },
+    "modular/2/quota": {
+      "m7/reference/a1/standard/0191": 8550,
+      "m7/reference/anchor/0": 8550,
+      "m7/reference/a0/standard/0434": 8550,
+      "m7/reference/m6_child": 8550,
+      "unrestricted": 8550
+    }
+  },
+  "equal_nominal_allocations": true,
+  "charged_calls": 26149320,
+  "uncertain_attempts": 0,
+  "deterministic_corpora": true,
+  "all_selection_mutation_rng": true,
+  "frozen_artifacts_verified": true,
+  "source_hashes": true,
+  "wall_seconds": 1095.8696619590046,
+  "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM."
+}

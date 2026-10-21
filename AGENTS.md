@@ -35,40 +35,56 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M7-STATUS-START -->
-Current October21,2026: **M7 search COMPLETE; registered search audit RUNNING.**
-User authorized “Please proceed” after M6 report. Read docs/BREEDING_ALLOCATION.md,
-docs/BREEDING_ALLOCATION_PROGRESS.md, results/breeding_allocation/registration.json
-and launch.json. Registration10f75f6 pushed BEFORE scientific generation.
-Workflow tools/run_m7_workflow.py launched14:28:29UTC, PID33929/child33939.
-Journal runs/breeding_allocation_m7/campaign.sqlite; workflow_status.json and
-phase logs there. Readonly tools/inspect_breeding_allocation.py. NEVER duplicate
-workflow/writer or change sealed files.950matched rounds/70.64min search complete.
-Exact choices/ancestry/states pushed313e0c7 BEFORE freshconfirmation. Workflow now
-in search_audit_001 (initialauditPID88256); confirmation follows only afterPASS.
-Do not restart search or reselect.26,149,320calls/24,359.25candidate sec;noerrors.
-Three paired shared/quota populations per condition (six total),96 each, identical
-ordered genomes/initial RNG within pair; independent RNG across pairs, not origins.
-Seven protected M6-informed references; four focal roots standard0191/A0/standard0434/
-exact M6 g900/b17.89clones(23/22/22/22)+7protected. Same44survivors,7immigrants,
-45single-edit children. Shared45global parents; quota9per focal+9global. No survival
-quota, runtime/operator/curriculum change, mating or known-solver injection.
-Exactly96x48 train and115x392 assessment nominal queries perpopulation; unused
-assessment slots carry nonselectable A0 aliases, physical genotypes deduplicated.
-Primary fixed integrated-role new nonforkprefix2+ pairs, zero if retention/no-path
-gate fails; quota support requires2/3positive paired differences andpositive sum.
-Keep M6 strict individual gates,7-reference union; report specialist losses and
-secondary roles honestly. Three paired histories provide limited policy evidence.
-Tenworkers,70min soft/90min hardsearch,4096rounds/100Mcalls/1e15work;12GiBRSS/
-12GiBtotalstorage includingbackups/16GiBfree. All2,118,127 prior+fixturelayouts
-excluded.12focusedtestsPASS,1248discardedbirths/RNG replay, fullfixtureaudit/final
-pipelinePASS; all351M6completionhashesunchanged.301registeredhashes verified.
-Heartbeat m7-breeding-allocation-follow-through ACTIVE every15min,quiet onroutine.
-Durable tools/run_m7_workflow.py automatically freezes/
-pushes choices BEFORE registered fresh1680-inputconfirmation, fullsearchaudit then
-ALL-nativefinalaudit. On failure preserve and report; no automatic repair/resume.
-After audits: actualpaired report/allocation/ancestry/costs, guardedSQLitebackups,
-wholelayout exclusions, completionseal, commit/pushcompactevidence andpause monitor.
-No phase beyondM7 authorized. M6andolderrecords sealed, alloldheartbeatspaused.
+Current October21,2026: **M7 COMPLETE, fresh-confirmed and AUDITED.**
+Read results/breeding_allocation/report.md,summary.json,saved_diagnostics.json,
+search_audit.json,final_audit.json,preservation.json,completion.json and
+ docs/BREEDING_ALLOCATION_PROGRESS.md. No scientific process or nextphase running.
+Registration10f75f6 pushed BEFOREsearch; exactchoices/ancestry/states313e0c7 pushed
+BEFOREfreshconfirmation.301registered+351M6completionhashes unchanged.
+
+Threepaired shared/quota histories,6x96organisms,950matched rounds/70.64min.
+Samefounders/runtime/operator/survival/cases;quota9births per4focal+9global,
+shared45global;both7immigrants. Equal4,377,600train+495,880assessment nominal
+queries/population.296400births=256500mutants+39900immigrants. No solverinjection.
+PRIMARY0vs0all3pairs;noquotasupport. ALL18roles/9identities/6genotypes FAIL
+upstream/long/combined gates;0/96nonforkprefix2+pairs,0/81queriedlength16+bases.
+No general-solver/speed/sexual/multirange claim. Relatedfounders,notindependentorigins.
+
+Shared0g500/b47:ONE M7edit (block6node8duplication),111instructions,128pairs/
+200corridors/8ordinarybothposes/168correctno-path/0false vsM6root116/120/7/168/0.
+Gains12forkpairs+80corridors+one3edgeperfectbase,zero root-complete-skillloss;
+allcoveredbyprotectedunion. 8edgeperfectabilityinherited. Partialrecoveries
+quota1g500/b40/shared2g697/b47 (5/3edits)116/156/8/168/0, samecompleteskillsets;
+lastcopyblock2to4. Distinguish parentandroot comparisons;nottemporalmechanismproof.
+Quota0g900/b16:35M7editsfromA0,106instructions,124/154/14/168/0 vsA096/200/19/168/0.
+Gains32prefix0/1pairs loses4forkpairs,46corridors,10ordinary,gains5ordinary.
+Two novelbothposebasesbeyondunion are4edgeR9/5edgeR15;retentionFAIL. Quota1ordinary
+ g946/b47 adds3edgeR9beyondunion,loses4pairs/40corridors;lastparentalreadyhasskills.
+No new8+ordinarybeyondunion. Preserveallfrozenchoices/unselectedlineages,noreselection.
+
+Quotasworkedoperationally:standard0191mutations26302vs441shared (~59.6x),but19308
+usedzero-M7depthparents (19284exactroot);finalmaxdepth1/2/1. standard0434quota
+30043vs6163mutants;finalmaxdepth81/113/96,stillnotargetgain. Breedingaccessisnot
+sustainedinheritanceorfunctionalprogress. Fullsavedallocation/persistence retained.
+
+Search26149320calls/24359.25candidate sec/7175970719846work/2.96GiBRSS.
+Final30240calls/24.68candidate sec/10.87wallsec. Combined26179560calls,
+24383.93candidate sec/7184578506079work;zerouncertain/guard/error.
+FirstsearchauditPASS1095.87s:ALLgrades/160341native samples/961stages/allbirths/RNG/
+allocation/freeze. FirstfinalauditPASS17.80s:ALL30240nativeoutputs/grades/5040baselines/
+summary. Allintact+BFS/A*/bitwavecontrols1680correct. SharedVM,independentgrader,
+notsecondinterpreter.12focusedtestsPASS,notfullsuite. No scientificrepair.
+Postauditunregisteredreporthelperdenominator141→81queriedlength16+;originalhelper/
+output/log preserved reporting_attempt_001. Registeredsummary/audits unchanged.
+
+Originaljournals+verifiedSQLitebackups local runs/breeding_allocation_m7;~4.93GiB,
+28.14GiBfreeafterbackup. ExcludeALL2,508,159wholelayouts viawhole_layout_exclusions.
+Reports/logs/compactevidence sealed andcommitted;rawjournalsnotGit. Neveroverwrite
+sealsorfailedrecords;futureauditneedsseparatepacket. M7monitorPAUSED;oldonespaused.
+NextproposalONLY:bounded mechanism/retention assay ofshared0single-editrepair and
+quota0block6duplication,exactroots/parents/genericperturbations,prospectivefresh
+matchedcases. Determineoutput-selectivity/retention beforeanotherlongrun orsurvival
+niches/representationchange. Random-origindiscoveryremainscentral;nonewphaseauthorized.
 <!-- M7-STATUS-END -->
 
 <!-- M6-STATUS-START -->

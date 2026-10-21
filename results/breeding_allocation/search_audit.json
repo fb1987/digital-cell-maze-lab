@@ -1,0 +1,126 @@
+{
+  "all_selection_mutation_rng": true,
+  "births_replayed": 296400,
+  "chain": "64c02f23c5db476ced5409a005e9ba77be543adcc6612eb7aef91ccd503603b2",
+  "charged_calls": 26149320,
+  "deterministic_corpora": true,
+  "equal_nominal_allocations": true,
+  "frozen_artifacts_verified": true,
+  "independent_grades": 26149320,
+  "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM.",
+  "logical_query_counts": {
+    "modular/0/quota": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/0/shared": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/1/quota": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/1/shared": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/2/quota": {
+      "assessment": 495880,
+      "train": 4377600
+    },
+    "modular/2/shared": {
+      "assessment": 495880,
+      "train": 4377600
+    }
+  },
+  "mutation_births_per_root": {
+    "modular/0/quota": {
+      "m7/reference/a0/standard/0434": 9829,
+      "m7/reference/a1/standard/0191": 8759,
+      "m7/reference/anchor/0": 10631,
+      "m7/reference/anchor/1": 202,
+      "m7/reference/m6_child": 13316,
+      "new_random_origin": 13
+    },
+    "modular/0/shared": {
+      "m7/reference/a0/standard/0434": 2093,
+      "m7/reference/a1/standard/0191": 137,
+      "m7/reference/anchor/0": 11910,
+      "m7/reference/anchor/1": 1178,
+      "m7/reference/m6_child": 27360,
+      "new_random_origin": 72
+    },
+    "modular/1/quota": {
+      "m7/reference/a0/standard/0434": 10172,
+      "m7/reference/a1/standard/0191": 8776,
+      "m7/reference/anchor/0": 10045,
+      "m7/reference/anchor/1": 176,
+      "m7/reference/m6_child": 13578,
+      "new_random_origin": 3
+    },
+    "modular/1/shared": {
+      "m7/reference/a0/standard/0434": 1934,
+      "m7/reference/a1/standard/0191": 130,
+      "m7/reference/anchor/0": 10753,
+      "m7/reference/anchor/1": 1030,
+      "m7/reference/m6_child": 28858,
+      "new_random_origin": 45
+    },
+    "modular/2/quota": {
+      "m7/reference/a0/standard/0434": 10042,
+      "m7/reference/a1/standard/0191": 8767,
+      "m7/reference/anchor/0": 10166,
+      "m7/reference/anchor/1": 199,
+      "m7/reference/m6_child": 13552,
+      "m7/reference/root/0": 1,
+      "new_random_origin": 23
+    },
+    "modular/2/shared": {
+      "m7/reference/a0/standard/0434": 2136,
+      "m7/reference/a1/standard/0191": 174,
+      "m7/reference/anchor/0": 10754,
+      "m7/reference/anchor/1": 1028,
+      "m7/reference/m6_child": 28602,
+      "new_random_origin": 56
+    }
+  },
+  "native_replays": 160341,
+  "reserved_birth_counts": {
+    "modular/0/quota": {
+      "m7/reference/a0/standard/0434": 8550,
+      "m7/reference/a1/standard/0191": 8550,
+      "m7/reference/anchor/0": 8550,
+      "m7/reference/m6_child": 8550,
+      "unrestricted": 8550
+    },
+    "modular/0/shared": {
+      "unrestricted": 42750
+    },
+    "modular/1/quota": {
+      "m7/reference/a0/standard/0434": 8550,
+      "m7/reference/a1/standard/0191": 8550,
+      "m7/reference/anchor/0": 8550,
+      "m7/reference/m6_child": 8550,
+      "unrestricted": 8550
+    },
+    "modular/1/shared": {
+      "unrestricted": 42750
+    },
+    "modular/2/quota": {
+      "m7/reference/a0/standard/0434": 8550,
+      "m7/reference/a1/standard/0191": 8550,
+      "m7/reference/anchor/0": 8550,
+      "m7/reference/m6_child": 8550,
+      "unrestricted": 8550
+    },
+    "modular/2/shared": {
+      "unrestricted": 42750
+    }
+  },
+  "source_hashes": true,
+  "stages": 961,
+  "status": "PASS",
+  "uncertain_attempts": 0,
+  "wall_seconds": 1095.8696619590046
+}

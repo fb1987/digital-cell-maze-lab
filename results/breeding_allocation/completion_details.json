@@ -1,0 +1,196 @@
+{
+  "acquisition_gate_passes": {
+    "combined_transfer": 0,
+    "long_ordinary_acquisition": 0,
+    "upstream_acquisition": 0
+  },
+  "audits": {
+    "final": {
+      "conventional_calls": 5040,
+      "independent_candidate_grades": 30240,
+      "metrics_recomputed": true,
+      "native_replays": 30240,
+      "source_and_corpus_hashes": true,
+      "status": "PASS",
+      "wall_seconds": 17.804987625044305
+    },
+    "search": {
+      "all_selection_mutation_rng": true,
+      "births_replayed": 296400,
+      "chain": "64c02f23c5db476ced5409a005e9ba77be543adcc6612eb7aef91ccd503603b2",
+      "charged_calls": 26149320,
+      "deterministic_corpora": true,
+      "equal_nominal_allocations": true,
+      "frozen_artifacts_verified": true,
+      "independent_grades": 26149320,
+      "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM.",
+      "logical_query_counts": {
+        "modular/0/quota": {
+          "assessment": 495880,
+          "train": 4377600
+        },
+        "modular/0/shared": {
+          "assessment": 495880,
+          "train": 4377600
+        },
+        "modular/1/quota": {
+          "assessment": 495880,
+          "train": 4377600
+        },
+        "modular/1/shared": {
+          "assessment": 495880,
+          "train": 4377600
+        },
+        "modular/2/quota": {
+          "assessment": 495880,
+          "train": 4377600
+        },
+        "modular/2/shared": {
+          "assessment": 495880,
+          "train": 4377600
+        }
+      },
+      "mutation_births_per_root": {
+        "modular/0/quota": {
+          "m7/reference/a0/standard/0434": 9829,
+          "m7/reference/a1/standard/0191": 8759,
+          "m7/reference/anchor/0": 10631,
+          "m7/reference/anchor/1": 202,
+          "m7/reference/m6_child": 13316,
+          "new_random_origin": 13
+        },
+        "modular/0/shared": {
+          "m7/reference/a0/standard/0434": 2093,
+          "m7/reference/a1/standard/0191": 137,
+          "m7/reference/anchor/0": 11910,
+          "m7/reference/anchor/1": 1178,
+          "m7/reference/m6_child": 27360,
+          "new_random_origin": 72
+        },
+        "modular/1/quota": {
+          "m7/reference/a0/standard/0434": 10172,
+          "m7/reference/a1/standard/0191": 8776,
+          "m7/reference/anchor/0": 10045,
+          "m7/reference/anchor/1": 176,
+          "m7/reference/m6_child": 13578,
+          "new_random_origin": 3
+        },
+        "modular/1/shared": {
+          "m7/reference/a0/standard/0434": 1934,
+          "m7/reference/a1/standard/0191": 130,
+          "m7/reference/anchor/0": 10753,
+          "m7/reference/anchor/1": 1030,
+          "m7/reference/m6_child": 28858,
+          "new_random_origin": 45
+        },
+        "modular/2/quota": {
+          "m7/reference/a0/standard/0434": 10042,
+          "m7/reference/a1/standard/0191": 8767,
+          "m7/reference/anchor/0": 10166,
+          "m7/reference/anchor/1": 199,
+          "m7/reference/m6_child": 13552,
+          "m7/reference/root/0": 1,
+          "new_random_origin": 23
+        },
+        "modular/2/shared": {
+          "m7/reference/a0/standard/0434": 2136,
+          "m7/reference/a1/standard/0191": 174,
+          "m7/reference/anchor/0": 10754,
+          "m7/reference/anchor/1": 1028,
+          "m7/reference/m6_child": 28602,
+          "new_random_origin": 56
+        }
+      },
+      "native_replays": 160341,
+      "reserved_birth_counts": {
+        "modular/0/quota": {
+          "m7/reference/a0/standard/0434": 8550,
+          "m7/reference/a1/standard/0191": 8550,
+          "m7/reference/anchor/0": 8550,
+          "m7/reference/m6_child": 8550,
+          "unrestricted": 8550
+        },
+        "modular/0/shared": {
+          "unrestricted": 42750
+        },
+        "modular/1/quota": {
+          "m7/reference/a0/standard/0434": 8550,
+          "m7/reference/a1/standard/0191": 8550,
+          "m7/reference/anchor/0": 8550,
+          "m7/reference/m6_child": 8550,
+          "unrestricted": 8550
+        },
+        "modular/1/shared": {
+          "unrestricted": 42750
+        },
+        "modular/2/quota": {
+          "m7/reference/a0/standard/0434": 8550,
+          "m7/reference/a1/standard/0191": 8550,
+          "m7/reference/anchor/0": 8550,
+          "m7/reference/m6_child": 8550,
+          "unrestricted": 8550
+        },
+        "modular/2/shared": {
+          "unrestricted": 42750
+        }
+      },
+      "source_hashes": true,
+      "stages": 961,
+      "status": "PASS",
+      "uncertain_attempts": 0,
+      "wall_seconds": 1095.8696619590046
+    }
+  },
+  "choice_commit": "313e0c7e4444b938fd5d6aa8bfab5cfd78c04896",
+  "heartbeat_status": "PAUSED",
+  "next_experiment_launched": false,
+  "no_reselection": true,
+  "policy_comparison": {
+    "limitation": "Descriptive three-pair pilot, not a significance test or proof of general solving; roles and endpoint frozen prospectively.",
+    "pairs": [
+      {
+        "difference": 0,
+        "quota": 0,
+        "quota_child": "m7/modular/0/quota/g900/b16",
+        "replicate": 0,
+        "shared": 0,
+        "shared_child": "m7/modular/0/shared/g500/b47"
+      },
+      {
+        "difference": 0,
+        "quota": 0,
+        "quota_child": "m7/modular/1/quota/g500/b40",
+        "replicate": 1,
+        "shared": 0,
+        "shared_child": "m7/initial/1/shared/11"
+      },
+      {
+        "difference": 0,
+        "quota": 0,
+        "quota_child": "m7/initial/2/quota/11",
+        "replicate": 2,
+        "shared": 0,
+        "shared_child": "m7/modular/2/shared/g697/b47"
+      }
+    ],
+    "positive_pairs": 0,
+    "primary": "integrated-role novel nonfork prefix2+ complete pairs, zero when retention/disconnection gate fails",
+    "quota_support": false,
+    "total_difference": 0
+  },
+  "prior_M6_hashes_verified": 351,
+  "registration_commit": "10f75f6",
+  "reporting_helper_correction": "reporting_attempt_001/note.json; no scientific or audit change",
+  "scientific_usage": {
+    "calls": 26179560,
+    "candidate_seconds": 24383.932326806244,
+    "cpu_seconds": 26080.664657000198,
+    "receipts": 63666,
+    "uncertain_attempts": 0,
+    "work": 7184578506079
+  },
+  "scientific_wall_seconds": 4249.403466125077,
+  "source_hashes_verified": 301,
+  "status": "complete_audited",
+  "whole_layouts": 2508159
+}
