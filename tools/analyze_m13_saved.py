@@ -49,12 +49,13 @@ for identity in nominees:
 # Parent depth and persistence distinguish repeated root sampling from sustained lineage progress.
 con=sqlite3.connect(f'file:{RUN}/campaign.sqlite?mode=ro',uri=True);con.execute('BEGIN')
 states=unpacked(con.execute('select value from states where stage=-1').fetchone()[0]);registry={i['id']:i for s in states for i in s['population']}
-counts=defaultdict(Counter);parent_depth=defaultdict(Counter);snapshots={};births=Counter();logical=defaultdict(Counter)
+counts=defaultdict(Counter);parent_depth=defaultdict(Counter);snapshots={};births=Counter();logical=defaultdict(Counter);edit_blocks=defaultdict(Counter)
 for n,kind,g,blob in con.execute('select n,kind,generation,decision from stages where complete=1 order by n'):
  for d in unpacked(blob):
   for b in d['births']:
    i=b['item'];births['mutation' if b['events'] else 'immigrant']+=1
    if b['events']:
+    for event in b['events']:edit_blocks[d['name']][str(event['block'])]+=1
     root=i['root'] if i['root'].startswith('m13/reference/') else 'new_random_origin';key=d['name']+'|'+root
     par=registry[i['parent']];assert par['mutation_depth']+1==i['mutation_depth']
     counts[key]['births']+=1;counts[key]['genotype_noop']+=int(all(e['before']==e['after'] for e in b['events']));counts[key]['parent_depth_zero']+=int(par['mutation_depth']==0)
@@ -79,7 +80,7 @@ reference_integration={i:integration(caps[i],caps['m13/reference/quota_parent'],
 result=dict(reference_integration_capability_only=reference_integration,scope='Saved-record analysis only; no fresh inference, cases, reselection or temporal tracing.',nominees=diagnostics,
  model_details=model_details,nominee_aliases=len(choices['comparisons']),nominee_identities=len(nominees),
  nominee_genotypes=len({Genome.from_dict(choices['items'][i]['genome']).digest for i in nominees}),
- physical_final_models=len(responses['models']),birth_counts=dict(births),
+ physical_final_models=len(responses['models']),birth_counts=dict(births),actual_edit_blocks={k:dict(v) for k,v in edit_blocks.items()},
  parent_allocation={k:dict(**v,parent_depth_histogram=dict(parent_depth[k])) for k,v in counts.items()},
  population_root_snapshots=snapshots,logical_query_counts={k:dict(v) for k,v in logical.items()})
 writej(OUT/'saved_diagnostics.json',result)

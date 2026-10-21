@@ -35,34 +35,57 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M13-STATUS-START -->
-Current October21,2026: **M13 RUNNING.**
-User Proceed after M12 authorizes the new mutation-policy comparison. Read
- docs/MUTATION_SCOPE.md, docs/MUTATION_SCOPE_PROGRESS.md and results/mutation_scope/
-registration.json/config.json/software_verification.json/storage_plan.json.
-Six96 populations,three focused/broad pairs,exact M10 founders and paired RNG;
-both use exact M11 BANK development panels,48fresh+48fixed ordinary training.
-Focused50/50C6gate/generic vs unchanged M1 all-block generic operator; policy
-package comparison,not isolated causal block-location test. Selection unchanged,
-imperfect intermediates eligible,7immigrants+45mutants/round,12protected/archive16.
-64round cap/assessment16/1200soft/1800hard seconds/10workers/8GiBRSS/6Mcalls/1e13work.
-Storage600MiB INCLUDING backups;16GiB disk floor. New reference+delta exclusion
-ledger and lossless compact specs/receipts avoid old-ledger duplication. Old records
-MUST NOT be changed/compacted/deleted. Backups depend on checksummed immutable bases.
-Admission reserves600MiB abovefloor. Prediction551MiB inclbackup/margin,notguarantee.
-15focusedtests pass(notfullsuite),1248discardedbirths/RNGreplayed;first test setup
-failed onlymissingbasetemp parent,logpreserved;fixedsetupand4affectedtestsPASS.
+Current October21,2026: **M13 COMPLETE, fresh-confirmed and AUDITED.** Read
+results/mutation_scope/report.md,summary.json,saved_diagnostics.json,
+interpretation_evidence.json,selection_diagnostics.json,bothaudits,preservation/
+completion.json and docs/MUTATION_SCOPE_PROGRESS.md. No scientific process or
+heartbeat running. Registrationb6a0c23/logs10469c3 BEFORElaunch;choices7f9213a
+BEFOREfreshconfirmation. Preserve allold/currentseals/journals;neverextend,
+reselectonfinaldata,overwriteauditpackets ordelete/compact old histories.
 
-Registrationb6a0c23 published through10469c3 BEFORElaunch; workflowPID27315.
-Journal runs/mutation_scope_m13/campaign.sqlite. Check workflow_status.json/logs.
-Durable tools/run_m13_workflow.py searches, publishes exactchoices BEFOREfresh
-1680case confirmation, fullsearchgrade/selection/mutation/RNG/native-sample audit,
-final/analysis/ALL-native audit. Inspect existingworkflow/process/journal BEFORE any
-launch;neverduplicatewriter,extendbounds,reselect,orchange sealedfiles. Stop/preserve
-onerror/guard/auditfailure;noautomaticfailedresume. Sources+founders+config+protocol
-must be pushed BEFORE scientificgeneration. Strictintegrationprimary/deeper/long
-gates frozen;no general/speedclaim. Afteraudits: actualreport/ancestry/costs/reference
-comparisons,guardedbackups,ALLlayoutreference+deltaexport,completionseals andpush.
-No phase beyondM13 authorized. Historicalstatusblocksbelow are completed studies.
+Six96populations/3focused-broadpairs,exactM10founders/12protected,sameM1VM/banks/
+selection. Focused50/50C6gate/generic vsordinaryall-blockM1mutation;policy-package
+contrast,notisolatedblock-locationcausality. SameM11BANKdevelopmentpanels botharms,
+48commonfresh+48fixedordinarytrain,115x392assessment.64round/assessment16;prospective
+storage-limitedcap.128wasNOTpromised. Imperfectintermediateseligible,coverage/neutral
+reservesremain. Primary0–0allpairs,broad_supportFALSE;ALL18rolesFAILintegration/
+deeper/long/combined. All0/96nonforkprefix2+pairs,0/82ordinary16+bases. NOselected
+nominee succeeds onANYfresh individualinputbeyondprotectedunion. All6primaries
+g1/depth1,96pairs/200corridors/20ordinary/168nopath/0false,exactparentcompleteskillsets,
+0specialist-onlypairs.5parentoutputsall1680match,broad2matches1590withnonewsuccess.
+Rep0upstreamfocusg16/b21+broadg16/b32depth1fromshared_child:128pairs/9ordinary,
+SAMErootcompleteskills;13-edgeperfectsuccessinherited. Otherupstreamnominees
+unchangedgatedspecialistclones128pairs/15ordinary. No acquisition/general/speedclaim.
+
+17,280mutants+2,688immigrants,566genotypenoopscharged.8,640mutations/arm;broadhits
+all8blocks. Finallive/archive maxdepthfocused21/7/10,broad14/10/8. PosthocSAVED
+firsttrainexposure(8505newbornmutants/arm,rounds1..63):focused2372novelterminal
+behaviors/193survive(8.1%);broad3300/161(4.9%),4broadimmigrant-rootdescendantsexcluded
+fromrootcomparison. NovelANDallparentretention1focused/0broad. Individualtraininput
+gainersbeyondunion69/48survivefocused,45/32broad. Notindependent/confirmation/evidence
+ofusefulnovelty;someintermediatesDOsurvive. Notproofarchitectureorsearchisclosed.
+
+Search3,972,664calls/546.34wall/3107.23candidate/3336.65CPUsec/3.550GiBRSS.
+Final22modelsx1680=36,960calls/16.02wall/32.20candidate. Equalperpop589824train+
+225400assessmentnominalqueries;physicaldedupnotCPUequality. FirstsearchauditPASS
+152.33s:ALLgrades/39727nativereplays/69transitions/19968births/RNG/selection/freeze.
+FirstfinalPASS32.69s:ALL36960native+grades/summary/5040conventionalcalls;controls
+allcorrect. SharedVM/reproduction,independentgrader.15focusedtestspass,notfullsuite;
+firsttmpdirsetupfailurepreserved,fixedsetup4affectedtestspass. No uncertainattempts,
+guardbypass/scientificrepair;332registration+388priorM12hashes+12M12localrecordsverify.
+
+Newreference+deltaSQLitejournals+verifiedAPIbackupsunder runs/mutation_scope_m13;
+~332MiBafterpreservation/~16.42GiBfree,600MiBcap/16GiBfloorunchanged. Oldjournals
+UNCHANGED. ALL2,994,399layouts(initial2,946,279+42,440search+5,680final) exportedvia
+whole_layout_exclusions.json REFERENCEmanifest. Use referenced_campaign_store.
+load_layouts forrecursiveverifiedbase/part/deltaunion. NEVERtreatnewlayouts table
+aloneaswholehistory. BackupsDEPENDonpreservedimmutablebasemanifests/parts. No raw
+SQLite inGit. Reports/compactevidence/completionseals pushed;futureauditnewpacket.
+Noheartbeatcreated. NextproposalONLY:matchedselectioncomparison,currentretention-
+firstversusexplicitboundedexploratorybehavior/partial-successallocation,commonbroad
+operator/banks/protectedreferences/strictfreshacceptance. No novelty-only floodreward,
+nohardcodedsolver. Concreteprotocol/storageplanbeforefuturesearch;16.42GiBfreeleaves
+littleheadroom. No M14 authorized/launched. Random-originresearchremainscentral.
 <!-- M13-STATUS-END -->
 
 

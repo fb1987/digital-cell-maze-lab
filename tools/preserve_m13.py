@@ -3,7 +3,7 @@ import sys,json,sqlite3,shutil
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from maze_evolution.mutation_scope import ROOT,OUT,RUN,check,readz,writej,sha,load_layouts,write_layouts
-from maze_evolution.deep_campaign_store import writer_lock
+from maze_evolution.deep_campaign_store import writer_lock,unpacked
 from maze_evolution.referenced_campaign_store import Journal
 
 def size():return sum(p.stat().st_size for b in (RUN,OUT) for p in b.rglob('*') if p.is_file())
@@ -31,10 +31,12 @@ def main():
         with writer_lock(d):
             src=sqlite3.connect(f'file:{source}?mode=ro',uri=True)
             assert src.execute('pragma integrity_check').fetchone()==('ok',)
-            base=load_layouts(Path(json.loads(__import__('zlib').decompress(src.execute("select value from settings where key='layout_base'").fetchone()[0]))['path']))
+            reference=unpacked(src.execute("select value from settings where key='layout_base'").fetchone()[0])
+            assert sha(Path(reference['path']))==reference['sha256']
+            base=load_layouts(Path(reference['path']));assert len(base)==reference['count']
             assert base|{r[0] for r in src.execute('select hash from layouts')}==layouts
             j=Journal.__new__(Journal);j.db=src;j.directory=d;j.base=base;chain=j.verify_chain();assert not j.pending()
-            entry=dict(layouts=len(layouts),chain=chain,journal=dict(path=str(source.relative_to(ROOT)),sha256=sha(source),bytes=source.stat().st_size))
+            entry=dict(layouts=len(layouts),immutable_base_reference=reference,chain=chain,journal=dict(path=str(source.relative_to(ROOT)),sha256=sha(source),bytes=source.stat().st_size))
             needed=sum(p.stat().st_size for p in d.glob('campaign.sqlite*'))+32*2**20
             if size()+needed>=config['storage_bytes'] or shutil.disk_usage(RUN).free-needed<config['disk_free_floor_bytes']:
                 entry['backup']=dict(status='blocked_by_registered_storage_or_free_disk_bound',required_bytes=needed)

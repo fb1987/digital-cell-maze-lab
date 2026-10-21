@@ -44,7 +44,7 @@ def main():
   whole_layouts=preservation['whole_layouts'],policy_comparison=summary['policy_comparison'],
   acquisition_gate_passes={k:sum(bool(c[k]) for c in summary['conditions']) for k in ('upstream_acquisition','long_ordinary_acquisition','combined_transfer')},
   integration_gate_passes=sum(c['integration']['integration_pass'] for c in summary['conditions']),no_reselection=True,next_experiment_launched=False,heartbeat_created=False))
- files=dict(reg['files']);paths=[*OUT.rglob('*'),ROOT/'docs/MUTATION_SCOPE_PROGRESS.md',ROOT/'tools/analyze_m13_saved.py',ROOT/'tools/interpret_m13_saved.py',ROOT/'tools/report_m13.py',ROOT/'tools/preserve_m13.py',Path(__file__).resolve()]
+ files=dict(reg['files']);paths=[*OUT.rglob('*'),ROOT/'docs/MUTATION_SCOPE_PROGRESS.md',ROOT/'tools/diagnose_m13_selection.py',ROOT/'tools/analyze_m13_saved.py',ROOT/'tools/interpret_m13_saved.py',ROOT/'tools/report_m13.py',ROOT/'tools/preserve_m13.py',Path(__file__).resolve()]
  files.update({str(p.relative_to(ROOT)):sha(p) for p in paths if p.is_file()})
  local={str(p.relative_to(ROOT)):dict(sha256=sha(p),bytes=p.stat().st_size) for p in RUN.rglob('*') if p.is_file() and (p.suffix in ('.sqlite','.log') or p.name=='workflow_status.json')}
  storage=sum(p.stat().st_size for b in (RUN,OUT) for p in b.rglob('*') if p.is_file());free=shutil.disk_usage(RUN).free

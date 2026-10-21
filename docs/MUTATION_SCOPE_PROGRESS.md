@@ -1,28 +1,62 @@
-# M13 preparation and launch handoff
+# M13 completion handoff
 
-The user authorized proceeding after M12. M13 is registered and ready to publish
-before scientific generation. Read MUTATION_SCOPE.md and registration.json.
-No M12 records altered.15focused tests pass across two logs; first four setup
-errors were a missing basetemp parent, not failed scientific assertions. All1248
-fixture births replay; zero-round full pipeline audits PASS.332registration hashes
-and388priorM12 completion hashes verified. Exact M11 DEVELOPMENT banks reused.
+M13 COMPLETE and AUDITED. Registrationb6a0c23 and logs10469c3 pushed before
+scientific generation; exactchoices/ancestry/finalstates7f9213a before fresh1680
+confirmation. Workflow27315 finished normally; no active search or heartbeat.
+Read report.md,summary.json,saved_diagnostics.json,interpretation_evidence.json,
+selection_diagnostics.json,bothaudits,preservation.json and completion.json under
+results/mutation_scope. Never resume/extend/reselect oroverwrite sealed actions.
 
-New reference+delta journals avoid copying2,938,095 old hashes into eachdatabase.
-Lossless zlib9 specs/receipts, original decoded data/charging/state hashes; tested
-interrupt recovery, lock exclusion, corruption/omission and backup equality.
-64round prospective cap selected for storage;551MiB projected including backups
-and50% search margin,600MiB phase cap,16GiB freefloor. No old compaction/deletion.
-Sources/config/founders/protocol freeze before scientific generation. Check launch.json
-and runs/mutation_scope_m13/workflow_status.json before taking any action. No duplicate
-workflow/writer. No scientific changes after registration, no final-data reselection.
+Six96populations,three pairedfocused/broad,exactM10founders. BothuseM11BANK panels,
+sameM1VM/selection/coverage/neutralreserve,48fresh+48fixedordinaryqueries. Focused
+50/50C6gate/generic vsunchangedgenericM1allblocks:policycomparison,notisolatedlocation.
+64matchedrounds (prospective diskconstraint),128notpromised;10workers,20minsoft/
+30minhard,600MiBstorageincludingbackups,16GiBdiskfloor. No knownsolverinjection.
 
-Workflow tools/run_m13_workflow.py automatically publishes choice freeze before
-fresh1680case confirmation, fullsearch and ALL-native final audits. Explicitly
-authorized confirmation, not the old deep-campaign restriction. On guard/error stop,
-preserve logs/receipts, diagnose without changingsealedfiles. No automatic resume.
-Report and guarded backups/completion sealing remain after audited_ready_for_report.
-No newphase beyond M13. Read-only inspector tools/inspect_mutation_scope.py.
+Primary0–0all3pairs,broadsupportFALSE;ALL18rolesFAILintegration/deeper/long/combined.
+All0/96targetnonforkprefix2+pairs,0/82ordinary16+bases. No nominee ANYnewsuccessful
+freshindividualinputbeyondprotectedunion. All6primariesgeneration1/depth1,96pairs/
+200corridors/20ordinarybothposes/168nopath/0false,exactparentcompleteskillsets and0
+specialist-onlypairs.5matchparentmask/status/ticksall1680;broad2matches1590,nonew
+success. Fourprimaryordinaryroutes8/12edges,inherited. Rep0upstreamnomineesfocused
+16/b21,broad16/b32:depth1fromshared_child,128pairs/9ordinary,SAMErootskills,13-edge
+perfectsuccessinherited. Otherupstreamroles unchangedgatedspecialistfounderclones,
+128pairs/15ordinary. Nonzero mutationdepth/novelgenotypeisnotacquiredcapability.
 
-Launched durable workflowPID27315 at epoch1792619734.6210098; registration
-b6a0c23 and all registered logs published through10469c3 BEFORE scientific generation.
-Ten workers; same sealed64-round/600MiB bounds. See launch.json.
+17280mutationbirths+2688immigrants,566noopscharged;8640edits/arm. Broadhitsall8blocks.
+Finalmaxlive/archive depthfocused21/7/10,broad14/10/8. Posthocfirst-training-exposure
+analysis uses8505mutants/arm fromrounds1–63,not64assessment-onlybirths. Fourbroad
+unprotectedimmigrantrootdescendants excludedfromrootcomparison. Novelterminal
+behaviorvsprotected:focused2372/193survive(8.1%),broad3300/161(4.9%). Novelbehavior
+ANDallparentretention1focused/0broad. Anyindividualtraininputgainers69/48survive
+focused,45/32broad. Descriptivecorrelateddevelopment evidence,notnewprimary/confirmation;
+novelfailurescounttoo. Some imperfect/gainingintermediatesDOsurvive. No extra inference.
+
+Search3972664calls/546.335wall/3107.234candidate/3336.652CPU/1006624099103work/
+3.550GiBRSS. Final22modelsx1680=36960calls/16.019wall/32.198candidate/34.736CPU.
+Eachpop589824train+225400assessmentnominalqueries;physicaldedup,notCPUequality.
+FirstsearchauditPASS152.33s:ALL3972664grades/39727nativesamples/69transitions/
+19968births/allselection/mutation/RNG/corpora/tasks/frozenartifacts. Firstfinal
+PASS32.69s:ALL36960native/grades/summary+5040BFS/A*/bitwave;intactcontrolsallcorrect.
+SharedproductionVM/reproduction,independentgrader,notsecondinterpreter.15focused
+tests pass,notfullsuite. Firsttests4tmpdirsetuperrorspreserved;createparentand4
+relevanttestspass. Fixture1248births/RNGreplay,controls5712callsallcorrect. No sealed
+scientificrepair/uncertainattempt/guardbypass.332registration+388M12completionhashes
+and12M12localrecords unchanged. Prior software failures/history remainpreserved.
+
+Newreferenced_campaign_store journals retainimmutablehistoricallayoutbase bySHA
+andnewdeltas;specs/receiptslosslesszlib9. Fulllogicalexclusionsstillverified.
+Originalsearch/finaljournals+verifiedSQLiteAPIbackupsretainedunder runs/mutation_scope_m13,
+~332MiBafterpreservation,16.42GiBfree. Alltablecontents/integrity/chainsmatch. These
+backupsDEPENDonrecordedimmutablebasefiles. Oldjournals/ledgersNOTaltered/deleted.
+ALL2994399layouts:initial2946279,search42440,final5680,viawhole_layout_exclusions.json.
+Loadrecursivelywith referenced_campaign_store.load_layouts;rawlayouts tableisDELTA,
+notwholehistory. Completionhashes/compactreports/logspushed,rawjournalsGitignored.
+Noheartbeatcreated. Futureauditfreshoutputpacketonly.
+
+NextproposalONLY:newmatchedselectioncomparison retainingprotectedreferences,
+commonbroadmutation/banks/queries/freshstandards;currentretention-firstrankingvs
+explicitboundedexplorationofdistinctbehaviorswithusefulpartialsuccess. Do not
+rewardnoveltyalone/floods;definebeforegeneration. Needfuturestorageplan/additional
+capacity;16.42GiBfreeisnearfloor. This64roundresultdoesnotclose random-origin
+researchorprovebroadersearchneverhelps. No furtherphaseauthorized/launched.
