@@ -35,23 +35,54 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M12-STATUS-START -->
-Current October21,2026: **M12 persistent-retention evolution PREPARING.** User
-explicitly authorized “Proceed” afterM11. Read docs/RETENTION_MEMORY.md and
-RETENTION_MEMORY_PROGRESS.md. No scientific generation yet; preserve ALL old
-sources/seals/journals. Six96populations,three paired current/bank histories,
-exactM10founders+12protected,unchangedM1VM/C6operator/selection. Only fixedordinary
-measurement differs. Reuse exactthreeM11DEVELOPMENTpanels,never confirmation.
-NamespacedIDs prevent cross-panel collision;cells/endpoints/layoutshashes unchanged.
-Common48fresh rotating+48assignedpersistent ordinary=96trainqueries/organism;
-115x392nominalassessment/pop;no hard full-retention gate on everynewborn.
-128roundmax/20minsoft/30minhard,10workers,10Mcalls/1e13work,8GiBRSS,
-6GiBtotalstorageinclbackups/16GiBdiskfloor. Final900s/1Mcalls;audits1800seach.
-Freeze/pushchoices BEFOREfresh1680confirmation;fullsearchgrades+selection/mutation/
-RNG/corpora audits withfixednative samples;ALL-nativefinalaudit. Confirmation
-explicitlyauthorized. No secondwriter,failedautomaticresume,sealedit/guardbypass/
-selectiononfinal ornextphase. Primaryintegration+separatedeeper/longgatesfixed.
-Firstdiscardedpreflight foundcross-panelcase-IDcollision;newnamespacefixbefore
-registration,failedrecords/alllayouts preserved. M11/oldscientificdataunchanged.
+Current October21,2026: **M12 COMPLETE, fresh-confirmed and AUDITED.** Read
+results/retention_memory/report.md,summary.json,saved_diagnostics.json,
+interpretation_evidence.json,bothaudits,preservation/completion.json and
+ docs/RETENTION_MEMORY_PROGRESS.md. No process/nextphase/heartbeat running.
+Registration4f17a5b BEFOREsearch;choices67d2213 BEFOREfreshconfirmation. Preserve
+allold/newseals/journals;noextension/reselection/rawrerunovercompletedpackets.
+
+Six96populations,3pairedcurrent/bank,exactM10founders/12protected,sameM1VM/C6
+mutation/selection.48commonfresh+48persistentordinarytrain;115x392assessment.
+ExactM11DEVELOPMENTpanelsreused,neverconfirmation;repIDsnamespacedonly.128rounds.
+PRIMARY0–0all3pairs/bank_supportFALSE;all18rolesFAILintegration/deeper/long/combined.
+All0/96nonforkprefix2+pairs,0/84ordinary16+bothposes. Freshparent20ordinary;
+bankprimaryretain20/20each,current20/20,5/20,16/20(total20/8/18). Current1apparent
+integrationon1-parent-successdevelopmentpanelFAILSfresh(15parentlosses);current2
+unchangedclonalgatedpartial. Bankprimaries96pairs/200corridors/20ordinary/168nopath/
+0false,allparentcompleteskillsets,0of32specialist-onlypairs. Descriptiveretention
+benefit,notprimaryintegrationadvantage/general-solving. Allnominees168nopath/0false.
+
+Bank0g125/b50has23M12birthsfromgatedpartial:recovers4knownordinary,loses2ordinary+
+16specialistpairs;complete-skillsetsmatchparent,but1632/1680mask/status/stepsmatch;
+oneNEW4-edgeR9inputbeyondprotectedunionONLYonepose. Otherbankprimaries/current0
+matchparentoutputsall1680. Currentsecondaryg115/b47(1birth)gains7-edgeP11bothposes
+beyondunionbutroot128→92pairs/166→60corridors/17→11ordinary;g128/b13(36births)
+gains4-edgeP11bothposesbut128→116pairs/166→88corridors/17→15ordinary. No8+ordinary
+basebeyondunion. Smallacquisitionspreserved,notintegratedprogress/speedclaim.
+
+Search7,573,888calls/1003.95wall/6168.79candidate/6656.08CPUseconds/3.232GiBRSS;
+34,560mutants+5,376immigrants,1104noopscharged. Final29modelsx1680=48,720calls/
+13.77wall/41.94candidate. Equalperpop1,179,648train+225,400assessmentnominalqueries.
+Freshparentsuccesspresentations350each;fixedcurrent384/128/896vsbank3072each,
+repetitionsnotuniquecases. FirstsearchauditPASS243.16s:ALLgrades/55,538native
+samples/all133transitions/39,936births/selection/mutation/RNG/corpora/freeze.
+FirstfinalPASS28.15s:ALL48,720native+grades/summary+5040conventionalevaluations.
+Controlsallcorrect. SharedVM/reproduction,independentgrader.12focusedtestspass,
+notfullsuite. Pre-regcase-IDcollisioncaught/fixedinNEWM12namespacing;failedtest/
+rehearsal/layoutspreserved.339registration+348priorM11hashesunchanged. No uncertain
+attempts/guardbypass/scientificrepair. No knownsolverinjection;random-origincentral.
+
+Originaljournals+verifiedSQLiteAPIbackupsunder runs/retention_memory_m12 retained;
+~2.983GiBpreservation/~16.88GiBfreebeforefinalpublication. ALL2,938,095layouts
+exportedviachecksummedCHUNKS: whole_layout_exclusions.json;loadALLpartswith
+retention_bank.load_layouts. Rawjournalslocal,compactevidence/logs/reportssealed/
+pushed. Futureauditsnewpacketsonly. NoM12heartbeatcreated. NextproposalONLY:
+keepbanks,testbroaderall-blockmutationvsC6withmatchedfounders/budgets/selection.
+CurrentinheritedlineagesmodifyC6only;donotscaleunchangedoperatororcloserandomorigin.
+Keepdeeperacquisitiongate. STORAGEplanningneededbeforelongnextphase:~16.9GiBfree
+vs16floor. AvoidfullduplicatehistoricallayoutledgersinNEWjournalsorarrangeadditional
+archivecapacity;NEVERdeleteoldhistories,altersealsorlowerguards. NoM13authorized.
 <!-- M12-STATUS-END -->
 
 

@@ -1,0 +1,45 @@
+{
+  "disk_free_bytes": 18121125888,
+  "final_new_layouts": 5584,
+  "initial_layouts": 2849107,
+  "search_new_layouts": 83404,
+  "stages": {
+    "final": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 467193856,
+        "integrity_check": "ok",
+        "path": "runs/retention_memory_m12/final/backups/completed.sqlite",
+        "sha256": "b1be18e0017dd5855601650c3d74a1c4978f14fead1e020eae49b47ccd9e3f22",
+        "status": "verified"
+      },
+      "chain": "398e5cb61cab920d543bf3168da8f8156ae5a7f846310f2111152cb99b9cdf00",
+      "journal": {
+        "bytes": 467193856,
+        "path": "runs/retention_memory_m12/final/campaign.sqlite",
+        "sha256": "bb1af295916681359cd9e26be7f7f5fd2b1f3f507ed178a2ff432650ef919aa4"
+      },
+      "layouts": 2938095
+    },
+    "search": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 901849088,
+        "integrity_check": "ok",
+        "path": "runs/retention_memory_m12/backups/completed.sqlite",
+        "sha256": "4a23f0cb99082f7cb6e45d99afa3b5858da8e56a96830d06a4b830a9166f44de",
+        "status": "verified"
+      },
+      "chain": "185c8f25f91bd1637d602a8486257844f9371979049067c191d64f31eb9cd6c5",
+      "journal": {
+        "bytes": 901849088,
+        "path": "runs/retention_memory_m12/campaign.sqlite",
+        "sha256": "ddb3fdb38212ce817571c629d6019272fd677813355dcaaa12e561f2deba537c"
+      },
+      "layouts": 2932511
+    }
+  },
+  "status": "verified",
+  "storage_bytes": 3203118589,
+  "whole_layouts": 2938095
+}

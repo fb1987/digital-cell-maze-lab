@@ -1,28 +1,70 @@
-# M12 preparation handoff
+# M12 completion handoff
 
-User authorized the bounded matched retention-bank evolution comparison by “Proceed”
-after M11. M12 is preparing; no scientific search has launched. Read
-`docs/RETENTION_MEMORY.md`. Preserve all M11 and earlier sources, seals and journals.
+M12 persistent-retention evolution is COMPLETE and AUDITED. Registration4f17a5b
+pushed BEFOREnew scientific generation;exactchoices/ancestry/finalstates67d2213
+pushed BEFOREfresh confirmation. Durable workflowPID13276 completed normally in
+runs/retention_memory_m12/workflow_status.json. No scientific process ornextphase
+running; noM12heartbeat created. Read results/retention_memory/report.md,summary.json,
+saved_diagnostics.json,interpretation_evidence.json,bothaudits,preservation.json
+andcompletion.json. Preserve all old/current sources,seals,journals andbackups.
+No extension,resumption,final-data reselection orrawrerun over sealed packets.
 
-Six populations of96,three paired current/bank histories. Same exact12protected
-M10references+42clones each gated partial/specialist,independent future RNG perpair,
-shared RNG/genomes withinpair. Same M1runtime/C6operator/selection. Reuse the exact
-three M11 development panels,never confirmation. Namespaces separate each panel's
-case/base/template IDs without changing cells/endpoints/hash. Each training batch:
-48common fresh rotating challenges+48assigned persistent ordinary queries=96.
-Assessment392assigned queries,115nominalslots. Equal evaluations,notCPU. Imperfect
-intermediates remain eligible; no full-retention prerequisite for every birth.
+Six96populations/three paired current-bank histories;exact12M10protected founders
+and42clones each gatedpartial/specialist. SameM1VM/C6operator/selection andfuture
+pairedRNG. Reuseexact3M11DEVELOPMENTpanels,neverconfirmation. IDs namespaced byrep,
+stimuli unchanged. Eachtraininground48commonfreshrotating+48fixedordinary inputs;
+assessment115x392nominalslots. Imperfectintermediates remainedeligible.128rounds
+completed atceiling,1003.95searchwallsec,under20minsoft/30minhard.10workers.
 
-128rounds maximum,20minsoft/30minhard,10workers,10Mcalls/1e13work,8GiBRSS,
-6GiBtotalstorage INCLUDINGbackups,16GiBfreefloor. Final separate900s/1Mcalls;
-audits1800s each. Prospective integration primary and separate deeper/long gates
-unchanged. Freeze/push nominees before1680freshconfirmation,allsearchgrades and
-selection/mutation/RNG audit+native samples,ALL-native final audit. Confirmation
-authorized inM12. No automatic failure resume,secondwriter,guardbypass ornextphase.
+PRIMARY0–0all3pairs;bank_supportFALSE;ALL18rolesFAILintegration/deeper/long/combined.
+All0/96nonforkprefix2+pairs and0/84ordinary16+bothposes. Freshfixedparentordinary20;
+bankprimaryretention20/20each,current20/20,5/20,16/20(totalordinary20/8/18).
+Current1developmentintegrationPASSon1ordinaryparentsuccessdoesnottransfer:15lost,
+3differentgains,all32specialistpairsretained;gateFAIL. Current2primaryunchanged
+clonalgatedpartial,notM12acquisition. Bankprimaries96pairs/200corridors/20ordinary/
+168correctno-path/0false,ALLparentcompleteskillsets,but0specialist-onlypairs.
+Descriptiveretentionbenefit,notprimaryintegrationadvantage/general-solving.
 
-First discarded pre-registration rehearsal had a case-ID collision when combining
-M11's three independently named panels. The new provenance test detected altered
-parent-success denominators. Corrected ONLY new M12 panel identity namespacing;
-old panels/stimuli/scientificrecords unchanged. Failed test,originalrehearsal and
-allgeneratedlayouts retained underdiscarded_namespace_failure_001. Corrected
-rehearsal replays1248births,allcontrols pass; 12 focused tests pass (not full suite), including zero-round search/freeze/audit and full confirmation/analysis/ALL-native audit on excluded fixture. Initial exclusions2,849,107. No scientific-source repair after registration.
+Bank0g125/b50has23M12birthsfromgatedpartial;recovers4knownordinary,lost2ordinary
+and16prefix0specialistpairs versusroot. Fourcomplete-skillsetsmatchfixedparent;
+mask/status/stepsmatch1632/1680inputs,oneNEW4-edgeR9inputbeyondprotectedunion
+ONLYonepose. Otherbankprimariesandcurrent0matchparentoutputsall1680sampledinputs.
+Secondarycurrent1g115/b47(1birth)gainsone7-edgeP11bothposecasebeyondunion,but
+root128→92pairs/166→60corridors/17→11ordinary. Current2g128/b13(36births)gainsone
+4-edgeP11bothposecasebeyondunion,but128→116pairs/166→88corridors/17→15ordinary.
+No8+ordinarybasebeyondprotectedunion. Preserveboundedgainswithoutcallingintegration.
+Allnominees168correctno-path/0false. No newspeed/multirange/general-solverclaim.
+
+34,560mutationbirths+5,376immigrants;1,104genotypenoopscharged. Final live/archive
+maxdepth8/27/20/11/37/16forcurrent0/bank0/current1/bank1/current2/bank2. Actualroot
+allocation/persistenceexported. Eachpopfreshparentsuccesspresentations350;fixed
+current384/128/896versusbank3072each. Repetitionsnotuniqueevidence. Nominalperpop
+1,179,648train+225,400assessmentqueries,equalacrossall6,notCPU. Scientificsearch
+7,573,888calls/6168.79candidate/6656.08CPUseconds/1,922,867,052,564work/3.232GiBRSS.
+Final29physicalmodelsx1680=48,720calls/13.77wall/41.94candidate/45.95CPU.
+FirstsearchauditPASS243.16s:ALL7,573,888grades/55,538fixednativereplays/all133
+transitions/39,936births/selection/mutation/RNG/corpora/freeze. FirstfinalPASS28.15s:
+ALL48,720nativeoutputs/grades/summary+5040conventionalcalls. Allcontrols correct.
+SharedVM/reproduction,independentgrader. Zero uncertainattempts/guards/extensions/
+post-registration scientificrepairs.339registration+348priorM11completionhashes
+verify.12focusedtests pass,notfullsuite. Firstdiscardedpre-regrehearsalcase-ID
+collision caughtbyprovenancetest;namespacefixonly,newM12code;failedpacket/logs/
+alllayouts preserved. Corrected1248fixturebirths replayed,softwarepipeline passes.
+
+Originalsearch/finaljournals+verifiedSQLiteAPIbackups retainedlocally. Alltable
+contents/integrity/chainsmatch. Totalpreservation~2.983GiB;~16.88GiBfree before
+finalpublication,above16GiBfloor. ALL2,938,095layouts(initial2,849,107+83,404search+
+5,584final). whole_layout_exclusions.json isCHUNKmanifest;loadALLpartswith
+retention_bank.load_layouts. Do nottreatasoldgziphashlist oromitparts. RawSQLite
+notGittracked. Compactevidence/logs/reportseals committed/pushed;futureauditnew
+packetonly. AGENTS deliberatelymutable,notpartofcompletionseal.
+
+NextproposalONLY: retainbankmeasurement,thenmatchedC6vsbroadergenericall-block
+mutationunderthesamebank/founders/budgets/intermediatecapacity. Currentinherited
+lineagescannotincrementallyedittheother7blocks;randomimmigrantscan,butsubsequent
+editsstillC6. This limitsinterpretation;do notclose random-originresearch orscale
+unchangedoperator blindly. No knownsolver/backtrace/matinginjection. Require
+separatedeeperacquisitionbeyondroots/protectedunion. Before substantialnextsearch,
+addressactualdiskheadroom:~16.9GiBfreevs16floor. Consideravoidingduplicationof
+immutablehistoricallayoutledgerinNEWjournals oradditionalarchivalstorage,without
+altering/deletingoldrecords orloweringguards. NoM13authorized/launched.
