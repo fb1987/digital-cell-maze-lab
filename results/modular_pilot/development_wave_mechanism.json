@@ -1,0 +1,585 @@
+{
+  "checked_emitted_reachable": 168,
+  "composition_limitation": "Recorded, exact within-genome computational reuse. No sexual recombination, no controlled crossover benefit, and no causal policy advantage over resampling is inferred.",
+  "consequence": "An accumulating breadth-first wave grows from the goal by one edge every two ticks. When it reaches the source, the hardware halt condition emits the entire distance ball, not a selected return path.",
+  "descendant_metrics": {
+    "by_domain": {
+      "corridor": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 40,
+        "optimal": 40,
+        "valid": 40
+      },
+      "disconnected": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 8,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_disconnected/9": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_perfect/11": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 2,
+        "valid": 2
+      },
+      "ordinary_random/9": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "paired": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 80,
+        "optimal": 16,
+        "valid": 16
+      }
+    },
+    "by_pair_stratum": {
+      "fork/0": {
+        "correct": 8,
+        "opportunities": 8
+      },
+      "fork/1": {
+        "correct": 0,
+        "opportunities": 8
+      },
+      "fork/2": {
+        "correct": 0,
+        "opportunities": 8
+      },
+      "fork/4": {
+        "correct": 0,
+        "opportunities": 8
+      },
+      "fork/8": {
+        "correct": 0,
+        "opportunities": 8
+      }
+    },
+    "false_no_path": 0,
+    "inputs": 200,
+    "ordinary_bases_both_poses": 1,
+    "pair_opportunities": 40,
+    "paired": 8,
+    "work": 19438933
+  },
+  "development_versus_root": {
+    "acquisition_gate": true,
+    "broad_transfer_flag": false,
+    "gate_checks": {
+      "contexts": true,
+      "false_no_path": true,
+      "new_pairs": true,
+      "retention": true
+    },
+    "lost_ordinary_bases": 0,
+    "lost_pair_keys": [],
+    "lost_pairs": 0,
+    "new_ordinary_base_keys": [
+      "validation/ordinary/perfect/11/16000/perfect/11x11"
+    ],
+    "new_ordinary_bases": 1,
+    "new_ordinary_by_domain": {
+      "ordinary_perfect/11": 1
+    },
+    "new_pair_contexts": 4,
+    "new_pair_keys": [
+      [
+        "validation/core/a(2, 3)/straight/c0/s0/fork/p0",
+        0
+      ],
+      [
+        "validation/core/a(2, 3)/straight/c0/s0/fork/p0",
+        4
+      ],
+      [
+        "validation/core/a(2, 3)/turning/c1/s0/fork/p0",
+        0
+      ],
+      [
+        "validation/core/a(2, 3)/turning/c1/s0/fork/p0",
+        4
+      ],
+      [
+        "validation/core/a(3, 4)/straight/c2/s0/fork/p0",
+        0
+      ],
+      [
+        "validation/core/a(3, 4)/straight/c2/s0/fork/p0",
+        4
+      ],
+      [
+        "validation/core/a(3, 4)/turning/c3/s0/fork/p0",
+        0
+      ],
+      [
+        "validation/core/a(3, 4)/turning/c3/s0/fork/p0",
+        4
+      ]
+    ],
+    "new_pairs": 8,
+    "retention": {
+      "corridors": 1.0,
+      "pairs": null
+    }
+  },
+  "equations": [
+    "C1(t+1,p)=any open neighbor q with C6(t,q)>0",
+    "C2(t+1,p)=C1(t,p) OR C2(t,p)",
+    "C6(t+1,p)=C1(t,p) OR C6(t,p)",
+    "C7(t+1,p)=C1(t,p) OR C7(t,p)"
+  ],
+  "identity": "m1/modular/0/familiar/mutation/g24/b39",
+  "initialization": "C1 is a one-tick goal pulse; C2,C6,C7 start zero. Therefore C2=C6=C7 at every completed tick.",
+  "label": "Post-hoc mechanistic explanation on saved development outputs; zero new candidate calls or mazes",
+  "limitation": "The proof concerns the output/halt dependency cone. Other channels still execute and affect work/quiescence; finite budgets may stop inference before the wave arrives. This does not establish a shortest-path solver or a benefit over random resampling.",
+  "matched": [
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/1/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p1/corridor/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p1/corridor/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/0/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/1/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p2/corridor/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p2/corridor/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/0/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/1/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p4/corridor/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p4/corridor/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/0/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/1/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p8/corridor/0/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p8/corridor/1/d4-0",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/0/d4-4",
+    "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/1/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p0/corridor/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p0/corridor/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/0/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/1/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p1/corridor/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p1/corridor/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/0/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/1/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p2/corridor/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p2/corridor/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/0/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/1/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p4/corridor/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p4/corridor/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/1/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p8/corridor/0/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p8/corridor/1/d4-0",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+    "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/1/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p0/corridor/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p0/corridor/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/0/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/1/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p1/corridor/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p1/corridor/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/0/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/1/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p2/corridor/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p2/corridor/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/0/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/1/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p4/corridor/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p4/corridor/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/0/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/1/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p8/corridor/0/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p8/corridor/1/d4-0",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/0/d4-4",
+    "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/1/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p0/corridor/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p0/corridor/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/0/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/1/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p1/corridor/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p1/corridor/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/0/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/1/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p2/corridor/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p2/corridor/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/0/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/1/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p4/corridor/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p4/corridor/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/0/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/1/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p8/corridor/0/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p8/corridor/1/d4-0",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+    "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/1/d4-4",
+    "validation/ordinary/perfect/11/0/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/0/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/4000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/4000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/8000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/8000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/12000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/12000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/16000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/16000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/20000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/20000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/24000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/24000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/28000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/28000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/32000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/32000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/36000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/36000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/40000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/40000/perfect/11x11/d4-4",
+    "validation/ordinary/perfect/11/44000/perfect/11x11/d4-0",
+    "validation/ordinary/perfect/11/44000/perfect/11x11/d4-4",
+    "validation/ordinary/random/9/r0/0/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/0/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/4000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/4000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/8000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/8000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/12000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/12000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/16000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/16000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/20000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/20000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/24000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/24000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/28000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/28000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/32000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/32000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/36000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/36000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/40000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/40000/random/9x9/d4-4",
+    "validation/ordinary/random/9/r0/44000/random/9x9/d4-0",
+    "validation/ordinary/random/9/r0/44000/random/9x9/d4-4"
+  ],
+  "mutation_depth": 12,
+  "other_statuses": [
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/4000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/4000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/8000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/8000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/12000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/12000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/16000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/16000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/20001/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/20001/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/24000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/24000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/28000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/28000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/32000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/32000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/36000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/36000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/40000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/40000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/44000/disconnected/9x9/d4-0",
+      "reachable": false,
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/44000/disconnected/9x9/d4-4",
+      "reachable": false,
+      "status": "quiescent"
+    }
+  ],
+  "predicted_rasters_and_ticks_exact": true,
+  "recorded_composition": [
+    {
+      "detail": "An existing OR node becomes block7 output: goal-channel signal OR own prior state.",
+      "generation": 2,
+      "operation": "duplicate_node"
+    },
+    {
+      "detail": "Block2 neighbor-min computation copied into channel1; its live input remains channel6.",
+      "generation": 3,
+      "operation": "copy_block"
+    },
+    {
+      "detail": "Block7 accumulator copied into block6 with generic self-channel rebinding.",
+      "generation": 8,
+      "operation": "copy_block"
+    },
+    {
+      "detail": "Block6 accumulator copied into output block2 with generic self-channel rebinding.",
+      "generation": 23,
+      "operation": "copy_block"
+    },
+    {
+      "detail": "Later edit to block4 is outside the output/halt dependency cone.",
+      "generation": 24,
+      "operation": "operand"
+    }
+  ],
+  "root": "m1/modular/0/founder/79",
+  "root_metrics": {
+    "by_domain": {
+      "corridor": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 40,
+        "optimal": 20,
+        "valid": 20
+      },
+      "disconnected": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 8,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_disconnected/9": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_perfect/11": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_random/9": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "paired": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 80,
+        "optimal": 0,
+        "valid": 0
+      }
+    },
+    "by_pair_stratum": {
+      "fork/0": {
+        "correct": 0,
+        "opportunities": 8
+      },
+      "fork/1": {
+        "correct": 0,
+        "opportunities": 8
+      },
+      "fork/2": {
+        "correct": 0,
+        "opportunities": 8
+      },
+      "fork/4": {
+        "correct": 0,
+        "opportunities": 8
+      },
+      "fork/8": {
+        "correct": 0,
+        "opportunities": 8
+      }
+    },
+    "false_no_path": 0,
+    "inputs": 200,
+    "ordinary_bases_both_poses": 0,
+    "pair_opportunities": 40,
+    "paired": 0,
+    "work": 48261701
+  }
+}

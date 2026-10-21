@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 Current update (October20 local / October21 UTC,2026): **C1 confirmation is
-COMPLETE and audited; M1 modular random-origin pilot is RUNNING.** User authorized
+COMPLETE and audited; M1 search is COMPLETE, with its audit RUNNING.** User authorized
 completion of the three-step reboot goal. Read `docs/GENERAL_SOLVER_REBOOT_PROGRESS.md`
 and `docs/MODULAR_PILOT.md`. C1 registration1114ea6/completiond664007 are pushed;
 its source/results are sealed. It confirms narrow acquired abilities in three
@@ -44,7 +44,8 @@ related descendants, but no broad ordinary transfer; see
 
 M1 registrationf18edcd was pushed BEFORE search.24 populations of96, flat/modular
 ×familiar/broad curriculum×mutation/resampling×3 independent founder replicates,
-128 rounds. No known solver in a random lineage.10 workers; durable journal
+128 rounds completed normally;9,009,064 physical calls,1,255.38 wall seconds,
+159,744 births. No known solver in a random lineage.10 workers; durable journal
 `runs/modular_pilot_m1/campaign.sqlite`, log`session_001.log`, launch metadata
 `results/modular_pilot/launch.json`. Never start a second writer or edit sealed
 source/configuration/fixtures. Read-only status: `.venv/bin/python

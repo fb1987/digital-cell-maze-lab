@@ -1,0 +1,6962 @@
+{
+  "items": {
+    "m1/modular/0/broad/mutation/g122/b30": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "ops": {
+            "AND": 2,
+            "MUX": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            4,
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            2,
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            0,
+            7,
+            8
+          ],
+          "ops": {
+            "CONST": 1,
+            "COPY": 1,
+            "EQ": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            1,
+            11
+          ],
+          "ops": {
+            "COPY": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 12,
+      "total_instructions": 84
+    },
+    "m1/modular/0/broad/mutation/g123/b45": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "ops": {
+            "AND": 2,
+            "MUX": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            4,
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            2,
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            0,
+            7,
+            8
+          ],
+          "ops": {
+            "CONST": 1,
+            "COPY": 1,
+            "EQ": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            1,
+            11
+          ],
+          "ops": {
+            "COPY": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 12,
+      "total_instructions": 85
+    },
+    "m1/modular/0/broad/mutation/g46/b2": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            1,
+            3,
+            7,
+            8
+          ],
+          "ops": {
+            "AND": 2,
+            "MUX": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            4,
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            2,
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            0,
+            7,
+            8
+          ],
+          "ops": {
+            "CONST": 1,
+            "COPY": 1,
+            "EQ": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 12,
+      "total_instructions": 81
+    },
+    "m1/modular/0/broad/mutation/g59/b22": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9,
+            15
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 16
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            1,
+            16
+          ],
+          "ops": {
+            "COPY": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 17
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            17
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 18
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            12
+          ],
+          "ops": {
+            "COPY": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            7,
+            13
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            4,
+            13
+          ],
+          "ops": {
+            "EQ": 1,
+            "MUX": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            4,
+            6,
+            7
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 12,
+      "total_instructions": 130
+    },
+    "m1/modular/0/broad/mutation/g63/b39": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9,
+            15
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 16
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            1,
+            16
+          ],
+          "ops": {
+            "COPY": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 17
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            17
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 18
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            12
+          ],
+          "ops": {
+            "COPY": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            7,
+            13
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            4,
+            13
+          ],
+          "ops": {
+            "EQ": 1,
+            "MUX": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            4,
+            6,
+            7
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 12,
+      "total_instructions": 130
+    },
+    "m1/modular/0/broad/mutation/g7/b4": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            0,
+            11,
+            14
+          ],
+          "ops": {
+            "ADD": 1,
+            "AND": 1,
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 15
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            1,
+            2,
+            6,
+            14
+          ],
+          "ops": {
+            "CONST": 1,
+            "COPY": 1,
+            "MUX": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            0,
+            14
+          ],
+          "ops": {
+            "COPY": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 15
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            2,
+            3,
+            6,
+            9,
+            11,
+            14
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "EQ": 3,
+            "NEIGHBOR": 1,
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 6,
+          "reads_channels": [
+            6,
+            7
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 15
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            8,
+            14
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 15
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            4,
+            13
+          ],
+          "ops": {
+            "EQ": 1,
+            "MUX": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            4,
+            6,
+            7
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7,
+            13
+          ],
+          "ops": {
+            "ADD": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            5
+          ],
+          "reads_flags": [
+            9,
+            10
+          ],
+          "total_nodes": 14
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 18,
+      "total_instructions": 126
+    },
+    "m1/modular/0/broad/resample/g111/b45": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            3,
+            5,
+            9
+          ],
+          "ops": {
+            "EQ": 2,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            2,
+            6
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            2,
+            6,
+            7,
+            9
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "EQ": 1,
+            "OR": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            0,
+            1,
+            2
+          ],
+          "reads_flags": [
+            8,
+            11
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            2,
+            3,
+            9
+          ],
+          "ops": {
+            "CONST": 1,
+            "NOT": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            4,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            1,
+            2,
+            9
+          ],
+          "ops": {
+            "COPY": 1,
+            "EQ": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            4,
+            5
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7,
+            9
+          ],
+          "ops": {
+            "ADD": 1,
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 10
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 15,
+      "total_instructions": 88
+    },
+    "m1/modular/0/broad/resample/g8/b10": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            7,
+            9
+          ],
+          "ops": {
+            "ADD": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            9,
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            2,
+            9
+          ],
+          "ops": {
+            "REMOTE_MIN": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            9,
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            3,
+            9
+          ],
+          "ops": {
+            "ADD": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "COPY": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        2,
+        3,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 5,
+      "total_instructions": 86
+    },
+    "m1/modular/0/familiar/mutation/g100/b16": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            3,
+            4,
+            6,
+            11,
+            12
+          ],
+          "ops": {
+            "MUX": 1,
+            "NOT": 2,
+            "REMOTE": 1,
+            "REMOTE_MIN": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 6,
+          "reads_channels": [
+            1,
+            4,
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 4,
+      "total_instructions": 116
+    },
+    "m1/modular/0/familiar/mutation/g28/b12": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "COPY": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            9,
+            12
+          ],
+          "ops": {
+            "COPY": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [],
+          "reads_flags": [
+            8,
+            9
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            3,
+            13
+          ],
+          "ops": {
+            "NOT": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 5,
+      "total_instructions": 116
+    },
+    "m1/modular/0/familiar/mutation/g30/b18": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "COPY": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            9,
+            12
+          ],
+          "ops": {
+            "COPY": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [],
+          "reads_flags": [
+            8,
+            9
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            3,
+            13
+          ],
+          "ops": {
+            "NOT": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 5,
+      "total_instructions": 116
+    },
+    "m1/modular/0/familiar/mutation/g98/b17": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            3,
+            4,
+            6,
+            11,
+            12
+          ],
+          "ops": {
+            "MUX": 1,
+            "NOT": 2,
+            "REMOTE": 1,
+            "REMOTE_MIN": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 6,
+          "reads_channels": [
+            1,
+            4,
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 4,
+      "total_instructions": 116
+    },
+    "m1/modular/0/familiar/resample/g109/b39": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            1,
+            3,
+            10
+          ],
+          "ops": {
+            "EQ": 1,
+            "NOT": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            1,
+            10
+          ],
+          "ops": {
+            "ADD": 1,
+            "AND": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            2
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            0,
+            1,
+            10
+          ],
+          "ops": {
+            "ADD": 1,
+            "OR": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            3,
+            5
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            8,
+            11
+          ],
+          "total_nodes": 10
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 12,
+      "total_instructions": 95
+    },
+    "m1/modular/0/familiar/resample/g16/b9": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            0,
+            9
+          ],
+          "ops": {
+            "MUX": 1,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            2,
+            4,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "COPY": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            7,
+            8,
+            9
+          ],
+          "ops": {
+            "AND": 1,
+            "MUX": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "reads_flags": [
+            9,
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 8,
+      "total_instructions": 87
+    },
+    "m1/modular/0/founder/50": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7,
+            11
+          ],
+          "ops": {
+            "ADD": 1,
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            0,
+            11
+          ],
+          "ops": {
+            "COPY": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            4,
+            11
+          ],
+          "ops": {
+            "MUX": 1,
+            "OR": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            4
+          ],
+          "reads_flags": [
+            8,
+            9
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            0,
+            5,
+            11
+          ],
+          "ops": {
+            "ADD": 2,
+            "NOT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [
+            8,
+            10
+          ],
+          "total_nodes": 12
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 13,
+      "total_instructions": 106
+    },
+    "m1/modular/0/founder/79": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4,
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            9,
+            12
+          ],
+          "ops": {
+            "COPY": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [],
+          "reads_flags": [
+            8,
+            9
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            4,
+            6,
+            11,
+            12
+          ],
+          "ops": {
+            "MUX": 1,
+            "NOT": 1,
+            "REMOTE": 1,
+            "REMOTE_MIN": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 5,
+          "reads_channels": [
+            1,
+            4,
+            5
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            0,
+            10,
+            12
+          ],
+          "ops": {
+            "AND": 1,
+            "COPY": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 13,
+      "total_instructions": 112
+    },
+    "m1/modular/1/broad/mutation/g112/b33": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            3,
+            11
+          ],
+          "ops": {
+            "COPY": 1,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            2,
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            4,
+            7
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 6,
+      "total_instructions": 108
+    },
+    "m1/modular/1/broad/mutation/g113/b43": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            3,
+            11
+          ],
+          "ops": {
+            "COPY": 1,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            2,
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            4,
+            7
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 6,
+      "total_instructions": 107
+    },
+    "m1/modular/1/broad/mutation/g122/b21": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            15
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 16
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            15
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 16
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            4,
+            14
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            2,
+            4,
+            15
+          ],
+          "ops": {
+            "ADD": 1,
+            "CONST": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 16
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            3,
+            13
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "MUX": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            6
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            3,
+            13
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            15
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 16
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 7,
+      "total_instructions": 129
+    },
+    "m1/modular/1/broad/mutation/g123/b9": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            3,
+            13
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            1,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            15
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 16
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            4,
+            14
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            2,
+            4,
+            15
+          ],
+          "ops": {
+            "ADD": 1,
+            "CONST": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 16
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            3,
+            13
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "MUX": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            6
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 14
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            3,
+            13
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            15
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 16
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 7,
+      "total_instructions": 127
+    },
+    "m1/modular/1/broad/mutation/g31/b6": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            1,
+            11
+          ],
+          "ops": {
+            "ADD": 1,
+            "COPY": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            0,
+            5,
+            8,
+            9,
+            10
+          ],
+          "ops": {
+            "MUX": 1,
+            "NEIGHBOR": 1,
+            "NEIGHBOR_COUNT": 3
+          },
+          "potential_output_nodes": 5,
+          "reads_channels": [
+            0,
+            2,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            3,
+            10
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            5,
+            7
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            2,
+            7,
+            10
+          ],
+          "ops": {
+            "EQ": 1,
+            "NOT": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            3
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            3,
+            5,
+            10
+          ],
+          "ops": {
+            "ADD": 1,
+            "COPY": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            5,
+            7
+          ],
+          "reads_flags": [
+            9,
+            10
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 18,
+      "total_instructions": 97
+    },
+    "m1/modular/1/broad/resample/g110/b50": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "AND": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            4,
+            6
+          ],
+          "ops": {
+            "SUB": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            5,
+            6
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [
+            9,
+            11
+          ],
+          "total_nodes": 7
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            5,
+            6
+          ],
+          "ops": {
+            "ADD": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 7
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 10,
+      "total_instructions": 66
+    },
+    "m1/modular/1/broad/resample/g25/b3": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            0,
+            3,
+            5,
+            8
+          ],
+          "ops": {
+            "CONST": 1,
+            "COPY": 1,
+            "EQ": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            0,
+            8
+          ],
+          "ops": {
+            "AND": 1,
+            "COPY": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            4,
+            8
+          ],
+          "ops": {
+            "REMOTE_MIN": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            2,
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ops": {
+            "ADD": 1,
+            "MUX": 1,
+            "OR": 2,
+            "SUB": 1
+          },
+          "potential_output_nodes": 5,
+          "reads_channels": [
+            0,
+            4,
+            5,
+            6
+          ],
+          "reads_flags": [
+            9,
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            6,
+            7
+          ],
+          "ops": {
+            "AND": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            3,
+            7
+          ],
+          "ops": {
+            "ADD": 1,
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            0,
+            7
+          ],
+          "ops": {
+            "ADD": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 19,
+      "total_instructions": 76
+    },
+    "m1/modular/1/familiar/mutation/g113/b30": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            12
+          ],
+          "ops": {
+            "MUX": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            3
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "AND": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            2,
+            7
+          ],
+          "ops": {
+            "MUX": 1,
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 6,
+      "total_instructions": 81
+    },
+    "m1/modular/1/familiar/mutation/g119/b7": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            3,
+            6,
+            12
+          ],
+          "ops": {
+            "MIN_POS": 1,
+            "MUX": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "AND": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            2,
+            7
+          ],
+          "ops": {
+            "MUX": 1,
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 9,
+      "total_instructions": 81
+    },
+    "m1/modular/1/familiar/mutation/g50/b0": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            0,
+            7
+          ],
+          "ops": {
+            "COPY": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            2
+          ],
+          "reads_flags": [
+            8,
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "AND": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            2,
+            7
+          ],
+          "ops": {
+            "MUX": 1,
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            0,
+            3,
+            7
+          ],
+          "ops": {
+            "COPY": 2,
+            "NOT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 4,
+      "total_instructions": 73
+    },
+    "m1/modular/1/familiar/mutation/g92/b9": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            2,
+            9
+          ],
+          "ops": {
+            "COPY": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            2,
+            9
+          ],
+          "ops": {
+            "COPY": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "AND": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "SUB": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            2,
+            8
+          ],
+          "ops": {
+            "MUX": 1,
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 6,
+      "total_instructions": 83
+    },
+    "m1/modular/1/familiar/mutation/g93/b23": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            2,
+            9
+          ],
+          "ops": {
+            "COPY": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            2,
+            9
+          ],
+          "ops": {
+            "COPY": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "AND": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "SUB": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            2,
+            8
+          ],
+          "ops": {
+            "MUX": 1,
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 6,
+      "total_instructions": 83
+    },
+    "m1/modular/1/familiar/resample/g40/b32": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            2,
+            3,
+            7,
+            11
+          ],
+          "ops": {
+            "MUX": 2,
+            "SUB": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            2,
+            5
+          ],
+          "reads_flags": [
+            8,
+            9,
+            11
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4,
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            3,
+            11
+          ],
+          "ops": {
+            "ADD": 1,
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            3,
+            5,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "EQ": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "COPY": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 11
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 7,
+      "total_instructions": 101
+    },
+    "m1/modular/1/founder/77": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            14
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            3,
+            14
+          ],
+          "ops": {
+            "ADD": 2
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            2,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            2,
+            4,
+            14
+          ],
+          "ops": {
+            "ADD": 1,
+            "CONST": 1,
+            "MUX": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            6,
+            7
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 15
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            10,
+            14
+          ],
+          "ops": {
+            "CONST": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            0,
+            6,
+            14
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "OR": 1,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 15
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            2,
+            14
+          ],
+          "ops": {
+            "ADD": 1,
+            "EQ": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 15
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            13
+          ],
+          "ops": {
+            "AND": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4,
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 14
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 15,
+      "total_instructions": 127
+    },
+    "m1/modular/1/founder/83": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            4,
+            5,
+            8,
+            9
+          ],
+          "ops": {
+            "OR": 1,
+            "REMOTE": 1,
+            "SUB": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            0,
+            1,
+            3,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "COPY": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 4,
+      "total_instructions": 84
+    },
+    "m1/modular/2/broad/mutation/g12/b1": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            3,
+            5,
+            7
+          ],
+          "ops": {
+            "COPY": 1,
+            "MIN_POS": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "SUB": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            8,
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            0,
+            7
+          ],
+          "ops": {
+            "MUX": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        2,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 3,
+      "total_instructions": 73
+    },
+    "m1/modular/2/broad/mutation/g28/b40": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            3,
+            5,
+            7
+          ],
+          "ops": {
+            "COPY": 1,
+            "MIN_POS": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "MUX": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [],
+          "total_nodes": 7
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        2,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 3,
+      "total_instructions": 73
+    },
+    "m1/modular/2/broad/mutation/g29/b16": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            3,
+            4,
+            7
+          ],
+          "ops": {
+            "COPY": 1,
+            "NEIGHBOR_COUNT": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            3,
+            5,
+            7
+          ],
+          "ops": {
+            "COPY": 1,
+            "MIN_POS": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "MUX": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [],
+          "total_nodes": 7
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 6,
+      "total_instructions": 72
+    },
+    "m1/modular/2/broad/mutation/g93/b51": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            0,
+            5,
+            6,
+            9
+          ],
+          "ops": {
+            "ADD": 1,
+            "MUX": 1,
+            "NEIGHBOR_COUNT": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            5,
+            6,
+            8
+          ],
+          "ops": {
+            "ADD": 1,
+            "MUX": 1,
+            "NEIGHBOR_COUNT": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            5
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 6
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 14,
+      "total_instructions": 77
+    },
+    "m1/modular/2/broad/mutation/g94/b26": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            0,
+            5,
+            6,
+            9
+          ],
+          "ops": {
+            "ADD": 1,
+            "MUX": 1,
+            "NEIGHBOR_COUNT": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            5,
+            6,
+            8
+          ],
+          "ops": {
+            "ADD": 1,
+            "MUX": 1,
+            "NEIGHBOR_COUNT": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            5
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 6
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 10,
+      "total_instructions": 77
+    },
+    "m1/modular/2/broad/resample/g54/b8": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            0,
+            12
+          ],
+          "ops": {
+            "ADD": 1,
+            "COPY": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 13
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            2,
+            7,
+            12
+          ],
+          "ops": {
+            "AND": 1,
+            "MUX": 1,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5,
+            7
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            0,
+            12
+          ],
+          "ops": {
+            "ADD": 1,
+            "CONST": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 13
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            6,
+            11
+          ],
+          "ops": {
+            "COPY": 1,
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "COPY": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            1,
+            3,
+            4,
+            6,
+            11
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "MUX": 1,
+            "OR": 3
+          },
+          "potential_output_nodes": 5,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "reads_flags": [
+            8,
+            11
+          ],
+          "total_nodes": 12
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 14,
+      "total_instructions": 107
+    },
+    "m1/modular/2/familiar/mutation/g1/b2": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            7,
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            1,
+            7
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            4,
+            6,
+            8
+          ],
+          "ops": {
+            "ADD": 1,
+            "MUX": 1,
+            "OR": 2
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            5,
+            7
+          ],
+          "ops": {
+            "ADD": 2,
+            "XOR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [
+            8,
+            11
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 12,
+      "total_instructions": 78
+    },
+    "m1/modular/2/familiar/mutation/g100/b14": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            0,
+            2,
+            9
+          ],
+          "ops": {
+            "AND": 1,
+            "EQ": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            5,
+            7
+          ],
+          "ops": {
+            "ADD": 2,
+            "XOR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [
+            8,
+            11
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 4,
+      "total_instructions": 78
+    },
+    "m1/modular/2/familiar/mutation/g22/b10": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 9
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            0,
+            2,
+            9
+          ],
+          "ops": {
+            "AND": 1,
+            "EQ": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            2,
+            7
+          ],
+          "reads_flags": [
+            10
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            1,
+            5,
+            7
+          ],
+          "ops": {
+            "ADD": 2,
+            "XOR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            6
+          ],
+          "reads_flags": [
+            8,
+            11
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ARGMIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 4,
+      "total_instructions": 77
+    },
+    "m1/modular/2/familiar/resample/g19/b21": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            1,
+            11
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            0,
+            3,
+            4,
+            9,
+            10,
+            11
+          ],
+          "ops": {
+            "AND": 2,
+            "EQ": 1,
+            "MUX": 1,
+            "NEIGHBOR_COUNT": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 6,
+          "reads_channels": [
+            0,
+            4,
+            6,
+            7
+          ],
+          "reads_flags": [
+            9,
+            11
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "XOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            9,
+            10
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "OR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            11
+          ],
+          "ops": {
+            "REMOTE": 1,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            2,
+            4
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 12
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 12
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            11
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [],
+          "total_nodes": 12
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        2,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 2,
+      "total_instructions": 104
+    },
+    "m1/modular/2/familiar/resample/g33/b50": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            0,
+            6,
+            7,
+            10
+          ],
+          "ops": {
+            "COPY": 1,
+            "EQ": 1,
+            "MATCH_NEIGHBOR": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            1,
+            3,
+            4
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            0,
+            10
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            7,
+            10
+          ],
+          "ops": {
+            "COPY": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "CONST": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            3,
+            9
+          ],
+          "ops": {
+            "OR": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            7
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 10
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 14,
+      "total_instructions": 95
+    },
+    "m1/modular/2/founder/22": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            2,
+            7
+          ],
+          "ops": {
+            "COPY": 1,
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            0,
+            7
+          ],
+          "ops": {
+            "COPY": 1,
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            7
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 8
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            0,
+            1,
+            5,
+            7
+          ],
+          "ops": {
+            "ADD": 1,
+            "MUX": 1,
+            "OR": 1,
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "reads_flags": [
+            10,
+            11
+          ],
+          "total_nodes": 8
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 7
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 7
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            6
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 7
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            0,
+            2,
+            6
+          ],
+          "ops": {
+            "ADD": 1,
+            "AND": 1,
+            "SUB": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            3,
+            5,
+            7
+          ],
+          "reads_flags": [
+            8
+          ],
+          "total_nodes": 7
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 14,
+      "total_instructions": 68
+    },
+    "m1/modular/2/founder/27": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NOT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            2,
+            3,
+            10
+          ],
+          "ops": {
+            "MIN_POS": 1,
+            "NEIGHBOR_COUNT": 1,
+            "OR": 1
+          },
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            3,
+            7
+          ],
+          "reads_flags": [
+            11
+          ],
+          "total_nodes": 11
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            10
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            6,
+            10
+          ],
+          "ops": {
+            "ARGMIN_POS": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 11
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "EQ": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 10
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            4,
+            9
+          ],
+          "ops": {
+            "COPY": 1,
+            "NOT": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "MATCH_NEIGHBOR": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "EQ": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 10
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 10,
+      "total_instructions": 92
+    },
+    "m1/modular/2/founder/49": {
+      "blocks": [
+        {
+          "channel": 0,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            2
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 1,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 2,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "REMOTE": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 3,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "NEIGHBOR_COUNT": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 4,
+          "node_indices": [
+            0,
+            9
+          ],
+          "ops": {
+            "OR": 1,
+            "REMOTE_MIN": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            6,
+            7
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 5,
+          "node_indices": [
+            2,
+            9
+          ],
+          "ops": {
+            "NEIGHBOR": 1,
+            "XOR": 1
+          },
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            3,
+            5
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 6,
+          "node_indices": [
+            9
+          ],
+          "ops": {
+            "MIN_POS": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0,
+            1
+          ],
+          "reads_flags": [],
+          "total_nodes": 10
+        },
+        {
+          "channel": 7,
+          "node_indices": [
+            8
+          ],
+          "ops": {
+            "ADD": 1
+          },
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            4
+          ],
+          "reads_flags": [
+            9
+          ],
+          "total_nodes": 9
+        }
+      ],
+      "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+      "output_and_halt_recurrent_channels": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "potential_nodes_in_output_and_halt": 7,
+      "total_instructions": 87
+    }
+  },
+  "label": "Post-hoc static analysis; zero candidate calls"
+}

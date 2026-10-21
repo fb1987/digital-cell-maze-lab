@@ -1,0 +1,2107 @@
+{
+  "dependencies": {
+    "blocks": [
+      {
+        "channel": 0,
+        "node_indices": [
+          12
+        ],
+        "ops": {
+          "ADD": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          0,
+          1
+        ],
+        "reads_flags": [],
+        "total_nodes": 13
+      },
+      {
+        "channel": 1,
+        "node_indices": [
+          13
+        ],
+        "ops": {
+          "MIN_POS": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          7
+        ],
+        "reads_flags": [],
+        "total_nodes": 14
+      },
+      {
+        "channel": 2,
+        "node_indices": [
+          11
+        ],
+        "ops": {
+          "NEIGHBOR_COUNT": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          4
+        ],
+        "reads_flags": [],
+        "total_nodes": 12
+      },
+      {
+        "channel": 3,
+        "node_indices": [
+          3,
+          11
+        ],
+        "ops": {
+          "COPY": 1,
+          "REMOTE_MIN": 1
+        },
+        "potential_output_nodes": 2,
+        "reads_channels": [
+          6
+        ],
+        "reads_flags": [],
+        "total_nodes": 12
+      },
+      {
+        "channel": 4,
+        "node_indices": [
+          2,
+          8
+        ],
+        "ops": {
+          "ARGMIN_POS": 1,
+          "MUX": 1
+        },
+        "potential_output_nodes": 2,
+        "reads_channels": [
+          0,
+          4,
+          7
+        ],
+        "reads_flags": [
+          8
+        ],
+        "total_nodes": 9
+      },
+      {
+        "channel": 5,
+        "node_indices": [
+          13
+        ],
+        "ops": {
+          "MIN_POS": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          7
+        ],
+        "reads_flags": [],
+        "total_nodes": 14
+      },
+      {
+        "channel": 6,
+        "node_indices": [
+          9
+        ],
+        "ops": {
+          "NEIGHBOR_COUNT": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          4
+        ],
+        "reads_flags": [],
+        "total_nodes": 10
+      },
+      {
+        "channel": 7,
+        "node_indices": [
+          12
+        ],
+        "ops": {
+          "ADD": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          1,
+          7
+        ],
+        "reads_flags": [],
+        "total_nodes": 13
+      }
+    ],
+    "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+    "output_and_halt_recurrent_channels": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "potential_nodes_in_output_and_halt": 6,
+    "total_instructions": 105
+  },
+  "genome": {
+    "blocks": [
+      [
+        [
+          12,
+          12,
+          1,
+          3,
+          3,
+          0,
+          64
+        ],
+        [
+          10,
+          13,
+          1,
+          10,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          14,
+          11,
+          0,
+          13,
+          0,
+          64
+        ],
+        [
+          1,
+          15,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          14,
+          16,
+          4,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          4,
+          17,
+          6,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          3,
+          18,
+          10,
+          12,
+          0,
+          0,
+          5
+        ],
+        [
+          4,
+          19,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          2,
+          20,
+          3,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          17,
+          21,
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          22,
+          9,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          5,
+          23,
+          5,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          2,
+          24,
+          1,
+          0,
+          0,
+          0,
+          64
+        ]
+      ],
+      [
+        [
+          12,
+          12,
+          1,
+          3,
+          3,
+          0,
+          64
+        ],
+        [
+          10,
+          13,
+          1,
+          10,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          14,
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          15,
+          11,
+          14,
+          13,
+          0,
+          64
+        ],
+        [
+          1,
+          16,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          14,
+          17,
+          4,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          4,
+          18,
+          2,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          19,
+          14,
+          4,
+          4,
+          0,
+          64
+        ],
+        [
+          2,
+          20,
+          3,
+          14,
+          0,
+          0,
+          64
+        ],
+        [
+          17,
+          21,
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          22,
+          9,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          5,
+          23,
+          5,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          2,
+          24,
+          1,
+          14,
+          0,
+          0,
+          11
+        ],
+        [
+          4,
+          25,
+          7,
+          0,
+          0,
+          0,
+          64
+        ]
+      ],
+      [
+        [
+          1,
+          12,
+          3,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          3,
+          13,
+          4,
+          9,
+          0,
+          0,
+          64
+        ],
+        [
+          11,
+          14,
+          7,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          10,
+          15,
+          7,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          14,
+          16,
+          4,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          1,
+          17,
+          4,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          6,
+          18,
+          3,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          10,
+          19,
+          2,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          11,
+          20,
+          8,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          21,
+          12,
+          1,
+          14,
+          0,
+          1
+        ],
+        [
+          6,
+          22,
+          2,
+          2,
+          0,
+          0,
+          9
+        ],
+        [
+          17,
+          23,
+          4,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      [
+        [
+          2,
+          12,
+          9,
+          10,
+          0,
+          0,
+          10
+        ],
+        [
+          8,
+          13,
+          4,
+          4,
+          0,
+          0,
+          64
+        ],
+        [
+          10,
+          14,
+          9,
+          9,
+          0,
+          0,
+          64
+        ],
+        [
+          15,
+          15,
+          6,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          16,
+          4,
+          5,
+          6,
+          0,
+          64
+        ],
+        [
+          16,
+          17,
+          13,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          16,
+          18,
+          16,
+          13,
+          0,
+          0,
+          64
+        ],
+        [
+          7,
+          19,
+          4,
+          3,
+          2,
+          0,
+          12
+        ],
+        [
+          3,
+          20,
+          10,
+          2,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          21,
+          15,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          6,
+          22,
+          7,
+          2,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          23,
+          15,
+          0,
+          0,
+          0,
+          64
+        ]
+      ],
+      [
+        [
+          14,
+          12,
+          1,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          16,
+          13,
+          2,
+          12,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          14,
+          7,
+          8,
+          0,
+          0,
+          64
+        ],
+        [
+          11,
+          15,
+          3,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          15,
+          16,
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          5,
+          17,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          14,
+          18,
+          3,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          16,
+          19,
+          9,
+          2,
+          0,
+          0,
+          64
+        ],
+        [
+          5,
+          20,
+          5,
+          0,
+          0,
+          0,
+          14
+        ]
+      ],
+      [
+        [
+          12,
+          12,
+          1,
+          3,
+          3,
+          0,
+          64
+        ],
+        [
+          10,
+          13,
+          1,
+          10,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          14,
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          15,
+          11,
+          14,
+          13,
+          0,
+          64
+        ],
+        [
+          1,
+          16,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          14,
+          17,
+          4,
+          3,
+          0,
+          0,
+          10
+        ],
+        [
+          4,
+          18,
+          2,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          4,
+          19,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          2,
+          20,
+          3,
+          14,
+          0,
+          0,
+          64
+        ],
+        [
+          17,
+          21,
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          22,
+          9,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          5,
+          23,
+          5,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          2,
+          24,
+          16,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          4,
+          25,
+          7,
+          0,
+          0,
+          0,
+          64
+        ]
+      ],
+      [
+        [
+          1,
+          12,
+          3,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          3,
+          13,
+          4,
+          9,
+          0,
+          0,
+          64
+        ],
+        [
+          7,
+          14,
+          6,
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          1,
+          15,
+          4,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          6,
+          16,
+          3,
+          0,
+          0,
+          0,
+          14
+        ],
+        [
+          10,
+          17,
+          2,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          18,
+          12,
+          1,
+          14,
+          0,
+          1
+        ],
+        [
+          6,
+          19,
+          2,
+          2,
+          0,
+          0,
+          9
+        ],
+        [
+          17,
+          20,
+          4,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          17,
+          21,
+          4,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      [
+        [
+          12,
+          12,
+          1,
+          3,
+          3,
+          0,
+          64
+        ],
+        [
+          10,
+          13,
+          1,
+          10,
+          0,
+          0,
+          64
+        ],
+        [
+          12,
+          14,
+          11,
+          0,
+          13,
+          0,
+          64
+        ],
+        [
+          1,
+          15,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          14,
+          16,
+          4,
+          3,
+          0,
+          0,
+          64
+        ],
+        [
+          4,
+          17,
+          6,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          3,
+          18,
+          10,
+          12,
+          0,
+          0,
+          5
+        ],
+        [
+          4,
+          19,
+          7,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          2,
+          20,
+          3,
+          6,
+          0,
+          0,
+          64
+        ],
+        [
+          17,
+          21,
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          22,
+          9,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          5,
+          23,
+          5,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          2,
+          24,
+          1,
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    ],
+    "ports": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        6,
+        4
+      ],
+      [
+        5,
+        0,
+        2,
+        3,
+        4,
+        1,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        6,
+        3,
+        4,
+        5,
+        2,
+        7
+      ],
+      [
+        7,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        0
+      ]
+    ],
+    "version": "M1"
+  },
+  "identity": "m1/modular/1/broad/mutation/g84/b11",
+  "interpretation": "One-cell-upstream pair gain is consistent with an output wave delayed one hop relative to the stopping signal and inclusion of the source. It does not establish arbitrary-length branch suppression or a backtrace.",
+  "label": "Post-hoc development diagnosis; zero new calls",
+  "matches": [
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/1/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/0/d4-0",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/1/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-4",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/1/d4-4",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/corridor/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/corridor/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/0/d4-4",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/1/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/corridor/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/corridor/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/0/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/1/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/0/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/1/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/corridor/0/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/corridor/1/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/0/d4-4",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/1/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/0/d4-0",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/1/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/corridor/0/d4-0",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/corridor/1/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/0/d4-4",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/1/d4-4",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/0/d4-0",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/1/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/corridor/0/d4-0",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/corridor/1/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/0/d4-4",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/paired/1/d4-4",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p1/corridor/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p1/corridor/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/0/d4-4",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p1/paired/1/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p2/corridor/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p2/corridor/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/0/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p2/paired/1/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/1/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p4/corridor/0/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p4/corridor/1/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-4",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/1/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-0",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/1/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p8/corridor/0/d4-0",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p8/corridor/1/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/1/d4-4",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/corridor/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/corridor/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/0/d4-4",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/paired/1/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p1/corridor/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p1/corridor/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/0/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p1/paired/1/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/0/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/1/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p2/corridor/0/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p2/corridor/1/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/0/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p2/paired/1/d4-4",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/0/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/1/d4-0",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p4/corridor/0/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p4/corridor/1/d4-0",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/0/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p4/paired/1/d4-4",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/0/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/1/d4-0",
+      "distance": 12,
+      "steps": 25
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p8/corridor/0/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p8/corridor/1/d4-0",
+      "distance": 12,
+      "steps": 25
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/0/d4-4",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p8/paired/1/d4-4",
+      "distance": 12,
+      "steps": 25
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/corridor/0/d4-0",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/corridor/1/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/0/d4-4",
+      "distance": 3,
+      "steps": 7
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/paired/1/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p1/corridor/0/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p1/corridor/1/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/0/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p1/paired/1/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/0/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/1/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p2/corridor/0/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p2/corridor/1/d4-0",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/0/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p2/paired/1/d4-4",
+      "distance": 6,
+      "steps": 13
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/0/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/1/d4-0",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p4/corridor/0/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p4/corridor/1/d4-0",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/0/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p4/paired/1/d4-4",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/1/d4-0",
+      "distance": 12,
+      "steps": 25
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p8/corridor/0/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p8/corridor/1/d4-0",
+      "distance": 12,
+      "steps": 25
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/1/d4-4",
+      "distance": 12,
+      "steps": 25
+    },
+    {
+      "case": "validation/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/ordinary/perfect/11/0/perfect/11x11/d4-4",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/ordinary/perfect/11/4000/perfect/11x11/d4-0",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/ordinary/perfect/11/4000/perfect/11x11/d4-4",
+      "distance": 10,
+      "steps": 21
+    },
+    {
+      "case": "validation/ordinary/perfect/11/8000/perfect/11x11/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/perfect/11/8000/perfect/11x11/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/perfect/11/12000/perfect/11x11/d4-0",
+      "distance": 9,
+      "steps": 19
+    },
+    {
+      "case": "validation/ordinary/perfect/11/12000/perfect/11x11/d4-4",
+      "distance": 9,
+      "steps": 19
+    },
+    {
+      "case": "validation/ordinary/perfect/11/16000/perfect/11x11/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/perfect/11/16000/perfect/11x11/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/perfect/11/20000/perfect/11x11/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/ordinary/perfect/11/20000/perfect/11x11/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/ordinary/perfect/11/24000/perfect/11x11/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/perfect/11/24000/perfect/11x11/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/perfect/11/28000/perfect/11x11/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/perfect/11/28000/perfect/11x11/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/perfect/11/32000/perfect/11x11/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/ordinary/perfect/11/32000/perfect/11x11/d4-4",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/ordinary/perfect/11/36000/perfect/11x11/d4-0",
+      "distance": 9,
+      "steps": 19
+    },
+    {
+      "case": "validation/ordinary/perfect/11/36000/perfect/11x11/d4-4",
+      "distance": 9,
+      "steps": 19
+    },
+    {
+      "case": "validation/ordinary/perfect/11/40000/perfect/11x11/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/perfect/11/40000/perfect/11x11/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/perfect/11/44000/perfect/11x11/d4-0",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/ordinary/perfect/11/44000/perfect/11x11/d4-4",
+      "distance": 2,
+      "steps": 5
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/0/random/9x9/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/0/random/9x9/d4-4",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/4000/random/9x9/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/4000/random/9x9/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/8000/random/9x9/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/8000/random/9x9/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/12000/random/9x9/d4-0",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/12000/random/9x9/d4-4",
+      "distance": 5,
+      "steps": 11
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/16000/random/9x9/d4-0",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/16000/random/9x9/d4-4",
+      "distance": 11,
+      "steps": 23
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/24000/random/9x9/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/24000/random/9x9/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/28000/random/9x9/d4-0",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/28000/random/9x9/d4-4",
+      "distance": 7,
+      "steps": 15
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/32000/random/9x9/d4-0",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/32000/random/9x9/d4-4",
+      "distance": 4,
+      "steps": 9
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/36000/random/9x9/d4-0",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/36000/random/9x9/d4-4",
+      "distance": 8,
+      "steps": 17
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/44000/random/9x9/d4-0",
+      "distance": 13,
+      "steps": 27
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/44000/random/9x9/d4-4",
+      "distance": 13,
+      "steps": 27
+    }
+  ],
+  "mismatches": [],
+  "mutation_depth": 33,
+  "other_cases": [
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/1/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/0/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(2, 3)/turning/c1/s0/fork/p0/disconnected/1/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/0/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/straight/c2/s0/fork/p0/disconnected/1/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/0/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/core/a(3, 4)/turning/c3/s0/fork/p0/disconnected/1/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/4000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/4000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/8000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/8000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/12000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/12000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/16000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/16000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/20001/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/20001/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/24000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/24000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/28000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/28000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/32000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/32000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/36000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/36000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/40000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/40000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/44000/disconnected/9x9/d4-0",
+      "status": "quiescent"
+    },
+    {
+      "case": "validation/ordinary/disconnected/9/r0/44000/disconnected/9x9/d4-4",
+      "status": "quiescent"
+    }
+  ],
+  "prediction": "For emitted reachable cases with d>=2, output the goal-distance ball of radius d-1 plus the source; halt at2d+1 ticks.",
+  "root": "m1/modular/1/broad/mutation/g31/b6",
+  "short_distance_cases": [
+    {
+      "case": "validation/ordinary/random/9/r0/20000/random/9x9/d4-0",
+      "distance": 1,
+      "status": "emitted",
+      "steps": 5
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/20000/random/9x9/d4-4",
+      "distance": 1,
+      "status": "emitted",
+      "steps": 5
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/40000/random/9x9/d4-0",
+      "distance": 1,
+      "status": "emitted",
+      "steps": 5
+    },
+    {
+      "case": "validation/ordinary/random/9/r0/40000/random/9x9/d4-4",
+      "distance": 1,
+      "status": "emitted",
+      "steps": 5
+    }
+  ]
+}

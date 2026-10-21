@@ -1,0 +1,536 @@
+{
+  "dependencies": {
+    "blocks": [
+      {
+        "channel": 0,
+        "node_indices": [
+          12
+        ],
+        "ops": {
+          "XOR": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          6,
+          7
+        ],
+        "reads_flags": [],
+        "total_nodes": 13
+      },
+      {
+        "channel": 1,
+        "node_indices": [
+          12
+        ],
+        "ops": {
+          "REMOTE_MIN": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          6
+        ],
+        "reads_flags": [],
+        "total_nodes": 13
+      },
+      {
+        "channel": 2,
+        "node_indices": [
+          13
+        ],
+        "ops": {
+          "OR": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          1,
+          2
+        ],
+        "reads_flags": [],
+        "total_nodes": 14
+      },
+      {
+        "channel": 3,
+        "node_indices": [
+          9,
+          12
+        ],
+        "ops": {
+          "COPY": 1,
+          "MUX": 1
+        },
+        "potential_output_nodes": 2,
+        "reads_channels": [],
+        "reads_flags": [
+          8,
+          9
+        ],
+        "total_nodes": 13
+      },
+      {
+        "channel": 4,
+        "node_indices": [
+          0,
+          3,
+          4,
+          6,
+          11,
+          12
+        ],
+        "ops": {
+          "MUX": 1,
+          "NOT": 2,
+          "REMOTE": 1,
+          "REMOTE_MIN": 1,
+          "XOR": 1
+        },
+        "potential_output_nodes": 6,
+        "reads_channels": [
+          1,
+          4,
+          5
+        ],
+        "reads_flags": [
+          10
+        ],
+        "total_nodes": 13
+      },
+      {
+        "channel": 5,
+        "node_indices": [
+          13
+        ],
+        "ops": {
+          "NEIGHBOR": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          3
+        ],
+        "reads_flags": [],
+        "total_nodes": 14
+      },
+      {
+        "channel": 6,
+        "node_indices": [
+          13
+        ],
+        "ops": {
+          "OR": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          1,
+          6
+        ],
+        "reads_flags": [],
+        "total_nodes": 14
+      },
+      {
+        "channel": 7,
+        "node_indices": [
+          13
+        ],
+        "ops": {
+          "OR": 1
+        },
+        "potential_output_nodes": 1,
+        "reads_channels": [
+          1,
+          7
+        ],
+        "reads_flags": [],
+        "total_nodes": 14
+      }
+    ],
+    "limitation": "Static backward dependence includes gates and all alternatives. It can overestimate causal activity; no branch feasibility or intervention is inferred.",
+    "output_and_halt_recurrent_channels": [
+      1,
+      2,
+      6,
+      7
+    ],
+    "potential_nodes_in_output_and_halt": 4,
+    "total_instructions": 116
+  },
+  "examples": [
+    {
+      "maze": {
+        "case_id": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0",
+        "cells_hex": "00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000000000000010100000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000101000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000010101010101000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "family": "paired",
+        "goal": 178,
+        "h": 19,
+        "oracle_length": 3,
+        "seed": 7904566862093377950,
+        "sha256": "be2d00503a4ae713816565d1b0b769d6ba95e2e238d952d2e3c6607daf36b02b",
+        "split": "validation",
+        "start": 180,
+        "w": 19
+      },
+      "metadata": {
+        "alternative": [],
+        "arm": [
+          2,
+          3
+        ],
+        "base": "validation/core/a(2, 3)/straight/c0/s0/fork/p0",
+        "clutter": [
+          73,
+          74,
+          125,
+          126,
+          187,
+          188,
+          298,
+          299
+        ],
+        "family": "paired",
+        "graph": "fork",
+        "index": 0,
+        "junction": 180,
+        "path": [
+          180,
+          179,
+          178
+        ],
+        "pose": 0,
+        "prefix": 0,
+        "shape": "straight",
+        "side": 0,
+        "stress": false,
+        "template": "validation/core/a(2, 3)/straight/c0/s0"
+      },
+      "response": {
+        "active": 11317,
+        "array_bytes": 15846,
+        "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p0/paired/0/d4-0",
+        "dispatches": 12760,
+        "exposure_checks": 0,
+        "failure": "",
+        "mask": "000000000000000000000000000000000000000000001c0000000000000000000000000000000000000000000000",
+        "no_path": false,
+        "optimal": true,
+        "partial": 0.9,
+        "range_reads": [
+          5982,
+          0,
+          0,
+          0
+        ],
+        "reachable": true,
+        "reads": 5982,
+        "status": "emitted",
+        "steps": 5,
+        "suppressed_reads": 0,
+        "valid": true
+      }
+    },
+    {
+      "maze": {
+        "case_id": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/0/d4-0",
+        "cells_hex": "00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000000000000010100000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000101000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000010101010101000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "family": "paired",
+        "goal": 178,
+        "h": 19,
+        "oracle_length": 4,
+        "seed": 7904566862093377950,
+        "sha256": "1e4d7a814d3c97567682f56f8950738dea797a111b5a66f1961d431cce9ce655",
+        "split": "validation",
+        "start": 161,
+        "w": 19
+      },
+      "metadata": {
+        "alternative": [],
+        "arm": [
+          2,
+          3
+        ],
+        "base": "validation/core/a(2, 3)/straight/c0/s0/fork/p1",
+        "clutter": [
+          73,
+          74,
+          125,
+          126,
+          187,
+          188,
+          298,
+          299
+        ],
+        "family": "paired",
+        "graph": "fork",
+        "index": 0,
+        "junction": 180,
+        "path": [
+          161,
+          180,
+          179,
+          178
+        ],
+        "pose": 0,
+        "prefix": 1,
+        "shape": "straight",
+        "side": 0,
+        "stress": false,
+        "template": "validation/core/a(2, 3)/straight/c0/s0"
+      },
+      "response": {
+        "active": 15899,
+        "array_bytes": 15846,
+        "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p1/paired/0/d4-0",
+        "dispatches": 17864,
+        "exposure_checks": 0,
+        "failure": "branch_or_cycle",
+        "mask": "000000000000000000000000000000000000000002003c0000000000000000000000000000000000000000000000",
+        "no_path": false,
+        "optimal": false,
+        "partial": 0.3,
+        "range_reads": [
+          8370,
+          0,
+          0,
+          0
+        ],
+        "reachable": true,
+        "reads": 8370,
+        "status": "emitted",
+        "steps": 7,
+        "suppressed_reads": 0,
+        "valid": false
+      }
+    },
+    {
+      "maze": {
+        "case_id": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/0/d4-0",
+        "cells_hex": "00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000000000000010100000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000101000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000010101010101000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "family": "paired",
+        "goal": 178,
+        "h": 19,
+        "oracle_length": 5,
+        "seed": 7904566862093377950,
+        "sha256": "e13da474ebd5542ff1af554c309e40f6b43c5f214b5e1eacb48d6291f96ed081",
+        "split": "validation",
+        "start": 142,
+        "w": 19
+      },
+      "metadata": {
+        "alternative": [],
+        "arm": [
+          2,
+          3
+        ],
+        "base": "validation/core/a(2, 3)/straight/c0/s0/fork/p2",
+        "clutter": [
+          73,
+          74,
+          125,
+          126,
+          187,
+          188,
+          298,
+          299
+        ],
+        "family": "paired",
+        "graph": "fork",
+        "index": 0,
+        "junction": 180,
+        "path": [
+          142,
+          161,
+          180,
+          179,
+          178
+        ],
+        "pose": 0,
+        "prefix": 2,
+        "shape": "straight",
+        "side": 0,
+        "stress": false,
+        "template": "validation/core/a(2, 3)/straight/c0/s0"
+      },
+      "response": {
+        "active": 20467,
+        "array_bytes": 15846,
+        "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p2/paired/0/d4-0",
+        "dispatches": 22968,
+        "exposure_checks": 0,
+        "failure": "branch_or_cycle",
+        "mask": "000000000000000000000000000000000040000002007c0000000000000000000000000000000000000000000000",
+        "no_path": false,
+        "optimal": false,
+        "partial": 0.3,
+        "range_reads": [
+          10782,
+          0,
+          0,
+          0
+        ],
+        "reachable": true,
+        "reads": 10782,
+        "status": "emitted",
+        "steps": 9,
+        "suppressed_reads": 0,
+        "valid": false
+      }
+    },
+    {
+      "maze": {
+        "case_id": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/0/d4-0",
+        "cells_hex": "00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000000000000010100000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000101000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000010101010101000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "family": "paired",
+        "goal": 178,
+        "h": 19,
+        "oracle_length": 7,
+        "seed": 7904566862093377950,
+        "sha256": "a0da5c9ca5c32ed7c1e66e23a4e75b983b8870de0bcd10293139cbd4ff67e867",
+        "split": "validation",
+        "start": 104,
+        "w": 19
+      },
+      "metadata": {
+        "alternative": [],
+        "arm": [
+          2,
+          3
+        ],
+        "base": "validation/core/a(2, 3)/straight/c0/s0/fork/p4",
+        "clutter": [
+          73,
+          74,
+          125,
+          126,
+          187,
+          188,
+          298,
+          299
+        ],
+        "family": "paired",
+        "graph": "fork",
+        "index": 0,
+        "junction": 180,
+        "path": [
+          104,
+          123,
+          142,
+          161,
+          180,
+          179,
+          178
+        ],
+        "pose": 0,
+        "prefix": 4,
+        "shape": "straight",
+        "side": 0,
+        "stress": false,
+        "template": "validation/core/a(2, 3)/straight/c0/s0"
+      },
+      "response": {
+        "active": 29576,
+        "array_bytes": 15846,
+        "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p4/paired/0/d4-0",
+        "dispatches": 33176,
+        "exposure_checks": 0,
+        "failure": "branch_or_cycle",
+        "mask": "00000000000000000000000000010008004000000200fc0000000000000000000000000000000000000000000000",
+        "no_path": false,
+        "optimal": false,
+        "partial": 0.3,
+        "range_reads": [
+          15639,
+          0,
+          0,
+          0
+        ],
+        "reachable": true,
+        "reads": 15639,
+        "status": "emitted",
+        "steps": 13,
+        "suppressed_reads": 0,
+        "valid": false
+      }
+    },
+    {
+      "maze": {
+        "case_id": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/0/d4-0",
+        "cells_hex": "00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000000000000010100000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000000001000101000000000000000000000000000000010000000000000000000000000000000000000100000000000000000000000000000000010101010101000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "family": "paired",
+        "goal": 178,
+        "h": 19,
+        "oracle_length": 11,
+        "seed": 7904566862093377950,
+        "sha256": "dd97a79cd7716cb59aad1a1f38fb572aa6519606c3b3154fb894125e9e063053",
+        "split": "validation",
+        "start": 28,
+        "w": 19
+      },
+      "metadata": {
+        "alternative": [],
+        "arm": [
+          2,
+          3
+        ],
+        "base": "validation/core/a(2, 3)/straight/c0/s0/fork/p8",
+        "clutter": [
+          73,
+          74,
+          125,
+          126,
+          187,
+          188,
+          298,
+          299
+        ],
+        "family": "paired",
+        "graph": "fork",
+        "index": 0,
+        "junction": 180,
+        "path": [
+          28,
+          47,
+          66,
+          85,
+          104,
+          123,
+          142,
+          161,
+          180,
+          179,
+          178
+        ],
+        "pose": 0,
+        "prefix": 8,
+        "shape": "straight",
+        "side": 0,
+        "stress": false,
+        "template": "validation/core/a(2, 3)/straight/c0/s0"
+      },
+      "response": {
+        "active": 47732,
+        "array_bytes": 15846,
+        "case": "validation/core/a(2, 3)/straight/c0/s0/fork/p8/paired/0/d4-0",
+        "dispatches": 53592,
+        "exposure_checks": 0,
+        "failure": "branch_or_cycle",
+        "mask": "00000010008000000400200000010008004000000200fc0000000000000000000000000000000000000000000000",
+        "no_path": false,
+        "optimal": false,
+        "partial": 0.3,
+        "range_reads": [
+          25431,
+          0,
+          0,
+          0
+        ],
+        "reachable": true,
+        "reads": 25431,
+        "status": "emitted",
+        "steps": 21,
+        "suppressed_reads": 0,
+        "valid": false
+      }
+    }
+  ],
+  "identity": "m1/modular/0/familiar/mutation/g24/b39",
+  "label": "Development data only: deterministic first-context/pose0/goal0 examples at all five prefixes; no new inference",
+  "mutation_depth": 12,
+  "root": "m1/modular/0/founder/79"
+}
