@@ -116,3 +116,34 @@ frozen reference40pairs/60corridors/44correctno-path/0false. These counts do not
 establish new skills beyond the protected union or a positive policy primary.
 No independent confirmation yet; registered workflow will stop search and publish
 exact choices before proceeding to audits/confirmation. No intervention needed.
+
+## Search completion and audit: October21,15:44UTC
+
+Search stopped normally at950 matched rounds on its70-minute soft target;
+including final assessment/freeze,4238.54wall seconds (70.64minutes), below90-minute
+hard ceiling.26,149,320physical calls,24,359.25candidate seconds,26,052.98workerCPU
+seconds,7,175,970,719,846work,2.96GiB peak RSS; zero uncertain attempts/guard/error.
+296,400 births expected from950x6x52, pending registered full audit verification.
+
+Exact choices/ancestry/final states/search exclusions/validation/session committed
+and pushed as **313e0c7** before independent confirmation. All six published files
+verified byte-for-byte against that commit and its ancestry in origin/main.
+Workflow now runs search_audit_001 (initialPID88256); at first check had replayed
+through stage256,6,742,672grades/37,571native samples with no error. This is NOT
+an audit PASS yet. No confirmation generated at this check.301registered and
+351M6completionhashes unchanged;~2.13GiB storage,30.95GiB disk free.
+
+Final development assessments900/950 preserved. All18 nominees still have zero
+target nonforkprefix2+ pairs. Quota0 now selects A0 descendant g900/b16 (35M7
+mutation births) for all three roles:38/100pairs,77/100corridors,1/24ordinarybases,
+44/44correctno-path,0false. On identical development cases it gains16prefix0/1
+pairs and loses2 versus A0; loses23A0corridors. It solves both poses of one8-edge
+perfect11 ordinary base absent from the protected union (two new input successes).
+This is a narrow development observation; corridor retention77% fails the strict
+retention gate. It does not establish the policy primary, broad capability or
+confirmation. Same-panel saved-record comparison:monitor_00950.json.
+
+Shared0's g500/b47 retains100corridors/40pairs/44correctno-path; quota1 g500/b40
+andshared2 g697/b47 have78corridors/40pairs/44correctno-path. Frozen controls and
+all roots remain in the published final panel. No reselection, scientific edits
+or additional cases by monitor; wait for automatic audit/confirmation workflow.

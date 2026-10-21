@@ -35,14 +35,17 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M7-STATUS-START -->
-Current October21,2026: **M7 breeding-allocation comparison RUNNING.**
+Current October21,2026: **M7 search COMPLETE; registered search audit RUNNING.**
 User authorized “Please proceed” after M6 report. Read docs/BREEDING_ALLOCATION.md,
 docs/BREEDING_ALLOCATION_PROGRESS.md, results/breeding_allocation/registration.json
 and launch.json. Registration10f75f6 pushed BEFORE scientific generation.
 Workflow tools/run_m7_workflow.py launched14:28:29UTC, PID33929/child33939.
 Journal runs/breeding_allocation_m7/campaign.sqlite; workflow_status.json and
 phase logs there. Readonly tools/inspect_breeding_allocation.py. NEVER duplicate
-workflow/writer or change sealed files. Initial assessment and training active.
+workflow/writer or change sealed files.950matched rounds/70.64min search complete.
+Exact choices/ancestry/states pushed313e0c7 BEFORE freshconfirmation. Workflow now
+in search_audit_001 (initialauditPID88256); confirmation follows only afterPASS.
+Do not restart search or reselect.26,149,320calls/24,359.25candidate sec;noerrors.
 Three paired shared/quota populations per condition (six total),96 each, identical
 ordered genomes/initial RNG within pair; independent RNG across pairs, not origins.
 Seven protected M6-informed references; four focal roots standard0191/A0/standard0434/
