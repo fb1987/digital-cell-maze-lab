@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M13-STATUS-START -->
-Current October21,2026: **M13 registered, launch authorized and imminent.**
+Current October21,2026: **M13 RUNNING.**
 User Proceed after M12 authorizes the new mutation-policy comparison. Read
  docs/MUTATION_SCOPE.md, docs/MUTATION_SCOPE_PROGRESS.md and results/mutation_scope/
 registration.json/config.json/software_verification.json/storage_plan.json.
@@ -52,7 +52,9 @@ Admission reserves600MiB abovefloor. Prediction551MiB inclbackup/margin,notguara
 15focusedtests pass(notfullsuite),1248discardedbirths/RNGreplayed;first test setup
 failed onlymissingbasetemp parent,logpreserved;fixedsetupand4affectedtestsPASS.
 
-Durable tools/run_m13_workflow.py will search, publish exactchoices BEFOREfresh
+Registrationb6a0c23 published through10469c3 BEFORElaunch; workflowPID27315.
+Journal runs/mutation_scope_m13/campaign.sqlite. Check workflow_status.json/logs.
+Durable tools/run_m13_workflow.py searches, publishes exactchoices BEFOREfresh
 1680case confirmation, fullsearchgrade/selection/mutation/RNG/native-sample audit,
 final/analysis/ALL-native audit. Inspect existingworkflow/process/journal BEFORE any
 launch;neverduplicatewriter,extendbounds,reselect,orchange sealedfiles. Stop/preserve

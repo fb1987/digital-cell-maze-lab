@@ -22,3 +22,7 @@ authorized confirmation, not the old deep-campaign restriction. On guard/error s
 preserve logs/receipts, diagnose without changingsealedfiles. No automatic resume.
 Report and guarded backups/completion sealing remain after audited_ready_for_report.
 No newphase beyond M13. Read-only inspector tools/inspect_mutation_scope.py.
+
+Launched durable workflowPID27315 at epoch1792619734.6210098; registration
+b6a0c23 and all registered logs published through10469c3 BEFORE scientific generation.
+Ten workers; same sealed64-round/600MiB bounds. See launch.json.
