@@ -35,11 +35,12 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M3-LIVE-START -->
-Current October21,2026 update: **M3 wave-lineage evolution is RUNNING**. Read
+Current October21,2026 update: **M3 search is COMPLETE; its audit is RUNNING**. Read
 `docs/WAVE_CONTINUATION.md`, `docs/WAVE_CONTINUATION_PROGRESS.md`, and
 `results/wave_continuation/launch.json`. Registration **302cab5** was pushed
-before scientific generation. Workflow PID14955 (initial), search PID14964,
-10 local workers; durable journal `runs/wave_continuation_m3/campaign.sqlite`.
+before scientific generation. Search stopped normally at866 rounds after70.75min;
+choices frozen/pushed d1f988a before confirmation. Workflow PID14955, audit PID67935
+(initial); search PID14964 has exited. Ten search workers; durable journal `runs/wave_continuation_m3/campaign.sqlite`.
 Inspect `workflow_status.json`, `search_001.log` and the read-only command
 `.venv/bin/python tools/inspect_wave_continuation.py`. Never duplicate the writer.
 
@@ -68,8 +69,12 @@ to old studies. No further evolutionary extension or architecture change authori
 All11 focused/related tests pass; real-journal boundary test reuses saved fixture
 receipts with zero extra inference. Four discarded rehearsal rounds replayall1248
 births/RNG; both engineering controls correct on392 and1680 fixtures. No known
-solver enters reproduction. Initial scientific assessment and six matched rounds
-completed normally at launch; no new capability claim yet.
+solver enters reproduction. Final development assessment at866 is frozen. Mixed0 retains24/24 root pairs
+plus the same15-edge ordinary base. Single2 g800/b15 gains8 prefix0 second-junction/
+cycle pairs across2 contexts beyond root/protected union, but retains only8/24
+root pairs and26/100 corridors, with2 false no-path. No registered breadth/retention
+gate passes on development. Search audit must finish before untouched confirmation;
+all final conclusions await confirmation and both audits.
 <!-- M3-LIVE-END -->
 
 
