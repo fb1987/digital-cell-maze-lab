@@ -34,6 +34,50 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M6-STATUS-START -->
+Current October21,2026: **M6 upstream continuation is RUNNING.** User authorized
+"Excellent. Proceed" after M5. Read docs/UPSTREAM_CONTINUATION.md,
+docs/UPSTREAM_CONTINUATION_PROGRESS.md, results/upstream_continuation/registration.json
+and launch.json. Registration **929150f** pushed BEFORE scientific generation.
+Durable tools/run_m6_workflow.py launched12:26:08UTC, initial PID81858,
+child81868, ten workers. Journal runs/upstream_continuation_m6/campaign.sqlite;
+workflow_status.json and separate phase logs there. NEVER start a second writer,
+change sealed sources, reset histories, reselect on final cases or extend bounds.
+Readonly: .venv/bin/python tools/inspect_upstream_continuation.py [--assessment N].
+
+Three96-slot populations share six M5-informed random-origin references and
+30clonal slots each of exactstandard0191 M1body, A0, standard0434. Independent
+future RNG, not independent origins. Old roots/A1 protected; seven immigrants+
+45single-edit children perround,44survivors,16archive. Unchanged M1 runtime,
+no holding extension/known solver/recombination. Target NEWnonforkprefix2+ pairs
+beyond exactrootANDprotectedunion. Gates require90% root pair/corridor/ordinary/
+correctno-path retention AND90% A0 correctno-path set with nonempty denominator,
+zero false no-path. Report useful specialist gains even when this stronger gate
+fails; don't retroactively alter M5 PASS. Three nominationroles integrated,
+upstream-exploratory,ordinary; fixed initial nominees are frozen references.
+
+70min soft search,90min cumulative hard ceiling,4096round/100Mcalls/1e15work caps;
+12GiBRSS/12GiBtotalphase storage inclbackups/16GiBfreefloor. Bound may stop earlier.
+All1,374,083 oldlayouts+8712discardedfixturelayouts excluded:1,382,795initial.
+Ten focused tests pass (not fullsuite),624discarded births/RNGreplayed;controls
+all392/1680fixtureinputs correct; softwarefullaudit/finalpipeline passes onold
+fixtures; all316M5completionhashes unchanged. Original scientific records intact.
+
+Workflow automatically searches, freezes and COMMITS/PUSHES exactchoices BEFORE
+freshconfirmation, audits fullsearchselection/mutation/RNG/grades+native samples
+and frozenartifacts, then runs registered1680-case confirmation/analysis/ALL-native
+finalaudit. Confirmation explicitly authorized by M6; olddeeprestrictionirrelevant.
+On guard/error/auditfailure preserve tracebacks/pendingreceipts, stop and report
+neededrepair; never silently modify seals or automatically resume failed workflow.
+Heartbeat m6-upstream-evolution-follow-through ACTIVEevery15min,quiet onroutine;
+oldheartbeats remainpaused. After bothPASSaudits: thoughtfulactualoutcome/ancestry/
+compute report, all-layout exclusions, guardedverifiedSQLitebackups, completion
+seals, commit/pushcompactevidence, updatehandoff andpausefollow-up. No general-
+solver/speed/policy-causalityclaim without evidence. No newphase beyondM6 authorized.
+Historical status blocks below describe completed studies, not the current process.
+<!-- M6-STATUS-END -->
+
+
 <!-- M5-STATUS-START -->
 Current October21,2026: **M5 COMPLETE, fresh-confirmed and AUDITED.**
 Read results/holding_assay/report.md, summary.json, completion.json, bothaudits,
