@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "maze_evolution/wave_accessibility.py", line 340, in <module>
+    elif args.action=='final-audit':audit(True)
+  File "maze_evolution/wave_accessibility.py", line 325, in audit
+    assert final_analysis()==json.loads((OUT/'final_summary.json').read_text())
+AssertionError
