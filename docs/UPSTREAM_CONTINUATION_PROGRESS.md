@@ -56,3 +56,22 @@ SQLiteAPIbackups underwriterlocks onlyinside12GiBstorage/16GiBfreefloor; preserv
 originals regardless. Export allinitial+search+final generated/rejected/unqueried
 wholelayouts, sealcompletion, updateAGENTS/handoff, commit/pushcompactevidence,
 andpauseheartbeat. Rawjournalsmustremainlocal; neveroverwrite oldsealedpackets.
+
+## Monitor checkpoint — 12:42 UTC
+
+Workflow remains active with the original writer. Read-only status found442
+completed rounds and assessments100/200/300/400 complete. Their immutable
+inspection packets are saved under results/upstream_continuation/development/.
+All nine nomination roles still select unchanged initial A0 clones on the SAME
+392-query development panel:24pairs,100corridors,1ordinary both-pose base,
+44correct no-path and0false. No target nonforkprefix2+ pair is present in these
+nominees. These are inherited development results, not independent confirmation
+or an acquisition claim. All six protected references remain in the comparisons.
+
+Last completed-stage log sampled:5,842,280calls,4920.26summedcandidate seconds,
+5269.38workerCPU seconds,1,596,411,526,114work;0uncertain attempts; about16min
+elapsed. Sampled peak treeRSS2.445GiB, phase storage about0.64GiB,37.27GiB free.
+Live status can include conservative reservations for in-flight tasks, so its
+charged work can temporarily exceed the completed-stage log. All296registration
+files and316M5completion files verify unchanged. No guard/failure or protocol
+change; no actionable capability update. Search continues under existing bounds.
