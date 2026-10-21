@@ -1,0 +1,53 @@
+{
+  "acquisition_gate_passes": {
+    "combined_transfer": 0,
+    "long_ordinary_acquisition": 0,
+    "upstream_acquisition": 0
+  },
+  "audits": {
+    "final": {
+      "conventional_calls": 5040,
+      "independent_candidate_grades": 16800,
+      "metrics_recomputed": true,
+      "native_replays": 16800,
+      "source_and_corpus_hashes": true,
+      "status": "PASS",
+      "wall_seconds": 11.819236250012182
+    },
+    "search": {
+      "all_selection_mutation_rng": true,
+      "births_replayed": 280176,
+      "chain": "98d4bc316f1636b1821693a6cb455c6312f74104f52c0056a5d10e0f40f7a412",
+      "charged_calls": 24911840,
+      "deterministic_corpora": true,
+      "frozen_artifacts_verified": true,
+      "independent_grades": 24911840,
+      "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM.",
+      "native_replays": 150909,
+      "source_hashes": true,
+      "stages": 1815,
+      "status": "PASS",
+      "uncertain_attempts": 0,
+      "wall_seconds": 1126.207884540956
+    }
+  },
+  "choice_commit": "e50da65",
+  "heartbeat_status": "PAUSED",
+  "next_experiment_launched": false,
+  "no_reselection": true,
+  "preservation_helper_correction": "preservation_attempt_001/note.json; unregistered operational helper only, no scientific or audit change",
+  "prior_M5_hashes_verified": 316,
+  "registration_commit": "929150f",
+  "scientific_usage": {
+    "calls": 24928640,
+    "candidate_seconds": 22171.757913961133,
+    "cpu_seconds": 23754.929054000033,
+    "receipts": 61147,
+    "uncertain_attempts": 0,
+    "work": 6747274303331
+  },
+  "scientific_wall_seconds": 4236.678753917047,
+  "source_hashes_verified": 296,
+  "status": "complete_audited",
+  "whole_layouts": 2109655
+}

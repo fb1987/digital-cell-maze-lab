@@ -35,57 +35,54 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M6-STATUS-START -->
-Current October21,2026: **M6 SEARCH COMPLETE; registered audit is RUNNING.** User authorized
-"Excellent. Proceed" after M5. Read docs/UPSTREAM_CONTINUATION.md,
-docs/UPSTREAM_CONTINUATION_PROGRESS.md, results/upstream_continuation/registration.json
-and launch.json. Registration **929150f** pushed BEFORE scientific generation.
-Durable tools/run_m6_workflow.py launched12:26:08UTC, initial PID81858,
-child81868, ten workers. Journal runs/upstream_continuation_m6/campaign.sqlite;
-workflow_status.json and separate phase logs there. NEVER start a second writer,
-change sealed sources, reset histories, reselect on final cases or extend bounds.
-Readonly: .venv/bin/python tools/inspect_upstream_continuation.py [--assessment N].
+Current October21,2026: **M6 COMPLETE, fresh-confirmed and AUDITED.**
+Read results/upstream_continuation/report.md,summary.json,saved_diagnostics.json,
+bothaudits,preservation.json,completion.json and docs/UPSTREAM_CONTINUATION_PROGRESS.md.
+No scientific process or next experiment running. M6heartbeat PAUSED; oldonespaused.
+Registration929150f pushed BEFOREsearch; exactchoices/ancestry/states e50da65
+pushed BEFOREfreshconfirmation. All296registration/316priorM5hashes unchanged.
+Three96slot populations,10workers,1796rounds/70.46min,unchangedM1/singleedit,
+280176births=242460mutation+37716randomimmigrants. No holding/knownsolver/mating.
 
-Three96-slot populations share six M5-informed random-origin references and
-30clonal slots each of exactstandard0191 M1body, A0, standard0434. Independent
-future RNG, not independent origins. Old roots/A1 protected; seven immigrants+
-45single-edit children perround,44survivors,16archive. Unchanged M1 runtime,
-no holding extension/known solver/recombination. Target NEWnonforkprefix2+ pairs
-beyond exactrootANDprotectedunion. Gates require90% root pair/corridor/ordinary/
-correctno-path retention AND90% A0 correctno-path set with nonempty denominator,
-zero false no-path. Report useful specialist gains even when this stronger gate
-fails; don't retroactively alter M5 PASS. Three nominationroles integrated,
-upstream-exploratory,ordinary; fixed initial nominees are frozen references.
+Selected A0descendant g900/b17:110instructions,115M6mutationbirths; fresh116/400pairs
+vs96A0,32newprefix0/1nonforkpairs across4contexts,12lostforkpairs. Onlyposes0/4gain;
+newroutes4–7edges. Retains168/168correctno-path,0false BUT corridors200→120,
+ordinary19→7;rootpairedretention87.5%,corridor60%,ordinary36.84%. Lastsingleoperand
+edit block3node10 register6→7 gains16prefix1pairsvsparent100→116;ordinary8→7.
+No newtemporaltraces/backtraceproof. Allchildsuccessesalreadyinprotectedunion.
+Childordinaryperfect11[3,3,3,9],random9[2,2,2],no15/no random8+/0of89length16+;
+9edgeabilityinherited. UnchangedA0hasrare23edgeperfectsuccess,NOTM6acquisition.
+ALL9nomineealiases(two distinctgenotypes)FAILupstream/long/combinedgates;0/96
+nonforkprefix2+targetpairs. OtherrolesunchangedA0. Protectedstandard0434still48
+forkprefix2pairs;standard0191still128pairs/52corridors/no-path0. No general/speedclaim.
 
-70min soft search,90min cumulative hard ceiling,4096round/100Mcalls/1e15work caps;
-12GiBRSS/12GiBtotalphase storage inclbackups/16GiBfreefloor. Bound may stop earlier.
-All1,374,083 oldlayouts+8712discardedfixturelayouts excluded:1,382,795initial.
-Ten focused tests pass (not fullsuite),624discarded births/RNGreplayed;controls
-all392/1680fixtureinputs correct; softwarefullaudit/finalpipeline passes onold
-fixtures; all316M5completionhashes unchanged. Original scientific records intact.
+Saved-recordallocationdiagnosis: A0lineage202560mutationbirths83.54%;originalA1
+18618;standard043416509;newstandard0191only4324(1.78%,566/803/2955perhistory);
+newimmigrantdescendants449. Byround100standard0191onlyprotectedcopyinallthree;
+someintermittentrecovery,butagainonlyprotectedcopyatend. ProtectedsurvivaldidNOT
+ensureequalbreedingopportunity. Shareddescent/notindependentorigins/nopolicycausalproof.
 
-Workflow automatically searches, freezes and COMMITS/PUSHES exactchoices BEFORE
-freshconfirmation, audits fullsearchselection/mutation/RNG/grades+native samples
-and frozenartifacts, then runs registered1680-case confirmation/analysis/ALL-native
-finalaudit. Confirmation explicitly authorized by M6; olddeeprestrictionirrelevant.
-On guard/error/auditfailure preserve tracebacks/pendingreceipts, stop and report
-neededrepair; never silently modify seals or automatically resume failed workflow.
-Heartbeat m6-upstream-evolution-follow-through ACTIVEevery15min,quiet onroutine;
-oldheartbeats remainpaused. After bothPASSaudits: thoughtfulactualoutcome/ancestry/
-compute report, all-layout exclusions, guardedverifiedSQLitebackups, completion
-seals, commit/pushcompactevidence, updatehandoff andpausefollow-up. No general-
-solver/speed/policy-causalityclaim without evidence. No newphase beyondM6 authorized.
-Historical status blocks below describe completed studies, not the current process.
-Search stopped normally after1796rounds at70.46min,24,911,840calls,
-22157.65candidate seconds,23738.51workerCPU seconds,6,742,246,347,001work,
-0uncertain attempts; sampledpeakRSS2.445GiB. Exactchoices/ancestry/states pushed
-**e50da65** BEFOREconfirmation; choices_freeze.json records publication.
-Searchaudit running initialPID32584 under existingworkflow81858; NEVER restart.
-Finaldevelopmentnominees: population0 g900/b17(115M6birthdepth,A0root) has40pairs,
-60corridors,0ordinarybothposes,44correctno-path,0false; gains16prefix0/1nonforkpairs
-vsroot butloses40corridors/1ordinary. Otherroles unchangedA0. Allnominees0target
-nonforkprefix2+,retentiongatefails fornewdescendant. Developmentonly; confirmation
-hasnotyetstarted at13:42UTC. Workflow will advance onlyafterPASSaudit. Do not
-publish finaloutcomes or overwrite scientificpackets while audit/confirmationpending.
+Main24,928,640calls/22,171.76candidate sec/6,747,274,303,331work;searchpeak2.445GiB,
+0uncertain/guardbypass. Equal8275968logicaltrainqueries/history;assessmentalias
+countsdiffer. SearchauditfirstPASS1126.21s:all24911840grades/150909native samples/
+1815stages/allbirths+selection+RNG+frozenartifacts. FinalfirstPASS11.82s:ALL16800
+nativeoutputs/grades/summary+5040baselines. SharedVM,notsecondinterpreter.10focused
+tests,notfullsuite. Bothintactcontrols+BFS/A*/bitwaveall1680correct.
+
+Originaljournals+verifiedSQLiteAPIbackups under runs/upstream_continuation_m6;
+~4.49GiB preserved,within12GiB/16GiBfreefloor. ExcludeALL2,109,655wholelayouts via
+results/upstream_continuation/whole_layout_exclusions.json.gz. Unregisteredbackup
+helperfirstattemptfailedone-columntableORDERBY;failedsource/trace/note preserved
+in preservation_attempt_001. Correctedhelperverifiedexistingbackupwithoutoverwrite;
+NOscientific/auditrepair. 351completionfilehashessealed;reports/logs/compactevidencepreserved;neverrawrerunsealed
+report/auditactionsorreselectonfinal. Futureauditrequiresseparateoutputpacket.
+
+NextproposalONLY: bounded matched reproduction-allocation comparison,sharedselection
+vsfixedlineagebreedingbudgets withsameexactmaterial,totalmutation/evaluationbudget,
+M1runtime/operator/cases. Testopportunityallocationbeforeanotherunchangedlongrun
+oraddingarchitecture/mating. Keepstrictretention/no-pathgates,reportspecialists
+separately. Random-origindiscoveryremainscentral. No nextphase launched/authorized.
+Historical blocks below describe older studies.
 <!-- M6-STATUS-END -->
 
 

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "tools/preserve_m6.py", line 48, in <module>
+    if __name__=='__main__':main()
+  File "tools/preserve_m6.py", line 36, in main
+    for table in ('settings','stages','tasks','states','layouts'):same_table(src,dst,table)
+  File "tools/preserve_m6.py", line 10, in same_table
+    a=src.execute(f'SELECT * FROM {table} ORDER BY 1,2');b=dst.execute(f'SELECT * FROM {table} ORDER BY 1,2')
+sqlite3.OperationalError: 2nd ORDER BY term out of range - should be between 1 and 1

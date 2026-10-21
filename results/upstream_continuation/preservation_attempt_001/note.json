@@ -1,0 +1,9 @@
+{
+  "backup_preserved": "runs/upstream_continuation_m6/backups/completed.sqlite",
+  "backup_sha256": "90306a0fd540224daa49d814faebb49e97c9296d72cb4ef98b71e5b1184ac33d",
+  "cause": "layouts has one column; helper incorrectly ordered it by columns1,2",
+  "correction": "Unregistered preservation helper uses ORDER BY1 for layouts and verifies the already-created backup without overwriting it. No scientific/protocol repair needed.",
+  "registered_files_unchanged": true,
+  "scientific_audits_unchanged": true,
+  "status": "post_audit_backup_verification_error"
+}

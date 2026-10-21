@@ -1,0 +1,44 @@
+{
+  "disk_free_bytes": 35802038272,
+  "final_new_layouts": 6232,
+  "initial_layouts": 1382795,
+  "preserved_first_attempt": "preservation_attempt_001/note.json",
+  "search_new_layouts": 720628,
+  "stages": {
+    "final": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 334786560,
+        "integrity_check": "ok",
+        "path": "runs/upstream_continuation_m6/final/backups/completed.sqlite",
+        "sha256": "f96a57fdcb93dae2d44f9a6810aeb64c9d9397f5b6477967b6259febe2a3406d"
+      },
+      "chain": "0b53e4616718cc4b9d502b48dc81ef9aeb806abebac1c4a9a3d04254f7a5970e",
+      "journal": {
+        "bytes": 334786560,
+        "path": "runs/upstream_continuation_m6/final/campaign.sqlite",
+        "sha256": "3c32eb892b1ee840c5d265e9d1bfccd56267cb3ad88a32b6423815d1bf0c3b54"
+      },
+      "layouts": 2109655
+    },
+    "search": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 1963859968,
+        "integrity_check": "ok",
+        "path": "runs/upstream_continuation_m6/backups/completed.sqlite",
+        "sha256": "90306a0fd540224daa49d814faebb49e97c9296d72cb4ef98b71e5b1184ac33d"
+      },
+      "chain": "98d4bc316f1636b1821693a6cb455c6312f74104f52c0056a5d10e0f40f7a412",
+      "journal": {
+        "bytes": 1963859968,
+        "path": "runs/upstream_continuation_m6/campaign.sqlite",
+        "sha256": "844e795e424d0a043d57b13532ac175a760d45b5fb58ef473e804ee9a2dfa765"
+      },
+      "layouts": 2103423
+    }
+  },
+  "status": "verified",
+  "storage_bytes": 4818607853,
+  "whole_layouts": 2109655
+}

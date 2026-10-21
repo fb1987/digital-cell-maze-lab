@@ -1,3 +1,46 @@
+# M6 completed handoff — October 21, 2026
+
+**Complete, fresh-confirmed, both audits PASS.** Read results/upstream_continuation/
+report.md,summary.json,saved_diagnostics.json,search_audit.json,final_audit.json,
+preservation.json and completion.json. No scientific process or newexperiment
+running; heartbeat m6-upstream-evolution-follow-through is PAUSED. Oldhistories
+andseals remainintact; neverreselectonfinalcases or rawrerunsealedactions.
+
+Registration929150f,choices e50da65 pushed BEFOREdownstream scientificgeneration.
+1796rounds/70.46min;280176births exactlyreplayed. Finaltenphysicalmodels×1680cases.
+Selectedg900/b17(A0root,115M6births):116pairs vs96root(32new,12lost),120corridors
+vs200,7ordinarybothposebases vs19,168correctno-path/0false both. Gainsnonforkprefix0/1
+across4contexts inposes0/4 only. Allnewskillsalreadyprotectedunion. Childordinary
+lengths2,2,2,3,3,3,9;9edgeinherited,no15/random8+/16+. No nonforkprefix2+target
+successes;ALL9aliases(twogenotypes)FAILregistered acquisitiongates. Lastedit gains
+16prefix1pairsvsparent butloses1ordinary. No backtrace/general/speedclaim.
+
+Allocation:202560/242460mutantbirths83.54%toA0,only4324(1.78%)tostandard0191;
+566/803/2955perhistory. Protectionpreservedspecimen,notbreedingopportunity.
+Thisisobservedallocation,notproofquotaswillwork. RecommendONLYaNEWregistered
+boundedmatchedallocationtestbeforeanotherunchangedlongrun; notlaunched.
+
+SearchauditfirstPASS1126.21sec:all24911840grades,150909native samples,1815stages,
+all280176births/selection/RNG/frozenartifacts. FinalfirstPASS11.82sec:ALL16800
+nativeoutputs/grades,5040baselinecalls,recomputedsummary. Bothintactcontrolsand
+BFS/A*/bitwavesolveall1680. SharedVM/reproduction, independentgrader,notsecondVM.
+Main24928640calls,22171.76candidate sec,6747274303331work;0uncertain/guards;
+2.445GiBsampledpeakRSS. Tenfocusedtests,notfullsuite. All296registered and316priorM5
+hashesunchanged. No scientific/auditprotocolrepair.
+
+Originalsearch/finaljournals andSQLiteAPIbackups haveverifiedintegrityandALLtable
+contentsmatch. Totalpreserved~4.49GiB,33.34GiBdiskfree atpreservation. ExcludeALL
+2,109,655wholelayouts:1,382,795initial+720,628search+6,232final,includingrejected/
+unqueriedvariants. TheunregisteredbackuphelperinitiallyusedORDERBY1,2onalayouts
+ tablewithonecolumn;failedsource/trace/note preservedin preservation_attempt_001.
+Correctedhelperverifiedthealreadycreatedbackupwithoutoverwritingit. Bothscientific
+auditsremainfirstattemptPASS. Completionsealincludescompactreports,logs,helpers,
+historicalhandoffandlocaljournal/backuphashes. Futureauditsmustwriteseparatepackets.
+
+---
+
+The following entries are preserved historical launch/monitor observations.
+
 # M6 launch handoff — October 21, 2026
 
 M6 is running from registration **929150f**, pushed before any scientific cases.
