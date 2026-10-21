@@ -113,3 +113,18 @@ Pre-assessment1200 completed-stage usage:16,412,088calls,14471.07candidate secon
 Sampled peakRSS2.445GiB,phase storageabout1.33GiB,36.58GiBdiskfree. All296registered
 files and316M5completion files verify unchanged. No guard/failure; continue the
 registered workflow. Capability changes here remain DEVELOPMENT observations.
+
+## Monitor checkpoint — 13:27 UTC
+
+Original workflow/search writer active with1573completedrounds at sampling.
+Assessments1300/1400/1500 saved on the same392-input development panel. Nominees
+and their abilities remain exactly as at1200: population0's g900/b17 gives
+40pairs/60corridors/0ordinary/44correctno-path/0false, with0targetprefix2+ pairs;
+other roles retain initialA0. No further nominated capability change or independent
+confirmation. The prior routing gain still has the documented retention losses.
+No selection/source/bound changes; automatic stop/freeze/audits remain pending.
+
+Completed-stage snapshot:21,685,104calls,19248.50candidate seconds,
+20622.47workerCPU seconds,5,885,508,595,645work;0uncertain attempts;61minelapsed.
+SampledpeakRSS2.445GiB,phase storageabout1.68GiB,36.23GiBdiskfree. All296registration
+and316M5completion hashes verify unchanged. No guard/failure or required action.
