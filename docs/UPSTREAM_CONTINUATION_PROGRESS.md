@@ -90,3 +90,26 @@ seconds;3,040,040,635,491work;0uncertain attempts;about31minutes elapsed.
 Sampled peakRSS remains2.445GiB,phase storageabout0.99GiB,36.92GiBdiskfree.
 All296registered files and316priorM5completion hashes remain unchanged. No guard
 or failure. Live reservations are excluded from these completed-stage usage figures.
+
+## Monitor checkpoint — 13:12 UTC
+
+Search remains active with1200rounds completed; assessments900/1000/1100/1200
+saved. Population0 now nominates g900/b17 for integrated and upstream-exploratory
+roles. Its exact M6root is protectedA0;115M6mutation births deep. On the SAME
+392-query development panel it gains16complete nonforkprefix0/1pairs across two
+contexts (40total vs24root), loses0rootpairs and retains44/44correctno-path with
+0false. However corridors fall100→60 and ordinaryboth-pose success1→0. Thus
+retention/target acquisition gates FAIL; targetnonforkprefix2+ remains0. Its new
+paired cases were already solved by other protected references, so0newpairs
+beyond their union. This is an acquired combination within this A0 descendant,
+not evidence of genetic transfer, a new repertoire beyond the pool, or a general
+solver. Independent confirmation is pending. Detailed saved-response comparison
+in development/g900_b17_at_1100.json; no new inference or selection was performed.
+All other nominee roles still select unchanged A0clones; original references
+and all other lineages remain preserved. Search pressure/bounds are unchanged.
+
+Pre-assessment1200 completed-stage usage:16,412,088calls,14471.07candidate seconds,
+15502.32workerCPU seconds,4,466,391,377,511work;0uncertain attempts;46minelapsed.
+Sampled peakRSS2.445GiB,phase storageabout1.33GiB,36.58GiBdiskfree. All296registered
+files and316M5completion files verify unchanged. No guard/failure; continue the
+registered workflow. Capability changes here remain DEVELOPMENT observations.

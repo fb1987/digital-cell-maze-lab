@@ -1,0 +1,234 @@
+{
+  "M6_mutation_birth_depth": 115,
+  "assessment": 1100,
+  "beyond_protected_union": {
+    "correct_no_path": 0,
+    "corridors": 0,
+    "ordinary_bases": 0,
+    "pairs": 0
+  },
+  "development_only": true,
+  "metrics": {
+    "by_domain": {
+      "corridor": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 100,
+        "optimal": 60,
+        "valid": 60
+      },
+      "disconnected": {
+        "correct_no_path": 20,
+        "false_no_path": 0,
+        "inputs": 20,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_disconnected/9": {
+        "correct_no_path": 24,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_perfect/11": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "ordinary_random/9": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 24,
+        "optimal": 0,
+        "valid": 0
+      },
+      "paired": {
+        "correct_no_path": 0,
+        "false_no_path": 0,
+        "inputs": 200,
+        "optimal": 80,
+        "valid": 80
+      }
+    },
+    "by_pair_stratum": {
+      "cycle/0": {
+        "correct": 4,
+        "opportunities": 4
+      },
+      "cycle/1": {
+        "correct": 4,
+        "opportunities": 4
+      },
+      "cycle/2": {
+        "correct": 0,
+        "opportunities": 4
+      },
+      "cycle/4": {
+        "correct": 0,
+        "opportunities": 4
+      },
+      "cycle/8": {
+        "correct": 0,
+        "opportunities": 4
+      },
+      "fork/0": {
+        "correct": 12,
+        "opportunities": 12
+      },
+      "fork/1": {
+        "correct": 12,
+        "opportunities": 12
+      },
+      "fork/2": {
+        "correct": 0,
+        "opportunities": 12
+      },
+      "fork/4": {
+        "correct": 0,
+        "opportunities": 12
+      },
+      "fork/8": {
+        "correct": 0,
+        "opportunities": 12
+      },
+      "two_junction/0": {
+        "correct": 4,
+        "opportunities": 4
+      },
+      "two_junction/1": {
+        "correct": 4,
+        "opportunities": 4
+      },
+      "two_junction/2": {
+        "correct": 0,
+        "opportunities": 4
+      },
+      "two_junction/4": {
+        "correct": 0,
+        "opportunities": 4
+      },
+      "two_junction/8": {
+        "correct": 0,
+        "opportunities": 4
+      }
+    },
+    "correct_no_path": 44,
+    "disconnected_inputs": 44,
+    "false_no_path": 0,
+    "inputs": 392,
+    "ordinary_bases_both_poses": 0,
+    "pair_opportunities": 100,
+    "paired": 40,
+    "work": 48079798
+  },
+  "nominee": "m6/modular/0/single/g900/b17",
+  "note": "Retrospective comparison of saved development responses only; no new inference, confirmation, reselection or source change.",
+  "registered_criteria": {
+    "a0_correct_no_path_retention": 1.0,
+    "beyond_root_and_protected_union": {
+      "new_contexts": 0,
+      "new_long16_bases": 0,
+      "new_long_bases": 0,
+      "new_long_by_domain": {},
+      "new_long_keys": [],
+      "new_upstream_keys": [],
+      "new_upstream_pairs": 0
+    },
+    "combined_transfer": false,
+    "long_ordinary_acquisition": false,
+    "retention_and_disconnection_gate": false,
+    "root_retention": {
+      "correct_no_path": 1.0,
+      "corridors": 0.6,
+      "ordinary_bases": 0.0,
+      "pairs": 1.0
+    },
+    "upstream_acquisition": false
+  },
+  "root": "m6/reference/anchor/0",
+  "versus_root": {
+    "lost_correct_no_path": 0,
+    "lost_ordinary_bases": 1,
+    "lost_pair_keys": [],
+    "lost_pairs": 0,
+    "new_correct_no_path": 0,
+    "new_ordinary_base_keys": [],
+    "new_ordinary_bases": 0,
+    "new_ordinary_by_domain": {},
+    "new_pair_contexts": 2,
+    "new_pair_keys": [
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/cycle/p0",
+        0
+      ],
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/cycle/p0",
+        4
+      ],
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/cycle/p1",
+        0
+      ],
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/cycle/p1",
+        4
+      ],
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/two_junction/p0",
+        0
+      ],
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/two_junction/p0",
+        4
+      ],
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/two_junction/p1",
+        0
+      ],
+      [
+        "m6validation/stress/a(4, 6)/straight/c4/s0/two_junction/p1",
+        4
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/cycle/p0",
+        0
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/cycle/p0",
+        4
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/cycle/p1",
+        0
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/cycle/p1",
+        4
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/two_junction/p0",
+        0
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/two_junction/p0",
+        4
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/two_junction/p1",
+        0
+      ],
+      [
+        "m6validation/stress/a(6, 4)/straight/c5/s0/two_junction/p1",
+        4
+      ]
+    ],
+    "new_pairs": 16,
+    "retention": {
+      "corridors": 0.6,
+      "pairs": 1.0
+    }
+  }
+}
