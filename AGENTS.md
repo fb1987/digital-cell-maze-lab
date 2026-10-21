@@ -35,19 +35,41 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M5-STATUS-START -->
-Current October21,2026: **M5 conditional-state holding accessibility assay RUNNING.**
-Read docs/HOLDING_ASSAY.md and results/holding_assay/registration.json.
-Registration2bf9cc4 and fixedpool63e367b pushed before fresh development generation.
-Runner maze_evolution.holding_assay; journals runs/holding_assay_m5/screen and final.
-Do not launch duplicate writers, change sealed source/config, resume oldstudies or
-reselect on finalcases. Exact M3 A0/A1 anchors,1024proposals per hold/zero/standard
-arm peranchor,1024sharedrandomrefs; hold/zero sharebody+gate, differ onlyfallback.
-7168proposalaliases,5519physicalmodels includingreferences;392screeninputs.
-Combinedscreen+final <=4Mcalls/3e12work/900wallsec;10workers/8GiBRSS/6GiBstorage/
-16GiBfree. Preserveallrecords and guards. Freeze13nomineealiases and selected
-oppositefallbacktwins, audit development, COMMIT/PUSH choices before fresh1680case
-confirmation. Final ALL-native audit required. No newlongsearch/recombination.
-Mainlog runs/holding_assay_m5/screen.log; no M5 heartbeat was created.
+Current October21,2026: **M5 COMPLETE, fresh-confirmed and AUDITED.**
+Read results/holding_assay/report.md, summary.json, completion.json, bothaudits,
+and docs/HOLDING_ASSAY_PROGRESS.md. No scientific process or nextsearch running.
+Registration2bf9cc4/pool63e367b/choices591870c pushed BEFOREdownstreamcases.
+Pairedhold/zero writerconditions vsstandardM1mutations,1024proposals each per
+exactM3A0/A1anchor+1024sharedrandoms. Allfrozenbeforecases; nooldhistoryresumed.
+TWOdistinctvariants passprimarygate (fouraliases):a1/zero/0435 and
+ a1/standard/0191.128pairs vs64anchor;32newupstreamcycle/secondjunctionprefix1
+pairsacross4contexts,plus32newforkprefix1. Retainsall64oldpairs/52corridors/
+5ordinarybothposecases,zero false vs4. BUT correctno-path20→0;52/200corridors,
+5/256ordinaryalloneedge, no nonforkprefix2/4/8or fork2/4/8. Nopathretentionwas
+NOTinthegate;honorPASS/discloseloss. Bothpassersshareconfirmedskillsets,not
+independentreplicatesorprovensamealgorithm. Newupstreamroutes5or7edges.
+Exacthold0435twinfails,newupstream0/false4. NOholdnomineepasses. ZeroC7writer
+clearswhenC1absent;standardportrebindreadsC6(existinggatedC4neighborcount,
+matchingC2output) insteadofoldC7. No temporalinference/backtraceproof.
+A0standard0434singleportswap gains48prefix2forkpairs,176total/200corridors,
+butloses15/25ordinaryand168correctno-path;gateFAIL,preservespecialist.
+Allfourintactcontrolssolve1680. No general-solver/holdingadvantage/speedclaim.
+Main2,203,768calls/208.74wallsec/1587.12candidate sec/480355408247work,
+2.678GiBsampledRSS;zerouncertainattempts/guardbypasses. ScreenauditfirstPASS
+164.23sec:all2163448grades/70588nativereplays/allpool+events+RNG+nomination.
+FinalauditfirstPASS31.63sec:ALL40320nativeoutputs/grades/summary. SharedVM,
+notsecondinterpreter.9focusedtestspass,notfullsuite. Allregisteredhashes and
+302M4completionhashesunchanged; no scientificrepair. NeutrallyembeddedM1
+behaviorverified,64extrabytesreported. Physicaldedup vslogicalbudgetexplicit.
+Originaljournals+verifiedSQLitebackupspreservedlocallyunder runs/holding_assay_m5;
+excludeALL1,374,083wholelayouts from results/holding_assay/whole_layout_exclusions.json.gz.
+Reports/logs/compactevidencesealed;futurere-auditneedsseparatepacket. Never
+rawrerunsealedactions,overwritehistoriesorreselectonfinalcases. Oldheartbeatspaused.
+NextproposalONLY:newboundedlongercontinuationfromexactstandard0191M1body,
+alongsideA0/protectedalternatives. M1remainsthemainruntime;holdingdidnotwin.
+Targetnonforkupstreamprefix2+ andretention;correctdisconnectionretentionmustbe
+explicitinNEWprotocol. Nonewsearchlaunched,noknownsolverinjection;random-origin
+remainscentral. No sexualstudywithoutcomputationalcompatibilityevidence.
 <!-- M5-STATUS-END -->
 
 

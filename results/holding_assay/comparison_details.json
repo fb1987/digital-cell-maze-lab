@@ -1,0 +1,429 @@
+{
+  "comparisons": {
+    "a0/standard/0434": {
+      "reference": "anchor/0",
+      "set_differences": {
+        "corridors": {
+          "lost": 0,
+          "new": 0,
+          "reference": 200,
+          "retained": 200
+        },
+        "false": {
+          "lost": 0,
+          "new": 0,
+          "reference": 0,
+          "retained": 0
+        },
+        "ordinary_bases": {
+          "lost": 15,
+          "new": 0,
+          "reference": 25,
+          "retained": 10
+        },
+        "pairs": {
+          "lost": 0,
+          "new": 80,
+          "reference": 96,
+          "retained": 96
+        },
+        "success": {
+          "lost": 198,
+          "new": 160,
+          "reference": 642,
+          "retained": 444
+        }
+      }
+    },
+    "a1/standard/0191": {
+      "reference": "anchor/1",
+      "set_differences": {
+        "corridors": {
+          "lost": 0,
+          "new": 0,
+          "reference": 52,
+          "retained": 52
+        },
+        "false": {
+          "lost": 4,
+          "new": 0,
+          "reference": 4,
+          "retained": 0
+        },
+        "ordinary_bases": {
+          "lost": 0,
+          "new": 0,
+          "reference": 5,
+          "retained": 5
+        },
+        "pairs": {
+          "lost": 0,
+          "new": 64,
+          "reference": 64,
+          "retained": 64
+        },
+        "success": {
+          "lost": 20,
+          "new": 70,
+          "reference": 308,
+          "retained": 288
+        }
+      }
+    },
+    "a1/zero/0435": {
+      "reference": "anchor/1",
+      "set_differences": {
+        "corridors": {
+          "lost": 0,
+          "new": 0,
+          "reference": 52,
+          "retained": 52
+        },
+        "false": {
+          "lost": 4,
+          "new": 0,
+          "reference": 4,
+          "retained": 0
+        },
+        "ordinary_bases": {
+          "lost": 0,
+          "new": 0,
+          "reference": 5,
+          "retained": 5
+        },
+        "pairs": {
+          "lost": 0,
+          "new": 64,
+          "reference": 64,
+          "retained": 64
+        },
+        "success": {
+          "lost": 20,
+          "new": 70,
+          "reference": 308,
+          "retained": 288
+        }
+      }
+    }
+  },
+  "inputs": 1680,
+  "label": "Saved confirmation outputs only; zero new inference or selection",
+  "ordinary_successes": {
+    "a0/standard/0434": [
+      {
+        "base": "confirmation/ordinary/perfect/11/100000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/16000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/40000/perfect/11x11",
+        "edges": 3,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/72000/perfect/11x11",
+        "edges": 2,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/96000/perfect/11x11",
+        "edges": 5,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/15/20000/perfect/15x15",
+        "edges": 2,
+        "family": "ordinary_perfect",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/perfect/15/84000/perfect/15x15",
+        "edges": 4,
+        "family": "ordinary_perfect",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/120000/random/15x15",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/104000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/40000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      }
+    ],
+    "a1/standard/0191": [
+      {
+        "base": "confirmation/ordinary/perfect/11/100000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/16000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/120000/random/15x15",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/104000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/40000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      }
+    ],
+    "a1/zero/0435": [
+      {
+        "base": "confirmation/ordinary/perfect/11/100000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/16000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/120000/random/15x15",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/104000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/40000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      }
+    ],
+    "anchor/0": [
+      {
+        "base": "confirmation/ordinary/perfect/11/100000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/108000/perfect/11x11",
+        "edges": 15,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/116000/perfect/11x11",
+        "edges": 6,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/16000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/4000/perfect/11x11",
+        "edges": 3,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/40000/perfect/11x11",
+        "edges": 3,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/72000/perfect/11x11",
+        "edges": 2,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/80000/perfect/11x11",
+        "edges": 5,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/92000/perfect/11x11",
+        "edges": 4,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/96000/perfect/11x11",
+        "edges": 5,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/15/20000/perfect/15x15",
+        "edges": 2,
+        "family": "ordinary_perfect",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/perfect/15/84000/perfect/15x15",
+        "edges": 4,
+        "family": "ordinary_perfect",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/120000/random/15x15",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/124000/random/15x15",
+        "edges": 3,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/44000/random/15x15",
+        "edges": 3,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/8000/random/15x15",
+        "edges": 3,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/104000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/124000/random/9x9",
+        "edges": 3,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/16000/random/9x9",
+        "edges": 3,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/40000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/88000/random/9x9",
+        "edges": 4,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "m3final_long/perfect/11/distance8-15/item10/try4/ordinary/perfect/11/0/perfect/11x11",
+        "edges": 14,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "m3final_long/perfect/11/distance8-15/item13/try0/ordinary/perfect/11/0/perfect/11x11",
+        "edges": 8,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "m3final_long/perfect/11/distance8-15/item8/try3/ordinary/perfect/11/0/perfect/11x11",
+        "edges": 9,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "m3final_long/perfect/15/distance8-15/item1/try0/ordinary/perfect/15/0/perfect/15x15",
+        "edges": 8,
+        "family": "ordinary_perfect",
+        "size": 15
+      }
+    ],
+    "anchor/1": [
+      {
+        "base": "confirmation/ordinary/perfect/11/100000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/perfect/11/16000/perfect/11x11",
+        "edges": 1,
+        "family": "ordinary_perfect",
+        "size": 11
+      },
+      {
+        "base": "confirmation/ordinary/random/15/r0/120000/random/15x15",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 15
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/104000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      },
+      {
+        "base": "confirmation/ordinary/random/9/r0/40000/random/9x9",
+        "edges": 1,
+        "family": "ordinary_random",
+        "size": 9
+      }
+    ]
+  },
+  "passing_variants_identical_terminal_cases": 1304,
+  "passing_variants_same_success_sets": {
+    "corridors": true,
+    "ordinary_bases": true,
+    "pairs": true
+  }
+}

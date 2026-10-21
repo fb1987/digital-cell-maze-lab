@@ -1,0 +1,55 @@
+{
+  "audits": {
+    "final": {
+      "chain": "9b3e7ae872a8ba1689681b5051a9e28e87d504498d86946d80b943786222058d",
+      "controls_all_correct": true,
+      "embedding_verified": true,
+      "independent_grades": 40320,
+      "limitation": "Shared native VM; independent raster grader. Screen fixed1/32 native samples plus complete references; final ALL-native.",
+      "native_replays": 40320,
+      "pool_rng_corpus_tasks_regenerated": true,
+      "selection_replayed": false,
+      "status": "PASS",
+      "summary_replayed": true,
+      "wall_seconds": 31.6313369590207
+    },
+    "screen": {
+      "chain": "299ce77f0b6415dfe1e89da81b0168f40096836a87d06a2c85730b5df2421c36",
+      "controls_all_correct": true,
+      "embedding_verified": true,
+      "independent_grades": 2163448,
+      "limitation": "Shared native VM; independent raster grader. Screen fixed1/32 native samples plus complete references; final ALL-native.",
+      "native_replays": 70588,
+      "pool_rng_corpus_tasks_regenerated": true,
+      "selection_replayed": true,
+      "status": "PASS",
+      "summary_replayed": false,
+      "wall_seconds": 164.2277719170088
+    }
+  },
+  "choice_commit": "591870c",
+  "next_experiment_launched": false,
+  "no_continued_evolution": true,
+  "no_reselection": true,
+  "passing_nominee_aliases": [
+    "a1/zero/retained",
+    "a1/zero/exploratory",
+    "a1/standard/retained",
+    "a1/standard/exploratory"
+  ],
+  "pool_commit": "63e367b",
+  "prior_M4_hashes_verified": 302,
+  "registration_commit": "2bf9cc4",
+  "scientific_usage": {
+    "calls": 2203768,
+    "candidate_seconds": 1587.1207136804005,
+    "cpu_seconds": 1639.715318000002,
+    "receipts": 1386,
+    "uncertain_attempts": 0,
+    "work": 480355408247
+  },
+  "scientific_wall_seconds": 208.74052920896793,
+  "source_hashes_verified": 284,
+  "status": "complete_audited",
+  "whole_layouts": 1374083
+}
