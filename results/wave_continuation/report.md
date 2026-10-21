@@ -1,0 +1,76 @@
+# M3: deeper evolution confirms narrow gains, not general maze solving
+
+**Complete and audited.** After866 matched rounds, two distinct gains survived fresh confirmation: a retained-skill lineage improved ordinary-maze solving, and a different specialist acquired source-at-junction solving on second-junction/cycle cases. No nominee passes the registered M3 broad-acquisition gates. Neither a general solver nor a replicated mixed-mutation advantage is established.
+
+## The strongest retained-skill result
+
+`m3/modular/0/mixed/g669/b31` solves21/256 ordinary reachable bases in BOTH queried orientations, versus3/256 for its exact M3 founder `m2/a1/d2/00410` on the SAME fresh panel. It retains all96/96 founder-correct routing pairs and200/200 corridors, and allthree founder-correct ordinary bases. Its18 new ordinary successes are also absent from the union of allsix protected references. This is confirmed within-lineage acquisition, not a count comparison between different studies.
+
+Most successes are short:19 of21 have1–6 edges. The two longer successes have8 and10 edges, both perfect11 mazes. It solves2/128 medium-length ordinary bases (8–15 edges) and0/77 long bases (16+). It solves no random-maze route of8+ edges and no longer-route perfect15 case. Thus the earlier15-edge development success did not imply broad transfer across long mazes.
+
+This candidate also correctly declares no-path on168/168 disconnected confirmation inputs, versus0/168 for its exact founder, with0 false no-path on1,512 reachable inputs. That is useful bounded-domain behavior; it does not prove reliable disconnection detection at arbitrary size or duration. The ordinary, routing and no-path outcomes all use unmodified native outputs.
+
+Its ancestry contains64 M3 mutation births and95 generic mutation opportunities, including31 two-opportunity births. No known solver entered reproduction. The immediate parent solved48 pairs and12 ordinary bases; the final birth adds48 pair successes and9 ordinary bases without losses relative to that parent. Relative to the original founder, those additional pair successes are recovered ancestral skills, not new routing strata. Mutation replay establishes the recorded inheritance; a mechanistic claim about which edit caused which computation still needs analysis.
+
+## A different specialist confirms new routing ability at a cost
+
+`m3/modular/2/single/g800/b15`,73 mutation births from the preserved M1 delayed-wave founder, solves32 new complete second-junction/cycle pairs absent from both its exact M3 root and all protected references:16 second-junction and16 cycle pairs. All are prefix0, with the source at the first junction. They span four seeded contexts and four poses per graph; these correlated variants are not32 independent maze draws or novel grammar.
+
+It has64/400 total complete pairs, but retains only32/96 ancestral pairs and52/200 corridors. It loses the founder’s one ordinary success, solves two different short ordinary bases, correctly reports22/168 disconnected inputs, and falsely declares no-path on4/1,512 reachable inputs. Its immediate parent has0 complete pairs; the final single mutation changes behavior substantially, but does not yield a reliable general solver. The registered retention and false-no-path criteria correctly reject this as a broad acquisition success.
+
+Together these candidates show complementary surviving abilities. They do not yet show that those abilities can coexist in one organism or be combined by sexual recombination.
+
+## Every frozen nominee
+
+P is the aggregate nominee, O the ordinary nominee, both chosen before confirmation. Repeated identities are aliases, not independent discoveries. Ordinary means a base solved correctly in both poses. All candidates share the same1,680-input panel:400 paired opportunities,200 corridor inputs,256 reachable ordinary bases/two poses and168 disconnected inputs.
+
+| Condition | Nominee | Pairs /400 | Corridors /200 | Ordinary /256 | New hard pairs | New ordinary ≥8 edges | Correct no-path /168 | False no-path /1512 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| modular/0/single | P | 48 | 200 | 6 | 0 | 1 | 104 | 0 |
+| modular/0/single | O | 48 | 200 | 6 | 0 | 1 | 104 | 0 |
+| modular/0/mixed | P | 96 | 200 | 21 | 0 | 2 | 168 | 0 |
+| modular/0/mixed | O | 96 | 200 | 21 | 0 | 2 | 168 | 0 |
+| modular/1/single | P | 96 | 200 | 3 | 0 | 0 | 168 | 0 |
+| modular/1/single | O | 80 | 200 | 8 | 0 | 1 | 168 | 0 |
+| modular/1/mixed | P | 48 | 200 | 1 | 0 | 0 | 168 | 0 |
+| modular/1/mixed | O | 0 | 200 | 1 | 0 | 0 | 0 | 0 |
+| modular/2/single | P | 64 | 52 | 2 | 32 | 0 | 22 | 4 |
+| modular/2/single | O | 0 | 200 | 0 | 0 | 0 | 168 | 0 |
+| modular/2/mixed | P | 48 | 200 | 6 | 0 | 1 | 104 | 0 |
+| modular/2/mixed | O | 48 | 200 | 6 | 0 | 1 | 104 | 0 |
+
+“New” requires absence from BOTH the exact M3 founder and protected union. Exact identities, root/parent/frozen comparisons, case memberships, family/size/length strata and losses are retained in `summary.json` and `completion_details.json`. No post-confirmation reselection occurred.
+
+All12 nominee aliases (nine distinct genomes) fail the M3 hard-pair, long-ordinary and combined transfer gates. The mixed-policy replicate screen is[false,false,false]. The two successful longer ordinary bases are fewer than the required four, contain no random-maze case and none of length16+. The hard specialist fails retention/error requirements. Historical generic `versus_root.acquisition_gate` and parent-comparison fields come from an older helper and are not the registered M3 gates; the authoritative M3 fields are `hard_pair_acquisition`, `long_ordinary_acquisition` and `substantial_transfer`.
+
+Single1’s primary retains the familiar96-pair repertoire and acquires correct no-path on this panel. Mixed1’s primary descends from an M3 random immigrant and acquires48 elementary fork pairs from an incapable immediate lineage root, but these abilities were already present among protected anchors. This is new within that lineage, not new campaign-level capability.
+
+All nominees fail every positive-prefix second-junction/cycle pair and every fork pair at prefixes2/4/8. None solves an ordinary route of16+ edges. Separate intact flat/modular engineering controls and BFS/A*/bitwave controls correctly solve all1,512 reachable and168 disconnected inputs. Controls are outside all reproductive populations. No timing comparison or speed advantage is claimed.
+
+## What this experiment can and cannot establish
+
+Six populations of96 compared three paired single-edit histories with three mixed one/two-opportunity histories. Every pair began with identical M2-informed founders; all share six protected historical wave genomes. Selection, neutral reservations, case schedule and capacity limits were common. Each round produced seven random immigrants and45 mutated children per population. The mixed arm split mutated children23 single/22 double. There was no crossover.
+
+This was a new documented continuation phase, with new RNG and explicit ancestral provenance. It was not a fresh-origin replication, and the validation-selected source pool is not independent evidence. Protected references stayed unchanged. The neutral reserve preserves genotype-distinct terminal-equivalent variants on finite batches; it does not establish global equivalence or causal benefit.
+
+Training allocation is exactly equal:3,990,528 logical organism/query evaluations per condition (866×96×48). Assessment capacity and schedule are common, but actual distinct identity counts differ because live/archive/frozen slots overlap. In condition order single0,mixed0,single1,mixed1,single2,mixed2, assessment alias evaluations are419,048;423,360;425,712;408,072;415,912;411,600. Total search evaluations are therefore not exactly equal per condition. Physical identical-genotype/query work is additionally shared. These disclosed differences and shared origins limit a policy-causality claim.
+
+Fresh confirmation was generated only after choices were committed/pushed, and never used for further evolution. It is independent of selection but still uses a familiar small structured grammar, correlated poses and selected ordinary length strata. Perfect mazes are trees; cyclic/random cases remain essential. The primary unresolved question is selective routing that scales through multiple upstream decisions, not whether a cell can ever acquire a wave or a small specialist behavior.
+
+## Compute, audit and preservation
+
+- Registration302cab5 was pushed before scientific generation; exact choices/selected ancestry/final populations were pushed in d1f988a before confirmation. Search stopped at866 rounds on the70-minute admission target, finishing final assessment/freezing in70.75 minutes, below90-minute hard allowance.
+- Search: 24,534,904 physical calls; 25826.22 summed candidate seconds; 27505.55 worker CPU seconds; 7,349,658,579,804 charged work. Ten workers; sampled peak process-tree RSS2.645GiB. Zero uncertain attempts and no protocol deviation or hard-guard bypass.
+- History: 270,192 births, comprising36,372 random immigrants and233,820 mutation births with290,976 opportunities. Full population/RNG records and324 selected ancestry records preserved; no inference reruns added to search.
+- Search audit PASS on first attempt: all24,534,904 physical outputs independently regraded, 157,375 fixed sampled native replays, all876 corpus/task/selection/mutation/RNG stages reproduced. Audit969.30s additional wall time. Reproduction and VM use shared production implementations; independent raster grading is not a second full VM.
+- Confirmation:30 physical models (28 saved candidate/reference identities plus two controls),1,680 inputs each; 50,400 calls, 45.92 candidate seconds,11.31s wall, 15,082,507,672 work. Sampled RSS2.196GiB. Full final audit PASS on first attempt: all50,400 candidate replays/independent grades and recomputed summaries, plus5,040 conventional baseline evaluations;28.82s audit wall.
+- Discarded preflight:188,216 rehearsal calls plus784 validation-control and3,360 final-control calls;91.62 summed timed candidate seconds. Four rehearsal rounds replayed all1,248 births. Eleven focused/related tests passed; repeated development tests are separate untimed software checks, not a fresh full-suite run or scientific evidence.
+- All286 registered hashes/dependency versions still match. Original M1/M2/deep scientific records remain unchanged. Search/final SQLite originals and verified safe backups remain local; logs and compact evidence are committed. All1,362,003 prior/generated/rejected/unqueried layouts are excluded in `whole_layout_exclusions.json.gz`. The completion manifest seals the evidence; never overwrite closed audits or resume this allowance.
+
+## Recommended next step
+
+Preserve the two complementary lineages and study what computations actually changed before another long campaign. Use a separately registered bounded mechanism/retention study: reconstruct the mixed0 ordinary/no-path improvement and single2 junction behavior, compare exact parents and roots, and test whether a generic regulatory or output change can retain both classes of skill on fresh paired challenges. Start with saved-genome/static analysis; preregister any new traces, edits, ablations or evaluations. Do not install a known backtrace or oracle cleanup into a random-origin lineage.
+
+A follow-on search should reward and preserve the conjunction of ancestral and newly acquired behavior, while making progress through upstream junctions measurable. This experiment shows that useful variation remains accessible after hundreds of generations, and that some gains transfer beyond validation. It also shows how strongly selection can reward a narrow success or a destructive specialist. More evolutionary time remains worth investigating, but an unchanged extension would not distinguish a route-computation breakthrough from more versions of those shortcuts.
+
+Sexual recombination is still a hypothesis rather than the next automatic step. First establish which heritable computations underlie the complementary skills and whether exchanging them is compatible; complementary performance alone does not prove modular compatibility. No further search, new scientific inference, architectural change or mating study was launched by completion reporting.

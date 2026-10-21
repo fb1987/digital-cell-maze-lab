@@ -156,3 +156,41 @@ Mixed0 final nominee remains g669/b31, retaining24/24 ancestral pairs plus the o
 15-edge ordinary base; no broader ordinary evidence claimed. Choices are now fixed;
 no downstream reselection or protocol change. These observations await the registered
 fresh confirmation and audits before scientific conclusions.
+
+## Completion — both audits PASS; confirmation/report/preservation complete
+
+October21,2026. The durable workflow exited normally after search audit969.30s,
+confirmation11.31s and final audit28.82s. No scientific processes remain. The
+M3 heartbeat is now PAUSED; the old deep heartbeat remains paused. The source,
+founders, configuration, selection and success gates never changed after302cab5.
+Frozen choices are byte-identical to pushed d1f988a, verified against origin/main.
+
+Search audit reproduces every876 stage, every270,192 birth/selection/RNG transition,
+all24,534,904 independent raster grades, and157,375 fixed sampled native responses.
+Final audit reproduces ALL50,400 outputs for30 physical models×1680queries,
+regrades independently, recomputes canonical summaries, and checks5,040 conventional
+baseline calls. Both passed first attempt. FullVM/reproduction replay shares production
+implementation; grader is separate. Raw audit results remain untouched.
+
+Fresh confirmation preserves a narrow mixed0 improvement:21/256 ordinary bases
+bothposes versus3 for exactroot,18new beyond root/protected union, all96rootpairs
+and200corridors retained. Onlytwo successful routes have8+edges (8,10;perfect11),
+none16+; correct no-path168/168 with0false reachable. Single2 confirms32new
+second-junction/cycle pairs, allprefix0, but loses64/96rootpairs and148/200corridors
+and falsely declares4reachablecases no-path. AllM3gates fail; mixedscreen0/3.
+See reviewed `results/wave_continuation/report.md` for full tables, denominators,
+strata, exact ancestry, successes/losses and interpretation. No final reselection.
+
+Preserved SQLite backups verified via backupAPI, integrity_check, tablecounts,
+settings equality andSHA256:search1,778,454,528bytes;final218,529,792bytes. Original
+journals remain intact. Allartifacts/backups total~3.87GiB, below12GiB; sufficient
+free disk remains above16GiB. All1,362,003 historical/generated/rejected/unqueried
+whole layouts are excluded. Workflow/search/audit/final logs copied to the report
+packet. M2prior seals and allM3registeredhashes verified before completion sealing.
+
+No new search, organism inference, maze generation or mating was performed by
+completion reporting. Nextproposal is a separately registered mechanism/retention
+study on the complementary frozen lineages, not an unchanged long extension.
+Preserve random-origin provenance and remaining diversity; assess computational
+compatibility before considering recombination. All completion evidence is sealed;
+future audits must write separate outputs rather than overwrite this record.

@@ -34,48 +34,64 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
-<!-- M3-LIVE-START -->
-Current October21,2026 update: **M3 search is COMPLETE; its audit is RUNNING**. Read
-`docs/WAVE_CONTINUATION.md`, `docs/WAVE_CONTINUATION_PROGRESS.md`, and
-`results/wave_continuation/launch.json`. Registration **302cab5** was pushed
-before scientific generation. Search stopped normally at866 rounds after70.75min;
-choices frozen/pushed d1f988a before confirmation. Workflow PID14955, audit PID67935
-(initial); search PID14964 has exited. Ten search workers; durable journal `runs/wave_continuation_m3/campaign.sqlite`.
-Inspect `workflow_status.json`, `search_001.log` and the read-only command
-`.venv/bin/python tools/inspect_wave_continuation.py`. Never duplicate the writer.
+<!-- M3-COMPLETE-START -->
+Current October21,2026 update: **M3 is COMPLETE, independently confirmed and
+AUDITED.** Read `results/wave_continuation/report.md`, `summary.json`,
+`completion_details.json`, `completion.json` and `docs/WAVE_CONTINUATION.md`.
+No scientific process is running. Heartbeat `m3-wave-evolution-follow-through`
+is PAUSED. Do not extend M3, silently resume its populations, overwrite its seals,
+or train/reselect on inspected confirmation cases. Preserve all histories.
 
-Six populations96: three paired single/mixed mutation histories, exact M2-informed
-founders, six protected wave/reference identities and neutral reserve. New M3 RNG;
-old M1/M2/deep histories remain sealed. Both arms share selection and cases;
-mixed has23 single +22 two-opportunity births, single45 single; both7 immigrants.
-70min soft admission target,90min cumulative hard ceiling,8192round maximum,
-100M calls,10^15work,12GiB RSS/storage and16GiB free floor. Guards stop; no extension.
-392 fixed development queries,48 training queries/round, assessments every100
-rounds and final. Success gates require new longer-route/multiple-junction skills
-beyond BOTH exact founder and protected union; earlier trivial-route gains do not
-satisfy them. Shared historical origins limit causal interpretation.
+Registration302cab5 pushed before scientific generation; exact choices/ancestry/
+final states pushed d1f988a before fresh confirmation. Six96-organism populations,
+three paired single/mixed histories from explicit M2-informed random-origin material.
+Six protected references, finite-batch neutral reserve, same local M1 runtime and
+selection. No known solver or sexual recombination injected.866 matched rounds,
+70.75min search,24,534,904 physical calls,25,826.22 candidate seconds,
+7,349,658,579,804work,2.645GiB sampled tree RSS;zero uncertain attempts/guard bypass.
+270,192 births:36,372 immigrants+233,820 mutation births/290,976 opportunities.
+Training exactly3,990,528 logical queries/condition. Assessment alias counts differ
+because live/archive/frozen identities overlap; see report, not equal-total claims.
 
-The sealed workflow automatically freezes/commits/pushes exact nominees/ancestry
-BEFORE fresh1,680-query confirmation, then search audit, final, analysis and full
-final-native audit. Search audit must PASS before final generation. All scientific
-sources/config/founders stay frozen. Any failure/guard stops workflow; preserve
-traceback and receipts, diagnose before any protocol repair. Background heartbeat
-`m3-wave-evolution-follow-through` checks every15min, stays quiet on routine
-progress and completes reviewed reporting, guarded backups, exclusions, sealing
-and commit/push after audits. Old deep heartbeat remains paused. This M3 protocol
-explicitly authorizes its own confirmation; old campaign restrictions remain scoped
-to old studies. No further evolutionary extension or architecture change authorized.
+Fresh confirmation30models×1680=50,400calls,45.92candidate sec,11.31wall.
+Mixed0 g669/b31 (64mutation births,95opportunities from m2/a1/d2/00410) solves
+21/256 ordinary bases in BOTH poses vs3/256 exactroot,18new beyond root/protected
+union,0loss; retains96/96 root pairs and200/200 corridors.19successes have1–6edges;
+onlytwo longer successes,8 and10edges, perfect11.0/77 length16+ bases andno
+random8+ gain. Correct no-path168/168 vs0root,0false on1512reachable. This confirms
+bounded acquired skills, NOT a broad/general solver or mixed-policy advantage.
 
-All11 focused/related tests pass; real-journal boundary test reuses saved fixture
-receipts with zero extra inference. Four discarded rehearsal rounds replayall1248
-births/RNG; both engineering controls correct on392 and1680 fixtures. No known
-solver enters reproduction. Final development assessment at866 is frozen. Mixed0 retains24/24 root pairs
-plus the same15-edge ordinary base. Single2 g800/b15 gains8 prefix0 second-junction/
-cycle pairs across2 contexts beyond root/protected union, but retains only8/24
-root pairs and26/100 corridors, with2 false no-path. No registered breadth/retention
-gate passes on development. Search audit must finish before untouched confirmation;
-all final conclusions await confirmation and both audits.
-<!-- M3-LIVE-END -->
+Single2 g800/b15 (73mutation births from M1 delayedwave) confirms32NEW prefix0
+second-junction/cycle pairs (16each) across4contexts/4poses beyond root/protected
+union.64totalpairs,only32/96root retained;52/200corridors,2ordinary vs1root with
+thatrootcase lost;22/168correct no-path,4false reachable. Correlated familiar-grammar
+variants; source atjunction, not upstream routing. Allnominees0positive-prefix
+second-junction/cycle pairs and0forkprefix2/4/8. All12nomineealiases/ninedistinct
+FAIL M3 hard/long/combined gates; mixedscreen[false,false,false]. Older helper
+`versus_root.acquisition_gate` is NOT the registered M3 gate. Controls BFS/A*/bitwave
+and separateintactflat/modular solveall1680. No speed/multirange/general-solver claim.
+
+Search audit PASS firstattempt969.30s:all24,534,904independent regrades,
+157,375fixed native replays,all876corpus/task/selection/mutation/RNGstages and
+270,192births. Finalaudit PASSfirstattempt28.82s:all50,400native responses/grades,
+5,040conventional evaluations,canonicalsummary. SharedVM/reproduction implementation,
+independentgrader;notsecondfullVM.11focused/relatedtests passed,notfreshfullsuite.
+All286registrationhashes/versions unchanged; no post-registration repair/deviation.
+
+Local originalsearch/finaljournals andverifiedSQLitebackups remain under
+`runs/wave_continuation_m3/` (scientific data, not cache). Totalpreserved~3.87GiB,
+within12GiBstorage and16GiBfreefloor. ExcludeALL **1,362,003 whole layouts** via
+`results/wave_continuation/whole_layout_exclusions.json.gz`, including rejected
+length-stratum draws andunqueriedposes. Logs/reports/compactevidence sealed and
+committed; fulljournals ignoredbyGit. Futureaudits mustwrite separatepackets.
+
+Next proposal ONLY: bounded mechanism/retention analysis of mixed0 retained-skill
+and single2 junction specialists, exactparents/roots, then prospective fresh matched
+challenges before anotherlongsearch. Saved-genome/static analysis first; register
+newtraces/edits/ablations/evaluations. No hardcoded backtrace/oraclecleanup; no sexual
+study until computational compatibility is demonstrated. Random-origin discovery
+remains central; no new experiment or longer continuation has launched.
+<!-- M3-COMPLETE-END -->
 
 
 Historical October21,2026 update: **M2 wave-accessibility assay is COMPLETE and
