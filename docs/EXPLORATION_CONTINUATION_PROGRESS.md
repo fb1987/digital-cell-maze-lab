@@ -36,6 +36,19 @@ no general-solver or causal policy claim. Allsixintegratedprimaries remaininheri
 The candidate is already retained by the registered search/nomination mechanism;
 no manual preservation/reselection intervention changes the population.
 
+## Development checkpoint: cumulative generation 256
+
+This is192 additional M15 rounds. The 18 nominee identities and every saved
+nominee metric are unchanged from assessment160 on the identical development
+panels; frozen/protected metrics also match exactly. The earlier exploratory
+specialist persists with its eight target-pair gains and complete disconnection
+loss. No new primary improvement or meaningful capability change to notify.
+Search continues normally; around12.36M charged calls at inspection,zero uncertain
+attempts,2.98GiB peak searchtreeRSS,0.48GiBphase storage and53.9GiBfree. All348
+registration/396priorcompletion/19priorlocal hashes verify. Packets assessment_0256
+andcheckpoint_0256 preserve same-panel comparison. Confirmation remains pending;
+no source/selection/RNG/bounds intervention. Routine progress kept quiet.
+
 # Historical preparation checkpoint
 
 The user authorized “Proceed” after the M14 recommendation for a60–90minute
