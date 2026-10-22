@@ -34,6 +34,26 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- S3-ARCHIVE-STATUS-START -->
+Current October21,2026: user explicitly authorized S3 archival and local space
+recovery. Closed runs through M12 plus deep/C1 are archived in private versioned
+bucket digital-cell-maze-lab-research-384268139212-use2 (us-east-2), using existing
+personal-os AWS profile. Exact original bytes are preserved as SHA256 chunks with
+version-pinned catalog in results/storage_archive/20261021/. EVERY unique chunk
+was downloaded and hash verified; one full SQLite restore passed byte hash and
+quick_check BEFORE local eviction. Catalog/receipts/restore evidence pushed first.
+Only exact archived .sqlite files removed locally; small logs/locks/status files,
+all results/source/Git/dependency manifests, and M13/M14 runs remain local.
+Historical instructions saying journals are local describe PRE-MIGRATION state.
+Never rerun old campaigns to recreate missing journals. Restore exact files via
+ tools/s3_research_archive.py restore; see restore_instructions.json and catalog.
+Archive does not expire automatically. Keep manifests, pinned object versions,
+old seals, and referenced layout bases. Credentials never stored in project.
+M14 remains PAUSED BY USER, prepared/not registered/not launched. S3 migration
+is not authorization to start M14. After explicit resume verify all M14 preparation
+hashes and new passing storage plan before registration/commit/push/science.
+<!-- S3-ARCHIVE-STATUS-END -->
+
 <!-- S3-ARCHIVE-LAUNCH-START -->
 October21,2026 storage migration authorization: user explicitly requested AWS S3
 archival and clearing verified local research files. Auth refreshed using existing
