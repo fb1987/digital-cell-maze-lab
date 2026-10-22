@@ -1,0 +1,21 @@
+{
+  "failures": [
+    {
+      "action": "prepare",
+      "error": "ValueError: Square D4 fixture required",
+      "location": "rectangular toy layout exclusion",
+      "repair": "Record both rectangular orientations directly; square fixtures retain D4 enumeration",
+      "scientific_records_changed": false
+    },
+    {
+      "action": "preflight",
+      "error": "FileNotFoundError: test_exclusions.json",
+      "fixture_calls": 1760,
+      "location": "exclusion reference write after evaluations and trace checks",
+      "repair": "Complete missing test exclusion manifest and rerun artificial preflight",
+      "trace_executions": 22,
+      "wall_and_cpu_seconds": "not instrumented/preserved"
+    }
+  ],
+  "scientific_calls": 0
+}
