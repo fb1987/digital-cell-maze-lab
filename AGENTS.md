@@ -75,7 +75,8 @@ Originalsearch/finaljournals+verifiedSQLiteAPIbackups preserved locally;
 excluded via whole_layout_exclusions.json reference+delta ledger; use recursive
 referenced_campaign_store.load_layouts,notrawdelta tables. Immutablebases required.
 Reports/logs/compactevidence sealed and pushed; rawjournals ignoredbyGit.
-Monitor pauses after publication; historical monitor.json records creation state.
+Completion published as334d98d; follow-up m15-sustained-evolution-follow-through
+is PAUSED. Historical monitor.json records creation state.
 Next proposal ONLY: bounded mechanism/restoration study around exactspecialist
 andparent, testing retainedupstreamskill plus disconnection/ordinary recovery
 before another broad run. No M16,newtraces/evaluation,recombination,solverinjection
