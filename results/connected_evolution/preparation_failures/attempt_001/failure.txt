@@ -1,0 +1,4 @@
+Initial focused tests: 2 failed, 3 passed, 2 deselected in 2.15 seconds.
+1. test_common_mutation_replay_caps_and_spare_recycling: assert recycled>0 failed for a random 1000-edit history. Random histories are not guaranteed to reduce a multi-node spare to its final node. Reachability is checked deterministically in the separate deletion test instead.
+2. test_spare_slot_deletion_resets_nonzero_initialization: copy(g,0,0,8,True) failed the eligible-edge assertion because writer0 was outside the output/halt cone in this toy. Fix the toy so output writer2 reads donor0 and request (2,0,8).
+These were test-assumption failures before registration. Variation source unchanged. No scientific evaluations or records affected. Test native execution costs were not separately instrumented.

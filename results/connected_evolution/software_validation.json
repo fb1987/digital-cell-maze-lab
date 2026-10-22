@@ -1,0 +1,737 @@
+{
+  "all_scientific_cases_generated": 0,
+  "discarded_pipeline": {
+    "final_audit": {
+      "conventional_calls": 5040,
+      "independent_candidate_grades": 42000,
+      "metrics_recomputed": true,
+      "native_replays": 42000,
+      "source_and_corpus_hashes": true,
+      "status": "PASS",
+      "wall_seconds": 23.127523500006646
+    },
+    "final_session": {
+      "reason": null,
+      "rss_peak_bytes": 2549186560,
+      "status": "complete",
+      "usage": {
+        "calls": 42000,
+        "candidate_seconds": 31.649776132777333,
+        "cpu_seconds": 35.198067,
+        "receipts": 25,
+        "uncertain_attempts": 0,
+        "work": 10794228269
+      },
+      "wall_seconds": 6.843239709036425
+    },
+    "search_audit": {
+      "all_selection_mutation_rng": true,
+      "births_replayed": 1404,
+      "chain": "1c319c5028728f246b635ce675963c37e6e97fe76e47dd0de63ec60d3800b156",
+      "charged_calls": 328832,
+      "deterministic_corpora": true,
+      "equal_nominal_allocations": true,
+      "exploration_allocation_counts": {
+        "connected/0/connected": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/0/disconnected": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/0/generic": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/1/connected": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/1/disconnected": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/1/generic": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/2/connected": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/2/disconnected": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        },
+        "connected/2/generic": {
+          "eligible_behavior_cells": 0,
+          "random_immigrant": 21,
+          "selected_explorer_presentations": 0,
+          "shared_lexicase": 135,
+          "training_stages_with_explorers": 0
+        }
+      },
+      "frozen_artifacts_verified": true,
+      "immediate_birth_survival": {
+        "connected/0/connected": {
+          "activate_node/presentations": 11,
+          "activate_node/survive_next_train": 3,
+          "copy_block/presentations": 9,
+          "copy_block/survive_next_train": 5,
+          "duplicate_node/presentations": 5,
+          "duplicate_node/survive_next_train": 2,
+          "initialized_connected_copy/presentations": 24,
+          "initialized_connected_copy/survive_next_train": 9,
+          "insert/presentations": 7,
+          "insert/survive_next_train": 3,
+          "operand/presentations": 18,
+          "operand/survive_next_train": 9,
+          "ports/presentations": 6,
+          "ports/survive_next_train": 1,
+          "replace/presentations": 10,
+          "replace/survive_next_train": 5
+        },
+        "connected/0/disconnected": {
+          "activate_node/presentations": 11,
+          "activate_node/survive_next_train": 3,
+          "copy_block/presentations": 9,
+          "copy_block/survive_next_train": 5,
+          "duplicate_node/presentations": 5,
+          "duplicate_node/survive_next_train": 2,
+          "initialized_disconnected_copy/presentations": 24,
+          "initialized_disconnected_copy/survive_next_train": 9,
+          "insert/presentations": 7,
+          "insert/survive_next_train": 3,
+          "operand/presentations": 18,
+          "operand/survive_next_train": 9,
+          "ports/presentations": 6,
+          "ports/survive_next_train": 1,
+          "replace/presentations": 10,
+          "replace/survive_next_train": 5
+        },
+        "connected/0/generic": {
+          "activate_node/presentations": 20,
+          "activate_node/survive_next_train": 8,
+          "copy_block/presentations": 10,
+          "copy_block/survive_next_train": 5,
+          "deactivate_spare/presentations": 1,
+          "deactivate_spare/survive_next_train": 1,
+          "delete/presentations": 2,
+          "delete/survive_next_train": 0,
+          "duplicate_node/presentations": 10,
+          "duplicate_node/survive_next_train": 3,
+          "insert/presentations": 12,
+          "insert/survive_next_train": 4,
+          "operand/presentations": 16,
+          "operand/survive_next_train": 6,
+          "ports/presentations": 8,
+          "ports/survive_next_train": 3,
+          "replace/presentations": 11,
+          "replace/survive_next_train": 6
+        },
+        "connected/1/connected": {
+          "activate_node/presentations": 10,
+          "activate_node/survive_next_train": 7,
+          "copy_block/presentations": 8,
+          "copy_block/survive_next_train": 3,
+          "duplicate_node/presentations": 8,
+          "duplicate_node/survive_next_train": 4,
+          "initialized_connected_copy/presentations": 26,
+          "initialized_connected_copy/survive_next_train": 12,
+          "insert/presentations": 6,
+          "insert/survive_next_train": 3,
+          "operand/presentations": 14,
+          "operand/survive_next_train": 7,
+          "ports/presentations": 11,
+          "ports/survive_next_train": 6,
+          "replace/presentations": 7,
+          "replace/survive_next_train": 2
+        },
+        "connected/1/disconnected": {
+          "activate_node/presentations": 10,
+          "activate_node/survive_next_train": 7,
+          "copy_block/presentations": 8,
+          "copy_block/survive_next_train": 3,
+          "duplicate_node/presentations": 8,
+          "duplicate_node/survive_next_train": 4,
+          "initialized_disconnected_copy/presentations": 26,
+          "initialized_disconnected_copy/survive_next_train": 12,
+          "insert/presentations": 6,
+          "insert/survive_next_train": 3,
+          "operand/presentations": 14,
+          "operand/survive_next_train": 7,
+          "ports/presentations": 11,
+          "ports/survive_next_train": 6,
+          "replace/presentations": 7,
+          "replace/survive_next_train": 2
+        },
+        "connected/1/generic": {
+          "activate_node/presentations": 11,
+          "activate_node/survive_next_train": 5,
+          "copy_block/presentations": 13,
+          "copy_block/survive_next_train": 3,
+          "delete/presentations": 2,
+          "delete/survive_next_train": 2,
+          "duplicate_node/presentations": 13,
+          "duplicate_node/survive_next_train": 4,
+          "insert/presentations": 8,
+          "insert/survive_next_train": 3,
+          "operand/presentations": 14,
+          "operand/survive_next_train": 7,
+          "ports/presentations": 18,
+          "ports/survive_next_train": 8,
+          "replace/presentations": 11,
+          "replace/survive_next_train": 7
+        },
+        "connected/2/connected": {
+          "activate_node/presentations": 13,
+          "activate_node/survive_next_train": 6,
+          "copy_block/presentations": 11,
+          "copy_block/survive_next_train": 3,
+          "delete/presentations": 1,
+          "delete/survive_next_train": 0,
+          "duplicate_node/presentations": 13,
+          "duplicate_node/survive_next_train": 7,
+          "initialized_connected_copy/presentations": 19,
+          "initialized_connected_copy/survive_next_train": 5,
+          "insert/presentations": 4,
+          "insert/survive_next_train": 2,
+          "operand/presentations": 20,
+          "operand/survive_next_train": 8,
+          "ports/presentations": 3,
+          "ports/survive_next_train": 3,
+          "replace/presentations": 6,
+          "replace/survive_next_train": 4
+        },
+        "connected/2/disconnected": {
+          "activate_node/presentations": 13,
+          "activate_node/survive_next_train": 6,
+          "copy_block/presentations": 11,
+          "copy_block/survive_next_train": 3,
+          "delete/presentations": 1,
+          "delete/survive_next_train": 0,
+          "duplicate_node/presentations": 13,
+          "duplicate_node/survive_next_train": 7,
+          "initialized_disconnected_copy/presentations": 19,
+          "initialized_disconnected_copy/survive_next_train": 5,
+          "insert/presentations": 4,
+          "insert/survive_next_train": 2,
+          "operand/presentations": 20,
+          "operand/survive_next_train": 8,
+          "ports/presentations": 3,
+          "ports/survive_next_train": 3,
+          "replace/presentations": 6,
+          "replace/survive_next_train": 4
+        },
+        "connected/2/generic": {
+          "activate_node/presentations": 17,
+          "activate_node/survive_next_train": 11,
+          "copy_block/presentations": 10,
+          "copy_block/survive_next_train": 3,
+          "delete/presentations": 4,
+          "delete/survive_next_train": 0,
+          "duplicate_node/presentations": 7,
+          "duplicate_node/survive_next_train": 3,
+          "insert/presentations": 10,
+          "insert/survive_next_train": 5,
+          "operand/presentations": 22,
+          "operand/survive_next_train": 5,
+          "ports/presentations": 10,
+          "ports/survive_next_train": 4,
+          "replace/presentations": 10,
+          "replace/survive_next_train": 3
+        }
+      },
+      "independent_grades": 328832,
+      "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM.",
+      "logical_query_counts": {
+        "connected/0/connected": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/0/disconnected": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/0/generic": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/1/connected": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/1/disconnected": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/1/generic": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/2/connected": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/2/disconnected": {
+          "assessment": 90160,
+          "train": 27648
+        },
+        "connected/2/generic": {
+          "assessment": 90160,
+          "train": 27648
+        }
+      },
+      "mutation_births_per_root": {
+        "connected/0/connected": {
+          "m14/reference/a0/standard/0434": 8,
+          "m14/reference/gated_partial": 3,
+          "m14/reference/gated_specialist": 12,
+          "m14/reference/quota_parent": 2,
+          "m14/reference/root/0": 94,
+          "m14/reference/root/1": 1,
+          "new_random_origin": 15
+        },
+        "connected/0/disconnected": {
+          "m14/reference/a0/standard/0434": 8,
+          "m14/reference/gated_partial": 3,
+          "m14/reference/gated_specialist": 12,
+          "m14/reference/quota_parent": 2,
+          "m14/reference/root/0": 94,
+          "m14/reference/root/1": 1,
+          "new_random_origin": 15
+        },
+        "connected/0/generic": {
+          "m14/reference/a0/standard/0434": 9,
+          "m14/reference/a1/standard/0191": 2,
+          "m14/reference/anchor/1": 1,
+          "m14/reference/gated_partial": 6,
+          "m14/reference/gated_specialist": 12,
+          "m14/reference/quota_parent": 3,
+          "m14/reference/root/0": 84,
+          "new_random_origin": 18
+        },
+        "connected/1/connected": {
+          "m14/reference/a0/standard/0434": 3,
+          "m14/reference/anchor/1": 3,
+          "m14/reference/gated_partial": 2,
+          "m14/reference/gated_specialist": 34,
+          "m14/reference/quota_parent": 10,
+          "m14/reference/root/0": 63,
+          "m14/reference/root/1": 1,
+          "new_random_origin": 19
+        },
+        "connected/1/disconnected": {
+          "m14/reference/a0/standard/0434": 3,
+          "m14/reference/anchor/1": 3,
+          "m14/reference/gated_partial": 2,
+          "m14/reference/gated_specialist": 34,
+          "m14/reference/quota_parent": 10,
+          "m14/reference/root/0": 63,
+          "m14/reference/root/1": 1,
+          "new_random_origin": 19
+        },
+        "connected/1/generic": {
+          "m14/reference/a0/standard/0434": 6,
+          "m14/reference/a1/standard/0191": 2,
+          "m14/reference/anchor/1": 1,
+          "m14/reference/gated_partial": 7,
+          "m14/reference/gated_specialist": 38,
+          "m14/reference/quota_parent": 6,
+          "m14/reference/root/0": 60,
+          "new_random_origin": 15
+        },
+        "connected/2/connected": {
+          "m14/reference/a0/standard/0434": 2,
+          "m14/reference/anchor/1": 5,
+          "m14/reference/gated_partial": 3,
+          "m14/reference/gated_specialist": 27,
+          "m14/reference/quota_parent": 2,
+          "m14/reference/root/0": 55,
+          "new_random_origin": 41
+        },
+        "connected/2/disconnected": {
+          "m14/reference/a0/standard/0434": 2,
+          "m14/reference/anchor/1": 5,
+          "m14/reference/gated_partial": 3,
+          "m14/reference/gated_specialist": 27,
+          "m14/reference/quota_parent": 2,
+          "m14/reference/root/0": 55,
+          "new_random_origin": 41
+        },
+        "connected/2/generic": {
+          "m14/reference/a0/standard/0434": 2,
+          "m14/reference/a1/standard/0191": 4,
+          "m14/reference/anchor/1": 1,
+          "m14/reference/gated_partial": 5,
+          "m14/reference/gated_specialist": 26,
+          "m14/reference/quota_parent": 3,
+          "m14/reference/root/0": 53,
+          "new_random_origin": 41
+        }
+      },
+      "native_replays": 7898,
+      "reserved_birth_counts": {
+        "connected/0/connected": {
+          "connected": 135
+        },
+        "connected/0/disconnected": {
+          "disconnected": 135
+        },
+        "connected/0/generic": {
+          "generic": 135
+        },
+        "connected/1/connected": {
+          "connected": 135
+        },
+        "connected/1/disconnected": {
+          "disconnected": 135
+        },
+        "connected/1/generic": {
+          "generic": 135
+        },
+        "connected/2/connected": {
+          "connected": 135
+        },
+        "connected/2/disconnected": {
+          "disconnected": 135
+        },
+        "connected/2/generic": {
+          "generic": 135
+        }
+      },
+      "source_hashes": true,
+      "stages": 5,
+      "status": "PASS",
+      "training_retention_opportunities": {
+        "connected/0/connected": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/0/disconnected": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/0/generic": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/1/connected": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/1/disconnected": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/1/generic": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/2/connected": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/2/disconnected": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        },
+        "connected/2/generic": {
+          "exposed/ordinary_perfect/11/long": 6,
+          "exposed/ordinary_perfect/11/medium": 12,
+          "exposed/ordinary_perfect/11/short": 18,
+          "exposed/ordinary_perfect/15/medium": 15,
+          "exposed/ordinary_perfect/15/short": 15,
+          "exposed/ordinary_random/15/long": 3,
+          "exposed/ordinary_random/15/short": 15,
+          "exposed/ordinary_random/9/medium": 6,
+          "exposed/ordinary_random/9/short": 18,
+          "fresh_ordinary_base_presentations": 36,
+          "fresh_parent_successful_ordinary_presentations": 0,
+          "parent_complete_pairs": 0,
+          "parent_successful_ordinary_bases": 0,
+          "persistent_ordinary_base_presentations": 72,
+          "persistent_parent_successful_ordinary_presentations": 0
+        }
+      },
+      "uncertain_attempts": 0,
+      "variation_counts": {
+        "connected/0/connected": {
+          "copy_bucket": 32,
+          "eligible_edge_presentations": 380,
+          "genotype_noop": 4,
+          "kind/activate_node": 15,
+          "kind/copy_block": 13,
+          "kind/delete": 1,
+          "kind/duplicate_node": 10,
+          "kind/initialized_connected_copy": 31,
+          "kind/insert": 12,
+          "kind/operand": 25,
+          "kind/ports": 12,
+          "kind/replace": 16,
+          "ordinary_fallback": 1
+        },
+        "connected/0/disconnected": {
+          "copy_bucket": 32,
+          "eligible_edge_presentations": 374,
+          "genotype_noop": 4,
+          "kind/activate_node": 15,
+          "kind/copy_block": 13,
+          "kind/delete": 1,
+          "kind/duplicate_node": 10,
+          "kind/initialized_disconnected_copy": 31,
+          "kind/insert": 12,
+          "kind/operand": 25,
+          "kind/ports": 12,
+          "kind/replace": 16,
+          "ordinary_fallback": 1
+        },
+        "connected/0/generic": {
+          "copy_bucket": 32,
+          "eligible_edge_presentations": 0,
+          "genotype_noop": 4,
+          "kind/activate_node": 26,
+          "kind/copy_block": 15,
+          "kind/deactivate_spare": 1,
+          "kind/delete": 2,
+          "kind/duplicate_node": 17,
+          "kind/insert": 17,
+          "kind/operand": 24,
+          "kind/ports": 17,
+          "kind/replace": 16,
+          "ordinary_fallback": 0
+        },
+        "connected/1/connected": {
+          "copy_bucket": 34,
+          "eligible_edge_presentations": 426,
+          "genotype_noop": 1,
+          "kind/activate_node": 25,
+          "kind/copy_block": 11,
+          "kind/delete": 2,
+          "kind/duplicate_node": 10,
+          "kind/initialized_connected_copy": 33,
+          "kind/insert": 11,
+          "kind/operand": 19,
+          "kind/ports": 14,
+          "kind/replace": 10,
+          "ordinary_fallback": 1
+        },
+        "connected/1/disconnected": {
+          "copy_bucket": 34,
+          "eligible_edge_presentations": 424,
+          "genotype_noop": 1,
+          "kind/activate_node": 25,
+          "kind/copy_block": 11,
+          "kind/delete": 2,
+          "kind/duplicate_node": 10,
+          "kind/initialized_disconnected_copy": 33,
+          "kind/insert": 11,
+          "kind/operand": 19,
+          "kind/ports": 14,
+          "kind/replace": 10,
+          "ordinary_fallback": 1
+        },
+        "connected/1/generic": {
+          "copy_bucket": 41,
+          "eligible_edge_presentations": 0,
+          "genotype_noop": 3,
+          "kind/activate_node": 19,
+          "kind/copy_block": 18,
+          "kind/delete": 5,
+          "kind/duplicate_node": 18,
+          "kind/insert": 11,
+          "kind/operand": 25,
+          "kind/ports": 24,
+          "kind/replace": 15,
+          "ordinary_fallback": 0
+        },
+        "connected/2/connected": {
+          "copy_bucket": 31,
+          "eligible_edge_presentations": 643,
+          "genotype_noop": 5,
+          "kind/activate_node": 19,
+          "kind/copy_block": 16,
+          "kind/delete": 3,
+          "kind/duplicate_node": 17,
+          "kind/initialized_connected_copy": 31,
+          "kind/insert": 8,
+          "kind/operand": 25,
+          "kind/ports": 5,
+          "kind/replace": 11,
+          "ordinary_fallback": 0
+        },
+        "connected/2/disconnected": {
+          "copy_bucket": 31,
+          "eligible_edge_presentations": 642,
+          "genotype_noop": 5,
+          "kind/activate_node": 19,
+          "kind/copy_block": 16,
+          "kind/delete": 3,
+          "kind/duplicate_node": 17,
+          "kind/initialized_disconnected_copy": 31,
+          "kind/insert": 8,
+          "kind/operand": 25,
+          "kind/ports": 5,
+          "kind/replace": 11,
+          "ordinary_fallback": 0
+        },
+        "connected/2/generic": {
+          "copy_bucket": 42,
+          "eligible_edge_presentations": 0,
+          "genotype_noop": 5,
+          "kind/activate_node": 27,
+          "kind/copy_block": 15,
+          "kind/delete": 8,
+          "kind/duplicate_node": 12,
+          "kind/insert": 12,
+          "kind/operand": 29,
+          "kind/ports": 15,
+          "kind/replace": 17,
+          "ordinary_fallback": 0
+        }
+      },
+      "wall_seconds": 11.867703167023137
+    },
+    "search_uses_saved_receipts": true
+  },
+  "failed_assumptions_fixed_in_tests_only": true,
+  "focused_tests": 8,
+  "full_historical_suite": false,
+  "initial_deselected_tests": 2,
+  "initial_failed_tests": 2,
+  "initial_passing_tests": 3,
+  "initial_test_wall_seconds": 2.15,
+  "other_unit_native_calls": "not separately instrumented",
+  "passed": 8,
+  "scientific_source_repair": false,
+  "wall_seconds": 65.2
+}

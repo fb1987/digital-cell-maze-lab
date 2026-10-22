@@ -1,0 +1,2 @@
+A preparation helper was invoked with system python3 and failed importing numba (ModuleNotFoundError). No dependency was installed or altered. Reinvoked with .venv/bin/python; no scientific process had launched. Changes before the import were limited to new unregistered test/config source.
+A helper initially used a too-long pytest temporary-directory prefix and asserted the successful test packet was absent; inspecting the bounded pytest temp directory revealed its truncated name. The successful packet was then copied without rerunning tests or inference.
