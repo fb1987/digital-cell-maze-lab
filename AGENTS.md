@@ -35,51 +35,50 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M23-STATUS-START -->
-Current October22,2026: **M23 SEARCH COMPLETE; registered audit RUNNING.**
-Read docs/DORMANT_EVOLUTION.md and docs/DORMANT_EVOLUTION_PROGRESS.md;
-results/dormant_evolution/{config,neutral_birth,software_validation,storage_plan}.json.
-New selected disabled-at-birth expression comparison, EXACT unchangedM18VM.
-Nine96populations/3matched ordinary/enabled/disabledtrios,14protected+82focalclones;
-7randomimmigrants+45single-opportunitymutants. Extensionarms25%append/25%generic
-activation-or-payloadtuning/50%ordinary. Common3nodeappend admission<=128instructions,
-31nodes/block; originalordinary256cap/ticks/read/dispatch unchanged. DisabledCONST0
-vs enabledCONST1, identicalpayload/terminal/material/RNG atcommonparent. Nooracle/caseID/
-knownsolver/recombination. Neutralgate80640old-inputcomparisons+288all-statehistories
-PASS,extra1.72–1.73%work/+84bytes. All5focusedtestsPASS/fullartificialdurablepipeline
-PASS,notfullsuite;initialpreparationhelperfailures/costslost preserved.
-70minsoft/90minhard,1024round/120Mcalls/1e15work,10workers,8GiBRSS/12GiBTOTALstorage
-inclbackups/16GiBfreefloor. Registrationfa8a6fcPUSHEDBEFOREscience. Durabletools/run_m23_workflow.pyPID8954/child8964,
-runs/dormant_evolution_m23/{campaign.sqlite,workflow_status.json,phase logs}. NEVERlaunch
-anotherwriter/workflow. Readonly tools/inspect_dormant_evolution.py. Heartbeat
-m23-dormant-evolution-follow-through ACTIVE15min/quietroutine. workflowfreezes/pushes
-exactchoicesBEFOREfresh1680confirmation,auditsALLsearchgrades/selection/mutation/RNG
-+fixednativesamples,ALL-nativefinalaudit. Noautomaticfailedresume/secondwriter/bounds
-extension/sealedsourcechange/reset/reselection. All409M22completion/15localhashesverify;
-3580521initialwholelayouts(3580513M22+8scalar-unitrotations),recursive reference+delta,oldrecordsunaltered.
-PrimaryfixedINTEGRATEDnewtargetpairszeroifM23mutation/rootANDentry90%/nonemptyA0
-90%/zerofalsenopathgatesfail. NoveltyexcludesALLM22archive103aliases/73genomes,
-14protected/root/entry; archivecomparisonONLY,notextra founders. Descriptivesupport
-needspositive2/3triosANDsum BOTHdisabled-vsenabled/ordinary.No secondaryrolesubstitution/
-general/speed/significance/independentoriginclaim. TrackinheritancevsM23,allskills/losses,
-lengthstrata,extension/tuning/noops/persistence andrealcosts. Random-originremainscentral.
-At audited_ready_for_report followhandoff:checkPASSaudits/hashes/publishedfreeze;
-analyze_m23_saved/preserve_m23/report_m23 once,reviewactualevidenceandwrite
-report_review.json;updatehandoff/AGENTS,seal_m23_completion ONCE,pushcompactevidence/
-forcecopiedlogs,neverrawSQLite. Preservealloriginals/seals/failedrecords. Followupquiet
-onroutine,notifymeaningfulchange/failure/completion;pauseaftercompletionoruseraction.
-HostlowpowersleepOct22 16:55:17–17:38:46EDT(2609s,battery1%,wokeAC) preservedin
-results/dormant_evolution/development/sleep_wake_001.log/monitor_002.json. Samewriter
-resumed,0uncertainattempts. Frozenmonotonicstopwatch excludesmacOSsleep; REPORT BOTH
-measuredsearchtime andcalendarlaunchtostopelapsed,notmislabel70minaselapsedinclSleep.
-Sources/boundsunchanged;noextraallowance. Development0/48/64allnomineesinherited,
-0newM23births/targetpairs;all27metricsunchangedonsamepanel. Notconfirmation.
-Normalstop243rounds/22363344physicalcalls/0uncertain; measured4272.06s vsreal6861.89s,
-29822.46candidate/30299.90CPU/6974297608853work/2.95GiBsampledpeakRSS. Readsearch_timing.
-ExactchoicesPUBLISHEDbeforefreshconfirmation; choices_freeze.json/monitor005verifybytes.
-Workflowsearch_audit_001RUNNING,thenautomaticregisteredfinal/analysis/ALL-nativeaudit.
-NEVERstartduplicateaudit/search. Development240all27roles0newtargets beyond14protected;
-3evolvedrolesonly,notfreshconfirmation. Finalreport/audits/preservationstillpending.
-No phasebeyondM23/cloudcompute/recombination/solverinjectionauthorized.
+Current October22,2026: **M23 COMPLETE, fresh-confirmed and AUDITED.** Read
+results/dormant_evolution/report.md,summary.json,saved_diagnostics.json,
+allocation_persistence.json,interpretation.json,bothaudits,preservation/completion.json;
+docs/DORMANT_EVOLUTION_PROGRESS.md. No scientific process or nextphase running.
+PreserveALLold/newseals/originals/backups/failedpreparation/unpublishedpacket.
+FutureauditsNEWpacketsonly;neverrerunclosedactions/reselectonfinaldata.
+Registrationfa8a6fc/choices9b832e7pushedBEFOREscience/freshconfirmation.
+Nine96populations/3matchedordinary-enabled-disabledtrios,243rounds normalsoftstop;
+sameM18VM/commonexplorationselector/M11banks,14protected+82focalclones. Relatedforks,
+notwholeoldpopulationcontinuation/independentorigins.98415mutants+15309immigrants.
+PRIMARY0–0–0ALL3trios/supportFALSE. ALL27rolesFAILupstream/long/combined/integration;
+0rawnoveltargetpairsBEFOREgates.27roles/6identities/6genomes,3M23evolved. All0/79ordinary16+.
+Enabledg190/b50chain16births/2extensions/3activation/5payloadedits,113instructions:
+ONEnewindividual6-edge15×15PERFECTpose4correct13ticks;pose0branch/cycle13ticks.
+0newcompletetwo-poseordinarybasebeyonddeclared103alias/73genomearchive. Rootgated_partial
+112→104pairs(+6/−14),22→25ordinary(+4/−1),168nopathretained/0false;87.5%pairretentionFAIL.
+Enabledg126/b15root116→136pairs(+40/−20),7→2ordinary(+1/−6),168nopath,0false,
+0newindividualsbeyondarchive. Disabledg80/b40(4births)correctsetEXACTroot/A0:
+96pairs/200corridors/25ordinary/168nopath/0false,nogain;terminalprofiledifferent.
+Neutralgrowth/persistencevalidated,norobustgeneral-solving/disabledpolicyadvantage.
+8081disabled/8051enabledextensionsadmitted;66/136capacitynoops. Activationedits1534/1828,
+nexttrainsurvive648/1523disabled,743/1817enabled. Finalextensiondescendants133/167;
+maxfinalM23depth26disabled/27enabled/12ordinary,up to7extensionbirthsonchain/6wrappers.
+Thesearestructure/persistence,nocausalproofnewbranchesuseful. Append<=128admission,
+original256instruction/tickVMunchanged; no solver injected.
+Science22501104calls/29975.50candidate/30454.35CPU/7018931111683work/0uncertain.
+SearchfirstPASS794.11s ALL22363344grades/225349native/113724births/260transitions+RNG/freeze.
+FinalfirstPASS97.79s ALL137760native/grades/summary+5040baselines;intact/conventionalallcorrect.
+SharedVM/operator,independentgrader,notsecondVM. No speed/significance/generalclaim.
+Searchmeasured4272.06s=71.20min vsreal6861.89s=114.36min.2609shostlowpowersleep
+pausesMACmonotonic;REPORTBOTHsearch_timing.json. Fullworkflow130.21mincalendar.
+Final32.73s/3.652GiBRSS,search2.951GiB. Boundsunchanged,noguardbypass/source/scientificrepair.
+All400registration/409M22completion/15localhashesverify. OriginalSQL+verifiedAPIbackups
+underlocks/ALLtablesmatch LOCALruns/dormant_evolution_m23,~1.696GiBbeforeseal/42.69GiBfree.
+3742313wholelayouts(initial3580521+search156448+final5344),reference+delta/immutablebases,
+rawtablesDELTAONLY;loadreferenced_campaign_store.load_layouts. RawSQLoutsideGit.
+FivefocusedtestsPASSnotfullsuite;allprep/reportingfailures/costlimitationsretained;
+scalarunit8rotations excludedBEFOREpublishedregistration. Posthocinterpretationsaved-only.
+Reviewedreport/preservation/sealing/push complete before followupPAUSE; oldmonitor.json
+iscreationstate. AGENTSmutableoutsidecompletionseal. Neveroverwriteoldrecords.
+NextproposalONLY:smallregisteredcausalaudit16-birthlineage,branchbypassvsfinalC2portswap/
+earlierancestors,costmatched,oldcasesDEVELOPMENT;retainno-path/losses. PreserveEXACT
+endingpopulations/RNGforfuturecontinuation. NoM24/extraevolution/cloud/recombination/
+solverinjectionauthorized. Morecapacity/longersearchunsettled;random-originremainscentral.
 <!-- M23-STATUS-END -->
 
 <!-- M22-STATUS-START -->
