@@ -1,0 +1,3 @@
+Preparation test: 1 failed, 4 passed in 4.50s. No scientific model inference.
+test_full_factorial_material_and_specific_changes expected 13 non-root protected entries, got12.
+Cause: sources.protected is the historical final archive; its identities do not contain every M23 entry under the same key. Fixed to use all14 exact non-M23 entries in the sealed M23 ancestry registry, which match M23 founders. Transformation behavior unchanged.

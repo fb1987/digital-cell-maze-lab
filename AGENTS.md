@@ -34,6 +34,27 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M24-STATUS-START -->
+Current October22,2026: **M24 branch-causality PREPARED, user authorized Proceed.**
+Read docs/BRANCH_CAUSALITY.md and docs/BRANCH_CAUSALITY_PROGRESS.md;
+results/branch_causality/registration.json. No new evolution/confirmation/cases.
+42aliases/40physicalmodels x1680 REUSED M23 inputs, 67200physicalcalls;17exact
+ancestral states,8branch-bypass/C2portfactorialcells,root+port-swap,14protected
+references inclroot,3intactcontrols. SameM18VM.240passivetracecalls,ALL-native
+andALLhistoryaudits,independentscalar saved-state observer. AllM23seals preserved.
+Publishregistration BEFOREscience;neverchange sealed sources/models/panel/selection.
+Durable tools/run_m24_workflow.py, journal runs/branch_causality_m24/evaluation;
+workflow_status.json/phaselogs. Neversecondwriter; failurespreserved/nosilentrepair.
+Tenworkers;eachnativephase900s;150kcalls/1e14evalwork,600tracecalls/1e13;
+8GiBRSS/3GiBTOTALstorageinclbackups/16GiBfreefloor,maxepoch/monotonicclock.
+At audited_ready_for_report verifyaudits,reporttruth-table/earliestancestor/root-swap,
+ALLcasegains/losses/nopath/length/work/costs,conditionalcausalityonly;notnewgeneralization.
+VerifiedSQLiteAPIbackup underlock ifboundsallow,ALLlayoutledgerref/zero newlayouts,
+reportreview,sealonetime,commit/pushcompactevidence/copiedlogs,neverrawSQL.
+NoM25,extraevolution,recombination,solverinjection orcloudcomputeauthorized.
+<!-- M24-STATUS-END -->
+
+
 <!-- M23-STATUS-START -->
 Current October22,2026: **M23 COMPLETE, fresh-confirmed and AUDITED.** Read
 results/dormant_evolution/report.md,summary.json,saved_diagnostics.json,

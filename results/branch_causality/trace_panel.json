@@ -1,0 +1,52 @@
+{
+  "counterpose": "confirmation/ordinary/perfect/15/112000/perfect/15x15/d4-0",
+  "gained_inputs": [
+    "confirmation/ordinary/perfect/15/112000/perfect/15x15/d4-4"
+  ],
+  "reasons": {
+    "confirmation/ordinary/disconnected/9/r0/56000/disconnected/9x9/d4-4": [
+      "correct_no_path"
+    ],
+    "confirmation/ordinary/perfect/11/0/perfect/11x11/d4-0": [
+      "gain/ordinary_perfect"
+    ],
+    "confirmation/ordinary/perfect/15/112000/perfect/15x15/d4-0": [
+      "known_counterpose_failure"
+    ],
+    "confirmation/ordinary/perfect/15/112000/perfect/15x15/d4-4": [
+      "known_single_pose_gain"
+    ],
+    "confirmation/ordinary/perfect/15/92000/perfect/15x15/d4-4": [
+      "ordinary_perfect/16plus"
+    ],
+    "confirmation/ordinary/random/9/r0/100000/random/9x9/d4-4": [
+      "gain/ordinary_random"
+    ],
+    "confirmation/ordinary/random/9/r0/20000/random/9x9/d4-4": [
+      "loss/ordinary_random"
+    ],
+    "confirmation/stress/a(6, 4)/straight/c11/s0/cycle/p1/paired/1/d4-6": [
+      "gain/paired"
+    ],
+    "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p0/paired/0/d4-4": [
+      "loss/paired"
+    ],
+    "m7final_long/random/15/distance16-None/item1/try3/ordinary/random/15/r0/0/random/15x15/d4-0": [
+      "ordinary_random/16plus"
+    ]
+  },
+  "rule": "Known gain/counterpose; lowest SHA256 case per old root gain/loss family; one root no-path and one 16+ case per ordinary family",
+  "scope": "Reused M23 mechanism/development data, no independent confirmation",
+  "selected_cases": [
+    "confirmation/ordinary/disconnected/9/r0/56000/disconnected/9x9/d4-4",
+    "confirmation/ordinary/perfect/11/0/perfect/11x11/d4-0",
+    "confirmation/ordinary/perfect/15/112000/perfect/15x15/d4-0",
+    "confirmation/ordinary/perfect/15/112000/perfect/15x15/d4-4",
+    "confirmation/ordinary/perfect/15/92000/perfect/15x15/d4-4",
+    "confirmation/ordinary/random/9/r0/100000/random/9x9/d4-4",
+    "confirmation/ordinary/random/9/r0/20000/random/9x9/d4-4",
+    "confirmation/stress/a(6, 4)/straight/c11/s0/cycle/p1/paired/1/d4-6",
+    "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p0/paired/0/d4-4",
+    "m7final_long/random/15/distance16-None/item1/try3/ordinary/random/15/r0/0/random/15x15/d4-0"
+  ]
+}
