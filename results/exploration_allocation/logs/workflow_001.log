@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m14_workflow.py", line 9, in <module>
+    from maze_evolution.exploration_allocation import ROOT,OUT,RUN,check,pushed,writej
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/exploration_allocation.py", line 6, in <module>
+    from .foundation_calibration import ROOT
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/foundation_calibration.py", line 15, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

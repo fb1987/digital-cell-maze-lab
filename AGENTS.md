@@ -49,9 +49,9 @@ Never rerun old campaigns to recreate missing journals. Restore exact files via
  tools/s3_research_archive.py restore; see restore_instructions.json and catalog.
 Archive does not expire automatically. Keep manifests, pinned object versions,
 old seals, and referenced layout bases. Credentials never stored in project.
-M14 remains PAUSED BY USER, prepared/not registered/not launched. S3 migration
-is not authorization to start M14. After explicit resume verify all M14 preparation
-hashes and new passing storage plan before registration/commit/push/science.
+M14 was paused at migration completion; the later M14 status block below records
+the user-authorized resume and completed experiment. Storage authorization alone
+does not authorize any future research phase.
 <!-- S3-ARCHIVE-STATUS-END -->
 
 <!-- S3-ARCHIVE-LAUNCH-START -->
@@ -69,34 +69,46 @@ Only46 exact closed-run .sqlite files (38.39GiB) may be evicted by this plan. So
 results, logs, lock/status files and ALL M13/M14 records remain local. Never delete
 S3 object versions or manifests. Use tools/s3_research_archive.py restore for exact
 old bytes; do not rerun old studies. Restore instructions/catalog are in same packet.
-No scientific source/selection/history bytes changed. M14 remains USER-PAUSED;
-cloud migration is NOT authorization to launch it. Do not auto-resume experiments.
+No scientific source/selection/history bytes changed. M14 was USER-PAUSED at migration launch;
+see its later status block. Storage migration alone never authorizes experiments.
 <!-- S3-ARCHIVE-LAUNCH-END -->
 
 <!-- M14-STATUS-START -->
-Current October22,2026: M14 exploration allocation RUNNING; user said Continue
-following completed verified S3 migration. Registration4297402 pushed BEFOREscience.
-All335preparation/378M13completion/21M13localrecordhashesverified; freshstorageplan
-passes with~55GiBfree. Exactpreparedscienceunchanged:6x96/3retention-explorepairs,
-64rounds,assessment16,10workers,1200soft/1800hardsearchseconds,6Mcalls/1e13work,
-8GiBRSS/600MiBtotalphaseinclbackups/16GiBfreefloor. No new phase beyondM14.
-Read docs/EXPLORATION_ALLOCATION.md,progress,registration.json and launch.json.
-WorkflowPID74690, tools/run_m14_workflow.py; journal runs/exploration_allocation_m14/
-campaign.sqlite. Inspect workflow_status.json and separatelogs; readonly helper
- tools/inspect_exploration_allocation.py [--assessment N --output NEW_PATH]. NEVER
-startsecondwriter,changeseals/selection/founders,reselectonfinalorextendbounds.
-Initial launcher incorrectly resolvedvenvPython symlink and lackednumpy; exited
-BEFOREworkflowstate/journal/cases. Preserve launch_001_failed.json,launch_correction.json
-andworkflow_001.log. Correctedvenv invocation usesworkflow_002.log; no scientific
-workflowresumed, sourcechangedorprotocolrepair. Existing16focusedtestspass(notfullsuite).
-Workflow freezes/pusheschoices BEFOREfresh1680confirmation;fullsearchgrade/selection/
-mutation/RNGaudit andALL-nativefinalaudit. Onerror/guardpreserverecords;noautomatic
-failedscientificresume. Afteraudits:actualoutcome/ancestry/allocation/persistence/
-root-parent-protected/reference/no-path/length/costreport,guardedSQLitebackups,
-alllayoutsreference+deltaexport,completionseals,push. Newpostprocessinghelpersmay
-beaddedwithoutalteringregisteredscience. No general-solver/speedclaim.
-S3 archivalcomplete;M13/M14journalsandallresults/dependenciesLOCAL. Archivedolder
-journalsrestorefrompinnedcatalog,neversilentlyrerunoldstudies. Noheartbeatcreated.
+Current October22,2026: M14 COMPLETE, fresh-confirmed and AUDITED. Read
+results/exploration_allocation/report.md,summary.json,completion.json and
+ docs/EXPLORATION_ALLOCATION_PROGRESS.md. No process/heartbeat/newphase running.
+Registration4297402/choices17200324 pushed BEFOREscience/freshconfirmation.
+64matchedrounds,six96populations,3retention/explorepairs,exactM10founders/common
+M1all-blockmutation/exactM11banks. PRIMARY0–0allpairs;exploration_supportFALSE.
+All18roles FAILintegration/deeper/long/combined;12identities/sixgenotypes;NONE
+solvesfreshinputbeyondprotectedunion. Sixprimariesexactlymatchfixedparentall1680
+outputs:96pairs/200corridors/15ordinarybothposes/168nopath/0false. Allnominees
+0/96nonforkprefix2+pairs,0/77ordinary16+bases. Longer8/9/12routesINHERITED.
+Cross-panel15vsM13's20ordinaryisNOTloss;parentalso15onsamefreshpanel.
+
+Explorationactuallypreservedvariation:2243presentations/1104distinctexplorers,
+2268reservedoffspring;1142/2207explorers and500/2232reservedchildren survive nexttrain.
+Firsttrainmutants8505/arm;novelterminalprofiles4837/1099surviveexplore(22.7%)vs
+3297/162retention(4.9%);same direction3pairs. Newtraininginputgainers69/25survive
+vs25/17. Correlatedposthocdevelopment,notconfirmation/significance/usefulmechanism
+proof. NovelANDallparentskills0botharms. Finaldepth6/7/9explorevs9/10/9retention;
+maxexplorernichedepth11. SurvivalANDbreedingpolicy-package;notisolatedcausality.
+17280mutants+2688immigrants/510noops. Search3880864calls/567.58wall/3433.57candidate;
+final30240calls/15wall/24.77candidate. Equal589824train+225400assessmentqueries/pop.
+FirstsearchPASS149.20s:ALLgrades/38648native/69transitions/19968births/RNG/freeze.
+FirstfinalPASS29.62s:ALL30240native/grades/summary+5040conventionalcalls. Intact/
+conventionalcontrolsallcorrect. SharedVM/operator,independentgrader. No generalsolver/
+speedclaim.16focusedpreptests,notfullsuite;firstfixturefailurepreserved. Firstlauncher
+venvsymlinkerrorBEFOREsciencepreserved,correctedinvocationonly;nosourcerepair.
+342registration/335preparation/378M13completion/21M13localhashesverify.
+Originals+verifiedSQLiteAPIbackupsLOCALunder runs/exploration_allocation_m14;
+~332MiBbeforefinalseals,600MiBcap/16GiBfloorrespected. All3049007layoutsreference+
+deltaexport (3002535initial+40296search+6176final);preserveimmutablebaseparts.
+OlderrecordsinverifiedS3archive;M13/M14andallresultsremainlocal. Neveroverwrite
+seals/rawrerunclosedstudies/reselectonfinaldata. Futureauditsseparatepackets.
+NextproposalONLY:newregistered60–90min matchedcontinuation fromEXACTsixfinal
+populations/archives/RNG/lineageregistries withcommonstrictconfirmation. Testtime
+withoutshortfreshrestarts;noveltysurvivalisnotconfirmedsolving. No newphase launched.
 <!-- M14-STATUS-END -->
 
 

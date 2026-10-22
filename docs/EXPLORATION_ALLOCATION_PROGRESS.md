@@ -1,91 +1,58 @@
-# M14 launched after completed S3 migration
+# M14 complete, independently confirmed and audited
 
-The user said Continue on October22. The archive is complete: 46 closed-run
-SQLite files (38.39GiB) were removed only after full S3 chunk readback verification,
-a complete database restore/hash/integrity test, and published recovery catalog.
-M13/M14 journals and all reference manifests/results remain local; ~55GiB free.
-All335prepared files and378M13completion plus21localrecord hashes verify.
-Fresh storage_plan.json passes; registration4297402 was pushed before generation.
+Registration4297402 pushed before scientific generation; exact choices17200324
+pushed before fresh1680input confirmation. Read results/exploration_allocation/
+report.md,summary.json,saved_diagnostics.json,interpretation_evidence.json,
+allocation_persistence.json,selection_diagnostics.json,preservation.json,bothaudits
+andcompletion.json. No scientific process, heartbeat or newphase running.
 
-The first launcher resolved the venv interpreter symlink and exited on missing
-numpy before importing the workflow, creating a journal or generating any cases.
-Its exact launch metadata/traceback are preserved. Corrected invocation uses the
-venv path directly; scientific source/configuration/founders and bounds unchanged.
-See launch_correction.json and launch.json for actual process/log paths. Never
-start a second writer; inspect workflow_status.json and read-only inspector first.
+Six96populations,three pairedretention/explore histories,64matched rounds; exact
+M10founders/twelveprotected/commonM1all-block single-editmutation/exactM11banks.
+Primary0–0all3pairs;exploration_supportfalse. All18nominee roles FAILintegration,
+deeper,long,combined.12identities/sixgenotypes; NONEsolvesa freshindividualinput
+beyondprotectedunion. Allsixprimaries emit exactlyfixed-parent masks/status/steps
+onall1680inputs:96pairs/200corridors/15ordinarybothposes/168correctnopath/0false.
+Allnominees0/96nonforkprefix2+targetpairs and0/77ordinary16+bases. Longer8/9edge
+parentand12edgespecialistroutes inherited.15/256versuspriorM13's20/256isNOTloss:
+freshpanelsdiffer,parentalso15onsameM14cases. No capability/general/speedclaim.
 
-The workflow performs search, published choice freeze, search audit, registered
-fresh confirmation, analysis and ALL-native final audit. Reporting/preservation/
-completion seals follow. No automatic failed-science resume or bound extension.
-No further phase authorized. Historical preparation and pause record follows.
+Actualexploration:2243explorerpresentations/1104distinctIDs;2268reservedoffspring,
+1142/2207priorpresentations survive nexttrain;500/2232reservedchildren survive next
+train. Maximumexplorerdepth11;final live/archive depth6/7/9explore vs9/10/9control.
+Savedfirst-train-exposurediagnostic:8505newmutants/arm;exclude31explore/8retention
+immigrant-rootdescendantsfromprotected-rootcomparison. Novelterminalprofiles4837/
+1099surviveexplore(22.7%)vs3297/162retention(4.9%). Same directionallthreepairs.
+NovelANDallfixedparentskills0botharms. Anynewtraininginputgainers69/25surviveexplore
+vs25/17retention. Correlatedfinitepaneldevelopment,notindependentconfirmation,
+significance,semanticnoveltyorprovenrouteprecursors. Cannotrescueprimaryorjustify
+finalreselections. Survival/breedingpolicy-package,notisolatedcomponentcausality.
 
----
+17280mutants+2688immigrants,510genotypenoopscharged. Equalperpop589824train+
+225400assessmentnominalqueries. Search3880864physicalcalls/567.58wallsec/
+3433.57candidatesec/3638.39CPUsec/1115146188669work/2.964GiBsampledRSS.
+Final18physicalmodelsx1680=30240calls/15.00wall/24.77candidate/28.00CPU/
+8653956765work/3.324GiBRSS. Zerouncertainattempts/guardbypasses.
+SearchfirstPASS149.20s:all3880864grades/38648native/69transitions/19968births,
+selection/mutation/RNG/tasks/corpora/frozenartifacts. FinalfirstPASS29.62s:
+ALL30240nativeoutputs/grades/summary+5040conventionalevaluations. Allintactand
+BFS/A*/bitwavecontrols correct. SharedVM/reproduction,independentgrader.
+16focusedpreparationtests,notfullsuite. Initialsoftwarefixturestoragefailure
+preserved. InitiallauncherresolvedvenvsymlinkandlackednumpyBEFOREworkflowstate/
+journal/cases;preservefailuremetadata/traceback. Correctedinvocationonly;
+registeredscientificsource/founders/rules/boundsunchanged.342registration/
+378priorM13completion/21M13localrecordsverify.335originalpreparationfilesverify.
 
-# M14 prepared; user-paused for storage migration
+Originalsearch/finaljournals+SQLiteAPIbackupsverifiedunderwriterlocks;~332MiB
+phasepreservedbeforefinalseals,within600MiBcap/16GiBfloor. All3049007layoutexclusions
+viawhole_layout_exclusions.json:3002535initial+40296search+6176final,including
+rejected/unqueriedlayouts. Referencemanifestrequiresimmutablebasefiles/parts;
+loadwithreferenced_campaign_store.load_layouts,neverrawlayoutsdeltaalone.
+Olderclosedrecordsarchivedtoverifiedversion-pinnedS3underseparateauthorization;
+M13/M14journalsandallresults/dependenciesremainlocal. Futureauditnewpacketonly.
 
-The user authorized the M13 report's proposed next comparison, then explicitly
-asked to pause after preparation while they migrate files to an external hard
-drive. They will notify us when finished and ready to proceed. Do not auto-launch
-when storage changes. No scientific M14 generation, inference, registration or
-workflow has started; no heartbeat created. Prior M13 is complete and untouched.
-
-Read docs/EXPLORATION_ALLOCATION.md and results/exploration_allocation/readiness.json,
-prepared_manifest.json,software_verification.json and storage_plan_initial.json.
-The335-file prepared manifest is a reproducibility snapshot, NOT scientific
-registration or evidence of a run. Verify it before resuming. Readiness and this
-handoff record the explicit user pause; neither authorizes automatic continuation.
-
-Prepared six96-slot populations,three pairedretention/explore histories with exact
-M10founders/twelveprotectedreferences andcommon genericall-blockM1 mutation. Exact
-M11BANKdevelopmentpanels commonwithinpair;48fresh+48fixedordinarytraining,115x392
-assessment. Controlselector/order/RNG matchesM13 exactly incompatibilitytests.
-Explorationreservesupto12survivors after12protected+8merit,thenusualcoverage/neutral/
-lexicasefills44. Distinctrouting-quality profiles,onebestrepresentativepercell,
-uniformcellsampling,notclonecount orrawrasternovelty. Eligible: nofalse-no-path,
-anyreachablevalid/optimalroute or emittedmissingendpointpartial>=.25. Allzero,
-empty/flood/branch-only/wall/budget/nonemitted profiles do not qualify. This is
-finitepanel performance,notsemanticnovelty orprovenrouteextraction. Existingpartial
-fitness isselectiononly; nooracle insidecandidateinference. First12of45mutantbirths
-cycleexplorers,remaining33sharedlexicase;whenemptyall45shared.7immigrantsunchanged.
-Survivalandparentallocation areonepolicy package,notindividuallyidentifiedcauses.
-Archive/nominees/strictfreshintegration/deeper/longgates staycommon. No solverinjection.
-
-16focusedtestsPASS(notfullsuite). Fourdiscardedtrainingrounds+initialassessment:
-122976candidatecalls/109.44candidateseconds,5712intactcontrolcalls allcorrect,
-1248births/RNGexactreplay.89explorerpresentations across9nonemptyexplorepopulation-
-stages and108reservedoffspring demonstrateactualallocation. Exactfounders/common
-banks/budgets/globaloperatorall8blocks; usefulprofile/flood/empty/false-no-path/
-clonecount/captests;baselinecompatibility;fullzero-roundfreeze/searchaudit/final/
-analysis/ALL-native audit. Firstfullpipelinefixturecorrectlyhitfull600MiBadmission
-reserve becauseactualdiskwaslow;15otherstestspassed. Onlyzero-roundsoftwarefixture
-storageallocationchangedto32MiB,withsame16GiBfreefloor;affectedtestthenPASS. Preserve
-bothlogs. Scientific600MiBreserveunchanged;nosource-selectionrepairornewscience.
-All378M13completionhashes and21M13localrecordhashes stillmatch. All3,002,535layouts,
-includingnewsoftwarefixtures,excludedviareference+delta exclusions.json. No old
-historymigrated/deleted/compacted. Prepared scientificfounders are separatefromfixtures.
-
-Proposedbounds64matchedrounds/assessment16,1200soft/1800hardsearchseconds,6Mcalls,
-1e13work,10workers,8GiBRSS,600MiBtotalphaseincludingbackups,16GiBdiskfloor. Same64
-roundbudgetasM13,notfurtherreduced. Initialstorageprojection545239040bytes(~520MiB)
-includesbackups+50%searchmargin. Projectionfits600MiBcap butadmissionfails:about
-415MiBavailableabovefloor,about185MiBshortofminimum. Recommended2GiBadditional
-spaceforbuffer;theuserwillmigratefiles. Do notdeleteoldrecords,lowerguardsor
-launchashrunkencomparison. Allpreparedoutputsconsumeonlysmallsoftwarefixture
-storage; no root scientificcampaign.sqlite orworkflow_status.json exists.
-
-After USERexplicitresume:
-1. Verify preparedmanifest and priorM13seals; inspectactualfree space andmigration
-   paths. If code/pathchangesare needed, preserveexistingpreparationmanifest and
-   writea documented newpreparedpacket before registration; do not overwritehistory.
-2. Run tools/plan_m14_storage.py tosaveNEW storage_plan.json (initialfailedplanstays).
-   Requirepassedprojectionandactual600MiBreserveabove16GiBfloor. Recheckatlaunch.
-3. Register via .venv/bin/python -m maze_evolution.exploration_allocation register;
-   commit/pushALLregisteredsource/config/founders/protocol/logs BEFOREscientificcases.
-4. Confirmnoactiveworkflow/writer. Launch tools/run_m14_workflow.py ONCE durably;
-   recordlaunchmetadata andupdatehandoff. It publishesexactchoices BEFOREfresh1680
-   confirmation,fullsearchselection/mutation/RNG/gradeaudit,nativesamples,finaland
-   ALL-nativeaudit. Do notautomaticallyresumefailedworkflowsorchangefrozenrules.
-5. Atcompletionreportactualcapabilities/ancestry/root-parent-protectedcomparisons,
-   no-path/ordinarylengths,actualexplorersurvival/birthallocation,logical/physical
-   costs,limits;guardedSQLitebackups;alllayoutreference+deltaexport;sealsandpush.
-No phasebeyondM14 isauthorized. No general-solver/speedclaim fromsoftwaretests.
+Nextproposal ONLY: separatelyregister60–90minute matchedcontinuation fromexact
+sixfinalpopulations/archives/RNG/lineageregistries,commonstrictretention andfresh
+confirmation. PreserveM14closed,excludeinspectedcases,recordcross-phaseancestry,
+fixnewresourceboundsbeforelaunch. Testcumulativeevolutionarytimewithoutrepeated
+shortfreshrestarts. Improvednoveltysurvivaldoesnotestablishimprovedsolving;do not
+scaleasifbreakthroughconfirmed. No nextphase/recombination/solverinjection launched.

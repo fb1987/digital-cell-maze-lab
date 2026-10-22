@@ -1,0 +1,339 @@
+AUDIT 0 14112 428
+AUDIT 16 705888 3054
+AUDIT 32 1634720 12098
+AUDIT 48 2578152 21736
+AUDIT 64 3521584 31324
+{
+  "status": "PASS",
+  "chain": "8b5febd66f9134d31553f22b3ff2aa1897e751b7a5f57ad0d53cf01a3caa6a33",
+  "stages": 69,
+  "independent_grades": 3880864,
+  "native_replays": 38648,
+  "births_replayed": 19968,
+  "exploration_allocation_counts": {
+    "modular/0/retention": {
+      "selected_explorer_presentations": 0,
+      "training_stages_with_explorers": 0,
+      "eligible_behavior_cells": 0,
+      "random_immigrant": 448,
+      "shared_lexicase": 2880
+    },
+    "modular/0/explore": {
+      "selected_explorer_presentations": 747,
+      "training_stages_with_explorers": 63,
+      "eligible_behavior_cells": 1043,
+      "random_immigrant": 448,
+      "shared_lexicase": 2124,
+      "exploration_cycle": 756
+    },
+    "modular/1/retention": {
+      "selected_explorer_presentations": 0,
+      "training_stages_with_explorers": 0,
+      "eligible_behavior_cells": 0,
+      "random_immigrant": 448,
+      "shared_lexicase": 2880
+    },
+    "modular/1/explore": {
+      "selected_explorer_presentations": 745,
+      "training_stages_with_explorers": 63,
+      "eligible_behavior_cells": 993,
+      "random_immigrant": 448,
+      "shared_lexicase": 2124,
+      "exploration_cycle": 756
+    },
+    "modular/2/retention": {
+      "selected_explorer_presentations": 0,
+      "training_stages_with_explorers": 0,
+      "eligible_behavior_cells": 0,
+      "random_immigrant": 448,
+      "shared_lexicase": 2880
+    },
+    "modular/2/explore": {
+      "selected_explorer_presentations": 751,
+      "training_stages_with_explorers": 63,
+      "eligible_behavior_cells": 988,
+      "random_immigrant": 448,
+      "shared_lexicase": 2124,
+      "exploration_cycle": 756
+    }
+  },
+  "logical_query_counts": {
+    "modular/0/retention": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/0/explore": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/2/retention": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/2/explore": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/1/retention": {
+      "assessment": 225400,
+      "train": 589824
+    },
+    "modular/1/explore": {
+      "assessment": 225400,
+      "train": 589824
+    }
+  },
+  "training_retention_opportunities": {
+    "modular/2/retention": {
+      "fresh_parent_successful_ordinary_presentations": 167,
+      "fresh_ordinary_base_presentations": 768,
+      "persistent_parent_successful_ordinary_presentations": 1536,
+      "persistent_ordinary_base_presentations": 1536,
+      "parent_successful_ordinary_bases": 1703,
+      "parent_complete_pairs": 52,
+      "exposed/ordinary_perfect/11/short": 352,
+      "parent_success/ordinary_perfect/11/short": 320,
+      "exposed/ordinary_random/9/short": 352,
+      "exposed/ordinary_perfect/11/long": 96,
+      "parent_success/ordinary_perfect/11/long": 1,
+      "exposed/ordinary_random/9/medium": 96,
+      "exposed/ordinary_perfect/15/short": 352,
+      "parent_success/ordinary_perfect/15/short": 307,
+      "parent_success/ordinary_random/9/short": 276,
+      "exposed/ordinary_random/15/short": 352,
+      "parent_success/ordinary_random/15/short": 280,
+      "exposed/ordinary_perfect/11/medium": 256,
+      "parent_success/ordinary_perfect/11/medium": 256,
+      "exposed/ordinary_perfect/15/medium": 352,
+      "parent_success/ordinary_perfect/15/medium": 263,
+      "exposed/ordinary_random/15/long": 96
+    },
+    "modular/2/explore": {
+      "fresh_parent_successful_ordinary_presentations": 167,
+      "fresh_ordinary_base_presentations": 768,
+      "persistent_parent_successful_ordinary_presentations": 1536,
+      "persistent_ordinary_base_presentations": 1536,
+      "parent_successful_ordinary_bases": 1703,
+      "parent_complete_pairs": 52,
+      "exposed/ordinary_perfect/11/short": 352,
+      "parent_success/ordinary_perfect/11/short": 320,
+      "exposed/ordinary_random/9/short": 352,
+      "exposed/ordinary_perfect/11/long": 96,
+      "parent_success/ordinary_perfect/11/long": 1,
+      "exposed/ordinary_random/9/medium": 96,
+      "exposed/ordinary_perfect/15/short": 352,
+      "parent_success/ordinary_perfect/15/short": 307,
+      "parent_success/ordinary_random/9/short": 276,
+      "exposed/ordinary_random/15/short": 352,
+      "parent_success/ordinary_random/15/short": 280,
+      "exposed/ordinary_perfect/11/medium": 256,
+      "parent_success/ordinary_perfect/11/medium": 256,
+      "exposed/ordinary_perfect/15/medium": 352,
+      "parent_success/ordinary_perfect/15/medium": 263,
+      "exposed/ordinary_random/15/long": 96
+    },
+    "modular/1/retention": {
+      "fresh_parent_successful_ordinary_presentations": 167,
+      "fresh_ordinary_base_presentations": 768,
+      "persistent_parent_successful_ordinary_presentations": 1536,
+      "persistent_ordinary_base_presentations": 1536,
+      "parent_successful_ordinary_bases": 1703,
+      "parent_complete_pairs": 52,
+      "exposed/ordinary_perfect/11/short": 352,
+      "parent_success/ordinary_perfect/11/short": 320,
+      "exposed/ordinary_random/9/short": 352,
+      "exposed/ordinary_perfect/11/long": 96,
+      "parent_success/ordinary_perfect/11/long": 1,
+      "exposed/ordinary_random/9/medium": 96,
+      "exposed/ordinary_perfect/15/short": 352,
+      "parent_success/ordinary_perfect/15/short": 307,
+      "parent_success/ordinary_random/9/short": 276,
+      "exposed/ordinary_random/15/short": 352,
+      "parent_success/ordinary_random/15/short": 280,
+      "exposed/ordinary_perfect/11/medium": 256,
+      "parent_success/ordinary_perfect/11/medium": 256,
+      "exposed/ordinary_perfect/15/medium": 352,
+      "parent_success/ordinary_perfect/15/medium": 263,
+      "exposed/ordinary_random/15/long": 96
+    },
+    "modular/1/explore": {
+      "fresh_parent_successful_ordinary_presentations": 167,
+      "fresh_ordinary_base_presentations": 768,
+      "persistent_parent_successful_ordinary_presentations": 1536,
+      "persistent_ordinary_base_presentations": 1536,
+      "parent_successful_ordinary_bases": 1703,
+      "parent_complete_pairs": 52,
+      "exposed/ordinary_perfect/11/short": 352,
+      "parent_success/ordinary_perfect/11/short": 320,
+      "exposed/ordinary_random/9/short": 352,
+      "exposed/ordinary_perfect/11/long": 96,
+      "parent_success/ordinary_perfect/11/long": 1,
+      "exposed/ordinary_random/9/medium": 96,
+      "exposed/ordinary_perfect/15/short": 352,
+      "parent_success/ordinary_perfect/15/short": 307,
+      "parent_success/ordinary_random/9/short": 276,
+      "exposed/ordinary_random/15/short": 352,
+      "parent_success/ordinary_random/15/short": 280,
+      "exposed/ordinary_perfect/11/medium": 256,
+      "parent_success/ordinary_perfect/11/medium": 256,
+      "exposed/ordinary_perfect/15/medium": 352,
+      "parent_success/ordinary_perfect/15/medium": 263,
+      "exposed/ordinary_random/15/long": 96
+    },
+    "modular/0/retention": {
+      "fresh_parent_successful_ordinary_presentations": 167,
+      "fresh_ordinary_base_presentations": 768,
+      "persistent_parent_successful_ordinary_presentations": 1536,
+      "persistent_ordinary_base_presentations": 1536,
+      "parent_successful_ordinary_bases": 1703,
+      "parent_complete_pairs": 52,
+      "exposed/ordinary_perfect/11/short": 352,
+      "parent_success/ordinary_perfect/11/short": 320,
+      "exposed/ordinary_random/9/short": 352,
+      "exposed/ordinary_perfect/11/long": 96,
+      "parent_success/ordinary_perfect/11/long": 1,
+      "exposed/ordinary_random/9/medium": 96,
+      "exposed/ordinary_perfect/15/short": 352,
+      "parent_success/ordinary_perfect/15/short": 307,
+      "parent_success/ordinary_random/9/short": 276,
+      "exposed/ordinary_random/15/short": 352,
+      "parent_success/ordinary_random/15/short": 280,
+      "exposed/ordinary_perfect/11/medium": 256,
+      "parent_success/ordinary_perfect/11/medium": 256,
+      "exposed/ordinary_perfect/15/medium": 352,
+      "parent_success/ordinary_perfect/15/medium": 263,
+      "exposed/ordinary_random/15/long": 96
+    },
+    "modular/0/explore": {
+      "fresh_parent_successful_ordinary_presentations": 167,
+      "fresh_ordinary_base_presentations": 768,
+      "persistent_parent_successful_ordinary_presentations": 1536,
+      "persistent_ordinary_base_presentations": 1536,
+      "parent_successful_ordinary_bases": 1703,
+      "parent_complete_pairs": 52,
+      "exposed/ordinary_perfect/11/short": 352,
+      "parent_success/ordinary_perfect/11/short": 320,
+      "exposed/ordinary_random/9/short": 352,
+      "exposed/ordinary_perfect/11/long": 96,
+      "parent_success/ordinary_perfect/11/long": 1,
+      "exposed/ordinary_random/9/medium": 96,
+      "exposed/ordinary_perfect/15/short": 352,
+      "parent_success/ordinary_perfect/15/short": 307,
+      "parent_success/ordinary_random/9/short": 276,
+      "exposed/ordinary_random/15/short": 352,
+      "parent_success/ordinary_random/15/short": 280,
+      "exposed/ordinary_perfect/11/medium": 256,
+      "parent_success/ordinary_perfect/11/medium": 256,
+      "exposed/ordinary_perfect/15/medium": 352,
+      "parent_success/ordinary_perfect/15/medium": 263,
+      "exposed/ordinary_random/15/long": 96
+    }
+  },
+  "mutation_births_per_root": {
+    "modular/0/retention": {
+      "m14/reference/shared_child": 128,
+      "m14/reference/m6_child": 311,
+      "m14/reference/quota_parent": 1143,
+      "m14/reference/anchor/0": 700,
+      "m14/reference/gated_partial": 259,
+      "m14/reference/quota_child": 48,
+      "m14/reference/a0/standard/0434": 64,
+      "m14/reference/gated_specialist": 180,
+      "m14/reference/a1/standard/0191": 27,
+      "m14/reference/anchor/1": 20
+    },
+    "modular/0/explore": {
+      "m14/reference/shared_child": 191,
+      "m14/reference/m6_child": 401,
+      "m14/reference/quota_parent": 960,
+      "m14/reference/anchor/0": 747,
+      "m14/reference/gated_partial": 240,
+      "m14/reference/quota_child": 44,
+      "m14/reference/a0/standard/0434": 47,
+      "m14/reference/gated_specialist": 190,
+      "m14/reference/a1/standard/0191": 25,
+      "m14/reference/anchor/1": 21,
+      "new_random_origin": 14
+    },
+    "modular/1/retention": {
+      "m14/reference/shared_child": 98,
+      "m14/reference/anchor/0": 1111,
+      "m14/reference/m6_child": 301,
+      "m14/reference/quota_parent": 580,
+      "m14/reference/gated_specialist": 331,
+      "m14/reference/gated_partial": 233,
+      "m14/reference/quota_child": 92,
+      "m14/reference/a0/standard/0434": 81,
+      "m14/reference/a1/standard/0191": 27,
+      "m14/reference/anchor/1": 26
+    },
+    "modular/1/explore": {
+      "m14/reference/shared_child": 94,
+      "m14/reference/anchor/0": 1204,
+      "m14/reference/m6_child": 262,
+      "m14/reference/quota_parent": 502,
+      "m14/reference/gated_specialist": 384,
+      "m14/reference/gated_partial": 170,
+      "m14/reference/quota_child": 125,
+      "m14/reference/a0/standard/0434": 78,
+      "m14/reference/anchor/1": 34,
+      "m14/reference/a1/standard/0191": 12,
+      "new_random_origin": 15
+    },
+    "modular/2/retention": {
+      "m14/reference/quota_parent": 1072,
+      "m14/reference/shared_child": 193,
+      "m14/reference/m6_child": 316,
+      "m14/reference/anchor/0": 728,
+      "m14/reference/a1/standard/0191": 27,
+      "m14/reference/a0/standard/0434": 64,
+      "m14/reference/quota_child": 94,
+      "m14/reference/gated_specialist": 231,
+      "m14/reference/gated_partial": 132,
+      "new_random_origin": 8,
+      "m14/reference/anchor/1": 15
+    },
+    "modular/2/explore": {
+      "m14/reference/quota_parent": 1180,
+      "m14/reference/shared_child": 265,
+      "m14/reference/m6_child": 413,
+      "m14/reference/anchor/0": 469,
+      "m14/reference/a1/standard/0191": 19,
+      "m14/reference/a0/standard/0434": 55,
+      "m14/reference/quota_child": 93,
+      "m14/reference/gated_partial": 131,
+      "m14/reference/gated_specialist": 245,
+      "m14/reference/anchor/1": 8,
+      "new_random_origin": 2
+    }
+  },
+  "reserved_birth_counts": {
+    "modular/0/retention": {
+      "global": 2880
+    },
+    "modular/0/explore": {
+      "global": 2880
+    },
+    "modular/1/retention": {
+      "global": 2880
+    },
+    "modular/1/explore": {
+      "global": 2880
+    },
+    "modular/2/retention": {
+      "global": 2880
+    },
+    "modular/2/explore": {
+      "global": 2880
+    }
+  },
+  "equal_nominal_allocations": true,
+  "charged_calls": 3880864,
+  "uncertain_attempts": 0,
+  "deterministic_corpora": true,
+  "all_selection_mutation_rng": true,
+  "frozen_artifacts_verified": true,
+  "source_hashes": true,
+  "wall_seconds": 149.19730270793661,
+  "limitation": "Shared production reproduction and native runtime replay; independent raster grader, not a second full VM."
+}
