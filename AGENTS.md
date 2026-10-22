@@ -34,6 +34,28 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M16-STATUS-START -->
+Current October22,2026: M16 mechanism/restoration study authorized and PREPARED.
+User said "Nice, proceed" after M15. Read docs/RESTORATION_ASSAY.md and progress,
+results/restoration_assay/config.json, sources.json.gz, software_validation.json.
+No new scientific workflow yet; register/push before launch. Exact M15g320/b48
+and actualparent gated_specialist; unchanged M1 runtime/operator. Fixed1024variants
+peranchor (512one/512two edits),1024random,72fixed diagnostic probes. Samepool
+joint-retention vsaggregate nomination,712freshscreen then1680freshconfirmation.
+Primary requires ALLunion-of-anchor pair/corridor/ordinary/disconnection sets,
+ALLchild-only upstreamtargets,nonvacuity,zero false. Passive native-checked traces.
+Separate protocol, not M15resume. Five focusedtests and artificialfounder pipeline
+pass; initial rehearsal preserved; exclusion observer validated before registration.
+Workflow tools/run_m16_workflow.py freezes/pushespool and choices before downstream
+cases, all-grade/pool/RNG/selection audit, ALL-nativefinal andhistoryreplay audits.
+Never duplicatewriter, altersealedfiles, reselectonfinal or silentlyresume failure.
+3Mcalls/1e13work cumulative screen+final;900s/300s,trace180s,audits1800s;10workers,
+8GiBRSS,6GiBtotalstorage inclbackups,16GiBfreefloor. PreserveallM15seals/localrecords.
+AfterPASS: reviewedactualreport,guardedSQLitebackups/alllayoutexclusions,seal,push.
+No newlongrun/M17/recombination/solverinjection/cloudcomputeauthorized.
+<!-- M16-STATUS-END -->
+
+
 <!-- M15-STATUS-START -->
 Current October 22, 2026: **M15 COMPLETE, fresh-confirmed and AUDITED.**
 Read results/exploration_continuation/report.md, summary.json, both audits,
