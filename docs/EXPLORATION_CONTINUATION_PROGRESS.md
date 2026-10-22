@@ -1,9 +1,25 @@
-# M15 preparation complete; authorized launch next
+# M15 running from the exact M14 checkpoint
+
+Registration **764b7ec9361cd66774937dee0981228f11d7d0f0** pushed before scientific
+generation. Launched 2026-10-22T05:06:12.329979+00:00; workflowPID82457, searchchild82467,
+sleepinhibitor82458. No duplicatewriter. First three new training transitions
+completed normally from generation64,with zero uncertainattempts; subsequent
+actualstate is in runs/exploration_continuation_m15/workflow_status.json and
+search_001.log. Read-only inspector available. The first logincludes startup
+cost; 70/90minute registeredsearchbounds remain unchanged.
+
+Heartbeat m15-sustained-evolution-follow-through ACTIVEevery15minutes,quiet on
+routineprogress. It finishes audit/report/preservation/seal/push and pauses at
+completion or requireduseraction. Workflow automatically publisheschoices before
+registeredfreshconfirmation. No source/protocol/selectionchange afterregistration.
+348registeredfiles and all396M14completion+19localrecordhashes verify.
+
+# Historical preparation checkpoint
 
 The user authorized “Proceed” after the M14 recommendation for a60–90minute
 continuation. Read docs/EXPLORATION_CONTINUATION.md and results/
 exploration_continuation/{preparation,config,profile,software_validation,storage_plan}.json.
-No scientific run has launched yet. Never start a second workflow or change prior
+At preparation, no scientific run had launched yet. Never start a second workflow or change prior
 sealed files. M14 remains closed; this is a separately registered checkpoint fork.
 
 All six generation64 states imported EXACTLY, including population/archive/RNG,

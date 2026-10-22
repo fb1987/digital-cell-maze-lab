@@ -34,6 +34,47 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M15-STATUS-START -->
+Current October22,2026: M15 sustained continuation RUNNING. User authorized
+Proceed after M14. Read docs/EXPLORATION_CONTINUATION.md, progress handoff and
+results/exploration_continuation/{registration,launch}.json. Registration764b7ec
+pushed BEFOREscience. Durable tools/run_m15_workflow.py launched 2026-10-22T05:06:12.329979+00:00,
+PID82457,search child82467,10workers. Journal runs/exploration_continuation_m15/
+campaign.sqlite; workflow_status.json and separate phase logs. Never launch a
+second writer/workflow, reset histories, change sealed files or extend bounds.
+Read-only .venv/bin/python tools/inspect_exploration_continuation.py [--assessment N].
+
+EXACT six M14 generation64 states, including population/archive/RNG/protected/
+frozen/nominee fields, preserved; complete20484-item inherited registry. Unchanged
+M14 transition/runtime/operator/banks; three retention/explorepairs of96. First
+train64 producesbirth65, assessment16cadence. Original m14IDs/origin labels remain
+for exact tie/RNGcontinuity; M15journal/ancestry phase distinguish actual newbirths.
+Report phase-only mutations ANDcumulative depths; inherited success not acquisition.
+Strict primary/deeper/long gates now also exclude inherited phase-entry capability;
+same-case M14endingnominee/root/parent/phase-entry/protected comparisons frozen.
+No oldconfirmationreuse,reselection,solverinjection/recombination/cloudcompute.
+
+70minsoft/90minhardsearch;1024NEWroundsmax(cumulative1088),100Mcalls/1e15work,
+8GiBRSS/8GiBphase storage INCLUDINGbackups/16GiBfreefloor. Final900s/1Mcalls/1e14work;
+audits3600seach.17focusedtests PASS,notfullsuite;1248fixturebirths/RNGreplayed and
+fullnonzero-generationpipeline withbothaudits PASS;no preparationfailure.
+348registrationhashes/396M14completion/19M14localrecordsverify. All3057151initial
+layouts excluded,including8144discardedfixturelayouts. Preserve originals/seals.
+
+Workflow searches, freezes and COMMITS/PUSHES choices BEFOREfresh1680caseconfirmation,
+fullsearchaudit,final,analysis,ALL-nativefinalaudit. Confirmation authorized inM15.
+On guard/error/auditfailure preserve tracebacks/pending receipts and report required
+repair;NOautomatic failed-workflowresume orregisteredfileedits. Heartbeat
+m15-sustained-evolution-follow-through ACTIVEevery15min,quiet onroutine. At
+ audited_ready_for_report run saved-record M15helpers,thoughtfulactualoutcome/
+ancestry/persistence/cost report,guardedverifiedSQLitebackups,ALLlayoutexport,
+completionseals,commmit/pushcompactevidence,updatehandoff,pausemonitor.
+RawlayoutsDELTAONLY: use referenced_campaign_store.load_layouts andimmutablebases.
+Olderhistoricalblocks arecompletedstudies. No M16authorized;random-originresearch
+continues without general-solver/speed/significanceclaims absent evidence.
+<!-- M15-STATUS-END -->
+
+
 <!-- S3-ARCHIVE-STATUS-START -->
 Current October21,2026: user explicitly authorized S3 archival and local space
 recovery. Closed runs through M12 plus deep/C1 are archived in private versioned
