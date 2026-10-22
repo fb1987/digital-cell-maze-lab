@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M23-STATUS-START -->
-Current October22,2026: **M23 PREPARED, authorized by latest Proceed.**
+Current October22,2026: **M23 RUNNING, authorized by latest Proceed.**
 Read docs/DORMANT_EVOLUTION.md and docs/DORMANT_EVOLUTION_PROGRESS.md;
 results/dormant_evolution/{config,neutral_birth,software_validation,storage_plan}.json.
 New selected disabled-at-birth expression comparison, EXACT unchangedM18VM.
@@ -48,7 +48,10 @@ knownsolver/recombination. Neutralgate80640old-inputcomparisons+288all-statehist
 PASS,extra1.72–1.73%work/+84bytes. All5focusedtestsPASS/fullartificialdurablepipeline
 PASS,notfullsuite;initialpreparationhelperfailures/costslost preserved.
 70minsoft/90minhard,1024round/120Mcalls/1e15work,10workers,8GiBRSS/12GiBTOTALstorage
-inclbackups/16GiBfreefloor. RegistrationmustpushBEFOREscience; workflowfreezes/pushes
+inclbackups/16GiBfreefloor. Registrationfa8a6fcPUSHEDBEFOREscience. Durabletools/run_m23_workflow.pyPID8954/child8964,
+runs/dormant_evolution_m23/{campaign.sqlite,workflow_status.json,phase logs}. NEVERlaunch
+anotherwriter/workflow. Readonly tools/inspect_dormant_evolution.py. Heartbeat
+m23-dormant-evolution-follow-through ACTIVE15min/quietroutine. workflowfreezes/pushes
 exactchoicesBEFOREfresh1680confirmation,auditsALLsearchgrades/selection/mutation/RNG
 +fixednativesamples,ALL-nativefinalaudit. Noautomaticfailedresume/secondwriter/bounds
 extension/sealedsourcechange/reset/reselection. All409M22completion/15localhashesverify;
