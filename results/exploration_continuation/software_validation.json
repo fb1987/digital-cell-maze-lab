@@ -1,0 +1,27 @@
+{
+  "all_1248_rehearsal_births_rng_replayed": true,
+  "fixture_guard": {
+    "disk_free_floor_bytes": 17179869184,
+    "storage_bytes": 268435456
+  },
+  "fixture_new_rounds": 1,
+  "fixture_starts_at_cumulative_generation": 64,
+  "focused_tests": 17,
+  "full_pipeline_on_discarded_cases": true,
+  "full_suite": false,
+  "logs": [
+    "tests_001.log",
+    "attribution_tests_001.log",
+    "preflight_001.log"
+  ],
+  "no_scientific_generation": true,
+  "phase_attribution_tests": true,
+  "previous_seals_unchanged": true,
+  "status": "PASS",
+  "tests": [
+    "tests/test_exploration_continuation.py",
+    "tests/test_exploration_continuation_attribution.py",
+    "tests/test_referenced_campaign_store.py"
+  ],
+  "unchanged_transition_code": true
+}
