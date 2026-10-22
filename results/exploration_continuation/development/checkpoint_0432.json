@@ -1,0 +1,546 @@
+{
+  "M14_completion_hashes_verified": 396,
+  "M14_local_hashes_verified": 19,
+  "M15_new_rounds_at_assessment": 368,
+  "assessment_generation": 432,
+  "changes": [
+    {
+      "M15_mutation_births": 3,
+      "candidate_metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100
+          },
+          "disconnected": {
+            "correct_no_path": 20,
+            "false_no_path": 0,
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 24,
+            "false_no_path": 0,
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 12,
+            "valid": 12
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "fork/0": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/1": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "two_junction/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 4
+          }
+        },
+        "correct_no_path": 44,
+        "disconnected_inputs": 44,
+        "false_no_path": 0,
+        "inputs": 392,
+        "ordinary_bases_both_poses": 16,
+        "pair_opportunities": 100,
+        "paired": 40,
+        "work": 42067056
+      },
+      "condition": "modular/2/explore",
+      "corridor_lost_vs_previous": 0,
+      "corridor_new_vs_previous": 17,
+      "new_nominee": "m14/modular/2/explore/g384/b12",
+      "new_successful_inputs_beyond_protected_and_previous": [],
+      "new_target_pairs_vs_previous": [],
+      "old_nominee": "m14/initial/2/explore/1",
+      "old_nominee_metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83
+          },
+          "disconnected": {
+            "correct_no_path": 20,
+            "false_no_path": 0,
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 24,
+            "false_no_path": 0,
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 7,
+            "valid": 7
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "fork/0": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/1": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "two_junction/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 4
+          }
+        },
+        "correct_no_path": 44,
+        "disconnected_inputs": 44,
+        "false_no_path": 0,
+        "inputs": 392,
+        "ordinary_bases_both_poses": 16,
+        "pair_opportunities": 100,
+        "paired": 40,
+        "work": 41078487
+      },
+      "phase_entry": "m14/reference/quota_child",
+      "role_rank": 1,
+      "root": "m14/reference/quota_child",
+      "root_metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 100,
+            "optimal": 77,
+            "valid": 77
+          },
+          "disconnected": {
+            "correct_no_path": 20,
+            "false_no_path": 0,
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 24,
+            "false_no_path": 0,
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 78,
+            "valid": 78
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "fork/0": {
+            "correct": 10,
+            "opportunities": 12
+          },
+          "fork/1": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "two_junction/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 4
+          }
+        },
+        "correct_no_path": 44,
+        "disconnected_inputs": 44,
+        "false_no_path": 0,
+        "inputs": 392,
+        "ordinary_bases_both_poses": 15,
+        "pair_opportunities": 100,
+        "paired": 38,
+        "work": 43925793
+      },
+      "same_panel_versus_exact_root": {
+        "lost_correct_no_path": 0,
+        "lost_ordinary_bases": 4,
+        "lost_pair_keys": [],
+        "lost_pairs": 0,
+        "new_correct_no_path": 0,
+        "new_ordinary_base_keys": [
+          "m14/reused/2/m11bank/2/stratum0/ordinary/perfect/11/0/perfect/11x11",
+          "m14/reused/2/m11bank/2/stratum1/ordinary/perfect/15/96000/perfect/15x15",
+          "m14/reused/2/m11bank/2/stratum4/ordinary/perfect/11/100000/perfect/11x11",
+          "m14/reused/2/m11bank/2/stratum4/ordinary/perfect/11/12000/perfect/11x11",
+          "m14/reused/2/m11bank/2/stratum5/ordinary/perfect/15/644000/perfect/15x15"
+        ],
+        "new_ordinary_bases": 5,
+        "new_ordinary_by_domain": {
+          "ordinary_perfect/11": 3,
+          "ordinary_perfect/15": 2
+        },
+        "new_pair_contexts": 1,
+        "new_pair_keys": [
+          [
+            "m14/reused/2/m10validation/core/a(2, 3)/turning/c1/s0/fork/p0",
+            0
+          ],
+          [
+            "m14/reused/2/m10validation/core/a(2, 3)/turning/c1/s0/fork/p0",
+            4
+          ]
+        ],
+        "new_pairs": 2,
+        "retention": {
+          "corridors": 1.0,
+          "pairs": 1.0
+        }
+      },
+      "same_panel_versus_previous_nominee": {
+        "lost_correct_no_path": 0,
+        "lost_ordinary_bases": 4,
+        "lost_pair_keys": [],
+        "lost_pairs": 0,
+        "new_correct_no_path": 0,
+        "new_ordinary_base_keys": [
+          "m14/reused/2/m11bank/2/stratum1/ordinary/perfect/15/96000/perfect/15x15",
+          "m14/reused/2/m11bank/2/stratum4/ordinary/perfect/11/100000/perfect/11x11",
+          "m14/reused/2/m11bank/2/stratum4/ordinary/perfect/11/12000/perfect/11x11",
+          "m14/reused/2/m11bank/2/stratum5/ordinary/perfect/15/644000/perfect/15x15"
+        ],
+        "new_ordinary_bases": 4,
+        "new_ordinary_by_domain": {
+          "ordinary_perfect/11": 2,
+          "ordinary_perfect/15": 2
+        },
+        "new_pair_contexts": 0,
+        "new_pair_keys": [],
+        "new_pairs": 0,
+        "retention": {
+          "corridors": 1.0,
+          "pairs": 1.0
+        }
+      }
+    }
+  ],
+  "compared_to_generation": 352,
+  "disk_free_bytes": 57379737600,
+  "independent_confirmation_pending": true,
+  "new_target_or_beyond_protected_input_success": false,
+  "observed_status": {
+    "assessment_rounds": [
+      80,
+      96,
+      112,
+      128,
+      144,
+      160,
+      176,
+      192,
+      208,
+      224,
+      240,
+      256,
+      272,
+      288,
+      304,
+      320,
+      336,
+      352,
+      368,
+      384,
+      400,
+      416,
+      432
+    ],
+    "elapsed_search_seconds": 3660.5715889930725,
+    "finished": false,
+    "latest_stage": 406,
+    "new_rounds": 384,
+    "nomination_stop": null,
+    "pending_task_counts": {
+      "done": 20,
+      "new": 42,
+      "started": 10
+    },
+    "stages": [
+      [
+        407,
+        "assessment",
+        448,
+        0
+      ],
+      [
+        406,
+        "train",
+        447,
+        1
+      ],
+      [
+        405,
+        "train",
+        446,
+        1
+      ]
+    ],
+    "start_generation": 64,
+    "storage_bytes": 981591644,
+    "usage": {
+      "calls": 24128232,
+      "candidate_seconds": 23938.66162806342,
+      "cpu_seconds": 25334.429392999868,
+      "receipts": 26483,
+      "uncertain_attempts": 0,
+      "work": 7751226176800
+    }
+  },
+  "observed_utc": "2026-10-22T06:08:57.334465+00:00",
+  "registered_hashes_verified": 348,
+  "reporting_check_note": "An initial read-only comparison assertion incorrectly expected only work differences from the unchanged top-level pair/ordinary/no-path totals. It caught changed by-domain results before writing a summary. Exact success-set comparisons above replace that assumption. No scientific source, output, audit or workflow changed.",
+  "scope": "Saved same-panel development comparison; automatic nominees; no new inference or selection"
+}

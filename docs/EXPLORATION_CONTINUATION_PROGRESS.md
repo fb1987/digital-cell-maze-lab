@@ -69,6 +69,28 @@ Allsixintegratedprimaries unchanged; strictintegration/retentionstillfails for
 the deeper specialist. These remain development observations,notconfirmation or
 independentreplicates. No additional capability notification; no intervention.
 
+## Development checkpoint: cumulative generation 432
+
+368additional M15rounds. All integrated primaries and the earlier eight-target-pair
+specialist remain unchanged. One exploratoryrep2 nominee changed from an inherited
+gated-specialist clone to g384/b12,threeM15mutationbirths fromquota_child. On SAME
+panels it retains40pairs and44correctdisconnections,improvescorridors83→100,but
+ordinary16→16concealsfournew/fourlostbothposebases. VersusitsOWNquota_childroot,
+it gains2pairs withoutloss and5ordinarybases whilelosing4; no correct-no-pathloss.
+No addedtargetpair orsuccessfulindividualinput beyondprotectedunion. The previous
+andnewnominees have different roots; this is not a within-lineage recovery claim.
+Strictprimary remains unpassed. Development only;confirmationstillpending.
+
+Search around61min atinitialinspection:~24.01Mcalls,zero uncertainattempts,
+2.98GiBpeaksearchRSS,0.91GiBphase storage,53.46GiBfree. All348registration/
+396M14completion/19M14local hashes verify. Search continues underregistered70min
+soft/90minhard limits; workflow willpublishchoicesbeforeconfirmation and audit.
+No duplicatewriter,source/RNG/bounds change orcapabilitynotification. Packets
+assessment_0432/checkpoint_0432 preserve exactsuccess-set comparisons. An initial
+read-only reporting assertion assuming unchanged top-level totals meant onlywork
+changed caught nested-domain differences before writing anything; corrected by
+exact comparisons,with note retained. No scientific workflow/audit failure.
+
 # Historical preparation checkpoint
 
 The user authorized “Proceed” after the M14 recommendation for a60–90minute
