@@ -67,6 +67,12 @@ analyze_m23_saved/preserve_m23/report_m23 once,reviewactualevidenceandwrite
 report_review.json;updatehandoff/AGENTS,seal_m23_completion ONCE,pushcompactevidence/
 forcecopiedlogs,neverrawSQLite. Preservealloriginals/seals/failedrecords. Followupquiet
 onroutine,notifymeaningfulchange/failure/completion;pauseaftercompletionoruseraction.
+HostlowpowersleepOct22 16:55:17–17:38:46EDT(2609s,battery1%,wokeAC) preservedin
+results/dormant_evolution/development/sleep_wake_001.log/monitor_002.json. Samewriter
+resumed,0uncertainattempts. Frozenmonotonicstopwatch excludesmacOSsleep; REPORT BOTH
+measuredsearchtime andcalendarlaunchtostopelapsed,notmislabel70minaselapsedinclSleep.
+Sources/boundsunchanged;noextraallowance. Development0/48/64allnomineesinherited,
+0newM23births/targetpairs;all27metricsunchangedonsamepanel. Notconfirmation.
 No phasebeyondM23/cloudcompute/recombination/solverinjectionauthorized.
 <!-- M23-STATUS-END -->
 
