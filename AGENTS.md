@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M23-STATUS-START -->
-Current October22,2026: **M23 RUNNING, authorized by latest Proceed.**
+Current October22,2026: **M23 SEARCH COMPLETE; registered audit RUNNING.**
 Read docs/DORMANT_EVOLUTION.md and docs/DORMANT_EVOLUTION_PROGRESS.md;
 results/dormant_evolution/{config,neutral_birth,software_validation,storage_plan}.json.
 New selected disabled-at-birth expression comparison, EXACT unchangedM18VM.
@@ -73,6 +73,12 @@ resumed,0uncertainattempts. Frozenmonotonicstopwatch excludesmacOSsleep; REPORT 
 measuredsearchtime andcalendarlaunchtostopelapsed,notmislabel70minaselapsedinclSleep.
 Sources/boundsunchanged;noextraallowance. Development0/48/64allnomineesinherited,
 0newM23births/targetpairs;all27metricsunchangedonsamepanel. Notconfirmation.
+Normalstop243rounds/22363344physicalcalls/0uncertain; measured4272.06s vsreal6861.89s,
+29822.46candidate/30299.90CPU/6974297608853work/2.95GiBsampledpeakRSS. Readsearch_timing.
+ExactchoicesPUBLISHEDbeforefreshconfirmation; choices_freeze.json/monitor005verifybytes.
+Workflowsearch_audit_001RUNNING,thenautomaticregisteredfinal/analysis/ALL-nativeaudit.
+NEVERstartduplicateaudit/search. Development240all27roles0newtargets beyond14protected;
+3evolvedrolesonly,notfreshconfirmation. Finalreport/audits/preservationstillpending.
 No phasebeyondM23/cloudcompute/recombination/solverinjectionauthorized.
 <!-- M23-STATUS-END -->
 
