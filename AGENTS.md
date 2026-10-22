@@ -35,35 +35,55 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M22-STATUS-START -->
-Current October22,2026: **M22 PREPARED; user authorized guarded-expression assay.**
-Read docs/GUARDED_EXTENSION.md,docs/GUARDED_EXTENSION_PROGRESS.md and
-results/guarded_extension config/sources/preflight/registration. SameM18VM,3related
-random-origin sources:actualM15parent/child+declaredknownM10threshold.3arms ordinary/
-unconditionaloverwrite/guarded;256pairedsource-draws,3/5UNSELECTEDopportunities;
-768endpoints/3072oppsEACHarm,256rawrandomM1controls. Extensionarmsappend2nodes/op,
-samepayload/material/RNG,onlySELECTvsCOPYterminaldiffers,allancestor-prefix/ports/
-seedsretained;notbehaviorguarantee. UniformACTIVEwriter,no C6bias/favorablegate.
-103archivealiases/76physicalrefs:13protected+M10known+M20nominees+ALLM21noncontrols,
-comparisonONLY,noveltysubtractsall;intactcontrolsoutsideunion. No newsolverinference.
-Fresh712screen;fixed36roles+randomcontrolwinner FREEZE/PUSHBEFOREfresh1680final.
-PRIMARYnovelcompleteunitsZEROunlessALLsourcecorrectretained,0false,nonemptyA0no-path
-90%;guard-vs-overwritesupportpositive2/3relatedbackgroundsANDsum,notstatistics.
-Secondaryrolescannotrescue. Fullknownskill/profile/genotypecomparisonspreventclaims
-ofthresholdrediscovery.3/5opfixedneighborhood,NOTlongpopulationevolution.
-FivefocusedtestsPASS0.35s;fullfake-sourcefixturePASS59544calls/9.86candidate/19.91wall,
-64328aliasgrades/2062native,3passivetraces/1760scalarmodule-sitechecks.0newfixtures/
-sciencecalls. All400M20+386M21completion/13+9localhashesunchanged.
-Register/commitpushBEFOREscientificpool;run tools/run_m22_workflow.py ONLYONCE.
-ItpublishespoolBEFOREscreen,choicesBEFOREfinal,ALLgrades/RNG/mutations/cases/tasks/
-selectionaudit+fixednative,ALL-nativefinalaudit+5040baselines,12metadata-onlytrace
-cases/ALL-historyaudit. Inspect runs/guarded_extension_m22/workflow_status.json/logs.
-10workers/8GiBRSS/4GiBTOTALstorageinclbackups/16GiBfree;screen1800s/2.5Mcalls/1e14work,
-final900s/1Mcalls/1e14work,eachaudit1800s,traces/audit900s/3000calls/1e13work.
-NEVERsecondwriter,sealededits,reselection,reset,guardbypass orfailedautoresume.
-Onreadinesssaved-onlybranch-use/profile/novelty/retention/ordinarylength/costanalysis,
-guardedbackups/alllayoutreference+delta/reportreview/seal/commitpushcompactrecords+
-copiedlogs,notrawjournals.Preserveallpriorfailedrecords.Nomonitoryetcreated.
-NoM23/longsearch/cloud/recombination/solverinjectionauthorized.Random-origincentral.
+Current October22,2026: **M22 COMPLETE, fresh-confirmed and AUDITED.** Read
+results/guarded_extension/report.md,summary.json,saved_diagnostics.json,branch_usage.json,
+retention_sensitivity.json,all3audits,report_review,preservation/completion.json;
+docs/GUARDED_EXTENSION_PROGRESS.md. No science/nextphase/monitorrunning.Preserveall
+old/newseals/originals/backups/unselectedproposals; futureauditsNEWpacketsonly.
+Registration41e1694/pool7ec8291/choices9175bf9 pushedBEFOREdownstreamscience/cases.
+SameM18VM,3relatedrandom-origin sources actualM15parent/child+declaredM10threshold.
+3arms ordinary/overwrite/guarded,256draws/source,3/5UNSELECTEDopportunities,
+768endpoints/3072opps EACHarm +256rawrandomcontrols. Extensionpair2nodes/op,
+identicalpayload/material/RNG,SELECTvsCOPYterminal;allancestor-prefix/ports/seeds
+retained,NOTbehaviorguarantee. UniformACTIVEwriter,noC6bias/favorablegate.
+Archive103aliases/73genotypes inclknownM10+M20nominees+ALLM21noncontrols,comparisonONLY;
+no controls in novelty union.2669poolaliases/2635physicalmodels.No long evolution.
+DEV712:strict novel additive0/768EACH;source-preservingaddition0evenarchive-recovery.
+Cleanretention194ordinary/1overwrite/10guarded;guard-only10/overwrite-only1,both0.
+Fresh1680PRIMARY0/6EACH,ALL36rolesFAILstrict;policy0–0–0all3backgrounds/supportFALSE.
+Oneguardedthreshold/d3/0226 NEW5-edgeRANDOM15×15mazeBOTHposes/emitted11ticks beyond
+ALL73archivegenomes; loses316sourcecorrect,110/426retained,128totalcorrect;168→16
+nopath,0false;12pairs/26corridors/5ordinaryvssource48/44/19. No integration/generalclaim.
+Guardedthreshold/d5/0029adds10newindividualpairedstimuli,0newcompleteunits,88losses.
+Ordinary2isolatednovelinputs/2genotypes. UNION14newindividuals/ONEnewcompleteunit.
+All30selectedidentities0/80ordinary16+bothposes. Randomwinner3one-edgeordinary,
+0pairs/corridors/nopath/false,0archive-novelinputs; not random-founder evolution.
+0nomineesexactarchivegenotypebut6archive-mask/status/tickprofiles,10archivecorrectsets.
+All10guardednomineesuseBOTHold/newoutermostbrancheswithunequalvalues on12metadata
+tracecases: independent saved-frameobserverPASS1438654module-site-ticks/20913962nodes.
+BranchuseNOTuseful-pathcausality. POSTHOCzero novelcompletepasses even50%overallAND
+per-source-class retention,with/withoutA0gate;nonewcases/inference/reselection.
+SourceSAMEnowparent128pairs/166corridors/15ordinary/168nopath/638correct,child184/200/
+9/0/594,threshold48/44/19/168/426. Cross-panelrawcountsNOTacquisition.
+AppleM4/10cores/16GiB,10workersCPUonly. Science2054200calls/4305.08candidate/
+4334.86CPU/1308744247802work/0uncertain. Screen461.00s/3.523GiB;final44.88s/3.627GiB.
+Workflow833.92s=13.90min.FirstscreenPASS138.36s ALL1876120grades,pool/9216edits+RNG/
+corpus/tasks/selection/freeze,58886native. FirstfinalPASS135.39s ALL178080native/
+grades/summary+5040baselines,allintact/conventionalcorrect.Traces396/5.48s,
+firstALL-historyPASS396/5.77s.SameVM/independentgrader+scalarobserver,notsecondVM.
+FivefocusedtestsPASS0.35s(notfullsuite);fakepipeline59544calls/2062native/3traces/
+1760observerchecks,0newlayouts/sciencecalls.No scientificrepair/guardbypass/errors.
+All357registration+400M20/386M21completion/13+9localhashesverify. Originaljournals+
+SQLiteAPIbackupsunderlocks/ALLtablesmatch LOCALruns/guarded_extension_m22.
+145.14MiBbeforecompletion/47.45GiBfree within4GiB/16GiBfloor;8GiBRSSallboundsrespected.
+Wholeledger3580513=3572609initial+2416screen+5488final,ALLdraws/reference+delta;
+loadwithreferenced_campaign_store.load_layouts,immutablebasesrequired.RawSQLiteignored.
+Reviewedreport/evidence/copiedlogs sealed/pushed;nomonitorcreated;nofuturephaseactive.
+NextproposalONLY: neutral-disabled-birth expressionextensions,verifyUNCHANGED-budget
+oldbehavior/costfirst,then separatelyregistered60–90minSELECTEDactivationcomparison,
+matchedcontrols/persistenthistories/freshconfirmation.RNGlocalgates,notoracle/caseID/
+gradedmaskchooser/newsolver. M22didNOTtestneutralinitializationorselectedgenerations.
+NoM23/longrun/cloud/recombination/solverauthorized.Random-originresearchremainscentral.
 <!-- M22-STATUS-END -->
 
 <!-- M21-STATUS-START -->

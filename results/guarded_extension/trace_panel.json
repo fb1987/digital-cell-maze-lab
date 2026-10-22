@@ -1,0 +1,43 @@
+{
+  "groups": {
+    "corridor": [
+      "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0",
+      "confirmation/core/a(3, 4)/straight/c8/s0/fork/p4/corridor/0/d4-0"
+    ],
+    "disconnected": [
+      "confirmation/ordinary/disconnected/9/r0/56000/disconnected/9x9/d4-4",
+      "confirmation/ordinary/disconnected/15/r0/56000/disconnected/15x15/d4-4"
+    ],
+    "paired_fork": [
+      "confirmation/core/a(2, 3)/turning/c7/s0/fork/p4/paired/0/d4-4",
+      "confirmation/core/a(3, 4)/straight/c8/s0/fork/p0/paired/1/d4-6"
+    ],
+    "paired_upstream": [
+      "confirmation/stress/a(4, 6)/straight/c10/s0/cycle/p2/paired/0/d4-0",
+      "confirmation/stress/a(6, 4)/straight/c11/s0/cycle/p4/paired/0/d4-0"
+    ],
+    "perfect16": [
+      "confirmation/ordinary/perfect/15/92000/perfect/15x15/d4-4",
+      "m7final_long/perfect/11/distance16-None/item4/try1/ordinary/perfect/11/0/perfect/11x11/d4-4"
+    ],
+    "random16": [
+      "m7final_long/random/15/distance16-None/item8/try0/ordinary/random/15/r0/0/random/15x15/d4-4",
+      "confirmation/ordinary/random/15/r0/72000/random/15x15/d4-4"
+    ]
+  },
+  "ids": [
+    "confirmation/core/a(2, 3)/turning/c7/s0/fork/p4/paired/0/d4-4",
+    "confirmation/core/a(3, 4)/straight/c8/s0/fork/p0/paired/1/d4-6",
+    "confirmation/core/a(3, 4)/straight/c8/s0/fork/p4/corridor/0/d4-0",
+    "confirmation/ordinary/disconnected/15/r0/56000/disconnected/15x15/d4-4",
+    "confirmation/ordinary/disconnected/9/r0/56000/disconnected/9x9/d4-4",
+    "confirmation/ordinary/perfect/15/92000/perfect/15x15/d4-4",
+    "confirmation/ordinary/random/15/r0/72000/random/15x15/d4-4",
+    "confirmation/stress/a(4, 6)/straight/c10/s0/cycle/p2/paired/0/d4-0",
+    "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0",
+    "confirmation/stress/a(6, 4)/straight/c11/s0/cycle/p4/paired/0/d4-0",
+    "m7final_long/perfect/11/distance16-None/item4/try1/ordinary/perfect/11/0/perfect/11x11/d4-4",
+    "m7final_long/random/15/distance16-None/item8/try0/ordinary/random/15/r0/0/random/15x15/d4-4"
+  ],
+  "rule": "Two lowest SHA256(case ID) per declared metadata group, no candidate outcomes"
+}
