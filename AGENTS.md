@@ -35,23 +35,45 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M24-STATUS-START -->
-Current October22,2026: **M24 branch-causality PREPARED, user authorized Proceed.**
-Read docs/BRANCH_CAUSALITY.md and docs/BRANCH_CAUSALITY_PROGRESS.md;
-results/branch_causality/registration.json. No new evolution/confirmation/cases.
-42aliases/40physicalmodels x1680 REUSED M23 inputs, 67200physicalcalls;17exact
-ancestral states,8branch-bypass/C2portfactorialcells,root+port-swap,14protected
-references inclroot,3intactcontrols. SameM18VM.240passivetracecalls,ALL-native
-andALLhistoryaudits,independentscalar saved-state observer. AllM23seals preserved.
-Publishregistration BEFOREscience;neverchange sealed sources/models/panel/selection.
-Durable tools/run_m24_workflow.py, journal runs/branch_causality_m24/evaluation;
-workflow_status.json/phaselogs. Neversecondwriter; failurespreserved/nosilentrepair.
-Tenworkers;eachnativephase900s;150kcalls/1e14evalwork,600tracecalls/1e13;
-8GiBRSS/3GiBTOTALstorageinclbackups/16GiBfreefloor,maxepoch/monotonicclock.
-At audited_ready_for_report verifyaudits,reporttruth-table/earliestancestor/root-swap,
-ALLcasegains/losses/nopath/length/work/costs,conditionalcausalityonly;notnewgeneralization.
-VerifiedSQLiteAPIbackup underlock ifboundsallow,ALLlayoutledgerref/zero newlayouts,
-reportreview,sealonetime,commit/pushcompactevidence/copiedlogs,neverrawSQL.
-NoM25,extraevolution,recombination,solverinjection orcloudcomputeauthorized.
+Current October22,2026: **M24 COMPLETE, MECHANISM-EVALUATED and AUDITED.**
+Read results/branch_causality/report.md,summary.json,interpretation.json,
+branch_observation.json,audit/trace_audit/observation_audit/readout_recurrence_audit,
+report_review,preservation/completion.json;docs/BRANCH_CAUSALITY_PROGRESS.md.
+No nextphase/writer/heartbeat running. Preserve originals/seals/failures. Newaudits
+NEWpackets only;neverrerunclosedactions/reselectonusedpanel.
+Registration b0d07ed pushed BEFOREscience;ALL374hashes/455M23completion+11localverify.
+42aliases/40physicalmodels x1680 REUSED M23 inputs;17exactancestorstates,8branch0/
+branch7/C2portfactorialcells,rootswap,14protectedinclroot,3intactcontrols. No newcase,
+evolution,nomination,independentconfirmation,solverinjection orruntimeextension.
+FocalM23enabledg190/b50 firstancestor tosolveknown6edgepose4. LastC2ports8<->3
+removesC2selfaccumulation,substitutesunwrittenC8zero;13ticks/142493dispatchessameparent,
+clearsstalespur127. ExactposthocC2recurrence594542savedsiteticksPASS,zero inference.
+Bothbranchesbypass stillsolvespose4. Root+portswap solvesNEITHERpose. Conditional
+interaction,notstandalonesolver orall16editsnecessary. Branch0causalonotherinputs:
+bypasswitholdC2map solvesTHREEnewtwo-poseperfectbases6/8/9edgesbeyonddeclaredarchive,
+butloses149correctinputs/108corridorsvsfocal;finalC2map loses163/116corridors.
+Allfactorials168correctnopath/0false,0/79ordinary16+bases. DevelopmentONLY,newabilities
+notindependentlyconfirmed. Archive103aliases/73genomes,notallhistoricalmutants.
+Branch7bypassALL1680mask/statusandcorrectsetEXACTineach4backgrounds,stepsdiffer88;
+adds5246082work. ActiveC7state/timingmechanism,nodemonstratednewrouting.
+Science67200nativecalls/59.89candidate/65.10CPU sec/20738912817work/27.21wall/
+2.966GiBRSS/0uncertain;240passivecalls/106678046work/4.24s. Workflow95.42s.
+FirstALLnativeauditPASS67200grades/replays/31920priorrowcomparisons48.60s;
+ALL240historiesPASS4.09s;independentscalar354496branchframesPASS+replay.
+SharedVM,independentgrader;notsecondVM. No general/speed/significanceclaim.
+FivefocusedtestsPASSnotfullsuite;1initialreferenceidentitytestfailure preserved,
+fixedBEFOREregistration;fixture21calls+21native+15traces. Reporthelperimportfailure
+retained. Rawsummary ordinary_disconnected/0to7tagisempty-pathartifact; corrected
+reachable-onlylengthtablesininterpretation.json,disconnectionseparate. No scientificrepair.
+VerifiedSQLiteAPIbackup/ALLtables underlock,originalLOCALruns/branch_causality_m24;
+~0.017GiBphasebeforeseal/~42.8GiBfree,3/16bounds.3742313layouts preservedasreference/
+delta,zero newlayouts;immutablebasesrequired,neverrawSQLinGit. Reportreviewed/sealed/
+compactevidence/copiedlogscommittedandpushed;AGENTSmutableoutsidecompletionseal.
+NextproposalONLY:separatelyregisteredmatchedintegration/skill-retentionselection
+continuationfromEXACTpreservedM23populations,commonruntime/operators/panels/budgets,
+boundedimperfectintermediates,strictfreshconfirmation. NoM24hand-editedablationfounders,
+newmutationprimitive,recombination,cloudcompute,knownsolver orM25launched/authorized.
+Random-origin/capacity/timehypothesesremainopen;activepiecesnotyetintegratedgeneralalgorithm.
 <!-- M24-STATUS-END -->
 
 

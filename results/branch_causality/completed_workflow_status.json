@@ -1,0 +1,51 @@
+{
+  "ended_epoch": 1792710708.326457,
+  "phase": "report_preserve_seal",
+  "pid": 39200,
+  "started_epoch": 1792710612.904727,
+  "state": "audited_ready_for_report",
+  "steps": [
+    {
+      "code": 0,
+      "ended_epoch": 1792710640.3841789,
+      "log": "runs/branch_causality_m24/run_001.log",
+      "phase": "run"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792710643.61845,
+      "log": "runs/branch_causality_m24/analyze_001.log",
+      "phase": "analyze"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792710692.534976,
+      "log": "runs/branch_causality_m24/audit_001.log",
+      "phase": "audit"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792710697.002642,
+      "log": "runs/branch_causality_m24/traces_001.log",
+      "phase": "traces"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792710701.266701,
+      "log": "runs/branch_causality_m24/trace_audit_001.log",
+      "phase": "trace_audit"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792710704.783112,
+      "log": "runs/branch_causality_m24/observe_001.log",
+      "phase": "observe"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792710708.326166,
+      "log": "runs/branch_causality_m24/observation_audit_001.log",
+      "phase": "observation_audit"
+    }
+  ]
+}
