@@ -14,6 +14,28 @@ completion or requireduseraction. Workflow automatically publisheschoices before
 registeredfreshconfirmation. No source/protocol/selectionchange afterregistration.
 348registeredfiles and all396M14completion+19localrecordhashes verify.
 
+## Development checkpoint: cumulative generation 160
+
+Saved read-only assessment/checkpoint packets under development/. This is96new
+M15rounds, not160newrounds. All348registration hashes and396M14completion+19local
+hashes stillverify. Search continues normally; roughly6.5Mcalls at firstcheck,
+zero uncertainattempts,~2.98GiB peak searchtreeRSS,~0.27GiBphase storage and~54GiBfree.
+These are interim observations; final costs will come from the completed session.
+
+Explorationreplicate1 upstream nominee m14/modular/1/explore/g159/b22 is one M15
+mutation directly from protected quota_child (root=parent=phase-entry). On the
+SAME392-input development panel, it solves58/100completepairs vs38root:20new and
+zero lost. Eight gains are targeted nonforkprefix2 pairs beyond ALLprotected:
+fourcycle andfourtwo_junction, across2contexts/twoposes. The other12gains arefork2.
+Retainsall99root corridor successes (fixedparent100), but ordinarybothpose bases
+13→7 andcorrectdisconnection44→0. False reachable no-path remains0. Thus this is
+an exploratory specialist gain; strict integration/deeper retention gates FAIL.
+It has no long8+ordinary base success on this panel. No freshconfirmationyet,
+no general-solver or causal policy claim. Allsixintegratedprimaries remaininherited,
+24pairs/24ordinary/44correctno-path on theirrespectivebankpanels; no primarygain.
+The candidate is already retained by the registered search/nomination mechanism;
+no manual preservation/reselection intervention changes the population.
+
 # Historical preparation checkpoint
 
 The user authorized “Proceed” after the M14 recommendation for a60–90minute

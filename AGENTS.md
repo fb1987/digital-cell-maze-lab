@@ -72,6 +72,12 @@ completionseals,commmit/pushcompactevidence,updatehandoff,pausemonitor.
 RawlayoutsDELTAONLY: use referenced_campaign_store.load_layouts andimmutablebases.
 Olderhistoricalblocks arecompletedstudies. No M16authorized;random-originresearch
 continues without general-solver/speed/significanceclaims absent evidence.
+Developmentcheckpoint160 (96M15rounds): exploratoryrep1 g159/b22,oneM15editfrom
+quota_child, gains20same-panelpairs(38→58),including8nonforkprefix2beyondprotected
+(4cycle+4two_junction,2contexts). Retainsallrootpairs/99corridors,butordinary13→7
+andcorrectnopath44→0,0false. StrictretentiongateFAIL;DEVELOPMENTONLY,confirmation
+pending. Allintegratedprimariesinherited. Packets development/assessment_0160.json
+andcheckpoint_0160.json; no selection/source/bounds intervention. Search ongoing.
 <!-- M15-STATUS-END -->
 
 
