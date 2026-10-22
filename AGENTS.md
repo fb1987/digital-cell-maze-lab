@@ -34,6 +34,47 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M20-STATUS-START -->
+Current October22,2026: **M20 COPY-SPECIALIZATION ASSAY PREPARED/LAUNCHING.**
+User's latest "Proceed" authorized the bounded assay recommended after M19 diagnosis.
+Read docs/COPY_SPECIALIZATION.md and COPY_SPECIALIZATION_PROGRESS.md,
+results/copy_specialization/{registration,launch,pool_freeze,choices_freeze}.json
+whenpresent. Durable tools/run_m20_workflow.py; state/logs in
+runs/copy_specialization_m20. Neverlaunchanotherwriter/workflow, reset or editsealed
+scientificsources. No automatic failed-workflowresume. Failure preservestrace/receipts;
+neededprotocolrepair mustbedocumentedbeforeproceeding. M19/diagnosis remainclosed.
+SameunchangedM18VM/10channels/256instructions+ticks/31nodes/4096reads+32768dispatches
+per site. ExactM15specialist+actualparent inM19-entryembedding;all13protected.
+512pairedwalks/anchor,1024proposals/arm;3/5edits alternating,4096opportunities/arm.
+Everywalk prospectivelyuniformCURRENTeligibleinitializedconnectedcopy;botharms
+sharecopybase+initialeditRNG. Genericallwriters vslocalcopy+readerONLY;otherwriters/
+ports/tagsbitwiseunchanged. Readerfullgrammar,notonlygates. SAMEhardcapacity,not
+realizedwork. Allcurrentcopybasescontrols;noM18/M19favorableedge subset. No selection
+betweenedits;allintermediates/RNGrecorded,onlyendpointsqueried. No solver/recombination.
+Primaryfixedadditiveroles:allanchorcorrectresponsesretained,0false,nonemptyA0nopath
+90%,newcompletepaired/corridor/ordinarybothpose/nopathunit beyondanchorANDowncopy.
+Newcombinationsofprotectedskillsdistinctfromnovelportfolioability. Separatedeeper/
+long8/16beyondALL13protected andnewfullparent+childcombination (notbase-inherited).
+8primary+8exploratoryroles across2arms/2anchors/2depths;no secondaryrole substitution.
+Fresh712screen thenfreezeCOMMIT/PUSHchoicesBEFORE1680freshconfirmation;equal729088
+nominalscreenqueries/arm,physicaldedup/costsdiffer. ALLgenerated/rejected/unqueried
+layouts excluded viaM19wholeledger+newdeltas. No new phase afterM20authorized.
+10workers;screen1800s/2Mcalls/1e13work;final900s/1Mcalls/1e14work;audits1800s;
+8GiBRSS/6GiBTOTALstorageincludingbackups/16GiBdiskfloor. Neverbypassguards/extend.
+5focusedchecksPASS0.24s(initial0.35),notfullsuite. Artificialfullrehearsal44936calls/
+2.76candidate sec/12.10wall,47328aliasgrades/1416additionalnativechecks;allcontrols
+correct. No newfixturelayouts/scientificcalls beforefreeze. All420M19sealedfiles+
+13localrecords and26diagnosisfilesverify. No preparationfailures atregistration.
+Workflowpoolpublish->screen->nominatepublish->screenaudit(ALLgrades/edits/RNG/corpus/
+tasks/nomination+fixed1/32native)->freshfinal->summary->ALL-nativefinalaudit+
+5040conventionalcontrols. No oldheartbeatresumed; follow this current authorizedrun.
+Afteraudited_ready_for_report preserveguardedSQLiteAPIbackups underlocks/ALLtable
+comparisons+ALLlayout reference/delta, reviewactualprimary/exploratoryoutcomes,
+ancestry/scope/no-path/length/costs;reviewreport,updatehandoff,sealonce,commit/push
+compactevidence+copiedlogs,neverrawjournals. Newauditsseparatepackets. No general/
+speed/significance/independentoriginsclaim. Random-originresearchremainscentral.
+<!-- M20-STATUS-END -->
+
 <!-- M19-HISTORY-DIAGNOSIS-START -->
 Current October22,2026: **M19 SAVED-HISTORY DIAGNOSIS COMPLETE.** User's later
 "Proceed" authorized the saved-history proposal only. Read
