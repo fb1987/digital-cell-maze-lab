@@ -1,0 +1,27 @@
+{
+  "calls": 9024,
+  "limitation": "Passive copies share primitive semantics; native terminal equality and full history hash replay. Common-prefix comparison never forces execution after either native stopping rule. Zero writer is a prespecified intervention, not evolved behavior.",
+  "max_instrumentation_bytes": 1855540,
+  "native_seconds": 4.966388322063722,
+  "selected_cases": {
+    "corridor": "m7validation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/0/d4-0",
+    "cycle/2": "m7validation/stress/a(4, 6)/straight/c4/s0/cycle/p2/paired/0/d4-0",
+    "cycle/4": "m7validation/stress/a(4, 6)/straight/c4/s0/cycle/p4/paired/0/d4-0",
+    "cycle/8": "m7validation/stress/a(4, 6)/straight/c4/s0/cycle/p8/paired/0/d4-0",
+    "disconnected": "m7validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+    "ordinary_disconnected/15": "m16screen/ordinary/disconnected/15/r0/0/disconnected/15x15/d4-0",
+    "ordinary_disconnected/9": "validation/disconnected/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-0",
+    "ordinary_perfect/long": "m16screen/ordinary/perfect/11/120000/perfect/11x11/d4-0",
+    "ordinary_perfect/medium": "m16screen/ordinary/perfect/11/100000/perfect/11x11/d4-0",
+    "ordinary_perfect/short": "m16screen/ordinary/perfect/11/0/perfect/11x11/d4-0",
+    "ordinary_random/long": "m16screen/ordinary/random/15/r0/0/random/15x15/d4-0",
+    "ordinary_random/medium": "m16screen/ordinary/random/15/r0/100000/random/15x15/d4-0",
+    "ordinary_random/short": "m16screen/ordinary/random/15/r0/16000/random/15x15/d4-0",
+    "two_junction/2": "m7validation/stress/a(4, 6)/straight/c4/s0/two_junction/p2/paired/0/d4-0",
+    "two_junction/4": "m7validation/stress/a(4, 6)/straight/c4/s0/two_junction/p4/paired/0/d4-0",
+    "two_junction/8": "m7validation/stress/a(4, 6)/straight/c4/s0/two_junction/p8/paired/0/d4-0"
+  },
+  "trace_seconds": 5.66827658645343,
+  "wall_seconds": 68.46781441697385,
+  "work": 5005471914
+}

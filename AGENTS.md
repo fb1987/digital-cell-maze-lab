@@ -34,6 +34,58 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M18-STATUS-START -->
+Current October22,2026: **M18 COMPLETE, fresh-evaluated and AUDITED.**
+Read results/connected_copy_assay/report.md, summary.json, interpretation.json,
+physical_cost_buckets.json, three audits, preservation.json and completion.json;
+docs/CONNECTED_COPY_ASSAY_PROGRESS.md. No scientific process or next search running.
+Preserve seals/originals; new audit requires a new output packet.
+
+Registration66901ab/ALL-panel choices1393e36 pushed BEFORE fresh generation.
+Exact M15child/actualparent from M17; 576 deterministic aliases:18structural edges
+peranchor ×2spares ×zero/inherited initialization ×disconnected/connected ×pure/zero
+writer.309physical models all receive712development/1680final; no nomination/RNG/
+evolution or solver injection. NewM18 wraps ten-channel VM with generic source/goal
+initialization tags; same256instruction/tick/read/dispatch limits. Empty embedding
+matches all fields except memory +8bytes/site+162metadata. All copies117–121genes.
+
+Seeded connected72aliases/72genomes: ALL72samefinalrasters;24exactmask/status/steps
+onALLfinalinputs;60retainALLcorrectresponses;12lose4or20correctno-path decisions
+asread_budget (sameinmatchedseededdisconnected). Child36copiesonlytimingdiff on128
+read-limitedinputs. Countedwork+6.65–19.27%,median+9.73%. All72pairedconnected/
+disconnectedreactionrecords includingworkexactlyequal. Traces16metadata-selected
+cases/282physicalmodels:ALL2304seededpurealias/casecomparisons preserveold8states
+atsharedcompletedticks andcopy==donor. Zero-writer effects onoldstate:72/72seeded
+connected vs0/72disconnected;68/72connectedfinalmaskeffects.24neutralANDcoupled.
+This validates genericattachment/initialization,NOTevolutionaryaccessibility/newskill.
+56nonzerodonorseedcontrasts(28connected/28not),12finalfielddifferences. Zero-connected
+2aliases gain168correctnopathbutlose594correctresponses/1512falseclaims:degenerate.
+0combinedrestorationpasses. Parent128pairs/166corridors/18ordinary/168nopath;
+child184/200/9/0,zerofalse. Same-panel inheritedskills,notcross-panelacquisition.
+No general/speed/significance/independentoriginsclaim.
+
+Science739128physicalcalls/1058.49candidate sec/1087.75workerCPU/
+333839159108work;screen56.92s/final100.14s,3.452/3.905GiBRSS,zerouncertain.
+ALL-native auditsPASSfirstattempt:220008screen(217.70s),519120final(396.92s)
+plus5040conventionalcontrols. Passive9024executions/5005471914work/68.47s;
+ALLhistoryhash/compare replayPASS69.19s/samecallswork. SharedVM/operator,independent
+rastergrader. Fivefocusedtestspass,notfullsuite;preflight1760calls/22traces/128embed
+checks. Two preparation-only failures/failed1760calls+22traces retained, timinglost.
+All346registration/384M17completion/13M17localhashesunchanged;noscientificrepair.
+VerifiedSQLiteAPIbackups underlocks,ALLtablesmatch;originalspreservedlocalin
+runs/connected_copy_assay_m18. ~0.103GiBphase/51.66GiBfree within6/16bounds.
+Wholelayoutledger3373573 viareference+delta;immutablebasesrequired.
+Report/compactevidence/logssealedandpushed;rawjournalsignored. Noheartbeatcreated.
+
+NextproposalONLY:separatelyregistered60–90minmatchedevolution,commonM18runtime,
+genericvariationvsinitializedconnectedcopy,optionalinitializeddisconnectedcontrol,
+matchedmaterial/evaluationallocations/costaccounting,prospectiveedgechoices,skill/
+disconnectionretention,newupstream/longroutes,checkpoints/randomimmigrants. Do not
+selectonlythe24neutraledgesonfinalresults. NoM19/longrun/recombination/cloudcompute
+or knownsolver launched. Random-originresearch remains central.
+<!-- M18-STATUS-END -->
+
+
 <!-- M17-STATUS-START -->
 Current October22,2026: **M17 COMPLETE, fresh-confirmed and AUDITED.**
 Read results/spare_state_assay/report.md, summary.json, interpretation.json,
