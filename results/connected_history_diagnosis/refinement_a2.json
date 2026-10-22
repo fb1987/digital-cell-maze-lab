@@ -1,0 +1,13 @@
+{
+  "scope": "Post-hoc saved-data interpretation refinement; no scientific or base analysis change.",
+  "reason": "Coverage beyond protected references can already belong to an immediate parent. Base portfolio_gain flags describe coverage present plus retention, not edit-induced acquisition. All direct copies had zero additional correct cases over parents.",
+  "definition": "True additions subtract BOTH the exact immediate parent AND the protected union. Also show entry-new and retention separately; unavailable comparisons remain missing.",
+  "frozen_before_refinement_pass": true,
+  "files": {
+    "tools/analyze_m19_incremental.py": "f34055d0980c778c0c27678dd46bfedfd3fc500cf4e303ff44e7413c69bf154f",
+    "tests/test_m19_incremental.py": "d1709df53e2de9c768ad847d0ce749fc308437689f6bc191a8a38a36f075ecbc"
+  },
+  "tests": "2 saved-set checks PASS in0.02s; zero inference.",
+  "inference_calls": 0,
+  "new_cases": 0
+}
