@@ -34,6 +34,68 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M19-STATUS-START -->
+Current October22,2026: **M19 sustained connected-duplication evolution RUNNING.**
+User authorized "agree - continue with your proposal!" after M18. Read
+ docs/CONNECTED_EVOLUTION.md, docs/CONNECTED_EVOLUTION_PROGRESS.md,
+ results/connected_evolution/registration.json and launch.json.
+Registration032f115 pushed BEFORE science. Durable tools/run_m19_workflow.py
+initialPID47826/child47836/10workers. Journal runs/connected_evolution_m19/campaign.sqlite;
+workflow_status.json and phase logs there. NEVER start another writer/workflow,
+change registered files, reset histories, reselect on final data or extend bounds.
+Readonly: .venv/bin/python tools/inspect_connected_evolution.py [--assessment N --output NEW_PATH].
+
+Nine96populations:3matched generic/disconnected/connected trios, same ordered
+founder genomes andRNG withintrio. Common EXACTM18VM/commonexplorationselector/
+M11BANKpanels.13protected:old12+exactM15g320/b48;83clonal slots alternate thatchild
+andactualgated_specialistparent. New matchedforks,notwhole-M15-statecontinuation
+or independentorigins. Full source records, exact M15edit and root/parent retained.
+InheritedM10-entry/M15studydepth vsnewM19mutations explicit. Seven randomimmigrants
+and45single-opportunitymutants eachround. Copyarms25%prospective eligible initialized
+copy opportunities, commonmutationfallback whennone; uniform CURRENTstructuraledges,
+notM18finalneutraledge subset. Connectedredirectsexistingreader;disconnecteddoesnot.
+Commonlast-spare-node deletion resetsseed/recycles; no newinferenceprimitive/solver.
+
+Runtime10channels/256instructions+ticks/31nodesblock/4096reads+32768dispatches/site
+UNCHANGED. Same48fresh+48fixedbanktrain,96x96nominalqueries/pop;every16assessment
+115x392inclnonselectableA0padding. 70minsoft/90minhardsearch;1024round/120Mcalls/
+1e15work;8GiBRSS/12GiBTOTALstorageinclbackups/16GiBfreefloor. Separatefinal900s/
+1Mcalls/1e14work;eachaudit3600s. Stopnormallyatsoft/round/callreserve thenassess;
+anyguard/errorstoprequiresdiagnosis,NEVERautomaticfailed-workflowresume.
+
+PRIMARYfixedINTEGRATEDrole NEWnonforkprefix2+ count beyondexactroot/phaseentry/ALL13
+protected,zeroifpositiveM19mutation/90%rootANDentryretention/nonemptyA0disconnection90%/
+zerofalseno-path gate fails. Connected-vs-generic andconnected-vs-disconnected EACH
+needpositive2/3triosANDsum for descriptive support;bothrequiredforcombinedsupport.
+No rolesubstitution/significance/general/speedclaim. Separateintegration/deeper/long
+flags andspecialistgains/losses; inherited16M15upstreampairsalreadyprotected.
+
+EightfocusedtestsPASS65.20s,notfullsuite. Artificialdiscarded328832calls/140.36
+candidate sec/1404births replayed;5040intactcontrolsallcorrect. FullpipelinePASS:
+reuseoldtrainreceipts,42000finalnative,7898searchsample+42000finalauditnative,
+5040conventionalcontrols;no additionalfreshcases. Initial2testassumptionsfailures
+and2setuphelperserrors preserved;onlytests/setupfixed,no variation/inferencechange.
+Postprocessing savedfixturecheckPASS,zero new inference. All369registration hashes
+and390M18completion/14localrecordsverify. Initial3381045wholelayoutsexcluded via
+reference+delta;rawlayouts table isDELTAONLY,use referenced_campaign_store.load_layouts.
+
+Workflowautomaticallysearches,FREEZESandCOMMITS/PUSHESexactchoicesBEFOREfresh1680
+confirmation,auditsALLsearchgrades/corpora/tasks/selection/mutation/RNG+fixednative
+samples,thenfinal/analysis/ALL-nativefinalaudit. M19confirmationauthorized. Failures:
+preservetracebacks/pendingreceipts/failedartifacts;no sealedrepairwithoutprotocoldecision.
+At audited_ready_for_report use tools/analyze_m19_saved.py onceifoutputsabsent,
+ tools/preserve_m19.py for guardedverifiedSQLiteAPIbackups+ALLlayouts,
+ tools/report_m19.py once thenreviewactualoutcomes/ancestry/compute andadd thoughtful
+interpretation/nextrecommendation;write report_review.json. Updateprogress/AGENTS,
+run tools/seal_m19_completion.py ONCE, commit/pushcompactevidence+copiedlogs,
+neverrawjournals. Preservealloriginals,immutableledgers andfailedrecords.
+Heartbeat m19-connected-evolution-follow-through ACTIVEevery15min,QUIETonroutine;
+notifyonlymeaningfulcapabilitychange/completion/failure/requireduseraction. Pauseafter
+report/audits/preservation/push or requireduseraction. Nonewphase beyondM19,extra
+search,recombination,cloudcompute orknownsolverauthorized. Random-originremainscentral.
+<!-- M19-STATUS-END -->
+
+
 <!-- M18-STATUS-START -->
 Current October22,2026: **M18 COMPLETE, fresh-evaluated and AUDITED.**
 Read results/connected_copy_assay/report.md, summary.json, interpretation.json,
