@@ -1,0 +1,3403 @@
+{
+  "all_native_audit": {
+    "all_transformations_panel_tasks_summary_replayed": true,
+    "chain": "605c0b2f55bdecad6925c1f72ce12322e85b21702658dc3ab7e105efecb4c154",
+    "independent_grades": 107520,
+    "limitation": "Shared frozen production VM; independent raster grader, ALL-native replay.",
+    "m20_exact_response_comparisons": 40320,
+    "native_counted_work": 31523345800,
+    "native_replays": 107520,
+    "status": "PASS",
+    "wall_seconds": 69.37148795905523
+  },
+  "causal_tests": {
+    "generic/parent/d3/0246": {
+      "copy_modes": {
+        "bypass_keep": true,
+        "bypass_remove": true,
+        "intact": true,
+        "remove_only": false
+      },
+      "observed_both_poses": true,
+      "old_terminal_both_poses": false,
+      "terminal_only": {
+        "copy/append": true,
+        "copy/replace": true,
+        "source/append": true,
+        "source/replace": true
+      },
+      "terminal_required_in_saved_background": true
+    },
+    "generic/parent/d5/0259": {
+      "copy_modes": {
+        "bypass_keep": true,
+        "bypass_remove": true,
+        "intact": true,
+        "remove_only": true
+      },
+      "observed_both_poses": true,
+      "old_terminal_both_poses": false,
+      "terminal_only": {
+        "copy/append": true,
+        "copy/replace": true,
+        "source/append": true,
+        "source/replace": true
+      },
+      "terminal_required_in_saved_background": true
+    },
+    "local/parent/d3/0108": {
+      "copy_modes": {
+        "bypass_keep": true,
+        "bypass_remove": true,
+        "intact": true,
+        "remove_only": true
+      },
+      "observed_both_poses": true,
+      "old_terminal_both_poses": false,
+      "terminal_only": {
+        "copy/append": true,
+        "copy/replace": true,
+        "source/append": true,
+        "source/replace": true
+      },
+      "terminal_required_in_saved_background": true
+    },
+    "local/parent/d5/0059": {
+      "copy_modes": {
+        "bypass_keep": true,
+        "bypass_remove": true,
+        "intact": true,
+        "remove_only": true
+      },
+      "observed_both_poses": true,
+      "old_terminal_both_poses": false,
+      "terminal_only": {
+        "copy/append": true,
+        "copy/replace": true,
+        "source/append": true,
+        "source/replace": true
+      },
+      "terminal_required_in_saved_background": true
+    }
+  },
+  "gain_timecourses": {
+    "generic/parent/d3/0246": {
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "goal": 2,
+        "height": 9,
+        "path": [
+          28,
+          19,
+          10,
+          1,
+          2
+        ],
+        "signal_channel": 8,
+        "start": 28,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              10
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              21
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              10
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              19,
+              21,
+              28
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              2,
+              10,
+              19,
+              28
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "goal": 6,
+        "height": 9,
+        "path": [
+          34,
+          25,
+          16,
+          7,
+          6
+        ],
+        "signal_channel": 8,
+        "start": 34,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              16
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              7,
+              16
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23,
+              25,
+              34
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              6,
+              7,
+              16,
+              25,
+              34
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      }
+    },
+    "generic/parent/d5/0259": {
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "goal": 2,
+        "height": 9,
+        "path": [
+          28,
+          19,
+          10,
+          1,
+          2
+        ],
+        "signal_channel": 1,
+        "start": 28,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              10
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              21
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              10
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              19,
+              21,
+              28
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              2,
+              10,
+              19,
+              28
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "goal": 6,
+        "height": 9,
+        "path": [
+          34,
+          25,
+          16,
+          7,
+          6
+        ],
+        "signal_channel": 1,
+        "start": 34,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              16
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              7,
+              16
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23,
+              25,
+              34
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              6,
+              7,
+              16,
+              25,
+              34
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      }
+    },
+    "local/parent/d3/0108": {
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "goal": 2,
+        "height": 9,
+        "path": [
+          28,
+          19,
+          10,
+          1,
+          2
+        ],
+        "signal_channel": 1,
+        "start": 28,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              10
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              21
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              10
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              19,
+              21,
+              28
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              2,
+              10,
+              19,
+              28
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "goal": 6,
+        "height": 9,
+        "path": [
+          34,
+          25,
+          16,
+          7,
+          6
+        ],
+        "signal_channel": 1,
+        "start": 34,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              16
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              7,
+              16
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23,
+              25,
+              34
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              6,
+              7,
+              16,
+              25,
+              34
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      }
+    },
+    "local/parent/d5/0059": {
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "goal": 2,
+        "height": 9,
+        "path": [
+          28,
+          19,
+          10,
+          1,
+          2
+        ],
+        "signal_channel": 1,
+        "start": 28,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              10
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              21
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              10
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              1,
+              9,
+              19,
+              21,
+              28
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              1,
+              2,
+              10,
+              19,
+              28
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "goal": 6,
+        "height": 9,
+        "path": [
+          34,
+          25,
+          16,
+          7,
+          6
+        ],
+        "signal_channel": 1,
+        "start": 34,
+        "ticks": [
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 0,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 0
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 0,
+            "source_c6": 0,
+            "t": 1
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 4,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 2
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 3
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 11,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 1,
+            "source_c6": 0,
+            "t": 4
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 2,
+            "source_c6": 0,
+            "t": 5
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 19,
+            "goal_c6": 0,
+            "output_positive_sites": [],
+            "signal_max": 3,
+            "source_c6": 0,
+            "t": 6
+          },
+          {
+            "c6_positive_sites": [],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              16
+            ],
+            "signal_max": 4,
+            "source_c6": 0,
+            "t": 7
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23
+            ],
+            "gate_c5_positive_sites": 29,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              7,
+              16
+            ],
+            "signal_max": 6,
+            "source_c6": 0,
+            "t": 8
+          },
+          {
+            "c6_positive_sites": [
+              7,
+              17,
+              23,
+              25,
+              34
+            ],
+            "gate_c5_positive_sites": 37,
+            "goal_c6": 0,
+            "output_positive_sites": [
+              6,
+              7,
+              16,
+              25,
+              34
+            ],
+            "signal_max": 10,
+            "source_c6": 3,
+            "t": 9
+          }
+        ],
+        "width": 9
+      }
+    }
+  },
+  "recurrence_checks": {
+    "generic/parent/d3/0246": {
+      "checked_open_site_transitions": 27153,
+      "proof": "Unchanged first seven C6 nodes: scratch13=4; scratch15 = (local1 if local7>0 else scratch12), gated by local1. scratch12 also gated by local7, so zero if local7=0. Last SUB15,13 ungated. Therefore positive C5 above4 passes only if signal>0.",
+      "recurrence": "C6[t+1,p] = (C8[t,p] > 0) * max(0, C5[t,p] - 4)",
+      "scope": "All completed-tick transitions on ALL eight preregistered trace cases; posthoc symbolic simplification, no new inference",
+      "signal_channel": 8,
+      "status": "PASS"
+    },
+    "generic/parent/d5/0259": {
+      "checked_open_site_transitions": 27667,
+      "proof": "Unchanged first seven C6 nodes: scratch13=4; scratch15 = (local1 if local7>0 else scratch12), gated by local1. scratch12 also gated by local7, so zero if local7=0. Last SUB15,13 ungated. Therefore positive C5 above4 passes only if signal>0.",
+      "recurrence": "C6[t+1,p] = (C1[t,p] > 0) * max(0, C5[t,p] - 4)",
+      "scope": "All completed-tick transitions on ALL eight preregistered trace cases; posthoc symbolic simplification, no new inference",
+      "signal_channel": 1,
+      "status": "PASS"
+    },
+    "local/parent/d3/0108": {
+      "checked_open_site_transitions": 27830,
+      "proof": "Unchanged first seven C6 nodes: scratch13=4; scratch15 = (local1 if local7>0 else scratch12), gated by local1. scratch12 also gated by local7, so zero if local7=0. Last SUB15,13 ungated. Therefore positive C5 above4 passes only if signal>0.",
+      "recurrence": "C6[t+1,p] = (C1[t,p] > 0) * max(0, C5[t,p] - 4)",
+      "scope": "All completed-tick transitions on ALL eight preregistered trace cases; posthoc symbolic simplification, no new inference",
+      "signal_channel": 1,
+      "status": "PASS"
+    },
+    "local/parent/d5/0059": {
+      "checked_open_site_transitions": 27830,
+      "proof": "Unchanged first seven C6 nodes: scratch13=4; scratch15 = (local1 if local7>0 else scratch12), gated by local1. scratch12 also gated by local7, so zero if local7=0. Last SUB15,13 ungated. Therefore positive C5 above4 passes only if signal>0.",
+      "recurrence": "C6[t+1,p] = (C1[t,p] > 0) * max(0, C5[t,p] - 4)",
+      "scope": "All completed-tick transitions on ALL eight preregistered trace cases; posthoc symbolic simplification, no new inference",
+      "signal_channel": 1,
+      "status": "PASS"
+    }
+  },
+  "scope": "Saved audited M21 evidence only; mechanism/development, no new cases or inference",
+  "state_comparisons": {
+    "generic/parent/d3/0246": {
+      "confirmation/ordinary/disconnected/15/r0/40000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 70
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": false,
+          "shared_ticks": 70
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 70
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": false,
+          "shared_ticks": 70
+        }
+      },
+      "confirmation/ordinary/disconnected/15/r0/68000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 62
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": false,
+          "shared_ticks": 62
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 62
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": false,
+          "shared_ticks": 62
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            9,
+            null,
+            null,
+            null,
+            8,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            9,
+            null,
+            null,
+            null,
+            8,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            14,
+            null,
+            null,
+            null,
+            13,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 23
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            14,
+            null,
+            null,
+            null,
+            13,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 23
+        }
+      },
+      "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            9,
+            null,
+            null,
+            null,
+            8,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 13
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            9,
+            null,
+            null,
+            null,
+            8,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 13
+        }
+      },
+      "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            9,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 15
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            9,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 15
+        }
+      },
+      "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            10,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 17
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            10,
+            null,
+            0,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 17
+        }
+      }
+    },
+    "generic/parent/d5/0259": {
+      "confirmation/ordinary/disconnected/15/r0/40000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 72
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": false,
+          "shared_ticks": 72
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 72
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": false,
+          "shared_ticks": 72
+        }
+      },
+      "confirmation/ordinary/disconnected/15/r0/68000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            14,
+            null,
+            null,
+            null,
+            13,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 23
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        }
+      },
+      "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            9,
+            null,
+            null,
+            null,
+            8,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 13
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        }
+      },
+      "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            9,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 15
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        }
+      },
+      "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            10,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 17
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        }
+      }
+    },
+    "local/parent/d3/0108": {
+      "confirmation/ordinary/disconnected/15/r0/40000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        }
+      },
+      "confirmation/ordinary/disconnected/15/r0/68000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            6,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            6,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            6,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            6,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            13,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            14,
+            null,
+            null,
+            null,
+            13,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 23
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            13,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        }
+      },
+      "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            8,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            9,
+            null,
+            null,
+            null,
+            8,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 13
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            8,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        }
+      },
+      "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            9,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            9,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 15
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            9,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        }
+      },
+      "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            10,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            10,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 17
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            10,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        }
+      }
+    },
+    "local/parent/d5/0059": {
+      "confirmation/ordinary/disconnected/15/r0/40000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 73
+        }
+      },
+      "confirmation/ordinary/disconnected/15/r0/68000/disconnected/15x15/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 63
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            5,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            5,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            5,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            8,
+            null,
+            null,
+            null,
+            7,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 9
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            5,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 9
+        }
+      },
+      "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            12,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            14,
+            null,
+            null,
+            null,
+            13,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 23
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            12,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 23
+        }
+      },
+      "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            7,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            9,
+            null,
+            null,
+            null,
+            8,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 13
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            7,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 13
+        }
+      },
+      "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            8,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            9,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 15
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            8,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 15
+        }
+      },
+      "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0": {
+        "bypass_keep/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "bypass_remove/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            9,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        },
+        "intact/restore_old": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            11,
+            null,
+            null,
+            null,
+            10,
+            null,
+            null,
+            null
+          ],
+          "original_eight_states_equal": false,
+          "same_mask_status_steps": false,
+          "shared_ticks": 17
+        },
+        "remove_only/saved": {
+          "first_differing_completed_tick_by_channel": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            9,
+            null
+          ],
+          "original_eight_states_equal": true,
+          "same_mask_status_steps": true,
+          "shared_ticks": 17
+        }
+      }
+    }
+  },
+  "trace_audit": {
+    "all_production_rows_equal": true,
+    "calls": 496,
+    "complete_history_replay": true,
+    "counted_work": 317378910,
+    "rss_peak_bytes": 657866752,
+    "status": "PASS",
+    "wall_seconds": 6.160870208987035
+  }
+}

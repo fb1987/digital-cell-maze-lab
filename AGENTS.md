@@ -35,23 +35,43 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M21-STATUS-START -->
-Current October22,2026: **M21 PREPARED: user authorized causal copy/readout assay.**
-Read docs/READOUT_CAUSALITY.md, docs/READOUT_CAUSALITY_PROGRESS.md and
-results/readout_causality preparation/registration/trace_panel records. Fixed76aliases/
-64physical models,107520plannedcalls onALL1680reusedM20inputs,NOTfreshconfirmation.
-FourrelatedselectedM20parent specialists;copyintact/bypasskeep/removeonly/bypassremove
-crosssaved/restoredoldC6terminal,wholeoldreaderrestoration,terminal-onlyappend/replace
-inoriginalsource/exactcopy. All13protected/intacts/sources preserved. Eightfixedtrace
-cases/496plannedhistories;source/copyreadertransforms nooracleaccess. SameM18VM.
-5focusedtestsPASS0.11s,27fixturecalls/48extranative+tracechecks,0newcases/sciencecalls.
-All400M20completion/13localhashesunchanged. Register/pushbeforeexecution,then durable
-tools/run_m21_workflow.py ONLYonce. Inspect runs/readout_causality_m21/workflow_status.json
-andphaselogs.Nosecondwriter/failedautoresume/sourcechanges/reselection/boundsextension.
-10workers,900sevaluation/250kcalls/1e14work;ALL-nativeaudit900s;traceandauditeach900s/
-2500calls/1e13work;8GiBRSS/2GiBTOTALstorageinclbackups/16GiBfreefloor. At readiness
-interpretconditionalcausalitywithsavedrasters/status/work/ALLhistories,verifyprior,
-guardedSQLiteAPIbackupandoldlayoutreference,report/seal/commitpushcompactevidence/logs.
-NoM22/longsearch/cloud/recombination/solverinjectionauthorized.Random-origincentral.
+Current October22,2026: **M21 COMPLETE, causal copy/readout assay AUDITED.**
+Read results/readout_causality/report.md,summary.json,interpretation.json,
+historical_matches.json,bothaudits,report_review.json,preservation/completion.json;
+docs/READOUT_CAUSALITY_PROGRESS.md. No science/nextphase/monitorrunning.Preserveall
+old/newseals/originals/backups/failedhelper;futureauditsNEWpacketsonly.
+Registration9d8e121pushedBEFOREscience.SameM18VM,76aliases/64models,ALL1680reused
+M20casesMECHANISM/DEVELOPMENT,NOTfreshconfirmation.Fourrelatedselectedspecialists,
+copy4states×terminal2pluswhole-reader/sufficiencycontrols;13protected/intacts.
+All4gainpersistsafterbypass+copyremoval,terminal-onlysourceappend/replace;all4lose
+gainafteroldterminalrestore.BYPASSKEEPall1680mask/status/ticksexacteachspecialist.
+Directremoveonlygenericd3losesgainbecauseemptyattachedslot;donorrewire restores.
+MinimalmatchesBOTHlocalsALL1680terminalrecords.636originalcorrect→418=252lost+
+34new;2newindividualsbeyondprotected(one4-edgemazebothposes),168nopath,0false.
+48pairs/44corridors/15ordinaryvsoriginal128/166/14;0/77ordinary16+.Oldterminal+
+bypassremove recoversall636originalcorrectinshownbackgrounds.No skillintegration.
+POSTHOC C6next=(C1>0)*max(0,C5-4),genericd3copiedC1inC8;ALL110480savedsite-
+transitionsPASS.SUBwasalreadyprivateancestorcalculation;duplicateexposesasterminal.
+ALL32bypassremoval×eightcasecomparisonspreserveold8statesatsharedticks,notlifetimes.
+MINIMALgenomeEXACTM18emptyspareembeddingofM10control1g128/b35+rotating2g32/b7;
+oldchoicehashverified,nonewinference.M20freshcasegainvalidbutmechanismREDISCOVERY.
+No newalgorithm/general/speedclaim.All56interventions0false;1oldprotectedhas4.
+Workflow114.39s;107520sciencecalls/86.02candidate/92.47CPU/29.27wall/31523345800work/
+3.078GiBRSS/0uncertain.FirstALL-nativeauditPASS69.37s,allgrades/transforms/panel/
+tasks/summary+40320M20comparisons.Trace496/317378910work/6.17s;firstALL-history
+auditPASS496/6.16s.SameVM/independentgrader.Intactallcorrect;oldbaselinechecksnot
+repeated.5focusedtestsPASS0.11s,27fixturecalls/48extrachecks,0newcases.Nosciencerepair.
+UnregisteredposthochelperSELECToperandderivationerrorcaughtbysavedassertion;
+failedscript/diagnosisretained,correctedformulaALLsavedchecksPASS,no newexecutions.
+All355registration+400M20completion/13localhashesunchanged.SQLiteAPIbackupverified
+ALLtables/underlock,originalsLOCALruns/readout_causality_m21/evaluation,~21.26MiB
+beforecompletion/~47.65GiBfreewithin2/16bounds.Wholeledger3572609UNCHANGED/0newlayouts,
+reference+delta/immutablebasesrequired.RawSQLiteignored.Reviewedreport/evidence/logs
+sealed/pushed;nomonitorcreated.NoM22/longrun/cloud/recombination/solverauthorized.
+NextproposalONLY:boundedgenericguarded-expressionextensionaccessibilitytest,old
+expressionpreservedasbranch+mutablealternative/localselectorversusreplacement,
+existingVMSELECT,notoracle/mazeID/gradedmaskchooser;retention+freshgainsbeforelong
+run.M9singleexpressiongateworkdistinct.Random-originresearchremainscentral.
 <!-- M21-STATUS-END -->
 
 <!-- M20-STATUS-START -->

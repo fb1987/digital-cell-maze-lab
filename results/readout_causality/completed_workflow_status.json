@@ -1,0 +1,39 @@
+{
+  "ended_epoch": 1792694545.144004,
+  "phase": "report_preserve_seal",
+  "pid": 93083,
+  "started_epoch": 1792694430.755253,
+  "state": "audited_ready_for_report",
+  "steps": [
+    {
+      "code": 0,
+      "ended_epoch": 1792694460.423306,
+      "log": "runs/readout_causality_m21/run_001.log",
+      "phase": "run"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792694462.4230201,
+      "log": "runs/readout_causality_m21/analyze_001.log",
+      "phase": "analyze"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792694532.16708,
+      "log": "runs/readout_causality_m21/audit_001.log",
+      "phase": "audit"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792694538.7229319,
+      "log": "runs/readout_causality_m21/traces_001.log",
+      "phase": "traces"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792694545.143681,
+      "log": "runs/readout_causality_m21/trace_audit_001.log",
+      "phase": "trace_audit"
+    }
+  ]
+}

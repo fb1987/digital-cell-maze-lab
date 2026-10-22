@@ -1,0 +1,5 @@
+{
+  "scope": "Unregistered saved-only interpretation helper; no scientific source or responses changed",
+  "cause": "MUX operands reversed in hand-derived recurrence: op12 uses a=condition,b=true,c=false, and gate is separate. scratch15 selects C5 when signal>0 and gate C5>0, not signal when C5>0.",
+  "repair": "Correct posthoc recurrence to indicator(signal>0) * max(0,C5-4), replay ALL saved trace transitions. Original failed helper retained."
+}
