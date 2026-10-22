@@ -1,0 +1,1616 @@
+{
+  "costs": {
+    "final": {
+      "disjoint_physical_buckets": {
+        "overwrite": {
+          "calls": 6720,
+          "candidate_seconds": 5.898362761246972,
+          "max_array_bytes": 15678,
+          "physical_models": 4,
+          "work": 1948362765
+        },
+        "random_spare": {
+          "calls": 1680,
+          "candidate_seconds": 0.09206468006595969,
+          "max_array_bytes": 17990,
+          "physical_models": 1,
+          "work": 24868176
+        },
+        "random_unchanged": {
+          "calls": 1680,
+          "candidate_seconds": 0.11002085218206048,
+          "max_array_bytes": 14950,
+          "physical_models": 1,
+          "work": 24868176
+        },
+        "references": {
+          "calls": 48720,
+          "candidate_seconds": 42.57745573692955,
+          "max_array_bytes": 18746,
+          "physical_models": 29,
+          "work": 14411985748
+        },
+        "spare": {
+          "calls": 6720,
+          "candidate_seconds": 6.5579662742093205,
+          "max_array_bytes": 18942,
+          "physical_models": 4,
+          "work": 2124886062
+        },
+        "unchanged": {
+          "calls": 6720,
+          "candidate_seconds": 5.708597792312503,
+          "max_array_bytes": 15538,
+          "physical_models": 4,
+          "work": 1967821048
+        }
+      },
+      "inclusive_arm_costs": {
+        "overwrite": {
+          "calls": 6720,
+          "candidate_seconds": 5.898362761246972,
+          "max_array_bytes": 15678,
+          "physical_models": 4,
+          "work": 1948362765
+        },
+        "spare": {
+          "calls": 6720,
+          "candidate_seconds": 6.5579662742093205,
+          "max_array_bytes": 18942,
+          "physical_models": 4,
+          "work": 2124886062
+        },
+        "unchanged": {
+          "calls": 6720,
+          "candidate_seconds": 5.708597792312503,
+          "max_array_bytes": 15538,
+          "physical_models": 4,
+          "work": 1967821048
+        }
+      },
+      "nominal_mutation_queries_per_arm": {
+        "overwrite": 6720,
+        "spare": 6720,
+        "unchanged": 6720
+      },
+      "note": "Inclusive arm costs count shared genotypes in each relevant arm; do not sum. Disjoint buckets sum exactly to physical usage. Final nominal identity slots may merge nomination roles; fixed primary role allocation is4*1680 per arm."
+    },
+    "screen": {
+      "disjoint_physical_buckets": {
+        "overwrite": {
+          "calls": 719120,
+          "candidate_seconds": 1434.1014916698914,
+          "max_array_bytes": 15762,
+          "physical_models": 1010,
+          "work": 449879835650
+        },
+        "overwrite+unchanged": {
+          "calls": 9968,
+          "candidate_seconds": 20.85047927033156,
+          "max_array_bytes": 15650,
+          "physical_models": 14,
+          "work": 6598200182
+        },
+        "random_spare": {
+          "calls": 182272,
+          "candidate_seconds": 221.33593408064917,
+          "max_array_bytes": 19222,
+          "physical_models": 256,
+          "work": 70720187308
+        },
+        "random_unchanged": {
+          "calls": 182272,
+          "candidate_seconds": 218.9642744133016,
+          "max_array_bytes": 16182,
+          "physical_models": 256,
+          "work": 70720187308
+        },
+        "references": {
+          "calls": 20648,
+          "candidate_seconds": 27.638498378219083,
+          "max_array_bytes": 18746,
+          "physical_models": 29,
+          "work": 8398429320
+        },
+        "spare": {
+          "calls": 728376,
+          "candidate_seconds": 1439.8797121794196,
+          "max_array_bytes": 19334,
+          "physical_models": 1023,
+          "work": 442151370429
+        },
+        "unchanged": {
+          "calls": 719120,
+          "candidate_seconds": 1399.3707240247168,
+          "max_array_bytes": 15762,
+          "physical_models": 1010,
+          "work": 438056702221
+        }
+      },
+      "inclusive_arm_costs": {
+        "overwrite": {
+          "calls": 729088,
+          "candidate_seconds": 1454.951970940223,
+          "max_array_bytes": 15762,
+          "physical_models": 1024,
+          "work": 456478035832
+        },
+        "spare": {
+          "calls": 728376,
+          "candidate_seconds": 1439.8797121794196,
+          "max_array_bytes": 19334,
+          "physical_models": 1023,
+          "work": 442151370429
+        },
+        "unchanged": {
+          "calls": 729088,
+          "candidate_seconds": 1420.2212032950483,
+          "max_array_bytes": 15762,
+          "physical_models": 1024,
+          "work": 444654902403
+        }
+      },
+      "nominal_mutation_queries_per_arm": {
+        "overwrite": 729088,
+        "spare": 729088,
+        "unchanged": 729088
+      },
+      "note": "Inclusive arm costs count shared genotypes in each relevant arm; do not sum. Disjoint buckets sum exactly to physical usage. Final nominal identity slots may merge nomination roles; fixed primary role allocation is4*1680 per arm."
+    }
+  },
+  "final_mask_status_steps_reference_matches": {
+    "overwrite/child/mutation/0128": [],
+    "overwrite/child/mutation/0317": [],
+    "overwrite/parent/mutation/0196": [
+      "m14/reference/anchor/0",
+      "m14/reference/quota_parent"
+    ],
+    "overwrite/parent/mutation/0473": [
+      "m14/reference/anchor/0",
+      "m14/reference/quota_parent"
+    ],
+    "spare/child/mutation/0408": [],
+    "spare/child/mutation/0503": [],
+    "spare/parent/mutation/0402": [
+      "anchor/parent",
+      "m14/reference/gated_specialist"
+    ],
+    "spare/parent/mutation/0443": [
+      "anchor/parent",
+      "m14/reference/gated_specialist"
+    ],
+    "spare/random/0211": [],
+    "unchanged/child/mutation/0116": [],
+    "unchanged/child/mutation/0179": [],
+    "unchanged/parent/mutation/0321": [
+      "anchor/parent",
+      "m14/reference/gated_specialist"
+    ],
+    "unchanged/parent/mutation/0414": [],
+    "unchanged/random/0211": []
+  },
+  "final_partial": [],
+  "inherited_ancestry": "Exact preserved M15 child has one inherited M15 port-swap beyond actual parent. M17 adds3/5opportunities, no sustained lineage or independent origins.",
+  "reference_eligible": true,
+  "scope": "Saved records only; zero new candidate evaluations",
+  "screen": {
+    "overwrite": {
+      "any_target_and_any_disconnection_without_false": 0,
+      "event_kinds": {
+        "copy_block": 437,
+        "delete": 423,
+        "duplicate_node": 437,
+        "generic_copy": 1024,
+        "insert": 437,
+        "operand": 477,
+        "ports": 418,
+        "replace": 443
+      },
+      "full_gate_passes": [],
+      "initial_copy_noops": 0,
+      "partial_identities": [],
+      "proposals": 1024,
+      "variation_opportunities": 4096
+    },
+    "spare": {
+      "any_target_and_any_disconnection_without_false": 0,
+      "event_kinds": {
+        "activate_node": 268,
+        "copy_block": 391,
+        "delete": 376,
+        "duplicate_node": 409,
+        "generic_copy": 1024,
+        "insert": 399,
+        "operand": 411,
+        "ports": 395,
+        "replace": 423
+      },
+      "full_gate_passes": [],
+      "initial_copy_noops": 0,
+      "partial_identities": [],
+      "proposals": 1024,
+      "variation_opportunities": 4096
+    },
+    "unchanged": {
+      "any_target_and_any_disconnection_without_false": 0,
+      "event_kinds": {
+        "copy_block": 568,
+        "delete": 580,
+        "duplicate_node": 598,
+        "insert": 566,
+        "operand": 617,
+        "ports": 589,
+        "replace": 578
+      },
+      "full_gate_passes": [],
+      "initial_copy_noops": 26,
+      "partial_identities": [],
+      "proposals": 1024,
+      "variation_opportunities": 4096
+    }
+  },
+  "spare_access": {
+    "active_writer_counts": {
+      "9": 756,
+      "10": 268
+    },
+    "has_spare_in_output_explicit_halt_cone": 46,
+    "max_instructions": 134,
+    "note": "Saved-genome conservative static count; ignores path feasibility, does not establish actual active computation. Spare channels outside the cone can still affect quiescence and work.",
+    "proposals": 1024
+  },
+  "static_nominees": {
+    "overwrite/child/mutation/0128": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 110,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "overwrite/child/mutation/0317": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            7
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 15,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            5,
+            6
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 106,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "overwrite/parent/mutation/0196": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 107,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "overwrite/parent/mutation/0473": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 13,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 11,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 107,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "spare/child/mutation/0408": {
+      "active_spare_writers": [
+        9
+      ],
+      "active_writers": 9,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            7
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        },
+        {
+          "channel": 8,
+          "nodes": 0,
+          "potential_output_nodes": 0,
+          "reads_channels": []
+        },
+        {
+          "channel": 9,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            7,
+            9
+          ]
+        }
+      ],
+      "instructions": 115,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "spare/child/mutation/0503": {
+      "active_spare_writers": [
+        8
+      ],
+      "active_writers": 9,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 9,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            7
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        },
+        {
+          "channel": 8,
+          "nodes": 9,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            7,
+            8
+          ]
+        },
+        {
+          "channel": 9,
+          "nodes": 0,
+          "potential_output_nodes": 0,
+          "reads_channels": []
+        }
+      ],
+      "instructions": 114,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "spare/parent/mutation/0402": {
+      "active_spare_writers": [
+        8,
+        9
+      ],
+      "active_writers": 10,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        },
+        {
+          "channel": 8,
+          "nodes": 1,
+          "potential_output_nodes": 1,
+          "reads_channels": []
+        },
+        {
+          "channel": 9,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        }
+      ],
+      "instructions": 120,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "spare/parent/mutation/0443": {
+      "active_spare_writers": [
+        8
+      ],
+      "active_writers": 9,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        },
+        {
+          "channel": 8,
+          "nodes": 9,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            5,
+            8
+          ]
+        },
+        {
+          "channel": 9,
+          "nodes": 0,
+          "potential_output_nodes": 0,
+          "reads_channels": []
+        }
+      ],
+      "instructions": 116,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "spare/random/0211": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 10,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 10,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 9,
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 9,
+          "potential_output_nodes": 1,
+          "reads_channels": []
+        },
+        {
+          "channel": 6,
+          "nodes": 9,
+          "potential_output_nodes": 2,
+          "reads_channels": []
+        },
+        {
+          "channel": 7,
+          "nodes": 9,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            4
+          ]
+        },
+        {
+          "channel": 8,
+          "nodes": 0,
+          "potential_output_nodes": 0,
+          "reads_channels": []
+        },
+        {
+          "channel": 9,
+          "nodes": 0,
+          "potential_output_nodes": 0,
+          "reads_channels": []
+        }
+      ],
+      "instructions": 84,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "unchanged/child/mutation/0116": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 9,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            7
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 11,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 11,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 103,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "unchanged/child/mutation/0179": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 9,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            7
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 104,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "unchanged/parent/mutation/0321": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 11,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 12,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 104,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "unchanged/parent/mutation/0414": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            5
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 14,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            7
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 12,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 12,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 6,
+          "nodes": 11,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "channel": 7,
+          "nodes": 13,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            1,
+            7
+          ]
+        }
+      ],
+      "instructions": 105,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    },
+    "unchanged/random/0211": {
+      "active_spare_writers": [],
+      "active_writers": 8,
+      "blocks": [
+        {
+          "channel": 0,
+          "nodes": 10,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            3
+          ]
+        },
+        {
+          "channel": 1,
+          "nodes": 10,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 2,
+          "nodes": 10,
+          "potential_output_nodes": 3,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 3,
+          "nodes": 10,
+          "potential_output_nodes": 1,
+          "reads_channels": [
+            5
+          ]
+        },
+        {
+          "channel": 4,
+          "nodes": 9,
+          "potential_output_nodes": 4,
+          "reads_channels": [
+            0
+          ]
+        },
+        {
+          "channel": 5,
+          "nodes": 9,
+          "potential_output_nodes": 1,
+          "reads_channels": []
+        },
+        {
+          "channel": 6,
+          "nodes": 9,
+          "potential_output_nodes": 2,
+          "reads_channels": []
+        },
+        {
+          "channel": 7,
+          "nodes": 9,
+          "potential_output_nodes": 2,
+          "reads_channels": [
+            0,
+            4
+          ]
+        }
+      ],
+      "instructions": 84,
+      "limitation": "Conservative static expression cone, not branch feasibility or causal intervention. All active channels can affect global quiescence/work even outside this cone.",
+      "output_explicit_halt_cone": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "spare_in_output_explicit_halt_cone": []
+    }
+  }
+}
