@@ -74,46 +74,29 @@ cloud migration is NOT authorization to launch it. Do not auto-resume experiment
 <!-- S3-ARCHIVE-LAUNCH-END -->
 
 <!-- M14-STATUS-START -->
-Current October21,2026: **M14 PREPARED, PAUSED BY USER; NOT REGISTERED/LAUNCHED.**
-User explicitly said pause afterprep while they migrate files to an externaldrive;
-they will tell us when finished and we can proceed. NEVER auto-launch just because
-disk space changes. No scientific M14 process/heartbeat running. Read
- docs/EXPLORATION_ALLOCATION.md, docs/EXPLORATION_ALLOCATION_PROGRESS.md and
-results/exploration_allocation/readiness.json,prepared_manifest.json,
-software_verification.json,storage_plan_initial.json. Preserve all old/current
-sources/records/seals and all failed preparation logs. Do not extend oldstudies.
-
-Prepared newcomparison:6x96/3retention-explorepairs,exactM10founders/12protected,
-commonM1all-blocksingle-edit mutation andexactM11BANKdevelopmentpanels.64matched
-rounds,assessment16,48fresh+48fixedordinarytrain,115x392assessment. Controlretention
-selector/RNGtestedexactlyagainstM13. Explore:12protected+8merit,up to12distinct
-qualifiedperformance-profile survivors;remaining44slots usecoverage/neutral/
-lexicase. Profiles scoreoptimal4,valid3,emittedmissingendpointpartial>=.25 scores1/2;
-zerootherwise;rejectfalse-no-path,allzero,alreadycoreprofiles. Onecandidate/cell,
-uniformcellsampling,notclonecount/rawrasternovelty. First12of45mutantbirths cycle
-explorers,remaining33sharedlexicase;emptyexplorerpoolall45shared.7immigrantsunchanged.
-SurvivalANDparentallocationpolicy-package,notseparatecausalcomponents. Samearchive/
-nomination/strictfreshintegration/deeper/longacceptance;nooracleinsideinference.
-
-16focusedtestsPASS(notfullsuite),1248fixturebirths/RNGreplayed. Rehearsal122976calls/
-109.44candidateseconds+5712intactcontrolcallsallcorrect.89explorerpresentations,
-9nonemptyexplorepopulation-stages,108reservedoffspring;allbudgets/protectionreplay.
-Firstfullzero-roundfixturetestcorrectlyhitreal600MiBadmissionguard;15otherstestspass.
-TestONLYzero-roundfixturestorageallocation32MiB, SAME16GiBfloor,fullpipelinebothaudits
-PASS onrerun. Scientific600MiBreserveUNCHANGED. Failedlogpreserved.335preparation
-hashes recorded;378M13completion+21M13localrecordhashes unchanged. Allfixturesexcluded.
-NoM14scientificcalls/cases,notregistered,nolaunch.json,norootscientificjournal.
-
-Plan1200soft/1800hardsearchsec/6Mcalls/1e13work/10workers/8GiBRSS/600MiBphaseinclbackups/
-16GiBdiskfloor. Initialprojection~520MiBincbackups+50%searchmargin;only~415MiBavailable
-abovefloor,admissionFAIL,~185MiBshortofminimum. Userwillmigrate;noolddeletion/compaction,
-no smallerstudy/guardlowering. Useverifiedreference+delta ledger (rawlayouts table
-DELTAONLY). Afterexplicitresume: verifypreparedmanifest,inspectstorage/migrationpaths,
-saveNEWpassingstorage_plan.json;register/commit/pushBEFOREscience;checkabsenceof
-workflow/writer;launch tools/run_m14_workflow.py ONCE. Exactchoicespublishedbefore
-registered1680freshconfirmation;fullsearch andALL-native finalaudits;report/ancestry/
-actualexplorationallocation/costs/guardedbackups/alllayouts/completionseals/push.
-No automaticfailedresume orfurtherphase. Random-origindiscoveryremainscentral.
+Current October22,2026: M14 exploration allocation RUNNING; user said Continue
+following completed verified S3 migration. Registration4297402 pushed BEFOREscience.
+All335preparation/378M13completion/21M13localrecordhashesverified; freshstorageplan
+passes with~55GiBfree. Exactpreparedscienceunchanged:6x96/3retention-explorepairs,
+64rounds,assessment16,10workers,1200soft/1800hardsearchseconds,6Mcalls/1e13work,
+8GiBRSS/600MiBtotalphaseinclbackups/16GiBfreefloor. No new phase beyondM14.
+Read docs/EXPLORATION_ALLOCATION.md,progress,registration.json and launch.json.
+WorkflowPID74690, tools/run_m14_workflow.py; journal runs/exploration_allocation_m14/
+campaign.sqlite. Inspect workflow_status.json and separatelogs; readonly helper
+ tools/inspect_exploration_allocation.py [--assessment N --output NEW_PATH]. NEVER
+startsecondwriter,changeseals/selection/founders,reselectonfinalorextendbounds.
+Initial launcher incorrectly resolvedvenvPython symlink and lackednumpy; exited
+BEFOREworkflowstate/journal/cases. Preserve launch_001_failed.json,launch_correction.json
+andworkflow_001.log. Correctedvenv invocation usesworkflow_002.log; no scientific
+workflowresumed, sourcechangedorprotocolrepair. Existing16focusedtestspass(notfullsuite).
+Workflow freezes/pusheschoices BEFOREfresh1680confirmation;fullsearchgrade/selection/
+mutation/RNGaudit andALL-nativefinalaudit. Onerror/guardpreserverecords;noautomatic
+failedscientificresume. Afteraudits:actualoutcome/ancestry/allocation/persistence/
+root-parent-protected/reference/no-path/length/costreport,guardedSQLitebackups,
+alllayoutsreference+deltaexport,completionseals,push. Newpostprocessinghelpersmay
+beaddedwithoutalteringregisteredscience. No general-solver/speedclaim.
+S3 archivalcomplete;M13/M14journalsandallresults/dependenciesLOCAL. Archivedolder
+journalsrestorefrompinnedcatalog,neversilentlyrerunoldstudies. Noheartbeatcreated.
 <!-- M14-STATUS-END -->
 
 

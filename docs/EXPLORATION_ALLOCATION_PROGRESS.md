@@ -1,3 +1,26 @@
+# M14 launched after completed S3 migration
+
+The user said Continue on October22. The archive is complete: 46 closed-run
+SQLite files (38.39GiB) were removed only after full S3 chunk readback verification,
+a complete database restore/hash/integrity test, and published recovery catalog.
+M13/M14 journals and all reference manifests/results remain local; ~55GiB free.
+All335prepared files and378M13completion plus21localrecord hashes verify.
+Fresh storage_plan.json passes; registration4297402 was pushed before generation.
+
+The first launcher resolved the venv interpreter symlink and exited on missing
+numpy before importing the workflow, creating a journal or generating any cases.
+Its exact launch metadata/traceback are preserved. Corrected invocation uses the
+venv path directly; scientific source/configuration/founders and bounds unchanged.
+See launch_correction.json and launch.json for actual process/log paths. Never
+start a second writer; inspect workflow_status.json and read-only inspector first.
+
+The workflow performs search, published choice freeze, search audit, registered
+fresh confirmation, analysis and ALL-native final audit. Reporting/preservation/
+completion seals follow. No automatic failed-science resume or bound extension.
+No further phase authorized. Historical preparation and pause record follows.
+
+---
+
 # M14 prepared; user-paused for storage migration
 
 The user authorized the M13 report's proposed next comparison, then explicitly
