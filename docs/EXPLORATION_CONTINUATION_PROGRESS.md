@@ -1,3 +1,56 @@
+# M15 complete: confirmation, audits and preservation
+
+Current October 22, 2026: **M15 COMPLETE, fresh-confirmed and AUDITED.**
+Read results/exploration_continuation/report.md, summary.json, both audits,
+preservation.json and completion.json plus docs/EXPLORATION_CONTINUATION_PROGRESS.md.
+No scientific process or next experiment is running. Do not resume M15, reselect
+on its confirmation data, overwrite seals or change its registered sources.
+
+Registration764b7ec and choices6429fa1 pushed before downstream generation.
+Exact six M14 generation64 states/RNG and20484-item registry continued for435new
+rounds, ending cumulative499 at the normal70min soft target. Six96 populations,
+three already-diverged retention/explore pairs, unchanged M14 runtime/operator.
+Original m14 identities remain; M15-only ancestry distinguishes new mutations.
+Search27,716,016calls,4241.42wallsec,27593.01candidate sec,29189.40CPU sec,
+8,075,193,344,463work,2.980GiBpeakRSS;117450mutants+18270immigrants.
+Zero uncertain attempts; no scientific repair or guard bypass.
+
+Fixed primary0–0 in all3pairs; descriptive exploration supportFALSE. All6primary
+nominees inherited,0M15mutations,96/400pairs,200corridors,13/256ordinarybothposes,
+168/168correctno-path,0false; exact fixed-parent terminal outputs on1680inputs.
+All18roles fail strict integration/deeper/long/combined gates.
+One exploratory nominee g320/b48 confirms16NEWnonforkprefix2pairs beyondroot,
+phase-entry andALLprotectedunion (8cycle+8two_junction,4contexts/twoposes).
+Actualroot=parent=phase-entry gated_specialist:128→184pairs,166→200corridors,
+alloldpairs/corridors retained; ordinary10→6,correctno-path168→0,0false.
+56newrootpairs/24newindividualinputs beyondunion; no newordinarybeyondunion.
+OneM15block0port-swap viaSHAREDLEXICASE,notreservedexplorerbreeding. Not evidence
+of long cumulative algorithm construction or exploration-policy causality.
+Allnominees0/87ordinary16+; specialistordinarysuccessesonly1–2edges.
+
+SearchauditfirstPASS964.56s:ALL27,716,016grades,278829nativereplays,135720births,
+463corpus/task/selection/mutation/RNGtransitions. FinalfirstPASS36.07s:ALL38640
+nativeoutputs/grades/summary+5040conventionalcalls. Final23physicalmodels×1680,
+16.48wallsec/32.99candidate sec; allintact/conventionalcontrolscorrect.
+SharedproductionVM/reproduction,independentgrader;notsecondVM.17focusedpreptests,
+notfullsuite. All348registration/396M14completion/19M14localrecordsunchanged.
+
+Originalsearch/finaljournals+verifiedSQLiteAPIbackups preserved locally;
+~2.09GiBphase inclbackups,~52GiBfree,within8GiB/16GiBguards. ALL3347011layouts
+excluded via whole_layout_exclusions.json reference+delta ledger; use recursive
+referenced_campaign_store.load_layouts,notrawdelta tables. Immutablebases required.
+Reports/logs/compactevidence sealed and pushed; rawjournals ignoredbyGit.
+Monitor pauses after publication; historical monitor.json records creation state.
+Next proposal ONLY: bounded mechanism/restoration study around exactspecialist
+andparent, testing retainedupstreamskill plus disconnection/ordinary recovery
+before another broad run. No M16,newtraces/evaluation,recombination,solverinjection
+orcloudcompute launched/authorized. Random-originresearchremainscentral.
+
+Completion seal and compact-evidence publication are the final closeout actions.
+The follow-up pauses after publication. Future re-audits require separate output packets.
+
+## Historical monitor observations
+
 # M15 search complete; frozen choices published; audit running
 
 Search completed normally at cumulativegeneration499:435NEWrounds,70.69min

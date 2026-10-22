@@ -1,0 +1,39 @@
+{
+  "ended_epoch": 1792650852.4194381,
+  "phase": "report_backup_seal",
+  "pid": 82457,
+  "started_epoch": 1792645572.635516,
+  "state": "audited_ready_for_report",
+  "steps": [
+    {
+      "ended_epoch": 1792649816.127188,
+      "log": "runs/exploration_continuation_m15/search_001.log",
+      "phase": "search_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792650784.0947578,
+      "log": "runs/exploration_continuation_m15/search_audit_001.log",
+      "phase": "search_audit_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792650807.834362,
+      "log": "runs/exploration_continuation_m15/confirmation_001.log",
+      "phase": "confirmation_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792650816.00084,
+      "log": "runs/exploration_continuation_m15/analysis_001.log",
+      "phase": "analysis_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792650852.419046,
+      "log": "runs/exploration_continuation_m15/final_audit_001.log",
+      "phase": "final_audit_001",
+      "returncode": 0
+    }
+  ]
+}

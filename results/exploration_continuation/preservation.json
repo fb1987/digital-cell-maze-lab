@@ -1,0 +1,57 @@
+{
+  "disk_free_bytes": 56087973888,
+  "final_new_layouts": 5456,
+  "initial_layouts": 3057151,
+  "search_new_layouts": 284404,
+  "stages": {
+    "final": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 4984832,
+        "integrity_check": "ok",
+        "path": "runs/exploration_continuation_m15/final/backups/completed.sqlite",
+        "requires_immutable_base_ledger": true,
+        "sha256": "d689b65ccf9e7e05c7e3733a6d3a1d074e6338f38190ab9662cd138d2661c332",
+        "status": "verified"
+      },
+      "chain": "db392163e501d5db6802a1c3b325d47c861793a6c27b79d506740e7d43e0c6cc",
+      "immutable_base_reference": {
+        "count": 3341555,
+        "path": "/Users/frankie/Documents/ChatGPT/digital cell/results/exploration_continuation/search_exclusions.json",
+        "sha256": "f04f7a84519003349b601969d90df8039576dab949b9e4089b730b15a8efdb56"
+      },
+      "journal": {
+        "bytes": 4984832,
+        "path": "runs/exploration_continuation_m15/final/campaign.sqlite",
+        "sha256": "44441e15f66784adc162ee91e70ee200bc40c88ec709e09a9102edba69df3cd7"
+      },
+      "layouts": 3347011
+    },
+    "search": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 1084080128,
+        "integrity_check": "ok",
+        "path": "runs/exploration_continuation_m15/backups/completed.sqlite",
+        "requires_immutable_base_ledger": true,
+        "sha256": "718d15d97ebe86a3b84e86fe70fd10c9adab05e87817331b0f709bb5734f8653",
+        "status": "verified"
+      },
+      "chain": "a8c4b74e386efb666c6318a7c3049aadc1c836e6b7d9eb86a39db0ad82bf94c6",
+      "immutable_base_reference": {
+        "count": 3057151,
+        "path": "/Users/frankie/Documents/ChatGPT/digital cell/results/exploration_continuation/exclusions.json",
+        "sha256": "254af639e3002006a6a21fd6d3e982ed9197fa4c815903ff5f29a88287c5e5c3"
+      },
+      "journal": {
+        "bytes": 1084080128,
+        "path": "runs/exploration_continuation_m15/campaign.sqlite",
+        "sha256": "7dd7045bcd12a874692db772ce903173296bb01b9f3fdd5335827d7627160971"
+      },
+      "layouts": 3341555
+    }
+  },
+  "status": "verified",
+  "storage_bytes": 2239157235,
+  "whole_layouts": 3347011
+}
