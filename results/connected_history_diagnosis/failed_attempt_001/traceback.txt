@@ -1,0 +1,7 @@
+stage288:127296births,109755firsttrainingexposures
+Traceback (most recent call last):
+  File "tools/analyze_m19_history.py", line289, in <module>
+    main()
+  File "tools/analyze_m19_history.py", line257, in main
+    for kind, count in counts.items(): assert logical[name+'/'+kind] == count
+AssertionError

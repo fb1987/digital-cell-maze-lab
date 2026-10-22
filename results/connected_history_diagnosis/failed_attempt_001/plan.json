@@ -1,0 +1,57 @@
+{
+  "scope": "posthoc_saved_M19_only",
+  "authorization": "User Proceed after recommendation to examine saved M19 histories; no new evolution or inference.",
+  "source_completion": "results/connected_evolution/completion.json",
+  "source_seal_sha256": "e9be6c9e15e92e1241a2ea7f3827e14ed17b2cbaddf47413268e2a58f1d6d404",
+  "source_journal": "runs/connected_evolution_m19/campaign.sqlite",
+  "known_before_analysis": "M19 had zero fixed-endpoint gains; nominees inherited; 7101 connected copies and127 ending copy descendants. Plan is post hoc, not an independent preregistered efficacy test.",
+  "comparisons": [
+    "First training exposure for every mutant; mark last-round and unavailable parent/entry observations explicitly",
+    "Same-panel terminal status/mask equality versus parent, steps/work separately",
+    "New optimal reachable inputs, complete nonfork prefix2+ pairs and ordinary both-pose bases beyond the13 protected references",
+    "All correct parental/phase-entry responses retained, plus90% each nonempty skill class and non-vacuous A0 disconnection retention",
+    "Next-training survival, immediate and lifetime breeding, ending live/archive persistence",
+    "Direct initialized copies vs later mutations with copy ancestry vs generic mutations without copy ancestry; stratify arm/trio/parent-policy",
+    "All saved assessment presentations separately, conditioning on availability; development only, no nominee reselection"
+  ],
+  "definitions": {
+    "strict_gain": "New optimal reachable case beyond protected union, zero false no-path, all nonempty parent correct responses retained; also show entry retention separately",
+    "complete_pair": "Both alternatives optimal for the same base/pose; portfolio union is a union of complete-pair sets, never a mix of separate alternatives",
+    "finite_panel_neutrality": "Identical terminal mask/status on queried inputs, not semantic or internal-state equivalence",
+    "protected": "All13 M19 protected references on identical panel",
+    "phase_entry": "Exact M19 entry ancestor, allowing a byte-identical genotype alias on the same panel; missing remains missing",
+    "future_breeding": "Recorded offspring over remaining history; final births are right-censored",
+    "cohorts": "direct_copy, post_copy_mutation, generic_without_copy; copied ancestry need not remain active"
+  },
+  "audit": {
+    "all_source_birth_events_and_first_survival": true,
+    "train_sample": "SHA256(identity) modulo64 ==0",
+    "assessment_sample": "SHA256(identity/stage) modulo64 ==0",
+    "source_receipts": "Previously audited grades, not regraded or executed here",
+    "unit_tests": "5 saved-row tests PASS,0.02s; no mazes/candidate executions"
+  },
+  "bounds": {
+    "cpu_workers": 1,
+    "analysis_wall_seconds": 1200,
+    "audit_wall_seconds": 1200,
+    "rss_bytes": 8589934592,
+    "output_bytes": 536870912,
+    "disk_free_floor_bytes": 17179869184,
+    "inference_calls": 0,
+    "new_cases": 0
+  },
+  "files": {
+    "tools/analyze_m19_history.py": "c9334af195ab82dcac62731ebd8badd9ddc9316bfc2c6fc39c9b0904a3662a7d",
+    "tools/audit_m19_history.py": "ab120f0ac362acf749537297cb5af9ab31113261143bec7e3f3e4231d5e5021a",
+    "tests/test_m19_history.py": "3d8bfe7bbf0ac54d515dcfbf23c6b3657f5cc1e31dc1be9b4513a1e87f2f8cf2"
+  },
+  "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "limitations": [
+    "Post-hoc correlated development observations, not confirmation/significance",
+    "Same-panel retention can be uninformative on small panels; missing/empty denominators explicit",
+    "First-exposure cohorts have differing ancestry and selection, not randomized copy causality",
+    "Terminal comparisons cannot establish internal differentiation or causal use",
+    "No new phase beyond saved diagnosis or future experiment authorized"
+  ]
+}

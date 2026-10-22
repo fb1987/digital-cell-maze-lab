@@ -1,0 +1,10 @@
+{
+  "status": "analysis_accounting_failure_preserved",
+  "scientific_source_changed": false,
+  "inference_calls": 0,
+  "new_cases": 0,
+  "reason": "Nonselectable assessment budget padding aliases were excluded before nominal query accounting. They must count toward nominal budgets while remaining outside population/phenotype analysis.",
+  "scope": "New saved-history helper only; failure before writing analysis exports. No M19 source/protocol/record changes.",
+  "repair": "Count all aliases in nominal allocation before filtering padding from biological identity maps. Add synthetic alias-routing regression check.",
+  "cost": "One full saved-journal pass; failed-attempt wall/CPU were not captured at failure. Zero inference. Progress/traceback preserved from tool output."
+}

@@ -1,5 +1,6 @@
 """Saved-row analysis checks, with no maze generation or organism inference."""
-from tools.analyze_m19_history import features, compare_caps, union_caps
+from collections import Counter
+from tools.analyze_m19_history import features, compare_caps, union_caps, allocate_aliases
 
 
 def row(case, optimal=False, no_path=False, reachable=True, mask='00', status='emitted'):
@@ -50,3 +51,11 @@ def test_cost_change_does_not_imply_terminal_change():
     v=compare_caps(child,parent,union_caps([parent]),parent,parent)
     assert v['same_terminal_as_parent'] and not v['same_steps_as_parent']
     assert v['work_delta_from_parent']==6
+
+
+def test_padding_is_nominally_charged_and_never_a_biological_identity():
+    states=[{'name':'generic'},{'name':'connected'}];rows=[{},{}];logical=Counter()
+    f={'queried':('a','b','c')}
+    allocate_aliases([(0,'organism'),(0,'budget_padding/0/1'),(1,'same_genotype_alias')],f,states,rows,logical,'assessment')
+    assert logical=={'generic/assessment':6,'connected/assessment':3}
+    assert set(rows[0])=={'organism'} and set(rows[1])=={'same_genotype_alias'}

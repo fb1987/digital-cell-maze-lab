@@ -1,0 +1,14 @@
+{
+  "scope": "Saved-only analysis bookkeeping correction, no change to questions or biological comparisons.",
+  "reason": "Failed nominal allocation reconciliation due to assessment padding; prior script/plan/traceback retained in failed_attempt_001.",
+  "change": "Charge all aliases before filtering padding from phenotype/population identity maps.",
+  "tests": "6 saved-row tests PASS in0.02s, including padding alias regression.",
+  "files": {
+    "tools/analyze_m19_history.py": "c6b2b6fcdede63908ebe2a3299412f408f95164e5de62938438d267927c07a9c",
+    "tools/audit_m19_history.py": "ab120f0ac362acf749537297cb5af9ab31113261143bec7e3f3e4231d5e5021a",
+    "tests/test_m19_history.py": "6de4151e6c3090720544fd8c044d971106e9612b9089acec1ea73f1cc9739275"
+  },
+  "source_M19_unchanged": true,
+  "inference_calls": 0,
+  "new_cases": 0
+}

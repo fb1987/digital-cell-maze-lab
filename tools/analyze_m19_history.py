@@ -141,6 +141,14 @@ def metrics_count(r):
     return {k: int(bool(r.get(k))) for k in keys}
 
 
+def allocate_aliases(aliases, f, initial, state_rows, logical, kind):
+    for k, identity in aliases:
+        # Padding is charged nominal work but has no selectable organism identity.
+        logical[initial[k]['name'] + '/' + kind] += len(f['queried'])
+        if not identity.startswith('budget_padding/'):
+            state_rows[k][identity] = f
+
+
 def aggregate(records):
     groups = defaultdict(Counter)
     for r in records:
@@ -192,10 +200,7 @@ def main():
             receipt = unpacked(result_blob); physical_calls += receipt['calls']
             for e in receipt['entries']:
                 f = features(e['rows'], data['metadata'])
-                for k, identity in e['aliases']:
-                    if identity.startswith('budget_padding/'): continue
-                    state_rows[k][identity] = f
-                    logical[initial[k]['name'] + '/' + kind] += len(e['rows'])
+                allocate_aliases(e['aliases'], f, initial, state_rows, logical, kind)
         for k, event in enumerate(decisions):
             name = event['name']; s = initial[k]; fs = state_rows[k]
             genotype_rows = {registry[i]['digest']: f for i, f in fs.items()}
