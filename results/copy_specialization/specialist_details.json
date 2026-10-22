@@ -1,0 +1,229 @@
+{
+  "nominees": {
+    "generic/parent/d3/0246": {
+      "copy_base": "copy/parent/r6d1t8",
+      "donor": 1,
+      "edit_blocks": [
+        6,
+        5,
+        4
+      ],
+      "edit_kinds": [
+        "duplicate_node",
+        "replace",
+        "operand"
+      ],
+      "new_ordinary_case_responses": [
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0",
+          "dispatches": 74664,
+          "failure": "",
+          "optimal": true,
+          "reads": 47419,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        },
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4",
+          "dispatches": 74664,
+          "failure": "",
+          "optimal": true,
+          "reads": 47419,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        }
+      ],
+      "potential_output_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reader": 6,
+      "scope": [
+        6,
+        8
+      ],
+      "target": 8,
+      "target_in_cone": true
+    },
+    "generic/parent/d5/0259": {
+      "copy_base": "copy/parent/r6d7t8",
+      "donor": 7,
+      "edit_blocks": [
+        5,
+        1,
+        5,
+        6,
+        9
+      ],
+      "edit_kinds": [
+        "insert",
+        "replace",
+        "delete",
+        "duplicate_node",
+        "activate_node"
+      ],
+      "new_ordinary_case_responses": [
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0",
+          "dispatches": 75276,
+          "failure": "",
+          "optimal": true,
+          "reads": 46195,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        },
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4",
+          "dispatches": 75276,
+          "failure": "",
+          "optimal": true,
+          "reads": 46195,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        }
+      ],
+      "potential_output_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reader": 6,
+      "scope": [
+        6,
+        8
+      ],
+      "target": 8,
+      "target_in_cone": true
+    },
+    "local/parent/d3/0108": {
+      "copy_base": "copy/parent/r6d7t8",
+      "donor": 7,
+      "edit_blocks": [
+        8,
+        6,
+        6
+      ],
+      "edit_kinds": [
+        "ports",
+        "duplicate_node",
+        "ports"
+      ],
+      "new_ordinary_case_responses": [
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0",
+          "dispatches": 74052,
+          "failure": "",
+          "optimal": true,
+          "reads": 44416,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        },
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4",
+          "dispatches": 74052,
+          "failure": "",
+          "optimal": true,
+          "reads": 44410,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        }
+      ],
+      "potential_output_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reader": 6,
+      "scope": [
+        6,
+        8
+      ],
+      "target": 8,
+      "target_in_cone": true
+    },
+    "local/parent/d5/0059": {
+      "copy_base": "copy/parent/r6d7t8",
+      "donor": 7,
+      "edit_blocks": [
+        8,
+        8,
+        6,
+        6,
+        8
+      ],
+      "edit_kinds": [
+        "ports",
+        "insert",
+        "insert",
+        "duplicate_node",
+        "copy_block"
+      ],
+      "new_ordinary_case_responses": [
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0",
+          "dispatches": 74052,
+          "failure": "",
+          "optimal": true,
+          "reads": 42521,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        },
+        {
+          "case": "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4",
+          "dispatches": 74052,
+          "failure": "",
+          "optimal": true,
+          "reads": 42524,
+          "status": "emitted",
+          "steps": 9,
+          "valid": true
+        }
+      ],
+      "potential_output_halt_cone": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reader": 6,
+      "scope": [
+        6,
+        8
+      ],
+      "target": 8,
+      "target_in_cone": true
+    }
+  },
+  "scope": "Saved outputs and static graph only; no causal ablation or new inference."
+}

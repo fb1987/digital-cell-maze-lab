@@ -1,0 +1,265 @@
+{
+  "nominees": {
+    "generic/parent/d3/0246": {
+      "final_gene": [
+        3,
+        24,
+        15,
+        13,
+        0,
+        0,
+        64
+      ],
+      "ports": [
+        0,
+        5,
+        3,
+        6,
+        4,
+        2,
+        7,
+        8,
+        1,
+        9
+      ],
+      "steps": [
+        {
+          "after": "0ad2ae9afe8edd4cdf14",
+          "before": "4b3b496bf4777c25c52f",
+          "block": 6,
+          "index": 6,
+          "kind": "duplicate_node",
+          "mode": 3
+        },
+        {
+          "after": "d80a9a9a9cc2b2efadbc",
+          "before": "0ad2ae9afe8edd4cdf14",
+          "block": 5,
+          "index": 2,
+          "kind": "replace",
+          "mode": 0
+        },
+        {
+          "after": "231e49d393eac1e5ec56",
+          "before": "d80a9a9a9cc2b2efadbc",
+          "block": 4,
+          "field": 3,
+          "index": 6,
+          "kind": "operand",
+          "mode": 6
+        }
+      ]
+    },
+    "generic/parent/d5/0259": {
+      "final_gene": [
+        3,
+        24,
+        15,
+        13,
+        0,
+        0,
+        64
+      ],
+      "ports": [
+        0,
+        5,
+        3,
+        6,
+        4,
+        2,
+        8,
+        1,
+        7,
+        9
+      ],
+      "steps": [
+        {
+          "after": "96fec060fa08576023fa",
+          "before": "f189cd04705f55cb8d94",
+          "block": 5,
+          "index": 7,
+          "kind": "insert",
+          "mode": 1
+        },
+        {
+          "after": "f0b19fb6b8cf01a4b690",
+          "before": "96fec060fa08576023fa",
+          "block": 1,
+          "index": 7,
+          "kind": "replace",
+          "mode": 0
+        },
+        {
+          "after": "02bc87eaf6e5dc1a1060",
+          "before": "f0b19fb6b8cf01a4b690",
+          "block": 5,
+          "index": 0,
+          "kind": "delete",
+          "mode": 2,
+          "replacement": 7
+        },
+        {
+          "after": "96a5032e82a7a8d3582e",
+          "before": "02bc87eaf6e5dc1a1060",
+          "block": 6,
+          "index": 6,
+          "kind": "duplicate_node",
+          "mode": 3
+        },
+        {
+          "after": "3c19135e4418fafbcb1b",
+          "before": "96a5032e82a7a8d3582e",
+          "block": 9,
+          "index": 0,
+          "kind": "activate_node",
+          "mode": 2
+        }
+      ]
+    },
+    "local/parent/d3/0108": {
+      "final_gene": [
+        3,
+        24,
+        15,
+        13,
+        0,
+        0,
+        64
+      ],
+      "ports": [
+        0,
+        5,
+        3,
+        6,
+        4,
+        2,
+        8,
+        1,
+        9,
+        7
+      ],
+      "steps": [
+        {
+          "a": 1,
+          "after": "9bee5561d35531bf6ddc",
+          "b": 6,
+          "before": "f189cd04705f55cb8d94",
+          "block": 8,
+          "index": 6,
+          "kind": "ports",
+          "mode": 4
+        },
+        {
+          "after": "9c39c07665bd835e2d3d",
+          "before": "9bee5561d35531bf6ddc",
+          "block": 6,
+          "index": 6,
+          "kind": "duplicate_node",
+          "mode": 3
+        },
+        {
+          "a": 9,
+          "after": "c51175ff5b1065a31c6f",
+          "b": 8,
+          "before": "9c39c07665bd835e2d3d",
+          "block": 6,
+          "index": 10,
+          "kind": "ports",
+          "mode": 4
+        }
+      ]
+    },
+    "local/parent/d5/0059": {
+      "final_gene": [
+        3,
+        25,
+        15,
+        13,
+        0,
+        0,
+        64
+      ],
+      "ports": [
+        0,
+        5,
+        3,
+        6,
+        4,
+        2,
+        8,
+        1,
+        7,
+        9
+      ],
+      "steps": [
+        {
+          "a": 3,
+          "after": "67870810fcf3f4ff60b1",
+          "b": 6,
+          "before": "f189cd04705f55cb8d94",
+          "block": 8,
+          "index": 10,
+          "kind": "ports",
+          "mode": 4
+        },
+        {
+          "after": "b63f1c9104246de2788b",
+          "before": "67870810fcf3f4ff60b1",
+          "block": 8,
+          "index": 7,
+          "kind": "insert",
+          "mode": 1
+        },
+        {
+          "after": "8358c8147e2a6112420b",
+          "before": "b63f1c9104246de2788b",
+          "block": 6,
+          "index": 7,
+          "kind": "insert",
+          "mode": 1
+        },
+        {
+          "after": "37d3946a5d18461d05b7",
+          "before": "8358c8147e2a6112420b",
+          "block": 6,
+          "index": 6,
+          "kind": "duplicate_node",
+          "mode": 3
+        },
+        {
+          "after": "ae5ff538244f9449b6ab",
+          "before": "37d3946a5d18461d05b7",
+          "block": 8,
+          "donor": 3,
+          "index": 13,
+          "kind": "copy_block",
+          "mode": 5
+        }
+      ]
+    }
+  },
+  "scope": "Static source and terminal-gene comparison; no inference or causal claim.",
+  "source_c6": {
+    "final_gene": [
+      6,
+      23,
+      2,
+      2,
+      0,
+      0,
+      12
+    ],
+    "ports": [
+      0,
+      5,
+      3,
+      6,
+      4,
+      2,
+      7,
+      1,
+      8,
+      9
+    ]
+  }
+}

@@ -35,44 +35,53 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M20-STATUS-START -->
-Current October22,2026: **M20 COPY-SPECIALIZATION ASSAY PREPARED/LAUNCHING.**
-User's latest "Proceed" authorized the bounded assay recommended after M19 diagnosis.
-Read docs/COPY_SPECIALIZATION.md and COPY_SPECIALIZATION_PROGRESS.md,
-results/copy_specialization/{registration,launch,pool_freeze,choices_freeze}.json
-whenpresent. Durable tools/run_m20_workflow.py; state/logs in
-runs/copy_specialization_m20. Neverlaunchanotherwriter/workflow, reset or editsealed
-scientificsources. No automatic failed-workflowresume. Failure preservestrace/receipts;
-neededprotocolrepair mustbedocumentedbeforeproceeding. M19/diagnosis remainclosed.
-SameunchangedM18VM/10channels/256instructions+ticks/31nodes/4096reads+32768dispatches
-per site. ExactM15specialist+actualparent inM19-entryembedding;all13protected.
-512pairedwalks/anchor,1024proposals/arm;3/5edits alternating,4096opportunities/arm.
-Everywalk prospectivelyuniformCURRENTeligibleinitializedconnectedcopy;botharms
-sharecopybase+initialeditRNG. Genericallwriters vslocalcopy+readerONLY;otherwriters/
-ports/tagsbitwiseunchanged. Readerfullgrammar,notonlygates. SAMEhardcapacity,not
-realizedwork. Allcurrentcopybasescontrols;noM18/M19favorableedge subset. No selection
-betweenedits;allintermediates/RNGrecorded,onlyendpointsqueried. No solver/recombination.
-Primaryfixedadditiveroles:allanchorcorrectresponsesretained,0false,nonemptyA0nopath
-90%,newcompletepaired/corridor/ordinarybothpose/nopathunit beyondanchorANDowncopy.
-Newcombinationsofprotectedskillsdistinctfromnovelportfolioability. Separatedeeper/
-long8/16beyondALL13protected andnewfullparent+childcombination (notbase-inherited).
-8primary+8exploratoryroles across2arms/2anchors/2depths;no secondaryrole substitution.
-Fresh712screen thenfreezeCOMMIT/PUSHchoicesBEFORE1680freshconfirmation;equal729088
-nominalscreenqueries/arm,physicaldedup/costsdiffer. ALLgenerated/rejected/unqueried
-layouts excluded viaM19wholeledger+newdeltas. No new phase afterM20authorized.
-10workers;screen1800s/2Mcalls/1e13work;final900s/1Mcalls/1e14work;audits1800s;
-8GiBRSS/6GiBTOTALstorageincludingbackups/16GiBdiskfloor. Neverbypassguards/extend.
-5focusedchecksPASS0.24s(initial0.35),notfullsuite. Artificialfullrehearsal44936calls/
-2.76candidate sec/12.10wall,47328aliasgrades/1416additionalnativechecks;allcontrols
-correct. No newfixturelayouts/scientificcalls beforefreeze. All420M19sealedfiles+
-13localrecords and26diagnosisfilesverify. No preparationfailures atregistration.
-Workflowpoolpublish->screen->nominatepublish->screenaudit(ALLgrades/edits/RNG/corpus/
-tasks/nomination+fixed1/32native)->freshfinal->summary->ALL-nativefinalaudit+
-5040conventionalcontrols. No oldheartbeatresumed; follow this current authorizedrun.
-Afteraudited_ready_for_report preserveguardedSQLiteAPIbackups underlocks/ALLtable
-comparisons+ALLlayout reference/delta, reviewactualprimary/exploratoryoutcomes,
-ancestry/scope/no-path/length/costs;reviewreport,updatehandoff,sealonce,commit/push
-compactevidence+copiedlogs,neverrawjournals. Newauditsseparatepackets. No general/
-speed/significance/independentoriginsclaim. Random-originresearchremainscentral.
+Current October22,2026: **M20 COMPLETE, fresh-confirmed and AUDITED.** Read
+results/copy_specialization/report.md, summary.json, interpretation.json,
+portfolio_pair_details.json, specialist_details.json, reader_signatures.json,
+report_review.json, review_validation.json, bothaudits, preservation/completion.json;
+docs/COPY_SPECIALIZATION_PROGRESS.md. No scientific process orlaterphase running.
+Preservealloriginals/seals/failedrecords;futureauditsNEWpackets,neverrawrerun/reselect.
+Registrationdb08a77/pool2bada9b/choicesc25322b pushed BEFOREdownstreamcases.
+SameM18VM,exactM15specialist+actualparent,13protected;notindependentorigins.
+2arms1024proposals+4096editopportunitiesEACH,paired512draws/anchor,3/5unselected
+editsafterprospectiveuniformeligibleinitializedconnectedcopy. Genericallwriters vs
+localcopy+readerFULLgrammar;other8writers/ports/tagsunchangedinALLlocalintermediates.
+NoM18/M19favorableedgesubset. Samehardcapacity/initialcopy,notrealizedCPU/material.
+DEV0/1024additiveEACHarm,0evenwithoutdisconnectiongate. Cleanfullsourceretention
+209generic/194local. Matched79both/130genericonly/115localonly/700neither;localwins
+2/4strata,no consistent benefit/significance.72copybases/68retainALLsource/0newcorrect.
+277chargedgenotypenoops;2localendpointsowncopygenotype. Other-spareactive341generic/
+0local;instructions109–138generic,114–125local,allunder256. No capacityincrease.
+FreshPRIMARY0/4EACHarm,0fullparent-childcombination. All8primaryrastersSAMEsource
+ALL1680inputs,0newunits.7retainallsourcesuccesses;localparent3loses4correctnopath
+alreadyinowncopybase. All16nominees0/77ordinary16+;8/11edgesINHERITED.16identities/
+genotypes/13terminalprofiles.4parentexploratoriesALLsameNEW4-edgeordinary9×9random
+mazeBOTHposes/2newindividualinputs,emit9ticks,butlose252–256sourcecorrectresponses.
+Only1ordinarybasebeyondALL13protected;4variantsNOTindependentdiscoveries. Generic
+child5adds12isolatedpairedinputsbeyondprotected;ALLnominees0newCOMPLETEpairsANY
+category. Union14newindividualinputs,0falseclaims;no general/speed/acquisitiongatepass.
+All4ordinaryspecialistsreplaceC6terminalwithungatedSUB scratch15–13 vssourcegated
+NEIGHBOR;copytargetinstaticoutput/haltconeforall. StaticcommonalityNOTcausality.
+Workflow636.28s. Science1594296calls/3225.71candidate sec/987561245235work,0uncertain.
+Screen1518696calls/363.61wall/3.751GiBRSS;final75600/32.52wall/3.497GiBRSS.
+Same729088nominalscreen+13440nominalfinalrolequeries/arm;physicalcostsharingbuckets.
+FirstscreenPASS117.31s:ALL1518696grades/edits/intermediates/RNG/corpus/tasks/selection,
+47548fixednative. FirstfinalPASS68.70s:ALL75600native/grades/summary+5040conventional.
+Allintact/BFS/A*/bitwavecorrect. SharedVM/operator,independentgrader.5focusedtests
+PASS0.24s(notfullsuite);44936fixturecalls/1416extranative;no newfixturelayouts.
+All353registration+420M19completion/13local+26diagnosis hashesverify. No scientific
+repair. Unregisteredreporthelperduplicate-keywordcompileerrorBEFOREexecution,
+oldscript/diagnosispreserved;fixedhelpercompiled,actualsavedchecksPASS,0newinference.
+VerifiedSQLiteAPIbackupsunderlocks/ALLtablesmatch,originalsLOCALin
+runs/copy_specialization_m20;~0.118GiBbeforeseal/~47.71GiBfree within6/16bounds.
+Wholelayoutledger3572609=3564521initial+2368screen+5720final,reference+delta ALLdraws;
+use referenced_campaign_store.load_layouts;preserveimmutablebases/rawjournalsignored.
+Reviewedreport/compactevidence/copiedlogscompletionsealed/published. Sixoldmonitors
+remainPAUSED;no newautomation. M19anddiagnosisunchanged;nofurtherphaseauthorized.
+NextproposalONLY:boundedCAUSALcopy/readoutassay onfrozenmechanismpanel,testing
+remove/bypasscopy+restoreoldC6terminal toattribute sharedshortsuccess/lostskills.
+ReusedcasesDEVELOPMENT,notfreshconfirmation. No longrun/recombination/cloudcompute/
+knownsolver launched. Random-originremainscentral;noimpossibilityconclusion.
 <!-- M20-STATUS-END -->
 
 <!-- M19-HISTORY-DIAGNOSIS-START -->
