@@ -1,0 +1,401 @@
+{
+  "admission_proof": "Extension admitted only at <=128 total instructions, so <=256*128=32768 dispatches per open site across complete ticks. Disabled activation and payload add zero reads and leave all channel writes unchanged; read interruption discards same incomplete tick. Repeated additions may be bounded no-ops; ordinary edits can exceed128 up to original256 and are not neutral guarantees.",
+  "all_masks_status_steps_reads_equal": true,
+  "calls": 85680,
+  "candidate_seconds": 78.99613124295138,
+  "comparisons": 48,
+  "embedding_costs": {
+    "child/disabled/0/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575558023,
+      "old_work": 565822438
+    },
+    "child/disabled/0/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575558023,
+      "old_work": 565822438
+    },
+    "child/disabled/1/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557981,
+      "old_work": 565822438
+    },
+    "child/disabled/1/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557981,
+      "old_work": 565822438
+    },
+    "child/disabled/2/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557963,
+      "old_work": 565822438
+    },
+    "child/disabled/2/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557963,
+      "old_work": 565822438
+    },
+    "child/disabled/3/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557921,
+      "old_work": 565822438
+    },
+    "child/disabled/3/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557921,
+      "old_work": 565822438
+    },
+    "child/disabled/4/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557894,
+      "old_work": 565822438
+    },
+    "child/disabled/4/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557894,
+      "old_work": 565822438
+    },
+    "child/disabled/5/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557741,
+      "old_work": 565822438
+    },
+    "child/disabled/5/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557741,
+      "old_work": 565822438
+    },
+    "child/disabled/6/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557720,
+      "old_work": 565822438
+    },
+    "child/disabled/6/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557720,
+      "old_work": 565822438
+    },
+    "child/disabled/7/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557681,
+      "old_work": 565822438
+    },
+    "child/disabled/7/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 575557681,
+      "old_work": 565822438
+    },
+    "parent/disabled/0/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/0/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/1/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/1/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/2/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/2/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/3/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/3/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/4/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/4/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/5/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/5/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/6/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/6/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/7/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "parent/disabled/7/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 474856545,
+      "old_work": 466758417
+    },
+    "threshold/disabled/0/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/0/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/1/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/1/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/2/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/2/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/3/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/3/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/4/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/4/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/5/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/5/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/6/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/6/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/7/0": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    },
+    "threshold/disabled/7/1": {
+      "memory_delta_range": [
+        84,
+        84
+      ],
+      "new_work": 477492219,
+      "old_work": 469394091
+    }
+  },
+  "input_comparisons": 80640,
+  "new_layouts": 0,
+  "passive_executions": 576,
+  "passive_full_state_history_checks": 288,
+  "scope": "Existing three focal entries, every active original writer, random and reused payload; old excluded 1680-input panel. Not confirmation or a speed benchmark.",
+  "status": "PASS",
+  "unchanged_runtime": true,
+  "wall_seconds": 13.445173708023503
+}

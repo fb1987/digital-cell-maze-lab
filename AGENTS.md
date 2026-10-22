@@ -34,6 +34,39 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M23-STATUS-START -->
+Current October22,2026: **M23 PREPARED, authorized by latest Proceed.**
+Read docs/DORMANT_EVOLUTION.md and docs/DORMANT_EVOLUTION_PROGRESS.md;
+results/dormant_evolution/{config,neutral_birth,software_validation,storage_plan}.json.
+New selected disabled-at-birth expression comparison, EXACT unchangedM18VM.
+Nine96populations/3matched ordinary/enabled/disabledtrios,14protected+82focalclones;
+7randomimmigrants+45single-opportunitymutants. Extensionarms25%append/25%generic
+activation-or-payloadtuning/50%ordinary. Common3nodeappend admission<=128instructions,
+31nodes/block; originalordinary256cap/ticks/read/dispatch unchanged. DisabledCONST0
+vs enabledCONST1, identicalpayload/terminal/material/RNG atcommonparent. Nooracle/caseID/
+knownsolver/recombination. Neutralgate80640old-inputcomparisons+288all-statehistories
+PASS,extra1.72–1.73%work/+84bytes. All5focusedtestsPASS/fullartificialdurablepipeline
+PASS,notfullsuite;initialpreparationhelperfailures/costslost preserved.
+70minsoft/90minhard,1024round/120Mcalls/1e15work,10workers,8GiBRSS/12GiBTOTALstorage
+inclbackups/16GiBfreefloor. RegistrationmustpushBEFOREscience; workflowfreezes/pushes
+exactchoicesBEFOREfresh1680confirmation,auditsALLsearchgrades/selection/mutation/RNG
++fixednativesamples,ALL-nativefinalaudit. Noautomaticfailedresume/secondwriter/bounds
+extension/sealedsourcechange/reset/reselection. All409M22completion/15localhashesverify;
+3580521initialwholelayouts(3580513M22+8scalar-unitrotations),recursive reference+delta,oldrecordsunaltered.
+PrimaryfixedINTEGRATEDnewtargetpairszeroifM23mutation/rootANDentry90%/nonemptyA0
+90%/zerofalsenopathgatesfail. NoveltyexcludesALLM22archive103aliases/73genomes,
+14protected/root/entry; archivecomparisonONLY,notextra founders. Descriptivesupport
+needspositive2/3triosANDsum BOTHdisabled-vsenabled/ordinary.No secondaryrolesubstitution/
+general/speed/significance/independentoriginclaim. TrackinheritancevsM23,allskills/losses,
+lengthstrata,extension/tuning/noops/persistence andrealcosts. Random-originremainscentral.
+At audited_ready_for_report followhandoff:checkPASSaudits/hashes/publishedfreeze;
+analyze_m23_saved/preserve_m23/report_m23 once,reviewactualevidenceandwrite
+report_review.json;updatehandoff/AGENTS,seal_m23_completion ONCE,pushcompactevidence/
+forcecopiedlogs,neverrawSQLite. Preservealloriginals/seals/failedrecords. Followupquiet
+onroutine,notifymeaningfulchange/failure/completion;pauseaftercompletionoruseraction.
+No phasebeyondM23/cloudcompute/recombination/solverinjectionauthorized.
+<!-- M23-STATUS-END -->
+
 <!-- M22-STATUS-START -->
 Current October22,2026: **M22 COMPLETE, fresh-confirmed and AUDITED.** Read
 results/guarded_extension/report.md,summary.json,saved_diagnostics.json,branch_usage.json,
