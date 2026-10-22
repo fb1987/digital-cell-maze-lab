@@ -1,0 +1,28 @@
+{
+  "status": "reviewed",
+  "report_sha256": "81553ad7db17b216c88b4ba83b8cbed06e58eda6bd03257b7303cb46995e28b7",
+  "key_finding": "Selection preserves almost all actual case additions; cumulative skills and transfer are missing. Direct copies add no parent-relative correct cases.",
+  "evidence": {
+    "true_addition_births": 177,
+    "survive_first_train": 166,
+    "ever_bred": 161,
+    "parent_all_correct_retained": 4,
+    "entry_all_correct_retained": 0,
+    "parent_90pct_skill_retention": 10,
+    "entry_90pct_skill_retention": 1,
+    "a0_disconnection_90pct": 103,
+    "zero_false_no_path": 169,
+    "nonindependent_observations": true
+  },
+  "example_mask_equals_saved_oracle_path": true,
+  "example_path_sites": 18,
+  "source_science_unchanged": true,
+  "bookkeeping_failure_preserved": true,
+  "coverage_vs_addition_distinguished": true,
+  "posthoc_development_only": true,
+  "no_new_inference_or_cases": true,
+  "no_reselection": true,
+  "next_experiment_launched": false,
+  "old_monitor_status": "PAUSED",
+  "recommendation": "Propose bounded copy-specialization accessibility assay before another sustained run; user authorization and a new protocol required."
+}

@@ -34,6 +34,42 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M19-HISTORY-DIAGNOSIS-START -->
+Current October22,2026: **M19 SAVED-HISTORY DIAGNOSIS COMPLETE.** User's later
+"Proceed" authorized the saved-history proposal only. Read
+results/connected_history_diagnosis/report.md, review_evidence.json,
+analysis.json, incremental.json, both audits, report_review.json, completion.json
+and docs/CONNECTED_HISTORY_DIAGNOSIS.md. All old M19seals420/local13hashes unchanged.
+No new candidate executions, cases, generations, nominations or confirmation.
+128700births/110970first-training mutant observations/13213assessment presentations.
+First-train parentsALLavailable;309entry comparisonsmissing;405lastbirthscensored.
+TRUEtrainingadditions beyondparentANDprotected:177;166survive/161breed. ALL51
+connected survive/49breed;23postcopy additionsALLsurvive+breed. None retainsALL
+entrycorrect responses;only1retains90%entryskillclasses.4keepALLcurrentparent
+responses(and0false),ALLsurvive/breed, butlose14/30/34/40entryresponses. Zero combined
+parent90/entry90/nonemptyA0disconnection90/0false gate passes. Selection does preserve
+most actual innovations; cumulative retention/transfer remains missing.
+Directcopies0newcorrectcasesoverparent.6641/7077connected and6940/7383disconnected
+same terminaloutput,usuallyextrawork.1141portfolio-newcoveragebirthsinclude964
+INHERITEDfromparent;177trueeditadditions. Baseportfolio_gain flags meancoverage
+present+retention,NOTedit-inducedacquisition; incremental.json subtractsparentalso.
+ALLassessmentpresentations0novelcompleteupstream/ordinarybothposebases,pre-gate.
+OnegenericC6operandedit disconnectedg36/b48adds17-edgeroutebothtrainingposes,
+keeps12nopath/0false,has10children,butloses9entryresponses;notfinalconfirmed.
+Decoded savedraster/maze/edit inlong_training_example.json,18oraclepathsitesexact.
+BaseauditPASS:128700births/110970survival-breeding+1937saved-setcomparisons.
+IncrementalauditPASS:ALL180positiveevents+2094savedcomparisons.8focused saved-only
+checksPASS;notfullsuite. Successfulpasses85.58+72.81+75.79+94.57wallsec;failedfirst
+fullreadcostnotcaptured. A1paddingaccountingfailure/trace/scriptpreserved;A2explicit
+parent-inheritanceattribution;nonewsci/VMsourcechanged. Supplemental~5.3MiB,
+~689MiBbasepeakRSS,withinbounds;no rawjournalsinGit. OldheartbeatremainsPAUSED.
+No analysis or laterexperiment running. Preserve supplementalcompletionseal;
+futureauditnewpacket. NextproposalONLY:boundedmatchedcopy-specialization assay,
+currentgeneric vsprospectivecopy/attachment-localvariation,sameevolvedscaffold/
+runtime/costs,measureadditionsWITHentryskillretentionbeforeanotherlongrun.
+No experiment beyondthissaveddiagnosis authorized/launched. Random-origincentral.
+<!-- M19-HISTORY-DIAGNOSIS-END -->
+
 <!-- M19-STATUS-START -->
 Current October 22, 2026: **M19 COMPLETE, fresh-confirmed and AUDITED.**
 Read results/connected_evolution/report.md, summary.json, saved_diagnostics.json,

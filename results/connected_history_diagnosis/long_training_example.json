@@ -1,0 +1,143 @@
+{
+  "scope": "Illustrative saved training output, selected post hoc as the longest ordinary addition; no new execution/confirmation.",
+  "maze": {
+    "case_id": "train36/control/perfect/11/distance16-None/item1/try1/ordinary/perfect/11/0/perfect/11x11/d4-0",
+    "cells_hex": "00000000000000000000000001010100010001010100000100010001000000010000010001010100010001000001000000010001000100000101010001010101010000000001000000000001000001010101010101000100000100000001000000010000010101000100010101000000000000000000000000",
+    "family": "perfect",
+    "goal": 62,
+    "h": 11,
+    "oracle_length": 18,
+    "seed": 17917369024488975524,
+    "sha256": "96258c4044a1900d60659e9d7b53f66f903093460bc51c5252615581674023a6",
+    "split": "train36/control/perfect/11/distance16-None/item1/try1/ordinary/perfect/11",
+    "start": 69,
+    "w": 11
+  },
+  "case_metadata": {
+    "base": "train36/control/perfect/11/distance16-None/item1/try1/ordinary/perfect/11/0/perfect/11x11",
+    "family": "ordinary_perfect",
+    "graph": "perfect",
+    "index": 0,
+    "length_bin": "long",
+    "path": [
+      69,
+      58,
+      57,
+      56,
+      45,
+      34,
+      23,
+      12,
+      13,
+      14,
+      25,
+      36,
+      37,
+      38,
+      49,
+      60,
+      61,
+      62
+    ],
+    "pose": 0,
+    "prefix": -1,
+    "side": 0,
+    "size": 11,
+    "template": "train36/control/perfect/11/distance16-None/item1/try1/ordinary/perfect/11/0/perfect/11x11"
+  },
+  "child_id": "m19/connected/0/disconnected/g36/b48",
+  "parent_id": "m14/reference/quota_child",
+  "edit": [
+    {
+      "after": "5720febca446d171d5f0",
+      "before": "95c4c3f48eaa8917985a",
+      "block": 6,
+      "copy_bucket": false,
+      "eligible_copy_edges": 0,
+      "field": 3,
+      "index": 11,
+      "kind": "operand",
+      "mode": 6,
+      "operator": "disconnected",
+      "ordinary_fallback": false
+    }
+  ],
+  "rows": {
+    "m14/reference/quota_child": {
+      "active": 154319,
+      "array_bytes": 8536,
+      "case": "train36/control/perfect/11/distance16-None/item1/try1/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "dispatches": 181790,
+      "exposure_checks": 0,
+      "failure": "disconnected_output",
+      "mask": "00700108600000662000000000000000",
+      "no_path": false,
+      "optimal": false,
+      "partial": 0.15901798736023337,
+      "range_reads": [
+        119581,
+        0,
+        0,
+        0
+      ],
+      "reachable": true,
+      "reads": 119581,
+      "status": "emitted",
+      "steps": 35,
+      "suppressed_reads": 0,
+      "valid": false
+    },
+    "m19/connected/0/disconnected/g36/b48": {
+      "active": 154366,
+      "array_bytes": 8536,
+      "case": "train36/control/perfect/11/distance16-None/item1/try1/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "dispatches": 181790,
+      "exposure_checks": 0,
+      "failure": "",
+      "mask": "00708002742002772000000000000000",
+      "no_path": false,
+      "optimal": true,
+      "partial": 0.9,
+      "range_reads": [
+        119628,
+        0,
+        0,
+        0
+      ],
+      "reachable": true,
+      "reads": 119628,
+      "status": "emitted",
+      "steps": 35,
+      "suppressed_reads": 0,
+      "valid": true
+    }
+  },
+  "ascii": {
+    "m14/reference/quota_child": [
+      "###########",
+      "#***#*#...#",
+      "#.#.#*###.#",
+      "#.#.**#.#.#",
+      "#.###.#.#.#",
+      "#.**#.*G..#",
+      "###S#####.#",
+      "#.......#.#",
+      "#.###.###.#",
+      "#...#.#...#",
+      "###########"
+    ],
+    "m19/connected/0/disconnected/g36/b48": [
+      "###########",
+      "#***#.#...#",
+      "#*#*#.###.#",
+      "#*#***#.#.#",
+      "#*###*#.#.#",
+      "#***#**G..#",
+      "###S#####.#",
+      "#.......#.#",
+      "#.###.###.#",
+      "#...#.#...#",
+      "###########"
+    ]
+  }
+}
