@@ -1,0 +1,828 @@
+{
+  "M14_completion_hashes_verified": 396,
+  "M14_local_hashes_verified": 19,
+  "M15_new_rounds_at_assessment": 288,
+  "assessment_generation": 352,
+  "changes": [
+    {
+      "M15_mutation_births": 1,
+      "beyond_protected_target_pairs": [],
+      "candidate_metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100
+          },
+          "disconnected": {
+            "correct_no_path": 20,
+            "false_no_path": 0,
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 24,
+            "false_no_path": 0,
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 12,
+            "valid": 12
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 4,
+            "valid": 4
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "fork/0": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/1": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "two_junction/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 4
+          }
+        },
+        "correct_no_path": 44,
+        "disconnected_inputs": 44,
+        "false_no_path": 0,
+        "inputs": 392,
+        "ordinary_bases_both_poses": 14,
+        "pair_opportunities": 100,
+        "paired": 40,
+        "work": 46260178
+      },
+      "condition": "modular/0/explore",
+      "new_nominee": "m14/modular/0/explore/g288/b45",
+      "new_successful_inputs_beyond_protected_and_previous": [],
+      "new_target_pairs_vs_previous": [],
+      "old_nominee": "m14/modular/0/explore/g144/b44",
+      "phase_entry": "m14/reference/shared_child",
+      "role_rank": 1,
+      "root": "m14/reference/shared_child",
+      "root_metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100
+          },
+          "disconnected": {
+            "correct_no_path": 20,
+            "false_no_path": 0,
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 24,
+            "false_no_path": 0,
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 12,
+            "valid": 12
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 2,
+            "valid": 2
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "fork/0": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/1": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "two_junction/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 4
+          }
+        },
+        "correct_no_path": 44,
+        "disconnected_inputs": 44,
+        "false_no_path": 0,
+        "inputs": 392,
+        "ordinary_bases_both_poses": 12,
+        "pair_opportunities": 100,
+        "paired": 40,
+        "work": 44382506
+      },
+      "same_panel_versus_exact_root": {
+        "lost_correct_no_path": 0,
+        "lost_ordinary_bases": 0,
+        "lost_pair_keys": [],
+        "lost_pairs": 0,
+        "new_correct_no_path": 0,
+        "new_ordinary_base_keys": [
+          "m14/reused/0/m11bank/0/stratum2/ordinary/random/9/r0/180000/random/9x9",
+          "m14/reused/0/m11bank/0/stratum3/ordinary/random/15/r0/8000/random/15x15"
+        ],
+        "new_ordinary_bases": 2,
+        "new_ordinary_by_domain": {
+          "ordinary_random/15": 1,
+          "ordinary_random/9": 1
+        },
+        "new_pair_contexts": 0,
+        "new_pair_keys": [],
+        "new_pairs": 0,
+        "retention": {
+          "corridors": 1.0,
+          "pairs": 1.0
+        }
+      },
+      "same_panel_versus_previous_nominee": {
+        "lost_correct_no_path": 0,
+        "lost_ordinary_bases": 0,
+        "lost_pair_keys": [],
+        "lost_pairs": 0,
+        "new_correct_no_path": 0,
+        "new_ordinary_base_keys": [
+          "m14/reused/0/m11bank/0/stratum2/ordinary/random/9/r0/180000/random/9x9",
+          "m14/reused/0/m11bank/0/stratum3/ordinary/random/15/r0/8000/random/15x15"
+        ],
+        "new_ordinary_bases": 2,
+        "new_ordinary_by_domain": {
+          "ordinary_random/15": 1,
+          "ordinary_random/9": 1
+        },
+        "new_pair_contexts": 0,
+        "new_pair_keys": [],
+        "new_pairs": 0,
+        "retention": {
+          "corridors": 1.0,
+          "pairs": 1.0
+        }
+      }
+    },
+    {
+      "M15_mutation_births": 1,
+      "beyond_protected_target_pairs": [
+        [
+          "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/cycle/p2",
+          0
+        ],
+        [
+          "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/cycle/p2",
+          4
+        ],
+        [
+          "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/two_junction/p2",
+          0
+        ],
+        [
+          "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/two_junction/p2",
+          4
+        ],
+        [
+          "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/cycle/p2",
+          0
+        ],
+        [
+          "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/cycle/p2",
+          4
+        ],
+        [
+          "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/two_junction/p2",
+          0
+        ],
+        [
+          "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/two_junction/p2",
+          4
+        ]
+      ],
+      "candidate_metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100
+          },
+          "disconnected": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 4,
+            "valid": 4
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 120,
+            "valid": 120
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/2": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "fork/0": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/1": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/2": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "two_junction/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/2": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 4
+          }
+        },
+        "correct_no_path": 0,
+        "disconnected_inputs": 44,
+        "false_no_path": 0,
+        "inputs": 392,
+        "ordinary_bases_both_poses": 9,
+        "pair_opportunities": 100,
+        "paired": 60,
+        "work": 71480125
+      },
+      "condition": "modular/1/explore",
+      "new_nominee": "m14/modular/1/explore/g320/b48",
+      "new_successful_inputs_beyond_protected_and_previous": [],
+      "new_target_pairs_vs_previous": [],
+      "old_nominee": "m14/modular/1/explore/g159/b22",
+      "phase_entry": "m14/reference/gated_specialist",
+      "role_rank": 1,
+      "root": "m14/reference/gated_specialist",
+      "root_metrics": {
+        "by_domain": {
+          "corridor": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83
+          },
+          "disconnected": {
+            "correct_no_path": 20,
+            "false_no_path": 0,
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_disconnected/9": {
+            "correct_no_path": 24,
+            "false_no_path": 0,
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0
+          },
+          "ordinary_perfect/11": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10
+          },
+          "ordinary_perfect/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 16,
+            "optimal": 11,
+            "valid": 11
+          },
+          "ordinary_random/15": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6
+          },
+          "ordinary_random/9": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8
+          },
+          "paired": {
+            "correct_no_path": 0,
+            "false_no_path": 0,
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80
+          }
+        },
+        "by_pair_stratum": {
+          "cycle/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "cycle/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "cycle/8": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "fork/0": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/1": {
+            "correct": 12,
+            "opportunities": 12
+          },
+          "fork/2": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/4": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "fork/8": {
+            "correct": 0,
+            "opportunities": 12
+          },
+          "two_junction/0": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/1": {
+            "correct": 4,
+            "opportunities": 4
+          },
+          "two_junction/2": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/4": {
+            "correct": 0,
+            "opportunities": 4
+          },
+          "two_junction/8": {
+            "correct": 0,
+            "opportunities": 4
+          }
+        },
+        "correct_no_path": 44,
+        "disconnected_inputs": 44,
+        "false_no_path": 0,
+        "inputs": 392,
+        "ordinary_bases_both_poses": 15,
+        "pair_opportunities": 100,
+        "paired": 40,
+        "work": 41694186
+      },
+      "same_panel_versus_exact_root": {
+        "lost_correct_no_path": 44,
+        "lost_ordinary_bases": 6,
+        "lost_pair_keys": [],
+        "lost_pairs": 0,
+        "new_correct_no_path": 0,
+        "new_ordinary_base_keys": [],
+        "new_ordinary_bases": 0,
+        "new_ordinary_by_domain": {},
+        "new_pair_contexts": 6,
+        "new_pair_keys": [
+          [
+            "m14/reused/1/m10validation/core/a(2, 3)/straight/c0/s0/fork/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(2, 3)/straight/c0/s0/fork/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(2, 3)/turning/c1/s0/fork/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(2, 3)/turning/c1/s0/fork/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(3, 4)/straight/c2/s0/fork/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(3, 4)/straight/c2/s0/fork/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(3, 4)/turning/c3/s0/fork/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(3, 4)/turning/c3/s0/fork/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/cycle/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/cycle/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/fork/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/fork/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/two_junction/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(4, 6)/straight/c4/s0/two_junction/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/cycle/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/cycle/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/fork/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/fork/p2",
+            4
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/two_junction/p2",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/stress/a(6, 4)/straight/c5/s0/two_junction/p2",
+            4
+          ]
+        ],
+        "new_pairs": 20,
+        "retention": {
+          "corridors": 1.0,
+          "pairs": 1.0
+        }
+      },
+      "same_panel_versus_previous_nominee": {
+        "lost_correct_no_path": 0,
+        "lost_ordinary_bases": 0,
+        "lost_pair_keys": [],
+        "lost_pairs": 0,
+        "new_correct_no_path": 0,
+        "new_ordinary_base_keys": [
+          "m14/reused/1/m11bank/1/stratum2/ordinary/random/9/r0/12000/random/9x9",
+          "m14/reused/1/m11bank/1/stratum2/ordinary/random/9/r0/64000/random/9x9"
+        ],
+        "new_ordinary_bases": 2,
+        "new_ordinary_by_domain": {
+          "ordinary_random/9": 2
+        },
+        "new_pair_contexts": 1,
+        "new_pair_keys": [
+          [
+            "m14/reused/1/m10validation/core/a(2, 3)/turning/c1/s0/fork/p0",
+            0
+          ],
+          [
+            "m14/reused/1/m10validation/core/a(2, 3)/turning/c1/s0/fork/p0",
+            4
+          ]
+        ],
+        "new_pairs": 2,
+        "retention": {
+          "corridors": 1.0,
+          "pairs": 1.0
+        }
+      }
+    }
+  ],
+  "compared_to_generation": 256,
+  "disk_free_bytes": 57622114304,
+  "independent_confirmation_pending": true,
+  "new_target_or_beyond_protected_input_success": false,
+  "observed_status": {
+    "assessment_rounds": [
+      80,
+      96,
+      112,
+      128,
+      144,
+      160,
+      176,
+      192,
+      208,
+      224,
+      240,
+      256,
+      272,
+      288,
+      304,
+      320,
+      336,
+      352
+    ],
+    "elapsed_search_seconds": 2757.256453037262,
+    "finished": false,
+    "latest_stage": 307,
+    "new_rounds": 290,
+    "nomination_stop": null,
+    "pending_task_counts": {
+      "done": 59,
+      "started": 6
+    },
+    "stages": [
+      [
+        308,
+        "train",
+        354,
+        0
+      ],
+      [
+        307,
+        "train",
+        353,
+        1
+      ],
+      [
+        306,
+        "train",
+        352,
+        1
+      ]
+    ],
+    "start_generation": 64,
+    "storage_bytes": 749127051,
+    "usage": {
+      "calls": 18293592,
+      "candidate_seconds": 18043.900622568093,
+      "cpu_seconds": 19092.479601999938,
+      "receipts": 20041,
+      "uncertain_attempts": 0,
+      "work": 5439436171177
+    }
+  },
+  "observed_utc": "2026-10-22T05:53:50.299940+00:00",
+  "registration_hashes_verified": 348,
+  "scope": "Saved same-panel development comparison; automatic nominee replacements, no new inference or manual selection"
+}

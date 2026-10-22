@@ -49,6 +49,26 @@ registration/396priorcompletion/19priorlocal hashes verify. Packets assessment_0
 andcheckpoint_0256 preserve same-panel comparison. Confirmation remains pending;
 no source/selection/RNG/bounds intervention. Routine progress kept quiet.
 
+## Development checkpoint: cumulative generation 352
+
+288additional M15rounds; search remains healthy at~18.22Mcalls,zero uncertain
+attempts,2.98GiBpeaksearchRSS,0.70GiBphase storage and53.69GiBfree atinspection.
+All348registration/396M14completion/19localhashes verify. Read-only packets
+assessment_0352.json andcheckpoint_0352.json compare SAMEpanels withgeneration256.
+
+Two automatically nominated exploratory specialists changed. Rep0 g288/b45 is
+oneM15editfromshared_child:40pairsunchanged,ordinarybothpose12→14 withno losses
+in rootpairs/corridors/correctdisconnection. Rep1 g320/b48 isoneM15editfrom
+GATED_SPECIALIST (a different root than priorquota_child nominee, not itsdescendant):
+60pairs/9ordinary/0correctdisconnection/0false, vspriornominee58/7/0/0.
+VersusitsOWNroot it gains20pairs,losesnone,retainsallrootcorridors,butordinary15→9
+andcorrectdisconnection44→0. The sameeighttargetnonforkprefix2pairs persist;
+no additional targetpair orsuccessfulindividualinput beyondthepreviousnomineeAND
+protectedunion. Both newordinary improvements are alreadycoveredbyprotectedrefs.
+Allsixintegratedprimaries unchanged; strictintegration/retentionstillfails for
+the deeper specialist. These remain development observations,notconfirmation or
+independentreplicates. No additional capability notification; no intervention.
+
 # Historical preparation checkpoint
 
 The user authorized “Proceed” after the M14 recommendation for a60–90minute
