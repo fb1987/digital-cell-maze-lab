@@ -85,9 +85,10 @@ Originalsearch/finaljournals+ALL-table-verifiedSQLiteAPIbackups LOCAL under
 runs/connected_evolution_m19;~1.902GiBbeforeseal,~49.72GiBfree within12/16bounds.
 Wholelayoutledger3564521=3381045initial+178100search+5376final,reference+delta;
 use referenced_campaign_store.load_layouts,neverrawdelta tables alone. Preservebases.
-Report reviewed, compact evidence/copiedlogs to be completion-sealed and published;
-raw journals ignored byGit. Follow-up m19-connected-evolution-follow-through must
-be PAUSED after publication verification. Historical monitor.json is creationstate.
+Report, compact evidence/copiedlogs and420filecompletionseal published inbdef21a;
+13localrecordhashes verify; rawjournals ignoredbyGit. Follow-up
+m19-connected-evolution-follow-through is PAUSED after publication verification.
+Historical monitor.json is creationstate. AGENTS is a mutable unsealed handoff.
 
 NextproposalONLY: bounded SAVED-history study of copy-bearing/generic/disconnected
 phenotype changes, same-panel novelty/parent-retention, survival and breeding before
