@@ -1,0 +1,266 @@
+{
+  "M14_completion_hashes_verified": 396,
+  "M14_local_hashes_verified": 19,
+  "assessment_generation": 499,
+  "choices_verified_against_published_commit": true,
+  "confirmation_exists_at_check": false,
+  "disk_free_bytes": 57210306560,
+  "new_M15_rounds": 435,
+  "nominee_identities": 12,
+  "nominee_roles": 18,
+  "observed_utc": "2026-10-22T06:23:32.816805+00:00",
+  "published_choice_freeze": {
+    "commit": "6429fa11f41e2e24859a929df5e0c373012f3065",
+    "epoch": 1792649818.5787861,
+    "independent_confirmation_generated": false,
+    "pushed": true
+  },
+  "registration_hashes_verified": 348,
+  "same_nominees_metrics_and_references_as_generation": 432,
+  "scope": "Final development checkpoint, independent confirmation not yet evaluated",
+  "search_session": {
+    "chain": "a8c4b74e386efb666c6318a7c3049aadc1c836e6b7d9eb86a39db0ad82bf94c6",
+    "generation": 499,
+    "new_rounds": 435,
+    "reason": null,
+    "rss_peak_bytes": 3200090112,
+    "status": "complete",
+    "stop": {
+      "elapsed_seconds": 4200.206718374975,
+      "generation": 499,
+      "reason": "wall_target",
+      "usage": {
+        "calls": 27489048,
+        "candidate_seconds": 27447.618454067735,
+        "cpu_seconds": 29031.078603999933,
+        "receipts": 30094,
+        "uncertain_attempts": 0,
+        "work": 8034897866598
+      }
+    },
+    "usage": {
+      "calls": 27716016,
+      "candidate_seconds": 27593.005339237978,
+      "cpu_seconds": 29189.400757999916,
+      "receipts": 30167,
+      "uncertain_attempts": 0,
+      "work": 8075193344463
+    },
+    "wall_seconds": 4241.415283582988
+  },
+  "selected_ancestry": [
+    {
+      "child": "m14/modular/0/retention/g1/b10",
+      "condition": "modular/0/retention",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/0/retention/g1/b10",
+      "rank": 0,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/modular/0/retention/g128/b24",
+      "condition": "modular/0/retention",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 0,
+      "mutations": 1,
+      "parent": "m14/reference/shared_child",
+      "phase_entry": "m14/reference/shared_child",
+      "rank": 1,
+      "root": "m14/reference/shared_child"
+    },
+    {
+      "child": "m14/modular/0/retention/g1/b10",
+      "condition": "modular/0/retention",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/0/retention/g1/b10",
+      "rank": 2,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/modular/0/explore/g1/b10",
+      "condition": "modular/0/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/0/explore/g1/b10",
+      "rank": 0,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/modular/0/explore/g288/b45",
+      "condition": "modular/0/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 0,
+      "mutations": 1,
+      "parent": "m14/reference/shared_child",
+      "phase_entry": "m14/reference/shared_child",
+      "rank": 1,
+      "root": "m14/reference/shared_child"
+    },
+    {
+      "child": "m14/modular/0/explore/g1/b10",
+      "condition": "modular/0/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/0/explore/g1/b10",
+      "rank": 2,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/modular/1/retention/g1/b13",
+      "condition": "modular/1/retention",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/1/retention/g1/b13",
+      "rank": 0,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/initial/1/retention/1",
+      "condition": "modular/1/retention",
+      "cumulative_mutations": 0,
+      "inherited_mutations": 0,
+      "mutations": 0,
+      "parent": "m14/reference/gated_specialist",
+      "phase_entry": "m14/initial/1/retention/1",
+      "rank": 1,
+      "root": "m14/reference/gated_specialist"
+    },
+    {
+      "child": "m14/modular/1/retention/g1/b13",
+      "condition": "modular/1/retention",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/1/retention/g1/b13",
+      "rank": 2,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/modular/1/explore/g1/b13",
+      "condition": "modular/1/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/1/explore/g1/b13",
+      "rank": 0,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/modular/1/explore/g320/b48",
+      "condition": "modular/1/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 0,
+      "mutations": 1,
+      "parent": "m14/reference/gated_specialist",
+      "phase_entry": "m14/reference/gated_specialist",
+      "rank": 1,
+      "root": "m14/reference/gated_specialist"
+    },
+    {
+      "child": "m14/modular/1/explore/g1/b13",
+      "condition": "modular/1/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/anchor/0",
+      "phase_entry": "m14/modular/1/explore/g1/b13",
+      "rank": 2,
+      "root": "m14/reference/anchor/0"
+    },
+    {
+      "child": "m14/modular/2/retention/g1/b10",
+      "condition": "modular/2/retention",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/quota_parent",
+      "phase_entry": "m14/modular/2/retention/g1/b10",
+      "rank": 0,
+      "root": "m14/reference/quota_parent"
+    },
+    {
+      "child": "m14/initial/2/retention/1",
+      "condition": "modular/2/retention",
+      "cumulative_mutations": 0,
+      "inherited_mutations": 0,
+      "mutations": 0,
+      "parent": "m14/reference/gated_specialist",
+      "phase_entry": "m14/initial/2/retention/1",
+      "rank": 1,
+      "root": "m14/reference/gated_specialist"
+    },
+    {
+      "child": "m14/modular/2/retention/g1/b10",
+      "condition": "modular/2/retention",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/quota_parent",
+      "phase_entry": "m14/modular/2/retention/g1/b10",
+      "rank": 2,
+      "root": "m14/reference/quota_parent"
+    },
+    {
+      "child": "m14/modular/2/explore/g1/b10",
+      "condition": "modular/2/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/quota_parent",
+      "phase_entry": "m14/modular/2/explore/g1/b10",
+      "rank": 0,
+      "root": "m14/reference/quota_parent"
+    },
+    {
+      "child": "m14/modular/2/explore/g384/b12",
+      "condition": "modular/2/explore",
+      "cumulative_mutations": 3,
+      "inherited_mutations": 0,
+      "mutations": 3,
+      "parent": "m14/modular/2/explore/g383/b8",
+      "phase_entry": "m14/reference/quota_child",
+      "rank": 1,
+      "root": "m14/reference/quota_child"
+    },
+    {
+      "child": "m14/modular/2/explore/g1/b10",
+      "condition": "modular/2/explore",
+      "cumulative_mutations": 1,
+      "inherited_mutations": 1,
+      "mutations": 0,
+      "parent": "m14/reference/quota_parent",
+      "phase_entry": "m14/modular/2/explore/g1/b10",
+      "rank": 2,
+      "root": "m14/reference/quota_parent"
+    }
+  ],
+  "workflow_status_at_check": {
+    "child_pid": 12294,
+    "phase": "search_audit_001",
+    "pid": 82457,
+    "started_epoch": 1792645572.635516,
+    "state": "running",
+    "steps": [
+      {
+        "ended_epoch": 1792649816.127188,
+        "log": "runs/exploration_continuation_m15/search_001.log",
+        "phase": "search_001",
+        "returncode": 0
+      }
+    ]
+  }
+}

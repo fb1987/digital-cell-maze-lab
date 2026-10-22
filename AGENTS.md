@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M15-STATUS-START -->
-Current October22,2026: M15 sustained continuation RUNNING. User authorized
+Current October22,2026: M15 SEARCH COMPLETE; full workflow audit RUNNING. User authorized
 Proceed after M14. Read docs/EXPLORATION_CONTINUATION.md, progress handoff and
 results/exploration_continuation/{registration,launch}.json. Registration764b7ec
 pushed BEFOREscience. Durable tools/run_m15_workflow.py launched 2026-10-22T05:06:12.329979+00:00,
@@ -78,6 +78,12 @@ quota_child, gains20same-panelpairs(38→58),including8nonforkprefix2beyondprote
 andcorrectnopath44→0,0false. StrictretentiongateFAIL;DEVELOPMENTONLY,confirmation
 pending. Allintegratedprimariesinherited. Packets development/assessment_0160.json
 andcheckpoint_0160.json; no selection/source/bounds intervention. Search ongoing.
+Searchclosednormallyatcumulative499(435M15rounds),27,716,016calls/4241.42wallsec,
+27,593.01candidatesec/29,189.40CPUsec,zero uncertainattempts. Choicespublished
+6429fa11f41e2e24859a929df5e0c373012f3065 BEFOREconfirmation. search_audit_001 active
+(child12294 at06:22UTC);no finalconfirmationyet. Finaldevelopment499==432:
+18roles/12IDs,sixprimariesinherited; rep1exploratoryg320/b48 eighttargetpairsbut
+correctdisconnectionlost. Seeupdatedprogress/checkpoint_0499. Neverresume search.
 <!-- M15-STATUS-END -->
 
 

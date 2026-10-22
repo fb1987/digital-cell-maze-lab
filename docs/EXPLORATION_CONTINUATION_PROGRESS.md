@@ -1,4 +1,21 @@
-# M15 running from the exact M14 checkpoint
+# M15 search complete; frozen choices published; audit running
+
+Search completed normally at cumulativegeneration499:435NEWrounds,70.69min
+recordedsearchwall includingfinalassessment/freeze,27,716,016physicalcalls,
+27,593.01candidatesec,29,189.40workerCPUsec,8,075,193,344,463work,2.98GiBpeakRSS,
+zero uncertainattempts. Soft target stoppednewbirths at4200.21s; finalassessment
+andfreeze stayed within5400shardlimit. No continuation/extension authorized.
+
+Exactchoices/finalstates/ancestry pushed **6429fa11f41e2e24859a929df5e0c373012f3065**
+before independentconfirmation; publishedchoicebytes verified. The workflow is
+running search_audit_001 (childPID12294 at06:22UTC), thenautomaticallyconfirmation/
+analysis/finalaudit. Do not launchanywriter orrerunsealedsteps. Finaldevelopment
+assessment499 exactlymatches432(allnominee/frozen/protectedfields),18roles/12IDs.
+Sixprimaries inherited; exploratoryrep1g320/b48 retains eightdevelopmenttargetpairs
+butlosescorrectdisconnection. No newconfirmed result; confirmationnotyetgenerated
+atthischeck. Read development/assessment_0499.json andcheckpoint_0499.json.
+All348registration/396M14completion/19localhashes verify. Monitorremainsactive
+untilaudits/report/guardedbackup/seal/pushcomplete orrequireduseraction.
 
 Registration **764b7ec9361cd66774937dee0981228f11d7d0f0** pushed before scientific
 generation. Launched 2026-10-22T05:06:12.329979+00:00; workflowPID82457, searchchild82467,
