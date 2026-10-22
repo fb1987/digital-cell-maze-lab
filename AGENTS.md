@@ -35,64 +35,65 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M19-STATUS-START -->
-Current October22,2026: **M19 sustained connected-duplication evolution RUNNING.**
-User authorized "agree - continue with your proposal!" after M18. Read
- docs/CONNECTED_EVOLUTION.md, docs/CONNECTED_EVOLUTION_PROGRESS.md,
- results/connected_evolution/registration.json and launch.json.
-Registration032f115 pushed BEFORE science. Durable tools/run_m19_workflow.py
-initialPID47826/child47836/10workers. Journal runs/connected_evolution_m19/campaign.sqlite;
-workflow_status.json and phase logs there. NEVER start another writer/workflow,
-change registered files, reset histories, reselect on final data or extend bounds.
-Readonly: .venv/bin/python tools/inspect_connected_evolution.py [--assessment N --output NEW_PATH].
+Current October 22, 2026: **M19 COMPLETE, fresh-confirmed and AUDITED.**
+Read results/connected_evolution/report.md, summary.json, saved_diagnostics.json,
+allocation_persistence.json, report_review_evidence.json, both audits, preservation/
+completion.json and docs/CONNECTED_EVOLUTION_PROGRESS.md. No scientific process or
+next phase running. Preserve originals, seals, failed records and immutable bases.
+Never resume/reselect/overwrite closed science; future audits need new packets.
 
-Nine96populations:3matched generic/disconnected/connected trios, same ordered
-founder genomes andRNG withintrio. Common EXACTM18VM/commonexplorationselector/
-M11BANKpanels.13protected:old12+exactM15g320/b48;83clonal slots alternate thatchild
-andactualgated_specialistparent. New matchedforks,notwhole-M15-statecontinuation
-or independentorigins. Full source records, exact M15edit and root/parent retained.
-InheritedM10-entry/M15studydepth vsnewM19mutations explicit. Seven randomimmigrants
-and45single-opportunitymutants eachround. Copyarms25%prospective eligible initialized
-copy opportunities, commonmutationfallback whennone; uniform CURRENTstructuraledges,
-notM18finalneutraledge subset. Connectedredirectsexistingreader;disconnecteddoesnot.
-Commonlast-spare-node deletion resetsseed/recycles; no newinferenceprimitive/solver.
+Registration032f115 and choices8f70e47 pushed BEFORE science/fresh confirmation.
+275 matched rounds; normal70min soft stop, search4266.75s including final assessment.
+Nine96 populations/three generic-disconnected-connected trios; unchanged M18 VM,
+common exploration selector/banks, thirteen protected random-origin references.
+New matched forks, not whole-M15 continuation or independent origins.
+PRIMARY0/0/0 all3trios; both descriptive contrastsFALSE. ALL27 roles fail strict
+integration/deeper/long/combined.27aliases=3 inherited identities/genotypes, zero
+M19 mutation births; zero fresh input successes beyond protected union. All9primary
+and9ordinary roles exact anchor/0:96/400pairs,200corridors,17/256ordinary bothposes,
+168/168correctno-path,0false.3exploratory roles shared_child128pairs/12ordinary;
+6gated_specialist128pairs/11ordinary. Each nominee mask/status/steps identical to
+own root and phase entry onALL1680 inputs. All0/80ordinary16+; longest11/6/5edges.
+M15 protectedchild184pairs/200corridors/8ordinary/0nopath vsactualparent128/166/11/
+168; inherited56newpairs(16nonforkprefix2+beyondotherprotected),0oldpairslost,
+3ordinary+168nopathlost. Alreadyprotected, not M19 acquisition or cross-panelgain.
 
-Runtime10channels/256instructions+ticks/31nodesblock/4096reads+32768dispatches/site
-UNCHANGED. Same48fresh+48fixedbanktrain,96x96nominalqueries/pop;every16assessment
-115x392inclnonselectableA0padding. 70minsoft/90minhardsearch;1024round/120Mcalls/
-1e15work;8GiBRSS/12GiBTOTALstorageinclbackups/16GiBfreefloor. Separatefinal900s/
-1Mcalls/1e14work;eachaudit3600s. Stopnormallyatsoft/round/callreserve thenassess;
-anyguard/errorstoprequiresdiagnosis,NEVERautomaticfailed-workflowresume.
+Actual7101connected/7412disconnectedcopies;2328/1940fallbacks;next-train survives
+1664/7077connected and1725/7383disconnected presentations. Finalcopydescendants
+42/51/34connected and47/33/42disconnected, not necessarily still causally useful.
+FinalmaxM19depth9/16/12connected,11/13/14generic,18/7/10disconnected; atmost2copy
+births/endingchain. Common sparedeactivations133/144/229 connected/disconnected/
+generic.111375mutants+17325immigrants,2514chargedgenotypenoops. Mechanism accessed
+and persisted; no confirmed useful differentiation/integration. No impossibility,
+general-solving/speed/significance or isolated selector/capacity-causality claim.
 
-PRIMARYfixedINTEGRATEDrole NEWnonforkprefix2+ count beyondexactroot/phaseentry/ALL13
-protected,zeroifpositiveM19mutation/90%rootANDentryretention/nonemptyA0disconnection90%/
-zerofalseno-path gate fails. Connected-vs-generic andconnected-vs-disconnected EACH
-needpositive2/3triosANDsum for descriptive support;bothrequiredforcombinedsupport.
-No rolesubstitution/significance/general/speedclaim. Separateintegration/deeper/long
-flags andspecialistgains/losses; inherited16M15upstreampairsalreadyprotected.
+Search25173128calls/28736.22candidate sec/29837.09CPUsec/7763561712451work/
+2.845GiBRSS; final26880calls/22.77candidate/25.65CPU/16.38wall/3.362GiBRSS.
+Allzero uncertain. Equal nominal2534400train+856520assessment queries/pop, not
+CPU equality; sharing-arm physicalcost buckets preserved. Search firstPASS911.28s:
+ALL25173128grades,253681native,128700births,294corpus/task/selection/mutation/RNG/
+freeze stages. Final firstPASS30.58s:ALL26880native+grades+summary/5040conventional.
+Allintact/BFS/A*/bitwave controls correct. SharedVM/operator, independent grader.
+8focused preparationtests,notfullsuite; discarded fixtures/failures retained.
+All369registration+390M18completion/14localhashesverify. No scientific repair.
 
-EightfocusedtestsPASS65.20s,notfullsuite. Artificialdiscarded328832calls/140.36
-candidate sec/1404births replayed;5040intactcontrolsallcorrect. FullpipelinePASS:
-reuseoldtrainreceipts,42000finalnative,7898searchsample+42000finalauditnative,
-5040conventionalcontrols;no additionalfreshcases. Initial2testassumptionsfailures
-and2setuphelperserrors preserved;onlytests/setupfixed,no variation/inferencechange.
-Postprocessing savedfixturecheckPASS,zero new inference. All369registration hashes
-and390M18completion/14localrecordsverify. Initial3381045wholelayoutsexcluded via
-reference+delta;rawlayouts table isDELTAONLY,use referenced_campaign_store.load_layouts.
+Reporting-only helper correction: initial unqueried-metadata16+denominator126
+corrected to80 actualqueriedbases; old helper/outputs inreporting_corrections/
+attempt_001, saved-onlyvalidationPASS. Sole diagnosticdifference denominator;
+nominee/allocation/science/summary/audits unchanged. No new inference or cases.
+Originalsearch/finaljournals+ALL-table-verifiedSQLiteAPIbackups LOCAL under
+runs/connected_evolution_m19;~1.902GiBbeforeseal,~49.72GiBfree within12/16bounds.
+Wholelayoutledger3564521=3381045initial+178100search+5376final,reference+delta;
+use referenced_campaign_store.load_layouts,neverrawdelta tables alone. Preservebases.
+Report reviewed, compact evidence/copiedlogs to be completion-sealed and published;
+raw journals ignored byGit. Follow-up m19-connected-evolution-follow-through must
+be PAUSED after publication verification. Historical monitor.json is creationstate.
 
-Workflowautomaticallysearches,FREEZESandCOMMITS/PUSHESexactchoicesBEFOREfresh1680
-confirmation,auditsALLsearchgrades/corpora/tasks/selection/mutation/RNG+fixednative
-samples,thenfinal/analysis/ALL-nativefinalaudit. M19confirmationauthorized. Failures:
-preservetracebacks/pendingreceipts/failedartifacts;no sealedrepairwithoutprotocoldecision.
-At audited_ready_for_report use tools/analyze_m19_saved.py onceifoutputsabsent,
- tools/preserve_m19.py for guardedverifiedSQLiteAPIbackups+ALLlayouts,
- tools/report_m19.py once thenreviewactualoutcomes/ancestry/compute andadd thoughtful
-interpretation/nextrecommendation;write report_review.json. Updateprogress/AGENTS,
-run tools/seal_m19_completion.py ONCE, commit/pushcompactevidence+copiedlogs,
-neverrawjournals. Preservealloriginals,immutableledgers andfailedrecords.
-Heartbeat m19-connected-evolution-follow-through ACTIVEevery15min,QUIETonroutine;
-notifyonlymeaningfulcapabilitychange/completion/failure/requireduseraction. Pauseafter
-report/audits/preservation/push or requireduseraction. Nonewphase beyondM19,extra
-search,recombination,cloudcompute orknownsolverauthorized. Random-originremainscentral.
+NextproposalONLY: bounded SAVED-history study of copy-bearing/generic/disconnected
+phenotype changes, same-panel novelty/parent-retention, survival and breeding before
+another unchanged longrun. Mark missing same-panel comparisons, distinguish inherited
+vsM19changes/reserved vslexicase births. No M20, new evolution, extra confirmation,
+recombination, known solver or cloudcompute authorized. Random-originremainscentral.
 <!-- M19-STATUS-END -->
 
 

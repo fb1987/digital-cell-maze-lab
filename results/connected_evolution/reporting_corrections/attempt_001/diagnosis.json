@@ -1,0 +1,15 @@
+{
+  "scope": "Unregistered post-audit reporting helper only; caught before report or completion seal. No failed scientific audit, new inference, selection, cases or sealed source change.",
+  "problem": "The helper derived available ordinary/16+ bases from all metadata, including generated but unqueried poses. Metadata has 9024 entries; final query list has 1680.",
+  "evidence": {
+    "draft_length16plus_bases": 126,
+    "actual_queried_length16plus_bases": 80,
+    "queried_ordinary_bases": 256
+  },
+  "correction": "Restrict helper metadata to the exact registered final query list before denominator and details calculations; preserve both original outputs and script. Re-run saved-only helper with corrected unregistered code.",
+  "preserved_sha256": {
+    "tools/analyze_m19_saved.py": "f58c494ec2f5ba293b46ad74a0edf82d444c856efd6a7676a5eb0b41344c0d60",
+    "results/connected_evolution/saved_diagnostics.json": "8778f866de86e75ab358771071a28bb35cd4abc59c8eb707f2613d6a68655457",
+    "results/connected_evolution/allocation_persistence.json": "599e0b1d7304940f7c88248e053b714f0ef14db46a4a7062d3e6e63fbdb491d5"
+  }
+}

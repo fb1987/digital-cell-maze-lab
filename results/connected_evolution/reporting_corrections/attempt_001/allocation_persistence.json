@@ -1,0 +1,670 @@
+{
+  "born_active_spares": {
+    "connected/0/connected": {
+      "0": 5243,
+      "1": 4418,
+      "2": 4639
+    },
+    "connected/0/disconnected": {
+      "0": 5298,
+      "1": 4788,
+      "2": 4214
+    },
+    "connected/0/generic": {
+      "0": 8629,
+      "1": 4840,
+      "2": 831
+    },
+    "connected/1/connected": {
+      "0": 5363,
+      "1": 4946,
+      "2": 3991
+    },
+    "connected/1/disconnected": {
+      "0": 5366,
+      "1": 4989,
+      "2": 3945
+    },
+    "connected/1/generic": {
+      "0": 7233,
+      "1": 5736,
+      "2": 1331
+    },
+    "connected/2/connected": {
+      "0": 6125,
+      "1": 4954,
+      "2": 3221
+    },
+    "connected/2/disconnected": {
+      "0": 6655,
+      "1": 5158,
+      "2": 2487
+    },
+    "connected/2/generic": {
+      "0": 8391,
+      "1": 4486,
+      "2": 1423
+    }
+  },
+  "final_persistence": {
+    "connected/0/connected": {
+      "live_and_archive_active_spares": {
+        "0": 42,
+        "1": 30,
+        "2": 32
+      },
+      "live_and_archive_copy_descendants": 42,
+      "live_and_archive_identities": 104,
+      "max_M19_mutation_depth": 9,
+      "max_copy_births_on_a_chain": 2
+    },
+    "connected/0/disconnected": {
+      "live_and_archive_active_spares": {
+        "0": 39,
+        "1": 34,
+        "2": 28
+      },
+      "live_and_archive_copy_descendants": 47,
+      "live_and_archive_identities": 101,
+      "max_M19_mutation_depth": 18,
+      "max_copy_births_on_a_chain": 2
+    },
+    "connected/0/generic": {
+      "live_and_archive_active_spares": {
+        "0": 65,
+        "1": 29,
+        "2": 7
+      },
+      "live_and_archive_copy_descendants": 0,
+      "live_and_archive_identities": 101,
+      "max_M19_mutation_depth": 11,
+      "max_copy_births_on_a_chain": 0
+    },
+    "connected/1/connected": {
+      "live_and_archive_active_spares": {
+        "0": 33,
+        "1": 34,
+        "2": 37
+      },
+      "live_and_archive_copy_descendants": 51,
+      "live_and_archive_identities": 104,
+      "max_M19_mutation_depth": 16,
+      "max_copy_births_on_a_chain": 2
+    },
+    "connected/1/disconnected": {
+      "live_and_archive_active_spares": {
+        "0": 45,
+        "1": 33,
+        "2": 24
+      },
+      "live_and_archive_copy_descendants": 33,
+      "live_and_archive_identities": 102,
+      "max_M19_mutation_depth": 7,
+      "max_copy_births_on_a_chain": 2
+    },
+    "connected/1/generic": {
+      "live_and_archive_active_spares": {
+        "0": 55,
+        "1": 36,
+        "2": 11
+      },
+      "live_and_archive_copy_descendants": 0,
+      "live_and_archive_identities": 102,
+      "max_M19_mutation_depth": 13,
+      "max_copy_births_on_a_chain": 0
+    },
+    "connected/2/connected": {
+      "live_and_archive_active_spares": {
+        "0": 55,
+        "1": 28,
+        "2": 18
+      },
+      "live_and_archive_copy_descendants": 34,
+      "live_and_archive_identities": 101,
+      "max_M19_mutation_depth": 12,
+      "max_copy_births_on_a_chain": 2
+    },
+    "connected/2/disconnected": {
+      "live_and_archive_active_spares": {
+        "0": 43,
+        "1": 38,
+        "2": 20
+      },
+      "live_and_archive_copy_descendants": 42,
+      "live_and_archive_identities": 101,
+      "max_M19_mutation_depth": 10,
+      "max_copy_births_on_a_chain": 2
+    },
+    "connected/2/generic": {
+      "live_and_archive_active_spares": {
+        "0": 55,
+        "1": 23,
+        "2": 24
+      },
+      "live_and_archive_copy_descendants": 0,
+      "live_and_archive_identities": 102,
+      "max_M19_mutation_depth": 14,
+      "max_copy_births_on_a_chain": 0
+    }
+  },
+  "immediate_birth_survival": {
+    "connected/0/connected": {
+      "activate_node/presentations": 1081,
+      "activate_node/survive_next_train": 228,
+      "copy_block/presentations": 1226,
+      "copy_block/survive_next_train": 351,
+      "deactivate_spare/presentations": 73,
+      "deactivate_spare/survive_next_train": 23,
+      "delete/presentations": 1155,
+      "delete/survive_next_train": 283,
+      "duplicate_node/presentations": 1323,
+      "duplicate_node/survive_next_train": 383,
+      "initialized_connected_copy/presentations": 2155,
+      "initialized_connected_copy/survive_next_train": 507,
+      "insert/presentations": 1348,
+      "insert/survive_next_train": 385,
+      "operand/presentations": 1319,
+      "operand/survive_next_train": 320,
+      "ports/presentations": 1311,
+      "ports/survive_next_train": 379,
+      "replace/presentations": 1339,
+      "replace/survive_next_train": 349
+    },
+    "connected/0/disconnected": {
+      "activate_node/presentations": 1097,
+      "activate_node/survive_next_train": 207,
+      "copy_block/presentations": 1242,
+      "copy_block/survive_next_train": 320,
+      "deactivate_spare/presentations": 59,
+      "deactivate_spare/survive_next_train": 10,
+      "delete/presentations": 1179,
+      "delete/survive_next_train": 297,
+      "duplicate_node/presentations": 1272,
+      "duplicate_node/survive_next_train": 325,
+      "initialized_disconnected_copy/presentations": 2365,
+      "initialized_disconnected_copy/survive_next_train": 523,
+      "insert/presentations": 1285,
+      "insert/survive_next_train": 328,
+      "operand/presentations": 1337,
+      "operand/survive_next_train": 284,
+      "ports/presentations": 1254,
+      "ports/survive_next_train": 357,
+      "replace/presentations": 1240,
+      "replace/survive_next_train": 341
+    },
+    "connected/0/generic": {
+      "activate_node/presentations": 1999,
+      "activate_node/survive_next_train": 497,
+      "copy_block/presentations": 1466,
+      "copy_block/survive_next_train": 339,
+      "deactivate_spare/presentations": 65,
+      "deactivate_spare/survive_next_train": 13,
+      "delete/presentations": 1441,
+      "delete/survive_next_train": 326,
+      "duplicate_node/presentations": 1536,
+      "duplicate_node/survive_next_train": 404,
+      "insert/presentations": 1396,
+      "insert/survive_next_train": 328,
+      "operand/presentations": 1456,
+      "operand/survive_next_train": 348,
+      "ports/presentations": 1510,
+      "ports/survive_next_train": 423,
+      "replace/presentations": 1461,
+      "replace/survive_next_train": 415
+    },
+    "connected/1/connected": {
+      "activate_node/presentations": 1195,
+      "activate_node/survive_next_train": 255,
+      "copy_block/presentations": 1245,
+      "copy_block/survive_next_train": 311,
+      "deactivate_spare/presentations": 35,
+      "deactivate_spare/survive_next_train": 10,
+      "delete/presentations": 1204,
+      "delete/survive_next_train": 308,
+      "duplicate_node/presentations": 1234,
+      "duplicate_node/survive_next_train": 351,
+      "initialized_connected_copy/presentations": 2392,
+      "initialized_connected_copy/survive_next_train": 554,
+      "insert/presentations": 1274,
+      "insert/survive_next_train": 326,
+      "operand/presentations": 1242,
+      "operand/survive_next_train": 276,
+      "ports/presentations": 1264,
+      "ports/survive_next_train": 352,
+      "replace/presentations": 1245,
+      "replace/survive_next_train": 342
+    },
+    "connected/1/disconnected": {
+      "activate_node/presentations": 1197,
+      "activate_node/survive_next_train": 246,
+      "copy_block/presentations": 1243,
+      "copy_block/survive_next_train": 319,
+      "deactivate_spare/presentations": 55,
+      "deactivate_spare/survive_next_train": 17,
+      "delete/presentations": 1181,
+      "delete/survive_next_train": 283,
+      "duplicate_node/presentations": 1199,
+      "duplicate_node/survive_next_train": 307,
+      "initialized_disconnected_copy/presentations": 2420,
+      "initialized_disconnected_copy/survive_next_train": 598,
+      "insert/presentations": 1301,
+      "insert/survive_next_train": 330,
+      "operand/presentations": 1239,
+      "operand/survive_next_train": 293,
+      "ports/presentations": 1212,
+      "ports/survive_next_train": 323,
+      "replace/presentations": 1283,
+      "replace/survive_next_train": 346
+    },
+    "connected/1/generic": {
+      "activate_node/presentations": 1861,
+      "activate_node/survive_next_train": 421,
+      "copy_block/presentations": 1529,
+      "copy_block/survive_next_train": 355,
+      "deactivate_spare/presentations": 87,
+      "deactivate_spare/survive_next_train": 13,
+      "delete/presentations": 1434,
+      "delete/survive_next_train": 363,
+      "duplicate_node/presentations": 1482,
+      "duplicate_node/survive_next_train": 384,
+      "insert/presentations": 1490,
+      "insert/survive_next_train": 369,
+      "operand/presentations": 1510,
+      "operand/survive_next_train": 330,
+      "ports/presentations": 1502,
+      "ports/survive_next_train": 408,
+      "replace/presentations": 1435,
+      "replace/survive_next_train": 384
+    },
+    "connected/2/connected": {
+      "activate_node/presentations": 1291,
+      "activate_node/survive_next_train": 296,
+      "copy_block/presentations": 1256,
+      "copy_block/survive_next_train": 301,
+      "deactivate_spare/presentations": 24,
+      "deactivate_spare/survive_next_train": 6,
+      "delete/presentations": 1162,
+      "delete/survive_next_train": 290,
+      "duplicate_node/presentations": 1259,
+      "duplicate_node/survive_next_train": 341,
+      "initialized_connected_copy/presentations": 2530,
+      "initialized_connected_copy/survive_next_train": 603,
+      "insert/presentations": 1189,
+      "insert/survive_next_train": 304,
+      "operand/presentations": 1229,
+      "operand/survive_next_train": 280,
+      "ports/presentations": 1197,
+      "ports/survive_next_train": 307,
+      "replace/presentations": 1193,
+      "replace/survive_next_train": 299
+    },
+    "connected/2/disconnected": {
+      "activate_node/presentations": 1408,
+      "activate_node/survive_next_train": 344,
+      "copy_block/presentations": 1153,
+      "copy_block/survive_next_train": 315,
+      "deactivate_spare/presentations": 29,
+      "deactivate_spare/survive_next_train": 6,
+      "delete/presentations": 1112,
+      "delete/survive_next_train": 272,
+      "duplicate_node/presentations": 1195,
+      "duplicate_node/survive_next_train": 302,
+      "initialized_disconnected_copy/presentations": 2598,
+      "initialized_disconnected_copy/survive_next_train": 604,
+      "insert/presentations": 1200,
+      "insert/survive_next_train": 316,
+      "operand/presentations": 1263,
+      "operand/survive_next_train": 277,
+      "ports/presentations": 1194,
+      "ports/survive_next_train": 303,
+      "replace/presentations": 1178,
+      "replace/survive_next_train": 296
+    },
+    "connected/2/generic": {
+      "activate_node/presentations": 1873,
+      "activate_node/survive_next_train": 468,
+      "copy_block/presentations": 1442,
+      "copy_block/survive_next_train": 347,
+      "deactivate_spare/presentations": 76,
+      "deactivate_spare/survive_next_train": 16,
+      "delete/presentations": 1415,
+      "delete/survive_next_train": 359,
+      "duplicate_node/presentations": 1518,
+      "duplicate_node/survive_next_train": 417,
+      "insert/presentations": 1444,
+      "insert/survive_next_train": 369,
+      "operand/presentations": 1523,
+      "operand/survive_next_train": 322,
+      "ports/presentations": 1479,
+      "ports/survive_next_train": 389,
+      "replace/presentations": 1560,
+      "replace/survive_next_train": 400
+    }
+  },
+  "nominal_queries": {
+    "connected/0/connected": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/0/disconnected": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/0/generic": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/1/connected": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/1/disconnected": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/1/generic": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/2/connected": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/2/disconnected": {
+      "assessment": 856520,
+      "train": 2534400
+    },
+    "connected/2/generic": {
+      "assessment": 856520,
+      "train": 2534400
+    }
+  },
+  "phase_edit_kinds": {
+    "connected/0/connected": {
+      "activate_node": 1083,
+      "copy_block": 1231,
+      "deactivate_spare": 73,
+      "delete": 1159,
+      "duplicate_node": 1328,
+      "initialized_connected_copy": 2164,
+      "insert": 1354,
+      "operand": 1322,
+      "ports": 1316,
+      "replace": 1345
+    },
+    "connected/0/disconnected": {
+      "activate_node": 1101,
+      "copy_block": 1245,
+      "deactivate_spare": 59,
+      "delete": 1184,
+      "duplicate_node": 1278,
+      "initialized_disconnected_copy": 2376,
+      "insert": 1291,
+      "operand": 1339,
+      "ports": 1258,
+      "replace": 1244
+    },
+    "connected/0/generic": {
+      "activate_node": 2008,
+      "copy_block": 1470,
+      "deactivate_spare": 65,
+      "delete": 1446,
+      "duplicate_node": 1540,
+      "insert": 1399,
+      "operand": 1465,
+      "ports": 1515,
+      "replace": 1467
+    },
+    "connected/1/connected": {
+      "activate_node": 1200,
+      "copy_block": 1252,
+      "deactivate_spare": 36,
+      "delete": 1207,
+      "duplicate_node": 1240,
+      "initialized_connected_copy": 2396,
+      "insert": 1278,
+      "operand": 1248,
+      "ports": 1271,
+      "replace": 1247
+    },
+    "connected/1/disconnected": {
+      "activate_node": 1199,
+      "copy_block": 1245,
+      "deactivate_spare": 56,
+      "delete": 1187,
+      "duplicate_node": 1202,
+      "initialized_disconnected_copy": 2430,
+      "insert": 1308,
+      "operand": 1244,
+      "ports": 1216,
+      "replace": 1288
+    },
+    "connected/1/generic": {
+      "activate_node": 1864,
+      "copy_block": 1533,
+      "deactivate_spare": 88,
+      "delete": 1437,
+      "duplicate_node": 1490,
+      "insert": 1495,
+      "operand": 1515,
+      "ports": 1510,
+      "replace": 1443
+    },
+    "connected/2/connected": {
+      "activate_node": 1297,
+      "copy_block": 1260,
+      "deactivate_spare": 24,
+      "delete": 1167,
+      "duplicate_node": 1262,
+      "initialized_connected_copy": 2541,
+      "insert": 1191,
+      "operand": 1230,
+      "ports": 1201,
+      "replace": 1202
+    },
+    "connected/2/disconnected": {
+      "activate_node": 1414,
+      "copy_block": 1156,
+      "deactivate_spare": 29,
+      "delete": 1116,
+      "duplicate_node": 1199,
+      "initialized_disconnected_copy": 2606,
+      "insert": 1202,
+      "operand": 1269,
+      "ports": 1200,
+      "replace": 1184
+    },
+    "connected/2/generic": {
+      "activate_node": 1875,
+      "copy_block": 1447,
+      "deactivate_spare": 76,
+      "delete": 1420,
+      "duplicate_node": 1526,
+      "insert": 1448,
+      "operand": 1526,
+      "ports": 1489,
+      "replace": 1568
+    }
+  },
+  "scope": "Audited training/final states; shared physical work buckets partition by ALL arm labels, never double-counted. Immediate survival is measured only when a next train exists.",
+  "search_physical_cost_buckets": {
+    "connected": {
+      "calls": 7544880,
+      "candidate_seconds": 8851.833255105768,
+      "work": 2394277557978
+    },
+    "connected|disconnected": {
+      "calls": 553904,
+      "candidate_seconds": 430.97897264175117,
+      "work": 120447238633
+    },
+    "connected|disconnected|generic": {
+      "calls": 1446312,
+      "candidate_seconds": 1286.533468790236,
+      "work": 342894988238
+    },
+    "connected|generic": {
+      "calls": 28144,
+      "candidate_seconds": 33.1067665736191,
+      "work": 9441552152
+    },
+    "disconnected": {
+      "calls": 7499672,
+      "candidate_seconds": 8961.113430577796,
+      "work": 2421896604890
+    },
+    "disconnected|generic": {
+      "calls": 26176,
+      "candidate_seconds": 26.46104635077063,
+      "work": 7457555287
+    },
+    "generic": {
+      "calls": 8074040,
+      "candidate_seconds": 9146.194181062398,
+      "work": 2467146215273
+    }
+  },
+  "variation_counts": {
+    "connected/0/connected": {
+      "copy_bucket": 3141,
+      "eligible_edge_presentations": 57481,
+      "genotype_noop": 248,
+      "kind/activate_node": 1083,
+      "kind/copy_block": 1231,
+      "kind/deactivate_spare": 73,
+      "kind/delete": 1159,
+      "kind/duplicate_node": 1328,
+      "kind/initialized_connected_copy": 2164,
+      "kind/insert": 1354,
+      "kind/operand": 1322,
+      "kind/ports": 1316,
+      "kind/replace": 1345,
+      "ordinary_fallback": 977
+    },
+    "connected/0/disconnected": {
+      "copy_bucket": 3177,
+      "eligible_edge_presentations": 63018,
+      "genotype_noop": 294,
+      "kind/activate_node": 1101,
+      "kind/copy_block": 1245,
+      "kind/deactivate_spare": 59,
+      "kind/delete": 1184,
+      "kind/duplicate_node": 1278,
+      "kind/initialized_disconnected_copy": 2376,
+      "kind/insert": 1291,
+      "kind/operand": 1339,
+      "kind/ports": 1258,
+      "kind/replace": 1244,
+      "ordinary_fallback": 801
+    },
+    "connected/0/generic": {
+      "copy_bucket": 3103,
+      "eligible_edge_presentations": 0,
+      "genotype_noop": 283,
+      "kind/activate_node": 2008,
+      "kind/copy_block": 1470,
+      "kind/deactivate_spare": 65,
+      "kind/delete": 1446,
+      "kind/duplicate_node": 1540,
+      "kind/insert": 1399,
+      "kind/operand": 1465,
+      "kind/ports": 1515,
+      "kind/replace": 1467,
+      "ordinary_fallback": 0
+    },
+    "connected/1/connected": {
+      "copy_bucket": 3094,
+      "eligible_edge_presentations": 64879,
+      "genotype_noop": 272,
+      "kind/activate_node": 1200,
+      "kind/copy_block": 1252,
+      "kind/deactivate_spare": 36,
+      "kind/delete": 1207,
+      "kind/duplicate_node": 1240,
+      "kind/initialized_connected_copy": 2396,
+      "kind/insert": 1278,
+      "kind/operand": 1248,
+      "kind/ports": 1271,
+      "kind/replace": 1247,
+      "ordinary_fallback": 698
+    },
+    "connected/1/disconnected": {
+      "copy_bucket": 3079,
+      "eligible_edge_presentations": 65033,
+      "genotype_noop": 254,
+      "kind/activate_node": 1199,
+      "kind/copy_block": 1245,
+      "kind/deactivate_spare": 56,
+      "kind/delete": 1187,
+      "kind/duplicate_node": 1202,
+      "kind/initialized_disconnected_copy": 2430,
+      "kind/insert": 1308,
+      "kind/operand": 1244,
+      "kind/ports": 1216,
+      "kind/replace": 1288,
+      "ordinary_fallback": 649
+    },
+    "connected/1/generic": {
+      "copy_bucket": 3132,
+      "eligible_edge_presentations": 0,
+      "genotype_noop": 300,
+      "kind/activate_node": 1864,
+      "kind/copy_block": 1533,
+      "kind/deactivate_spare": 88,
+      "kind/delete": 1437,
+      "kind/duplicate_node": 1490,
+      "kind/insert": 1495,
+      "kind/operand": 1515,
+      "kind/ports": 1510,
+      "kind/replace": 1443,
+      "ordinary_fallback": 0
+    },
+    "connected/2/connected": {
+      "copy_bucket": 3194,
+      "eligible_edge_presentations": 71218,
+      "genotype_noop": 254,
+      "kind/activate_node": 1297,
+      "kind/copy_block": 1260,
+      "kind/deactivate_spare": 24,
+      "kind/delete": 1167,
+      "kind/duplicate_node": 1262,
+      "kind/initialized_connected_copy": 2541,
+      "kind/insert": 1191,
+      "kind/operand": 1230,
+      "kind/ports": 1201,
+      "kind/replace": 1202,
+      "ordinary_fallback": 653
+    },
+    "connected/2/disconnected": {
+      "copy_bucket": 3096,
+      "eligible_edge_presentations": 72332,
+      "genotype_noop": 279,
+      "kind/activate_node": 1414,
+      "kind/copy_block": 1156,
+      "kind/deactivate_spare": 29,
+      "kind/delete": 1116,
+      "kind/duplicate_node": 1199,
+      "kind/initialized_disconnected_copy": 2606,
+      "kind/insert": 1202,
+      "kind/operand": 1269,
+      "kind/ports": 1200,
+      "kind/replace": 1184,
+      "ordinary_fallback": 490
+    },
+    "connected/2/generic": {
+      "copy_bucket": 3103,
+      "eligible_edge_presentations": 0,
+      "genotype_noop": 330,
+      "kind/activate_node": 1875,
+      "kind/copy_block": 1447,
+      "kind/deactivate_spare": 76,
+      "kind/delete": 1420,
+      "kind/duplicate_node": 1526,
+      "kind/insert": 1448,
+      "kind/operand": 1526,
+      "kind/ports": 1489,
+      "kind/replace": 1568,
+      "ordinary_fallback": 0
+    }
+  }
+}

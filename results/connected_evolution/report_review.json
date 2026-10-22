@@ -1,0 +1,41 @@
+{
+  "status": "reviewed",
+  "scope": "Actual audited M19 results and saved-only diagnostics; no new inference or selection.",
+  "report_sha256": "2d0b4163588914cd9d73489a1076b93743af8869e91f613c89149a76b4f8ae93",
+  "primary": {
+    "all_trios_all_arms_zero": true,
+    "connected_vs_generic_support": false,
+    "connected_vs_disconnected_support": false,
+    "no_role_substitution": true
+  },
+  "attribution": {
+    "nominee_aliases": 27,
+    "identities": 3,
+    "genotypes": 3,
+    "M19_mutations_in_all_nominees": 0,
+    "new_individual_successes_beyond_protected": 0
+  },
+  "interpretation": "Initialized duplication and copy-descendant persistence occurred, but confirmed retained routing improvement did not. Final lineage depths are much shallower than population rounds. Mechanistic and selection causes remain unresolved.",
+  "reporting_correction": "Unregistered helper denominator only: generated/unqueried metadata excluded, available queried 16+ bases126->80. Original script/outputs preserved; validation PASS; scientific results and audits unchanged.",
+  "reviewed_material": [
+    "summary.json",
+    "search_audit.json",
+    "final_audit.json",
+    "session.json",
+    "final_session.json",
+    "saved_diagnostics.json",
+    "allocation_persistence.json",
+    "report_review_evidence.json",
+    "preservation.json",
+    "reporting_corrections/validation.json"
+  ],
+  "recommendation": "Propose saved-history phenotype/retention/survival analysis before increasing unchanged compute. No phase beyond M19 authorized or launched.",
+  "limitations": [
+    "Related matched histories, not independent random origins",
+    "Frozen bank-conditioned development",
+    "Only frozen nominees receive confirmation",
+    "Shared production VM/operator; independent grader, not a second VM",
+    "Equal nominal budgets do not mean equal CPU",
+    "No significance, general-solving or speed claim"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "disk_free_bytes": 53388566528,
+  "final_new_layouts": 5376,
+  "initial_layouts": 3381045,
+  "search_new_layouts": 178100,
+  "stages": {
+    "final": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 4579328,
+        "integrity_check": "ok",
+        "path": "runs/connected_evolution_m19/final/backups/completed.sqlite",
+        "requires_immutable_base_ledger": true,
+        "sha256": "73d68875cec0687e4ee0b2386e57b6595a37f14917f4654e0e099961de8f7fa9",
+        "status": "verified"
+      },
+      "chain": "daec4a7c715d31ac560b1f46e799a9b5e01872e168a1dc54135b9c2dea0a6a43",
+      "immutable_base_reference": {
+        "count": 3559145,
+        "path": "/Users/frankie/Documents/ChatGPT/digital cell/results/connected_evolution/search_exclusions.json",
+        "sha256": "b3cdc7210bf11b68c52a881bf309286a2506860edbde2d9bd9bdd742ddc2ecdf"
+      },
+      "journal": {
+        "bytes": 4579328,
+        "path": "runs/connected_evolution_m19/final/campaign.sqlite",
+        "sha256": "d2fc8273ea77169c68a455fb594b7c47f8269cee33b483dac3f23a5d1121ebb8"
+      },
+      "layouts": 3564521
+    },
+    "search": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 985014272,
+        "integrity_check": "ok",
+        "path": "runs/connected_evolution_m19/backups/completed.sqlite",
+        "requires_immutable_base_ledger": true,
+        "sha256": "0ff66ea71dceca2dbde6bdfadbfa08fd7666a2975911297bfa67ea8e4373b211",
+        "status": "verified"
+      },
+      "chain": "cf88c358aded595affd6b2041202982a14332179e16675bed7ef19b95da18e54",
+      "immutable_base_reference": {
+        "count": 3381045,
+        "path": "/Users/frankie/Documents/ChatGPT/digital cell/results/connected_evolution/initial_exclusions.json",
+        "sha256": "7ae1f16cf2311f232ca2802e96c7df20c639a5aee180325c6e0cbfc2382c7127"
+      },
+      "journal": {
+        "bytes": 985014272,
+        "path": "runs/connected_evolution_m19/campaign.sqlite",
+        "sha256": "7fcad3a32a44ddbf3e221946a055fab5c9e349569e5817cc7f2bc9a7a6989c48"
+      },
+      "layouts": 3559145
+    }
+  },
+  "status": "verified",
+  "storage_bytes": 2042315563,
+  "whole_layouts": 3564521
+}
