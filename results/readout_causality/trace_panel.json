@@ -1,0 +1,84 @@
+{
+  "gained_inputs": [
+    "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0",
+    "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4"
+  ],
+  "reasons": {
+    "confirmation/ordinary/disconnected/15/r0/40000/disconnected/15x15/d4-4": [
+      "generic/parent/d5/0259/disconnected"
+    ],
+    "confirmation/ordinary/disconnected/15/r0/68000/disconnected/15x15/d4-4": [
+      "generic/parent/d3/0246/disconnected"
+    ],
+    "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0": [
+      "shared_gain"
+    ],
+    "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4": [
+      "shared_gain"
+    ],
+    "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4": [
+      "generic/parent/d3/0246/ordinary_random",
+      "generic/parent/d5/0259/ordinary_random",
+      "local/parent/d3/0108/ordinary_random",
+      "local/parent/d5/0059/ordinary_random"
+    ],
+    "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0": [
+      "generic/parent/d3/0246/corridor",
+      "generic/parent/d5/0259/corridor",
+      "local/parent/d3/0108/corridor",
+      "local/parent/d5/0059/corridor"
+    ],
+    "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4": [
+      "generic/parent/d3/0246/paired",
+      "generic/parent/d5/0259/paired",
+      "local/parent/d3/0108/paired",
+      "local/parent/d5/0059/paired"
+    ],
+    "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0": [
+      "generic/parent/d3/0246/ordinary_perfect",
+      "generic/parent/d5/0259/ordinary_perfect",
+      "local/parent/d3/0108/ordinary_perfect",
+      "local/parent/d5/0059/ordinary_perfect"
+    ]
+  },
+  "representative_losses": {
+    "generic/parent/d3/0246": {
+      "corridor": "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0",
+      "disconnected": "confirmation/ordinary/disconnected/15/r0/68000/disconnected/15x15/d4-4",
+      "ordinary_perfect": "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "ordinary_random": "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4",
+      "paired": "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4"
+    },
+    "generic/parent/d5/0259": {
+      "corridor": "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0",
+      "disconnected": "confirmation/ordinary/disconnected/15/r0/40000/disconnected/15x15/d4-4",
+      "ordinary_perfect": "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "ordinary_random": "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4",
+      "paired": "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4"
+    },
+    "local/parent/d3/0108": {
+      "corridor": "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0",
+      "ordinary_perfect": "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "ordinary_random": "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4",
+      "paired": "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4"
+    },
+    "local/parent/d5/0059": {
+      "corridor": "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0",
+      "ordinary_perfect": "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "ordinary_random": "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4",
+      "paired": "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4"
+    }
+  },
+  "rule": "All two gain poses plus lowest SHA256(case ID) lost input per specialist/family, disconnection separate",
+  "scope": "Fixed reused mechanism/development cases, not confirmation",
+  "selected_cases": [
+    "confirmation/ordinary/disconnected/15/r0/40000/disconnected/15x15/d4-4",
+    "confirmation/ordinary/disconnected/15/r0/68000/disconnected/15x15/d4-4",
+    "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-0",
+    "confirmation/ordinary/random/9/r0/104000/random/9x9/d4-4",
+    "confirmation/ordinary/random/9/r0/36000/random/9x9/d4-4",
+    "confirmation/stress/a(4, 6)/straight/c4/s0/fork/p2/corridor/0/d4-0",
+    "confirmation/stress/a(6, 4)/straight/c5/s0/cycle/p1/paired/0/d4-4",
+    "m7final_long/perfect/11/distance8-15/item4/try0/ordinary/perfect/11/0/perfect/11x11/d4-0"
+  ]
+}

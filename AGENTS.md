@@ -34,6 +34,26 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M21-STATUS-START -->
+Current October22,2026: **M21 PREPARED: user authorized causal copy/readout assay.**
+Read docs/READOUT_CAUSALITY.md, docs/READOUT_CAUSALITY_PROGRESS.md and
+results/readout_causality preparation/registration/trace_panel records. Fixed76aliases/
+64physical models,107520plannedcalls onALL1680reusedM20inputs,NOTfreshconfirmation.
+FourrelatedselectedM20parent specialists;copyintact/bypasskeep/removeonly/bypassremove
+crosssaved/restoredoldC6terminal,wholeoldreaderrestoration,terminal-onlyappend/replace
+inoriginalsource/exactcopy. All13protected/intacts/sources preserved. Eightfixedtrace
+cases/496plannedhistories;source/copyreadertransforms nooracleaccess. SameM18VM.
+5focusedtestsPASS0.11s,27fixturecalls/48extranative+tracechecks,0newcases/sciencecalls.
+All400M20completion/13localhashesunchanged. Register/pushbeforeexecution,then durable
+tools/run_m21_workflow.py ONLYonce. Inspect runs/readout_causality_m21/workflow_status.json
+andphaselogs.Nosecondwriter/failedautoresume/sourcechanges/reselection/boundsextension.
+10workers,900sevaluation/250kcalls/1e14work;ALL-nativeaudit900s;traceandauditeach900s/
+2500calls/1e13work;8GiBRSS/2GiBTOTALstorageinclbackups/16GiBfreefloor. At readiness
+interpretconditionalcausalitywithsavedrasters/status/work/ALLhistories,verifyprior,
+guardedSQLiteAPIbackupandoldlayoutreference,report/seal/commitpushcompactevidence/logs.
+NoM22/longsearch/cloud/recombination/solverinjectionauthorized.Random-origincentral.
+<!-- M21-STATUS-END -->
+
 <!-- M20-STATUS-START -->
 Current October22,2026: **M20 COMPLETE, fresh-confirmed and AUDITED.** Read
 results/copy_specialization/report.md, summary.json, interpretation.json,
