@@ -34,6 +34,38 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M22-STATUS-START -->
+Current October22,2026: **M22 PREPARED; user authorized guarded-expression assay.**
+Read docs/GUARDED_EXTENSION.md,docs/GUARDED_EXTENSION_PROGRESS.md and
+results/guarded_extension config/sources/preflight/registration. SameM18VM,3related
+random-origin sources:actualM15parent/child+declaredknownM10threshold.3arms ordinary/
+unconditionaloverwrite/guarded;256pairedsource-draws,3/5UNSELECTEDopportunities;
+768endpoints/3072oppsEACHarm,256rawrandomM1controls. Extensionarmsappend2nodes/op,
+samepayload/material/RNG,onlySELECTvsCOPYterminaldiffers,allancestor-prefix/ports/
+seedsretained;notbehaviorguarantee. UniformACTIVEwriter,no C6bias/favorablegate.
+103archivealiases/76physicalrefs:13protected+M10known+M20nominees+ALLM21noncontrols,
+comparisonONLY,noveltysubtractsall;intactcontrolsoutsideunion. No newsolverinference.
+Fresh712screen;fixed36roles+randomcontrolwinner FREEZE/PUSHBEFOREfresh1680final.
+PRIMARYnovelcompleteunitsZEROunlessALLsourcecorrectretained,0false,nonemptyA0no-path
+90%;guard-vs-overwritesupportpositive2/3relatedbackgroundsANDsum,notstatistics.
+Secondaryrolescannotrescue. Fullknownskill/profile/genotypecomparisonspreventclaims
+ofthresholdrediscovery.3/5opfixedneighborhood,NOTlongpopulationevolution.
+FivefocusedtestsPASS0.35s;fullfake-sourcefixturePASS59544calls/9.86candidate/19.91wall,
+64328aliasgrades/2062native,3passivetraces/1760scalarmodule-sitechecks.0newfixtures/
+sciencecalls. All400M20+386M21completion/13+9localhashesunchanged.
+Register/commitpushBEFOREscientificpool;run tools/run_m22_workflow.py ONLYONCE.
+ItpublishespoolBEFOREscreen,choicesBEFOREfinal,ALLgrades/RNG/mutations/cases/tasks/
+selectionaudit+fixednative,ALL-nativefinalaudit+5040baselines,12metadata-onlytrace
+cases/ALL-historyaudit. Inspect runs/guarded_extension_m22/workflow_status.json/logs.
+10workers/8GiBRSS/4GiBTOTALstorageinclbackups/16GiBfree;screen1800s/2.5Mcalls/1e14work,
+final900s/1Mcalls/1e14work,eachaudit1800s,traces/audit900s/3000calls/1e13work.
+NEVERsecondwriter,sealededits,reselection,reset,guardbypass orfailedautoresume.
+Onreadinesssaved-onlybranch-use/profile/novelty/retention/ordinarylength/costanalysis,
+guardedbackups/alllayoutreference+delta/reportreview/seal/commitpushcompactrecords+
+copiedlogs,notrawjournals.Preserveallpriorfailedrecords.Nomonitoryetcreated.
+NoM23/longsearch/cloud/recombination/solverinjectionauthorized.Random-origincentral.
+<!-- M22-STATUS-END -->
+
 <!-- M21-STATUS-START -->
 Current October22,2026: **M21 COMPLETE, causal copy/readout assay AUDITED.**
 Read results/readout_causality/report.md,summary.json,interpretation.json,
