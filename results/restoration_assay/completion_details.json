@@ -1,0 +1,50 @@
+{
+  "next_experiment_launched": false,
+  "no_reselection": true,
+  "prior_M15_hashes": 401,
+  "prior_M15_local_records": 11,
+  "registration_hashes": 346,
+  "status": "complete_audited",
+  "trace_audit_cost": {
+    "all_histories_replayed": true,
+    "calls": 64,
+    "status": "PASS",
+    "wall_seconds": 5.854434374952689,
+    "work": 29046204
+  },
+  "trace_cost": {
+    "calls": 64,
+    "limitation": "Passive instrumented copy shares M1 semantics. Native terminal equality and C0 recurrence checked; no forced extension or routing changes.",
+    "native_seconds": 0.026050961925648153,
+    "selected_cases": {
+      "corridor": "m7validation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/0/d4-0",
+      "cycle/2": "m7validation/stress/a(4, 6)/straight/c4/s0/cycle/p2/paired/0/d4-0",
+      "cycle/4": "m7validation/stress/a(4, 6)/straight/c4/s0/cycle/p4/paired/0/d4-0",
+      "cycle/8": "m7validation/stress/a(4, 6)/straight/c4/s0/cycle/p8/paired/0/d4-0",
+      "disconnected": "m7validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+      "ordinary_disconnected/15": "m16screen/ordinary/disconnected/15/r0/0/disconnected/15x15/d4-0",
+      "ordinary_disconnected/9": "validation/disconnected/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-0",
+      "ordinary_perfect/long": "m16screen/ordinary/perfect/11/124000/perfect/11x11/d4-0",
+      "ordinary_perfect/medium": "m16screen/ordinary/perfect/11/108000/perfect/11x11/d4-0",
+      "ordinary_perfect/short": "m16screen/ordinary/perfect/11/0/perfect/11x11/d4-0",
+      "ordinary_random/long": "m16screen/ordinary/random/15/r0/100000/random/15x15/d4-0",
+      "ordinary_random/medium": "m16screen/ordinary/random/15/r0/0/random/15x15/d4-0",
+      "ordinary_random/short": "m16screen/ordinary/random/15/r0/104000/random/15x15/d4-0",
+      "two_junction/2": "m7validation/stress/a(4, 6)/straight/c4/s0/two_junction/p2/paired/0/d4-0",
+      "two_junction/4": "m7validation/stress/a(4, 6)/straight/c4/s0/two_junction/p4/paired/0/d4-0",
+      "two_junction/8": "m7validation/stress/a(4, 6)/straight/c4/s0/two_junction/p8/paired/0/d4-0"
+    },
+    "trace_seconds": 0.10805991827510297,
+    "wall_seconds": 5.8600977919995785,
+    "work": 29046204
+  },
+  "usage": {
+    "calls": 2204664,
+    "candidate_seconds": 3364.4462511168094,
+    "cpu_seconds": 3446.2162019999996,
+    "receipts": 744,
+    "uncertain_attempts": 0,
+    "work": 1077827336787
+  },
+  "whole_layouts": 3357403
+}

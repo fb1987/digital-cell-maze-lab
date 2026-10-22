@@ -1,0 +1,247 @@
+{
+  "scope": "Saved final terminal comparisons and registered development traces only; no new candidate evaluation. Component labels computed externally for explanation, never candidate input.",
+  "nominee_terminal_matches": {
+    "parent/mutation/0128": {
+      "parent": true,
+      "child": false
+    },
+    "parent/mutation/0284": {
+      "parent": false,
+      "child": false
+    },
+    "parent/mutation/0727": {
+      "parent": false,
+      "child": true
+    },
+    "parent/mutation/0135": {
+      "parent": false,
+      "child": false
+    },
+    "child/mutation/0888": {
+      "parent": false,
+      "child": false
+    },
+    "child/mutation/0098": {
+      "parent": false,
+      "child": false
+    },
+    "child/mutation/0827": {
+      "parent": false,
+      "child": false
+    },
+    "child/mutation/0421": {
+      "parent": true,
+      "child": false
+    },
+    "child/ports0/0-1": {
+      "parent": false,
+      "child": true
+    },
+    "random/0953": {
+      "parent": false,
+      "child": false
+    }
+  },
+  "development_mutation_count": 2048,
+  "development_tradeoff_counts": {
+    "new_target_and_any_correct_no_path_zero_false": 0,
+    "full_restoration": 0
+  },
+  "disconnected_trace_findings": [
+    {
+      "anchor": "parent",
+      "group": "disconnected",
+      "case": "m7validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+      "status": "no_path",
+      "steps": 37,
+      "emitted_cells": 0,
+      "emitted_source_component": 0,
+      "emitted_goal_component": 0,
+      "changing_cells_last_tick": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "example_output_counter_last8": [],
+      "c0_max": 65535,
+      "c7_max": 65535,
+      "C0_nonzero_source_component": 14,
+      "C0_nonzero_goal_component": 0,
+      "C7_nonzero_source_component": 0,
+      "C7_nonzero_goal_component": 2
+    },
+    {
+      "anchor": "parent",
+      "group": "ordinary_disconnected/15",
+      "case": "m16screen/ordinary/disconnected/15/r0/0/disconnected/15x15/d4-0",
+      "status": "no_path",
+      "steps": 61,
+      "emitted_cells": 0,
+      "emitted_source_component": 0,
+      "emitted_goal_component": 0,
+      "changing_cells_last_tick": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "example_output_counter_last8": [],
+      "c0_max": 65535,
+      "c7_max": 65535,
+      "C0_nonzero_source_component": 85,
+      "C0_nonzero_goal_component": 0,
+      "C7_nonzero_source_component": 0,
+      "C7_nonzero_goal_component": 85
+    },
+    {
+      "anchor": "parent",
+      "group": "ordinary_disconnected/9",
+      "case": "validation/disconnected/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-0",
+      "status": "no_path",
+      "steps": 44,
+      "emitted_cells": 0,
+      "emitted_source_component": 0,
+      "emitted_goal_component": 0,
+      "changing_cells_last_tick": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "example_output_counter_last8": [],
+      "c0_max": 65535,
+      "c7_max": 65535,
+      "C0_nonzero_source_component": 28,
+      "C0_nonzero_goal_component": 0,
+      "C7_nonzero_source_component": 0,
+      "C7_nonzero_goal_component": 33
+    },
+    {
+      "anchor": "child",
+      "group": "disconnected",
+      "case": "m7validation/core/a(2, 3)/straight/c0/s0/fork/p0/disconnected/0/d4-0",
+      "status": "step_budget",
+      "steps": 256,
+      "emitted_cells": 2,
+      "emitted_source_component": 0,
+      "emitted_goal_component": 2,
+      "changing_cells_last_tick": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "example_output_counter_last8": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "c0_max": 65535,
+      "c7_max": 65535,
+      "C0_nonzero_source_component": 1,
+      "C0_nonzero_goal_component": 2,
+      "C7_nonzero_source_component": 0,
+      "C7_nonzero_goal_component": 2
+    },
+    {
+      "anchor": "child",
+      "group": "ordinary_disconnected/15",
+      "case": "m16screen/ordinary/disconnected/15/r0/0/disconnected/15x15/d4-0",
+      "status": "read_budget",
+      "steps": 77,
+      "emitted_cells": 83,
+      "emitted_source_component": 0,
+      "emitted_goal_component": 83,
+      "changing_cells_last_tick": [
+        0,
+        0,
+        66,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "example_output_counter_last8": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "c0_max": 65535,
+      "c7_max": 65535,
+      "C0_nonzero_source_component": 1,
+      "C0_nonzero_goal_component": 85,
+      "C7_nonzero_source_component": 0,
+      "C7_nonzero_goal_component": 85
+    },
+    {
+      "anchor": "child",
+      "group": "ordinary_disconnected/9",
+      "case": "validation/disconnected/ordinary/disconnected/9/r0/0/disconnected/9x9/d4-0",
+      "status": "read_budget",
+      "steps": 74,
+      "emitted_cells": 33,
+      "emitted_source_component": 0,
+      "emitted_goal_component": 33,
+      "changing_cells_last_tick": [
+        0,
+        0,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "example_output_counter_last8": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "c0_max": 65535,
+      "c7_max": 65535,
+      "C0_nonzero_source_component": 1,
+      "C0_nonzero_goal_component": 33,
+      "C7_nonzero_source_component": 0,
+      "C7_nonzero_goal_component": 33
+    }
+  ],
+  "posthoc_C2_recurrence": {
+    "scope": "Derived after inspecting recorded histories; checked against saved states only, not a preregistered separate hypothesis",
+    "matches": true,
+    "site_ticks": 291211,
+    "formula": "If old C1=0, C2_next=0; otherwise source gets old C1, other sites get min(65535,old C2 + (old C4>0 AND boolean XOR(old C0,old C6)))."
+  }
+}

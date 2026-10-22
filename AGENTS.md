@@ -35,24 +35,52 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M16-STATUS-START -->
-Current October22,2026: M16 mechanism/restoration study authorized and PREPARED.
-User said "Nice, proceed" after M15. Read docs/RESTORATION_ASSAY.md and progress,
-results/restoration_assay/config.json, sources.json.gz, software_validation.json.
-No new scientific workflow yet; register/push before launch. Exact M15g320/b48
-and actualparent gated_specialist; unchanged M1 runtime/operator. Fixed1024variants
-peranchor (512one/512two edits),1024random,72fixed diagnostic probes. Samepool
-joint-retention vsaggregate nomination,712freshscreen then1680freshconfirmation.
-Primary requires ALLunion-of-anchor pair/corridor/ordinary/disconnection sets,
-ALLchild-only upstreamtargets,nonvacuity,zero false. Passive native-checked traces.
-Separate protocol, not M15resume. Five focusedtests and artificialfounder pipeline
-pass; initial rehearsal preserved; exclusion observer validated before registration.
-Workflow tools/run_m16_workflow.py freezes/pushespool and choices before downstream
-cases, all-grade/pool/RNG/selection audit, ALL-nativefinal andhistoryreplay audits.
-Never duplicatewriter, altersealedfiles, reselectonfinal or silentlyresume failure.
-3Mcalls/1e13work cumulative screen+final;900s/300s,trace180s,audits1800s;10workers,
-8GiBRSS,6GiBtotalstorage inclbackups,16GiBfreefloor. PreserveallM15seals/localrecords.
-AfterPASS: reviewedactualreport,guardedSQLitebackups/alllayoutexclusions,seal,push.
-No newlongrun/M17/recombination/solverinjection/cloudcomputeauthorized.
+Current October22,2026: **M16 COMPLETE, fresh-confirmed and AUDITED.**
+Read results/restoration_assay/report.md, summary.json, mechanism_findings.json,
+three audits, preservation.json and completion.json; docs/RESTORATION_ASSAY_PROGRESS.md.
+No scientific process or subsequent experiment is running. Preserve all seals,
+originals, backups and failed/historical artifacts. Never rerun a sealed action.
+
+Registrationea90c23, pool926592b, choicesfab2457 pushed before downstreamcases.
+Exact M15g320/b48 and geneticparent gated_specialist; unchanged M1 VM/operator.
+2048genericproposals(512one+512two peranchor),1024random,72fixeddiagnostics;
+712freshscreen,1680freshconfirmation, sharedpool joint-vsaggregate nomination.
+0/4primaryjointpasses;0/72diagnosticpasses; referenceendpointNONVACUOUS.
+Parent128pairs/166corridors/14ordinarybothposes/168nopath;child184/200/8/0,0false.
+Child again16targetnonforkprefix2pairs beyondALLprotected. Threejointnominees
+retainall16 butloseall168nopath. Zeroof2048screenmutationproposals solvesANYtarget
+andANYdisconnectedinput withoutfalseclaims. No nomineeordinary16+success.
+Somevariantsmatchparent/childterminalresponses exactly; notnewcombinedskills.
+Related fixedneighborhoods, notindependentorigins orlong evolution; no general/
+speed/policy-causalityclaim. Random-origindiscoveryremainscentral.
+
+32passivetraces(16metadata-selecteddevelopmentcases×2anchors),ALLhistoryreplay
+andnativeequivalencePASS. RegisteredC0recurrencematchesallrecordedsite-ticks.
+ParentC0 readsC5;childreadsC7. On3disconnectedtraces,parentC0source-component
+andC7goal-component areseparate;childC0populatesgoal-component,sourceonlyonecell.
+AllresidualC2outputingoalcomponent,notreachablefromsource. Parentsettlesempty
+37/61/44ticks;childstepbudget256/readbudget77/74,onlyC2changingatlasttick.
+C2counts upward,notoscillates. PosthocC2recurrencechecked291211savedsiteticks;
+labelposthoc,notpreregisteredtest. Detailedproofinmechanism_findings.json.
+
+Screen2048424calls/370.00wall/3186.20candidate sec/3.895GiBRSS;final156240calls/
+41.65wall/178.25candidate sec/3.562GiBRSS. Total2204664calls,zero uncertain.
+ScreenfirstPASS188.08s:ALLgrades,122524nativereplays,fullpool/RNG/corpus/tasks/
+nomination. FinalfirstPASS117.07s:ALL156240nativeoutputs/grades/summary+5040
+BFS/A*/bitwavecalls;allintactcontrolscorrect. Traceaudit64executionsseparate;
+science trace64executionsseparate. SharedVM/operator,independentgrader.
+Fivefocusedtests,notfullsuite;two successfulpre-registrationrehearsalspreserved.
+Exclusionobservationaddedbeforeseal;queries/cases/order/RNGunchangedinfixture.
+All346registration/401M15completion/11M15localhashesunchanged. Originaljournals
+andverifiedSQLiteAPIbackups local(~0.146GiBphase),within6GiB/16GiBfreeguards.
+ALL3357403layoutsexcluded via whole_layout_exclusions.json reference+delta;
+immutablebasesrequired. RawSQLiteignoredbyGit; compactevidence/reportsealed.
+Noheartbeatcreated; durableworkflowfinished and nofurtherworkscheduled.
+NextproposalONLY: boundedgeneric duplication into sparestate, exactoldbehavior
+embedding and costaccounting first, matched unchanged-runtimecontrol, retained
+skills+upstreamendpoint, beforelongsearch. Currentcopy_block alreadyexistsbut
+replacesanotherwriter. No M17,expandedruntime,mating,solverinjection orcloudrun
+hasbeenlaunched. Newre-auditsrequireseparateoutputpackets.
 <!-- M16-STATUS-END -->
 
 
