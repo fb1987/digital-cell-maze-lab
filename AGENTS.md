@@ -35,28 +35,56 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M29-STATUS-START -->
-October23,2026: **M29 PREPARED — user authorized the M28 state-interference proposal.**
-Read docs/STATE_INTERFERENCE_M29.md and results/state_interference_m29/
-{config,preparation,preflight,registration}.json, sources/cases/jobs.json.gz.
-DEVELOPMENT ONLY:16 unchanged source genomes, ALL38 parental pairs,69 previously
-used cases,37 prospective one-port cross-bank interventions. No fresh cases,
-evolution, output selector or combined-solver claim. Diagnostic20-state banks
-have original separate clocks/caps/stop latches; total allowance maydouble.
-Sources/graph/corpus/job order MUSTpush before scientific execution. Durable
- tools/run_m29_workflow.py runs native/passive,insulation,coupling,context,analysis,
-ALL-job audit thenstops forreport. Neverduplicatewriter,change sealed sources,
-auto-resumefailure,extendbounds orreselect.1200s science/1200s audit,100Kkernel/
-full-grid-writer executions/1e12work each,10workers,8GiBRSS,2GiBtotalstorageincl
-prep/backups/16GiBdiskfloor. EightfocusedtestsPASS; discarded pipeline74executions
-on2oldfixtureinputs ALL4phases/positivechannelrescuePASS. Two failed test-harness
-runs and queried-metadata filter preparation failure preserved before registration.
-Prior437M28sealed+25localhashes verify. Static18/19/20-channel sufficient copy widths
-are conservative structural bounds, NOTlowerbounds. Parent-state one-step rescue
-is diagnostic, NEVERcandidateinference/breeding. Preserve originals and guarded
-SQLiteAPIbackup/ALLtables, old3998785layoutbase; no newlayouts. Afteraudited_ready
-review actual mechanisms/costs/limits,report/hashreview,updateprogress/AGENTS,
-seal once,commit/pushcompactevidence/copiedlogs,neverrawSQLite. NoM30/newsearch/
-outputpolicy/expandedbreedingVM/cloudauthorized. Random-originremainscentral.
+October23,2026: **M29 COMPLETE, development mechanism study and ALL-job audit PASS.**
+Read docs/STATE_INTERFERENCE_M29.md/PROGRESS and results/state_interference_m29/
+{report.md,summary.json,interpretation.json,target_timing_note.json,session.json,
+audit.json,preservation.json,report_review.json,completion.json}. Registrationaba4f8c/
+396hashes and exact source/corpus/graph/jobs pushed BEFOREscience. No process,
+heartbeat or nextphase running. NEVERresume/reselect/change sealed source/overwrite
+seals orfailedrecords/rerunclosedactions. M28historicalno-M29 scope superseded by
+userProceed; noM30 authorized. AllcasesUSEDdevelopment, no freshconfirmation.
+
+16unchangedrandom-origin models (ALL15parents/38pairs+M28regulated),69USEDinputs:
+8targets+28corridorlosses+12forkgains+12alternatives+3nopath+4long+2old16witness.
+Source-phase IDs distinct; onlyqueries.all metadata. Noevolution/newbreedinggenome/
+knownsolver/cloud.311native+311passive ALLfields/workexact,301oldrowsreproduce.
+365isolatedpaircalls/730bankchecks ALLparenthistories/fields/work match, stoppedbank
+frozen. Diagnostic20state/separateoldcaps/clocks/quietlatches, totalinstructions<=256;
+TWOinternalrasters/NOselector, notcombinedsolver. Worksumparents median2.002xrecipient;
+arraymodel1.973x,excludeswrappertemps/trace. Conservativecopywidth18/19/20 for4/22/12
+pairs isSUFFICIENTNOTMINIMUM orproof10cannot solve. No expandedbreedingVM launched.
+
+IMPORTANTCORRECTION: statesdiverge69/69donorvsregulated,48/69recipient; BUToriginal
+C6expressionsunchangedonborrowedregulatedstate inALL3150matchedwritercontrasts,
+3150native-nextchecks (1575/parent). ZEROscientificrescuecontrasts triggered; fixture
+positivecontrolnonvacuous. Wrong-contexthypothesis NOTsupportedATC6/commonwindows.
+Otherwriter/later/stopping/budgeteffects NOTexcluded. Do notsayinterferenceconfirmed.
+RegulatedC6 alwaysoneparentvalue; parentsdisagree66cases,recipientvaluesused66/donor48.
+FirstdifferenceC6 in48,none21; C2followsin38. All37prospectiveedges×8=296couplings:
+alluncoupleddonors exact; only4portschangehistory+maskall8each: C2readsC2self orC6,
+eachdirection.33neutralonall8 NOTprovenuseful. ALL74fixedbank/edge combos0/4complete
+bothpose targets. No per-casewinningbank/combinedsolver/newperformanceclaim.
+
+Science1041jobs/7583mixedunits=311native+311trace+365bankpair+296coupled+6300writer;
+598623925work,6.623summedjobsec/6.341jobCPU/4.198phasewall/1.869GiBRSS. AuditALLjobs/
+historybytes/nativefields/work/grades/source/corpus/jobs/summary firstPASS5.775s,
+5.931jobCPU/2.153GiBRSS. JobCPUexcludesworkerinit/cache/parentcost; nofullCPU/speedclaim.
+Shared diagnostic replay +frozenM18VM/independentgrader,notsecondindependentVM.
+8focusedtestsPASS(notfullsuite);2failedharnessruns+queryfilterprep failure retained.
+Discardedfixture74units/2oldcases,all4phases+nonvacuouschannelrescue. Zero scientific
+failure/uncertainattempt/guardbypass/repair/failedresume. Bounds1200s/100Kexec/1e12work
+scienceandauditseparate,10workers/8GiBRSS/2GiBtotalphase/16GiBfloor respected.
+
+Prior437M28seal+25localhashes UNCHANGED. HistorySQLite+verifiedSQLiteAPIbackup
+ALLtables/integritymatch;~8.50MiBphase/40.50GiBfree. RawSQLiteoutofGit.240casepose
+hashesALLinold3998785layoutledger; zero newlayouts, immutablebasesrequired.
+Reportreview/hash andcompletion431files/18localrecords sealedonce;compactevidence/copiedlogs published.
+AGENTSmutable; sealedprogress/source/resultsimmutable; futureauditsNEWpacket.
+NextproposalONLY: causal information-flow auditofC2/C6 executedrecurrence/propagated
+signals withcontrolledremote-connectivity contrasts andpairedalternatives, before
+anyexpansion/longsearch. AvoidrepeatingblindC6pilot orjustifying20statesbyunsupported
+contextstory. FuturechangesfreezeBEFOREfreshholdout. NoM30/mazecampaign/newsearch/
+outputpolicy/expandedbreedingVM/cloudauthorized. Random-origincentral,notclosed.
 <!-- M29-STATUS-END -->
 
 <!-- M28-STATUS-START -->

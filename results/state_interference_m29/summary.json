@@ -1,0 +1,85 @@
+{
+  "contexts": {
+    "donor": {
+      "cases": 69,
+      "context_sensitive_writer_cases": 0,
+      "dependency_group_exact_rescue_cases": 0,
+      "native_writer_next_tick_checks": 1575,
+      "one_channel_rescuable_cases": 0,
+      "state_divergence_cases": 69
+    },
+    "recipient": {
+      "cases": 69,
+      "context_sensitive_writer_cases": 0,
+      "dependency_group_exact_rescue_cases": 0,
+      "native_writer_next_tick_checks": 1575,
+      "one_channel_rescuable_cases": 0,
+      "state_divergence_cases": 48
+    }
+  },
+  "coupling": {
+    "all_uncoupled_donor_banks_exact": true,
+    "edges": 37,
+    "edges_preserving_both_on_all_cases": [
+      "[0, 0, 3]",
+      "[0, 0, 4]",
+      "[0, 1, 7]",
+      "[0, 2, 0]",
+      "[0, 2, 1]",
+      "[0, 2, 5]",
+      "[0, 3, 1]",
+      "[0, 3, 3]",
+      "[0, 3, 4]",
+      "[0, 4, 2]",
+      "[0, 5, 1]",
+      "[0, 6, 0]",
+      "[0, 6, 1]",
+      "[0, 6, 2]",
+      "[0, 7, 0]",
+      "[0, 7, 1]",
+      "[1, 0, 3]",
+      "[1, 0, 4]",
+      "[1, 1, 7]",
+      "[1, 2, 0]",
+      "[1, 2, 1]",
+      "[1, 2, 5]",
+      "[1, 3, 1]",
+      "[1, 3, 3]",
+      "[1, 3, 4]",
+      "[1, 4, 2]",
+      "[1, 5, 1]",
+      "[1, 6, 2]",
+      "[1, 6, 3]",
+      "[1, 6, 6]",
+      "[1, 6, 7]",
+      "[1, 7, 0]",
+      "[1, 7, 1]"
+    ],
+    "pair_executions": 296,
+    "receiver_history_changed": 32,
+    "receiver_terminal_fields_changed": 32
+  },
+  "development_only": true,
+  "isolation": {
+    "all_native_fields_and_state_histories_equal": true,
+    "bank_comparisons": 730,
+    "counted_work": 265334910,
+    "max_pair_array_bytes": 36991,
+    "max_trace_allocation_bytes": 3711080,
+    "pair_executions": 365
+  },
+  "limitations": "Diagnostic20-channel banks, independent clocks/caps and TWO internal rasters; not a combined evolved solver or independent confirmation. One-step restored parent states are diagnostic interventions, never breeding/inference inputs. Static width is sufficient, not a lower bound.",
+  "native": {
+    "all_native_trace_exact": true,
+    "executions": 311,
+    "saved_row_matches": 301
+  },
+  "new_cases": 0,
+  "new_evolution": 0,
+  "single_rescue_channel_presentations": {},
+  "structural_widths": {
+    "18": 4,
+    "19": 22,
+    "20": 12
+  }
+}
