@@ -34,6 +34,10 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M31-STATUS-START -->
+October23,2026: M31 finite output-interface accessibility PREPARED/registered. Latest user Proceed authorizes M30 proposal; old noM31 scope superseded. Read docs/OUTPUT_ACCESS_M31.md and results/output_access_m31/{config,sources,pool,development_panel,preparation,preflight,registration}. Exact3 M30 parents;512one-opportunity draws/source/arm ordinary/C2target/C6target viaunchangedM19operator scope wrapper.4608proposals+211references/2959physicalmodels;811USEDdevcases;27fixedroles across3sources×3arms×3roles. ALL208noncontrolhistoricalaliases novelty, controlsnotbreed. No evolution/newVM/recombination/cloud. SevenfocusedtestsPASS,discarded4case durablepreflight840native+16tracePASS; no prep failure. Source/corpus/pool/protocol mustPUSHBEFOREscience. Workflow tools/run_m31_workflow.py executesdevelopment/select/PUSHfreeze/ALLnativeaudit/traces/ALLtraceaudit/traceanalysis/fresh2128confirmation/analysis/ALLnativefinalaudit. No reselect/resumefailed/altersealed. Bounds10workers/dev1800s/final900s/trace1200s/audits2400s;5Mcalls/1e14workperstage/8GiBRSS/6GiBTOTALinclbackups/16GiBfloor. Verify428M30seal+18local. Finish guardedbackup/alllayouts/reportreview/sealONCE/push. No phase beyondM31 authorized.
+<!-- M31-STATUS-END -->
+
 <!-- M30-STATUS-START -->
 October23,2026: **M30 COMPLETE, development information-flow study and ALL-job audit PASS.**
 Read docs/INFORMATION_FLOW_M30.md/PROGRESS and results/information_flow_m30/
