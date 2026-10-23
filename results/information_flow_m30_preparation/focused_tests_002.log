@@ -1,0 +1,24 @@
+test_all_native_completed_ticks_and_fields (tests.test_information_flow_m30.InformationFlowTests.test_all_native_completed_ticks_and_fields) ... ok
+test_contrast_intervention_branch_is_nonvacuous (tests.test_information_flow_m30.InformationFlowTests.test_contrast_intervention_branch_is_nonvacuous) ... ERROR
+test_directional_C6_and_saturation (tests.test_information_flow_m30.InformationFlowTests.test_directional_C6_and_saturation) ... ok
+test_full_corpus_is_fixed_and_locally_indistinguishable (tests.test_information_flow_m30.InformationFlowTests.test_full_corpus_is_fixed_and_locally_indistinguishable) ... ok
+test_gate_swap_reverses_correct_arm (tests.test_information_flow_m30.InformationFlowTests.test_gate_swap_reverses_correct_arm) ... ok
+test_nonvacuous_C6_to_C2_intervention (tests.test_information_flow_m30.InformationFlowTests.test_nonvacuous_C6_to_C2_intervention) ... ok
+test_recurrence_against_all_writers_on_arbitrary_states (tests.test_information_flow_m30.InformationFlowTests.test_recurrence_against_all_writers_on_arbitrary_states) ... ok
+
+======================================================================
+ERROR: test_contrast_intervention_branch_is_nonvacuous (tests.test_information_flow_m30.InformationFlowTests.test_contrast_intervention_branch_is_nonvacuous)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tests/test_information_flow_m30.py", line 91, in test_contrast_intervention_branch_is_nonvacuous
+    result,_=study.evaluate(dict(id='fixture',phase='contrast',model=identity,role=role,contrast='fixture',case='a'))
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/information_flow_m30.py", line 229, in evaluate
+    patched=base.copy();patched[:,sharedsites]=b[tick,:,sharedsites]
+                        ~~~~~~~^^^^^^^^^^^^^^^
+ValueError: shape mismatch: value array of shape (22,10) could not be broadcast to indexing result of shape (10,22)
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.226s
+
+FAILED (errors=1)

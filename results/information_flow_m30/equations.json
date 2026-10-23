@@ -1,0 +1,18 @@
+{
+  "C0": "sat(C0 + max(0,C5-S))",
+  "C1": "min+(four cardinal neighbors of C7)",
+  "C2": "if C1==0 then0 else if S then C1 else sat(C2 + (bool(C0) XOR bool(C6) if C4 else0))",
+  "C3": "if C1==0 then0 else if S then C1 else sat(C3 + max(0,C5-S))",
+  "C4": "bool(C3 or G)",
+  "C5": "min+(four cardinal neighbors of C0)",
+  "C6_donor": "nbr_W(C3)",
+  "C6_recipient": "if C0 and any cardinal neighbor C1>0 then nbr_E(C3) else nbr_N(C3)",
+  "C6_regulated": "if C5 and nbr_W(C7)==0 and not G then C6_donor else C6_recipient",
+  "C7": "sat(C1+C7)",
+  "C8_donor": "sat(C0+1)",
+  "C8_recipient_regulated": "holds initial0 (inactive writer)",
+  "C9_donor": "holds initial0 (inactive writer)",
+  "C9_recipient_regulated": "G",
+  "limitation": "Algebraic output recurrence removes dead SSA nodes but does NOT remove their charged dispatch/read cost, stopping logic or budgets. No reduced solver is entered into evaluation/breeding.",
+  "notation": "All RHS use PRE-tick values. bool is 0/1; sat=min(65535,x); nbr returns0 at wall/boundary; min+ ignores0 and returns0 if none. Open sites only. S/G are immutable source/goal flags. Directions W/E/N/S are absolute grid axes, not goal-relative."
+}

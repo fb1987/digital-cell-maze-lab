@@ -34,6 +34,10 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M30-STATUS-START -->
+October23,2026: M30 information-flow study PREPARED and registered; latest user Proceed authorizes M29 proposal. Read docs/INFORMATION_FLOW_M30.md and results/information_flow_m30. Exactly fixed M29 focal3 plus intact external control; 69 USED old cases,288 controlled development presentations/138 unique layouts,144 contrasts. No evolution/new breeding genome/VM/output policy/cloud. Seven focused tests PASS after one preserved pre-registration NumPy indexing fixture failure; old-case durable preflight PASS. Frozen source/models/corpus/jobs/equations must be PUSHED before science. Bounds1200s science/audit separately,100K mixed calls/1e12work,10workers/8GiBRSS/2GiB total/16GiB floor. Never resume failed workflow or alter frozen files. Preserve all M29 seals431+18local. Next finish native traces/independent recurrence/remote-connectivity contrasts/one-step state interventions, ALL-job audit, guarded backup/layout export/report/seal/push. No further phase authorized.
+<!-- M30-STATUS-END -->
+
 <!-- M29-STATUS-START -->
 October23,2026: **M29 COMPLETE, development mechanism study and ALL-job audit PASS.**
 Read docs/STATE_INTERFERENCE_M29.md/PROGRESS and results/state_interference_m29/
