@@ -34,6 +34,32 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M32-STATUS-START -->
+October23,2026: **M32 PREPARED; latest user Proceed authorizes M31 sequential-repair proposal.**
+Read docs/REPAIR_EVOLUTION_M32.md and results/repair_evolution_m32/{registration,
+config,sources,founders,preflight,preparation,storage_plan}. Preserve all M31 and
+older originals/seals; no historical no-M32 line overrides this new authorization.
+Six96 populations/3shared-niche matched pairs,9exact protected random-originentries,
+unchanged M18VM/M19ordinarygrammar,7immigrants+45mutants/round,44survivors,8archive.
+Common811USED assessment panel/96 rotating train inputs,16-round assessments.
+Niche reserves up to8complete-controlled-success profiles/survivors and8mutations;
+no partial/empty-output reward. Exact phaseentry/actualparent/inheritedroot comparisons.
+Source measurement on2416freshcases kept OUT of selection, then25minsoft/30minhard
+search/max256rounds,10workers/8GiBRSS/8GiBTOTAL/16GiBfloor.30Mcalls/1e15work perstage,
+source/final900s,audits3600s. Freeze/push exact18roles BEFORE separate2416freshfinal;
+ALLsource/search/finalnative+independentgrades/selection/variation/RNGaudits.
+Never secondwriter/failedresume/guardextension/reselection/sealedfileedit.
+Sevenfocusedtests firstPASS+repeat; discardedfixture808+1412nativecallsPASS,
+assessment-train-assessment and2sequentialmutationRNGreplayed;0scientificcalls.
+One console-only inventory schema lookup KeyError retained, no test/sciencefailure.
+Atlaunch inspect runs/repair_evolution_m32/workflow_status.json and phase logs;
+read-only status: .venv/bin/python -m maze_evolution.repair_evolution_m32 status.
+After audits PASS: actual-report/allocation/ancestry/source-vs-descendant/oldskilllosses,
+verified SQLiteAPI backups underlocks/ALLtables,ALLlayoutreferences+delta,reportreview,
+one-shot completion seal,commit/push compact evidence/copiedlogs,neverrawSQL.
+No M33,extraevolution/recombination/solverinjection/cloud/capacityextension authorized.
+<!-- M32-STATUS-END -->
+
 <!-- M31-STATUS-START -->
 October23,2026: **M31 COMPLETE, independent confirmation and ALL3 audits PASS.**
 Read docs/OUTPUT_ACCESS_M31.md/PROGRESS; results/output_access_m31/{report.md,
