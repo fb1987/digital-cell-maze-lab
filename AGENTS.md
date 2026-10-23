@@ -34,6 +34,35 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M27-STATUS-START -->
+October23,2026: **M27 transfer-and-retention assay PREPARED.** User's latest
+"Proceed" authorizes M26's independent fixed comparison, not evolution. Read
+ docs/TRANSFER_RETENTION_M27.md and results/transfer_retention_m27/{config,
+ preparation,preflight,registration}.json. Prior M25/M26 all seals unchanged.
+ALL30rare variants(28changed PRIMARY+1noop+1immigrant),22actual parents,ALL39after-hit
+offspring,root/entry/14protected/ALL23M25choices/100archive/3intact controls.
+208named aliases/191physicalgenotypes,121sourceancestorclosure. No transformations,
+nomination,selection or new evolutionary phase. Freeze/push before science.
+Panels:22REUSEDwitnessinputs then2128FRESH(1680standard+448targeted=224ordinary
+basesx2poses). Targetfamily perfect/randomcyclic,size11/15,8–11/12–15/16–23 plus
+size15/24–31,16bases/stratum. Seed2026102301;whole-layout exclusion reference/delta.
+PRIMARYALL28 gated novelcompleteordinary8+ count beyond parent/root/entry/frozen
+portfolio.90%eachnonemptydomain parent/root/entry,nonemptyA0nopath90%,0false;
+strictbroad>=4newbases,bothfamilies,one16+. Report raw/offspring separately. Intact
+solvers EXCLUDEDfromnoveltyunion. Related selectedhistories,no general/speedclaim.
+11focusedtestsPASS; full2stage artificial pipeline40inputs/400calls+400native+4warm,
+allcontrols/independentgrades/generator/summaryPASS;984discardedlayouts excluded.
+No scientificfreshcases/candidateinference yet. Durabletools/run_m27_workflow.py
+willrun/runanalysis/ALL-nativeaudit; neverstartduplicatewriter/resume failed workflow.
+Science1200sMAXcalendar/monotonic,1Mcalls/1e14work;audit1800s/1M/1e14separate;
+10workers/8GiBRSS/4GiBTOTALphase inclpreparation/backups/16GiBfreefloor.
+Preservefailures/pendingreceipts/durablelayoutobservations; no sealedsource repair
+withoutprotocoldecision. At audited_ready_for_report verifyprior/pool/corpus/ALLnative
+PASS;create report,guardedSQLiteAPIbackup+ALLtablecompare/ALLlayouts,sealanewcompletion,
+commit/pushcompactevidence+logs,neverrawjournals. No newevolution/capacitychange,
+recombination/solverinjection/cloudcompute or phase beyondM27authorized.
+<!-- M27-STATUS-END -->
+
 <!-- M26-STATUS-START -->
 October23,2026: **M26 saved-training evolvability audit COMPLETE.** User's "Proceed"
 authorized M25's saved-record proposal, not evolution. Read
