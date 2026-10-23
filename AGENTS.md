@@ -34,6 +34,25 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M26-STATUS-START -->
+October23,2026: **M26 saved-training evolvability AUDIT PREPARED.** User's latest
+"Proceed" authorizes the audit recommended in M25, not evolution. Read
+ docs/EVOLVABILITY_AUDIT_M26.md and results/evolvability_audit_m26/registration.json.
+New separate packet; no VM/maze/selection imports in analysis or verifier, zero
+inference/new cases/evolution. Read-only M25 journal. Eight synthetic saved-row tests
+PASS. Register/push definitions, code and tests BEFORE full scan. Then run
+ tools/audit_m26_training.py and independently tools/verify_m26_training.py once.
+Use NEW failure packets if needed, never overwrite outputs/sealed M25 helpers.
+M25 all507 sealed files+18 local records remain unchanged; no old workflow/writer
+resumed. One sequential worker, eachscan30min/4GiBRSS/512MiBpacket/16GiBfreefloor.
+Report first-exposure and later ordinary8+/16+ variants, actual parent/root losses,
+same-panel reference novelty, selection survival, reproduction, final persistence
+and append constraints. Final newborns training-censored. Training novelty does not
+use 100-model final archive. Related histories/descriptive development, no causal/
+general/speed claims. Preserve/seal NEW outputs, update handoff and commit/push;
+no further evolutionary/capacity/variation phase authorized.
+<!-- M26-STATUS-END -->
+
 <!-- M25-STATUS-START -->
 Current October23UTC,2026: **M25 COMPLETE, independently confirmed and AUDITED.**
 Read results/skill_integration/report.md, summary.json, saved_diagnostics.json,
