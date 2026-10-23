@@ -5,7 +5,9 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from maze_evolution.repair_evolution_m32 import *
 
 def main():
-    config=check();assert not (OUT/'preservation.json').exists();assert json.loads((RUN/'workflow_status.json').read_text())['state']=='audited_ready_for_report'
+    config=check();assert not (OUT/'preservation.json').exists();assert json.loads((RUN/'recovery_a1_workflow_status.json').read_text())['state']=='audited_ready_for_report'
+    from tools.m32_export_recovery_a1 import approved,failure_check
+    approved();failure_check();assert json.loads((RUN/'workflow_status.json').read_text())['state']=='failed'
     for name in ('source','search','final'):assert json.loads((OUT/(name+'_audit.json')).read_text())['status']=='PASS'
     for p,r in json.loads((OUT/'preparation_local_records.json').read_text()).items():assert sha(ROOT/p)==r['sha256'] and (ROOT/p).stat().st_size==r['bytes']
     previous=load_layouts(OUT/'exclusions.json');source=readz(OUT/'source_panel.json.gz');final=readz(OUT/'fresh_panel.json.gz')
@@ -37,7 +39,7 @@ def main():
             src.close();records[name]=rec
     assert load_layouts(OUT/'whole_layout_exclusions.json')==previous|source_new|final_new
     assert storage()<config['storage_bytes'] and shutil.disk_usage(RUN).free>=config['disk_free_floor_bytes']
-    writej(OUT/'preservation.json',dict(status='verified' if all(r['backup']['status']=='verified' for r in records.values()) else 'backup_blocked',journals=records,whole_layouts=len(previous|source_new|final_new),initial_layouts=len(previous),source_layouts=len(source_new),final_layouts=len(final_new),source_priors=prior_check(),immutable_bases_required=True,all_generated_rejected_unqueried_orbits_preserved=True,storage_bytes=storage(),disk_free_bytes=shutil.disk_usage(RUN).free))
+    writej(OUT/'preservation.json',dict(status='verified' if all(r['backup']['status']=='verified' for r in records.values()) else 'backup_blocked',journals=records,whole_layouts=len(previous|source_new|final_new),initial_layouts=len(previous),source_layouts=len(source_new),final_layouts=len(final_new),source_priors=prior_check(),original_failed_journal_and_status_unchanged=True,approved_export_only_A1=True,immutable_bases_required=True,all_generated_rejected_unqueried_orbits_preserved=True,storage_bytes=storage(),disk_free_bytes=shutil.disk_usage(RUN).free))
 if __name__=='__main__':
     try:main()
     except BaseException:

@@ -1,3 +1,11 @@
+# A1 active: exported, published and auditing
+
+Human approval registered/pushed at f88f72c (14hashes). New recovery workflow initialPID9147 runs undercaffeinate; read recovery_a1_workflow_status.json. ExportPASS4.342seconds,zero newevolution/inference/cases/selection/RNG advancement; original journal and FAILED status unchanged. All18roles/14IDs/138ancestor closure match saved/rehearsal payloads. Choices da51934 published BEFORE final generation. Conservative originalupper+rehearsal+fullreceipt1664.436s<1800s. Search ALL-native/selection/RNG audit currently active, then original fresh final/analysis/ALL-native final audit. Never restart search or old workflow. Source/audit not repeated.
+
+Unregistered inspector/preservation/report/sealer helpers now read separate A1 status and disclose original failure/recovery costs. Old helper versions and two editor-only failures are preserved under recovery_a1/helper_adaptation_001, with adaptation hashes. No registered science changed. At completion run analyzer only ifabsent, preservation, reportonce+manualreview/hash, updatehandoff, then one-shotsealer DIRECTLY without redirecting its stdout into RUN (avoid hashing its own changing log). Publish all compact evidence/logs and verify seal/localrecords; never rawSQLite. Original failure seal plus additive administrative stdout tail record remain immutable. Known raw-summary generated-vs-queried denominators still need saved queried-only interpretation and endpoint invariance proof. Pause follow-up after completion or required user action. No next phase authorized.
+
+Historical handoff below is retained as provenance, superseded by current approval/activity:
+
 # A1 now approved by the human user
 
 Latest human reply “Yes” approves the tested export-only recovery and originally registered audits/fresh confirmation. Read REPAIR_EVOLUTION_M32_EXPORT_RECOVERY_A1_APPROVED.md and recovery_a1/registration.json. Publish A1 registration before execution. Do not restart search or change journal bytes. A separate recovery workflow/status will export exact stored nominees, publish choices, audit and confirm, then report/preserve/seal. Historical failed/pending-approval text below remains as provenance and is superseded by this direct approval.

@@ -35,50 +35,53 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M32-STATUS-START -->
-October23,2026: **M32 A1 APPROVED by latest human Yes; register/push then export-only recovery.**
-Read docs/REPAIR_EVOLUTION_M32.md, PROGRESS and EXPORT_RECOVERY_A1 proposal;
-results/repair_evolution_m32/failures/export_001/{preservation,failure_seal,
-stdout_seal_addendum_001}.json and recovery_a1/rehearsal.json. Registrationee05522/
-393hashes and ALL457M31seal+36local unchanged. Originalworkflow_status remainsFAILED;
-NEVERrestartsearch/reset/editregisteredsource/journal/oldseals. ApprovedA1 permits
-exportonly,thenpublishedchoices→ALLsearchaudit→originalfreshfinal/audits.
+October23,2026: **M32 approved A1 RUNNING: exportPASS, choicespublished, searchauditactive.**
+LatesthumanYes approvedthetestedexport-onlyrepair andoriginalaudits/freshconfirmation.
+Read docs/REPAIR_EVOLUTION_M32.md, PROGRESS, EXPORT_RECOVERY_A1 proposal+APPROVEDdoc,
+results/repair_evolution_m32/{registration,launch,choice_freeze,search_session}.json
+and recovery_a1/{registration,launch,export_receipt,rehearsal}.json. OriginalM32
+registrationee05522/393hashes;A1f88f72c/14hashes PUSHED beforeapplication. Exact18roles/
+14IDs/138ancestorclosure recoveredwithZERO inference/cases/selection/evolution/RNG
+advance;payloads matchrehearsal;ALLoriginalsource/searchjournalbytes/settings unchanged.
+Choicefreezeda51934 PUSHED BEFOREnewfinalcases. A1exportPASS4.342s;originalupper
+1655.456s+rehearsal4.638s+fullreceipt4.342s=1664.436s<1800hard. Noguartextension.
 
-Six96populations/3shared-niche matchedpairs,9protected random-originentries,unchanged
-M18VM/M19ordinarygrammar. Search completed62rounds plus final811case assessment,
-lateststage66,all18nominees ALREADYstored,14uniqueIDs.6,882,689calls/3,425,655,240,865
-work/12,463.900candidate/12,826.804workerCPU seconds,11,628receipts,0uncertain,
-0pending/non-done tasks. Chain a05dac9cbec1b2ce6adb98f5ecf7e2e5421895b778ec8d50182be5adc419e357.
-Normal25minsoftstop;finalassessment1649.199s,conservativeparentphaseupper1655.456s
-<1800hard. Export then TypeError duplicate role atfreeze line341 BEFORE anycanonical
-choices/ancestry/finalstates/search_session/choicepublication/freshfinal. This isour
-serializationbug,not evolutionaryevidence. Source measurement+ALLnativeauditPASS:
-raresource48controlledfresh22/30/38edgepresentations,0A/Bpairs,0correctnopath.
-Searchaudit/finalconfirmation NOTRUN;no final scientific result yet.
+Original runs/repair_evolution_m32/workflow_status.json staysFAILED/immutable;
+new tools/run_m32_recovery_a1.py RUNNING undercaffeinate(initialPID9147),status
+runs/repair_evolution_m32/recovery_a1_workflow_status.json. NEVERcallsearch/oldworkflow,
+secondworkflow/writer,reset,reselect,editregisteredfiles,journals,oldseals orfailures.
+SourceandauditPASSalready;A1 nowALLsearchnative/selection/variation/RNGaudit,thenoriginal
+fresh2416-casefinal/analysis/ALLnativeaudit. Anynewguard/error/auditfailure STOP,
+preserveandreport;noautomaticfailedresume. Existingbounds10workers/8GiBRSS/8GiBTOTAL/
+16GiBfloor/30Mcalls/1e15work perstage;source/final900s/audits3600s,unchanged.
 
-Original source/search journals and verifiedSQLiteAPI failure_export_001 backups
-ALLtables/settings/integritymatch underlocks;allbytehashesunchanged. Initial+ALLsource
-layouts/reference+deltas preserved;alloriginalreceipts/logs/traceback copied/sealed.
-Preservationhelper self-stdoutsuccessline was appendedafteritsseal;originalseal
-unchanged plusadditive stdout_seal_addendum_001 capturesONLYthatadministrativelog.
-All scientificrecordsandotherlocals match. Preservebothrecords,neveroverwrite.
+62rounds/6882689searchcalls/3425655240865work/12463.900candidate/12826.804workerCPU,
+11628receipts,0uncertain/0pending. Finalassessment62fullysaved(stage66). ALL457M31seal+
+36locals unchanged. Originalsource/searchSQLiteAPI failurebackups/ALLtables verified;
+failurepacketfailures/export_001 immutable. Original failurewasduplicate-role serialization
+BEFOREcanonicalexports;notanevolutionaryresult. Additive stdout_seal_addendum_001 fixes
+ONLYunregisteredpreserver's successline appendedafterfirstseal;allsciencematches.
 
-ProposedA1 tools/m32_export_recovery_a1.py rehearsePASS4.638s:exact18savednominees,
-138ancestorclosure,zero inference/cases/generations/selection/RNGadvancement;
-originaljournal SHA50f1c603a19244ceee7c7f62bb94f05bbcebd87d1d16622ae0d95fc3ffb10d1b
-unchanged,originalTypeErrorreproduced,unapprovedapplyrejected. Canonicalartifactpaths
-stillABSENT;draftsemanticpayloads arePROPOSALONLY.139.906shardexportallowanceremains
-AFTERoriginalupper+rehearsalcharge. No bounds extension proposed.
-New gated tools/run_m32_recovery_a1.py NOTLAUNCHED: afterEXPLICITuserapproval,
-register/pushA1 beforeexport,copyexactalready-savedroles withrolekeyonce;original
-journalandFAILEDstatus stayunchanged. PublishchoicesBEFOREfreshcases,thenoriginal
-ALLsearchaudit/final/analysis/ALLfinalaudit;newrecoverystatus. DoNOTcallsearchagain.
-Unregisteredposthelpers canreadnewapprovedstatus afterapproval,failurespreserved.
-Knownrawsummarygenerated-vs-querieddenominatorcaveatstillrequiresqueried-only
-postinterpretationandendpointinvariancechecks;no rawsummary/sourceediting.
-LatesthumanYes explicitlyAPPROVES A1scope. Read APPROVEDdoc/newA1registration.
-A1execution afterregistrationpublication isauthorized; monitor mayresume afterlaunch.
-OriginalworkflowstaysFAILED;newrecoverystatusseparate. No M33,extraevolution,
-recombination/solverinjection/cloud/capacityextension authorized.
+Source rarevariant independently48controlledpresentations at22/30/38edges,0A/Bpairs,
+0correctnopath:limited inheritedability,notM32acquisition. Six96 populations/3matched
+shared-nichepairs9protectedentries;sameM18/M19VM/grammar,7immigrants+45mutants,44survivors/
+8archive;811USEDassessment/96rotatingtraincases. Nichereserves8profiles/survivors+8births,
+fullcorrectpaths only,noempty/partialreward. FixedINTEGRATED primarynovelordinary8+
+2posebases beyond220fixednoncontrolaliases,parent/entry/ancestralroots;zeroifchanged-M32/
+domain90/nonemptyA0nopath90/zerofalsenopath gatesfail. Niche descriptivesupportpositive2/3
+pairsANDsum. Relatedforks,norolesubstitution/general/speed/significanceclaim.
+
+Atrecoveryaudited_ready_for_report:3PASS audits/choicepublication/priorhashesverify;
+analyze_m32_saved ONLYifabsent, query-onlydenominator/lengthcorrectionMUSTproveall
+endpoints/gatesinvariant;nevereditrawsummary/science. Preservewithadaptedpreserve_m32
+(SQLiteAPI/ALLtables/ALLlayoutreferences+deltas insidebounds), report_m32ONCE thenreview
+actualevidence/nextrecommendation+report_reviewSHA,updateAGENTS/progress,seal_m32ONCE
+DIRECTLY(no ownstdoutlogunderRUN),commit/push compact evidence/force-addcopiedlogs,
+neverrawSQL. Helpers areUNREGISTERED, adaptedforA1status/timing;oldversions+2editor-only
+failurespreservedinrecovery_a1/helper_adaptation_001. No scientificimpact;preserveany
+newfailedhelperpacketbeforefixing,neveroverwriteclosedoutputs/seals/failedrecords.
+Follow-upACTIVE;pauseafterreport/preservation/publication orrequireduseraction.
+No M33,extraevolution/recombination/solverinjection/cloud/capacityextension authorized.
 <!-- M32-STATUS-END -->
 
 <!-- M31-STATUS-START -->

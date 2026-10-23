@@ -6,7 +6,7 @@ from maze_evolution.repair_evolution_m32 import OUT,RUN,readonly,unpacked,writej
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--assessment',type=int);p.add_argument('--output',type=Path);a=p.parse_args()
-    status=json.loads((RUN/'workflow_status.json').read_text());result=dict(workflow=status)
+    original=json.loads((RUN/'workflow_status.json').read_text());active=RUN/'recovery_a1_workflow_status.json';status=json.loads(active.read_text()) if active.exists() else original;result=dict(workflow=status,original_workflow=original)
     if (RUN/'search/campaign.sqlite').exists():
         j=readonly('search');states=j.state();result['search']=dict(generation=states[0]['generation'],latest=j.get('latest'),pending=None if j.pending() is None else j.pending()[0],usage=j.get('usage'))
         if a.assessment is not None:
