@@ -202,3 +202,18 @@ journal, an active session, exhausted original time allowance and existing expor
 No inference, maze generation or evolutionary round occurred. Original 420 source
 hashes and prior M23/M24 seals verify. A1 will be registered and pushed before the
 export-only production recovery; the original successful scientific work is retained.
+
+A1 registered/pushed as c3af89d (10 new hashes) before production recovery. Durable
+tools/run_m25_recovery_a1.py launched under caffeinate -i, PID 69373. It completed
+export in 55.45 seconds, original plus full recovery 4,298.98 seconds <5,400. The
+session completion timestamp is 4,298.49 seconds; the additional ~0.49-second hash/
+receipt tail is disclosed in export_receipt.json. No original separate monotonic/
+calendar values were fabricated. All scientific tables match the failure backup,
+only finished/elapsed settings changed, usage and exact original nominee/ancestry/
+state bytes unchanged. All 3,951,225 layout exclusions exported and verified.
+
+Complete choice freeze 99af518 was pushed before confirmation. The original full
+search audit is now running as a1_search_audit_001. Original failed status/logs/
+failure seal and failure backup remain intact. Current status is the separate
+recovery_a1_workflow_status.json; no more evolutionary search occurs. Existing
+follow-up resumed with A1-aware instructions; routine monitoring remains quiet.

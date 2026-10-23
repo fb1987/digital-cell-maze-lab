@@ -35,7 +35,16 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M25-STATUS-START -->
-Current October22local/23UTC,2026: **M25 A1 export-only recovery APPROVED and PREPARED.**
+Current October23UTC,2026: **M25 A1 export recovery COMPLETE; full search audit RUNNING.**
+Registrationc3af89d/10A1hashes pushedbeforerecovery;durablewrapperPID69373,
+tools/run_m25_recovery_a1.py alreadyactive. NEVERduplicateworkflow/writer. Current
+status runs/skill_integration_m25/recovery_a1_workflow_status.json (a1_search_audit_001);
+old workflow_status.json remainsFAILEDbydesign. ExportreceiptPASS55.45s,wholeoriginal+
+recovery4298.98s<5400;0newrounds/inference/cases. Originalchoices/ancestry/states byte
+hashes unchanged, ALLscientifictables comparedwithfailurebackup;onlyfinished/elapsed
+metadata changed. Complete choicefreeze99af518PUSHEDbeforeconfirmation. Original420
+science hashes +10A1hashes/priorsealsunchanged. Workflowcontinuesoriginalaudits/final;
+onanyNEWfailure preserveanddiagnose,neverautomaticfailedrecoveryresume.
 User replied Yes to the sealed recovery proposal. Read
 docs/SKILL_INTEGRATION_EXPORT_RECOVERY_A1.md and results/skill_integration/recovery_a1/.
 The new tools/run_m25_recovery_a1.py will complete export at exact stage339 and then
@@ -64,7 +73,8 @@ Originalfailedworkflowrecordsremainimmutable;separaterecoverystatusrequired.
 RehearsalPASS50.03s: existingexportsreplayexact, journalbytehashunchanged,3951225layouts
 verified, metadata-onlycompletionfixture andfournegativeguardsPASS,zero newinference/
 cases. Original420scientifichashesunchanged; A1registeredbeforeproductionrecovery.
-HeartbeatcurrentlyPAUSED,willresumeagainstnewrecoverystatusafterlaunch.
+Heartbeatm25-skill-integration-follow-through ACTIVE15minagainstnewrecoverystatus;
+quietonroutine. Readrecovery_a1/launch.jsonandexport_receipt.jsonforactualevidence.
 The original scientific protocol and historical launch details follow; A1 authorizes
 only the explicit export recovery and original audits/confirmation, not more search.
 Read docs/SKILL_INTEGRATION.md, docs/SKILL_INTEGRATION_PROGRESS.md,
@@ -94,7 +104,7 @@ backups/ALLlayouts,report_m25.pydraftthenactualreview/interpretation+report_revi
 updatehandoff,seal_m25_completion.pyONCE,commit/pushcompactevidence+force-addlogs.
 NeverrawSQLinGit/overwriteoldseals/failures. Initial3742313layoutreference+delta,
 rawtablesdeltaONLY/use referenced_campaign_store.load_layouts;preserveimmutablebases.
-Followup m25-skill-integration-follow-through PAUSED afterexportfailure;notify
+Followup m25-skill-integration-follow-through ACTIVEafterapprovedA1launch;notify
 meaningfulgain/completion/failure/action,pauseaftercompletion. monitor.json creationstateonly.
 No M26/newvariation/recombination/cloudcompute/solverinjectionauthorized.
 <!-- M25-STATUS-END -->
