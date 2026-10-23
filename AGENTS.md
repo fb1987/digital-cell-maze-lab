@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M32-STATUS-START -->
-October23,2026: **M32 PREPARED; latest user Proceed authorizes M31 sequential-repair proposal.**
+October23,2026: **M32 RUNNING; latest user Proceed authorizes M31 sequential-repair proposal.**
 Read docs/REPAIR_EVOLUTION_M32.md and results/repair_evolution_m32/{registration,
 config,sources,founders,preflight,preparation,storage_plan}. Preserve all M31 and
 older originals/seals; no historical no-M32 line overrides this new authorization.
@@ -52,7 +52,10 @@ Never secondwriter/failedresume/guardextension/reselection/sealedfileedit.
 Sevenfocusedtests firstPASS+repeat; discardedfixture808+1412nativecallsPASS,
 assessment-train-assessment and2sequentialmutationRNGreplayed;0scientificcalls.
 One console-only inventory schema lookup KeyError retained, no test/sciencefailure.
-Atlaunch inspect runs/repair_evolution_m32/workflow_status.json and phase logs;
+Registrationee05522/393hashes PUSHED before science;initialwrapperPID94982 undercaffeinate.
+SourceandALLnativeauditPASS:raresource48controllednew22/30/38edgepresentations,0pairs,
+0correctnopath;restrictedinheritedability,notM32acquisition. Searchactive.
+Read docs/REPAIR_EVOLUTION_M32_PROGRESS.md. Inspect workflow_status.json/phase logs;
 read-only status: .venv/bin/python -m maze_evolution.repair_evolution_m32 status.
 After audits PASS: actual-report/allocation/ancestry/source-vs-descendant/oldskilllosses,
 verified SQLiteAPI backups underlocks/ALLtables,ALLlayoutreferences+delta,reportreview,
