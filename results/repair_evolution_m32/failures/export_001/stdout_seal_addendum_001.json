@@ -1,0 +1,12 @@
+{
+  "local_record_overrides": {
+    "runs/repair_evolution_m32/preserve_failure_001.log": {
+      "bytes": 70,
+      "sha256": "7093ed786f621926f3564c41fb6594565f662ff9e53f4f82b6d54cab4a913c9c"
+    }
+  },
+  "original_failure_seal_sha256": "c1b94f54d255ac5d0b3ed66392c98ab440291242735d865523d423a583602795",
+  "reason": "The unregistered preservation helper included its own redirected stdout log before printing its final success line. All scientific files and every other local record match. Original seal is preserved; this additive record seals the completed helper log.",
+  "scientific_records_unchanged": true,
+  "status": "verified_additive_log_correction"
+}

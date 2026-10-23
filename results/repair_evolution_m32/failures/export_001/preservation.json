@@ -1,0 +1,130 @@
+{
+  "all_completed_receipts_preserved": true,
+  "all_layouts": 4036062,
+  "copied_files": {
+    "docs/REPAIR_EVOLUTION_M32.md": {
+      "copy": "results/repair_evolution_m32/failures/export_001/05_REPAIR_EVOLUTION_M32.md",
+      "sha256": "34f3d3d7fbe17c1f0749c2875adf26969ead7918c1ce12b23cb58ce1b24b0e46"
+    },
+    "maze_evolution/repair_evolution_m32.py": {
+      "copy": "results/repair_evolution_m32/failures/export_001/03_repair_evolution_m32.py",
+      "sha256": "460aad3c0531ac08ab25ee34914240a40f8cb1396113c92f4dfe40fe20fbfa11"
+    },
+    "results/repair_evolution_m32/launch.json": {
+      "copy": "results/repair_evolution_m32/failures/export_001/07_launch.json",
+      "sha256": "6dd1d720628cdecb3ae30dee8bc957bdfb96cb3a17cd0a15acb89cd6a378aedf"
+    },
+    "results/repair_evolution_m32/registration.json": {
+      "copy": "results/repair_evolution_m32/failures/export_001/06_registration.json",
+      "sha256": "971b5e11b0f3a38dee25c1d152f890652002babfa192dd2bd07ba0a4f05dfa99"
+    },
+    "results/repair_evolution_m32/search_failure_1792792023174642000.json": {
+      "copy": "results/repair_evolution_m32/failures/export_001/10_search_failure_1792792023174642000.json",
+      "sha256": "3e31b7a026f108364d156ea662d714c85c58226119f3b59412c531db3bdfde08"
+    },
+    "results/repair_evolution_m32/source_audit.json": {
+      "copy": "results/repair_evolution_m32/failures/export_001/09_source_audit.json",
+      "sha256": "5aa43888174584d71bdf8a810a54f1707faca7e51596cbc0b3692ba80d5e07d1"
+    },
+    "results/repair_evolution_m32/source_session.json": {
+      "copy": "results/repair_evolution_m32/failures/export_001/08_source_session.json",
+      "sha256": "583c7493c2a6fbaddc56b5e2024c176a39d02ed585571fdf81db719c3d90cc73"
+    },
+    "runs/repair_evolution_m32/search_001.log": {
+      "copy": "results/repair_evolution_m32/failures/export_001/00_search_001.log",
+      "sha256": "2900bec17efce92ff3ca526be5a84d00d223f4b9580b5c7e15e99bc936e77e65"
+    },
+    "runs/repair_evolution_m32/workflow_001.log": {
+      "copy": "results/repair_evolution_m32/failures/export_001/01_workflow_001.log",
+      "sha256": "d977b436fcb315f19830892f3ecb4b6cc2278428f1e8f6073da36b640925650e"
+    },
+    "runs/repair_evolution_m32/workflow_status.json": {
+      "copy": "results/repair_evolution_m32/failures/export_001/02_workflow_status.json",
+      "sha256": "ddd9997276e3550ba3dce0666c2de3710895b3ad3ca4c54452fa4549c2311284"
+    },
+    "tools/run_m32_workflow.py": {
+      "copy": "results/repair_evolution_m32/failures/export_001/04_run_m32_workflow.py",
+      "sha256": "16c416b8c88d49819d8d4bc4dce4d2bb9851b2decb4f0dacc190fd54fb98508b"
+    }
+  },
+  "disk_free_bytes": 42878980096,
+  "final_cases_generated": 0,
+  "initial_layouts": 4016356,
+  "journals": {
+    "search": {
+      "all_tables_match": true,
+      "backup": {
+        "bytes": 271908864,
+        "path": "runs/repair_evolution_m32/search/backups/failure_export_001.sqlite",
+        "sha256": "59e61fc64c5e8c2b67b7f2baa1cab00b5b280bf40b186607172f5cfef8330eee"
+      },
+      "chain": "a05dac9cbec1b2ce6adb98f5ecf7e2e5421895b778ec8d50182be5adc419e357",
+      "generation": 62,
+      "original": {
+        "bytes": 271908864,
+        "path": "runs/repair_evolution_m32/search/campaign.sqlite",
+        "sha256": "50f1c603a19244ceee7c7f62bb94f05bbcebd87d1d16622ae0d95fc3ffb10d1b"
+      },
+      "tables": {
+        "layouts": 0,
+        "settings": 5,
+        "stages": 67,
+        "states": 6,
+        "tasks": 11628
+      },
+      "usage": {
+        "calls": 6882689,
+        "candidate_seconds": 12463.899867241853,
+        "cpu_seconds": 12826.803756000052,
+        "receipts": 11628,
+        "uncertain_attempts": 0,
+        "work": 3425655240865
+      }
+    },
+    "source": {
+      "all_tables_match": true,
+      "backup": {
+        "bytes": 26914816,
+        "path": "runs/repair_evolution_m32/source/backups/failure_export_001.sqlite",
+        "sha256": "962a981ee9100fc5ee6a23432bdc86c67dd5594bc9e68514890cd8ccb2e53547"
+      },
+      "chain": "a5e241dae9584574626911d095faaae67f78e0c289828e7c3247f2c4b8844825",
+      "generation": null,
+      "original": {
+        "bytes": 26914816,
+        "path": "runs/repair_evolution_m32/source/campaign.sqlite",
+        "sha256": "106c065a83c360c76acccee8158d4bcfbbbf026d5d24cd430455abea8b4a300e"
+      },
+      "tables": {
+        "layouts": 19706,
+        "settings": 5,
+        "stages": 1,
+        "states": 2,
+        "tasks": 51
+      },
+      "usage": {
+        "calls": 488032,
+        "candidate_seconds": 780.3531769657275,
+        "cpu_seconds": 808.2658730000002,
+        "receipts": 51,
+        "uncertain_attempts": 0,
+        "work": 244983918161
+      }
+    }
+  },
+  "no_pending_tasks": true,
+  "original_search_last_completed_assessment_elapsed_seconds": 1649.1994539169827,
+  "original_search_wall_upper_seconds": 1655.4560241699219,
+  "prior_hashes": {
+    "files": 457,
+    "local_records": 36,
+    "sha256": "eae84c9f3757b7cf80949d3bb344e88b0f8747abed52d45df9e9ea096252817e"
+  },
+  "search_audit_not_run": true,
+  "search_hard_remaining_upper_charge_seconds": 144.54397583007812,
+  "source_audit_PASS": true,
+  "source_new_layouts": 19706,
+  "status": "verified_failure_preserved",
+  "storage_bytes": 606916143,
+  "timing_note": "Conservative parent workflow interval from completion of preceding source audit to observed search subprocess exit, including startup/export failure tail. No fabricated unrecorded internal timer."
+}

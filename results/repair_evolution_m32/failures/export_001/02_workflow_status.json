@@ -1,0 +1,28 @@
+{
+  "ended_epoch": 1792792024.9191098,
+  "failure": "Traceback (most recent call last):\n  File \"/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m32_workflow.py\", line 29, in main\n    if code:raise RuntimeError(f'{action} failed; preserve all receipts; no automatic resume')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: search failed; preserve all receipts; no automatic resume\n",
+  "phase": "search",
+  "pid": 94982,
+  "started_epoch": 1792790123.3627,
+  "state": "failed",
+  "steps": [
+    {
+      "code": 0,
+      "ended_epoch": 1792790244.062207,
+      "log": "runs/repair_evolution_m32/source_001.log",
+      "phase": "source"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792790369.461403,
+      "log": "runs/repair_evolution_m32/audit_source_001.log",
+      "phase": "audit_source"
+    },
+    {
+      "code": 1,
+      "ended_epoch": 1792792024.917427,
+      "log": "runs/repair_evolution_m32/search_001.log",
+      "phase": "search"
+    }
+  ]
+}

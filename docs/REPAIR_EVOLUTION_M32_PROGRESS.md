@@ -1,3 +1,17 @@
+# M32 stopped: export failure, proposed A1 awaits approval
+
+Original workflow is FAILED, no process remains. Search completed62generations and its final assessment at stage66 with6,882,689calls,11,628receipts,zero uncertain/pending tasks. Final assessment completed at1649.199s; conservative original phase upper1655.456s. No canonical exports, search_session, choice freeze or final cases exist. The duplicate-role serialization bug in registered freeze() is isolated; do not edit registered source or restart search.
+
+Source and search journals now have verified SQLite-API failure backups under locks with ALL tables/settings and integrity matching. Failure packet originals and logs are preserved in failures/export_001, with failure_seal.json. Its sole administrative self-stdout tail mismatch is documented additively in stdout_seal_addendum_001.json; all science and other local records match. No old record or seal overwritten.
+
+The exact18 saved nominees/14identities and138ancestor closure have been rehearsed into draft proposal artifacts under recovery_a1/rehearsal with zero inference/cases/evolution/selection/RNG progress; original journal hash unchanged. Unapproved apply is blocked. Rehearsal4.638s plus original upper leaves139.906s of1800s ceiling for approved export, no extension. Read docs/REPAIR_EVOLUTION_M32_EXPORT_RECOVERY_A1.md and tools/m32_export_recovery_a1.py. New gated tools/run_m32_recovery_a1.py is NOT launched. It would preserve original FAILED status and journal, export the already stored nominees, publish choices, then invoke original search audit/final/analysis/final audit only.
+
+USER APPROVAL REQUIRED before A1 registration/application or any final generation. Follow-up is paused. Do not treat this failure as a result of final independent confirmation. No M33/extra evolution/solver injection/cloud/capacity increase authorized.
+
+---
+
+Historical active handoff retained below (superseded by failure state above):
+
 # M32 active handoff
 
 User Proceed authorized M31 sequential proposal. Registration ee055222467e59af0b0ff2c8eb8b4be33c21429b/393 hashes pushed before science. Existing workflow tools/run_m32_workflow.py is RUNNING under caffeinate -i, initial wrapper PID94982. Never launch another workflow or writer. Read workflow_status.json and phase logs. Source measurement and ALL-native source audit PASS. Search is active; no choices/final yet. All prior journals/seals remain immutable.

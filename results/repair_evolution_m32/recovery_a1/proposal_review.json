@@ -1,0 +1,34 @@
+{
+  "additional_required_authorization": "Explicit A1 approval before registering/applying exporter or running recovery workflow; no automatic failed resume.",
+  "cause": "Registered freeze() supplied role twice in one dict constructor; TypeError before first export write.",
+  "impact": "Search receipt chain and all final checkpoints/RNG/18stored nominees intact. No canonical finalist export, published choice freeze, independent descendant final generation or search/final audit occurred.",
+  "no_final_cases_generated": true,
+  "no_recovery_workflow_running": true,
+  "preflight_gap": "Assessment/train/assessment and mutation RNG were tested, but the actual freeze serialization path was not exercised before registration.",
+  "preserved_search_calls": 6882689,
+  "preserved_search_receipts": 11628,
+  "prior_hashes": {
+    "files": 457,
+    "local_records": 36,
+    "sha256": "eae84c9f3757b7cf80949d3bb344e88b0f8747abed52d45df9e9ea096252817e"
+  },
+  "proposed_files": {
+    "docs/REPAIR_EVOLUTION_M32_EXPORT_RECOVERY_A1.md": "e9e873dd2642b583687482fde6062ce943630b01dc5d1f144987cd1e98df1660",
+    "tools/m32_export_recovery_a1.py": "3726334d235e36cf6ac2e05bc52076c362abe23c140427aa8b755dde8e9c3f1e",
+    "tools/run_m32_recovery_a1.py": "cf6132bf1bdd06987d3b67fe8f091f1a72d0d6b7cbb12c436fb37ca0d8882eb0"
+  },
+  "proposed_fix": "New exporter copies existing c once then adds population/replicate/arm, preserving its role. Registered source and original journal/status unchanged.",
+  "registered_source_hashes": 393,
+  "status": "prepared_awaiting_user_approval",
+  "validation": {
+    "new_cases": 0,
+    "new_evolution": 0,
+    "new_inference": 0,
+    "new_selection": 0,
+    "original_bug_reproduced": true,
+    "read_only_rehearsal": "PASS",
+    "registry_closure": 138,
+    "saved_nominees": 18,
+    "unapproved_apply_rejected": true
+  }
+}

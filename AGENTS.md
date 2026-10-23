@@ -35,32 +35,47 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M32-STATUS-START -->
-October23,2026: **M32 RUNNING; latest user Proceed authorizes M31 sequential-repair proposal.**
-Read docs/REPAIR_EVOLUTION_M32.md and results/repair_evolution_m32/{registration,
-config,sources,founders,preflight,preparation,storage_plan}. Preserve all M31 and
-older originals/seals; no historical no-M32 line overrides this new authorization.
-Six96 populations/3shared-niche matched pairs,9exact protected random-originentries,
-unchanged M18VM/M19ordinarygrammar,7immigrants+45mutants/round,44survivors,8archive.
-Common811USED assessment panel/96 rotating train inputs,16-round assessments.
-Niche reserves up to8complete-controlled-success profiles/survivors and8mutations;
-no partial/empty-output reward. Exact phaseentry/actualparent/inheritedroot comparisons.
-Source measurement on2416freshcases kept OUT of selection, then25minsoft/30minhard
-search/max256rounds,10workers/8GiBRSS/8GiBTOTAL/16GiBfloor.30Mcalls/1e15work perstage,
-source/final900s,audits3600s. Freeze/push exact18roles BEFORE separate2416freshfinal;
-ALLsource/search/finalnative+independentgrades/selection/variation/RNGaudits.
-Never secondwriter/failedresume/guardextension/reselection/sealedfileedit.
-Sevenfocusedtests firstPASS+repeat; discardedfixture808+1412nativecallsPASS,
-assessment-train-assessment and2sequentialmutationRNGreplayed;0scientificcalls.
-One console-only inventory schema lookup KeyError retained, no test/sciencefailure.
-Registrationee05522/393hashes PUSHED before science;initialwrapperPID94982 undercaffeinate.
-SourceandALLnativeauditPASS:raresource48controllednew22/30/38edgepresentations,0pairs,
-0correctnopath;restrictedinheritedability,notM32acquisition. Searchactive.
-Read docs/REPAIR_EVOLUTION_M32_PROGRESS.md. Inspect workflow_status.json/phase logs;
-read-only status: .venv/bin/python -m maze_evolution.repair_evolution_m32 status.
-After audits PASS: actual-report/allocation/ancestry/source-vs-descendant/oldskilllosses,
-verified SQLiteAPI backups underlocks/ALLtables,ALLlayoutreferences+delta,reportreview,
-one-shot completion seal,commit/push compact evidence/copiedlogs,neverrawSQL.
-No M33,extraevolution/recombination/solverinjection/cloud/capacityextension authorized.
+October23,2026: **M32 STOPPED ON EXPORT ERROR; user approval needed for proposed A1.**
+Read docs/REPAIR_EVOLUTION_M32.md, PROGRESS and EXPORT_RECOVERY_A1 proposal;
+results/repair_evolution_m32/failures/export_001/{preservation,failure_seal,
+stdout_seal_addendum_001}.json and recovery_a1/rehearsal.json. Registrationee05522/
+393hashes and ALL457M31seal+36local unchanged. Originalworkflow_status remainsFAILED;
+NEVERresume/reset/editregisteredsource/journal/oldseals orgeneratefinalcases now.
+
+Six96populations/3shared-niche matchedpairs,9protected random-originentries,unchanged
+M18VM/M19ordinarygrammar. Search completed62rounds plus final811case assessment,
+lateststage66,all18nominees ALREADYstored,14uniqueIDs.6,882,689calls/3,425,655,240,865
+work/12,463.900candidate/12,826.804workerCPU seconds,11,628receipts,0uncertain,
+0pending/non-done tasks. Chain a05dac9cbec1b2ce6adb98f5ecf7e2e5421895b778ec8d50182be5adc419e357.
+Normal25minsoftstop;finalassessment1649.199s,conservativeparentphaseupper1655.456s
+<1800hard. Export then TypeError duplicate role atfreeze line341 BEFORE anycanonical
+choices/ancestry/finalstates/search_session/choicepublication/freshfinal. This isour
+serializationbug,not evolutionaryevidence. Source measurement+ALLnativeauditPASS:
+raresource48controlledfresh22/30/38edgepresentations,0A/Bpairs,0correctnopath.
+Searchaudit/finalconfirmation NOTRUN;no final scientific result yet.
+
+Original source/search journals and verifiedSQLiteAPI failure_export_001 backups
+ALLtables/settings/integritymatch underlocks;allbytehashesunchanged. Initial+ALLsource
+layouts/reference+deltas preserved;alloriginalreceipts/logs/traceback copied/sealed.
+Preservationhelper self-stdoutsuccessline was appendedafteritsseal;originalseal
+unchanged plusadditive stdout_seal_addendum_001 capturesONLYthatadministrativelog.
+All scientificrecordsandotherlocals match. Preservebothrecords,neveroverwrite.
+
+ProposedA1 tools/m32_export_recovery_a1.py rehearsePASS4.638s:exact18savednominees,
+138ancestorclosure,zero inference/cases/generations/selection/RNGadvancement;
+originaljournal SHA50f1c603a19244ceee7c7f62bb94f05bbcebd87d1d16622ae0d95fc3ffb10d1b
+unchanged,originalTypeErrorreproduced,unapprovedapplyrejected. Canonicalartifactpaths
+stillABSENT;draftsemanticpayloads arePROPOSALONLY.139.906shardexportallowanceremains
+AFTERoriginalupper+rehearsalcharge. No bounds extension proposed.
+New gated tools/run_m32_recovery_a1.py NOTLAUNCHED: afterEXPLICITuserapproval,
+register/pushA1 beforeexport,copyexactalready-savedroles withrolekeyonce;original
+journalandFAILEDstatus stayunchanged. PublishchoicesBEFOREfreshcases,thenoriginal
+ALLsearchaudit/final/analysis/ALLfinalaudit;newrecoverystatus. DoNOTcallsearchagain.
+Unregisteredposthelpers canreadnewapprovedstatus afterapproval,failurespreserved.
+Knownrawsummarygenerated-vs-querieddenominatorcaveatstillrequiresqueried-only
+postinterpretationandendpointinvariancechecks;no rawsummary/sourceediting.
+Follow-upPAUSED pendingapproval. No A1execution, M33,extraevolution,recombination,
+solverinjection/cloud/capacityextension authorized. No active scientificprocess.
 <!-- M32-STATUS-END -->
 
 <!-- M31-STATUS-START -->
