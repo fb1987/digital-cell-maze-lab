@@ -1,0 +1,40 @@
+{
+  "actual_orchestrator_exercised": true,
+  "artificial_receipts_reused": true,
+  "elapsed_clock_and_resource_guards_exercised": true,
+  "new_inference_calls": 0,
+  "normal_stop_and_freeze_exercised": true,
+  "session": {
+    "calendar_seconds": 39.2501060962677,
+    "chain": "64b3665c35a625346463f74f9e64ad1c27c57e3ac782e1c0961eacbd446a56b3",
+    "generation": 246,
+    "monotonic_seconds": 39.25023549993057,
+    "new_rounds": 3,
+    "reason": null,
+    "rss_peak_bytes": 2109734912,
+    "status": "complete",
+    "stop": {
+      "elapsed_seconds": 25.025603749905713,
+      "generation": 246,
+      "reason": "round_ceiling",
+      "usage": {
+        "calls": 79176,
+        "candidate_seconds": 24.158386021503247,
+        "cpu_seconds": 29.207486,
+        "receipts": 84,
+        "uncertain_attempts": 0,
+        "work": 8260775275
+      }
+    },
+    "usage": {
+      "calls": 267336,
+      "candidate_seconds": 75.83160027046688,
+      "cpu_seconds": 92.57471499999998,
+      "receipts": 144,
+      "uncertain_attempts": 0,
+      "work": 26192025176
+    },
+    "wall_seconds": 39.250222541973926
+  },
+  "status": "PASS"
+}

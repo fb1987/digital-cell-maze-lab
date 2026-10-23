@@ -34,6 +34,39 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M25-STATUS-START -->
+Current October22,2026: **M25 PREPARED, user authorized Proceed after M24.**
+Read docs/SKILL_INTEGRATION.md, docs/SKILL_INTEGRATION_PROGRESS.md,
+results/skill_integration/registration.json and launch.json foractualpublishedstate.
+Six96populations=3EXACTM23enabledendingstates/RNG/archives at243 xcurrent/integrate.
+447ancestorclosure;all9M23states+fulljournalsuntouched. NoM24ablationfounders. Same
+M23enabledgrammar/M18VM/7immigrants+45mutants. Common120trainqueries(48fresh+48old
+ordinary+24retention),96x120nominal;115x392assessperpop/16NEWrounds. Currentoldselector;
+Integratebalanced-domainmerit/archive+12balancedparentbirths;both12explorerniche.
+PRIMARYfixedINTEGRATEDnovelordinary8+completebasesbeyondroot/entry/100preM25models,
+zeroifM25mutation/90%rootANDentryretention/nonemptyA0nopath90%/zerofalsenopathgatesfail.
+Needpositive2/3pairsANDsum;no rolesubstitution/significance/general/speedclaim.
+Durable tools/run_m25_workflow.py, journal runs/skill_integration_m25/campaign.sqlite,
+workflow_status.json/phaselogs. NEVER secondwriter/editsealed/reset/reselect/extend.
+10workers;70minsoft/90minhardMAXepoch/monotonic;1024newmax/cumulative1267;100Mcalls/
+1e15work/8GiBRSS/12GiBTOTALinclbackups/16GiBfreefloor. Final900s/1M/1e14;eachaudit3600s.
+Sevenfocusedtests+artificialevolution/fullpipeline/runnerreplaysPASS;source/protocol/
+founders/config frozen/pushedBEFOREscience. WorkflowpublishchoicesBEFOREfresh1680
+confirmation,auditALLsearchgrades/selection/variation/RNG+nativesamples,thenfinal/
+analysis/ALL-nativefinalaudit. M25confirmationauthorized. Onerror/guard/failed audit:
+preservelogs/traceback/pendingreceipts,diagnosewithoutsealedchanges;neverfailedautoresume.
+Read-onlytools/inspect_skill_integration.py;~64newroundassessmentsDEVELOPMENTsamepanel
+references,notconfirmation/crosspanelgains. At audited_ready_for_report verifyhashes/
+freeze/audits,analyze_m25_saved.py onceifabsent,preserve_m25.pyguardedverifiedSQLiteAPI
+backups/ALLlayouts,report_m25.pydraftthenactualreview/interpretation+report_review.json,
+updatehandoff,seal_m25_completion.pyONCE,commit/pushcompactevidence+force-addlogs.
+NeverrawSQLinGit/overwriteoldseals/failures. Initial3742313layoutreference+delta,
+rawtablesdeltaONLY/use referenced_campaign_store.load_layouts;preserveimmutablebases.
+Quietfollowup15min,notifymeaningfulgain/completion/failure/action,pauseaftercompletion.
+No M26/newvariation/recombination/cloudcompute/solverinjectionauthorized.
+<!-- M25-STATUS-END -->
+
+
 <!-- M24-STATUS-START -->
 Current October22,2026: **M24 COMPLETE, MECHANISM-EVALUATED and AUDITED.**
 Read results/branch_causality/report.md,summary.json,interpretation.json,
