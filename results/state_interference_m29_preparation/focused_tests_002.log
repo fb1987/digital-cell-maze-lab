@@ -1,0 +1,25 @@
+test_cones_and_slot_mapping (tests.test_state_isolation_m29.IsolationTests.test_cones_and_slot_mapping) ... ok
+test_cross_bank_reads_use_previous_tick (tests.test_state_isolation_m29.IsolationTests.test_cross_bank_reads_use_previous_tick) ... ok
+test_cross_edge_has_real_causal_effect_on_receiver_only (tests.test_state_isolation_m29.IsolationTests.test_cross_edge_has_real_causal_effect_on_receiver_only) ... ok
+test_divergence_is_bounded_to_recorded_common_ticks (tests.test_state_isolation_m29.IsolationTests.test_divergence_is_bounded_to_recorded_common_ticks) ... ok
+test_independent_stop_latches_and_cost (tests.test_state_isolation_m29.IsolationTests.test_independent_stop_latches_and_cost) ... ERROR
+test_random_native_equivalence_and_budgets (tests.test_state_isolation_m29.IsolationTests.test_random_native_equivalence_and_budgets) ... ok
+test_structural_sharing_requires_closed_dependencies (tests.test_state_isolation_m29.IsolationTests.test_structural_sharing_requires_closed_dependencies) ... ok
+test_writer_matches_every_completed_native_tick (tests.test_state_isolation_m29.IsolationTests.test_writer_matches_every_completed_native_tick) ... ok
+
+======================================================================
+ERROR: test_independent_stop_latches_and_cost (tests.test_state_isolation_m29.IsolationTests.test_independent_stop_latches_and_cost)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tests/test_state_isolation_m29.py", line 36, in test_independent_stop_latches_and_cost
+    self.assertEqual(c['counted_work'],sum(r.neighbor_reads+r.dispatches for r in rr));self.assertEqual(c['state_channels'],20)
+                                       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tests/test_state_isolation_m29.py", line 36, in <genexpr>
+    self.assertEqual(c['counted_work'],sum(r.neighbor_reads+r.dispatches for r in rr));self.assertEqual(c['state_channels'],20)
+                                           ^^^^^^^^^^^^^^^^
+AttributeError: 'ExposureReaction' object has no attribute 'neighbor_reads'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.177s
+
+FAILED (errors=1)

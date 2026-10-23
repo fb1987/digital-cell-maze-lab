@@ -1,0 +1,4 @@
+{
+  "action": "prepare",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/state_interference.py\", line 382, in main\n    try:globals()[a.action]()\n        ~~~~~~~~~~~~~~~~~~~^^\n  File \"/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/state_interference.py\", line 135, in prepare\n    sources=make_sources();data=make_panel(sources);jobs=make_jobs(sources,data)\n                                ~~~~~~~~~~^^^^^^^^^\n  File \"/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/state_interference.py\", line 79, in make_panel\n    if m['family']=='corridor' and donor[cid]['optimal'] and not reg[cid]['optimal']:choose(cid,'all_donor_corridor_losses')\n                                   ~~~~~^^^^^\nKeyError: 'confirmation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/0/d4-1'\n"
+}

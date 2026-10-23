@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/state_interference.py", line 389, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/state_interference.py", line 382, in main
+    try:globals()[a.action]()
+        ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/state_interference.py", line 135, in prepare
+    sources=make_sources();data=make_panel(sources);jobs=make_jobs(sources,data)
+                                ~~~~~~~~~~^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/maze_evolution/state_interference.py", line 79, in make_panel
+    if m['family']=='corridor' and donor[cid]['optimal'] and not reg[cid]['optimal']:choose(cid,'all_donor_corridor_losses')
+                                   ~~~~~^^^^^
+KeyError: 'confirmation/core/a(2, 3)/straight/c0/s0/fork/p0/corridor/0/d4-1'

@@ -34,6 +34,31 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M29-STATUS-START -->
+October23,2026: **M29 PREPARED — user authorized the M28 state-interference proposal.**
+Read docs/STATE_INTERFERENCE_M29.md and results/state_interference_m29/
+{config,preparation,preflight,registration}.json, sources/cases/jobs.json.gz.
+DEVELOPMENT ONLY:16 unchanged source genomes, ALL38 parental pairs,69 previously
+used cases,37 prospective one-port cross-bank interventions. No fresh cases,
+evolution, output selector or combined-solver claim. Diagnostic20-state banks
+have original separate clocks/caps/stop latches; total allowance maydouble.
+Sources/graph/corpus/job order MUSTpush before scientific execution. Durable
+ tools/run_m29_workflow.py runs native/passive,insulation,coupling,context,analysis,
+ALL-job audit thenstops forreport. Neverduplicatewriter,change sealed sources,
+auto-resumefailure,extendbounds orreselect.1200s science/1200s audit,100Kkernel/
+full-grid-writer executions/1e12work each,10workers,8GiBRSS,2GiBtotalstorageincl
+prep/backups/16GiBdiskfloor. EightfocusedtestsPASS; discarded pipeline74executions
+on2oldfixtureinputs ALL4phases/positivechannelrescuePASS. Two failed test-harness
+runs and queried-metadata filter preparation failure preserved before registration.
+Prior437M28sealed+25localhashes verify. Static18/19/20-channel sufficient copy widths
+are conservative structural bounds, NOTlowerbounds. Parent-state one-step rescue
+is diagnostic, NEVERcandidateinference/breeding. Preserve originals and guarded
+SQLiteAPIbackup/ALLtables, old3998785layoutbase; no newlayouts. Afteraudited_ready
+review actual mechanisms/costs/limits,report/hashreview,updateprogress/AGENTS,
+seal once,commit/pushcompactevidence/copiedlogs,neverrawSQLite. NoM30/newsearch/
+outputpolicy/expandedbreedingVM/cloudauthorized. Random-originremainscentral.
+<!-- M29-STATUS-END -->
+
 <!-- M28-STATUS-START -->
 October23,2026: **M28 COMPLETE, independent confirmation and BOTH ALL-native audits PASS.**
 Read docs/INTEGRATION_ACCESSIBILITY_M28.md and its PROGRESS handoff; results/
