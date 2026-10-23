@@ -1,0 +1,37 @@
+{
+  "calendar_seconds": null,
+  "chain": "76d4f19003b0466be33d6cd065ea9c6c9d0d0ef4e88cfd3cefb175a227357d94",
+  "clock_limitation": "Original separate clocks were not exported before failure; charged original MAX elapsed plus recovery MAX elapsed, with full recovery tail in export_receipt.json",
+  "generation": 562,
+  "monotonic_seconds": null,
+  "new_rounds": 319,
+  "original_recorded_elapsed_seconds": 4243.536071062088,
+  "paused_interval_excluded": "Original active_session_epoch is None; user decision interval is not active computation",
+  "reason": null,
+  "recovery": "User-approved export-only A1; no evolutionary continuation",
+  "recovery_elapsed_at_metadata_commit": 54.9739830493927,
+  "rss_peak_bytes": 3512418304,
+  "status": "complete",
+  "stop": {
+    "elapsed_seconds": 4202.11772108078,
+    "generation": 562,
+    "reason": "wall_target",
+    "usage": {
+      "calls": 24161904,
+      "candidate_seconds": 28528.876856240327,
+      "cpu_seconds": 29859.443611999966,
+      "receipts": 22115,
+      "uncertain_attempts": 0,
+      "work": 7448008516122
+    }
+  },
+  "usage": {
+    "calls": 24388480,
+    "candidate_seconds": 28729.37333123421,
+    "cpu_seconds": 30071.694617999965,
+    "receipts": 22188,
+    "uncertain_attempts": 0,
+    "work": 7497041354407
+  },
+  "wall_seconds": 4298.494110822678
+}
