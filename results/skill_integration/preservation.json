@@ -1,0 +1,57 @@
+{
+  "disk_free_bytes": 42916618240,
+  "final_new_layouts": 5696,
+  "initial_layouts": 3742313,
+  "search_new_layouts": 208912,
+  "stages": {
+    "final": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 9478144,
+        "integrity_check": "ok",
+        "path": "runs/skill_integration_m25/final/backups/completed.sqlite",
+        "requires_immutable_base_ledger": true,
+        "sha256": "20f24a4d45426243e6581d3c1bbaad8751393b6ff800a94789fd933800c1aa9a",
+        "status": "verified"
+      },
+      "chain": "16ff7ac72e70628ff2b0d8de023aab40ca7fb46cbb09fde6c05b6501c524e974",
+      "immutable_base_reference": {
+        "count": 3951225,
+        "path": "/Users/frankie/Documents/ChatGPT/digital cell/results/skill_integration/search_exclusions.json",
+        "sha256": "b2870f7a75ad50dc427688d85f517e4f7a3d1db105ce22c7735149b490636aa9"
+      },
+      "journal": {
+        "bytes": 9478144,
+        "path": "runs/skill_integration_m25/final/campaign.sqlite",
+        "sha256": "8b4667385a409a27e2c75cce67785899aef361a332fd1ab359ee475a8aeadfa1"
+      },
+      "layouts": 3956921
+    },
+    "search": {
+      "backup": {
+        "all_table_contents_match": true,
+        "bytes": 965771264,
+        "integrity_check": "ok",
+        "path": "runs/skill_integration_m25/backups/completed.sqlite",
+        "requires_immutable_base_ledger": true,
+        "sha256": "43350d144b4e83e12497a1390d8a40ee6b6687d50b729432a1dc05a7b3f2e065",
+        "status": "verified"
+      },
+      "chain": "76d4f19003b0466be33d6cd065ea9c6c9d0d0ef4e88cfd3cefb175a227357d94",
+      "immutable_base_reference": {
+        "count": 3742313,
+        "path": "/Users/frankie/Documents/ChatGPT/digital cell/results/skill_integration/registered_exclusions.json",
+        "sha256": "cf7915228f63c8c9ae00114b7b382aa9c0b455f0fa54788565a8623febec3139"
+      },
+      "journal": {
+        "bytes": 965771264,
+        "path": "runs/skill_integration_m25/campaign.sqlite",
+        "sha256": "cf098e0ccd65aa564fe4517c698c556ca6e6d38514370d6f099463a0d41c6d70"
+      },
+      "layouts": 3951225
+    }
+  },
+  "status": "verified",
+  "storage_bytes": 3007217582,
+  "whole_layouts": 3956921
+}

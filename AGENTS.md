@@ -35,78 +35,82 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M25-STATUS-START -->
-Current October23UTC,2026: **M25 A1 export recovery COMPLETE; full search audit RUNNING.**
-Registrationc3af89d/10A1hashes pushedbeforerecovery;durablewrapperPID69373,
-tools/run_m25_recovery_a1.py alreadyactive. NEVERduplicateworkflow/writer. Current
-status runs/skill_integration_m25/recovery_a1_workflow_status.json (a1_search_audit_001);
-old workflow_status.json remainsFAILEDbydesign. ExportreceiptPASS55.45s,wholeoriginal+
-recovery4298.98s<5400;0newrounds/inference/cases. Originalchoices/ancestry/states byte
-hashes unchanged, ALLscientifictables comparedwithfailurebackup;onlyfinished/elapsed
-metadata changed. Complete choicefreeze99af518PUSHEDbeforeconfirmation. Original420
-science hashes +10A1hashes/priorsealsunchanged. Workflowcontinuesoriginalaudits/final;
-onanyNEWfailure preserveanddiagnose,neverautomaticfailedrecoveryresume.
-User replied Yes to the sealed recovery proposal. Read
-docs/SKILL_INTEGRATION_EXPORT_RECOVERY_A1.md and results/skill_integration/recovery_a1/.
-The new tools/run_m25_recovery_a1.py will complete export at exact stage339 and then
-run the original audits/confirmation. It uses recovery_a1_workflow_status.json and
-a1-prefixed logs; original failed workflow_status.json stays failed/immutable.
-Do not launch another search or automatically resume any failed recovery.
-Read docs/SKILL_INTEGRATION_EXPORT_REPAIR_PROPOSAL.md and
-results/skill_integration/failures/export_001/preservation.json. Search completed319
-newrounds/cumulative562, finalassessmentstage339 complete; all22188tasksdone,
-0pending/uncertain,24388480calls/28729.37candidate/30071.69CPU seconds,
-7497041354407work. Normalsoftstop4202.12s;chargedelapsed4243.54s. Exportfailed
-becausewrite_layouts expectsabsentexclusions.json whileconfig/journalcorrectlyuse
-registered_exclusions.json. Rehearsalscreatedcompatibilityfile;productiondidnot.
-All420registeredhashesunchanged. No audit or confirmation started, no completionseal.
-Originalfailedstatus/logs/partialchoices/ancestry/states preserved; all18choices/sixstates
-matchcheckpoint, hashchainverified. SQLiteAPIbackupunderbothwriterlocks verifiedALL
-tables/integrity,originalbytehashunchanged. Backup runs/skill_integration_m25/backups/
-export_failure_001.sqlite; neveroverwrite. ALL3951225layouts preserved viafailurepacket
-reference+delta (3742313initial+208912search), immutablebasesrequired. ~1.84GiBphase/
-40.95GiBfree afterbackup within12/16bounds. Finalassessment562+summary saveddevelopment;
-all18novelindividual/pair/ordinarysuccessesbeyond14protectedunion=0,DEVELOPMENTonly.
-Approved scope: registeredexport-onlyrecovery,compatibilitymanifestmatchingregistered
-base,verifyexistingexportswithoutoverwriting,finishmissingledger/session atEXACT
-checkpoint,noevolution/reselection,thenpublishedchoicefreeze/originalaudits/final.
-Originalfailedworkflowrecordsremainimmutable;separaterecoverystatusrequired.
-RehearsalPASS50.03s: existingexportsreplayexact, journalbytehashunchanged,3951225layouts
-verified, metadata-onlycompletionfixture andfournegativeguardsPASS,zero newinference/
-cases. Original420scientifichashesunchanged; A1registeredbeforeproductionrecovery.
-Heartbeatm25-skill-integration-follow-through ACTIVE15minagainstnewrecoverystatus;
-quietonroutine. Readrecovery_a1/launch.jsonandexport_receipt.jsonforactualevidence.
-The original scientific protocol and historical launch details follow; A1 authorizes
-only the explicit export recovery and original audits/confirmation, not more search.
-Read docs/SKILL_INTEGRATION.md, docs/SKILL_INTEGRATION_PROGRESS.md,
-results/skill_integration/registration.json and launch.json foractualpublishedstate.
-Six96populations=3EXACTM23enabledendingstates/RNG/archives at243 xcurrent/integrate.
-447ancestorclosure;all9M23states+fulljournalsuntouched. NoM24ablationfounders. Same
-M23enabledgrammar/M18VM/7immigrants+45mutants. Common120trainqueries(48fresh+48old
-ordinary+24retention),96x120nominal;115x392assessperpop/16NEWrounds. Currentoldselector;
-Integratebalanced-domainmerit/archive+12balancedparentbirths;both12explorerniche.
-PRIMARYfixedINTEGRATEDnovelordinary8+completebasesbeyondroot/entry/100preM25models,
-zeroifM25mutation/90%rootANDentryretention/nonemptyA0nopath90%/zerofalsenopathgatesfail.
-Needpositive2/3pairsANDsum;no rolesubstitution/significance/general/speedclaim.
-Registration341c73e/420hashesPUSHEDBEFOREscience. Durabletools/run_m25_workflow.py
-alreadylaunchedinitialPID43450/child43468/10workers, journal runs/skill_integration_m25/campaign.sqlite,
-workflow_status.json/phaselogs. NEVER secondwriter/editsealed/reset/reselect/extend.
-10workers;70minsoft/90minhardMAXepoch/monotonic;1024newmax/cumulative1267;100Mcalls/
-1e15work/8GiBRSS/12GiBTOTALinclbackups/16GiBfreefloor. Final900s/1M/1e14;eachaudit3600s.
-Sevenfocusedtests+artificialevolution/fullpipeline/runnerreplaysPASS;source/protocol/
-founders/config frozen/pushedBEFOREscience. WorkflowpublishchoicesBEFOREfresh1680
-confirmation,auditALLsearchgrades/selection/variation/RNG+nativesamples,thenfinal/
-analysis/ALL-nativefinalaudit. M25confirmationauthorized. Onerror/guard/failed audit:
-preservelogs/traceback/pendingreceipts,diagnosewithoutsealedchanges;neverfailedautoresume.
-Read-onlytools/inspect_skill_integration.py;~64newroundassessmentsDEVELOPMENTsamepanel
-references,notconfirmation/crosspanelgains. At audited_ready_for_report verifyhashes/
-freeze/audits,analyze_m25_saved.py onceifabsent,preserve_m25.pyguardedverifiedSQLiteAPI
-backups/ALLlayouts,report_m25.pydraftthenactualreview/interpretation+report_review.json,
-updatehandoff,seal_m25_completion.pyONCE,commit/pushcompactevidence+force-addlogs.
-NeverrawSQLinGit/overwriteoldseals/failures. Initial3742313layoutreference+delta,
-rawtablesdeltaONLY/use referenced_campaign_store.load_layouts;preserveimmutablebases.
-Followup m25-skill-integration-follow-through ACTIVEafterapprovedA1launch;notify
-meaningfulgain/completion/failure/action,pauseaftercompletion. monitor.json creationstateonly.
-No M26/newvariation/recombination/cloudcompute/solverinjectionauthorized.
+Current October23UTC,2026: **M25 COMPLETE, independently confirmed and AUDITED.**
+Read results/skill_integration/report.md, summary.json, saved_diagnostics.json,
+allocation_persistence.json, interpretation_evidence.json, append_headroom_diagnostics.json,
+both audits, preservation.json, report_review.json and completion.json when present;
+docs/SKILL_INTEGRATION_PROGRESS.md and SKILL_INTEGRATION_EXPORT_RECOVERY_A1.md.
+No further scientific writer/search is running. Recovery status is
+runs/skill_integration_m25/recovery_a1_workflow_status.json = audited_ready_for_report.
+Original workflow_status.json stays FAILED as immutable historical evidence.
+Preserve ALL originals/seals/backups/failures. Never resume closed actions, overwrite
+records or reselect on confirmation. Completion sealing/publishing follows this handoff.
+
+Original registration341c73e/420hashes BEFOREscience; approved A1c3af89d/10hashes
+BEFOREexport recovery; complete choices99af518 PUSHED BEFOREfresh1680confirmation.
+Six96 populations,3current/integrate matchedforks of EXACT wholeM23enabled ending
+states/RNG/archives at243.447inheritedancestorclosure,notallM23births; all9M23states
+remain intact.319NEWrounds/cumulative562,normal70minsoftstop. SameM18VM/M23enabled
+variation,7immigrants+45mutants; common120trainqueries/115x392assessments. Rank/archive/
+12balanced-parent allocation package,notisolatedcausality orcurriculumtest. NoM24
+hand-ablationfounder/knownsolver/recombination. Related histories,notindependentorigins.
+
+PRIMARY0-0 ALL3pairs,descriptive_supportFALSE. ALL18roles/5genotypes haveZERO raw
+newordinary8+base/upstreampair/individualinput beyonddeclared100model+protectedunion,
+beforegates.6rolealiasespassretention/disconnection/attribution; allstrictintegration/
+upstream/long/combinedflagsFALSE. Allnominees0/86ordinary16+bases;maxcorrectordinary8
+edges. All18roles168/168correctno-path,0false.3evolvednominees:
+CURRENT0g562/b45:32M25+19sourcebirths,148pairs/200corridors/17ordinary;vsroot+36pairs/
++1five-edgeordinary,noloss;vsactualentry+28/-12pairs,+28corridors,+1/-1ordinary.
+INTEGRATE0g443/b23:22+19births,148/200/16;vsroot+36pairs,+1/-1ordinary;sameentrypair/
+corridorgainsbutoneordinarylost;actualgeneticparentlosestwoordinarybases.
+INTEGRATE2g530/b22:20+0births,128/200/14;rootANDentryquota_child124/154/13,allskills
+retained,+4pairs/+46corridors/+1two-edgeordinary. Frozen gated_specialist differs:
+ordinary+1/-3. Same-panel known-portfolio consolidation,notnewsolving capability.
+
+86130mutants+13398immigrants; maxfinalM25depth26..43inclnoops,up to5extensionbirths.
+Everypopulation3828explorerbredmutants; INTEGRATEalso3828balancedcyclevsCURRENT
+additionallexicase. Headroomdiagnostic reconcilesALLprospectiveappends:boundednoops
+CURRENT0 717/3582,INTEGRATE0 2373/3625(65.46%);otherblockedfractions8.94%,0.64%,0.08%,
+0.31%. ALLhitonly128totaladmissionbound,none31writerbound. Productioninstructions
+includeactivewriterdispatches. Posthoc exposure inrelatedhistories,notcausalproof;
+otherpopulationsadmittedthousandswithoutnovelty.145/129/116instructionevolvednominees.
+Oneunregisteredsaveddiagnosticnodes-onlycountassertionfailedBEFOREoutput;packet
+postprocessing_failures/headroom_001 preserved, correctedhelperusesproductionproperty.
+No scientificsource/record/inference change fromhelpercorrection.
+
+Search24388480calls/28729.37candidate/30071.69CPU seconds/7497041354407work,
+3.271GiBRSS; final110physicalmodelsx1680=184800calls/195.44candidate/206.03CPU/
+61243863004work/38.32s/3.726GiBRSS. Combined24573280calls/28924.81candidate/
+30277.72CPU/7558285217411work;0uncertain. Perpopulation3674880nominaltrain+946680
+assessmentqueries; equalnominalbudgetsnotCPU. SearchauditPASSfirst920.71s:ALLgrades,
+224024native,99528births,340corpus/task/selection/variation/RNG/freezetransitions.
+FinalauditPASSfirst128.59s:ALL184800native/grades/summary+5040conventionalcontrols;
+intactcontrolsallcorrect. SharedproductionVM/operator,independentgrader,notsecondVM.
+
+Originalsearchstoppednormalat4202.12s,exportfailedmissingcompatibilityexclusions.json.
+Originalfailedstatus/logs/partialexports and verifiedfailurebackup remainimmutable.
+Userapprovedexport-onlyA1:existingexportsreplayEXACTbytehashes/scientifictablesmatch
+failurebackup;ONLYfinished/elapsedsettingsupdated,zeroextraevolution/evaluation/cases.
+SavedrehearsalPASS50.03s+fournegativeguards. Export55.45s,original+fullrecovery4298.98s
+<5400;sessionmetadata4298.49+~0.49staildisclosed. Inactiveuserdecisiongapexcluded,
+originalseparateclockdecompositionunavailable,notfabricated. Failureseal17files intact.
+ALL420original+10A1/455M23+11local/410M24+11localhashesverify.
+
+Original search/final journals plus verified SQLite-API ALL-table completedbackups
+and pre-recoveryfailurebackup local;~2.80GiBphase/~39.97GiBfree,12/16guardsrespected.
+ALL3956921layouts=3742313initial+208912search+5696final exportedreference+delta;
+rawtablesDELTAONLY,usereferenced_campaign_store.load_layouts. Preserveimmutablebase/
+compatibilityledgers and all generated/rejected/unqueried hashes. No rawSQL inGit.
+ReportreviewPASS; seal ONCE with tools/seal_m25_completion.py thencommit/pushcompact
+records/force-addcopiedlogs. Pausefollowupafterpublication. No newphaseauthorized.
+
+NextproposalONLY:saved-training-record evolvability audit ofordinary8+first-exposure
+gains,nextselectionsurvival/reproduction andappendheadroom. Distinguishappearance
+fromretention beforechoosingfuturecurriculum/variation/capacitycontinuation. Training
+noveltyonlyagainstsame-caseevaluatedreferences,not100modelfinalarchive. Do not infer
+impossibility orclosureofrandom-originresearch. No M26,extraevolution,newoperators,
+recombination,solverinjection orcloudcompute launched/authorized.
 <!-- M25-STATUS-END -->
 
 

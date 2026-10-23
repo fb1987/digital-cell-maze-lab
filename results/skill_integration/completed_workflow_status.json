@@ -1,0 +1,40 @@
+{
+  "amendment": "M25-A1",
+  "ended_epoch": 1792726834.855,
+  "phase": "report_backup_seal",
+  "pid": 69373,
+  "started_epoch": 1792725658.563665,
+  "state": "audited_ready_for_report",
+  "steps": [
+    {
+      "ended_epoch": 1792725714.320874,
+      "log": "runs/skill_integration_m25/a1_export_001.log",
+      "phase": "a1_export_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792726640.8194938,
+      "log": "runs/skill_integration_m25/a1_search_audit_001.log",
+      "phase": "a1_search_audit_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792726689.44403,
+      "log": "runs/skill_integration_m25/a1_confirmation_001.log",
+      "phase": "a1_confirmation_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792726704.440228,
+      "log": "runs/skill_integration_m25/a1_analysis_001.log",
+      "phase": "a1_analysis_001",
+      "returncode": 0
+    },
+    {
+      "ended_epoch": 1792726834.854642,
+      "log": "runs/skill_integration_m25/a1_final_audit_001.log",
+      "phase": "a1_final_audit_001",
+      "returncode": 0
+    }
+  ]
+}

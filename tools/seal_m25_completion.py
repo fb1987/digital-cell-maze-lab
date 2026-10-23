@@ -3,16 +3,17 @@ import sys,json,shutil,subprocess,hashlib
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from maze_evolution.skill_integration import ROOT,OUT,RUN,check,writej,sha,load_layouts
-from tools.m25_export_recovery_a1 import ready_status,A1
+from tools.m25_export_recovery_a1 import ready_status,A1,check_failed_packet
 
 def main():
  config=check();assert not (OUT/'completion.json').exists()
  review=json.loads((OUT/'report_review.json').read_text());assert review['status']=='PASS' and review['report_sha256']==sha(OUT/'report.md')
  recovery_status_path,recovery_status=ready_status()
+ check_failed_packet()
  reg=json.loads((OUT/'registration.json').read_text());prior=json.loads((ROOT/'results/branch_causality/completion.json').read_text())
  for p,h in prior['files'].items():assert sha(ROOT/p)==h,p
  freeze=json.loads((OUT/'choices_freeze.json').read_text())
- for commit,file in [(json.loads((OUT/'launch.json').read_text())['registration_commit'],'registration.json'),(freeze['commit'],'choices.json.gz')]:
+ for commit,file in [(json.loads((OUT/'launch.json').read_text())['registration_commit'],'registration.json'),(json.loads((A1/'launch.json').read_text())['registration_commit'],'recovery_a1/registration.json'),(freeze['commit'],'choices.json.gz')]:
   subprocess.run(['git','merge-base','--is-ancestor',commit,'origin/main'],cwd=ROOT,check=True)
   assert hashlib.sha256(subprocess.check_output(['git','show',f'{commit}:results/skill_integration/{file}'],cwd=ROOT)).hexdigest()==sha(OUT/file)
  sessions={k:json.loads((OUT/n).read_text()) for k,n in [('search','session.json'),('final','final_session.json')]}
@@ -50,7 +51,7 @@ def main():
   approved_export_recovery=json.loads((A1/'export_receipt.json').read_text()),original_failed_workflow_preserved=True))
  recovery_registration=json.loads((A1/'registration.json').read_text())
  assert json.loads((A1/'export_receipt.json').read_text())['total_original_plus_recovery_seconds']<=config['session_wall_seconds']
- files=dict(reg['files']);files.update(recovery_registration['files']);paths=[*OUT.rglob('*'),ROOT/'docs/SKILL_INTEGRATION_PROGRESS.md',ROOT/'tools/analyze_m25_saved.py',ROOT/'tools/report_m25.py',ROOT/'tools/preserve_m25.py',Path(__file__).resolve()]
+ files=dict(reg['files']);files.update(recovery_registration['files']);paths=[*OUT.rglob('*'),ROOT/'docs/SKILL_INTEGRATION_PROGRESS.md',ROOT/'tools/analyze_m25_saved.py',ROOT/'tools/analyze_m25_append_headroom.py',ROOT/'tools/report_m25.py',ROOT/'tools/preserve_m25.py',Path(__file__).resolve()]
  files.update({str(p.relative_to(ROOT)):sha(p) for p in paths if p.is_file()})
  local={str(p.relative_to(ROOT)):dict(sha256=sha(p),bytes=p.stat().st_size) for p in RUN.rglob('*') if p.is_file() and (p.suffix in ('.sqlite','.log') or p.name in ('workflow_status.json','recovery_a1_workflow_status.json'))}
  storage=sum(p.stat().st_size for b in (RUN,OUT) for p in b.rglob('*') if p.is_file());free=shutil.disk_usage(RUN).free

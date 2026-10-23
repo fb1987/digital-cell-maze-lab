@@ -217,3 +217,45 @@ search audit is now running as a1_search_audit_001. Original failed status/logs/
 failure seal and failure backup remain intact. Current status is the separate
 recovery_a1_workflow_status.json; no more evolutionary search occurs. Existing
 follow-up resumed with A1-aware instructions; routine monitoring remains quiet.
+
+M25 scientific workflow is now COMPLETE and audited_ready_for_report in its separate
+A1 status. Search audit first PASS 920.71s: ALL 24,388,480 grades, 224,024 native
+samples, 99,528 births and 340 corpus/task/selection/variation/RNG/freeze transitions.
+Fresh confirmation: 110 physical models x1,680 inputs =184,800 calls, 195.44 candidate
+seconds, 206.03 CPU seconds, 38.32 elapsed, 3.726 GiB sampled peak RSS, zero uncertain.
+ALL-native final audit first PASS 128.59s plus 5,040 conventional controls, all correct.
+
+Fixed primary 0-0 in every pair; descriptive support FALSE. All 18 role aliases/five
+genotypes have zero raw novel ordinary8+, target upstream pairs or individual inputs
+beyond the declared historical union. Six role aliases pass retention/disconnection/
+phase-attribution, so missing novelty is not created by the cutoff. Every nominee
+solves 0/86 ordinary16+ bases, longest correct two-pose ordinary route eight edges.
+All retain 168/168 correct no-path answers and zero false reachable no-path claims.
+CURRENT0 g562/b45 (32new+19inherited births) reaches148pairs/200corridors/17ordinary;
+INTEGRATE0 g443/b23 (22+19)148/200/16; INTEGRATE2 g530/b22 (20+0)128/200/14. Exact root,
+actual parent, phase entry and frozen comparisons/losses are in the reviewed report.
+These are new combinations of old portfolio skills, not novel solved individual cases.
+
+Saved diagnostics verify86,130mutants+13,398immigrants and actual explorer/balanced/
+lexicase allocations. Max final M25 ancestry26..43mutation births, up to5extensions.
+Posthoc append classification reconciles every opportunity: all bounded appends hit
+only128total instructions, none31writer bound. INTEGRATE0 blocked2,373/3,625=65.46%,
+while several other populations had <1%blocking and still no final novelty. One initial
+unregistered diagnostic omitted active-writer dispatches in counting instructions;
+its assertion failed before output, packet preserved, and the helper now uses the
+existing production property. No scientific source, inference or stored row changed.
+
+Original420+A1ten hashes, all455M23+11local,410M24+11local, failure seal and published
+exact choice freeze verified. Original search/final journals and verified SQLite-API
+ALL-table completed backups plus the separate failure backup preserved. Full3,956,921
+layout ledger=3,742,313initial+208,912search+5,696final; raw tables are deltas, immutable
+base/compatibility manifests required. Total2.801GiBphase/~39.97GiBfree before report/
+seal, all12/16bounds respected. Report reviewed against actual records and SHA256 in
+report_review.json; interpretation_evidence.json and append_headroom_diagnostics.json
+preserve posthoc evidence. Completion sealing/publishing follows this handoff, then
+follow-up pauses. No phase beyond M25 or extra evolution has been launched.
+
+Next recommendation is proposal only: saved-record ordinary8+ evolvability audit,
+separating variant appearance, survival/reproduction and growth headroom before
+another sustained continuation. Preserve every exact state/RNG; random-origin
+research remains open. Do not substitute training novelty for independent confirmation.
