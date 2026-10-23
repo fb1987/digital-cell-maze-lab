@@ -1,0 +1,28 @@
+{
+  "limitation": "Checked only the frozen nominees on their full actual controlled histories; no claim about untraced proposals or all possible inputs. Algebra interpreted from fixed genotypes, no reduced program used for inference.",
+  "new_inference": 0,
+  "output_equation": "Non-source: C2_next=0 if C1==0 else sat(C2+C3). Source: C2_next=C1. The common gene deletion replaces the old gated XOR increment with physical C3; it retains nonnegative accumulation.",
+  "saved_only_posthoc": true,
+  "secondary_C6": {
+    "cases": 288,
+    "complete_tick_site_checks": 759120,
+    "equation": "C6_next=C2 (same site, PREVIOUS tick)",
+    "id": "m31/donor/C6/draw0013",
+    "note": "C2 remains its inherited gated XOR accumulator; this creates delayed local feedback, not a neighbor-predecessor map."
+  },
+  "selected_output_checks": {
+    "m31/donor/output/draw0129": {
+      "cases": 288,
+      "complete_tick_site_checks": 759120
+    },
+    "m31/recipient/output/draw0118": {
+      "cases": 288,
+      "complete_tick_site_checks": 759120
+    },
+    "m31/regulated/output/draw0488": {
+      "cases": 288,
+      "complete_tick_site_checks": 759120
+    }
+  },
+  "status": "PASS"
+}

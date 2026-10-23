@@ -35,7 +35,93 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M31-STATUS-START -->
-October23,2026: M31 finite output-interface accessibility PREPARED/registered. Latest user Proceed authorizes M30 proposal; old noM31 scope superseded. Read docs/OUTPUT_ACCESS_M31.md and results/output_access_m31/{config,sources,pool,development_panel,preparation,preflight,registration}. Exact3 M30 parents;512one-opportunity draws/source/arm ordinary/C2target/C6target viaunchangedM19operator scope wrapper.4608proposals+211references/2959physicalmodels;811USEDdevcases;27fixedroles across3sources×3arms×3roles. ALL208noncontrolhistoricalaliases novelty, controlsnotbreed. No evolution/newVM/recombination/cloud. SevenfocusedtestsPASS,discarded4case durablepreflight840native+16tracePASS; no prep failure. Source/corpus/pool/protocol mustPUSHBEFOREscience. Workflow tools/run_m31_workflow.py executesdevelopment/select/PUSHfreeze/ALLnativeaudit/traces/ALLtraceaudit/traceanalysis/fresh2128confirmation/analysis/ALLnativefinalaudit. No reselect/resumefailed/altersealed. Bounds10workers/dev1800s/final900s/trace1200s/audits2400s;5Mcalls/1e14workperstage/8GiBRSS/6GiBTOTALinclbackups/16GiBfloor. Verify428M30seal+18local. Finish guardedbackup/alllayouts/reportreview/sealONCE/push. No phase beyondM31 authorized.
+October23,2026: **M31 COMPLETE, independent confirmation and ALL3 audits PASS.**
+Read docs/OUTPUT_ACCESS_M31.md/PROGRESS; results/output_access_m31/{report.md,
+summary.json,development_summary.json.gz,trace_summary.json,saved_diagnostics.json,
+readout_algebra_note.json,witness_review.json,witness_counterpart_note.json,
+fresh_pose_review.json,development_audit.json,trace_audit.json,final_audit.json,
+preservation.json,report_review.json,completion.json}; witness.png exactsavedraster.
+Registration266bcba/391hashes/source/pool/corpus/operator/protocol PUSHED BEFOREscience;
+choices81c7a87 PUSHED BEFOREfresh. LatestProceed authorizedM30proposal/superseded
+oldnoM31. No process/heartbeat/nextphase running. Workflow_status historical
+`audited_ready_for_report`; completion closesreport/preservation. NEVERresume,
+reselect/edit frozen science/overwrite seals/failures/rerunclosedhelpers. Futureaudits
+NEWpackets;AGENTSmutable,sealedprogress/source/resultsimmutable. NoM32authorized.
+
+3EXACTM30random-origin parents;512one-opportunity seeds/source/arm ordinary/C2target/
+C6target,unchangedM19operator withinitialwriterdrawconsumed thenforced2/6.4608proposals,
+211refs(208noncontrol historicalaliases),2959physicaldevmodels. No knownsolvergenes/
+newVM/operators/recombination/multigeneration evolution/cloud. Alloldpop/RNG intact.
+811USEDcases=454M28+357M30 namespaced;nominal1245696queries/arm.97153source rowsEXACT.
+Development ALL4608novelcompleteordinary8+ZERO andcontrolledalternativepairsZERO
+BEFOREgates.Changed1486ordinary/1500output/1486C6. ALL4608domain90FAIL;all3STARTING
+parents alreadyfailancestral gate(no-opwitnesses), notalllossesfromM31. Rootrecovery
+harderthanactualparentretention;rawtargetnullstillbeforegates. Do notalterendpoint.
+
+27fixedroles collapse11candidateIDs/8genotypes. Fresh2128/480ordinarybases/437eightplus/
+174sixteenplus;222aliases/201physical/427728actualcalls. PRIMARYall9scores0,rawnovel
+complete8+ALL11zero; C2vsordinaryandC6descriptivepositive0/3,sum0,bothFALSE. Do not
+substitute exploratory/unselected variant, singlepose or lowpixelerror forPRIMARY.
+All9primary168nopath/0false;strictancestral gatesFAIL. Two limited leads DISTINCT:
+
+(1) FROZENPRIMARY `m31/donor/C6/draw0297`: ONE newFRESH11-edge15x15PERFECTordinary
+pose beyondALL208samecaseportfolio;actualparentdisconnected, counterpartpose4
+readbudgetFAIL. ScalarsavedrasterPASS. Secondaryactualparent-onlygatePASS,strictroot
+FAIL.208singleinputgains/44losses;168nopath/0false. Maxcorrectordinary17edges isOTHER
+KNOWNinput,notthenew11. No complete2posebase/general/speed/significanceclaim.
+
+(2) UNSELECTED `m31/regulated/C6/draw0246`: genericreplaceC6node14,privateSELECT→
+SATSUB(1,r25),r25gatedeastC3.48developmentcorrectpresentations/36fullstimuli beyondALL
+208portfolio andactualparent,16each18/26/34edges across3sizes/bothgateheights. ALL48
+scalarwall/endpoints/degree/connected/shortestchecksPASS;successesusewestarm.24matched
+counterpartpresentations/12fullstimuli EACHexact2extra+1missingpixel,disconnected.
+CounterpartlightsMOSTcorrecteastpath,so doNOTcallwholepolicyblindwestselection.
+3rastererrorsNOT3geneticedits/easyrepair. No repairedoutputfedtoinference. All0complete
+A/Bpairs,0ordinarybases;loseALL20parentpairs,31/34corridors,ALL4ordinarybases,ALL139
+correctnopath(50readbudget/89stepbudget).84correctreachablevsselected128. NOTnominated,
+NO freshconfirmation/passivetrace,neveraddedtofinal;ALLnativeaudit includesrows.
+Savedposthocscanfoundthis;no reselect. OnlyC6armonecandidatehascontrolledindividual
+success;ordinary/outputzero. Preservefullpool/rare genotype. Portfolio covers96OTHER
+controlledpresentations;notclaimfirsteveramongallhistoricalgenomes. Figureexactmask.
+
+Separate secondarydonor/C6draw0013 passesstrictdomains onfresh,29ordinarybases,
+ALL2128mask/statusprofilematchesoldA0(differentgenotype/work),0newindividual.380gains/
+70singleinputlosses despite domaingatepass. C6_next=C2previoussite verified759120
+savedsitechecks. Knownphenotyperecovery,NOTnovelgeneralmechanism/primaryreplacement.
+
+Trace frozen nominees+3parents+intactcontrol:15aliases/12physical/3456passivecalls,
+ALL288USEDcontrolledcases. ALLnativefields/work/historybytesaudit,4320aliasmatches.
+All11nomineeIDs/8genotypes0wrongpixel erasure/0correctcontrolledreachable.10preserve
+sixchannelcoreALL288commonwindows;oneordinaryexploratorychangesitALL288. Unselected
+NOTtraced,don'tinfernonecanerase. C2nomineesallXOR-node-deletion rebindC3:
+C2_next=0ifC1zero elseSAT(C2+C3);source=C1.2277360sitechecksPASS,stillnonnegative
+accumulation. No reducedprogramin inference/breeding. No M30wrong-contextstory.
+
+Science development2399749calls/1027310371462work/407.523wall/3457.779candidate/
+3556.701CPU/3.256GiBRSS;trace3456/1838717460/24.133wall/4.155candidate/9.023CPU/
+2.285GiB;final427728/195742335630/103.628wall/668.462candidate/689.354CPU/3.173GiB.
+TOTAL2830933calls/1224891424552work. FirstALLauditsdev434.060s/3827.420CPU/3.019GiB,
+trace18.613s/8.877CPU/1.792GiB,final95.878s/706.671CPU/3.039GiB. ALLfields/work/grades/
+pool/variation/RNG/corpora/tasks/nomination/summary/native+tracebytesreplayed.8817
+conventionalcontrolcallsALLcorrect;intactcontrolsALLcorrect. SharedVM/passive+
+independentgrader,notsecondVM. JobCPUexcludesparent/someinit,notlatencybenchmark.
+Workflow1114.710s18.58min;postprocessseparate. SevenfocusedtestsfirstPASS+repeat,
+fixture840native+16tracePASS;no scientificfailure/repair/uncertain/guardbypass/resume.
+Bounds10workers/dev1800/final900/trace1200/audits2400s;5Mcalls/1e14workperstage;
+8GiBRSS/6GiBTOTALinclbackups/16GiBfloor respected. ALL428M30seal+18localUNCHANGED.
+3originalSQL+SQLiteAPIbackups underlocks/integrity/ALLtablesmatch:dev69824512bytes,
+trace23269376,final24596480each. Exclusions4016356=3998924old+17432ALLgenerated/reject/
+unqueried/orbithashes,science/auditobserverexact. DeltatablesONLY,loadreferencedstore
+andretainbases. ~0.253GiBphase/40.53GiBfree atbackup;rawSQLnotGit. Reportreview/hash/
+completion457files+36localrecords sealedONCE;compactevidence/copiedlogs published. Preserve originals.
+
+NextproposalONLY:short separatelyregistered15–30min MULTI-STEP repair/evolution,
+independentsourcemeasurement+freshfinalconfirmation,strongrandom-originanchors/
+actualparents+raredirectionalvariant; boundedbehavioraldiversitynicheforonesided
+successes, genericexistinggrammar output/C6/timingcoadaptation. Distinguishparent
+retentionfromancestralrecoveryinsearch;reportstrictfinalendpoint/alllosses/noempty
+reward. One-step siblingsDONOTtestsequentialdepth. No hand-editedrepair/knownsolver/
+capacityincrease/mating/cloud. NoM32/additional evolution authorized/running.
 <!-- M31-STATUS-END -->
 
 <!-- M30-STATUS-START -->

@@ -1,0 +1,35 @@
+{
+  "details": [
+    {
+      "case": "m27_target/perfect/15/edges8-11/item1/try9/ordinary/perfect/15/0/perfect/15x15/d4-0",
+      "counterpart": "m27_target/perfect/15/edges8-11/item1/try9/ordinary/perfect/15/0/perfect/15x15/d4-4",
+      "counterpart_failure": "budget_exhausted",
+      "counterpart_status": "read_budget",
+      "family": "ordinary_perfect",
+      "id": "m31/donor/C6/draw0297",
+      "oracle_edges": 11,
+      "parent": "m25/connected/1/enabled/integrate/g391/b12",
+      "parent_failure": "disconnected_output",
+      "parent_only_gate": {
+        "a0_disconnection90": true,
+        "a0_nonempty": true,
+        "domain_retention90": true,
+        "passes": true,
+        "positive_mutation_ancestry": true,
+        "zero_false_no_path": true
+      },
+      "pose": 0,
+      "size": 15,
+      "source_comparators": [
+        "m25/connected/1/enabled/integrate/g391/b12",
+        "m14/reference/quota_parent"
+      ]
+    }
+  ],
+  "independent_scalar_saved_rasters": 1,
+  "limitation": "One pre-frozen nominee solves one fresh11-edge perfect-maze pose beyond all208 declared historical aliases; the other pose fails. This is independently observed individual capability, not a complete two-pose base, primary endpoint success, broad transfer or significance.",
+  "new_cases": 0,
+  "new_inference": 0,
+  "saved_only": true,
+  "status": "PASS"
+}

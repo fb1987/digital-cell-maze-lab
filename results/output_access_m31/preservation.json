@@ -1,0 +1,84 @@
+{
+  "all_generated_rejected_unqueried_orbits_preserved": true,
+  "disk_free_bytes": 43522170880,
+  "immutable_bases_required": true,
+  "initial_layouts": 3998924,
+  "journals": {
+    "development": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 69824512,
+        "path": "runs/output_access_m31/development/backups/completed.sqlite",
+        "sha256": "441a35ab5eeb5277b47629e545c554e17f2c0ec23368daacca2921fdc71ef07d",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 0,
+          "settings": 5,
+          "stages": 1,
+          "states": 2,
+          "tasks": 740
+        }
+      },
+      "chain": "ecea0ff1a91a081c8ca66e7cb08b23c5cfaf8a09b14c073ad83fb8b2b98da3b6",
+      "journal": {
+        "bytes": 69824512,
+        "path": "runs/output_access_m31/development/campaign.sqlite",
+        "sha256": "1b4de0e89c5bb50398bd1ec11e8ee9b883a480a782be7f6c4607e4dbc8f579b9"
+      }
+    },
+    "final": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 24596480,
+        "path": "runs/output_access_m31/final/backups/completed.sqlite",
+        "sha256": "cae36022c481c2e6690f008157894938ba353dfa3bcfc4b93b5ad2aaa90af0aa",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 17432,
+          "settings": 5,
+          "stages": 1,
+          "states": 2,
+          "tasks": 51
+        }
+      },
+      "chain": "99b28f03b664fbca983daec46e41385d7a103b4f7535c833ceab20e33421aa4e",
+      "journal": {
+        "bytes": 24596480,
+        "path": "runs/output_access_m31/final/campaign.sqlite",
+        "sha256": "dd7f7e1ce78150ebc3c7b4416630366276ebd0151743a1c21344349d75b0f414"
+      }
+    },
+    "trace": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 23269376,
+        "path": "runs/output_access_m31/trace/backups/completed.sqlite",
+        "sha256": "335cb3140fc3c1af3a8220220bd574ebac00ed680cd307fec6081becc2c7170b",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 0,
+          "settings": 5,
+          "stages": 1,
+          "states": 2,
+          "tasks": 3
+        }
+      },
+      "chain": "dd602da69c897467867c8faf76a32d0ba106357433fd438262212534a417d827",
+      "journal": {
+        "bytes": 23269376,
+        "path": "runs/output_access_m31/trace/campaign.sqlite",
+        "sha256": "ad4668b93f2db33b445b8c9978673b31747d9307eb8971655814dcc35b7b4d4a"
+      }
+    }
+  },
+  "new_layouts": 17432,
+  "old_histories_unchanged": true,
+  "source_priors": {
+    "files": 428,
+    "local_records": 18,
+    "sha256": "49e80011b2cf457a1818b14db024334bb2b04be0829efdff88a6da2854cbc620"
+  },
+  "status": "verified",
+  "storage_bytes": 272002863,
+  "whole_layouts": 4016356
+}
