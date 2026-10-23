@@ -1,0 +1,20 @@
+{
+  "clock": "max monotonic and epoch elapsed; caffeinate -i prevents idle sleep only",
+  "command": [
+    "/usr/bin/caffeinate",
+    "-i",
+    "/Users/frankie/Documents/ChatGPT/digital cell/.venv/bin/python",
+    "-u",
+    "/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py"
+  ],
+  "confirmation_authorized": true,
+  "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=21561443)\t96%; charging; 0:36 remaining present: true\n",
+  "registration_commit": "341c73eea9d20f47bfa28373ca00e0b2a28790ff",
+  "registration_files": 420,
+  "scientific_source_unchanged": true,
+  "search_hard_seconds": 5400,
+  "search_soft_seconds": 4200,
+  "started_epoch": 1792713686.0440478,
+  "workers": 10,
+  "wrapper_pid": 43450
+}

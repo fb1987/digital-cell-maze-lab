@@ -61,3 +61,20 @@ failures/oldseals. Postprocessinghelpersarenotregisteredscientificcode;fixesrequ
 preservedfailedpackets,neveroverwriteclosedoutputs. Pausefollowupaftercompletionor
 requireduseraction. No phasebeyondM25/newoperators/recombination/cloudcompute/solver
 injectionauthorized. Random-origincapacity/timehypothesesremainopen.
+
+
+LAUNCHED after frozen registration341c73e, all420hashes verified and published before
+scientific generation. Initialwrapper/workflowPID43450, searchchild43468, tenworkers;
+/usr/bin/caffeinate -i preventsidle sleep without alteringpowerpreferences. ACpower.
+Durablejournal runs/skill_integration_m25/campaign.sqlite;workflow_status.jsonand
+search_001.log. Firstentryassessment243 andthree newrounds complete,125048entrycalls
+and263648cumulativecompletedcalls;0uncertain;~3.22GiBsampledRSS. These are resource/
+startupchecks,notnewabilityclaims. Entrybaseline saveddevelopment/entry_243.json.
+Inspector elapsed_search_seconds is a live active-session estimate that excludes
+initialjournalsetup beforeactive_session_epoch; use log used_seconds/MAXclock and
+finalsession for full budgeted duration. This doesnot affectactual guardclock.
+SevenfinalfocusedtestsPASS2.75s;ALLscientificmodulehashesremainunchanged. Quiet15min
+followup m25-skill-integration-follow-through ACTIVE. monitor.json iscreationreceipt,
+notfuturelivestate. Helpersanalyze/preserve/report/seal preparedasUNREGISTEREDposthoc
+tools; validateactualsaveddatawhenusedandpreserveanyfailedpacketsbeforehelperfixes.
+No scientificsource/panel/selection change afterregistration. No nextphase launched.

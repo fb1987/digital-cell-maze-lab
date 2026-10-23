@@ -35,7 +35,7 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M25-STATUS-START -->
-Current October22,2026: **M25 PREPARED, user authorized Proceed after M24.**
+Current October22,2026: **M25 RUNNING, user authorized Proceed after M24.**
 Read docs/SKILL_INTEGRATION.md, docs/SKILL_INTEGRATION_PROGRESS.md,
 results/skill_integration/registration.json and launch.json foractualpublishedstate.
 Six96populations=3EXACTM23enabledendingstates/RNG/archives at243 xcurrent/integrate.
@@ -46,7 +46,8 @@ Integratebalanced-domainmerit/archive+12balancedparentbirths;both12explorerniche
 PRIMARYfixedINTEGRATEDnovelordinary8+completebasesbeyondroot/entry/100preM25models,
 zeroifM25mutation/90%rootANDentryretention/nonemptyA0nopath90%/zerofalsenopathgatesfail.
 Needpositive2/3pairsANDsum;no rolesubstitution/significance/general/speedclaim.
-Durable tools/run_m25_workflow.py, journal runs/skill_integration_m25/campaign.sqlite,
+Registration341c73e/420hashesPUSHEDBEFOREscience. Durabletools/run_m25_workflow.py
+alreadylaunchedinitialPID43450/child43468/10workers, journal runs/skill_integration_m25/campaign.sqlite,
 workflow_status.json/phaselogs. NEVER secondwriter/editsealed/reset/reselect/extend.
 10workers;70minsoft/90minhardMAXepoch/monotonic;1024newmax/cumulative1267;100Mcalls/
 1e15work/8GiBRSS/12GiBTOTALinclbackups/16GiBfreefloor. Final900s/1M/1e14;eachaudit3600s.
@@ -62,7 +63,8 @@ backups/ALLlayouts,report_m25.pydraftthenactualreview/interpretation+report_revi
 updatehandoff,seal_m25_completion.pyONCE,commit/pushcompactevidence+force-addlogs.
 NeverrawSQLinGit/overwriteoldseals/failures. Initial3742313layoutreference+delta,
 rawtablesdeltaONLY/use referenced_campaign_store.load_layouts;preserveimmutablebases.
-Quietfollowup15min,notifymeaningfulgain/completion/failure/action,pauseaftercompletion.
+Followup m25-skill-integration-follow-through ACTIVE15min,quietonroutine;notify
+meaningfulgain/completion/failure/action,pauseaftercompletion. monitor.json creationstateonly.
 No M26/newvariation/recombination/cloudcompute/solverinjectionauthorized.
 <!-- M25-STATUS-END -->
 
