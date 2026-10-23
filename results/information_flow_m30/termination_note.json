@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "final_explicit_endpoint_halt_condition": 720,
+    "four_quiet_ticks_at_end": 0,
+    "reachable_focal_presentations": 720
+  },
+  "interpretation": "All reachable focal runs emitted via the native endpoint/C7 halt condition, with no four-tick quiet ending. That condition certifies neither raster connectivity nor shortestness; independent grades remain failures. No forced continuation or new stopping policy was tested.",
+  "new_inference": 0,
+  "saved_only": true,
+  "terminal_steps": {
+    "37": 240,
+    "53": 240,
+    "69": 240
+  }
+}

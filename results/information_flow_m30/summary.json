@@ -1,0 +1,905 @@
+{
+  "all_complete_tick_equations_exact": true,
+  "all_native_trace_fields_exact": true,
+  "by_role": {
+    "control": {
+      "contrasts": {
+        "connectivity": {
+          "C2_observer_signal": 0,
+          "C6_observer_signal": 0,
+          "any_observer_signal": 0,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 48,
+          "first_signal_histogram": {
+            "0": {
+              "None": 48
+            },
+            "1": {
+              "None": 48
+            },
+            "2": {
+              "None": 48
+            },
+            "3": {
+              "None": 48
+            },
+            "4": {
+              "None": 48
+            },
+            "5": {
+              "None": 48
+            },
+            "6": {
+              "None": 48
+            },
+            "7": {
+              "None": 48
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {},
+            "6": {}
+          }
+        },
+        "irrelevant": {
+          "C2_observer_signal": 0,
+          "C6_observer_signal": 0,
+          "any_observer_signal": 0,
+          "complete_both": 48,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "None": 48
+            },
+            "1": {
+              "None": 48
+            },
+            "2": {
+              "None": 48
+            },
+            "3": {
+              "None": 48
+            },
+            "4": {
+              "None": 48
+            },
+            "5": {
+              "None": 48
+            },
+            "6": {
+              "None": 48
+            },
+            "7": {
+              "None": 48
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 48,
+          "single_channel_restoration_presentations": {
+            "2": {},
+            "6": {}
+          }
+        },
+        "route_swap": {
+          "C2_observer_signal": 48,
+          "C6_observer_signal": 0,
+          "any_observer_signal": 48,
+          "complete_both": 48,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "None": 48
+            },
+            "1": {
+              "None": 48
+            },
+            "2": {
+              "34": 16,
+              "50": 16,
+              "66": 16
+            },
+            "3": {
+              "None": 48
+            },
+            "4": {
+              "None": 48
+            },
+            "5": {
+              "None": 48
+            },
+            "6": {
+              "None": 48
+            },
+            "7": {
+              "34": 16,
+              "50": 16,
+              "66": 16
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {},
+            "6": {}
+          }
+        }
+      },
+      "native_calls": 288,
+      "new_by_variant": {
+        "A": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 48,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "B": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 48,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "both": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 48,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter0": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 48,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter1": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 48,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "neither": {
+          "correct_no_path": 48,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "no_path": 48
+          }
+        }
+      },
+      "old_row_matches": 0,
+      "recurrence_checks": 0
+    },
+    "donor": {
+      "contrasts": {
+        "connectivity": {
+          "C2_observer_signal": 24,
+          "C6_observer_signal": 24,
+          "any_observer_signal": 32,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 48,
+          "first_signal_histogram": {
+            "0": {
+              "26": 8,
+              "None": 40
+            },
+            "1": {
+              "30": 16,
+              "46": 16,
+              "None": 16
+            },
+            "2": {
+              "33": 16,
+              "49": 8,
+              "None": 24
+            },
+            "3": {
+              "31": 16,
+              "47": 16,
+              "None": 16
+            },
+            "4": {
+              "32": 16,
+              "48": 16,
+              "None": 16
+            },
+            "5": {
+              "25": 8,
+              "None": 40
+            },
+            "6": {
+              "30": 8,
+              "34": 4,
+              "36": 4,
+              "46": 8,
+              "None": 24
+            },
+            "7": {
+              "31": 16,
+              "47": 16,
+              "None": 16
+            },
+            "8": {
+              "27": 8,
+              "None": 40
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {
+              "1": 24,
+              "4": 24
+            },
+            "6": {
+              "3": 24
+            }
+          }
+        },
+        "irrelevant": {
+          "C2_observer_signal": 0,
+          "C6_observer_signal": 0,
+          "any_observer_signal": 0,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "None": 48
+            },
+            "1": {
+              "None": 48
+            },
+            "2": {
+              "None": 48
+            },
+            "3": {
+              "None": 48
+            },
+            "4": {
+              "None": 48
+            },
+            "5": {
+              "None": 48
+            },
+            "6": {
+              "None": 48
+            },
+            "7": {
+              "None": 48
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 48,
+          "single_channel_restoration_presentations": {
+            "2": {},
+            "6": {}
+          }
+        },
+        "route_swap": {
+          "C2_observer_signal": 48,
+          "C6_observer_signal": 24,
+          "any_observer_signal": 48,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "26": 8,
+              "None": 40
+            },
+            "1": {
+              "30": 16,
+              "46": 16,
+              "62": 16
+            },
+            "2": {
+              "33": 16,
+              "49": 16,
+              "65": 16
+            },
+            "3": {
+              "31": 16,
+              "47": 16,
+              "63": 16
+            },
+            "4": {
+              "32": 16,
+              "48": 16,
+              "64": 16
+            },
+            "5": {
+              "25": 8,
+              "None": 40
+            },
+            "6": {
+              "30": 8,
+              "46": 8,
+              "62": 8,
+              "None": 24
+            },
+            "7": {
+              "31": 16,
+              "47": 16,
+              "63": 16
+            },
+            "8": {
+              "27": 8,
+              "None": 40
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {
+              "1": 12,
+              "4": 12
+            },
+            "6": {
+              "3": 24
+            }
+          }
+        }
+      },
+      "native_calls": 357,
+      "new_by_variant": {
+        "A": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "B": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "both": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter0": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter1": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "neither": {
+          "correct_no_path": 48,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "no_path": 48
+          }
+        }
+      },
+      "old_row_matches": 69,
+      "recurrence_checks": 8246250
+    },
+    "recipient": {
+      "contrasts": {
+        "connectivity": {
+          "C2_observer_signal": 24,
+          "C6_observer_signal": 24,
+          "any_observer_signal": 32,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 48,
+          "first_signal_histogram": {
+            "0": {
+              "26": 8,
+              "None": 40
+            },
+            "1": {
+              "30": 16,
+              "46": 16,
+              "None": 16
+            },
+            "2": {
+              "33": 16,
+              "49": 8,
+              "None": 24
+            },
+            "3": {
+              "31": 16,
+              "47": 16,
+              "None": 16
+            },
+            "4": {
+              "32": 16,
+              "48": 16,
+              "None": 16
+            },
+            "5": {
+              "25": 8,
+              "None": 40
+            },
+            "6": {
+              "30": 8,
+              "34": 4,
+              "36": 4,
+              "46": 8,
+              "None": 24
+            },
+            "7": {
+              "31": 16,
+              "47": 16,
+              "None": 16
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {
+              "1": 24,
+              "4": 24
+            },
+            "6": {
+              "1": 16,
+              "3": 24
+            }
+          }
+        },
+        "irrelevant": {
+          "C2_observer_signal": 0,
+          "C6_observer_signal": 0,
+          "any_observer_signal": 0,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "None": 48
+            },
+            "1": {
+              "None": 48
+            },
+            "2": {
+              "None": 48
+            },
+            "3": {
+              "None": 48
+            },
+            "4": {
+              "None": 48
+            },
+            "5": {
+              "None": 48
+            },
+            "6": {
+              "None": 48
+            },
+            "7": {
+              "None": 48
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 48,
+          "single_channel_restoration_presentations": {
+            "2": {},
+            "6": {}
+          }
+        },
+        "route_swap": {
+          "C2_observer_signal": 48,
+          "C6_observer_signal": 24,
+          "any_observer_signal": 48,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "26": 8,
+              "None": 40
+            },
+            "1": {
+              "30": 16,
+              "46": 16,
+              "62": 16
+            },
+            "2": {
+              "33": 16,
+              "49": 16,
+              "65": 16
+            },
+            "3": {
+              "31": 16,
+              "47": 16,
+              "63": 16
+            },
+            "4": {
+              "32": 16,
+              "48": 16,
+              "64": 16
+            },
+            "5": {
+              "25": 8,
+              "None": 40
+            },
+            "6": {
+              "30": 8,
+              "46": 8,
+              "62": 8,
+              "None": 24
+            },
+            "7": {
+              "31": 16,
+              "47": 16,
+              "63": 16
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {
+              "1": 12,
+              "4": 12
+            },
+            "6": {
+              "1": 12,
+              "3": 12
+            }
+          }
+        }
+      },
+      "native_calls": 357,
+      "new_by_variant": {
+        "A": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "B": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "both": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter0": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter1": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "neither": {
+          "correct_no_path": 48,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "no_path": 48
+          }
+        }
+      },
+      "old_row_matches": 69,
+      "recurrence_checks": 8246250
+    },
+    "regulated": {
+      "contrasts": {
+        "connectivity": {
+          "C2_observer_signal": 24,
+          "C6_observer_signal": 16,
+          "any_observer_signal": 32,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 48,
+          "first_signal_histogram": {
+            "0": {
+              "26": 8,
+              "None": 40
+            },
+            "1": {
+              "30": 16,
+              "46": 16,
+              "None": 16
+            },
+            "2": {
+              "33": 16,
+              "49": 8,
+              "None": 24
+            },
+            "3": {
+              "31": 16,
+              "47": 16,
+              "None": 16
+            },
+            "4": {
+              "32": 16,
+              "48": 16,
+              "None": 16
+            },
+            "5": {
+              "25": 8,
+              "None": 40
+            },
+            "6": {
+              "32": 8,
+              "48": 8,
+              "None": 32
+            },
+            "7": {
+              "31": 16,
+              "47": 16,
+              "None": 16
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {
+              "1": 24,
+              "4": 24
+            },
+            "6": {
+              "1": 16,
+              "3": 16
+            }
+          }
+        },
+        "irrelevant": {
+          "C2_observer_signal": 0,
+          "C6_observer_signal": 0,
+          "any_observer_signal": 0,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "None": 48
+            },
+            "1": {
+              "None": 48
+            },
+            "2": {
+              "None": 48
+            },
+            "3": {
+              "None": 48
+            },
+            "4": {
+              "None": 48
+            },
+            "5": {
+              "None": 48
+            },
+            "6": {
+              "None": 48
+            },
+            "7": {
+              "None": 48
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 48,
+          "single_channel_restoration_presentations": {
+            "2": {},
+            "6": {}
+          }
+        },
+        "route_swap": {
+          "C2_observer_signal": 48,
+          "C6_observer_signal": 24,
+          "any_observer_signal": 48,
+          "complete_both": 0,
+          "contrasts": 48,
+          "different_stop_ticks": 0,
+          "first_signal_histogram": {
+            "0": {
+              "26": 8,
+              "None": 40
+            },
+            "1": {
+              "30": 16,
+              "46": 16,
+              "62": 16
+            },
+            "2": {
+              "33": 16,
+              "49": 16,
+              "65": 16
+            },
+            "3": {
+              "31": 16,
+              "47": 16,
+              "63": 16
+            },
+            "4": {
+              "32": 16,
+              "48": 16,
+              "64": 16
+            },
+            "5": {
+              "25": 8,
+              "None": 40
+            },
+            "6": {
+              "34": 8,
+              "50": 8,
+              "66": 8,
+              "None": 24
+            },
+            "7": {
+              "31": 16,
+              "47": 16,
+              "63": 16
+            },
+            "8": {
+              "None": 48
+            },
+            "9": {
+              "None": 48
+            }
+          },
+          "same_terminal_output": 0,
+          "single_channel_restoration_presentations": {
+            "2": {},
+            "6": {}
+          }
+        }
+      },
+      "native_calls": 357,
+      "new_by_variant": {
+        "A": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "B": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "both": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter0": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "clutter1": {
+          "correct_no_path": 0,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "emitted": 48
+          }
+        },
+        "neither": {
+          "correct_no_path": 48,
+          "inputs": 48,
+          "optimal": 0,
+          "statuses": {
+            "no_path": 48
+          }
+        }
+      },
+      "old_row_matches": 69,
+      "recurrence_checks": 8246250
+    }
+  },
+  "development_only": true,
+  "intervention_count": 352,
+  "limitations": "Four fixed models on controlled development fixtures. Same VM/passive plus independent ten-channel vector recurrence; no independent full VM, holdout confirmation, selection, improved solver or speed claim. One-step state swaps are causal diagnostics, not full-trajectory/path rescue. Common windows stop at earliest native halt; cyclic/disconnected have unequal open counts; main swap and irrelevant controls equal counts.",
+  "new_evolution": 0,
+  "new_layout_inputs": 288,
+  "old_inputs": 69
+}

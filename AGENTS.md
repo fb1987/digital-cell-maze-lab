@@ -35,7 +35,66 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M30-STATUS-START -->
-October23,2026: M30 information-flow study PREPARED and registered; latest user Proceed authorizes M29 proposal. Read docs/INFORMATION_FLOW_M30.md and results/information_flow_m30. Exactly fixed M29 focal3 plus intact external control; 69 USED old cases,288 controlled development presentations/138 unique layouts,144 contrasts. No evolution/new breeding genome/VM/output policy/cloud. Seven focused tests PASS after one preserved pre-registration NumPy indexing fixture failure; old-case durable preflight PASS. Frozen source/models/corpus/jobs/equations must be PUSHED before science. Bounds1200s science/audit separately,100K mixed calls/1e12work,10workers/8GiBRSS/2GiB total/16GiB floor. Never resume failed workflow or alter frozen files. Preserve all M29 seals431+18local. Next finish native traces/independent recurrence/remote-connectivity contrasts/one-step state interventions, ALL-job audit, guarded backup/layout export/report/seal/push. No further phase authorized.
+October23,2026: **M30 COMPLETE, development information-flow study and ALL-job audit PASS.**
+Read docs/INFORMATION_FLOW_M30.md/PROGRESS and results/information_flow_m30/
+{report.md,summary.json,interpretation.json,wave_arrival_note.json,termination_note.json,
+session.json,audit.json,preservation.json,report_review.json,completion.json}.
+Registrationfae1fed/391hashes/source/models/corpus/jobs/equations PUSHED BEFOREscience.
+No process/heartbeat/nextphase running. NEVERresume/reselect/edit frozen files,
+overwrite seals/failedrecords orrerunclosedhelpers. Prior M29 no-M30scope superseded
+by latest userProceed; noM31authorized. Allnewinputs USEDdevelopment,notconfirmation.
+
+Exact M29 random-origin recipient/donor/regulated+intact external M18control.
+69oldinputs reproduce207/207rows. New288presentations=6templates×6variants×8poses,
+180distinct fullstimuli/138wholelayouts;48gate-swaps=24distinct unorderedpairs.
+GateA/Bswap reversescorrectarm whilepreservingcount/pathlength/observerradius1patch.
+Cycleboth/neither differs2open/stop times; irrelevant isolatedpixelscountmatch.
+No maze/modelsearch/favorablefilter,evolution/newgenotype/VM/outputpolicy/cloud.
+
+1359native+1359passive ALLfields/workexact; independentten-channelalgebra checks
+24,738,750 completedopen-sitevalues. Sixchannelcore C0/C1/C3/C4/C5/C7identicalALL3
+in357commonwindows; C2/C6noFUNCTIONALreturnedge,deadSSA stillcharged. SourceC0/C5
+andgoalC1/C7 reachabilitywaves firstactivateEXACT2ticks/graphedge:73563observed,
+10551unreachable neverpositive,12384laterarrivals censored. Inheritedmechanism,
+notnewacquisition/date-of-origin/generalpathsolver; numericvaluesNOTdistance labels.
+ALL3C2 branchsignals change48/48maincontrasts(C1ticks30/46/62,C2 33/49/65);
+C6changes24/48each. YetALL0/48alternatives,0/240reachable,48/48correctdisconnection,
+zerofalse reachable no-path. Control48/48,240/240,48/48. ALL4invariantobserverhistories/
+rasters48irrelevantcontrasts. Regulatedbotharmentrances240/240reachable.
+352first-differenceevents/3872writer calls;fullcommonstate restoresALLnextobserver
+outputs. SingleC3suffices48/48donorC6events;C1/C4canrestorefirstC2contrasts,C6alone
+none. SufficiencyNOTuniquenecessity/fulltrajectory/pathrescue;nosinglechannelinsome.
+
+C2 ifC1zero resets;else addsC4-gated bool(C0) XOR bool(C6) toself(sourceusesC1).
+Oncegoalpositivitystable, cannotretractprematurewrongpixel. SavedsecondaryUNIONof
+ALLshortestpaths:recipient144/240+donor144/240+regulated192/240wrong=480/720cases,
+912wrongpixelpresentations,zeroerasures;independentscalarcountPASS. Wrong-output
+failuretypes192disconnected/48branchcycle recipient/donor;132/108regulated. All720
+emitted viaC7/source+bothC2endpointhalt,none4quiet/endbudget. Endpointlitisnotpath.
+Notproofeverygeneralsolverneedserasure:correctdelayedcommitmentcanbemonotone.
+NoevidenceforM29wrong-contextC6hypothesis orneed20breedingstates.
+
+Science1935jobs/6590mixedunits=2718nativepassive+3872writers,1,064,163,764work,
+7.690wall/14.325summedjobwall/13.679jobCPU/1.794GiBRSS. AuditALLjobs/histbytes/
+fields/work/grades/equations/interventions/source/corpus/jobs/summary firstPASS
+7.428s/13.447jobCPU/1.839GiBRSS;workflow15.832s. JobCPUexcludesworkerinit/parentcost,
+notfullbenchmark. SharedM18VM/passive+independentvectorrecurrence/grader,notsecondVM.
+7focusedtestsPASSnotfullsuite;onepre-regindexingfixturefailure/sourcecopiesretained;
+oldcase3jobdurablepreflightPASS. No scientificfailure/repair/uncertain/guardbypass/
+failedresume. Bounds1200s/100Kunits/1e12workper science/audit,10workers/8GiBRSS/
+2GiBTOTALphase/16GiBdiskfloor respected. No cloud/no next scientific process.
+
+ALL431M29seal+18localUNCHANGED. Original10,547,200byteSQLite+verifiedAPIbackup
+integrity/ALLtables/settings matchunderlocks. Exclusion3998924=3998785old+138new+
+1algebrafixture;ALLgenerated/orbits preserved,norejections;immutablebasesrequired.
+~25.4MiBphase atbackup/~40.4GiBfree;rawSQLiteoutsideGit. Reportreview/hash/completion428files+18localrecords
+sealedONCE;compactevidence/copiedlogs published. AGENTSmutable;sealedprogress/source/
+resultsimmutable. FutureauditsNEWpackets. Neverrerunoldseal orhelpers.
+NextproposalONLY:finite separatelyregistered output-interface accessibility assay,
+generic EXISTINGgrammar C2write/gate/feedback edits withmatchedordinary/C6controls,
+fixedpool/equalopportunities;wholepaths/oldskills/no-path/wrongcommitment,notempty
+outputreward. FreezeBEFOREfreshconfirmation. Retainrandom-origin/checkpoints;
+noM31/evolution/recombination/cloud/solverinjection/expandedVM authorized.
 <!-- M30-STATUS-END -->
 
 <!-- M29-STATUS-START -->
