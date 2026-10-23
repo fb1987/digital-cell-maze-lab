@@ -1,0 +1,37 @@
+{
+  "additional_evolution_rounds": 0,
+  "files": {
+    "docs/REPAIR_EVOLUTION_M32_EXPORT_RECOVERY_A1.md": "e9e873dd2642b583687482fde6062ce943630b01dc5d1f144987cd1e98df1660",
+    "docs/REPAIR_EVOLUTION_M32_EXPORT_RECOVERY_A1_APPROVED.md": "810bf290f796dd0490f1ddadbf9652f715d5e8725710011d351e43131f7510d1",
+    "results/repair_evolution_m32/failures/export_001/failure_seal.json": "c1b94f54d255ac5d0b3ed66392c98ab440291242735d865523d423a583602795",
+    "results/repair_evolution_m32/failures/export_001/preservation.json": "16458d6d83bd5c08c3723e0ee54b222594b7c19d7ba3c1b63f7df3eb768015d8",
+    "results/repair_evolution_m32/failures/export_001/stdout_seal_addendum_001.json": "90b03f3a25d2aaac393132bf484d3c1315ad5889720303a0d81e3ae1906dc023",
+    "results/repair_evolution_m32/recovery_a1/proposal_review.json": "a769dacbd0327103df1621451889fdbbf71b29535f0814c5f0b12feeac274a1d",
+    "results/repair_evolution_m32/recovery_a1/rehearsal.json": "e5a9470087afcbcc7ac70592c4c1a89dea8ff3e4a926a3a3fb7be77f9ba02b92",
+    "results/repair_evolution_m32/recovery_a1/rehearsal/ancestry.json.gz": "fb627b8e2c9b5bb4de2d61b17021663d6fc4c006b7b937e2dc16c6d481072ff1",
+    "results/repair_evolution_m32/recovery_a1/rehearsal/choices.json.gz": "44cc0516247d524171b8f275adea22bbc188b0e34cf078909e5e002e9a934c42",
+    "results/repair_evolution_m32/recovery_a1/rehearsal/final_states.json.gz": "2c2d1397acee8a4b3da99d411d59b81455739ef7ecb5341d8c82a15272abe275",
+    "results/repair_evolution_m32/registration.json": "971b5e11b0f3a38dee25c1d152f890652002babfa192dd2bd07ba0a4f05dfa99",
+    "results/repair_evolution_m32/source_audit.json": "5aa43888174584d71bdf8a810a54f1707faca7e51596cbc0b3692ba80d5e07d1",
+    "tools/m32_export_recovery_a1.py": "3726334d235e36cf6ac2e05bc52076c362abe23c140427aa8b755dde8e9c3f1e",
+    "tools/run_m32_recovery_a1.py": "cf6132bf1bdd06987d3b67fe8f091f1a72d0d6b7cbb12c436fb37ca0d8882eb0"
+  },
+  "new_operators": 0,
+  "original_journal_unchanged": true,
+  "original_science_unchanged": true,
+  "original_search_hard_remaining_seconds": 139.90583503909875,
+  "phase": "M32_A1_export_only",
+  "selection_changes": 0,
+  "semantic_payload_hashes": {
+    "ancestry": "ab00ea16dba61351bd2d8d5599a63a706c8dce16436dd08f8678f9049dae885c",
+    "choices": "e5f8ebbe6ab2cea22bef5318634481ca293191f762efab2e4bee2b91e76db79d",
+    "final_states": "4711e75d0f9bed2b10863a5d8fb565da0c3738cdf2b6fb51c756bba159ac835c"
+  },
+  "source_repeated": false,
+  "user_approved": true,
+  "user_authorization": {
+    "answer": "Yes",
+    "authorized_action": "Apply tested export-only recovery, then complete registered audits and fresh confirmation",
+    "date": "2026-10-23"
+  }
+}

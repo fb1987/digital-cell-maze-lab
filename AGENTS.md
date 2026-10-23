@@ -35,12 +35,13 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M32-STATUS-START -->
-October23,2026: **M32 STOPPED ON EXPORT ERROR; user approval needed for proposed A1.**
+October23,2026: **M32 A1 APPROVED by latest human Yes; register/push then export-only recovery.**
 Read docs/REPAIR_EVOLUTION_M32.md, PROGRESS and EXPORT_RECOVERY_A1 proposal;
 results/repair_evolution_m32/failures/export_001/{preservation,failure_seal,
 stdout_seal_addendum_001}.json and recovery_a1/rehearsal.json. Registrationee05522/
 393hashes and ALL457M31seal+36local unchanged. Originalworkflow_status remainsFAILED;
-NEVERresume/reset/editregisteredsource/journal/oldseals orgeneratefinalcases now.
+NEVERrestartsearch/reset/editregisteredsource/journal/oldseals. ApprovedA1 permits
+exportonly,thenpublishedchoices→ALLsearchaudit→originalfreshfinal/audits.
 
 Six96populations/3shared-niche matchedpairs,9protected random-originentries,unchanged
 M18VM/M19ordinarygrammar. Search completed62rounds plus final811case assessment,
@@ -74,8 +75,10 @@ ALLsearchaudit/final/analysis/ALLfinalaudit;newrecoverystatus. DoNOTcallsearchag
 Unregisteredposthelpers canreadnewapprovedstatus afterapproval,failurespreserved.
 Knownrawsummarygenerated-vs-querieddenominatorcaveatstillrequiresqueried-only
 postinterpretationandendpointinvariancechecks;no rawsummary/sourceediting.
-Follow-upPAUSED pendingapproval. No A1execution, M33,extraevolution,recombination,
-solverinjection/cloud/capacityextension authorized. No active scientificprocess.
+LatesthumanYes explicitlyAPPROVES A1scope. Read APPROVEDdoc/newA1registration.
+A1execution afterregistrationpublication isauthorized; monitor mayresume afterlaunch.
+OriginalworkflowstaysFAILED;newrecoverystatusseparate. No M33,extraevolution,
+recombination/solverinjection/cloud/capacityextension authorized.
 <!-- M32-STATUS-END -->
 
 <!-- M31-STATUS-START -->

@@ -1,3 +1,7 @@
+# A1 now approved by the human user
+
+Latest human reply “Yes” approves the tested export-only recovery and originally registered audits/fresh confirmation. Read REPAIR_EVOLUTION_M32_EXPORT_RECOVERY_A1_APPROVED.md and recovery_a1/registration.json. Publish A1 registration before execution. Do not restart search or change journal bytes. A separate recovery workflow/status will export exact stored nominees, publish choices, audit and confirm, then report/preserve/seal. Historical failed/pending-approval text below remains as provenance and is superseded by this direct approval.
+
 # M32 stopped: export failure, proposed A1 awaits approval
 
 Original workflow is FAILED, no process remains. Search completed62generations and its final assessment at stage66 with6,882,689calls,11,628receipts,zero uncertain/pending tasks. Final assessment completed at1649.199s; conservative original phase upper1655.456s. No canonical exports, search_session, choice freeze or final cases exist. The duplicate-role serialization bug in registered freeze() is isolated; do not edit registered source or restart search.
