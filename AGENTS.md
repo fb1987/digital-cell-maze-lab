@@ -35,32 +35,56 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M27-STATUS-START -->
-October23,2026: **M27 transfer-and-retention assay PREPARED.** User's latest
-"Proceed" authorizes M26's independent fixed comparison, not evolution. Read
- docs/TRANSFER_RETENTION_M27.md and results/transfer_retention_m27/{config,
- preparation,preflight,registration}.json. Prior M25/M26 all seals unchanged.
-ALL30rare variants(28changed PRIMARY+1noop+1immigrant),22actual parents,ALL39after-hit
-offspring,root/entry/14protected/ALL23M25choices/100archive/3intact controls.
-208named aliases/191physicalgenotypes,121sourceancestorclosure. No transformations,
-nomination,selection or new evolutionary phase. Freeze/push before science.
-Panels:22REUSEDwitnessinputs then2128FRESH(1680standard+448targeted=224ordinary
-basesx2poses). Targetfamily perfect/randomcyclic,size11/15,8–11/12–15/16–23 plus
-size15/24–31,16bases/stratum. Seed2026102301;whole-layout exclusion reference/delta.
-PRIMARYALL28 gated novelcompleteordinary8+ count beyond parent/root/entry/frozen
-portfolio.90%eachnonemptydomain parent/root/entry,nonemptyA0nopath90%,0false;
-strictbroad>=4newbases,bothfamilies,one16+. Report raw/offspring separately. Intact
-solvers EXCLUDEDfromnoveltyunion. Related selectedhistories,no general/speedclaim.
-11focusedtestsPASS; full2stage artificial pipeline40inputs/400calls+400native+4warm,
-allcontrols/independentgrades/generator/summaryPASS;984discardedlayouts excluded.
-No scientificfreshcases/candidateinference yet. Durabletools/run_m27_workflow.py
-willrun/runanalysis/ALL-nativeaudit; neverstartduplicatewriter/resume failed workflow.
-Science1200sMAXcalendar/monotonic,1Mcalls/1e14work;audit1800s/1M/1e14separate;
-10workers/8GiBRSS/4GiBTOTALphase inclpreparation/backups/16GiBfreefloor.
-Preservefailures/pendingreceipts/durablelayoutobservations; no sealedsource repair
-withoutprotocoldecision. At audited_ready_for_report verifyprior/pool/corpus/ALLnative
-PASS;create report,guardedSQLiteAPIbackup+ALLtablecompare/ALLlayouts,sealanewcompletion,
-commit/pushcompactevidence+logs,neverrawjournals. No newevolution/capacitychange,
-recombination/solverinjection/cloudcompute or phase beyondM27authorized.
+October23,2026: **M27 COMPLETE, independent transfer tested and ALL-native AUDITED.**
+User's "Proceed" authorized M26's fixed assay, not evolution. Read
+ docs/TRANSFER_RETENTION_M27.md, docs/TRANSFER_RETENTION_M27_PROGRESS.md and
+ results/transfer_retention_m27/{report.md,summary.json,saved_diagnostics.json,
+ counterpose_diagnostics.json,complementarity_note.json,audit.json,preservation.json,
+ report_review.json,completion.json}. Registrationdfe415c/380hashes and exactpool
+PUSHED BEFORE scientific fresh cases. All prior seals/originals remain unchanged.
+
+208aliases/191physical:ALL30rare(28changed PRIMARY/1noop/1immigrant),22actual parents,
+ALL39after-hit offspring,root/entry/14protected/23M25choices/100archive/3controls.
+121sourceancestryclosure;no transforms,nomination,evolution or knownsolverinjection.
+22REUSEDwitnessinputs+2128FRESH(1680standard+448targeted),480ordinarybases,
+432ordinary8+/174ordinary16+. ALL30original bothpose wins reproduced;386savedrows
+matchincluding60childrows.15/35changed-mutant offspring retainparent witness;
+17/39including immigrant. Focal16g276/b22offspringg278/b8retains,g277/b34loses.
+PRIMARY28 raw0/gated0/broad0;ALL0freshordinary16+bothposes. Rawcomplete8+novelty
+ZEROevenvs14protected,notonly123historical/gating. Protected13/432 covered,
+historical17/432(1/174sixteenplus),415targetsuncovered;0intact-control-genotypealiases
+inreferenceunion. ALL28domain90FAIL;25A0nopathgatePASS;ALLzero false reachable nopath.
+Focal16fresh0pairs/104corridors/4ordinary(all8edges)/2nopath vsactualparent112/200/29/
+168;gains2loses27ordinary. Nonewcomplete8+portfolio skill evenamongoffspring/parents.
+18changedvariants add11unique SINGLEposeinputs on7bases(8–10edges);counterpose29
+emitteddisconnected/14branch-cycle/12readbudget over55aliaspresentations. FourPERFECT
+bases show complementary different-genome poses,NEVERsingle combinedsolver/ensemble.
+Heritable limitedheuristics,notgeneral solver. No significance/speed/policycausality.
+
+11focusedtests firstPASS;2stage artificialfixture40inputs/400calls+400native+4warm,
+984layouts excluded. Science410650calls/589.87candidate/612.66workerCPU/96.43wall/
+4.641GiBRSS/187767258524work/0uncertain. AuditALL410650native+independentgrades/
+deterministiccorpus/pool/tasks/summary firstPASS98.22s;6450conventionalcallsALLcorrect.
+SamefrozenVM,independentgrader,notsecondVM. Workflow207.29s complete; no livewriter.
+No scientificfailures/guards/repairs or auto-resume.10localworkers,M4,16GiBRAM.
+
+507M25sealed+18local and29M26sealedhashesUNCHANGED.26,107,904byte newjournal and
+verifiedSQLiteAPIbackup ALLtables/integritymatch. Preserve original/fixturejournals,
+all observers and bases. Wholelayout3,978,849reference+delta=3,956,921old+984fixture+
+20,944science inc reject/unqueried;source/auditobserverlogs match. Rawlayouttables
+areDELTAONLY,readreferenced_campaign_store.load_layouts. ~77MiBphase/~39.76GiBfree
+atbackup fits4GiBtotal/16GiBfloor;science1200s/audit1800s/1Mcalls/1e14work/8GiBRSS
+bounds respected. Completion sealed ONCE;report/compactevidence/copiedlogs committed/
+pushed,neverrawSQLite. AGENTSmutable; do NOT overwrite sealedprogress/results/code.
+Workflow_status remainsaudited_ready_for_report historicalstate; completed packet
+records final preservation/report. No recurringfollowup ornextphase running.
+
+Next proposal ONLY: separately registered integration-accessibility assay, using
+M27cases as DEVELOPMENT, asking whether generic regulated composition/compatible
+recombination can combine complementary specialists in ONEorganism while retaining
+oldskills,withmatchedordinarymutation and allcosts. Freeze choices BEFOREseparate
+fresh confirmation. No M28,newoperator/evolution/recombination/capacitychange/cloud/
+solverinjection authorized. Preserve random-origin lineages/checkpoints.
 <!-- M27-STATUS-END -->
 
 <!-- M26-STATUS-START -->

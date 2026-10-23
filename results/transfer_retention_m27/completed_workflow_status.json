@@ -1,0 +1,27 @@
+{
+  "ended_epoch": 1792752822.838279,
+  "phase": "report_preserve_seal",
+  "pid": 78662,
+  "started_epoch": 1792752615.549101,
+  "state": "audited_ready_for_report",
+  "steps": [
+    {
+      "code": 0,
+      "ended_epoch": 1792752713.785096,
+      "log": "runs/transfer_retention_m27/run_001.log",
+      "phase": "run"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792752722.86694,
+      "log": "runs/transfer_retention_m27/analyze_001.log",
+      "phase": "analyze"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792752822.836719,
+      "log": "runs/transfer_retention_m27/audit_001.log",
+      "phase": "audit"
+    }
+  ]
+}
