@@ -130,3 +130,27 @@ newindividual/completepair/ordinarysuccesses beyond14protectedunion remainzero.
 No newlydemonstratedportfolio-solvingcapability orindependentconfirmation result;
 100-modelnovelty remainsreservedforregisteredfinal. No protocol/source/selection/
 inference change, extraevaluation, secondwriter ornewphase. Quietfollowupcontinues.
+
+Fourth follow-through, 2026-10-23 01:02 UTC: search_001 remains active. All 420
+registration hashes pass. Initial snapshot completed training round 519 (277 new
+rounds, state generation 520), stage 294: 21,175,376 completed calls, 24,784.93
+candidate seconds, 25,951.83 CPU seconds and 6,523,829,557,067 counted work;
+3,654.68 budgeted seconds, 3,512,418,304 bytes sampled peak RSS, zero uncertain
+attempts. Total phase storage ~0.818 GiB and disk free ~41.99 GiB respect bounds.
+Pending task reservations are excluded from those completed-work figures.
+
+Saved assessment 499 (+256 new rounds) and its summary. Cases, queries and metadata
+match assessments 243 and 435 exactly; input/task result hashes verified. CURRENT
+rep0 now nominates g460/b8 (17 M25 mutations): versus its frozen nominee, +12/-6
+complete pairs and +5/-0 ordinary bases; versus its actual phase entry, +8 pairs,
++14 corridors and no domain losses. INTEGRATE rep0 nominates g443/b23 (22 mutations):
+versus actual entry, +14 pairs, +14 corridors and -1 of 24 ordinary bases. INTEGRATE
+rep2 now nominates g452/b20 (13 mutations): versus its own entry, +2 pairs,
++17 corridors and +2 ordinary bases, with no losses. These entry objects differ
+across lineages; frozen-reference gains must not replace actual-entry comparisons.
+
+All 18 nominees still have zero new individual successes, complete pairs or ordinary
+bases beyond the 14 protected references' union. These are development results;
+no 100-model novelty comparison, independent confirmation or policy conclusion yet.
+No scientific change, extra inference, second writer or next phase. Quiet follow-up
+continues under the registered bounds.

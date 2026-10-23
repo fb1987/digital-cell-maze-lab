@@ -1,0 +1,4331 @@
+{
+  "phase": "M25",
+  "assessment": 499,
+  "new_rounds": 256,
+  "stage_chain": "99dc3c2a992e02e845219c06b15ba022b6979f00fef9cf8913db1020a42ef335",
+  "independent_confirmation": false,
+  "new_inference_calls": 0,
+  "scope": "Same registered development cases/queries/metadata verified across243,435,499; input and task result hashes checked. Novelty reference14protected only; all100 historical comparisons reserved for registered final confirmation.",
+  "conditions": [
+    {
+      "condition": "connected/0/enabled/current",
+      "role": "integrated",
+      "identity": "m25/connected/0/enabled/current/g460/b8",
+      "phase_entry": "m23/connected/0/enabled/g240/b44",
+      "frozen_reference": "m14/reference/gated_partial",
+      "M25_mutation_births": 17,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 86,
+            "valid": 86,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 38,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 4
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 2
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 24,
+        "false_no_path": 0,
+        "work": 45260396,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 14,
+        "multi_pairs": 10,
+        "long_bases": 8
+      },
+      "exact_same_model_response_rows_already_present_at435": false,
+      "prior435_nominee": "m14/reference/gated_partial",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 12,
+          "lost": 6,
+          "retained": 26
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 5,
+          "lost": 0,
+          "retained": 19
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 34,
+          "lost": 6,
+          "retained": 244
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 12,
+          "lost": 6,
+          "retained": 26
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 5,
+          "lost": 0,
+          "retained": 19
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 34,
+          "lost": 6,
+          "retained": 244
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 8,
+          "lost": 0,
+          "retained": 30
+        },
+        "corridors": {
+          "gained": 14,
+          "lost": 0,
+          "retained": 86
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 26,
+          "lost": 0,
+          "retained": 252
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/0/enabled/current",
+      "role": "upstream_exploratory",
+      "identity": "m23/connected/0/enabled/g126/b15",
+      "phase_entry": "m23/connected/0/enabled/g126/b15",
+      "frozen_reference": "m23/connected/0/enabled/g126/b15",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 120,
+            "valid": 120,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 60,
+            "valid": 60,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 2,
+            "valid": 2,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 2,
+            "valid": 2,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 60,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 2,
+        "false_no_path": 0,
+        "work": 113216297,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 36,
+        "multi_pairs": 24,
+        "long_bases": 0
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m23/connected/0/enabled/g126/b15",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 60
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 60
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 2
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 228
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 60
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 60
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 2
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 228
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 60
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 60
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 2
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 228
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/0/enabled/current",
+      "role": "ordinary",
+      "identity": "m14/reference/anchor/0",
+      "phase_entry": "m14/reference/anchor/0",
+      "frozen_reference": "m14/reference/anchor/0",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 56,
+            "valid": 56,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 24,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 24,
+        "false_no_path": 0,
+        "work": 43016344,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 0,
+        "multi_pairs": 0,
+        "long_bases": 8
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/anchor/0",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/0/enabled/integrate",
+      "role": "integrated",
+      "identity": "m25/connected/0/enabled/integrate/g443/b23",
+      "phase_entry": "m23/connected/0/enabled/g240/b44",
+      "frozen_reference": "m14/reference/gated_partial",
+      "M25_mutation_births": 22,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 92,
+            "valid": 92,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 14,
+            "valid": 14,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 44,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 4
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 23,
+        "false_no_path": 0,
+        "work": 47091604,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 20,
+        "multi_pairs": 16,
+        "long_bases": 7
+      },
+      "exact_same_model_response_rows_already_present_at435": false,
+      "prior435_nominee": "m25/connected/0/enabled/integrate/g300/b19",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 1,
+          "lost": 0,
+          "retained": 22
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 2,
+          "lost": 0,
+          "retained": 280
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 12,
+          "lost": 0,
+          "retained": 32
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 4,
+          "lost": 0,
+          "retained": 19
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 32,
+          "lost": 0,
+          "retained": 250
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 14,
+          "lost": 0,
+          "retained": 30
+        },
+        "corridors": {
+          "gained": 14,
+          "lost": 0,
+          "retained": 86
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 1,
+          "retained": 23
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 32,
+          "lost": 2,
+          "retained": 250
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 0.9583333333333334,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/0/enabled/integrate",
+      "role": "upstream_exploratory",
+      "identity": "m25/connected/0/enabled/integrate/g443/b23",
+      "phase_entry": "m23/connected/0/enabled/g240/b44",
+      "frozen_reference": "m23/connected/0/enabled/g126/b15",
+      "M25_mutation_births": 22,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 92,
+            "valid": 92,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 14,
+            "valid": 14,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 44,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 4
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 23,
+        "false_no_path": 0,
+        "work": 47091604,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 20,
+        "multi_pairs": 16,
+        "long_bases": 7
+      },
+      "exact_same_model_response_rows_already_present_at435": false,
+      "prior435_nominee": "m25/connected/0/enabled/integrate/g300/b19",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 1,
+          "lost": 0,
+          "retained": 22
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 2,
+          "lost": 0,
+          "retained": 280
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 16,
+          "retained": 44
+        },
+        "corridors": {
+          "gained": 40,
+          "lost": 0,
+          "retained": 60
+        },
+        "ordinary_bases": {
+          "gained": 21,
+          "lost": 0,
+          "retained": 2
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 82,
+          "lost": 28,
+          "retained": 200
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 14,
+          "lost": 0,
+          "retained": 30
+        },
+        "corridors": {
+          "gained": 14,
+          "lost": 0,
+          "retained": 86
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 1,
+          "retained": 23
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 32,
+          "lost": 2,
+          "retained": 250
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 0.9583333333333334,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/0/enabled/integrate",
+      "role": "ordinary",
+      "identity": "m14/reference/anchor/0",
+      "phase_entry": "m14/reference/anchor/0",
+      "frozen_reference": "m14/reference/anchor/0",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 56,
+            "valid": 56,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 24,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 24,
+        "false_no_path": 0,
+        "work": 43016344,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 0,
+        "multi_pairs": 0,
+        "long_bases": 8
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/anchor/0",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/1/enabled/current",
+      "role": "integrated",
+      "identity": "m14/reference/gated_specialist",
+      "phase_entry": "m14/reference/gated_specialist",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 11,
+            "valid": 11,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 15,
+        "false_no_path": 0,
+        "work": 41694186,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 3
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/gated_specialist",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/1/enabled/current",
+      "role": "upstream_exploratory",
+      "identity": "m14/reference/gated_specialist",
+      "phase_entry": "m14/reference/gated_specialist",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 11,
+            "valid": 11,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 15,
+        "false_no_path": 0,
+        "work": 41694186,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 3
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/gated_specialist",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/1/enabled/current",
+      "role": "ordinary",
+      "identity": "m14/reference/anchor/0",
+      "phase_entry": "m14/reference/anchor/0",
+      "frozen_reference": "m14/reference/anchor/0",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 56,
+            "valid": 56,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 24,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 24,
+        "false_no_path": 0,
+        "work": 42151018,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 0,
+        "multi_pairs": 0,
+        "long_bases": 8
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/anchor/0",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/1/enabled/integrate",
+      "role": "integrated",
+      "identity": "m14/reference/gated_specialist",
+      "phase_entry": "m14/reference/gated_specialist",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 11,
+            "valid": 11,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 15,
+        "false_no_path": 0,
+        "work": 41694186,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 3
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/gated_specialist",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/1/enabled/integrate",
+      "role": "upstream_exploratory",
+      "identity": "m14/reference/gated_specialist",
+      "phase_entry": "m14/reference/gated_specialist",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 11,
+            "valid": 11,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 6,
+            "valid": 6,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 15,
+        "false_no_path": 0,
+        "work": 41694186,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 3
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/gated_specialist",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 242
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/1/enabled/integrate",
+      "role": "ordinary",
+      "identity": "m14/reference/anchor/0",
+      "phase_entry": "m14/reference/anchor/0",
+      "frozen_reference": "m14/reference/anchor/0",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 56,
+            "valid": 56,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 24,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 24,
+        "false_no_path": 0,
+        "work": 42151018,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 0,
+        "multi_pairs": 0,
+        "long_bases": 8
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/anchor/0",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/2/enabled/current",
+      "role": "integrated",
+      "identity": "m14/reference/gated_specialist",
+      "phase_entry": "m14/reference/gated_specialist",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 7,
+            "valid": 7,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 16,
+        "false_no_path": 0,
+        "work": 41078487,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 1
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/gated_specialist",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/2/enabled/current",
+      "role": "upstream_exploratory",
+      "identity": "m14/reference/gated_specialist",
+      "phase_entry": "m14/reference/gated_specialist",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 83,
+            "valid": 83,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 7,
+            "valid": 7,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 16,
+        "false_no_path": 0,
+        "work": 41078487,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 1
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/gated_specialist",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/2/enabled/current",
+      "role": "ordinary",
+      "identity": "m14/reference/anchor/0",
+      "phase_entry": "m14/reference/anchor/0",
+      "frozen_reference": "m14/reference/anchor/0",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 56,
+            "valid": 56,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 24,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 24,
+        "false_no_path": 0,
+        "work": 41566024,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 0,
+        "multi_pairs": 0,
+        "long_bases": 8
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/anchor/0",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/2/enabled/integrate",
+      "role": "integrated",
+      "identity": "m25/connected/2/enabled/integrate/g452/b20",
+      "phase_entry": "m14/reference/quota_child",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 13,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 94,
+            "valid": 94,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 17,
+        "false_no_path": 0,
+        "work": 41307023,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 1
+      },
+      "exact_same_model_response_rows_already_present_at435": false,
+      "prior435_nominee": "m25/connected/2/enabled/integrate/g304/b32",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 1,
+          "lost": 2,
+          "retained": 93
+        },
+        "ordinary_bases": {
+          "gained": 1,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 2,
+          "lost": 2,
+          "retained": 250
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 11,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 1,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 12,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 2,
+          "lost": 0,
+          "retained": 38
+        },
+        "corridors": {
+          "gained": 17,
+          "lost": 0,
+          "retained": 77
+        },
+        "ordinary_bases": {
+          "gained": 2,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 23,
+          "lost": 0,
+          "retained": 229
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/2/enabled/integrate",
+      "role": "upstream_exploratory",
+      "identity": "m25/connected/2/enabled/integrate/g452/b20",
+      "phase_entry": "m14/reference/quota_child",
+      "frozen_reference": "m14/reference/gated_specialist",
+      "M25_mutation_births": 13,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 80,
+            "valid": 80,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 94,
+            "valid": 94,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 10,
+            "valid": 10,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 40,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 4
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 17,
+        "false_no_path": 0,
+        "work": 41307023,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 16,
+        "multi_pairs": 16,
+        "long_bases": 1
+      },
+      "exact_same_model_response_rows_already_present_at435": false,
+      "prior435_nominee": "m25/connected/2/enabled/integrate/g304/b32",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 1,
+          "lost": 2,
+          "retained": 93
+        },
+        "ordinary_bases": {
+          "gained": 1,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 2,
+          "lost": 2,
+          "retained": 250
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 40
+        },
+        "corridors": {
+          "gained": 11,
+          "lost": 0,
+          "retained": 83
+        },
+        "ordinary_bases": {
+          "gained": 1,
+          "lost": 0,
+          "retained": 16
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 12,
+          "lost": 0,
+          "retained": 240
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 2,
+          "lost": 0,
+          "retained": 38
+        },
+        "corridors": {
+          "gained": 17,
+          "lost": 0,
+          "retained": 77
+        },
+        "ordinary_bases": {
+          "gained": 2,
+          "lost": 0,
+          "retained": 15
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 23,
+          "lost": 0,
+          "retained": 229
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    },
+    {
+      "condition": "connected/2/enabled/integrate",
+      "role": "ordinary",
+      "identity": "m14/reference/anchor/0",
+      "phase_entry": "m14/reference/anchor/0",
+      "frozen_reference": "m14/reference/anchor/0",
+      "M25_mutation_births": 0,
+      "metrics": {
+        "inputs": 392,
+        "by_domain": {
+          "paired": {
+            "inputs": 200,
+            "optimal": 56,
+            "valid": 56,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "corridor": {
+            "inputs": 100,
+            "optimal": 100,
+            "valid": 100,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "disconnected": {
+            "inputs": 20,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 20,
+            "false_no_path": 0
+          },
+          "ordinary_disconnected/9": {
+            "inputs": 24,
+            "optimal": 0,
+            "valid": 0,
+            "correct_no_path": 24,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/11": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_perfect/15": {
+            "inputs": 16,
+            "optimal": 16,
+            "valid": 16,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/9": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          },
+          "ordinary_random/15": {
+            "inputs": 8,
+            "optimal": 8,
+            "valid": 8,
+            "correct_no_path": 0,
+            "false_no_path": 0
+          }
+        },
+        "paired": 24,
+        "pair_opportunities": 100,
+        "by_pair_stratum": {
+          "fork/0": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/1": {
+            "opportunities": 12,
+            "correct": 12
+          },
+          "fork/2": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/4": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "fork/8": {
+            "opportunities": 12,
+            "correct": 0
+          },
+          "two_junction/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "two_junction/8": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/0": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/1": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/2": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/4": {
+            "opportunities": 4,
+            "correct": 0
+          },
+          "cycle/8": {
+            "opportunities": 4,
+            "correct": 0
+          }
+        },
+        "ordinary_bases_both_poses": 24,
+        "false_no_path": 0,
+        "work": 41566024,
+        "correct_no_path": 44,
+        "disconnected_inputs": 44
+      },
+      "complexity": {
+        "hard_pairs": 0,
+        "multi_pairs": 0,
+        "long_bases": 8
+      },
+      "exact_same_model_response_rows_already_present_at435": true,
+      "prior435_nominee": "m14/reference/anchor/0",
+      "versus_prior435_nominee": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_frozen": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "versus_phase_entry": {
+        "pairs": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "corridors": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 100
+        },
+        "ordinary_bases": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 24
+        },
+        "correct_no_path": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 44
+        },
+        "success": {
+          "gained": 0,
+          "lost": 0,
+          "retained": 248
+        }
+      },
+      "phase_entry_retention": {
+        "pairs": 1.0,
+        "corridors": 1.0,
+        "ordinary_bases": 1.0,
+        "correct_no_path": 1.0
+      },
+      "beyond_protected_union": {
+        "pairs": 0,
+        "corridors": 0,
+        "ordinary_bases": 0,
+        "correct_no_path": 0,
+        "success": 0
+      },
+      "false_no_path": 0
+    }
+  ]
+}
