@@ -35,22 +35,48 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M26-STATUS-START -->
-October23,2026: **M26 saved-training evolvability AUDIT PREPARED.** User's latest
-"Proceed" authorizes the audit recommended in M25, not evolution. Read
- docs/EVOLVABILITY_AUDIT_M26.md and results/evolvability_audit_m26/registration.json.
-New separate packet; no VM/maze/selection imports in analysis or verifier, zero
-inference/new cases/evolution. Read-only M25 journal. Eight synthetic saved-row tests
-PASS. Register/push definitions, code and tests BEFORE full scan. Then run
- tools/audit_m26_training.py and independently tools/verify_m26_training.py once.
-Use NEW failure packets if needed, never overwrite outputs/sealed M25 helpers.
-M25 all507 sealed files+18 local records remain unchanged; no old workflow/writer
-resumed. One sequential worker, eachscan30min/4GiBRSS/512MiBpacket/16GiBfreefloor.
-Report first-exposure and later ordinary8+/16+ variants, actual parent/root losses,
-same-panel reference novelty, selection survival, reproduction, final persistence
-and append constraints. Final newborns training-censored. Training novelty does not
-use 100-model final archive. Related histories/descriptive development, no causal/
-general/speed claims. Preserve/seal NEW outputs, update handoff and commit/push;
-no further evolutionary/capacity/variation phase authorized.
+October23,2026: **M26 saved-training evolvability audit COMPLETE.** User's "Proceed"
+authorized M25's saved-record proposal, not evolution. Read
+ docs/EVOLVABILITY_AUDIT_M26.md, docs/EVOLVABILITY_AUDIT_M26_PROGRESS.md,
+ results/evolvability_audit_m26/{report,summary,verification,interpretation,
+ witness_review,report_review,completion}.json (report.md for prose).
+Definitions/code/8synthetictests pushed2d91196 BEFORE full scan. New separate packet;
+zero candidate inference/new mazes/evolution/reselection; no old writer resumed.
+Primary and independent verifier FIRST PASS.507M25 sealed files+18local records
+UNCHANGED; original journal cf098e0ccd65aa564fe4517c698c556ca6e6d38514370d6f099463a0d41c6d70.
+Preserve all old/new seals, source journals/backups/failures and layout references.
+
+85860mutants first-trained=81190changed+4670noops;270final mutants training-censored.
+28changed mutant identities show complete8–16edge wins beyond14same-case protected
+references on10fresh ordinary bases;19first-exposure/9later. One no-op+one random
+immigrant give pooled30identities/11bases.29mutant initial live ancestors queried
+and FAIL corresponding targets.12actual-parent target gainers,0retainALLparent
+correct inputs.13changed winners survive first hit AND breed35direct offspring;
+0final live/archive identities/live descendants/exactgenotype matches.
+ALL12population/round/base episodes retain at least one solver: immediate redundant
+identity rejection is NOT immediate capability loss.16edge PERFECT11x11/49open
+witnessg276/b22 has108instructions/33ticks/bothposes;gain3ordinary butlose18ordinary/
+10corridors/4pairs/all16correctnopath,0false. Cyclic novel wins only8edges.
+Target mutants108–116instructions;ALL9actualappends on rare-winning parents admitted.
+No general/speed/significance/policy/capacity-causality claim; M25final null unchanged.
+Training novelty does NOT use100model finalarchive or prove future transfer.
+
+Independent verifier checks ALL99528births/99216first-exposures/all337novel-hit
+presentations/lifecycles/headroom; original340stagechain/22188receipt hashes verify.
+Witness review independently validates60SAVEDchildrasters, not a second VM. Eight
+focused tests,notfullsuite. Recorded scans161.41wallsec/peak1.181GiBRSS,~11MiBpacket,
+within30min-per-scan/4GiBRSS/512MiB/16GiBfreefloor. One console-only null-parent
+formatter error preserved; no source/scientific repair or scan rerun. Supplement
+pooled changed_complete_identities includes immigrant; use witness_review's explicit
+changed_mutants_only for mutation denominators. All outputs closed; NEVER overwrite
+or rerun old sealers. AGENTSmutable; M26progress/results/code sealed ONCE in NEWpacket.
+No process/automation/nextphase running; compact evidence and copiedlogs committed/
+pushed at completion. No raw journals inGit and no new backups required for reads.
+
+Next proposal ONLY: separately registered saved-variant/actual-parent/reference
+transfer-and-retention assay on independent cases BEFORE another sustained evolution
+or capacity change. No M27/extra inference/evolution/newoperators/recombination/
+solverinjection/cloudcompute authorized. Random-origin history remains central.
 <!-- M26-STATUS-END -->
 
 <!-- M25-STATUS-START -->

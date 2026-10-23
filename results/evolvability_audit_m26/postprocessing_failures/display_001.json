@@ -1,0 +1,6 @@
+{
+  "scope": "Read-only console exploration after complete primary analysis; no packet output or source changed.",
+  "error": "TypeError: 'NoneType' object is not subscriptable",
+  "cause": "Console formatter assumed actual parent was queried on every later exposure. The primary analysis correctly records missing parent comparisons as null. Later exposure parents can already have left the live population.",
+  "repair": "Handle null comparison explicitly in display; no analysis, metrics or scientific repair."
+}

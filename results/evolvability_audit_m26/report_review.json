@@ -1,0 +1,29 @@
+{
+  "checked_facts": {
+    "after_hit_offspring": 35,
+    "changed_mutants": 81190,
+    "direct_parent_new_target_gainers_retaining_all_old_correct_inputs": 0,
+    "episodes_with_no_retained_solver": 0,
+    "final_mutant_censoring": 270,
+    "first_exposed_mutants": 85860,
+    "first_exposure_noops": 4670,
+    "novel_episodes_all_categories": 12,
+    "rare_changed_identities": 28,
+    "rare_mutant_bases": 10,
+    "survived_and_bred": 13
+  },
+  "failure_note": "One console-only display TypeError with null later-parent comparison preserved; primary analysis/verifier first PASS and closed outputs unchanged.",
+  "limitations": [
+    "Training-only same-panel reference novelty, not novelty beyond the 100-model final archive or independent transfer.",
+    "Exact prior-phase live ancestor failed each mutant target when queried; immediate mutation attribution only where actual parent also failed.",
+    "Nine later first hits require observation-based reproduction timing; no skill loss inferred from unqueried future fresh cases.",
+    "No-op and immigrant are separate; all30 pooled versus28 changed mutants explicit.",
+    "No policy/significance/general-solving/speed or isolated capacity-causality claim.",
+    "Follow-up transfer/retention assay is proposal only; no next phase or new inference authorized."
+  ],
+  "preparation": "Eight focused synthetic tests PASS; no full-suite claim.",
+  "rare_variant_final_exact_genotype_matches": 0,
+  "report_sha256": "7dfed85c85ee5103c273aa50bf8ffe456c4a1c85b843a414f4e61da74a157136",
+  "reviewed_scope": "Checked actual source receipts, first-exposure denominators, all later complete-winner witnesses, parent/entry attribution, population-level preservation, no-op/immigrant separation, limits and recommendation.",
+  "status": "PASS"
+}

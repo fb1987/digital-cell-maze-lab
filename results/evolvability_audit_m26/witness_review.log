@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "groups": {
+    "mutants_including_noop": {
+      "identities": 29,
+      "survived_first_hit": 13,
+      "bred_after_hit": 13,
+      "direct_offspring_after_hit": 35,
+      "final_live": 0,
+      "final_archive": 0,
+      "with_final_live_descendants": 0,
+      "first_exposure_hits": 20,
+      "later_first_hits": 9,
+      "distinct_bases": 10,
+      "instruction_range": [
+        108,
+        116
+      ],
+      "novel_lengths": {
+        "9": 1,
+        "8": 21,
+        "11": 4,
+        "10": 2,
+        "16": 1
+      }
+    },
+    "changed_mutants_only": {
+      "identities": 28,
+      "survived_first_hit": 13,
+      "bred_after_hit": 13,
+      "direct_offspring_after_hit": 35,
+      "final_live": 0,
+      "final_archive": 0,
+      "with_final_live_descendants": 0,
+      "first_exposure_hits": 19,
+      "later_first_hits": 9,
+      "distinct_bases": 10,
+      "instruction_range": [
+        108,
+        116
+      ],
+      "novel_lengths": {
+        "9": 1,
+        "8": 21,
+        "11": 4,
+        "10": 1,
+        "16": 1
+      }
+    },
+    "random_immigrants": {
+      "identities": 1,
+      "survived_first_hit": 1,
+      "bred_after_hit": 1,
+      "direct_offspring_after_hit": 4,
+      "final_live": 0,
+      "final_archive": 0,
+      "with_final_live_descendants": 0,
+      "first_exposure_hits": 1,
+      "later_first_hits": 0,
+      "distinct_bases": 1,
+      "instruction_range": [
+        80,
+        80
+      ],
+      "novel_lengths": {
+        "8": 1
+      }
+    }
+  },
+  "rasters": 60,
+  "costs": {
+    "wall_seconds": 1.613096250104718,
+    "cpu_seconds": 1.6122800000000002,
+    "peak_rss_bytes": 989478912,
+    "inference_calls": 0,
+    "generated_layouts": 0
+  }
+}
