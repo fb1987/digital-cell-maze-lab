@@ -34,6 +34,29 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 
 ## Immediate first task
 
+<!-- M28-STATUS-START -->
+October23,2026: **M28 PREPARED; user authorized the M27 integration-accessibility proposal.**
+Read docs/INTEGRATION_ACCESSIBILITY_M28.md, results/integration_accessibility_m28/
+{config,preparation,preflight,registration}.json and pool.json.gz. This supersedes
+M27's historical no-M28 authorization text. ALL38 complementary genotype pairs,
+both directions/eight draws:608 proposals per mutation/splice/regulated arm.
+Same454 reused DEVELOPMENT inputs, same M18VM/limits; no evolution/solver/cloud.
+Pool fixed before development; exact choices MUST commit/push BEFORE fresh2128.
+Durable tools/run_m28_workflow.py will run development/select/publishedfreeze/
+ALL-native developmentaudit/final/analyze/ALL-native finalaudit, then stop for report.
+Never start duplicate workflow/writer, modify sealed files, auto-resume failure,
+reselect on fresh cases or extend bounds. Preserve errors/receipts and diagnose.
+10workers,1200sdev/900sfinal/1800s peraudit,3Mcalls/1e14work perstage,8GiBRSS,
+6GiBtotalphase inclfailures/backups/16GiBfreefloor. Eightfocusedtests PASS; one
+pre-registration port-range test failure preserved/corrected. Discarded fixture
+360calls+360native+40warmup on40 alreadyexcluded inputs; no newprep layouts.
+Prior416M27seal+15local hashes verified. Afteraudited_ready_for_report preserve
+verifiedSQLiteAPIbackups/alltables and all layout reference+delta within guards,
+review actual final outcomes/ancestry/opportunity costs, report/hashreview,
+updateprogress/AGENTS, seal once, commit/push compact evidence/copiedlogs, neverrawSQLite.
+NoM29/furthersearch authorized. Random-originresearch remains central.
+<!-- M28-STATUS-END -->
+
 <!-- M27-STATUS-START -->
 October23,2026: **M27 COMPLETE, independent transfer tested and ALL-native AUDITED.**
 User's "Proceed" authorized M26's fixed assay, not evolution. Read

@@ -1,0 +1,8 @@
+{
+  "status": "pre_registration_test_failure",
+  "tests_passed": 5,
+  "test_error": "test_unavailable_local_rejected",
+  "exception": "ValueError: Invalid V2 operand",
+  "reason": "Neighbor port operand schema only permits positions 0..7. Test incorrectly expected position8 admissible; remapping must reject it explicitly.",
+  "scientific_calls": 0
+}
