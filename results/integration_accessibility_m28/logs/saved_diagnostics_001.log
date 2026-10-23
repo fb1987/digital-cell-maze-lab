@@ -1,0 +1,88 @@
+{
+  "mutation": {
+    "proposals": 608,
+    "changed": 597,
+    "kinds": {
+      "activate_node": 79,
+      "replace": 84,
+      "duplicate_node": 77,
+      "delete": 85,
+      "ports": 74,
+      "insert": 74,
+      "copy_block": 70,
+      "operand": 63,
+      "deactivate_spare": 2
+    },
+    "rejection_reasons": {},
+    "distinct_genotypes": 594,
+    "complete_complementary_distribution": {
+      "0": 608
+    },
+    "gated_known_positive": 0,
+    "max_complementary": 0,
+    "gates": {
+      "positive_mutation_ancestry": 597,
+      "domain_retention90": 0,
+      "a0_disconnection90": 547,
+      "zero_false_no_path": 591,
+      "passes": 0
+    },
+    "raw_development_complete8_positive": 0,
+    "integrated_known_identities": [],
+    "max_instructions": 131,
+    "no_evolution_or_survival": true
+  },
+  "splice": {
+    "proposals": 608,
+    "changed": 414,
+    "kinds": {
+      "homologous_splice": 608
+    },
+    "rejection_reasons": {},
+    "distinct_genotypes": 156,
+    "complete_complementary_distribution": {
+      "0": 608
+    },
+    "gated_known_positive": 0,
+    "max_complementary": 0,
+    "gates": {
+      "positive_mutation_ancestry": 414,
+      "domain_retention90": 0,
+      "a0_disconnection90": 608,
+      "zero_false_no_path": 608,
+      "passes": 0
+    },
+    "raw_development_complete8_positive": 0,
+    "integrated_known_identities": [],
+    "max_instructions": 117,
+    "no_evolution_or_survival": true
+  },
+  "regulated": {
+    "proposals": 608,
+    "changed": 591,
+    "kinds": {
+      "regulated_fusion": 591,
+      "bounded_noop": 17
+    },
+    "rejection_reasons": {
+      "capacity": 17
+    },
+    "distinct_genotypes": 597,
+    "complete_complementary_distribution": {
+      "0": 608
+    },
+    "gated_known_positive": 0,
+    "max_complementary": 0,
+    "gates": {
+      "positive_mutation_ancestry": 591,
+      "domain_retention90": 0,
+      "a0_disconnection90": 566,
+      "zero_false_no_path": 608,
+      "passes": 0
+    },
+    "raw_development_complete8_positive": 0,
+    "integrated_known_identities": [],
+    "max_instructions": 132,
+    "no_evolution_or_survival": true
+  }
+}

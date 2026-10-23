@@ -35,26 +35,54 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M28-STATUS-START -->
-October23,2026: **M28 PREPARED; user authorized the M27 integration-accessibility proposal.**
-Read docs/INTEGRATION_ACCESSIBILITY_M28.md, results/integration_accessibility_m28/
-{config,preparation,preflight,registration}.json and pool.json.gz. This supersedes
-M27's historical no-M28 authorization text. ALL38 complementary genotype pairs,
-both directions/eight draws:608 proposals per mutation/splice/regulated arm.
-Same454 reused DEVELOPMENT inputs, same M18VM/limits; no evolution/solver/cloud.
-Pool fixed before development; exact choices MUST commit/push BEFORE fresh2128.
-Durable tools/run_m28_workflow.py will run development/select/publishedfreeze/
-ALL-native developmentaudit/final/analyze/ALL-native finalaudit, then stop for report.
-Never start duplicate workflow/writer, modify sealed files, auto-resume failure,
-reselect on fresh cases or extend bounds. Preserve errors/receipts and diagnose.
-10workers,1200sdev/900sfinal/1800s peraudit,3Mcalls/1e14work perstage,8GiBRSS,
-6GiBtotalphase inclfailures/backups/16GiBfreefloor. Eightfocusedtests PASS; one
-pre-registration port-range test failure preserved/corrected. Discarded fixture
-360calls+360native+40warmup on40 alreadyexcluded inputs; no newprep layouts.
-Prior416M27seal+15local hashes verified. Afteraudited_ready_for_report preserve
-verifiedSQLiteAPIbackups/alltables and all layout reference+delta within guards,
-review actual final outcomes/ancestry/opportunity costs, report/hashreview,
-updateprogress/AGENTS, seal once, commit/push compact evidence/copiedlogs, neverrawSQLite.
-NoM29/furthersearch authorized. Random-originresearch remains central.
+October23,2026: **M28 COMPLETE, independent confirmation and BOTH ALL-native audits PASS.**
+Read docs/INTEGRATION_ACCESSIBILITY_M28.md and its PROGRESS handoff; results/
+integration_accessibility_m28/{report.md,summary.json,saved_diagnostics.json,
+structured_gain_analysis.json,ordinary_event_details.json.gz,development_audit.json,
+final_audit.json,preservation.json,report_review.json,completion.json}.
+Registrationf6e511e/386hashes pushed before scientific development; choicese15f4bf
+pushed BEFORE fresh cases. No process/heartbeat/nextphase running; NEVERresume,
+reselect on final, change frozen source, overwrite seals/failed records or rerun actions.
+
+ALL38 complementary genotype pairs/15genotypes, bothdirections/8draws:608proposals
+permutation/splice/regulated,1824total. NEW fixed neighborhoods, NOTevolution or
+independent origins. SameM18VM, fixedbounds; nooracle/solver/cloud. Ordinarycontrol
+has ONEgeneticparent; matchedsecondsource used in comparison, not breeding.
+454reused DEVELOPMENT inputs,2032aliases/1507physical; ALL1824rawcomplementary
+completionsZERO BEFOREretentiongates. Changed597/414/591; distinct594/156/597;
+17regulatedcapacitynoops. Ninefixedroles collapse3identities; splicenomineeisnoop.
+94432oldsource/reference/controlrows exactly reproduceM27. Pool/operator/RNGreplayed.
+
+FRESH2128inputs/480ordinarybases,436eightplus/182sixteenplus. FixedPRIMARY0–0–0;
+rawnewcomplete8+ALSOZERO,421targets outsideoldportfolio15/436. Samepanelmutation/
+splice/regulated27/13/20ordinarybothposes,6/0/3eightplus,max12/5/12edges,ALL0sixteenplus.
+ALL168correctnopath/0false; root/entry90%retentionfails. Regulatedretainsbothactual
+parents'ordinary/pairskillsbutloses28/38donorcorridors. Secondary12NEWINDIVIDUALfork
+responses(prefix4/8,6/10/11edges,poses2/4,side0) beyondALL205historical; counterpart
+ALL12emitteddisconnected. ZEROnewcompletepairs/corridors/ordinary8+. Noprimaryrole
+substitution/general/speed/significanceclaim. SharedstateinterferenceHYPOTHESIS,
+notcausalproof. Genomesremainrandom-origin; oneM28opportunityvsinheritedhistoryexplicit.
+
+Science1094882calls/1543.04candidate/1591.52CPU/469703377493work;dev122.39s/final100.18s,
+peak3.537/4.227GiBRSS,zero uncertain. Equal276032nominalqueries/arm notCPUequality.
+Workflow454.57s. AuditsALL684178dev+410704finalnative firstPASS115.69/91.70s;7746
+conventionalcalls/intactcontrolsALLcorrect. SharedVM,independentgrader,notsecondVM.
+EightfocusedtestsPASS,notfullsuite; fixture360calls+360native+40warm/40oldinputs.
+Onepre-registration port-range testfailure +unpublishedregistrationpacket preserved;
+no scientificrepair/guardbypass/failedresume. Additiveordinaryeventexport608replays
+preserves rawcopy-blockdonorindex, separatefromwrappermatchedpartnerfield.
+
+ALL416M27seal+15localhashesUNCHANGED. Originaldev/finaljournals+verifiedSQLiteAPI
+backups ALLtables/integritymatch. ~140MiBphase/39.57GiBfree within6/16bounds.
+ALL3998785layouts reference+delta=3978849old+19936new inclrejected/unqueriedorbits;
+rawtablesDELTAONLY,use referenced_campaign_store.load_layouts,preserveimmutablebases.
+Reportreviewed/hashrecorded, completion437files/25localrecords sealedONCE, compactevidence/copiedlogs published;
+neverrawSQLite. Noautomationcreated. AGENTSmutable, sealedprogress/results/sourceimmutable.
+NextproposalONLY: separatelyregistered state-interference/modularitystudy onUSEDcases,
+staticdependencycones/passivetraces then genericinsulatedembedding/coupling feasibility
+withrealstate/workcosts, beforeanotherlongsexualsearch. Fusionmergeslocalexpressions
+insideONEstateprocess; cannotassumeparentprocesses survive. NoM29/largerVM/newsearch/
+cloud/knownsolver authorized. Do notclose random-origin fromsmallnegativeassay.
 <!-- M28-STATUS-END -->
 
 <!-- M27-STATUS-START -->

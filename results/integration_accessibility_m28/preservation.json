@@ -1,0 +1,62 @@
+{
+  "all_generated_rejected_unqueried_orbits_preserved": true,
+  "disk_free_bytes": 42487062528,
+  "immutable_bases_required": true,
+  "initial_layouts": 3978849,
+  "journals": {
+    "development": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 20918272,
+        "path": "runs/integration_accessibility_m28/development/backups/completed.sqlite",
+        "sha256": "2ea56dae8aa49f1af4a032ac772e82013d428d57cd90d14914dc3893588745d1",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 0,
+          "settings": 5,
+          "stages": 1,
+          "states": 2,
+          "tasks": 377
+        }
+      },
+      "chain": "4c40baa15be6512299f644f90f1011403dc32eb5954b3702a9dbc27581b63242",
+      "journal": {
+        "bytes": 20918272,
+        "path": "runs/integration_accessibility_m28/development/campaign.sqlite",
+        "sha256": "a9e41059c36f52bcfc9f30302befbd825e3f3ab8d43e077d8ef217addaf072d8"
+      }
+    },
+    "final": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 25509888,
+        "path": "runs/integration_accessibility_m28/final/backups/completed.sqlite",
+        "sha256": "51ed4b28093a65c2a83a73f6525d9cc3a72f6585ba2f44e91d9c3a35792e742a",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 19936,
+          "settings": 5,
+          "stages": 1,
+          "states": 2,
+          "tasks": 49
+        }
+      },
+      "chain": "f1124c8488f7f1f0f32b2f9e8209558717bf85c9e4d82b9f923788efba30ef0c",
+      "journal": {
+        "bytes": 25509888,
+        "path": "runs/integration_accessibility_m28/final/campaign.sqlite",
+        "sha256": "956fe6d290405c86ff22a47af42d82a6615cea3f9bb245a929f784ad6e026f5b"
+      }
+    }
+  },
+  "new_layouts": 19936,
+  "old_histories_unchanged": true,
+  "source_priors": {
+    "files": 416,
+    "local_records": 15,
+    "sha256": "8670906ae8d875acc82c5428876abb882cc5ac682423a582bac7a5091e49d014"
+  },
+  "status": "verified",
+  "storage_bytes": 147078223,
+  "whole_layouts": 3998785
+}

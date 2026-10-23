@@ -1,0 +1,754 @@
+{
+  "all_source_ancestry_retained_in": "63c174ed34ce0e399930cbf07118b97f5a08ef6b589f5bfff201e5f2ec1b1452",
+  "arms": {
+    "mutation": {
+      "changed": 597,
+      "complete_complementary_distribution": {
+        "0": 608
+      },
+      "distinct_genotypes": 594,
+      "gated_known_positive": 0,
+      "gates": {
+        "a0_disconnection90": 547,
+        "domain_retention90": 0,
+        "passes": 0,
+        "positive_mutation_ancestry": 597,
+        "zero_false_no_path": 591
+      },
+      "integrated_known_identities": [],
+      "kinds": {
+        "activate_node": 79,
+        "copy_block": 70,
+        "deactivate_spare": 2,
+        "delete": 85,
+        "duplicate_node": 77,
+        "insert": 74,
+        "operand": 63,
+        "ports": 74,
+        "replace": 84
+      },
+      "max_complementary": 0,
+      "max_instructions": 131,
+      "no_evolution_or_survival": true,
+      "proposals": 608,
+      "raw_development_complete8_positive": 0,
+      "rejection_reasons": {}
+    },
+    "regulated": {
+      "changed": 591,
+      "complete_complementary_distribution": {
+        "0": 608
+      },
+      "distinct_genotypes": 597,
+      "gated_known_positive": 0,
+      "gates": {
+        "a0_disconnection90": 566,
+        "domain_retention90": 0,
+        "passes": 0,
+        "positive_mutation_ancestry": 591,
+        "zero_false_no_path": 608
+      },
+      "integrated_known_identities": [],
+      "kinds": {
+        "bounded_noop": 17,
+        "regulated_fusion": 591
+      },
+      "max_complementary": 0,
+      "max_instructions": 132,
+      "no_evolution_or_survival": true,
+      "proposals": 608,
+      "raw_development_complete8_positive": 0,
+      "rejection_reasons": {
+        "capacity": 17
+      }
+    },
+    "splice": {
+      "changed": 414,
+      "complete_complementary_distribution": {
+        "0": 608
+      },
+      "distinct_genotypes": 156,
+      "gated_known_positive": 0,
+      "gates": {
+        "a0_disconnection90": 608,
+        "domain_retention90": 0,
+        "passes": 0,
+        "positive_mutation_ancestry": 414,
+        "zero_false_no_path": 608
+      },
+      "integrated_known_identities": [],
+      "kinds": {
+        "homologous_splice": 608
+      },
+      "max_complementary": 0,
+      "max_instructions": 117,
+      "no_evolution_or_survival": true,
+      "proposals": 608,
+      "raw_development_complete8_positive": 0,
+      "rejection_reasons": {}
+    }
+  },
+  "costs": {
+    "development": {
+      "nominal_by_arm": {
+        "mutation": {
+          "aliases": 608,
+          "calls": 276032,
+          "work_including_duplicate_aliases": 113015746159
+        },
+        "regulated": {
+          "aliases": 608,
+          "calls": 276032,
+          "work_including_duplicate_aliases": 112674715557
+        },
+        "splice": {
+          "aliases": 608,
+          "calls": 276032,
+          "work_including_duplicate_aliases": 100581300627
+        }
+      },
+      "physical_buckets": {
+        "mutation": {
+          "calls": 265136,
+          "candidate_seconds": 353.81044111330993,
+          "physical_models": 584,
+          "work": 108906611106
+        },
+        "mutation+regulated+splice+reference": {
+          "calls": 1816,
+          "candidate_seconds": 1.8126744672190398,
+          "physical_models": 4,
+          "work": 546412847
+        },
+        "mutation+splice": {
+          "calls": 454,
+          "candidate_seconds": 0.7712798402644694,
+          "physical_models": 1,
+          "work": 251053115
+        },
+        "mutation+splice+reference": {
+          "calls": 2270,
+          "candidate_seconds": 3.0331887402571738,
+          "physical_models": 5,
+          "work": 921380900
+        },
+        "reference": {
+          "calls": 79904,
+          "candidate_seconds": 101.53930172987748,
+          "physical_models": 176,
+          "work": 31612349067
+        },
+        "regulated": {
+          "calls": 268314,
+          "candidate_seconds": 358.23823193623684,
+          "physical_models": 591,
+          "work": 110360271404
+        },
+        "regulated+splice+reference": {
+          "calls": 908,
+          "candidate_seconds": 0.8729784698225558,
+          "physical_models": 2,
+          "work": 280547263
+        },
+        "splice": {
+          "calls": 63560,
+          "candidate_seconds": 84.11321416089777,
+          "physical_models": 140,
+          "work": 25570359611
+        },
+        "splice+reference": {
+          "calls": 1816,
+          "candidate_seconds": 3.126354946405627,
+          "physical_models": 4,
+          "work": 960852164
+        }
+      },
+      "total": {
+        "calls": 684178,
+        "candidate_seconds": 907.3176654042909,
+        "cpu_seconds": 930.9816640000005,
+        "receipts": 377,
+        "uncertain_attempts": 0,
+        "work": 279409837477
+      }
+    },
+    "final": {
+      "nominal_by_arm": {
+        "mutation": {
+          "aliases": 1,
+          "calls": 2128,
+          "work_including_duplicate_aliases": 774088876
+        },
+        "regulated": {
+          "aliases": 1,
+          "calls": 2128,
+          "work_including_duplicate_aliases": 859052876
+        },
+        "splice": {
+          "aliases": 1,
+          "calls": 2128,
+          "work_including_duplicate_aliases": 748929067
+        }
+      },
+      "physical_buckets": {
+        "mutation": {
+          "calls": 2128,
+          "candidate_seconds": 2.6446869290666655,
+          "physical_models": 1,
+          "work": 774088876
+        },
+        "reference": {
+          "calls": 404320,
+          "candidate_seconds": 627.5791553384624,
+          "physical_models": 190,
+          "work": 187911469197
+        },
+        "regulated": {
+          "calls": 2128,
+          "candidate_seconds": 2.9480465507367626,
+          "physical_models": 1,
+          "work": 859052876
+        },
+        "splice+reference": {
+          "calls": 2128,
+          "candidate_seconds": 2.546412897761911,
+          "physical_models": 1,
+          "work": 748929067
+        }
+      },
+      "total": {
+        "calls": 410704,
+        "candidate_seconds": 635.7183017160278,
+        "cpu_seconds": 660.5399409999999,
+        "receipts": 49,
+        "uncertain_attempts": 0,
+        "work": 190293540016
+      }
+    }
+  },
+  "final_profiles": {
+    "m28/mutation/pair21/direction1/draw2": {
+      "genotype_matches": [],
+      "instructions": 114,
+      "max_correct_ordinary_edges": 12,
+      "ordinary_complete16": 0,
+      "ordinary_complete8": 6,
+      "terminal_mask_status_steps_matches": []
+    },
+    "m28/regulated/pair08/direction0/draw5": {
+      "genotype_matches": [],
+      "instructions": 127,
+      "max_correct_ordinary_edges": 12,
+      "ordinary_complete16": 0,
+      "ordinary_complete8": 3,
+      "terminal_mask_status_steps_matches": []
+    },
+    "m28/splice/pair20/direction1/draw0": {
+      "genotype_matches": [
+        "m25/connected/2/enabled/integrate/g429/b30"
+      ],
+      "instructions": 109,
+      "max_correct_ordinary_edges": 5,
+      "ordinary_complete16": 0,
+      "ordinary_complete8": 0,
+      "terminal_mask_status_steps_matches": [
+        "m25/connected/2/enabled/integrate/g422/b33",
+        "m25/connected/2/enabled/integrate/g429/b15",
+        "m25/connected/2/enabled/integrate/g429/b30",
+        "m25/connected/2/enabled/integrate/g429/b42",
+        "m25/connected/2/enabled/integrate/g430/b16"
+      ]
+    }
+  },
+  "limitation": "Different grammar edit sizes; fixed neighborhoods, no breeding/survival or sustained generations. Development gains may overfit reused cases. Deduplication prevents attributing shared physical CPU uniquely to an arm.",
+  "novel_single_inputs": {
+    "development": {
+      "m28/mutation/pair04/direction0/draw4": [
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-2",
+          "edges": 6,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-4",
+          "edges": 6,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        }
+      ],
+      "m28/mutation/pair08/direction0/draw1": [
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        }
+      ],
+      "m28/mutation/pair13/direction0/draw1": [
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        }
+      ],
+      "m28/mutation/pair18/direction1/draw7": [
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        }
+      ],
+      "m28/regulated/pair08/direction0/draw5": [
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-2",
+          "edges": 6,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-4",
+          "edges": 6,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        }
+      ],
+      "m28/regulated/pair11/direction0/draw4": [
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-2",
+          "edges": 6,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-4",
+          "edges": 6,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        }
+      ]
+    },
+    "final": {
+      "m28/regulated/pair08/direction0/draw5": [
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-2",
+          "edges": 6,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p4/paired/0/d4-4",
+          "edges": 6,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c1/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p4/paired/0/d4-2",
+          "edges": 6,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p4",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p4/paired/0/d4-4",
+          "edges": 6,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-2",
+          "edges": 10,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8",
+          "case": "confirmation/core/a(2, 3)/turning/c7/s0/fork/p8/paired/0/d4-4",
+          "edges": 10,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c3/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-2",
+          "edges": 11,
+          "family": "paired",
+          "pose": 2
+        },
+        {
+          "base": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8",
+          "case": "confirmation/core/a(3, 4)/turning/c9/s0/fork/p8/paired/0/d4-4",
+          "edges": 11,
+          "family": "paired",
+          "pose": 4
+        }
+      ]
+    }
+  },
+  "old_saved_source_row_matches": 94432,
+  "primary": {
+    "mutation": 0,
+    "regulated": 0,
+    "splice": 0
+  },
+  "scope": "Posthoc saved-response interpretation, zero new inference/cases.",
+  "status": "PASS"
+}
