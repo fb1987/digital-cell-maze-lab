@@ -113,3 +113,20 @@ instead ofearlierg307/b11. Allrole newindividual/pair/ordinary successes beyond1
 protectedunionremainzero. Phase-entry/frozen/lossretention comparisons saved; no
 newcapabilitynotification, no100-modelnovelty/confirmation claim. No protocol/source/
 selection/inference change, extraevaluation or secondwriter. Quietfollowupcontinues.
+
+Third follow-through, 2026-10-23 00:47 UTC: workflow remains search_001; wrapper43450
+andsearchchild43468 active, ALL420registrationhashesPASS. Latest completedassessment
+467 (+224newrounds), stage238:17244592completedcalls/19966.58candidate/20902.25CPU
+seconds/5318934799404work,2951.13budgetedseconds,3512418304bytes sampledpeakRSS,
+0uncertain. Initialmonitor snapshot~0.630GiBtotalphase/~42.18GiBdiskfree; allbounds
+respected. Pendingtaskreservations are not completed work.
+
+Saved assessment435 (+192newrounds) andcompactsummary. Exact registered cases,
+queries andmetadata verifiedsameat243/371/435; input/taskresult hashes checked.
+ALL18nominees retainexactresponse records already presentat371. INTEGRATErep0
+g300/b19 still19M25births;rep2g304/b32 still6. Same-panel frozen AND actualphase-entry
+gains/losses retained in summary, includingrep0'stwo lostentryordinarybases. Allrole
+newindividual/completepair/ordinarysuccesses beyond14protectedunion remainzero.
+No newlydemonstratedportfolio-solvingcapability orindependentconfirmation result;
+100-modelnovelty remainsreservedforregisteredfinal. No protocol/source/selection/
+inference change, extraevaluation, secondwriter ornewphase. Quietfollowupcontinues.
