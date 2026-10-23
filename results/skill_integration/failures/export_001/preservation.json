@@ -1,0 +1,107 @@
+{
+  "status": "preserved_failed_export_not_repaired",
+  "phase": "M25",
+  "generations": {
+    "start": 243,
+    "ending": 562,
+    "new": 319
+  },
+  "stage_chain": "76d4f19003b0466be33d6cd065ea9c6c9d0d0ef4e88cfd3cefb175a227357d94",
+  "latest_stages": [
+    [
+      339,
+      "assessment",
+      562,
+      1
+    ],
+    [
+      338,
+      "train",
+      561,
+      1
+    ],
+    [
+      337,
+      "train",
+      560,
+      1
+    ]
+  ],
+  "task_status_counts": {
+    "done": 22188
+  },
+  "pending_tasks": 0,
+  "usage": {
+    "calls": 24388480,
+    "candidate_seconds": 28729.37333123421,
+    "cpu_seconds": 30071.694617999965,
+    "receipts": 22188,
+    "uncertain_attempts": 0,
+    "work": 7497041354407
+  },
+  "nomination_stop": {
+    "elapsed_seconds": 4202.11772108078,
+    "generation": 562,
+    "reason": "wall_target",
+    "usage": {
+      "calls": 24161904,
+      "candidate_seconds": 28528.876856240327,
+      "cpu_seconds": 29859.443611999966,
+      "receipts": 22115,
+      "uncertain_attempts": 0,
+      "work": 7448008516122
+    }
+  },
+  "charged_elapsed_seconds": 4243.536071062088,
+  "original_finished_flag": false,
+  "original_journal": {
+    "path": "runs/skill_integration_m25/campaign.sqlite",
+    "sha256": "7089d6202821eba798e30cc9e4ecb7fd370e4ba27a81ec4137e27a92ef6ae403",
+    "bytes": 965771264,
+    "unchanged": true,
+    "integrity_check": "ok"
+  },
+  "backup": {
+    "path": "runs/skill_integration_m25/backups/export_failure_001.sqlite",
+    "sha256": "d916371079bb68feaf080da4e51fb05b80d4f3213784c4a3d5d857f4fc8dd4b4",
+    "bytes": 965771264,
+    "integrity_check": "ok",
+    "all_table_contents_match": true,
+    "table_row_counts": {
+      "layouts": 208912,
+      "settings": 8,
+      "stages": 340,
+      "states": 25,
+      "tasks": 22188
+    },
+    "requires_immutable_layout_base": true
+  },
+  "layout_reference": {
+    "count": 3742313,
+    "path": "/Users/frankie/Documents/ChatGPT/digital cell/results/skill_integration/registered_exclusions.json",
+    "sha256": "cf7915228f63c8c9ae00114b7b382aa9c0b455f0fa54788565a8623febec3139"
+  },
+  "initial_layouts": 3742313,
+  "all_layouts": 3951225,
+  "search_delta_layouts": 208912,
+  "copied_files": {
+    "runs/skill_integration_m25/workflow_status.json": "f575bf6cbc958ced4899d42b1fe736421cc0d305ae3d41a7d230892426cda528",
+    "runs/skill_integration_m25/workflow_001.log": "f5eddfbab4ebd6cd036153ccdb0e892c678e27b68bc98cff2f2f1e3fe6962d69",
+    "runs/skill_integration_m25/search_001.log": "05b668920a0153b16409900a01364a13a189487905491ad97eccf044ad99b9f6",
+    "results/skill_integration/choices.json.gz": "df6c8c9bf5b40c5594a3abdcf1e0cfedca454a8c0e60ec58035543d80bde9b65",
+    "results/skill_integration/ancestry.json.gz": "9967490a504914e7a4fd073b57a176749f65696d7f9f7ba602449a4c1f66b496",
+    "results/skill_integration/final_states.json.gz": "d3c0de4c193b08e7098cefe5d73b874c869f5d65823fbd2050d85b4fb7d70cf2",
+    "results/skill_integration/registration.json": "5ebc99a95381c20489f64c360333e4dda11c10f1f206522702c8b3cefb3e354c",
+    "results/skill_integration/registered_exclusions.json": "cf7915228f63c8c9ae00114b7b382aa9c0b455f0fa54788565a8623febec3139"
+  },
+  "source_hashes_verified": 420,
+  "frozen_states_match_checkpoint": true,
+  "all_18_choices_match_assessment": true,
+  "selection_mutation_rng_native_audit_completed": false,
+  "independent_confirmation_generated": false,
+  "search_resumed": false,
+  "diagnosis": "Registered config/journal use registered_exclusions.json; write_layouts expects absent exclusions.json. Rehearsals explicitly created that compatibility manifest, production did not.",
+  "proposed_scope": "Export-only compatibility manifest and completion from exact stage339; preserve failed records/partial exports, no evolution or reselection, publish choices then existing audits/confirmation only after protocol approval.",
+  "storage_bytes": 1978693415,
+  "disk_free_bytes": 43973160960
+}

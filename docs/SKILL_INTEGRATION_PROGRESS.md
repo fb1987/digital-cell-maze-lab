@@ -154,3 +154,40 @@ bases beyond the 14 protected references' union. These are development results;
 no 100-model novelty comparison, independent confirmation or policy conclusion yet.
 No scientific change, extra inference, second writer or next phase. Quiet follow-up
 continues under the registered bounds.
+
+Fifth follow-through, 2026-10-23 01:17 UTC: workflow FAILED after the normal soft
+search stop, during export. Search completed 319 new rounds, cumulative generation
+562, final assessment stage 339. Stop was recorded at 4,202.12 seconds; elapsed
+including final assessment/attempted export was 4,243.54 seconds. Completed work:
+24,388,480 calls, 28,729.37 candidate seconds, 30,071.69 CPU seconds,
+7,497,041,354,407 counted work, zero uncertain attempts. All 22,188 tasks are done;
+none are pending. No audit, independent confirmation or completed report exists.
+
+The exporter expects exclusions.json, while the registered config and journal use
+registered_exclusions.json. Rehearsals created the compatibility manifest but the
+production setup did not. Source/config/founder hashes remain unchanged (all 420).
+Tracebacks, failed workflow status, partial choices/ancestry/states and original
+journal are preserved. All 18 choices and six final states match stage 339; the
+hash chain verifies. A SQLite-API backup under workflow/writer locks passes integrity
+and ALL-table comparisons. The original journal byte hash is unchanged. See
+failures/export_001/preservation.json for exact hashes, counts and costs. All
+3,951,225 layouts (3,742,313 initial +208,912 delta) are preserved in that packet's
+verified reference export, with immutable historical bases still required. Phase
+storage after backup ~1.84 GiB, free disk ~40.95 GiB; guards respected.
+
+Saved final DEVELOPMENT assessment 562 (+319 new rounds) and same-panel summary,
+checking identical cases/queries/metadata at 243/499/562 and input/task hashes.
+CURRENT rep0 now g562/b45 (32 new mutation births): versus actual entry +14 complete
+pairs/+14 corridors/-3 ordinary bases; INTEGRATE rep0 g443/b23 (22 births) retains
+23/24 entry ordinary bases with the same pair/corridor gains. INTEGRATE rep2
+g530/b22 (20 births) gains 2 pairs/23 corridors/6 ordinary bases versus its own entry,
+without losses; these are known-portfolio consolidation. All 18 nominees still have
+zero individual/pair/ordinary novelty beyond 14 protected references. No 100-model
+novelty, primary policy support, audit PASS or confirmation claim is made.
+
+The export-only proposal is docs/SKILL_INTEGRATION_EXPORT_REPAIR_PROPOSAL.md. No
+repair or resume has been performed; the proposal preserves exact choices and
+search history and would use the remaining original export allowance before the
+original audits/confirmation. The registered protocol requires a decision before
+repair/resume. Follow-up m25-skill-integration-follow-through is now PAUSED. No
+future scientific process is running and no phase beyond M25 is authorized.

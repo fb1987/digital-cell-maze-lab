@@ -1,0 +1,16 @@
+{
+  "ended_epoch": 1792717934.3281422,
+  "failure": "Traceback (most recent call last):\n  File \"/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py\", line 34, in main\n    command('search_001',[PYTHON,'-u','-m','maze_evolution.skill_integration','run'])\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py\", line 29, in command\n    if code:raise RuntimeError(f'{phase} exited {code}; preserved {log}')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: search_001 exited 1; preserved /Users/frankie/Documents/ChatGPT/digital cell/runs/skill_integration_m25/search_001.log\n",
+  "phase": "search_001",
+  "pid": 43450,
+  "started_epoch": 1792713686.949183,
+  "state": "failed",
+  "steps": [
+    {
+      "ended_epoch": 1792717934.325653,
+      "log": "runs/skill_integration_m25/search_001.log",
+      "phase": "search_001",
+      "returncode": 1
+    }
+  ]
+}

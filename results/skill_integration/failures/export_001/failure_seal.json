@@ -1,0 +1,44 @@
+{
+  "status": "closed_failure_packet_no_repair_or_confirmation",
+  "created_utc": "2026-10-23T01:24:07.199374+00:00",
+  "phase": "M25",
+  "files": {
+    "docs/SKILL_INTEGRATION_EXPORT_REPAIR_PROPOSAL.md": "3dca950777759207b10118534eabe7986caf658d1a4b3f61654afc09229fe5ea",
+    "results/skill_integration/development/assessment_562.json": "08e1c48eb46a0967d278580d03de6313975a928d8b97e42e4d32f3b475ed1d98",
+    "results/skill_integration/development/assessment_562_summary.json": "e899785cfafd7dc70354c784fc95225a2ebae190d18b3e3c7fc8e413e33a9c0b",
+    "results/skill_integration/failures/export_001/ancestry.json.gz": "9967490a504914e7a4fd073b57a176749f65696d7f9f7ba602449a4c1f66b496",
+    "results/skill_integration/failures/export_001/choices.json.gz": "df6c8c9bf5b40c5594a3abdcf1e0cfedca454a8c0e60ec58035543d80bde9b65",
+    "results/skill_integration/failures/export_001/final_states.json.gz": "d3c0de4c193b08e7098cefe5d73b874c869f5d65823fbd2050d85b4fb7d70cf2",
+    "results/skill_integration/failures/export_001/monitor_pause.json": "6248536f558cd67fbd62db64c92fdc2ce9669b0a9685003fb1a2e1820567d300",
+    "results/skill_integration/failures/export_001/preservation.json": "09f33687f561e5e34dfa2539e00e761db5bbc7f41d7a31cf12933b81078661db",
+    "results/skill_integration/failures/export_001/registered_exclusions.json": "cf7915228f63c8c9ae00114b7b382aa9c0b455f0fa54788565a8623febec3139",
+    "results/skill_integration/failures/export_001/registered_integrity_check.json": "0e9e27ab4666ec7773ae862bb235312804e57fa11f5e6d543c99b6eac020371d",
+    "results/skill_integration/failures/export_001/registration.json": "5ebc99a95381c20489f64c360333e4dda11c10f1f206522702c8b3cefb3e354c",
+    "results/skill_integration/failures/export_001/search_001.log": "05b668920a0153b16409900a01364a13a189487905491ad97eccf044ad99b9f6",
+    "results/skill_integration/failures/export_001/search_exclusions.delta.json.gz": "715ea5d472ff6c9d36ab785edc8e6ec58fd81f04bc318799469902e9b709a724",
+    "results/skill_integration/failures/export_001/search_exclusions.json": "572e48aab99c4ad1c8151e057de508a894839217ca3da99cce9dfa496a78ac5f",
+    "results/skill_integration/failures/export_001/workflow_001.log": "f5eddfbab4ebd6cd036153ccdb0e892c678e27b68bc98cff2f2f1e3fe6962d69",
+    "results/skill_integration/failures/export_001/workflow_status.json": "f575bf6cbc958ced4899d42b1fe736421cc0d305ae3d41a7d230892426cda528",
+    "tools/preserve_m25_export_failure.py": "c181f84f1440b2da5dbdec7d9cb2b2ac8d99b3eef8833035d0a98870165451be"
+  },
+  "local_records": {
+    "path": "runs/skill_integration_m25/backups/export_failure_001.sqlite",
+    "sha256": "d916371079bb68feaf080da4e51fb05b80d4f3213784c4a3d5d857f4fc8dd4b4",
+    "bytes": 965771264,
+    "integrity_check": "ok",
+    "all_table_contents_match": true,
+    "table_row_counts": {
+      "layouts": 208912,
+      "settings": 8,
+      "stages": 340,
+      "states": 25,
+      "tasks": 22188
+    },
+    "requires_immutable_layout_base": true
+  },
+  "repair_executed": false,
+  "search_resumed": false,
+  "full_search_audit_pass": false,
+  "independent_confirmation_generated": false,
+  "automation_paused": true
+}

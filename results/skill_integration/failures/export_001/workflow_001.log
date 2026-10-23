@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py", line 34, in main
+    command('search_001',[PYTHON,'-u','-m','maze_evolution.skill_integration','run'])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py", line 29, in command
+    if code:raise RuntimeError(f'{phase} exited {code}; preserved {log}')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: search_001 exited 1; preserved /Users/frankie/Documents/ChatGPT/digital cell/runs/skill_integration_m25/search_001.log
+
+Traceback (most recent call last):
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py", line 56, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py", line 34, in main
+    command('search_001',[PYTHON,'-u','-m','maze_evolution.skill_integration','run'])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/run_m25_workflow.py", line 29, in command
+    if code:raise RuntimeError(f'{phase} exited {code}; preserved {log}')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: search_001 exited 1; preserved /Users/frankie/Documents/ChatGPT/digital cell/runs/skill_integration_m25/search_001.log

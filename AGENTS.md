@@ -35,7 +35,30 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M25-STATUS-START -->
-Current October22,2026: **M25 RUNNING, user authorized Proceed after M24.**
+Current October22local/23UTC,2026: **M25 HALTED: export failure after normal search stop.**
+DO NOT resume the failed workflow or launch another search. User protocol decision
+required; read docs/SKILL_INTEGRATION_EXPORT_REPAIR_PROPOSAL.md and
+results/skill_integration/failures/export_001/preservation.json. Search completed319
+newrounds/cumulative562, finalassessmentstage339 complete; all22188tasksdone,
+0pending/uncertain,24388480calls/28729.37candidate/30071.69CPU seconds,
+7497041354407work. Normalsoftstop4202.12s;chargedelapsed4243.54s. Exportfailed
+becausewrite_layouts expectsabsentexclusions.json whileconfig/journalcorrectlyuse
+registered_exclusions.json. Rehearsalscreatedcompatibilityfile;productiondidnot.
+All420registeredhashesunchanged. No audit or confirmation started, no completionseal.
+Originalfailedstatus/logs/partialchoices/ancestry/states preserved; all18choices/sixstates
+matchcheckpoint, hashchainverified. SQLiteAPIbackupunderbothwriterlocks verifiedALL
+tables/integrity,originalbytehashunchanged. Backup runs/skill_integration_m25/backups/
+export_failure_001.sqlite; neveroverwrite. ALL3951225layouts preserved viafailurepacket
+reference+delta (3742313initial+208912search), immutablebasesrequired. ~1.84GiBphase/
+40.95GiBfree afterbackup within12/16bounds. Finalassessment562+summary saveddevelopment;
+all18novelindividual/pair/ordinarysuccessesbeyond14protectedunion=0,DEVELOPMENTonly.
+ProposalONLY: registeredexport-onlyrecovery,compatibilitymanifestmatchingregistered
+base,verifyexistingexportswithoutoverwriting,finishmissingledger/session atEXACT
+checkpoint,noevolution/reselection,thenpublishedchoicefreeze/originalaudits/final.
+Originalfailedworkflowrecordsremainimmutable;separaterecoverystatusifapproved.
+Heartbeat m25-skill-integration-follow-through PAUSED forrequiredprotocoldecision.
+The original authorized protocol and launch details follow; they do not authorize
+automatic recovery from this failure.
 Read docs/SKILL_INTEGRATION.md, docs/SKILL_INTEGRATION_PROGRESS.md,
 results/skill_integration/registration.json and launch.json foractualpublishedstate.
 Six96populations=3EXACTM23enabledendingstates/RNG/archives at243 xcurrent/integrate.
@@ -63,7 +86,7 @@ backups/ALLlayouts,report_m25.pydraftthenactualreview/interpretation+report_revi
 updatehandoff,seal_m25_completion.pyONCE,commit/pushcompactevidence+force-addlogs.
 NeverrawSQLinGit/overwriteoldseals/failures. Initial3742313layoutreference+delta,
 rawtablesdeltaONLY/use referenced_campaign_store.load_layouts;preserveimmutablebases.
-Followup m25-skill-integration-follow-through ACTIVE15min,quietonroutine;notify
+Followup m25-skill-integration-follow-through PAUSED afterexportfailure;notify
 meaningfulgain/completion/failure/action,pauseaftercompletion. monitor.json creationstateonly.
 No M26/newvariation/recombination/cloudcompute/solverinjectionauthorized.
 <!-- M25-STATUS-END -->
