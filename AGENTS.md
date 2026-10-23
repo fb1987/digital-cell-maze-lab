@@ -35,9 +35,14 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M25-STATUS-START -->
-Current October22local/23UTC,2026: **M25 HALTED: export failure after normal search stop.**
-DO NOT resume the failed workflow or launch another search. User protocol decision
-required; read docs/SKILL_INTEGRATION_EXPORT_REPAIR_PROPOSAL.md and
+Current October22local/23UTC,2026: **M25 A1 export-only recovery APPROVED and PREPARED.**
+User replied Yes to the sealed recovery proposal. Read
+docs/SKILL_INTEGRATION_EXPORT_RECOVERY_A1.md and results/skill_integration/recovery_a1/.
+The new tools/run_m25_recovery_a1.py will complete export at exact stage339 and then
+run the original audits/confirmation. It uses recovery_a1_workflow_status.json and
+a1-prefixed logs; original failed workflow_status.json stays failed/immutable.
+Do not launch another search or automatically resume any failed recovery.
+Read docs/SKILL_INTEGRATION_EXPORT_REPAIR_PROPOSAL.md and
 results/skill_integration/failures/export_001/preservation.json. Search completed319
 newrounds/cumulative562, finalassessmentstage339 complete; all22188tasksdone,
 0pending/uncertain,24388480calls/28729.37candidate/30071.69CPU seconds,
@@ -52,13 +57,16 @@ export_failure_001.sqlite; neveroverwrite. ALL3951225layouts preserved viafailur
 reference+delta (3742313initial+208912search), immutablebasesrequired. ~1.84GiBphase/
 40.95GiBfree afterbackup within12/16bounds. Finalassessment562+summary saveddevelopment;
 all18novelindividual/pair/ordinarysuccessesbeyond14protectedunion=0,DEVELOPMENTonly.
-ProposalONLY: registeredexport-onlyrecovery,compatibilitymanifestmatchingregistered
+Approved scope: registeredexport-onlyrecovery,compatibilitymanifestmatchingregistered
 base,verifyexistingexportswithoutoverwriting,finishmissingledger/session atEXACT
 checkpoint,noevolution/reselection,thenpublishedchoicefreeze/originalaudits/final.
-Originalfailedworkflowrecordsremainimmutable;separaterecoverystatusifapproved.
-Heartbeat m25-skill-integration-follow-through PAUSED forrequiredprotocoldecision.
-The original authorized protocol and launch details follow; they do not authorize
-automatic recovery from this failure.
+Originalfailedworkflowrecordsremainimmutable;separaterecoverystatusrequired.
+RehearsalPASS50.03s: existingexportsreplayexact, journalbytehashunchanged,3951225layouts
+verified, metadata-onlycompletionfixture andfournegativeguardsPASS,zero newinference/
+cases. Original420scientifichashesunchanged; A1registeredbeforeproductionrecovery.
+HeartbeatcurrentlyPAUSED,willresumeagainstnewrecoverystatusafterlaunch.
+The original scientific protocol and historical launch details follow; A1 authorizes
+only the explicit export recovery and original audits/confirmation, not more search.
 Read docs/SKILL_INTEGRATION.md, docs/SKILL_INTEGRATION_PROGRESS.md,
 results/skill_integration/registration.json and launch.json foractualpublishedstate.
 Six96populations=3EXACTM23enabledendingstates/RNG/archives at243 xcurrent/integrate.

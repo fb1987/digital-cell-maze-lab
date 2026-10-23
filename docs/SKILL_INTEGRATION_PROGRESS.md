@@ -191,3 +191,14 @@ search history and would use the remaining original export allowance before the
 original audits/confirmation. The registered protocol requires a decision before
 repair/resume. Follow-up m25-skill-integration-follow-through is now PAUSED. No
 future scientific process is running and no phase beyond M25 is authorized.
+
+The user subsequently approved the sealed export recovery proposal with “Yes”.
+Prepared docs/SKILL_INTEGRATION_EXPORT_RECOVERY_A1.md, a separate recovery workflow
+and export helper. The original failed workflow and sealed packet remain intact.
+The A1 rehearsal passed in 50.03 seconds using the actual read-only saved checkpoint:
+all existing exports replay exactly, journal byte hash unchanged, all 3,951,225
+layout exclusions equal. Metadata-only completion checks reject an already-finished
+journal, an active session, exhausted original time allowance and existing exports.
+No inference, maze generation or evolutionary round occurred. Original 420 source
+hashes and prior M23/M24 seals verify. A1 will be registered and pushed before the
+export-only production recovery; the original successful scientific work is retained.

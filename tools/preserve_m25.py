@@ -5,6 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from maze_evolution.skill_integration import ROOT,OUT,RUN,check,readz,writej,sha,load_layouts,write_layouts
 from maze_evolution.deep_campaign_store import writer_lock,unpacked
 from maze_evolution.referenced_campaign_store import Journal
+from tools.m25_export_recovery_a1 import ready_status
 
 def size():return sum(p.stat().st_size for b in (RUN,OUT) for p in b.rglob('*') if p.is_file())
 def same_table(src,dst,table):
@@ -16,7 +17,7 @@ def same_table(src,dst,table):
 
 def main():
     config=check();assert not (OUT/'preservation.json').exists()
-    assert json.loads((RUN/'workflow_status.json').read_text())['state']=='audited_ready_for_report'
+    ready_status()
     for name in ('search','final'):assert json.loads((OUT/f'{name}_audit.json').read_text())['status']=='PASS'
     initial=load_layouts(ROOT/config['layout_base_manifest']);search=load_layouts(OUT/'search_exclusions.json');assert initial<=search
     new=set(readz(OUT/'confirmation.json.gz')['new_layouts']);assert not search&new;union=search|new

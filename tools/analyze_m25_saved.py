@@ -8,10 +8,11 @@ from maze_evolution.skill_integration_analysis import final_load
 from maze_evolution.dormant_evolution_genome import Genome,wrappers
 from maze_evolution.breeding_allocation_metrics import capabilities_plus,comparison,upstream_pairs
 from maze_evolution.deep_campaign_store import unpacked,hashed,packed
+from tools.m25_export_recovery_a1 import ready_status
 
 def main():
  check();assert not (OUT/'saved_diagnostics.json').exists() and not (OUT/'allocation_persistence.json').exists()
- assert json.loads((RUN/'workflow_status.json').read_text())['state']=='audited_ready_for_report'
+ ready_status()
  audits={k:json.loads((OUT/f'{k}_audit.json').read_text()) for k in ('search','final')};assert all(v['status']=='PASS' for v in audits.values())
  choices=readz(OUT/'choices.json.gz');data,rows,models,usage,chain=final_load();queried=set(data['queries']['all']);meta={k:v for k,v in data['metadata'].items() if k in queried};assert len(meta)==1680
  s=json.loads((OUT/'summary.json').read_text());caps={i:capabilities_plus(rs,meta) for i,rs in rows.items()};comparators=s['comparison_identities']
