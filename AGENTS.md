@@ -44,7 +44,8 @@ No further scientific writer/search is running. Recovery status is
 runs/skill_integration_m25/recovery_a1_workflow_status.json = audited_ready_for_report.
 Original workflow_status.json stays FAILED as immutable historical evidence.
 Preserve ALL originals/seals/backups/failures. Never resume closed actions, overwrite
-records or reselect on confirmation. Completion sealing/publishing follows this handoff.
+records or reselect on confirmation. Completion507-file seal and compact evidence/
+copiedlogs published54cd646. Follow-up is PAUSED after completion; no further work scheduled.
 
 Original registration341c73e/420hashes BEFOREscience; approved A1c3af89d/10hashes
 BEFOREexport recovery; complete choices99af518 PUSHED BEFOREfresh1680confirmation.
@@ -102,8 +103,9 @@ and pre-recoveryfailurebackup local;~2.80GiBphase/~39.97GiBfree,12/16guardsrespe
 ALL3956921layouts=3742313initial+208912search+5696final exportedreference+delta;
 rawtablesDELTAONLY,usereferenced_campaign_store.load_layouts. Preserveimmutablebase/
 compatibilityledgers and all generated/rejected/unqueried hashes. No rawSQL inGit.
-ReportreviewPASS; seal ONCE with tools/seal_m25_completion.py thencommit/pushcompact
-records/force-addcopiedlogs. Pausefollowupafterpublication. No newphaseauthorized.
+ReportreviewPASS; completionseal alreadycreatedONCE(507files),verifiedandpublished.
+Do NOT rerun tools/seal_m25_completion.py or closedhelpers; futureauditsNEWpackets.
+Followup m25-skill-integration-follow-through PAUSED. No newphaseauthorized.
 
 NextproposalONLY:saved-training-record evolvability audit ofordinary8+first-exposure
 gains,nextselectionsurvival/reproduction andappendheadroom. Distinguishappearance
