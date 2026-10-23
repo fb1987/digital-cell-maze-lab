@@ -78,3 +78,23 @@ followup m25-skill-integration-follow-through ACTIVE. monitor.json iscreationrec
 notfuturelivestate. Helpersanalyze/preserve/report/seal preparedasUNREGISTEREDposthoc
 tools; validateactualsaveddatawhenusedandpreserveanyfailedpacketsbeforehelperfixes.
 No scientificsource/panel/selection change afterregistration. No nextphase launched.
+
+First follow-through, 2026-10-23 00:17 UTC (October22local): workflow remains in
+search_001; source420hashesPASS. Completed76newrounds at first snapshot, stage80
+throughcumulative319;5734784completedcalls/6292.47candidate/6592.48CPUsec,
+951.23budgetedseconds/3512418304bytes sampledpeakRSS/0uncertain. Phase~0.244GiB,
+~42.57GiBfree, all bounds respected. Pending reservations are not completed work.
+
+Saved assessment307 (+64newrounds), same-panel frozen/protected summaries and exact
+phase-entry comparisons under development/. All cases/metadata/queries at243and307
+verifiedidentical before comparing. INTEGRATErep0 g300/b19 has19M25mutationbirths:
+vsfrozen gated_partial +12completepairs/+3ordinarybases/no losses;vsactualphase-entry
+M23g240/b44 +14pairs/+14corridors, -2of24ordinarybases,44nopath retained,0false.
+Retentionfractions entry1/1/0.9167/1;this is not a no-loss entry result. INTEGRATErep2
+six-new-birth nominee gains12corridors/no loss vsentry, CURRENTrep2 gains3corridors.
+ALLnominee newindividual/completepair/ordinary successes beyond14protectedunion=0.
+Thus no newportfolio-solving claim, no100-modelnovelty comparison or independent
+confirmation yet. Frozen superiority and phase-entry acquisition must stay distinct.
+Routine development consolidation recorded; no capability notification or protocol
+change. Workflow/quietfollowupcontinue underunchangedbounds. No secondwriter,
+newcases,selection/inferencechanges or nextphase launched by this monitor.
