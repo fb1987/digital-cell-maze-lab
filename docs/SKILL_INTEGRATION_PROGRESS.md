@@ -98,3 +98,18 @@ confirmation yet. Frozen superiority and phase-entry acquisition must stay disti
 Routine development consolidation recorded; no capability notification or protocol
 change. Workflow/quietfollowupcontinue underunchangedbounds. No secondwriter,
 newcases,selection/inferencechanges or nextphase launched by this monitor.
+
+Second follow-through, 2026-10-23 00:32 UTC: workflow still search_001,0uncertain;
+source420hashesPASS. Firstsnapshotcompleted144newrounds,cumulative387,stage152;
+10878648completedcalls/12361.69candidate/12959.17CPUsec/3401887356477work,
+1839.17budgetedseconds,3512418304bytes sampledpeakRSS. Phase~0.439GiB,~42.39GiB
+free;allregisteredboundsrespected. Pendingassessment387/reservationsnotcompletedwork.
+
+Saved assessment371 (+128newrounds) andcompactsummary. Exactcases,queries,metadata
+verifiedsameat243/307/371; task result/input hasheschecked. Every371nominee's exact
+response records were already present at307. INTEGRATErep0 still19-birthg300/b19;
+INTEGRATErep2 still6-birthg304/b32. CURRENTrep2 nominee nowprotectedgated_specialist
+instead ofearlierg307/b11. Allrole newindividual/pair/ordinary successes beyond14
+protectedunionremainzero. Phase-entry/frozen/lossretention comparisons saved; no
+newcapabilitynotification, no100-modelnovelty/confirmation claim. No protocol/source/
+selection/inference change, extraevaluation or secondwriter. Quietfollowupcontinues.
