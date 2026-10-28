@@ -35,53 +35,63 @@ This is a scientific prototype, not a startup website, an AWS agent swarm, or a 
 ## Immediate first task
 
 <!-- M32-STATUS-START -->
-October23,2026: **M32 approved A1 RUNNING: exportPASS, choicespublished, searchauditactive.**
-LatesthumanYes approvedthetestedexport-onlyrepair andoriginalaudits/freshconfirmation.
-Read docs/REPAIR_EVOLUTION_M32.md, PROGRESS, EXPORT_RECOVERY_A1 proposal+APPROVEDdoc,
-results/repair_evolution_m32/{registration,launch,choice_freeze,search_session}.json
-and recovery_a1/{registration,launch,export_receipt,rehearsal}.json. OriginalM32
-registrationee05522/393hashes;A1f88f72c/14hashes PUSHED beforeapplication. Exact18roles/
-14IDs/138ancestorclosure recoveredwithZERO inference/cases/selection/evolution/RNG
-advance;payloads matchrehearsal;ALLoriginalsource/searchjournalbytes/settings unchanged.
-Choicefreezeda51934 PUSHED BEFOREnewfinalcases. A1exportPASS4.342s;originalupper
-1655.456s+rehearsal4.638s+fullreceipt4.342s=1664.436s<1800hard. Noguartextension.
+October28,2026 closure: **M32 COMPLETE; approved A1 recovery and all3 audits PASS.**
+Science finishedOctober23; laterfollow-ups completedreport/preservation,notextraevolution.
+Read docs/REPAIR_EVOLUTION_M32.md, PROGRESS, EXPORT_RECOVERY_A1+APPROVED;
+results/repair_evolution_m32/{report.md,summary.json,saved_diagnostics.json,
+interpretation_evidence.json,source_audit.json,search_audit.json,final_audit.json,
+preservation.json,report_review.json,completion.json}. Original393hashregistration
+ee05522 PUSHED before science; approved14hashA1 f88f72c BEFOREapplication; exact18roles/
+14IDs/138ancestorclosure choicesda51934 PUSHED BEFOREfresh2416final. No nextphase.
 
-Original runs/repair_evolution_m32/workflow_status.json staysFAILED/immutable;
-new tools/run_m32_recovery_a1.py RUNNING undercaffeinate(initialPID9147),status
-runs/repair_evolution_m32/recovery_a1_workflow_status.json. NEVERcallsearch/oldworkflow,
-secondworkflow/writer,reset,reselect,editregisteredfiles,journals,oldseals orfailures.
-SourceandauditPASSalready;A1 nowALLsearchnative/selection/variation/RNGaudit,thenoriginal
-fresh2416-casefinal/analysis/ALLnativeaudit. Anynewguard/error/auditfailure STOP,
-preserveandreport;noautomaticfailedresume. Existingbounds10workers/8GiBRSS/8GiBTOTAL/
-16GiBfloor/30Mcalls/1e15work perstage;source/final900s/audits3600s,unchanged.
+62rounds then softstop,6six96related matchedSHARED/NICHEforks,unchangedM18VM/M19grammar,
+9protectedrandom-originentries;7immigrants+45genericmutants/round. SearchCLOSED forever.
+PRIMARYall6 0;2/3positivepairs0,sum0,descriptivesupportFALSE. Rawnewcompleteordinary8+
+ALL18rolesZERO BEFOREgates;all6INTEGRATEDstrictgatePASS andALL2416mask/statusprofiles
+matchA0(31ordinarybases,96paired,200corridors,216nopath),notnewmechanism. Finalqueries
+480ordinarybases/430eightplus/179sixteenplus. Rawsummary2044generatedmetadata denominator
+includesunqueried; savedquery-onlystrata proveALLendpoints/gatesinvariant;NEVEReditraw.
 
-62rounds/6882689searchcalls/3425655240865work/12463.900candidate/12826.804workerCPU,
-11628receipts,0uncertain/0pending. Finalassessment62fullysaved(stage66). ALL457M31seal+
-36locals unchanged. Originalsource/searchSQLiteAPI failurebackups/ALLtables verified;
-failurepacketfailures/export_001 immutable. Original failurewasduplicate-role serialization
-BEFOREcanonicalexports;notanevolutionaryresult. Additive stdout_seal_addendum_001 fixes
-ONLYunregisteredpreserver's successline appendedafterfirstseal;allsciencematches.
+RAREentryandALL6REPAIRsame48/240controlledreachablefinal42/50/58edges,0/48A/Bpairs;
+EXACT48inherited,0newcontrolled. Sourceindependent48at22/30/38edgesnotM32acquisition.
+NICHE REPAIRpaired4/4/8 vsSHARED0/0/0;ordinary11/7/11 vs6/6/6;corridors114/56/38
+vs34/82/82;exactentry6ordinary/4corridors/0pairs. NICHEgainsrelativeentry,all0correct
+nopath/216,0false reachable nopath. Entryalready0correctnopath;ancestraldeficitsremain.
+One0/nicheKNOWN10edgeordinarybase;otherrepairmax3–4edges,no16plus.2/nicheg61/b8,
+34changed/36birthdepth,70individualgains/1lossvsentry,11/1vsactualparent;ONEportfolio
+novel5edgeSINGLEpose,otherposewrong,notprimary. SHAREDordinaryg48/b35 gains20pairs/
+10corridors/3ordinaryloses1,all216nopathretained;strictrootFAIL,portfolio-novelZERO.
+No rolesubstitution/general/speed/significance/policycausalityclaim. Alllossesreviewed.
 
-Source rarevariant independently48controlledpresentations at22/30/38edges,0A/Bpairs,
-0correctnopath:limited inheritedability,notM32acquisition. Six96 populations/3matched
-shared-nichepairs9protectedentries;sameM18/M19VM/grammar,7immigrants+45mutants,44survivors/
-8archive;811USEDassessment/96rotatingtraincases. Nichereserves8profiles/survivors+8births,
-fullcorrectpaths only,noempty/partialreward. FixedINTEGRATED primarynovelordinary8+
-2posebases beyond220fixednoncontrolaliases,parent/entry/ancestralroots;zeroifchanged-M32/
-domain90/nonemptyA0nopath90/zerofalsenopath gatesfail. Niche descriptivesupportpositive2/3
-pairsANDsum. Relatedforks,norolesubstitution/general/speed/significanceclaim.
+NICHE496cycledbirths/pop;finalraremembership32/27/32 vs15/15/16,includesprotected/clones.
+16740mutants=16252changed+488noop,2604immigrants;notindependentorigins. Serialdepth
+andpersistenceoccurredwithoutA/Brepair;notproofcapacityimpossibleoralltransientfailed.
+Science7911905calls/4014138686247work/14444.986candidate/14867.255workerCPU;ALLaudits
+7911905native+independentgrades/selection/variation/RNG and138825conventionalPASS,
+auditworkerCPU14707.540s. SameVM/independentgrader,notsecondVM/latencybenchmark.
 
-Atrecoveryaudited_ready_for_report:3PASS audits/choicepublication/priorhashesverify;
-analyze_m32_saved ONLYifabsent, query-onlydenominator/lengthcorrectionMUSTproveall
-endpoints/gatesinvariant;nevereditrawsummary/science. Preservewithadaptedpreserve_m32
-(SQLiteAPI/ALLtables/ALLlayoutreferences+deltas insidebounds), report_m32ONCE thenreview
-actualevidence/nextrecommendation+report_reviewSHA,updateAGENTS/progress,seal_m32ONCE
-DIRECTLY(no ownstdoutlogunderRUN),commit/push compact evidence/force-addcopiedlogs,
-neverrawSQL. Helpers areUNREGISTERED, adaptedforA1status/timing;oldversions+2editor-only
-failurespreservedinrecovery_a1/helper_adaptation_001. No scientificimpact;preserveany
-newfailedhelperpacketbeforefixing,neveroverwriteclosedoutputs/seals/failedrecords.
-Follow-upACTIVE;pauseafterreport/preservation/publication orrequireduseraction.
-No M33,extraevolution/recombination/solverinjection/cloud/capacityextension authorized.
+Originalworkflow_status FAILED staysimmutable(duplicate-rolefreezeexportbug).
+HumanYesapprovedexport-onlyA1;4.342s,0newinference/cases/evolution/selection/RNGadvance,
+originaljournal/settingsunchangedincludingabsentfinishedflag. Originalupper1655.456+
+rehearsal4.638+export4.342=1664.436<1800. Recovery_statusaudited_ready_for_report is
+historical;completionclosesreport/preservation. NEVERresumeold/newworkflow orsearch.
+Originalfailurepacket/backups/failure_seal+stdout_seal_addendum_001 immutable;2editor
+errors+saved-analysisStopIterationpreservedbeforeunregisteredhelperfix;no scienceedit.
+
+ALL457M31seal+36locals unchanged.3originalSQL+verifiedSQLiteAPIcompletedbackupsunderlocks,
+integrity/ALLtables/settingsmatch;failurebackupsretained. Wholelayouts4054208=
+4016356initial+19706source+18146final,ALLgenerated/reject/unqueried/orbits. Deltatables
+ONLY,use referenced_campaign_store.load_layouts,retainimmutablebases. ~0.932GiBphase/
+39.51GiBfreeatbackupwithin8/16bounds. ReportreviewSHA;sealONCEDIRECTLY(noownlog),
+compactevidence/copiedlogspublished,neverrawSQL. AGENTSmutableoutside;sealedprogress/
+science/resultsimmutable;futureauditsNEWpackets,neverrerunclosedhelpers/seals.
+Follow-up pausesafterpublicationverification. No M33authorized.
+
+NextproposalONLY:smallseparatelyregistered mechanism/ancestryauditofsavedspecialist
+skillgains+persistentA/Bfailures;staticdiffs/savedrastersfirst,unchangedgenomepassive
+tracesifneeded,BEFOREanotherlongsearch. Preserve random-origin/deeplineages;nogeneral
+closurefromshortnull. No newinference/evolution/operators/recombination/solverinjection/
+enlargedVM/cloudauthorizedorlaunched.
 <!-- M32-STATUS-END -->
 
 <!-- M31-STATUS-START -->

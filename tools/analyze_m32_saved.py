@@ -67,7 +67,7 @@ def main():
     for c in choices['choices']:
         i=c['item']['id'];parent=c['item']['parent'];cap=cc[i];new=sorted(cap['success']-portfolio);examples=[]
         for cid in new[:12]:
-            meta=d['metadata'][cid];base=meta.get('base');partners=[x for x,m in d['metadata'].items() if base is not None and m.get('base')==base and x!=cid]
+            meta=queried_meta[cid];base=meta.get('base');partners=[x for x,m in queried_meta.items() if base is not None and m.get('base')==base and x!=cid]
             examples.append(dict(case=cid,family=meta['family'],edges=len(meta['path'])-1,partners=[dict(case=x,status=next(r['status'] for r in rr[i] if r['case']==x),optimal=next(r['optimal'] for r in rr[i] if r['case']==x)) for x in partners]))
         final_details.append(dict(population=c['population'],role=c['role'],id=i,entry=c['item']['entry'],parent=parent,phase_depth=c['item']['depth'],phase_changed_depth=c['item']['changed_depth'],
             known_profile_matches=profiles.get(hashed(packed([(r['status'],r['mask']) for r in rr[i]])),[]),new_individual_inputs=len(new),new_individual_examples=examples,

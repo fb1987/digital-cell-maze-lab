@@ -1,0 +1,8 @@
+{
+  "command": ".venv/bin/python tools/analyze_m32_saved.py",
+  "exit_code": 1,
+  "source_sha256": "3419962fd7ced4d1c48d839d933eaefb0ed0ce008a080ea96642c46b011c1193",
+  "cause": "Unregistered postprocessor looked up rejected/unqueried counterpart metadata in actual response rows. No saved_diagnostics was created.",
+  "scientific_impact": false,
+  "repair": "Restrict counterpart example lookup to queries.all. Registered science and raw summary remain unchanged."
+}

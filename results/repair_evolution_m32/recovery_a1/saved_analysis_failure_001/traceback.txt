@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "tools/analyze_m32_saved.py", line 84, in <module>
+    main()
+  File "tools/analyze_m32_saved.py", line 71, in main
+    examples.append(... partners=[dict(case=x,status=next(r['status'] for r in rr[i] if r['case']==x),...) for x in partners])
+StopIteration

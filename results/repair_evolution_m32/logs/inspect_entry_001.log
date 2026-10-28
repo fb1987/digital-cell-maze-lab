@@ -1,0 +1,415 @@
+{
+  "workflow": {
+    "child_pid": 95996,
+    "phase": "search",
+    "pid": 94982,
+    "started_epoch": 1792790123.3627,
+    "state": "running",
+    "steps": [
+      {
+        "code": 0,
+        "ended_epoch": 1792790244.062207,
+        "log": "runs/repair_evolution_m32/source_001.log",
+        "phase": "source"
+      },
+      {
+        "code": 0,
+        "ended_epoch": 1792790369.461403,
+        "log": "runs/repair_evolution_m32/audit_source_001.log",
+        "phase": "audit_source"
+      }
+    ]
+  },
+  "search": {
+    "generation": 14,
+    "latest": 14,
+    "pending": 15,
+    "usage": {
+      "calls": 1062766,
+      "candidate_seconds": 1768.0814586713677,
+      "cpu_seconds": 1824.709703000002,
+      "receipts": 2388,
+      "uncertain_attempts": 0,
+      "work": 595666174375
+    }
+  },
+  "assessment": {
+    "generation": 0,
+    "stage": 0,
+    "nominees": [
+      {
+        "name": "0/shared",
+        "roles": [
+          {
+            "role": "INTEGRATED",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "REPAIR",
+            "id": "m31/regulated/C6/draw0246",
+            "entry": "m31/regulated/C6/draw0246",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 48,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": false,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "ORDINARY",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "0/niche",
+        "roles": [
+          {
+            "role": "INTEGRATED",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "REPAIR",
+            "id": "m31/regulated/C6/draw0246",
+            "entry": "m31/regulated/C6/draw0246",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 48,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": false,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "ORDINARY",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "1/shared",
+        "roles": [
+          {
+            "role": "INTEGRATED",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "REPAIR",
+            "id": "m31/regulated/C6/draw0246",
+            "entry": "m31/regulated/C6/draw0246",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 48,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": false,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "ORDINARY",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "1/niche",
+        "roles": [
+          {
+            "role": "INTEGRATED",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "REPAIR",
+            "id": "m31/regulated/C6/draw0246",
+            "entry": "m31/regulated/C6/draw0246",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 48,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": false,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "ORDINARY",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "2/shared",
+        "roles": [
+          {
+            "role": "INTEGRATED",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "REPAIR",
+            "id": "m31/regulated/C6/draw0246",
+            "entry": "m31/regulated/C6/draw0246",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 48,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": false,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "ORDINARY",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "2/niche",
+        "roles": [
+          {
+            "role": "INTEGRATED",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "REPAIR",
+            "id": "m31/regulated/C6/draw0246",
+            "entry": "m31/regulated/C6/draw0246",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 48,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": false,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          },
+          {
+            "role": "ORDINARY",
+            "id": "m28/regulated/pair08/direction0/draw5",
+            "entry": "m28/regulated/pair08/direction0/draw5",
+            "depth": 0,
+            "changed_depth": 0,
+            "controlled_pairs": 0,
+            "controlled_individuals": 0,
+            "raw_ordinary8": 0,
+            "gated_score": 0,
+            "gate": {
+              "a0_disconnection90": true,
+              "a0_nonempty": true,
+              "domain_retention90": false,
+              "passes": false,
+              "positive_mutation_ancestry": false,
+              "zero_false_no_path": true
+            }
+          }
+        ]
+      }
+    ],
+    "development_not_confirmation": true
+  }
+}

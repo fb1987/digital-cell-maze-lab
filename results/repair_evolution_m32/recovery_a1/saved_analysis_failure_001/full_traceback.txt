@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/analyze_m32_saved.py", line 84, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/frankie/Documents/ChatGPT/digital cell/tools/analyze_m32_saved.py", line 71, in main
+    examples.append(dict(case=cid,family=meta['family'],edges=len(meta['path'])-1,partners=[dict(case=x,status=next(r['status'] for r in rr[i] if r['case']==x),optimal=next(r['optimal'] for r in rr[i] if r['case']==x)) for x in partners]))
+                                                                                                               ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

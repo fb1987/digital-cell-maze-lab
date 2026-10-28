@@ -1,0 +1,86 @@
+{
+  "all_generated_rejected_unqueried_orbits_preserved": true,
+  "approved_export_only_A1": true,
+  "disk_free_bytes": 42424786944,
+  "final_layouts": 18146,
+  "immutable_bases_required": true,
+  "initial_layouts": 4016356,
+  "journals": {
+    "final": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 27836416,
+        "path": "runs/repair_evolution_m32/final/backups/completed.sqlite",
+        "sha256": "13d530f01ed5fd1f70b375a8888869706fc6541bf286f09f72788cee7e84585d",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 18146,
+          "settings": 5,
+          "stages": 1,
+          "states": 2,
+          "tasks": 56
+        }
+      },
+      "chain": "ff4afae25ab039b2a5133fb77c0d2c14fe435923cc46d613eb314e962b1d1891",
+      "journal": {
+        "bytes": 27836416,
+        "path": "runs/repair_evolution_m32/final/campaign.sqlite",
+        "sha256": "176d483979d55fd140e2f5b9fa1423d631c261c4143513d510b0c150216485f3"
+      }
+    },
+    "search": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 271908864,
+        "path": "runs/repair_evolution_m32/search/backups/completed.sqlite",
+        "sha256": "59e61fc64c5e8c2b67b7f2baa1cab00b5b280bf40b186607172f5cfef8330eee",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 0,
+          "settings": 5,
+          "stages": 67,
+          "states": 6,
+          "tasks": 11628
+        }
+      },
+      "chain": "a05dac9cbec1b2ce6adb98f5ecf7e2e5421895b778ec8d50182be5adc419e357",
+      "journal": {
+        "bytes": 271908864,
+        "path": "runs/repair_evolution_m32/search/campaign.sqlite",
+        "sha256": "50f1c603a19244ceee7c7f62bb94f05bbcebd87d1d16622ae0d95fc3ffb10d1b"
+      }
+    },
+    "source": {
+      "backup": {
+        "all_tables_match": true,
+        "bytes": 26914816,
+        "path": "runs/repair_evolution_m32/source/backups/completed.sqlite",
+        "sha256": "962a981ee9100fc5ee6a23432bdc86c67dd5594bc9e68514890cd8ccb2e53547",
+        "status": "verified",
+        "table_counts": {
+          "layouts": 19706,
+          "settings": 5,
+          "stages": 1,
+          "states": 2,
+          "tasks": 51
+        }
+      },
+      "chain": "a5e241dae9584574626911d095faaae67f78e0c289828e7c3247f2c4b8844825",
+      "journal": {
+        "bytes": 26914816,
+        "path": "runs/repair_evolution_m32/source/campaign.sqlite",
+        "sha256": "106c065a83c360c76acccee8158d4bcfbbbf026d5d24cd430455abea8b4a300e"
+      }
+    }
+  },
+  "original_failed_journal_and_status_unchanged": true,
+  "source_layouts": 19706,
+  "source_priors": {
+    "files": 457,
+    "local_records": 36,
+    "sha256": "eae84c9f3757b7cf80949d3bb344e88b0f8747abed52d45df9e9ea096252817e"
+  },
+  "status": "verified",
+  "storage_bytes": 1000840447,
+  "whole_layouts": 4054208
+}

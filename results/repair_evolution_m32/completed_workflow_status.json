@@ -1,0 +1,46 @@
+{
+  "ended_epoch": 1792795444.777279,
+  "original_failed_status_preserved": true,
+  "phase": "report_preserve_seal",
+  "pid": 9147,
+  "started_epoch": 1792793473.629706,
+  "state": "audited_ready_for_report",
+  "steps": [
+    {
+      "code": 0,
+      "ended_epoch": 1792793478.121705,
+      "log": "runs/repair_evolution_m32/recovery_a1_export_001.log",
+      "phase": "export"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792793480.017938,
+      "log": "runs/repair_evolution_m32/recovery_a1_freeze_001.log",
+      "phase": "freeze"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792795085.7970262,
+      "log": "runs/repair_evolution_m32/recovery_a1_audit_search_001.log",
+      "phase": "audit_search"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792795262.5015638,
+      "log": "runs/repair_evolution_m32/recovery_a1_final_001.log",
+      "phase": "final"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792795270.9247491,
+      "log": "runs/repair_evolution_m32/recovery_a1_analyze_001.log",
+      "phase": "analyze"
+    },
+    {
+      "code": 0,
+      "ended_epoch": 1792795444.776509,
+      "log": "runs/repair_evolution_m32/recovery_a1_audit_final_001.log",
+      "phase": "audit_final"
+    }
+  ]
+}
